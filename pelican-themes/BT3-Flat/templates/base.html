@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  {% include "_includes/header.html" %}
+</head>
+
+<body>
+
+  {% include "_includes/nav.html" %}
+  <section id="blog">
+    <article class="container">
+
+      <div class="row">
+        <div id="blog_main_area" class="left col-md-9" count={{articles|length}}>
+          {% block content %} {% endblock %}
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+  {% include "_includes/footer.html" %}
+
+</body>
+
+</html>
