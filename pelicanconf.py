@@ -15,6 +15,8 @@ DEFAULT_LANG = u'en'
 
 OUTPUT_PATH = os.path.abspath('../../trunk')
 
+IGNORE_FILES = ['plugins/*','pelican-themes/*']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -40,8 +42,8 @@ SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
           ('GitHub', 'http://github.com/josh146'),
           ('envelope-o', 'mailto:josh@iza.ac'),)
 
-STATIC_PATHS = ['content/images/*', 'content/extras/CNAME']
-EXTRA_PATH_METADATA = {'content/extras/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extras/CNAME']
+EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'},}
 
 DEFAULT_PAGINATION = 10
 
@@ -86,7 +88,7 @@ BOOTSTRAP_THEME = 'united'
 
 if THEME == "pelican-themes/BT3-Flat":
     HEADER_SIZE = "half-screen"
-    BG_IMAGE = "content/images/cover.JPG"
+    BG_IMAGE = "images/cover.JPG"
     BG_IMAGE_TYPE = "halfscreen-img"
     # BG_IMAGE_CAPTION = 
 
