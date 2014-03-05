@@ -187,9 +187,8 @@ section.alternate.arrow-down {
 }
  #home.half-screen {
   background:#f6f6f6;
-  height:100%;
+  height:400px;
   overflow:hidden;
-  margin-top:-600px;
   padding:0;
 }
 #slider .fullscreen-img {
@@ -204,9 +203,10 @@ section.alternate.arrow-down {
 }
 #slider .halfscreen-img {
   background-repeat: no-repeat;
-  background-position: 50% -30%;
-  width: 100%;
-  height: 100%;
+  background-position: 50% 53%;
+  width: 110%;
+  height: 400px;
+  min-height: 0%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -424,6 +424,13 @@ footer a.toTop {
 /** 14. Responsive
  **************************************************************** **/
  @media only screen and (max-width: 768px) {
+  #slider .halfscreen-img {
+    height:400px;
+    width:150%;
+  }
+  #home.half-screen {
+    height:400px;
+  }
   section {
     text-align:center;
   }
@@ -460,6 +467,16 @@ footer a.toTop {
   }
 }
 @media only screen and (max-width: 479px) {
+  #slider .halfscreen-img {
+/*    height:300px;
+    width:150%;*/
+    height:100%;
+    width:100%;
+  }
+  #home.half-screen {
+    /*height:200px;*/
+    height:100%;
+  }
   #home .image-caption h1, #home .image-caption h2 {
     font-size:45px;
     line-height:45px;

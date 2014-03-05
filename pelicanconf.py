@@ -87,9 +87,10 @@ THEME = "pelican-themes/BT3-Flat"
 BOOTSTRAP_THEME = 'united'
 
 if THEME == "pelican-themes/BT3-Flat":
-    HEADER_SIZE = "half-screen"
+    HOME_PAGE_STYLE = 'half'
+    HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
     BG_IMAGE = "images/cover.JPG"
-    BG_IMAGE_TYPE = "halfscreen-img"
+    BG_IMAGE_TYPE = HOME_PAGE_STYLE+"screen-img"
     # BG_IMAGE_CAPTION = 
 
     PERSONAL_INFO = """

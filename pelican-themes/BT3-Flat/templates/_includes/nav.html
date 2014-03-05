@@ -8,22 +8,17 @@
       <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
 
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+      <div class="navbar-left">
         <a class="navbar-brand" href="{{SITEURL}}">
-          <span>{{ SITENAME|e }}&nbsp</span>
+          <span>{{ SITENAME|e }}&nbsp;</span>
         </a>
         {% for group_title, group_link in SOCIAL %}
         <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
         {% endfor %}
       </div>
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-<!--               <div class="col-md-6 text-left">
-                {% for group_title, group_link in SOCIAL %}
-                <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
-                {% endfor %}
-             </div> -->
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="{{SITEURL}}">Home</a></li>
@@ -39,7 +34,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{LINK_MENU_NAME}} <b class="caret"></b></a>
               <ul class="dropdown-menu" style="background-color:#000">
               {% for site_title, site_link in LINKS %}
-                <li style="background-color:#000"><a href="{{site_link}}" target="_blank">{{site_title}}</a></li>
+                <li style="background-color:#000"><a href="{{site_link}}">{{site_title}}</a></li>
               {% endfor %}
               </ul>
             </li>
