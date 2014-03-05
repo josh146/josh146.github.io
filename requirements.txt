@@ -2,3 +2,4 @@ pelican
 pelican_youtube
 beautifulsoup4
 pybtex
+PIL
