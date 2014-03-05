@@ -13,7 +13,7 @@ TIMEZONE = 'Australia/Perth'
 
 DEFAULT_LANG = u'en'
 
-OUTPUT_PATH = os.path.abspath('../../trunk')
+OUTPUT_PATH = 'output' #os.path.abspath('../../trunk')
 
 IGNORE_FILES = ['plugins/*','pelican-themes/*']
 
@@ -103,7 +103,7 @@ if THEME == "pelican-themes/BT3-Flat":
     # PERSONAL_PHOTO = "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/q71/s720x720/1476196_10151782687192131_150386508_n.jpg"
 
     WORK_DESCRIPTION = """
-    
+    Testing Travis deployment
     """
     WORK_PUBLICATIONS = True
 
