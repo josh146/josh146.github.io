@@ -32,7 +32,7 @@ USE_FOLDER_AS_CATEGORY = True
 AUTHORS_SAVE_AS = None
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 #~~~~~~~~~~~~~~~~
 # Feed settings
@@ -49,11 +49,12 @@ TRANSLATION_FEED_ATOM = None
 
 LINK_MENU_NAME = 'More'
 
-if RELATIVE_URLS:
-    LINKS = (('Publications', 'localhost:8000/publications'),
-             ('cv', 'localhost:8000/pdf/cv.pdf'),
-             ('Archive', 'localhost:8000/archives'),)
-else:
+try:
+    if RELATIVE_URLS:
+        LINKS = (('Publications', 'localhost:8000/publications'),
+                 ('cv', 'localhost:8000/pdf/cv.pdf'),
+                 ('Archive', 'localhost:8000/archives'),)
+except:
     LINKS = (('Publications', SITEURL+'/publications'),
              ('cv', SITEURL+'/pdf/cv.pdf'),
              ('Archive', SITEURL+'/archives'),)

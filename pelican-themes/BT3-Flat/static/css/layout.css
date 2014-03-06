@@ -487,14 +487,33 @@ html, body {
     -moz-border-radius:8px;
     border-radius:8px;
   }
-  footer .copyright {
+/*  footer .copyright {
     padding-top:30px;
     padding-bottom:30px;
-  }
+  }*/
   footer div.text-right, footer {
     text-align:center;
     !important;
   }
+
+  footer {
+    height: 60px;
+  }
+
+  footer .copyright {
+    padding-top:10px;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+  }
+  .push {
+    height: 60px;
+  }
+
 }
 @media only screen and (max-width: 479px) {
   #slider .halfscreen-img {
