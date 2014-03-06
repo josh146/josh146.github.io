@@ -3,3 +3,4 @@ pelican_youtube
 beautifulsoup4
 pybtex
 Pillow
+pelican-minify

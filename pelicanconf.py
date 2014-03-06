@@ -13,9 +13,9 @@ TIMEZONE = 'Australia/Perth'
 
 DEFAULT_LANG = u'en'
 
-OUTPUT_PATH = 'output' #os.path.abspath('../../trunk')
+OUTPUT_PATH = 'output'  # os.path.abspath('../../trunk')
 
-IGNORE_FILES = ['plugins/*','pelican-themes/*']
+IGNORE_FILES = ['plugins/*', 'pelican-themes/*']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,9 +24,9 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINK_MENU_NAME = 'More'
-LINKS =  (  ('Publications','publications'),
-            ('cv', 'cv'),
-            ('Archive', 'archives'),)
+LINKS = (('Publications', 'publications'),
+         ('cv', 'pdf/cv.pdf'),
+         ('Archive', 'archives'),)
 
 MENUITEMS = (
     # ('About', '/about'),
@@ -42,8 +42,8 @@ SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
           ('GitHub', 'http://github.com/josh146'),
           ('envelope-o', 'mailto:josh@iza.ac'),)
 
-STATIC_PATHS = ['images', 'extras/CNAME']
-EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extras/CNAME', 'pdf']
+EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'}, }
 
 DEFAULT_PAGINATION = 10
 
@@ -66,12 +66,15 @@ CATEGORY_SAVE_AS = "category/{slug}/index.html"
 TAG_URL = "tag/{slug}/"
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
 PLUGIN_PATH = 'plugins'
-PLUGINS = ['render_math', 'neighbors', 'summary','googleplus_comments',
-            'pelican_youtube','better_figures_and_images','pelican-bibtex']
+PLUGINS = ['render_math',
+           'neighbors',
+           'summary',
+           'googleplus_comments',
+           'pelican_youtube',
+           'better_figures_and_images',
+           'pelican-bibtex',
+           'minify']
 
 GPLUS_COMMENTS = True
 PUBLICATIONS_SRC = 'content/extras/pubs.bib'
@@ -91,28 +94,57 @@ if THEME == "pelican-themes/BT3-Flat":
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
     BG_IMAGE = "images/cover.JPG"
     BG_IMAGE_TYPE = HOME_PAGE_STYLE+"screen-img"
-    # BG_IMAGE_CAPTION = 
+    # BG_IMAGE_CAPTION = '+JOSH'
+
+    personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
+                     'http://uwa.edu.au']
 
     PERSONAL_INFO = """
-    I am a PhD student in the 
-    <a href=http://www.physics.uwa.edu.au/research/quantum-dynamics-computation>Quantum Dynamics and Computation</a>
-    research group at the <a href=http://uwa.edu.au>University of Western Australia</a>, currently researching continuous-time
-    quantum walks and potential biological models.
-    """
+    I am a PhD student in the <a href={0}>Quantum Dynamics and Computation</a> 
+    research group at the <a href={1}>University of Western Australia</a>, 
+    currently researching continuous-time quantum walks and potential biological models.
+    """.format(*personalLinks)
 
     # PERSONAL_PHOTO = "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/q71/s720x720/1476196_10151782687192131_150386508_n.jpg"
 
+    workLinks = ['http://www.ivec.org',
+                 'http://pyctqw.readthedocs.org']
+
     WORK_DESCRIPTION = """
-    Testing Travis deployment
-    """
+    My current research interests mainly lie in the characterisation and applications of quantum walks, 
+    with specific focus on quantum simulation of complex biochemical systems such as photosynthesis 
+    and electron transport in functional nano-materials.<br><br>
+
+    A major part of my research involves numerical simulation on high performance supercomputing 
+    clusters (mainly using the <a href={0}>iVEC</a> supercomputing facility in Western Australia), 
+    working mostly with Fortran and Python. In order to streamline my workflow, I developed an efficient 
+    parallel framework for simulating continuous-time quantum walks, <a href={1}>pyCTQW</a>, with the 
+    source code available on my GitHub page. Other tools I find useful for my work include iPython, 
+    matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
+
+    Outside of research, I am also employed as a tutor andlab demonstrator for third year 
+    computational physics PHYS3011 at UWA.
+    """.format(*workLinks)
+
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                'http://www.oneperth.com.au/wp-content/uploads/2010/08/UWA.jpg',
-                'PhD Student',
-                'Student',
-                'http://uwa.edu.au']]
+                'http://stuff.costela.net/silly_walk.svg',
+                'pyCTQW',
+                'Distributed memory continuous-time quantum walk framework',
+                'http://pyctqw.readthedocs.org'],
+                ['link',
+                'images/thesis.png',
+                'Honours Thesis',
+                'Continuous-time Quantum Walks: Disorder, Resonance and Interactions',
+                'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
+
+    SHOW_RECENT_BLOGS = False
 
     POST_LIMIT = 5
     # TEMPLATE_PAGES = {  'templates/blog.html': 'blog.html'}
-    DIRECT_TEMPLATES = ('index', 'archives','publications', 'blog')
+    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog')
+
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
