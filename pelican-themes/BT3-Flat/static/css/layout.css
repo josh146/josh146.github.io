@@ -23,9 +23,11 @@
 /** 01. Globals
  **************************************************************** **/
  html, body {
-  overflow-x:hidden;
-  overflow-x:hidden;
+/*  overflow-x:hidden;
+  overflow-x:hidden;*/
+  height: 100%;
 }
+
 .container {
   position:relative;
 }
@@ -371,14 +373,12 @@ footer a.toTop {
   border-top-left-radius: 9px;
 }
 
-html, body {
-  height: 100%;
-}
 .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -50px;
+  min-height: 100%;
 }
 .push {
   height: 50px;

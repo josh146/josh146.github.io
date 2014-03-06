@@ -51,9 +51,9 @@ LINK_MENU_NAME = 'More'
 
 try:
     if RELATIVE_URLS:
-        LINKS = (('Publications', 'localhost:8000/publications'),
-                 ('cv', 'localhost:8000/pdf/cv.pdf'),
-                 ('Archive', 'localhost:8000/archives'),)
+        LINKS = (('Publications', 'http://127.0.0.1:8000/publications'),
+                 ('cv', 'http://127.0.0.1:8000/pdf/cv.pdf'),
+                 ('Archive', 'http://127.0.0.1:8000/archives'),)
 except:
     LINKS = (('Publications', SITEURL+'/publications'),
              ('cv', SITEURL+'/pdf/cv.pdf'),
