@@ -32,7 +32,7 @@ USE_FOLDER_AS_CATEGORY = True
 AUTHORS_SAVE_AS = None
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 #~~~~~~~~~~~~~~~~
 # Feed settings
