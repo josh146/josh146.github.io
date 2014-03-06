@@ -14,6 +14,8 @@ SITEURL = 'http://iza.ac'
 EMAIL_ADDR = 'josh at iza dot ac'
 COPYRIGHT = 'Copyright Josh Izaac, 2014'
 
+DISQUS_SITENAME = 'izaac'
+
 TIMEZONE = 'Australia/Perth'
 
 DEFAULT_LANG = u'en'
