@@ -16,6 +16,8 @@ logger = logging.getLogger(__name__)
 
 from pelican import signals
 
+import scholar
+
 __version__ = '0.2'
 
 
@@ -81,14 +83,27 @@ def add_publications(generator):
         Writer().write_stream(bibdata_this, bib_buf)
         text = formatted_entry.text.render(html_backend)
 
-        publications.append((key,
-                             year,
-                             text,
-                             bib_buf.getvalue(),
-                             pdf,
-                             slides,
-                             poster,
-                             url))
+        try:
+            google_scholar_data = scholar.listq(text,'',0)
+            citations = google_scholar_data['num_citations']
+            publications.append((key,
+                                 year,
+                                 text,
+                                 bib_buf.getvalue(),
+                                 pdf,
+                                 slides,
+                                 poster,
+                                 url,
+                                 citations))
+        except:
+            publications.append((key,
+                                 year,
+                                 text,
+                                 bib_buf.getvalue(),
+                                 pdf,
+                                 slides,
+                                 poster,
+                                 url))
 
     generator.context['publications'] = publications
 
