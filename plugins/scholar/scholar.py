@@ -402,7 +402,7 @@ def dictq(query, author, count):
     if count > 0:
         articles = articles[:count]
     for art in articles:
-        return art.as_list()
+        return art.as_dict()
 
 def csv(query, author, count, header=False, sep='|'):
     querier = ScholarQuerier(author=author, count=count)
