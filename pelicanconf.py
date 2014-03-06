@@ -3,11 +3,16 @@
 from __future__ import unicode_literals
 import os
 
+#~~~~~~~~~~~~~~~~
+## Main Settings
+#~~~~~~~~~~~~~~~~
+
 AUTHOR = u'Josh Izaac'
 SITENAME = u'+josh'
 SITESUBTITLE = u'iza.ac'
 SITEURL = 'http://iza.ac'
 EMAIL_ADDR = 'josh at iza dot ac'
+COPYRIGHT = 'Copyright Josh Izaac, 2014'
 
 TIMEZONE = 'Australia/Perth'
 
@@ -17,16 +22,41 @@ OUTPUT_PATH = 'output'  # os.path.abspath('../../trunk')
 
 IGNORE_FILES = ['plugins/*', 'pelican-themes/*']
 
+DEFAULT_PAGINATION = 10
+
+# Formatting for dates
+DEFAULT_DATE_FORMAT = ('%a %d %B %Y')
+DEFAULT_DATE = 'fs'
+
+USE_FOLDER_AS_CATEGORY = True
+AUTHORS_SAVE_AS = None
+
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+
+#~~~~~~~~~~~~~~~~
+# Feed settings
+#~~~~~~~~~~~~~~~~
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-# Blogroll
+#~~~~~~~~~~~~~~~~
+# Navbar settings
+#~~~~~~~~~~~~~~~~
+
 LINK_MENU_NAME = 'More'
-LINKS = (('Publications', 'publications'),
-         ('cv', 'pdf/cv.pdf'),
-         ('Archive', 'archives'),)
+
+if RELATIVE_URLS:
+    LINKS = (('Publications', 'localhost:8000/publications'),
+             ('cv', 'localhost:8000/pdf/cv.pdf'),
+             ('Archive', 'localhost:8000/archives'),)
+else:
+    LINKS = (('Publications', SITEURL+'/publications'),
+             ('cv', SITEURL+'/pdf/cv.pdf'),
+             ('Archive', SITEURL+'/archives'),)
 
 MENUITEMS = (
     # ('About', '/about'),
@@ -36,22 +66,22 @@ MENUITEMS = (
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
+GITHUB_URL = 'http://github.com/josh146'
+
 # Social widget
 SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
           ('Google-Plus', 'http://plus.google.com/+JoshIzaac'),
           ('GitHub', 'http://github.com/josh146'),
           ('envelope-o', 'mailto:josh@iza.ac'),)
 
+# SOCIALFOOTER = (('GitHub', 'http://github.com/josh146'),)
+
+#~~~~~~~~~~~~~~~~
+# Paths and URLS
+#~~~~~~~~~~~~~~~~
+
 STATIC_PATHS = ['images', 'extras/CNAME', 'pdf']
 EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'}, }
-
-DEFAULT_PAGINATION = 10
-
-COPYRIGHT = 'Copyright Josh Izaac, 2014'
-
-# Formatting for dates
-
-DEFAULT_DATE_FORMAT = ('%a %d %B %Y')
 
 # Formatting for urls
 PAGE_URL = "{slug}"
@@ -66,6 +96,11 @@ CATEGORY_SAVE_AS = "category/{slug}/index.html"
 TAG_URL = "tag/{slug}/"
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
+
+#~~~~~~~~~~~~~~~~
+# Plugins
+#~~~~~~~~~~~~~~~~
+
 PLUGIN_PATH = 'plugins'
 PLUGINS = ['render_math',
            'neighbors',
@@ -77,7 +112,16 @@ PLUGINS = ['render_math',
            'minify']
 
 GPLUS_COMMENTS = True
+
+#~~~~~~~~~~~~~~~~
+# Pelican-Bibtex
+#~~~~~~~~~~~~~~~~
+
 PUBLICATIONS_SRC = 'content/extras/pubs.bib'
+
+#~~~~~~~~~~~~~~~~
+# Theme settings
+#~~~~~~~~~~~~~~~~
 
 # THEME = "pelican-themes/gum"
 # THEME = "pelican-themes/notmyidea-cms"
@@ -94,7 +138,11 @@ if THEME == "pelican-themes/BT3-Flat":
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
     BG_IMAGE = "images/cover.JPG"
     BG_IMAGE_TYPE = HOME_PAGE_STYLE+"screen-img"
-    # BG_IMAGE_CAPTION = '+JOSH'
+    BG_IMAGE_CAPTION = """
+        <a href="#about" class="icon-block scrollTo">
+            about&nbsp;<i class="fa fa-chevron-circle-down"></i>
+        </a>
+        """
 
     personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
                      'http://uwa.edu.au']
@@ -111,7 +159,7 @@ if THEME == "pelican-themes/BT3-Flat":
                  'http://pyctqw.readthedocs.org']
 
     WORK_DESCRIPTION = """
-    My current research interests mainly lie in the characterisation and applications of quantum walks, 
+    <p align=left> My current research interests mainly lie in the characterisation and applications of quantum walks, 
     with specific focus on quantum simulation of complex biochemical systems such as photosynthesis 
     and electron transport in functional nano-materials.<br><br>
 
@@ -122,8 +170,8 @@ if THEME == "pelican-themes/BT3-Flat":
     source code available on my GitHub page. Other tools I find useful for my work include iPython, 
     matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
 
-    Outside of research, I am also employed as a tutor andlab demonstrator for third year 
-    computational physics PHYS3011 at UWA.
+    Outside of research, I am also employed as a tutor and lab demonstrator for third year 
+    computational physics PHYS3011 at UWA.</p>
     """.format(*workLinks)
 
     WORK_PUBLICATIONS = True
@@ -143,8 +191,6 @@ if THEME == "pelican-themes/BT3-Flat":
 
     POST_LIMIT = 5
     # TEMPLATE_PAGES = {  'templates/blog.html': 'blog.html'}
-    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog')
+    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories')
 
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True

@@ -2,7 +2,7 @@ Hello world!
 ##############
 
 :date: 2014-03-05
-:tags: helloworld, blog, first
+:tags: helloworld, blog, first, first
 :category: Testing
 :author: Josh Izaac
 

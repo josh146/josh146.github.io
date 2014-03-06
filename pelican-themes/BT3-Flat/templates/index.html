@@ -1,13 +1,36 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-      <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-    });
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
     </script>
+
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
+
+    <script type="text/javascript">
+
+      function window_onload() {
+        window.addEventListener("scroll",navbar_reset_top,false);
+      }
+
+      var navbar_top=100;
+
+      function navbar_reset_top() {
+        var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+        if(scrollTop>navbar_top&&header.className==="relative") {
+          document.getElementById("header").className="fixed";
+        }
+        else if(scrollTop<navbar_top&&header.className==="fixed") {
+          document.getElementById("header").className="relative";
+        }
+      }
+
+    </script>
+
     {% include "_includes/header.html" %}
   </head>
 
@@ -27,7 +50,7 @@
             <div class="image-caption">
               <hr /><hr />
               <div class="inner">
-                <h2 class="bigtext strtoupper nomargin">{{ SITENAME|e }}</h2>
+                <h2 class="bigtext strtoupper nomargin">{{ BG_IMAGE_CAPTION }}</h2>
               </div>
               <hr /><hr />
             </div>
@@ -46,7 +69,7 @@
 
 
     <!-- Main Nav -->
-    <header id="header">
+    <header id="header" class="relative">
 
       <nav class="navbar navbar-inverse" role="navigation">
         <div class="container">
@@ -186,12 +209,12 @@
         <br>
             <ol>
             {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-            <li id="{{ key }}">{{ text }}
+            <li id="{{ key }}"><p align=left>{{ text }}
             [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
             {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
             {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
             {% endfor %}
-            </li>
+            </p></li>
             {% endfor %}
             </ol>
         </article>

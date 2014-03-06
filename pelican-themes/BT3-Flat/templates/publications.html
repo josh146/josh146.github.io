@@ -19,7 +19,7 @@
     <br>
     <ol>
     {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-    <li id="{{ key }}">{{ text }}
+    <li id="{{ key }}"><p>{{ text }}
     [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
     {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
     {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
@@ -27,7 +27,7 @@
     {% if citations %}
     &nbsp;[cited by {{citations}}]
     {% endif %}
-    </li>
+    </p></li>
     {% endfor %}
     </ol>
 <!-- </section> -->

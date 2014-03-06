@@ -103,6 +103,35 @@
 .container a.label, span.label {
   font-weight: 400;
 }
+/*Tag Cloud*/
+ul.tagcloud {
+  list-style: none;
+    padding: 0;
+}
+
+ul.tagcloud li {
+    display: inline-block;
+}
+
+li.tag-1 {
+    font-size: 150%;
+}
+
+li.tag-2 {
+    font-size: 120%;
+}
+
+li.tag-3 {
+    font-size: 90%;
+}
+
+li.tag-4 {
+    font-size: 60%;
+}
+
+/*li.tag-5 {
+    font-size: 30%;
+}*/
 /** Responsive
  **************************************************************** **/
  @media only screen and (max-width: 768px) {
@@ -112,3 +141,4 @@
     margin-bottom:100px;
   }
 }
+
