@@ -140,8 +140,16 @@ section.alternate.arrow-down {
   line-height:60px;
   font-size:25px;
   font-weight:400;
+  text-transform:none;
+  padding-left:0px;
+  padding-top:16px;
+}
+#header a.navbar-brand h1{
+  font-weight:400;
+  font-size:100%;
+  line-height:95%;
+  color:#fff;
   text-transform:uppercase;
-  padding-left:15px;
 }
 #header a.navbar-brand img {
   margin:0;

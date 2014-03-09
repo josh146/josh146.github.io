@@ -39,11 +39,15 @@ AUTHORS_SAVE_AS = None
 #~~~~~~~~~~~~~~~~
 # Feed settings
 #~~~~~~~~~~~~~~~~
+FEED_DOMAIN = SITEURL
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+FEED_RSS = 'rss.xml'
+CATEGORY_FEED_RSS = '%s/rss.xml'
 
 #~~~~~~~~~~~~~~~~
 # Navbar settings
@@ -55,11 +59,13 @@ try:
     if RELATIVE_URLS:
         LINKS = (('Publications', 'http://127.0.0.1:8000/publications'),
                  ('cv', 'http://127.0.0.1:8000/pdf/cv.pdf'),
-                 ('Archive', 'http://127.0.0.1:8000/archives'),)
+                 ('Archive', 'http://127.0.0.1:8000/archives'),
+                 ('Feed', 'http://127.0.0.1:8000/rss.xml'),)
 except:
     LINKS = (('Publications', SITEURL+'/publications'),
              ('cv', SITEURL+'/pdf/cv.pdf'),
-             ('Archive', SITEURL+'/archives'),)
+             ('Archive', SITEURL+'/archives'),
+             ('Feed', SITEURL+'/rss.xml'),)
 
 MENUITEMS = (
     # ('About', '/about'),
@@ -75,7 +81,8 @@ GITHUB_URL = 'http://github.com/josh146'
 SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
           ('Google-Plus', 'http://plus.google.com/+JoshIzaac'),
           ('GitHub', 'http://github.com/josh146'),
-          ('envelope-o', 'mailto:josh@iza.ac'),)
+          ('envelope-o', 'mailto:josh@iza.ac'),
+          ('rss', SITEURL+'/rss.xml'),)
 
 # SOCIALFOOTER = (('GitHub', 'http://github.com/josh146'),)
 
