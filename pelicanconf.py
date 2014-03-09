@@ -156,6 +156,21 @@ if THEME == "pelican-themes/BT3-Flat":
     currently researching continuous-time quantum walks and potential biological models.
     """.format(*personalLinks)
 
+    # PERSONAL_INFO_SEC1_TITLE = "Stuff"
+    # PERSONAL_INFO_SEC1 = """
+    # Some more stuff
+    # """
+
+    # PERSONAL_INFO_SEC2_TITLE = "Stuff2"
+    # PERSONAL_INFO_SEC2 = """
+    # Some more stuff
+    # """
+
+    # PERSONAL_INFO_SEC3_TITLE = "Stuff3"
+    # PERSONAL_INFO_SEC3 = """
+    # Some more stuff
+    # """
+
     # PERSONAL_PHOTO = "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/q71/s720x720/1476196_10151782687192131_150386508_n.jpg"
 
     workLinks = ['http://www.ivec.org',
@@ -180,14 +195,14 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                'http://stuff.costela.net/silly_walk.svg',
+                'http://pyctqw.readthedocs.org/en/latest/_images/1p_3cayley_graph.png',
                 'pyCTQW',
                 'Distributed memory continuous-time quantum walk framework',
                 'http://pyctqw.readthedocs.org'],
                 ['link',
-                'images/thesis.png',
+                'images/thesis2.png',
                 'Honours Thesis',
-                'Continuous-time Quantum Walks: Disorder, Resonance and Interactions',
+                'Continuous-time Quantum Walks:<br> Disorder, Resonance and Interactions',
                 'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
 
     SHOW_RECENT_BLOGS = False

@@ -144,31 +144,34 @@
           </div>
         {% endif %}
 
-        <!-- <article>
-          <div class="row text-left"> -->
+        <article>
+          <div class="row text-left">
 
-            <!-- Passion -->
-           <!--  <div class="col-md-4">
-              <h3>Passion</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
-            </div> -->
-
-
-            <!-- Precision -->
-            <!-- <div class="col-md-4">
-              <h3>Precision</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
-            </div> -->
+            {% if PERSONAL_INFO_SEC1 %}
+            <div class="col-md-4">
+              <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
+              <p>{{PERSONAL_INFO_SEC1}}</p>
+            </div>
+            {% endif %}
 
 
-            <!-- Simplicity -->
-            <!-- <div class="col-md-4">
-              <h3>Simplicity</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis.</p>
-            </div> -->
+            {% if PERSONAL_INFO_SEC2 %}
+            <div class="col-md-4">
+              <h3>{{PERSONAL_INFO_SEC2_TITLE}}</h3>
+              <p>{{PERSONAL_INFO_SEC2}}</p>
+            </div>
+            {% endif %}
 
-          <!-- </div>
-        </article> -->
+
+            {% if PERSONAL_INFO_SEC3 %}
+            <div class="col-md-4">
+              <h3>{{PERSONAL_INFO_SEC3_TITLE}}</h3>
+              <p>{{PERSONAL_INFO_SEC3}}</p>
+            </div>
+            {% endif %}
+
+          </div>
+        </article>
 
       </div>
     </section>
@@ -234,7 +237,7 @@
                 {% if work_type == 'link' %}
                   <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
                     <a class="external" href="{{work_link}}" target="_blank">
-                      <img src="{{work_cover_link}}" class="img-responsive" alt="img" />
+                      <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
                       <div class="caption">
                         <i class="rounded fa fa-link"></i>
                         <h3>{{work_title}}</h3>
@@ -244,82 +247,6 @@
                   </li>
                 {% endif %}
               {% endfor %}
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 image">
-                <a class="popup-image" href="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p1.jpg">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p1.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-camera"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>Image Popup</p>
-                  </div>
-                </a>
-              </li> -->
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 video">
-                <a class="popup-video" href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p2.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-film"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>Youtube Videofdafdsf
-                    fadsfaf
-                    fasdfadsfa
-                    fasdfadf
-                    afadsfa</p>
-                  </div>
-                </a>
-              </li> -->
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 video brand">
-                <a class="popup-video" href="http://vimeo.com/23630702">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p3.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-film"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>Vimeo Video</p>
-                  </div>
-                </a>
-              </li> -->
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 brand">
-                <a class="external ajax-project" href="project-external-1.html">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p4.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-link"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>External Project 1</p>
-                  </div>
-                </a>
-              </li> -->
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 brand">
-                <a class="external ajax-project" href="project-external-2.html">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p5.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-link"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>External Project 2</p>
-                  </div>
-                </a>
-              </li> -->
-
-              <!-- item -->
-              <!-- <li class="isotope-item col-sm-6 col-md-4 brand">
-                <a class="external ajax-project" href="project-external-3.html">
-                  <img src="http://stepofweb.gweb.io/.templates/IsisOne/HTML/assets/images/preview/content/portfolio/p6.jpg" class="img-responsive" alt="img" />
-                  <div class="caption">
-                    <i class="rounded fa fa-link"></i>
-                    <h3>PROJECT TITLE</h3>
-                    <p>External Project 3</p>
-                  </div>
-                </a>
-              </li> -->
 
             </ul>
           </div>
