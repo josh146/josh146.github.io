@@ -1,24 +1,26 @@
 <!-- Main Nav -->
 <header id="header" style="margin-top:0" class="fixed">
 
-  <nav class="navbar navbar-inverse" role="navigation">
+  <nav class="navbar navbar-inverse" role="navigation" id="slide-nav">
     <div class="container">
 
-      <!-- Mobile Menu Button -->
-      <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
-
-      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-left">
-        <a class="navbar-brand" href="{{SITEURL}}">
+        <a class="navbar-toggle"> 
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        <a class="navbar-brand">
           <h1>{{ SITENAME|e }}&nbsp;</h1>
         </a>
+         </a>
         {% for group_title, group_link in SOCIAL %}
-        <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+          <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
         {% endfor %}
       </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div id="slidemenu" ng-controller="HeaderController">
 
         <ul class="nav navbar-nav navbar-right">
           <li><a href="{{SITEURL}}">Home</a></li>
@@ -26,7 +28,7 @@
           <li><a href="{{SITEURL}}/index.html#work">Work</a></li>
             {% if MENUITEMS %}
                 {% for title, link in MENUITEMS %}
-                  <li><a href="{{link}}">{{title}}</a></li>
+                  <li ng-class="{ active: isActive('{{link}}')}"><a href="{{link}}">{{title}}</a></li>
                 {% endfor %}
               {% endif %}
           {% if LINKS %}
@@ -41,6 +43,7 @@
           {% endif %}
         </ul>
       </div>
+      <div ng-view></div>
       <!-- /.navbar-collapse -->
 
     </div>

@@ -1,30 +1,32 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" ng-app>
 
 <head>
   {% include "_includes/header.html" %}
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
   {% include "_includes/nav.html" %}
   
-  <div class="wrapper">
-  <section id="blog">
-    <article class="container">
+  <div id="page-content">
+    <div class="wrapper">
+      <section id="blog">
+        <article class="container">
 
-      <div class="row">
-        <div id="blog_main_area" class="left col-md-9" count={{articles|length}}>
-          {% block content %} {% endblock %}
-        </div>
-      </div>
+          <div class="row">
+            <div id="blog_main_area" class="left col-md-9" count={{articles|length}}>
+              {% block content %} {% endblock %}
+            </div>
+          </div>
 
-    </article>
-  </section>
+        </article>
+      </section>
 
- <div class="push"></div>
- </div>
+      <div class="push"></div>
+    </div>
 
-  {% include "_includes/footer.html" %}
+    {% include "_includes/footer.html" %}
+  </div>
 </body>
 
 </html>

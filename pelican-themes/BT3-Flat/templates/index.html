@@ -34,69 +34,68 @@
     {% include "_includes/header.html" %}
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
 
-    <!-- HOME -->
-    <section id="home" class="{{HEADER_SIZE}}"><!-- full-screen or half-screen (550px height) -->
+    <div id="head-content">
+      <!-- HOME -->
+      <section id="home" class="{{HEADER_SIZE}}"><!-- full-screen or half-screen (550px height) -->
 
-    {% if BG_IMAGE %}
-      <div id="slider">
+        {% if BG_IMAGE %}
+          <div id="slider">
 
-        <ul class="slides-container">
+            <ul class="slides-container">
+              <li>
+                {% if BG_IMAGE_CAPTION %}
+                  <div class="image-caption">
+                    <hr /><hr />
+                    <div class="inner">
+                      <h2 class="bigtext strtoupper nomargin">{{ BG_IMAGE_CAPTION }}</h2>
+                    </div>
+                    <hr /><hr />
+                  </div>
+                {% endif %}
+                <span class="overlay"></span>
+                <div style="background-image: url('{{BG_IMAGE}}');" class="{{BG_IMAGE_TYPE}}"></div>
+              </li>
+            </ul>
+          </div>
+        {% endif %}
 
-          <!-- Item 1 -->
-          <li>
-    {% if BG_IMAGE_CAPTION %}
-            <div class="image-caption">
-              <hr /><hr />
-              <div class="inner">
-                <h2 class="bigtext strtoupper nomargin">{{ BG_IMAGE_CAPTION }}</h2>
-              </div>
-              <hr /><hr />
-            </div>
-    {% endif %}
-            <span class="overlay"></span>
-            <div style="background-image: url('{{BG_IMAGE}}');" class="{{BG_IMAGE_TYPE}}"></div>
-            
-          </li>
-        </ul>
-
-      </div>
-    {% endif %}
-
-    </section>
-    <!-- /HOME -->
-
+      </section>
+      <!-- /HOME -->
+    </div>
 
     <!-- Main Nav -->
     <header id="header" class="relative">
 
-      <nav class="navbar navbar-inverse" role="navigation">
+      <nav class="navbar navbar-inverse" role="navigation" id="slide-nav">
         <div class="container">
 
-          <!-- Mobile Menu Button -->
-          <button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".navbar-collapse"></button>
-
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-left">
-          <a class="navbar-brand" href="{{SITEURL}}">
-            <h1>{{ SITENAME|e }}&nbsp;</h1>
-          </a>
-          {% for group_title, group_link in SOCIAL %}
-          <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
-          {% endfor %}
-       </div>
+          <div class="navbar-left">
+            <a class="navbar-toggle"> 
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            <a class="navbar-brand">
+              <h1>{{ SITENAME|e }}&nbsp;</h1>
+            </a>
+             </a>
+            {% for group_title, group_link in SOCIAL %}
+              <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+            {% endfor %}
+          </div>
           
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div id="slidemenu">
 
             <!-- Fullscreen Button - Unavailable for IE -->
             <!-- <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a> -->
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home" class="scrollTo">Home</a></li>
-              <li><a href="#about" class="scrollTo">About</a></li>
-              <li><a href="#work" class="scrollTo">Work</a></li>
+              <li class="active"><a href="#home" class="scrollTo" id="scroll-home">Home</a></li>
+              <li><a href="#about" class="scrollTo" id="scroll-about">About</a></li>
+              <li><a href="#work" class="scrollTo" id="scroll-work">Work</a></li>
               {% if MENUITEMS %}
                 {% for title, link in MENUITEMS %}
                   <li><a href="{{link}}">{{title}}</a></li>
@@ -121,197 +120,199 @@
     </header>
     <!-- /Main Nav -->
 
-    <!-- ABOUT -->
-    <section id="about">
-      <div class="container">
-        <header class="text-center">
-          <h1>ABOUT ME</h1>
-        </header>
+    <div id="page-content">
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container">
+          <header class="text-center">
+            <h1>ABOUT ME</h1>
+          </header>
 
-        <div class="divider"><!-- lines divider --></div>
+          <div class="divider"><!-- lines divider --></div>
 
-        {% if PERSONAL_INFO %}
-          <article class="text-center big-paragraph">
-            <p>{{PERSONAL_INFO}}</p>
+          {% if PERSONAL_INFO %}
+            <article class="text-center big-paragraph">
+              <p>{{PERSONAL_INFO}}</p>
+            </article>
+          {% endif %}
+
+          {% if PERSONAL_PHOTO %}
+            <div class="me-picture text-center">
+              <div class="item">
+                <img class="img-responsive" src="{{PERSONAL_PHOTO}}" width="200" height="200" alt="" />
+              </div><hr />
+            </div>
+          {% endif %}
+
+          <article>
+            <div class="row text-left">
+
+              {% if PERSONAL_INFO_SEC1 %}
+              <div class="col-md-4">
+                <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
+                <p>{{PERSONAL_INFO_SEC1}}</p>
+              </div>
+              {% endif %}
+
+
+              {% if PERSONAL_INFO_SEC2 %}
+              <div class="col-md-4">
+                <h3>{{PERSONAL_INFO_SEC2_TITLE}}</h3>
+                <p>{{PERSONAL_INFO_SEC2}}</p>
+              </div>
+              {% endif %}
+
+
+              {% if PERSONAL_INFO_SEC3 %}
+              <div class="col-md-4">
+                <h3>{{PERSONAL_INFO_SEC3_TITLE}}</h3>
+                <p>{{PERSONAL_INFO_SEC3}}</p>
+              </div>
+              {% endif %}
+
+            </div>
           </article>
-        {% endif %}
-
-        {% if PERSONAL_PHOTO %}
-          <div class="me-picture text-center">
-            <div class="item">
-              <img class="img-responsive" src="{{PERSONAL_PHOTO}}" width="200" height="200" alt="" />
-            </div><hr />
-          </div>
-        {% endif %}
-
-        <article>
-          <div class="row text-left">
-
-            {% if PERSONAL_INFO_SEC1 %}
-            <div class="col-md-4">
-              <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
-              <p>{{PERSONAL_INFO_SEC1}}</p>
-            </div>
-            {% endif %}
-
-
-            {% if PERSONAL_INFO_SEC2 %}
-            <div class="col-md-4">
-              <h3>{{PERSONAL_INFO_SEC2_TITLE}}</h3>
-              <p>{{PERSONAL_INFO_SEC2}}</p>
-            </div>
-            {% endif %}
-
-
-            {% if PERSONAL_INFO_SEC3 %}
-            <div class="col-md-4">
-              <h3>{{PERSONAL_INFO_SEC3_TITLE}}</h3>
-              <p>{{PERSONAL_INFO_SEC3}}</p>
-            </div>
-            {% endif %}
-
-          </div>
-        </article>
-
-      </div>
-    </section>
-    <!-- /ABOUT -->
-
-    <!-- WORK -->
-    <section id="work" class="alternate arrow-down">
-      <div class="container">
-        <header class="text-center">
-          <h1>MY WORK</h1>
-        </header>
-
-        <div class="divider"><!-- lines divider --></div>
-
-        {% if WORK_DESCRIPTION %}
-        <article>
-            {{WORK_DESCRIPTION}}
-        </article>
-        {% endif %}
-
-      {% if WORK_PUBLICATIONS %}
-      <article>
-        <script type="text/javascript">
-            function disp(s) {
-                var win;
-                var doc;
-                win = window.open("", "WINDOWID");
-                doc = win.document;
-                doc.open("text/plain");
-                doc.write("<pre>" + s + "</pre>");
-                doc.close();
-            }
-        </script>
-            <h1 class="entry-title" align=left>Publications</h1>
-            <I><h3 align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ>google citations</a></h3></I>
-        <br>
-            <ol>
-            {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-            <li id="{{ key }}"><p align=left>{{ text }}
-            [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
-            {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
-            {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
-            {% endfor %}
-            </p></li>
-            {% endfor %}
-            </ol>
-        </article>
-        {% endif %}
-        <br>
-
-        {% if WORK_LIST %}
-        <div id="portfolio" class="text-center animate_fade_in">
-          <h1 class="entry-title" align=left>Portfolio</h1>
-          <br>
-
-          <div class="row">
-
-            <ul class="sort-destination isotope" data-sort-id="isotope-list">
-
-              {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
-                {% if work_type == 'link' %}
-                  <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
-                    <a class="external" href="{{work_link}}" target="_blank">
-                      <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
-                      <div class="caption">
-                        <i class="rounded fa fa-link"></i>
-                        <h3>{{work_title}}</h3>
-                        <p>{{work_description}}</p>
-                      </div>
-                    </a>
-                  </li>
-                {% endif %}
-              {% endfor %}
-
-            </ul>
-          </div>
 
         </div>
-        {% endif %}
+      </section>
+      <!-- /ABOUT -->
 
-      
-      </div>
-    </section>
-    <!-- /WORK -->
+      <!-- WORK -->
+      <section id="work" class="alternate arrow-down">
+        <div class="container">
+          <header class="text-center">
+            <h1>MY WORK</h1>
+          </header>
 
-    {% if SHOW_RECENT_BLOGS %}
-    <!-- BLOG -->
-    <section id="quick-blog" class="alternate">
-      <div class="container">
+          <div class="divider"><!-- lines divider --></div>
 
-        <header class="text-center">
-          <h1>BLOG</h1>
-          <p>RECENT ENTRIES</p>
-        </header>
+          {% if WORK_DESCRIPTION %}
+          <article>
+              {{WORK_DESCRIPTION}}
+          </article>
+          {% endif %}
 
-        <div class="divider"><!-- lines divider --></div>
-
+        {% if WORK_PUBLICATIONS %}
         <article>
-          <div class="row animate_fade_in">
+          <script type="text/javascript">
+              function disp(s) {
+                  var win;
+                  var doc;
+                  win = window.open("", "WINDOWID");
+                  doc = win.document;
+                  doc.open("text/plain");
+                  doc.write("<pre>" + s + "</pre>");
+                  doc.close();
+              }
+          </script>
+              <h1 class="entry-title" align=left>Publications</h1>
+              <I><h3 align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ>google citations</a></h3></I>
+          <br>
+              <ol>
+              {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
+              <li id="{{ key }}"><p align=left>{{ text }}
+              [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+              {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
+              {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+              {% endfor %}
+              </p></li>
+              {% endfor %}
+              </ol>
+          </article>
+          {% endif %}
+          <br>
 
-            {% for article in articles[:3] %}
-              <div class="col-md-4 quick-hover">
-                <div class="quick-item">
-                {% if article.featured %}
-                  <figure class="media-preview">
-                  {% if article.type|lower=='image' %}
-                    <img src="{{article.featured}}" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
-                  {%elif article.type|lower=='video'%}
-                    <iframe class="fitvids" src="{{article.featured}}" width="800" height="450"></iframe>
-                  {%elif article.type|lower=='audio'%}
-                    <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
+          {% if WORK_LIST %}
+          <div id="portfolio" class="text-center animate_fade_in">
+            <h1 class="entry-title" align=left>Portfolio</h1>
+            <br>
+
+            <div class="row">
+
+              <ul class="sort-destination isotope" data-sort-id="isotope-list">
+
+                {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
+                  {% if work_type == 'link' %}
+                    <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
+                      <a class="external" href="{{work_link}}" target="_blank">
+                        <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
+                        <div class="caption">
+                          <i class="rounded fa fa-link"></i>
+                          <h3>{{work_title}}</h3>
+                          <p>{{work_description}}</p>
+                        </div>
+                      </a>
+                    </li>
                   {% endif %}
-                  </figure>
-                {% endif %}
-                  {% if article.link %}
-                    <h4><a href="{{ article.link }}">{{article.title}} <i class="fa fa-external-link" target="_blank"></i></a></h4>
-                  {%else%}
-                    <h4><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></h4>
-                  {%endif%}
-                  <p>{{article.summary}}</p>
-                  <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
-                </div>
-              </div>
-            {% endfor %} 
+                {% endfor %}
+
+              </ul>
+            </div>
 
           </div>
-        </article>
+          {% endif %}
 
-        <div class="divider"><!-- lines divider --></div>
+        
+        </div>
+      </section>
+      <!-- /WORK -->
 
-        <article class="text-center" data-animation="bounceIn">
-          <a href="blog" class="plusNav" title="more from blog">+</a> 
-        </article>
+      {% if SHOW_RECENT_BLOGS %}
+      <!-- BLOG -->
+      <section id="quick-blog" class="alternate">
+        <div class="container">
 
-      </div>
-    </section>
-    <!-- /BLOG -->
-    {% endif %}
+          <header class="text-center">
+            <h1>BLOG</h1>
+            <p>RECENT ENTRIES</p>
+          </header>
+
+          <div class="divider"><!-- lines divider --></div>
+
+          <article>
+            <div class="row animate_fade_in">
+
+              {% for article in articles[:3] %}
+                <div class="col-md-4 quick-hover">
+                  <div class="quick-item">
+                  {% if article.featured %}
+                    <figure class="media-preview">
+                    {% if article.type|lower=='image' %}
+                      <img src="{{article.featured}}" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
+                    {%elif article.type|lower=='video'%}
+                      <iframe class="fitvids" src="{{article.featured}}" width="800" height="450"></iframe>
+                    {%elif article.type|lower=='audio'%}
+                      <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
+                    {% endif %}
+                    </figure>
+                  {% endif %}
+                    {% if article.link %}
+                      <h4><a href="{{ article.link }}">{{article.title}} <i class="fa fa-external-link" target="_blank"></i></a></h4>
+                    {%else%}
+                      <h4><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></h4>
+                    {%endif%}
+                    <p>{{article.summary}}</p>
+                    <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+                  </div>
+                </div>
+              {% endfor %} 
+
+            </div>
+          </article>
+
+          <div class="divider"><!-- lines divider --></div>
+
+          <article class="text-center" data-animation="bounceIn">
+            <a href="blog" class="plusNav" title="more from blog">+</a> 
+          </article>
+
+        </div>
+      </section>
+      <!-- /BLOG -->
+      {% endif %}
 
     {% include "_includes/footer.html" %}
+    </div>
 
   </body>
 </html>
