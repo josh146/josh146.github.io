@@ -591,4 +591,7 @@ footer a.toTop {
   a.icon-block:hover {
     color:#000;
   }
+  #header a.navbar-brand {
+    margin-left: -8px;
+  }
 }

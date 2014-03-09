@@ -34,7 +34,7 @@ USE_FOLDER_AS_CATEGORY = True
 AUTHORS_SAVE_AS = None
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 #~~~~~~~~~~~~~~~~
 # Feed settings
@@ -184,7 +184,7 @@ if THEME == "pelican-themes/BT3-Flat":
                  'http://pyctqw.readthedocs.org']
 
     WORK_DESCRIPTION = """
-    <p align=left> My current research interests mainly lie in the characterisation and applications of quantum walks, 
+    <p style="text-align:left"> My current research interests mainly lie in the characterisation and applications of quantum walks, 
     with specific focus on quantum simulation of complex biochemical systems such as photosynthesis 
     and electron transport in functional nano-materials.<br><br>
 
