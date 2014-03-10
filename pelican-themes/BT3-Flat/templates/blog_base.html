@@ -79,7 +79,7 @@
             <!-- categories -->
             <div class="widget">
 
-              <h3>Categories</h3>
+              <a href="{{SITEURL}}/categories"><h3>Categories</h3></a>
 
               <ul>
                 {#% for category in categories %#} {% for category, articles in categories %}
@@ -93,7 +93,7 @@
             <!-- Tags -->
             <div class="widget">
 
-              <h3>Tags</h3>
+              <a href="{{SITEURL}}/tags"><h3>Tags</h3></a>
 
               <ul class="tagcloud">
                   {% for tag in tag_cloud %}
@@ -106,7 +106,7 @@
             <!-- Archives -->
             <div class="widget">
 
-              <h3>Archives</h3>
+              <a href="{{SITEURL}}/archives"><h3>Archives</h3></a>
 
               <!-- hide this part -->
               <div class="hidden">
@@ -145,7 +145,6 @@
 
       </article>
     </section>
-    <!-- /BLOG -->
 
     {% include "_includes/footer.html" %}
   </div>

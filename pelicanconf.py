@@ -122,6 +122,9 @@ PLUGINS = ['render_math',
            'minify']
 
 GPLUS_COMMENTS = False
+RESPONSIVE_IMAGES = True
+RESPONSIVE_IMAGES = True
+FIGURE_NUMBERS = True
 
 #~~~~~~~~~~~~~~~~
 # Pelican-Bibtex

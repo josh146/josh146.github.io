@@ -8,9 +8,9 @@ Hello world!
 
 Testing some latex:
 
- - Inline latex: $x^2=\\sin(\\theta)$
- - Non-inline latex: $$ \\int_0^1 x^2 dx $$
- - An align env:
+* Inline latex: $x^2=\\sin(\\theta)$
+* Non-inline latex: $$ \\int_0^1 x^2 dx $$
+* An align env:
 
 \\begin{align}
 \\int_0^1 x^2 dx
@@ -18,5 +18,50 @@ Testing some latex:
 
 .. code-block:: python
 
-    print("Hello world!")
+    >>> # list unpacking
+    >>> l = [[5,2,1],[4,3],[2,3,4],[2]]
+    >>> [item for sublist in l for item in sublist]
+
+
+some fortran code:
+
+.. code-block:: fortran
+
+    program main
+        implicit none
+
+        integer :: i,j
+
+        ! a loop
+        do i=1, 10
+            write(*,*)i**2.d0
+        enddo
+    end program main
+
+
+some Bash code:
+
+.. code-block:: bash
+    :linenos: inline
+
+    fd = ($(echo *.py))
+    for i in {1..10};
+    do;
+    echo $i;
+    done
+
+#. An `internal link <{filename}/pages/about.rst>`_
+#. An `external link <http://bbc.com/news>`_
+
+
+An image:
+
+
+    .. image:: {filename}/images/thesis.png
+        :scale: 10 %
+
+    .. figure:: {filename}/images/thesis.png
+        :align: right
+
+        This is the caption of the figure.
 

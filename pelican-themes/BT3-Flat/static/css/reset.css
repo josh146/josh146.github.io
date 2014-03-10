@@ -2,7 +2,7 @@
 	@Author			Dorin Grigoras
 	@Website		www.stepofweb.com
  ** ************************************* **/
- 
+
 button::-moz-focus-inner, 
 input::-moz-focus-inner {
 	border: 0;
