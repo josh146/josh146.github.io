@@ -1,5 +1,5 @@
 <!-- Main Nav -->
-<header id="header" style="margin-top:0" class="fixed">
+<header id="header" style="margin-top:0" class="fixed" ng-controller="HeaderController">
 
   <nav class="navbar navbar-inverse" role="navigation" id="slide-nav">
     <div class="container">
@@ -10,19 +10,27 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        <a class="navbar-brand">
-          <h1>{{ SITENAME|e }}&nbsp;</h1>
+          <a class="navbar-brand">
+            <h1>{{ SITENAME|e }}&nbsp;</h1>
+          </a>
         </a>
-         </a>
+        <div id="socialbarSMALL" style="">
+          {% for group_title, group_link in SOCIAL %}
+            <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="navbar-right" id="socialbarBIG" style="">
         {% for group_title, group_link in SOCIAL %}
           <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
         {% endfor %}
       </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div id="slidemenu" ng-controller="HeaderController">
+      <div id="slidemenu">
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" id="collapse">
           <li><a href="{{SITEURL}}">Home</a></li>
           <li><a href="{{SITEURL}}/index.html#about">About</a></li>
           <li><a href="{{SITEURL}}/index.html#work">Work</a></li>

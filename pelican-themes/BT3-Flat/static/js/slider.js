@@ -1,5 +1,20 @@
 $(document).ready(function () {
+    
+    $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+    
+    var socbarBig = document.getElementById("socialbarBIG");
+    var socbarSmall = document.getElementById("socialbarSMALL");
 
+    if ( $(window).width() > 767 ) {  
+         document.getElementById("collapse").className="nav navbar-nav navbar-left";
+         socbarSmall.style.display='none';
+         socbarBig.style.display='inline';
+    }  
+    else {  
+         document.getElementById("collapse").className="nav navbar-nav navbar-right";
+         socbarSmall.style.display='inline';
+         socbarBig.style.display='none';
+    }
 
     //stick in the fixed 100% height behind the navbar but don't wrap it
     $('#slide-nav.navbar .container').append($('<div id="navbar-height-col"></div>'));
@@ -13,10 +28,10 @@ $(document).ready(function () {
     var pagewrapper = '#page-content';
     var headwrapper = '#head-content';
     var navigationwrapper = '.navbar-left';
-    var menuwidth = '100%'; // the menu inside the slide menu itself
-    var slidewidth = '50%';
-    var menuneg = '-100%';
-    var slideneg = '-50%';
+    var menuwidth = '400px'; // the menu inside the slide menu itself
+    var slidewidth = '200px';
+    var menuneg = '-400px';
+    var slideneg = '-200px';
 
 
     $("#slide-nav").on("click", toggler, function (e) {
@@ -190,12 +205,16 @@ $(document).ready(function () {
 
         if ($(window).width() > 767 && $('.navbar-toggle').is(':hidden')) {
             $(selected).removeClass('slide-active');
+            document.getElementById("collapse").className="nav navbar-nav navbar-left";
+            socbarSmall.style.display='none';
+            socbarBig.style.display='inline';
+        }  
+        else {  
+             document.getElementById("collapse").className="nav navbar-nav navbar-right";
+             socbarSmall.style.display='inline';
+             socbarBig.style.display='none';
         }
 
-
     });
-
-
-
 
 });

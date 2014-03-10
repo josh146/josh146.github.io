@@ -121,7 +121,7 @@ PLUGINS = ['render_math',
            'pelican-bibtex',
            'minify']
 
-GPLUS_COMMENTS = True
+GPLUS_COMMENTS = False
 
 #~~~~~~~~~~~~~~~~
 # Pelican-Bibtex

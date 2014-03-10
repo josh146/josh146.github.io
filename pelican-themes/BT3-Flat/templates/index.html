@@ -77,10 +77,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            <a class="navbar-brand">
-              <h1>{{ SITENAME|e }}&nbsp;</h1>
+              <a class="navbar-brand">
+                <h1>{{ SITENAME|e }}&nbsp;</h1>
+              </a>
             </a>
-             </a>
+            <div id="socialbarSMALL" style="">
+              {% for group_title, group_link in SOCIAL %}
+                <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="navbar-right" id="socialbarBIG" style="">
             {% for group_title, group_link in SOCIAL %}
               <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
             {% endfor %}
@@ -92,7 +100,7 @@
             <!-- Fullscreen Button - Unavailable for IE -->
             <!-- <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a> -->
 
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="collapse">
               <li class="active"><a href="#home" class="scrollTo" id="scroll-home">Home</a></li>
               <li><a href="#about" class="scrollTo" id="scroll-about">About</a></li>
               <li><a href="#work" class="scrollTo" id="scroll-work">Work</a></li>

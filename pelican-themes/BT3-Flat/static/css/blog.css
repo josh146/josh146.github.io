@@ -41,11 +41,19 @@
   display:block;
   font-size:11px;
 }
+#blogSidebar {
+  background-color: #EBEBEB;
+  /*background-color: #4D4F4D;*/
+  padding-top:20px;
+  padding-bottom:20px;
+  /*border: 1px solid #ccc;*/
+}
 #blog .widget {
   margin-bottom:70px;
 }
 #blog .widget h3 {
   margin-bottom:20px;
+  /*color:#fff;*/
 }
 #blog .widget ul {
   list-style:none;

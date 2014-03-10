@@ -1,3 +1,5 @@
+/* slidemenu widths: 400px and 200px*/
+
 
 /* adjust body when menu is open */
 body.slide-active {
@@ -68,14 +70,14 @@ body.slide-active {
 	}
 	#slide-nav .navbar.slide-active {
 	    position: absolute;
-	    width: 50%;
+	    width: 200px;
 	    top: 0px;
 	    z-index: 1000;
 	}
 	#slide-nav #slidemenu {
 	    background: #f7f7f7;
-	    left: -100%;
-	    width: 50%;
+	    left: -400px;
+	    width: 200px;
 	    min-width: 0;
 	    position: fixed;
 	    padding-left: 0;
@@ -85,12 +87,12 @@ body.slide-active {
 	}
 	#slide-nav #slidemenu .navbar-nav {
 	    min-width: 0;
-	    width: 100%;
+	    width: 200px;
 	    margin: 0;
 	}
 	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
 	    min-width: 0;
-	    width: 50%;
+	    width: 200px;
 	    white-space: normal;
 	}
 	#slide-nav {
@@ -104,8 +106,8 @@ body.slide-active {
 	    position: fixed;
 	    top: 0;
 	    height: 100%;
-	    width: 50%;
-	    left: -50%;
+	    width: 200px;
+	    left: -200px;
 	    background: #eee;
 	}
 	#slide-nav.navbar-inverse #navbar-height-col {
@@ -114,7 +116,7 @@ body.slide-active {
 	    border: 0;
 	}
 	#slide-nav .navbar-form {
-	    width: 100%;
+	    width: 400px;
 	    margin: 8px 0;
 	    text-align: center;
 	    overflow: hidden;
@@ -124,7 +126,7 @@ body.slide-active {
 	    text-align: center
 	}
 	#slide-nav .navbar-form .btn {
-	    width: 100%
+	    width: 400px
 	}
 }
 @media (min-width:768px) { 
