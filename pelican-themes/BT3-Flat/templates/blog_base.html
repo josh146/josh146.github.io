@@ -3,51 +3,46 @@
 
 <head>
   {% include "_includes/header.html" %}
+  <title>{% block title %}{{ SITENAME|striptags }} {{ SITESUBTITLE|striptags }}{% endblock %}</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
 
   {% include "_includes/nav.html" %}
   <div id="page-content">
+
+
     <section id="blog">
       <article class="container">
 
         <div class="row">
+
           <div id="blog_main_area" class="left col-md-9" count={{articles|length}}>
-            {% block content_area %} {% endblock %}
+            <section class="well" style="display:none;text-align:left" id="searchresults">
+              <h3>Search results</h3>
+              <div id="st-results-container"></div>
+            </section>
+            <div id="blog-content-area">
+              {% block content_area %} {% endblock %}
+            </div>
           </div>
 
           <!-- SIDEBAR -->
           <div class="right col-md-3" id="blogSidebar">
+
             {% if SWIFTYPE %}
-            <!-- blog search -->
-            <div class="widget">
+              <!-- blog search -->
+              <div class="well" id="blog-search-normal">
 
-              <h3>Blog Search</h3>
+                <h3>Blog Search</h3>
+                <br>
 
-              <form action="#" method="get" class="blog-search col-lg-12 nomargin nopadding">
-                <div class="input-group input-group-lg">
-                  <input type="text" class="form-control" name="s" id="st-search-input" placeholder="..." />
-                  <script type="text/javascript">
-                  var Swiftype = window.Swiftype ||
-                  {};
-                  (function()
-                  {
-                    Swiftype.key = '{{SWIFTYPE}}';
-
-                    /** DO NOT EDIT BELOW THIS LINE **/
-                    var script = document.createElement('script');
-                    script.type = 'text/javascript';
-                    script.async = true;
-                    script.src = "//s.swiftypecdn.com/embed.js";
-                    var entry = document.getElementsByTagName('script')[0];
-                    entry.parentNode.insertBefore(script, entry);
-                  }());
-                  </script>
-                </div>
-              </form>
-            </div>
+                <form>
+                  <input type="text" id="st-search-input" class="st-search-input" style="font-size:16px;height:30px" />
+                </form>
+              </div>
             {% endif %}
+
             <!-- recent work -->
             <!-- <div class="widget">
 
@@ -77,7 +72,7 @@
                     </div> -->
 
             <!-- categories -->
-            <div class="widget">
+            <div class="well">
 
               <a href="{{SITEURL}}/categories"><h3>Categories</h3></a>
 
@@ -91,7 +86,7 @@
             </div>
 
             <!-- Tags -->
-            <div class="widget">
+            <div class="well">
 
               <a href="{{SITEURL}}/tags"><h3>Tags</h3></a>
 
@@ -104,7 +99,7 @@
             </div>
 
             <!-- Archives -->
-            <div class="widget">
+            <div class="well">
 
               <a href="{{SITEURL}}/archives"><h3>Archives</h3></a>
 
@@ -147,6 +142,7 @@
     </section>
 
     {% include "_includes/footer.html" %}
+
   </div>
 
 </body>

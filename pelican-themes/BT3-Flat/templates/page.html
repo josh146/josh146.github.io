@@ -2,7 +2,7 @@
 
 
 {% block title %}
-  {{ page.title|striptags }}
+{{ page.title }} {%if page.subtitle %} - {{ page.subtitle }} {% endif %} · {{ super() }}
 {% endblock %}
 
 

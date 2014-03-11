@@ -92,7 +92,7 @@ section header p {
 }
 section ul, section ul li {
   margin:0;
-  padding:0;
+  padding-left:0;
   /*list-style:none;*/
 }
 /* ---------- /SECTION ---------- */

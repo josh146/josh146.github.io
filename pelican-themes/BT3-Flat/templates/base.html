@@ -3,6 +3,7 @@
 
 <head>
   {% include "_includes/header.html" %}
+  <title>{% block title %}{{ SITENAME|striptags }} {{ SITESUBTITLE|striptags }}{% endblock %}</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -15,7 +16,14 @@
 
           <div class="row">
             <div id="blog_main_area" class="left col-md-9" count={{articles|length}}>
+
+              <section class="well" style="display:none;text-align:left" id="searchresults">
+                <h3>Search results</h3>
+                <div id="st-results-container"></div>
+              </section>
+              <div id="blog-content-area">
               {% block content %} {% endblock %}
+              </div>
             </div>
           </div>
 

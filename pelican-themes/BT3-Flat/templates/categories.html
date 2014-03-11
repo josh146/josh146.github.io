@@ -1,8 +1,64 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+
+{% block title %}
+Categories · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+Categories for {{ SITENAME|striptags }} 
+{% endblock head_description %}
+
+{% block feed_links %}
+{{ super() }}
+{% include '_includes/feeds_categories.html' %}
+{% endblock feed_links %}
+
 {% block content %}
-<ul>
-{% for category, articles in categories %}
-    <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
-{% endfor %}
-</ul>
-{% endblock %}
+<div class="row-fluid">
+    <header class="span10 offset2">
+    <h1><a href="{{ SITEURL }}/categories.html">All Categories</a></h1>
+    </header>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <div class="accordion" id="accordion2">
+            {% for category, articles in categories %}
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#{{ category.slug }}-ref">
+                        {% set num = articles|count %}
+                        <i class="fa fa-chevron-circle-down"></i>{{ category }}<span>{{ num }}</span>
+                    </a>
+                </div>
+                <div id="{{ category.slug }}-ref" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <ul class="list-articles-category">
+                            {% for article in articles %} 
+            				{% set dateform = article.date.strftime('%d/%m/%Y') %}
+                            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+{% block script %}
+{{ super() }}
+<script  language="javascript" type="text/javascript">
+    function uncollapse() {
+            $(window.location.hash).collapse({
+                toggle: true
+            })
+    }
+</script>
+
+<script type="text/javascript" language="JavaScript">
+    uncollapse(); 
+</script>
+{% endblock script %}

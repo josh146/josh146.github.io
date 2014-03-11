@@ -30,6 +30,16 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div id="slidemenu">
 
+
+        {% if SWIFTYPE %}
+          <div id="blog-search-mobile">
+
+            <form>
+              <input type="text" id="st-search-input-mobile" class="st-search-input" style="font-size:16px;height:30px;color:#fff;background-color:#000" />
+            </form>
+          </div>
+        {% endif %}
+
         <ul class="nav navbar-nav navbar-right" id="collapse">
           <li><a href="{{SITEURL}}">Home</a></li>
           <li><a href="{{SITEURL}}/index.html#about">About</a></li>
@@ -50,6 +60,7 @@
             </li>
           {% endif %}
         </ul>
+
       </div>
       <div ng-view></div>
       <!-- /.navbar-collapse -->

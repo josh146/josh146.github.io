@@ -365,7 +365,7 @@ footer a.social {
 footer a.toTop {
   position:absolute;
   left:50%;
-  top:-23px;
+  top:0px;
   margin-left:-20px;
   background:rgba(0, 0, 0, 0.5);
   padding:10px 16px;
@@ -491,35 +491,36 @@ footer a.toTop {
     padding:10px 30px;
   }
   footer a.toTop {
-    bottom:auto;
+    bottom:0;
     -moz-border-radius:8px;
     border-radius:8px;
+    left:20px;
   }
 /*  footer .copyright {
     padding-top:30px;
     padding-bottom:30px;
   }*/
   footer div.text-right, footer {
-    text-align:center;
+    text-align:right;
     !important;
   }
 
   footer {
-    height: 60px;
+    height: 50px;
   }
 
   footer .copyright {
-    padding-top:10px;
+    padding-top:0px;
   }
 
   .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -60px;
+    margin: 0 auto -50px;
   }
   .push {
-    height: 60px;
+    height: 50px;
   }
 
 }

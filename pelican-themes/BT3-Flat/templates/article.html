@@ -1,5 +1,10 @@
 {% import "macros.html" as m %}
 {% extends "blog_base.html" %}
+
+{% block title %}
+{{ article.title|striptags }} {%if article.subtitle %} - {{ article.subtitle }} {% endif %} · {{ super() }}
+{% endblock title %}
+
 <!-- BLOG -->
 {%block content_area %}
   <!-- article title -->

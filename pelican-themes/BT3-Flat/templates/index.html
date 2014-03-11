@@ -32,9 +32,14 @@
     </script>
 
     {% include "_includes/header.html" %}
+    <title>
+      {% block title %}
+      {{ SITENAME|striptags }} {{ SITESUBTITLE|striptags }}
+      {% endblock %}
+    </title>
   </head>
 
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <div id="head-content">
       <!-- HOME -->
@@ -97,6 +102,16 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div id="slidemenu">
 
+
+            {% if SWIFTYPE %}
+              <div id="blog-search-mobile">
+
+                <form>
+                  <input type="text" id="st-search-input-mobile" class="st-search-input" style="font-size:16px;height:30px;color:#fff;background-color:#000" />
+                </form>
+              </div>
+            {% endif %}
+
             <!-- Fullscreen Button - Unavailable for IE -->
             <!-- <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a> -->
 
@@ -129,6 +144,13 @@
     <!-- /Main Nav -->
 
     <div id="page-content">
+
+      <section class="well" style="display:none;text-align:left" id="searchresults">
+      <h3>Search results</h3>
+      <div id="st-results-container"></div>
+      </section>
+      <div id="blog-content-area">
+
       <!-- ABOUT -->
       <section id="about">
         <div class="container">
@@ -318,6 +340,7 @@
       </section>
       <!-- /BLOG -->
       {% endif %}
+    </div>
 
     {% include "_includes/footer.html" %}
     </div>

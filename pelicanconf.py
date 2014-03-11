@@ -15,6 +15,7 @@ EMAIL_ADDR = 'josh at iza dot ac'
 COPYRIGHT = 'Copyright Josh Izaac, 2014'
 
 DISQUS_SITENAME = 'izaac'
+SWIFTYPE = 'LPcmywgYs12nMZT1EFp7'
 
 TIMEZONE = 'Australia/Perth'
 
