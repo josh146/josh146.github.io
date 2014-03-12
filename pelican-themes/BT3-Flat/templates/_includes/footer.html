@@ -88,6 +88,7 @@
   }());
 </script>
 
+{% if not nosearch %}
 {% block searchscript %}
 <script type="text/javascript">
 var Swiftype = window.Swiftype || {};
@@ -103,3 +104,4 @@ var Swiftype = window.Swiftype || {};
   }());
 </script>
 {% endblock %}
+{%endif%}
