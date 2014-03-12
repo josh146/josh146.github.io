@@ -1,6 +1,6 @@
 pelican
 pelican_youtube
 beautifulsoup4
-pybtex
+pybtex==0.16
 Pillow
 pelican-minify

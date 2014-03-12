@@ -140,7 +140,7 @@ div.recent-posts-time {
 
 /* adjust body when menu is open */
 body.slide-active {
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 /*first child of #page-content so it doesn't shift around*/
 .no-margin-top {
