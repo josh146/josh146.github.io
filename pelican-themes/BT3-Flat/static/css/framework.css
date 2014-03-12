@@ -20,16 +20,22 @@
 *************************************************** **/
  :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #999;
+  color: #fff;
 }
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #999;
+  color: #fff;
 }
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #999;
+  color: #fff;
 }
+
+::-webkit-input-placeholder  { color:#fff; }
+::-webkit-input-placeholder  { color:#fff; }
+input:-moz-placeholder { color:#fff; }
+textarea:focus:-moz-placeholder { color:#fff; }
+
 /**	02. Selection
 *************************************************** **/
  ::-moz-selection {

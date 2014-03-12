@@ -101,6 +101,19 @@ section.alternate.arrow-down {
 .btn:hover {
   border:rgba(0, 0, 0, 0.5) 2px solid !important;
 }
+
+
+#page-content a {
+    color: #8B0000;
+  }
+#page-content a:hover {
+    color: #A23333;
+}
+
+.sansserif {
+  font-family:'Open Sans';
+}
+
 /** 02. Nav Bar
  **************************************************************** **/
  #header.relative {
@@ -175,7 +188,9 @@ section.alternate.arrow-down {
   padding-bottom:20px;
 }
 #header .navbar-inverse ul.nav li.active a, #header .navbar-inverse ul.nav a:hover {
-  color:#ABA798;
+  /*color:#ABA798;*/
+  color:#8B0000;
+  background:#232428;
 }
 #header .navbar-collapse {
   padding:0;

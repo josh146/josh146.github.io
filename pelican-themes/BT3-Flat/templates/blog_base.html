@@ -34,7 +34,7 @@
               <!-- blog search -->
               <div class="well" id="blog-search-normal">
 
-                <h3>Search</h3>
+                <a href="{{SITEURL}}/search"><h3>Search</h3></a>
                 <br>
 
                 <form>
@@ -43,34 +43,6 @@
               </div>
             {% endif %}
 
-            <!-- recent work -->
-            <!-- <div class="widget">
-
-                        <h3>Recent Work</h3>
-
-                        <a class="popup-image thumb" href="assets/images/preview/slider/1.jpg">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                        </a>
-                        <a class="popup-video thumb" href="http://www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                        </a>
-                        <a class="popup-video thumb" href="http://vimeo.com/23630702">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                        </a>
-
-                        <a class="external ajax-project thumb" href="project-external-1.html">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                        </a>
-                        <a class="external ajax-project thumb" href="project-external-2.html">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#888:#555555/auto/" alt="img" />
-                        </a>
-                        <a class="external ajax-project thumb" href="project-external-3.html">
-                            <img src="{{SITEURL}}/theme/img/1x1.png" class="ajax-project img-responsive" data-src="holder.js/85x85/#676767:#555555/auto/" alt="img" />
-                        </a>
-
-                        <div class="clearfix"></div>
-                    </div> -->
-
             <!-- categories -->
             <div class="well">
 
@@ -78,7 +50,7 @@
 
               <ul>
                 {#% for category in categories %#} {% for category, articles in categories %}
-                <li><a href="{{SITEURL}}/{{category.url}}"><i class="fa fa-dot-circle-o"></i> {{category.name}}</a>
+                <li><a href="{{SITEURL}}/categories#{{ category.slug }}"><i class="fa fa-dot-circle-o"></i> {{category.name}}</a>
                 </li>
                 {% endfor %}
               </ul>
@@ -92,7 +64,7 @@
 
               <ul class="tagcloud">
                   {% for tag in tag_cloud %}
-                      <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+                      <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/tags#{{ tag.0 }}">{{ tag.0 }}</a></li>
                   {% endfor %}
               </ul>
 

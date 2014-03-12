@@ -21,7 +21,7 @@ Full archives of {{ SITENAME|striptags }} blog.
             {% set last_year = 0 %}
             {% for article in dates %}
             {% set year = article.date.strftime('%Y') %}
-            {% set dateform = article.date.strftime('%d/%m') %}
+            {% set dateform = article.date.strftime('%d %b') %}
             {%if last_year != year %}
             <h2 id="{{year }}"><a href="#{{year}}">{{ year }}</a></h2>
             {% set last_year = year %}
@@ -38,7 +38,7 @@ Full archives of {{ SITENAME|striptags }} blog.
             <article>
             {% endif %}
             <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
-            <time pubdate="pubdate" datetime="{{ article.date.strftime('%d/%m') }}">{{dateform}}</time>
+            <time pubdate="pubdate" datetime="{{ article.date.strftime('%d %b') }}">{{dateform}}</time>
             </article>
             {% endfor %}
         </div>

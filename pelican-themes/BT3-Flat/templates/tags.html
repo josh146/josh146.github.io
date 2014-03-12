@@ -22,28 +22,28 @@ All tags used in the {{ SITENAME|striptags }} blog.
 </div>
 <div class="row-fluid">
     <div class="span8 offset2">
-        <ul class="list-of-tags">
+        <ul class="list-of-tags sansserif">
             {% for tag, articles in tags|sort %}
             <li>
             {% set num = articles|count %}
-            <a href="#{{ tag.slug }}-ref" class="scrollTo">{{ tag }}<span>{{ num }}</span></a>
+            <a href="#{{ tag.slug }}" class="scrollTo">{{ tag }}<span>{{ num }}</span></a>
             </li>
             {% endfor %}
         </ul>
     </div>
 </div>
-
+<br>
 <div class="row-fluid">
     <div class="span8 offset2">
         {% for tag, articles in tags|sort %}
-        <h2 id="{{ tag.slug }}-ref" class="tag-title">{{ tag }}</h2>
+        <h2 id="{{ tag.slug }}" class="tag-title dosis"  style="padding-top: 60px; margin-top: -60px">{{ tag }}</h2>
         <ul class="articles-in-tag list-articles-category">
             {% for article in articles|sort(reverse = true, attribute = 'date') %}
-            {% set dateform = article.date.strftime('%d/%m/%Y') %}
-            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
+            {% set dateform = article.date.strftime('%b %d, %Y') %}
+            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}" class="sansserif ">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
             {% endfor %}
         </ul>
-
+        <br>
         {% endfor %}
     </div>
 </div>

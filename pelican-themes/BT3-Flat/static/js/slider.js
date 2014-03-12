@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    location.hash && $(location.hash + '.collapse').collapse('show');
+
     $('#st-search-input').keyup(function(e){
       if(e.keyCode == 13)
       {

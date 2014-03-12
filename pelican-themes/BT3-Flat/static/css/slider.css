@@ -219,7 +219,7 @@ body.slide-active {
     margin: 5px 0 0 0;
 }
 #slide-nav .navbar-toggle.slide-active .icon-bar {
-    background: orange
+    background: #8B0000
 }
 .navbar-left {
     position: relative

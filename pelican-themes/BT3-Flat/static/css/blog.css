@@ -2,21 +2,29 @@
   text-align:left;
   border:0;
   margin:0;
+  font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
 }
 #blog h1 {
   background:none;
-  font-size:54px;
-  line-height:30px;
-  font-weight:500;
-  margin:0;
+  /*font-size:54px;*/
+  line-height:50px;
+  /*font-weight:500;*/
+/*  margin:0;
   margin-bottom: 10px;
-  padding:0;
-  font-weight: 300;
+  padding:0;*/
+  /*font-weight: 300;*/
   text-transform: none;
+    font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
+    font-weight: normal;
+    /*color: #8B0000;*/
+    border-bottom: 1px solid #8f8686;
+    margin: 10px 0px 0px;
+    padding: 5px;
 }
 #blog h2 {
   margin-bottom:15px;
   margin-top: 15px;
+  font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;
 }
 #blog div.left {
   padding-right:50px;
@@ -48,6 +56,32 @@
   font-size:11px;
 }
 
+
+#blog a {
+    color: #8B0000;
+}
+#blog a:hover {
+    color: #A23333;
+}
+
+#blog .dosis {
+  font-family:'Dosis';
+}
+
+#blog .sansserif {
+  font-family:'Open Sans';
+}
+
+#blog .well a {
+  font-family:'Open Sans';
+}
+
+#blog a.label {
+  font-family:'Open Sans';
+}
+#blog .btn {
+  font-family:'Open Sans';
+}
 
 /*------------------------------------------------*/
 .form-control {
