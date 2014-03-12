@@ -61,12 +61,14 @@ try:
         LINKS = (('Publications', 'http://127.0.0.1:8000/publications'),
                  ('cv', 'http://127.0.0.1:8000/pdf/cv.pdf'),
                  ('Archive', 'http://127.0.0.1:8000/archives'),
-                 ('Feed', 'http://127.0.0.1:8000/rss.xml'),)
+                 ('Feed', 'http://127.0.0.1:8000/rss.xml'),
+            	 ('Search', 'http://127.0.0.1:8000/search'),)
 except:
     LINKS = (('Publications', SITEURL+'/publications'),
              ('cv', SITEURL+'/pdf/cv.pdf'),
              ('Archive', SITEURL+'/archives'),
-             ('Feed', SITEURL+'/rss.xml'),)
+             ('Feed', SITEURL+'/rss.xml'),
+             ('Search', SITEURL+'/search'),)
 
 MENUITEMS = (
     # ('About', '/about'),
@@ -220,6 +222,6 @@ if THEME == "pelican-themes/BT3-Flat":
 
     POST_LIMIT = 5
     # TEMPLATE_PAGES = {  'templates/blog.html': 'blog.html'}
-    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories')
+    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories', 'search')
 
 

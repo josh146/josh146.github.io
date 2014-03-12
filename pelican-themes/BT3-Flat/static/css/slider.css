@@ -14,8 +14,8 @@
 }
 
 
-#st-search-input-mobile:focus {
-    outline: none;
+#st-search-input-mobile {
+  	border:#999 0px solid !important;
 }
 
 
@@ -134,6 +134,39 @@ div.recent-posts-time {
     display: inline;
 }
 
+
+
+/* Change color of search result text */
+/*.swiftype-widget .autocomplete ul li p.title {
+  color: FireBrick;
+}*/
+
+/* Change background color of selected search result */
+/*.swiftype-widget .autocomplete ul li.active {
+  background: none;
+  background-color: firebrick;
+  border-top: 1px solid darkred;
+  border-bottom: 1px solid darkred;
+  -webkit-box-shadow: 0 1px 0 #C0242D inset;
+}*/
+
+/* change the color of the section text (displayed below the title) */
+/*.swiftype-widget .autocomplete ul li.active .sections em {
+  color: white;
+}*/
+
+
+.st-result-listing h3 a {
+  font-size: 30px;
+}
+
+.st-snippet em {
+  font-weight: bold;
+}
+
+.st-result-listing .st-result .st-snippet {
+  font-size: 14px;
+}
 
 
 
