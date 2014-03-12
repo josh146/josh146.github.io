@@ -88,7 +88,7 @@
   }());
 </script>
 
-
+{% block searchscript %}
 <script type="text/javascript">
 var Swiftype = window.Swiftype || {};
   (function() {
@@ -102,3 +102,4 @@ var Swiftype = window.Swiftype || {};
     entry.parentNode.insertBefore(script, entry);
   }());
 </script>
+{% endblock %}
