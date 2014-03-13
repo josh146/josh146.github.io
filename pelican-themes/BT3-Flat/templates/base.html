@@ -4,6 +4,7 @@
 <head>
   {% include "_includes/header.html" %}
   <title>{% block title %}{{ SITENAME|striptags }} {{ SITESUBTITLE|striptags }}{% endblock %}</title>
+  {% block swiftypeMeta %}{% endblock %}
 </head>
 
 <body data-spy="scroll" data-target=".navbar">

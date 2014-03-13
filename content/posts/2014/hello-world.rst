@@ -2,7 +2,8 @@ Hello world
 ##############
 
 :subtitle: a smaller subtitle
-:date: 2014-03-05
+:date: 2014-03-05 13:52
+:timezone: +0700
 :tags: helloworld, blog, first, first
 :category: Testing
 :author: Josh Izaac
@@ -57,12 +58,6 @@ some Bash code:
 
 An image:
 
-
     .. image:: {filename}/images/thesis.png
         :scale: 10 %
-
-    .. figure:: {filename}/images/thesis.png
-        :align: right
-
-        This is the caption of the figure.
 

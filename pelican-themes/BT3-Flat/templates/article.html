@@ -1,9 +1,14 @@
-{% import "macros.html" as m %}table
+{% import "macros.html" as m %}
 {% extends "blog_base.html" %}
 
 {% block title %}
 {{ article.title|striptags }} {%if article.subtitle %} - {{ article.subtitle }} {% endif %} · {{ super() }}
 {% endblock title %}
+
+{% block swiftypeMeta %}
+<meta property="st:title" content="{{ article.title }}" >
+<meta property="st:published_at" content="{{ article.date.strftime('%Y-%m-%dT%H:%M') }}{% if article.timezone %}{{ article.timezone }}{% else %}+0800{% endif %}">
+{% endblock %}
 
 <!-- BLOG -->
 {%block content_area %}
