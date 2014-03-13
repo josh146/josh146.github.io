@@ -37,7 +37,7 @@ Full archives of {{ SITENAME|striptags }} blog.
             {% else %}
             <article>
             {% endif %}
-            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small style="color:#999999"> {{ article.subtitle }} </small> {% endif %} </a>
             <time pubdate="pubdate" datetime="{{ article.date.strftime('%d %b') }}">{{dateform}}</time>
             </article>
             {% endfor %}

@@ -40,7 +40,7 @@ All tags used in the {{ SITENAME|striptags }} blog.
         <ul class="articles-in-tag list-articles-category">
             {% for article in articles|sort(reverse = true, attribute = 'date') %}
             {% set dateform = article.date.strftime('%b %d, %Y') %}
-            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}" class="sansserif ">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
+            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}" class="sansserif ">{{ article.title }} {%if article.subtitle %} <small style="color:#999999"> {{ article.subtitle }} </small> {% endif %} </a></li>
             {% endfor %}
         </ul>
         <br>

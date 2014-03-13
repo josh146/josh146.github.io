@@ -37,7 +37,7 @@ Categories for {{ SITENAME|striptags }}
                         <ul class="list-articles-category">
                             {% for article in articles %} 
             				{% set dateform = article.date.strftime('%b %d, %Y') %}
-                            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a></li>
+                            <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small style="color:#999999"> {{ article.subtitle }} </small> {% endif %} </a></li>
                             {% endfor %}
                         </ul>
                     </div>
