@@ -124,7 +124,6 @@ PLUGINS = ['render_math',
            'better_figures_and_images',
            'pelican-bibtex',
            'minify',
-           # 'tipue_search',
            'sitemap']
 
 GPLUS_COMMENTS = False
