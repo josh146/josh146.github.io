@@ -123,7 +123,9 @@ PLUGINS = ['render_math',
            'pelican_youtube',
            'better_figures_and_images',
            'pelican-bibtex',
-           'minify']
+           'minify',
+           # 'tipue_search',
+           'sitemap']
 
 GPLUS_COMMENTS = False
 RESPONSIVE_IMAGES = True
@@ -148,56 +150,6 @@ PUBLICATIONS_SRC = 'content/extras/pubs.bib'
 THEME = "pelican-themes/BT3-Flat"
 # THEME = "pelican-themes/elegant"
 # THEME = "pelican-themes/crowsfoot"
-
-if THEME == "pelican-themes/elegant":
-    personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
-                     'http://uwa.edu.au']
-
-    LANDING_PAGE_ABOUT = {}
-
-    LANDING_PAGE_ABOUT['title'] = "An occasional PhD student working with quantum computers"
-
-    
-    workLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
-                 'http://uwa.edu.au',
-                 'http://www.ivec.org',
-                 'http://pyctqw.readthedocs.org']
-
-    WORK_DESCRIPTION = """
-    <p style="text-align:left"> 
-
-    I am a PhD student in the <a href={0}>Quantum Dynamics and Computation</a> 
-    research group at the <a href={1}>University of Western Australia</a>, 
-    currently researching continuous-time quantum walks and potential biological models.<br><br>
-
-    My current research interests mainly lie in the characterisation and applications of quantum walks, 
-    with specific focus on quantum simulation of complex biochemical systems such as photosynthesis 
-    and electron transport in functional nano-materials.<br><br>
-
-    A major part of my research involves numerical simulation on high performance supercomputing 
-    clusters (mainly using the <a href={2}>iVEC</a> supercomputing facility in Western Australia), 
-    working mostly with Fortran and Python. In order to streamline my workflow, I developed an efficient 
-    parallel framework for simulating continuous-time quantum walks, <a href={3}>pyCTQW</a>, with the 
-    source code available on my GitHub page. Other tools I find useful for my work include iPython, 
-    matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
-
-    Outside of research, I am also employed as a tutor and lab demonstrator for third year 
-    computational physics PHYS3011 at UWA.</p>
-    """.format(*workLinks)
-    
-    LANDING_PAGE_ABOUT['details'] = WORK_DESCRIPTION
-
-    PROJECTS = [{
-    'name': 'pyCTQW',
-    'url': 'http://pyctqw.readthedocs.org',
-    'description': 'Distributed memory continuous-time<br> quantum walk framework'},]
-
-
-    disqus_identifier = 'izaac'
-
-    DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-    PLUGINS += ['sitemap', 'extract_toc', 'tipue_search']
-
 
 
 if THEME == "pelican-themes/BT3-Flat":
