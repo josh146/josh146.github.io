@@ -1,6 +1,7 @@
-Hello world!
+Hello world
 ##############
 
+:subtitle: a smaller subtitle
 :date: 2014-03-05
 :tags: helloworld, blog, first, first
 :category: Testing

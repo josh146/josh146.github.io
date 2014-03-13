@@ -1,5 +1,6 @@
 About
 #####################
+:subtitle: why would this need a subtitle
 :author: Josh Izaac
 :excerpt: This is an excerpt of my post.
 :date: 2012-10-15 23:06
