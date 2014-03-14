@@ -333,6 +333,9 @@ body.slide-active {
 	#blog-search-mobile {
 		display:block;
 	}
+    .widget-filter {
+        display:none;
+    }
 }
 @media (min-width:768px) { 
 	#page-content {
