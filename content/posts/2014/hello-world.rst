@@ -58,6 +58,6 @@ some Bash code:
 
 An image:
 
-    .. image:: {filename}/images/thesis.png
+    .. image:: https://photos-3.dropbox.com/t/0/AACJlxzteHmwsyRz5GCLSyiMmLsJetBnjfvqckZX-YAf5g/12/152896/jpeg/1024x768/3/1394823600/0/2/2013-12-20%2021.01.15.jpg/TzltaWJnDxZvJE3ZVQkWrP0a6mxQxbMV_k4Ezz-shVY
         :scale: 10 %
 
