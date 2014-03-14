@@ -49,6 +49,25 @@
 
 
 /* Categories */
+.accordion-group {
+    margin-bottom: 2px !important;
+    border: 1px solid rgb(229, 229, 229) !important;
+    border-radius: 4px!important;
+}
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+}
+.accordion-inner {
+    padding: 9px 15px;
+    border-top: 1px solid rgb(229, 229, 229);
+    /*padding-top: 60px;*/
+    /*margin-top: -60px;*/
+}
+.accordion-body {
+}
+
+
 .list-of-categories span {
     font-size: .7em;
     vertical-align: super;

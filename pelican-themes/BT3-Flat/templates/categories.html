@@ -16,7 +16,7 @@ Categories for {{ SITENAME|striptags }}
 {% block content %}
 <div class="row-fluid">
     <header class="span10 offset2">
-    <h1><a href="{{ SITEURL }}/categories.html">All Categories</a></h1>
+    <h1><a href="{{ SITEURL }}/categories.html" style="margin-top:-60px;">All Categories</a></h1>
     </header>
 </div>
 
@@ -29,10 +29,11 @@ Categories for {{ SITENAME|striptags }}
                 <div class="accordion-heading">
                     <a class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#{{ category.slug }}">
                         {% set num = articles|count %}
-                        <i class="fa fa-chevron-down"></i>{{ category }}<span>{{ num }}</span>
+                        <!-- <i class="fa fa-chevron-down"></i> -->
+                        {{ category }}<span>{{ num }}</span>
                     </a>
                 </div>
-                <div id="{{ category.slug }}" class="accordion-body collapse"  style="padding-top: 60px; margin-top: -60px">
+                <div id="{{ category.slug }}" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <ul class="list-articles-category">
                             {% for article in articles %} 
@@ -59,6 +60,11 @@ Categories for {{ SITENAME|striptags }}
 </script>
 
 <script type="text/javascript" language="JavaScript">
+	setTimeout(function() {
+	  if (location.hash) {
+	    window.scrollTo(0, 0);
+	  }
+	}, 1);
     uncollapse();
 </script>
 {% endblock script %}
