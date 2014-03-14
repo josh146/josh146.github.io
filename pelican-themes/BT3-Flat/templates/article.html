@@ -70,7 +70,7 @@
       {% for tag, articles in tags %}
         {% for t in article.tags %}
           {% if tag.url == t.url %}
-            {% if article_tags.append({'name': tag.name, 'url': SITEURL+'/tags#'+tag.name, 'articles': articles|length()}) %}{% endif %}
+            {% if article_tags.append({'name': tag.name, 'url': SITEURL+'/tags#'+tag.name+'-tag', 'articles': articles|length()}) %}{% endif %}
           {% endif %}
         {% endfor %}
       {% endfor %}

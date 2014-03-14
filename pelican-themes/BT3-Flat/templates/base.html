@@ -29,11 +29,11 @@
               </div>
             </div>
 
-
-              {% if not nosearchsidebar %}
-              {% if SWIFTYPE %}
             <!-- SIDEBAR -->
             <div class="right col-md-3" id="blogSidebar">
+              {% block sidebar %}
+              {% if not nosearchsidebar %}
+              {% if SWIFTYPE %}
                 <div id="blog-search-normal" class="well">
 
                   <a href="{{SITEURL}}/search"><h3>Search</h3></a>
@@ -43,9 +43,10 @@
                     <input type="text" id="st-search-input" class="st-search-input" style="font-size:16px;height:30px;" placeholder="Enter search terms here..." />
                   </form>
                 </div>
+              {% endif %}
+              {% endif %}
+              {% endblock %}
             </div>
-              {% endif %}
-              {% endif %}
 
           </div>
 
@@ -57,6 +58,11 @@
 
     {% include "_includes/footer.html" %}
   </div>
+
+
+{% block script %}
+{% endblock %}
+
 </body>
 
 </html>

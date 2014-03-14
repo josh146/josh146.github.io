@@ -42,8 +42,8 @@
 
         <ul class="nav navbar-nav navbar-right" id="collapse">
           <li><a href="{{SITEURL}}">Home</a></li>
-          <li><a href="{{SITEURL}}/index.html#about">About</a></li>
-          <li><a href="{{SITEURL}}/index.html#work">Work</a></li>
+          <li><a href="{{SITEURL}}/#about">About</a></li>
+          <li><a href="{{SITEURL}}/#work">Work</a></li>
           {% if MENUITEMS %}
             {% for title, link in MENUITEMS %}
               <li ng-class="{ active: isActive('{{link}}')}"><a href="{{link}}">{{title}}</a></li>

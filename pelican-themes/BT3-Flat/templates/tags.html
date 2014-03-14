@@ -15,6 +15,16 @@ All tags used in the {{ SITENAME|striptags }} blog.
 
 {% block content %}
 
+<style>
+#filterinput {
+    font-size: 16px;
+    height: 30px;
+    padding: 4px 9px 4px 9px;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: none !important;
+}
+</style>
+
 <div class="row-fluid">
     <header class="span10 offset2">
     <h1><a href="{{ SITEURL }}/tags.html">All Tags</a></h1>
@@ -26,29 +36,48 @@ All tags used in the {{ SITENAME|striptags }} blog.
             {% for tag, articles in tags|sort %}
             <li>
             {% set num = articles|count %}
-            <a href="#{{ tag.slug }}" class="scrollTo">{{ tag }}<span>{{ num }}</span></a>
+            <a href="#{{ tag.slug }}-tag" class="scrollTo" data-name="{{tag}}">{{ tag }}<span>{{ num }}</span></a>
             </li>
             {% endfor %}
+
+            <li style="display:none;" id="clearfilter">
+                <a id="clearfilterlink" style="font-weight:500;color:gray">Clear filter<span></span></a>
+            </li>
+            <h4 id="notag" style="margin-top:7px"></h4>
         </ul>
     </div>
 </div>
 <br>
 <div class="row-fluid">
-    <div class="span8 offset2">
+    <div class="span8 offset2" id="in-tags-contains">
         {% for tag, articles in tags|sort %}
-        <h2 id="{{ tag.slug }}" class="tag-title dosis"  style="padding-top: 60px; margin-top: -60px">{{ tag }}</h2>
+        <div class="articletag-container">
+        <h2 id="{{ tag.slug }}-tag" class="tag-title">{{ tag }}</h2>
         <ul class="articles-in-tag list-articles-category">
             {% for article in articles|sort(reverse = true, attribute = 'date') %}
             {% set dateform = article.date.strftime('%b %d, %Y') %}
             <li><time pubdate="pubdate" datetime="{{ article.date.isoformat() }}">{{ dateform }}</time><a href="{{ SITEURL }}/{{ article.url }}" class="sansserif ">{{ article.title }} {%if article.subtitle %} <small style="color:#999999"> {{ article.subtitle }} </small> {% endif %} </a></li>
             {% endfor %}
         </ul>
-        <br>
+        <hr style="margin-bottom:0px">
+        <!-- <br> -->
+        </div>
         {% endfor %}
     </div>
 </div>
 
 {% endblock content %}
+
+{% block sidebar %}
+{{ super() }}
+    <div class="well">
+        <h3>Filter tags</h3>
+        <br>
+        <form class="form-search">
+            <input type="text" class="input-medium search-query filterinput" placeholder="Find a tag" id="filterinput">
+        </form>
+    </div>
+{% endblock sidebar %}
 
 {% block script %}
 {{ super() }}
@@ -62,16 +91,15 @@ All tags used in the {{ SITENAME|striptags }} blog.
 
         function listFilter() {
 
-            $('.filterinput')
-            .change( function () {
+            $('.filterinput').change( function () {
                 var filter = $(this).val();
                 if(filter) {
-                    // this finds all links in a list that contain the input,
-                    // and hide the ones not containing the input while showing the ones that do
-                    $('.list-of-tags').find("a:not(:Contains(" + filter + "))").parent().hide();
-                    $('.list-of-tags').find("a:Contains(" + filter + ")").parent().show();
-                    } else {
-                    $('.list-of-tags').find("li").show();
+                    filterTagChange(filter,'slide');
+                } else {
+                    $('.list-of-tags').find("li").show().not('clearfilter');
+                    $('.articletag-container').show();
+                    $('#notag').text('');
+                    $('#clearfilter').hide();
                 }
                 return false;
             })
@@ -79,15 +107,21 @@ All tags used in the {{ SITENAME|striptags }} blog.
                 // fire the above change event after every letter
                 $(this).change();
             });
-        }
+        }    
+
+        var tagref = $(location).attr('hash').split("-").shift().split("#").pop();
 
         //ondomready
         $(function () {
+            $('#filterinput').val(tagref);
+            if(tagref){
+                filterTagChange(tagref,'hide');
+            }
             listFilter($());
         });
+
     }(jQuery));
 
 </script>
-
 
 {% endblock script %}

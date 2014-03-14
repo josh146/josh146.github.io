@@ -1,4 +1,46 @@
+function filterTagChange(filter,method) {
+    // this finds all links in a list that contain the input,
+    // and hide the ones not containing the input while showing the ones that do
+    $('.list-of-tags').find("a:not(:Contains(" + filter + "))").parent().hide();
+    $('.list-of-tags').find("a:Contains(" + filter + ")").parent().show();
+
+    if(method=="slide"){
+        $('#in-tags-contains').find("h2:not(:Contains(" + filter + "))").parent().slideUp();
+        $('#in-tags-contains').find("h2:Contains(" + filter + ")").parent().slideDown();
+    } else {
+       $('#in-tags-contains').find("h2:not(:Contains(" + filter + "))").parent().hide();
+       $('#in-tags-contains').find("h2:Contains(" + filter + ")").parent().show();
+    }
+
+    var numTags = $('.list-of-tags').find("a:Contains(" + filter + ")").length;
+    if(numTags==0) {
+        $('#notag').text('No tags found matching your filter');
+    } else {
+        $('#notag').text('');
+    }
+    $('#clearfilter').show();
+}
+
 $(document).ready(function () {
+
+    $('.list-of-tags a').click(
+        function(e){
+            var elementId = $(this).attr("id");
+            e.preventDefault();
+            e.stopPropagation();
+
+            if(elementId == 'clearfilterlink') {
+                $('#filterinput').val('');    
+                $('.list-of-tags').find("li").show();
+                $('.articletag-container').slideDown();
+                $('#notag').text('');
+                $('#clearfilter').hide();
+            } else {
+                $('#filterinput').val($(this).data('name'));
+                filterTagChange($(this).data('name'),'slide');             
+            }
+        }
+    );
 
     location.hash && $(location.hash + '.collapse').collapse('show');
 
