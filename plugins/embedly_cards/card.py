@@ -6,36 +6,14 @@ from pelican import signals
 
 def content_object_init(instance):
 
-    # EMBEDLY_KEY = instance.settings['EMBEDLY_KEY']
     GMAPS_KEY = instance.settings['GMAPS_KEY']
-
-    # class Embedly(Directive):
-    #     required_arguments = 1
-    #     optional_arguments = 1
-    #     option_spec = {
-    #         'id': directives.unchanged
-    #     }
-
-    #     final_argument_whitespace = True
-    #     has_content = True
-
-    #     def run(self):
-    #         url = self.arguments[0].strip()
-    #         linkid = ""
-
-    #         if 'id' in self.options:
-    #             linkid = self.options['id']
-
-    #         linkHTML = "<a class='embedly' href='{0}'></a>".format(url, linkid)
-
-    #         return [nodes.raw('', linkHTML, format='html')]
-
 
     class EmbedlyCard(Directive):
         required_arguments = 1
         optional_arguments = 0
         option_spec = {
-            'title': directives.unchanged
+            'title': directives.unchanged,
+            'card-chrome': directives.nonnegative_int
         }
 
         final_argument_whitespace = True
@@ -44,11 +22,15 @@ def content_object_init(instance):
         def run(self):
             url = self.arguments[0].strip()
             title = ""
+            cardChrome = 0
 
             if 'title' in self.options:
                 title = self.options['title']
 
-            linkHTML = "<a class='embedly-card' data-card-chrome='0' href='{0}'>{1}</a>".format(url, title)
+            if 'card-chrome' in self.options:
+                cardChrome = self.options['card-chrome']
+
+            linkHTML = "<a class='embedly-card' data-card-chrome='{2}' href='{0}'>{1}</a>".format(url, title, cardChrome)
             scriptHTML = """
                 <script>
                 !function(a){
@@ -214,7 +196,6 @@ def content_object_init(instance):
 
             return [nodes.raw('', linkHTML, format='html')]
 
-    # directives.register_directive('embedly', Embedly)
     directives.register_directive('embedly-card', EmbedlyCard)
     directives.register_directive('gplus', GPlusCard)
     directives.register_directive('gmaps', GMapsCard)
