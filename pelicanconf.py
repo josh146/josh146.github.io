@@ -126,6 +126,7 @@ PLUGINS = ['render_math',
            'minify',
            'sitemap',
            'html_rst_directive',
+           'google_embed',
            'embedly_cards']
 
 GMAPS_KEY = 'AIzaSyBX58gSM6y0bd7VqQNPcw9chkmaHhHKUvw'

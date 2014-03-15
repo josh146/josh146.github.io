@@ -184,10 +184,10 @@ pre, .panel-group .panel,
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(153, 153, 153, .6) !important;
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="phone"], textarea, textarea:focus, select, select:focus {
-  border:#000 1px solid;
+  border:#ccc 1px solid;
   margin:0 !important;
-  padding:16px;
-  font-size:16px;
+  padding:14px;
+  font-size:14px;
   box-shadow:none !important;
   background:#fff;
   -webkit-border-radius:5px;

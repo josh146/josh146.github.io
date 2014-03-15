@@ -41,15 +41,15 @@ Testing some ReST features
 
 
 what
-  Definition lists associate a term with
-  a definition.
+    Definition lists associate a term with
+    a definition.
 
 how
-  The term is a one-line phrase, and the
-  definition is one or more paragraphs or
-  body elements, indented relative to the
-  term. Blank lines are not allowed
-  between term and definition.
+    The term is a one-line phrase, and the
+    definition is one or more paragraphs or
+    body elements, indented relative to the
+    term. Blank lines are not allowed
+    between term and definition.
 
 Autonumbered footnotes are
 possible, like using [#]_ and [#]_.
@@ -95,3 +95,6 @@ Embedding a PDF:
 
 .. embedly-card:: http://iza.ac/pdf/cv.pdf
     :card-chrome: 0
+
+.. gmaps:: The queens larder, london
+    :mode: place
