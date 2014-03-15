@@ -87,3 +87,11 @@ A Table
 +------------+ span rows. | - contain |
 | body row 4 |            | - blocks. |
 +------------+------------+-----------+
+
+Embedding a PDF
+----------------
+
+Embedding a PDF:
+
+.. embedly-card:: http://iza.ac/pdf/cv.pdf
+    :card-chrome: 0

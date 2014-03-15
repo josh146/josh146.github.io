@@ -57,9 +57,13 @@ some Bash code:
 
 
 An image:
-	.. embedly-card:: https://lh5.googleusercontent.com/n7iY8f5n8qJcZraH3bvRJdpdZiYlsT_wU5ZZznpKIxHU=w1351-h901-no
-        :card-chrome: 1
 
+.. embedly-card:: https://lh5.googleusercontent.com/n7iY8f5n8qJcZraH3bvRJdpdZiYlsT_wU5ZZznpKIxHU=w1351-h901-no
+    :card-chrome: 0
 
 .. embedly-card:: https://plus.google.com/photos/107452285898786120113/albums/5964705002702996625?authkey=CO_O09Wl9aCy2QE
 
+Embedding an article:
+
+.. embedly-card:: http://physics.stackexchange.com/questions/5265/cooling-a-cup-of-coffee-with-help-of-a-spoon
+    :card-chrome: 0
