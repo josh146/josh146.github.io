@@ -51,6 +51,7 @@
 <script type="text/javascript" src="{{ SITEURL }}/theme/js/application.js"></script>
 
 <script type="text/javascript" src="{{SITEURL}}/theme/js/slider.js"></script>
+<script src="http://cdn.embed.ly/jquery.embedly-3.1.1.min.js" type="text/javascript"></script>
 
 {% if GOOGLE_ANALYTICS %}
   <script type="text/javascript">
@@ -86,6 +87,15 @@
   s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
   }());
+</script>
+
+<script type="text/javascript">
+  // $(function() {
+  //   var options = {maxwidth: 400, maxheight: 400, chars: 200, autoplay: true};
+
+  //   $('.embedly').embedly({query: options, key: '{{EMBEDLY_KEY}}', method: 'replace'});
+  //   $('.embedly').embedly().css('backgroundColor','#dadada');
+  // });
 </script>
 
 {% if not nosearch %}

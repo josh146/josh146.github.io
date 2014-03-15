@@ -119,13 +119,16 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ['render_math',
            'neighbors',
            'summary',
-           'googleplus_comments',
+           # 'googleplus_comments',
            'pelican_youtube',
            'better_figures_and_images',
            'pelican-bibtex',
            'minify',
-           'sitemap']
+           'sitemap',
+           'html_rst_directive',
+           'embedly_cards']
 
+GMAPS_KEY = 'AIzaSyBX58gSM6y0bd7VqQNPcw9chkmaHhHKUvw'
 GPLUS_COMMENTS = False
 RESPONSIVE_IMAGES = True
 RESPONSIVE_IMAGES = True

@@ -57,7 +57,8 @@ some Bash code:
 
 
 An image:
+	.. embedly-card:: https://lh5.googleusercontent.com/n7iY8f5n8qJcZraH3bvRJdpdZiYlsT_wU5ZZznpKIxHU=w1351-h901-no
 
-    .. image:: https://photos-3.dropbox.com/t/0/AACJlxzteHmwsyRz5GCLSyiMmLsJetBnjfvqckZX-YAf5g/12/152896/jpeg/1024x768/3/1394823600/0/2/2013-12-20%2021.01.15.jpg/TzltaWJnDxZvJE3ZVQkWrP0a6mxQxbMV_k4Ezz-shVY
-        :scale: 10 %
+
+.. embedly-card:: https://plus.google.com/photos/107452285898786120113/albums/5964705002702996625?authkey=CO_O09Wl9aCy2QE
 
