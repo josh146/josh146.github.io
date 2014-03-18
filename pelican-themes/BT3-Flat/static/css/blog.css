@@ -18,7 +18,7 @@ code, tt {
   padding: 1px 4px 1px 4px;
   border-style:solid;
   border-width:1px;
-  border-color:#bbb;
+  border-color:#ddd;
   border-radius: 4px;
 }
 
@@ -219,7 +219,9 @@ li.tag-4 {
 }*/
 /** Responsive
  **************************************************************** **/
-  @media only screen and (max-width: 1024px) {
+ @media only screen and (max-width: 960px) {
+  textarea, code, tt, pre {
+    font-size:15px;
 }
  @media only screen and (max-width: 768px) {
   #blog .left {
