@@ -65,7 +65,7 @@
 
               <ul class="tagcloud">
                   {% for tag in tag_cloud %}
-                      <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/tags#{{ tag.0 }}-tag">{{ tag.0 }}</a></li>
+                      <li class="tag-{{ tag.1 }} tag-in-cloud" style="margin-bottom:-15px"><a href="{{ SITEURL }}/tags#{{ tag.0 }}-tag">{{ tag.0 }}</a>&thinsp;</li>
                   {% endfor %}
               </ul>
 
