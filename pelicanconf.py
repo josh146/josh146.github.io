@@ -16,6 +16,8 @@ COPYRIGHT = 'Copyright Josh Izaac, 2014'
 
 DISQUS_SITENAME = 'izaac'
 SWIFTYPE = 'LPcmywgYs12nMZT1EFp7'
+GOOGLE_ANALYTICS = 'UA-308113-3'
+GOOGLE_ANALYTICS_DOMAIN = 'iza.ac'
 
 TIMEZONE = 'Australia/Perth'
 
