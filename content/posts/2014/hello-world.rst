@@ -66,7 +66,7 @@ An image:
 .. embedly-card:: https://lh5.googleusercontent.com/n7iY8f5n8qJcZraH3bvRJdpdZiYlsT_wU5ZZznpKIxHU=w1351-h901-no
     :card-chrome: 0
 
-.. embedly-card:: https://plus.google.com/photos/107452285898786120113/albums/5964705002702996625?authkey=CO_O09Wl9aCy2QE
+.. embedly-card:: https://plus.google.com/photos/107452285898786120113/albums/5964705002702996625
 
 Embedding an article:
 
