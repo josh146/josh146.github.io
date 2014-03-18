@@ -18,6 +18,11 @@ Testing some latex:
 \\int_0^1 x^2 dx
 \\end{align}
 
+Pygments
+=========
+
+Some inline code to run an mpi based program is ``mpirun -np 2 python --help``. Now for some codeblocks:
+
 .. code-block:: python
 
     >>> # list unpacking

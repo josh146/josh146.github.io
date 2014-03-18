@@ -179,6 +179,11 @@ section.alternate.arrow-down {
 
 /** 02. Nav Bar
  **************************************************************** **/
+/*@media only screen and (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;    
+  }
+}*/
  #header.relative {
   margin:0;
   padding:0;
@@ -253,7 +258,8 @@ section.alternate.arrow-down {
 #header .navbar-inverse ul.nav li.active a, #header .navbar-inverse ul.nav a:hover {
   /*color:#ABA798;*/
   color:#8B0000;
-  background:#232428;
+  /*background:#232428;*/
+  background:#000000;
 }
 #header .navbar-collapse {
   padding:0;

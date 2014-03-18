@@ -1,6 +1,13 @@
 // Document ready function
 $(document).ready(function () {
 
+    //Add Hover effect to menus
+    $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).slideDown();
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp();
+    });
+
     var menubar = document.getElementById("collapse")
 
     if ( $(window).width() > 767 ) {  

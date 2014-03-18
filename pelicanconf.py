@@ -62,7 +62,7 @@ try:
                  ('cv', 'http://127.0.0.1:8000/pdf/cv.pdf'),
                  ('Archive', 'http://127.0.0.1:8000/archives'),
                  ('Feed', 'http://127.0.0.1:8000/rss.xml'),
-            	 ('Search', 'http://127.0.0.1:8000/search'),)
+                 ('Search', 'http://127.0.0.1:8000/search'),)
 except:
     LINKS = (('Publications', SITEURL+'/publications'),
              ('cv', SITEURL+'/pdf/cv.pdf'),
@@ -156,6 +156,8 @@ THEME = "pelican-themes/BT3-Flat"
 
 
 if THEME == "pelican-themes/BT3-Flat":
+    PYGMENT_STYLE = 'pygment-iris'
+
     HOME_PAGE_STYLE = 'half'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
     BG_IMAGE = "images/cover.JPG"
