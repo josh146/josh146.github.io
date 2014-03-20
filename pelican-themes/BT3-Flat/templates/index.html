@@ -340,6 +340,7 @@
 
 <script type="text/javascript">
   (function( $ ) {
+
       $.fn.parallax = function ( userSettings ) {
           var options = $.extend( {}, $.fn.parallax.defaults, userSettings );
 
@@ -406,7 +407,7 @@
 </script>
 
 <script type="text/javascript">
-
+$("body").niceScroll();
   var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
   $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.6*scrollPercent+0.7,1));
 
@@ -422,6 +423,12 @@
 
     $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,1));
 	});
+</script>
+
+<script type="text/javascript">
+  // $(function () {
+  //   $.srSmoothscroll();
+  // });
 
 </script>
 

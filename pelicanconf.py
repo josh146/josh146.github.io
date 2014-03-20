@@ -169,7 +169,7 @@ if THEME == "pelican-themes/BT3-Flat":
             about&nbsp;<i class="fa fa-chevron-circle-down"></i>
         </a>
         """
-    BG_BLUR = True
+    BG_BLUR = False
 
     personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
                      'http://uwa.edu.au']
