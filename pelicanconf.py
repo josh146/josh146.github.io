@@ -160,7 +160,7 @@ THEME = "pelican-themes/BT3-Flat"
 if THEME == "pelican-themes/BT3-Flat":
     PYGMENT_STYLE = 'pygment-iris'
 
-    HOME_PAGE_STYLE = 'half'
+    HOME_PAGE_STYLE = 'full'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
     BG_IMAGE = "images/cover.JPG"
     BG_IMAGE_TYPE = HOME_PAGE_STYLE+"screen-img"
@@ -169,6 +169,7 @@ if THEME == "pelican-themes/BT3-Flat":
             about&nbsp;<i class="fa fa-chevron-circle-down"></i>
         </a>
         """
+    BG_BLUR = True
 
     personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
                      'http://uwa.edu.au']
