@@ -3,27 +3,45 @@
   var ua = navigator.userAgent,
     isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
 
+  var iOS = /(iPad|iPhone|iPod)/g.test( navigator.userAgent );
+
   if (isMobileWebkit) {
-    $('html').addClass('mobile');
+    // $('html').addClass('mobile');
   }
 
+  if (iOS) {
+    // $("html, body").css("overflow", "scroll");
+    // $("html, body").css("-webkit-overflow-scrolling", "touch");
+    $("#ipadBG").css("display", "block");
+    $(".fullscreen-img").css("display", "none");
+  };
+
   $(function(){
-    var iScrollInstance;
+    // var iScrollInstance;
 
     if (isMobileWebkit) {
-      iScrollInstance = new iScroll('wrapper');
+      // iScrollInstance = new iScroll('wrapper');
 
-      $('#scroller').stellar({
-        scrollProperty: 'transform',
-        positionProperty: 'transform',
-        horizontalScrolling: false,
-        verticalOffset: 50
-      });
+      // $('#scroller').stellar({
+      //   scrollProperty: 'transform',
+      //   positionProperty: 'transform',
+      //   horizontalScrolling: false,
+      //   verticalOffset: 50
+      // });
     } else {
-      $.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 50
-      });
+      if ( $(window).width() > 767) {
+        $.stellar({
+          horizontalScrolling: false,
+          verticalOffset: 400
+        });
+      } else {
+        $.stellar({
+          horizontalScrolling: false,
+          verticalOffset: 50
+        });        
+      }
+
+      $("body").niceScroll();
     }
   });
 
