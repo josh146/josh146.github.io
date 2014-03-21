@@ -44,393 +44,322 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-    <div id="head-content">
-      <!-- HOME -->
-      <section id="home" class="{{HEADER_SIZE}}"><!-- full-screen or half-screen (550px height) -->
+    <div id="wrapper">
+      <div id="scroller">
 
-        {% if BG_IMAGE %}
-          <div id="slider">
+        <div id="head-content">
+          <!-- HOME -->
+          <section id="home" class="{{HEADER_SIZE}}"><!-- full-screen or half-screen (550px height) -->
 
-            <ul class="slides-container">
-              <li>
-                {% if BG_IMAGE_CAPTION %}
-                  <div class="image-caption">
-                    <hr /><hr />
-                    <div class="inner">
-                      <h2 class="bigtext strtoupper nomargin">{{ BG_IMAGE_CAPTION }}</h2>
-                    </div>
-                    <hr /><hr />
-                  </div>
-                {% endif %}
-                <div style="background-image: url('{{BG_IMAGE}}');" class="{{BG_IMAGE_TYPE}}"></div>
-                <span class="overlay"></span>
-              </li>
-            </ul>
-          </div>
-        {% endif %}
+            {% if BG_IMAGE %}
+              <div id="slider">
 
-      </section>
-      <!-- /HOME -->
-    </div>
-
-    <!-- Main Nav -->
-    <header id="header" class="relative">
-
-      <nav class="navbar navbar-inverse" role="navigation" id="slide-nav" data-swiftype-index="false">
-        <div class="container">
-
-          <div class="navbar-left">
-            <a class="navbar-toggle"> 
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <a class="navbar-brand">
-                <h1>{{ SITENAME|e }}&nbsp;</h1>
-              </a>
-            </a>
-            <div id="socialbarSMALL" style="">
-              {% for group_title, group_link in SOCIAL %}
-                <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
-              {% endfor %}
-            </div>
-          </div>
-
-          <div class="navbar-right" id="socialbarBIG" style="">
-            {% for group_title, group_link in SOCIAL %}
-              <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
-            {% endfor %}
-          </div>
-          
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div id="slidemenu">
-
-            <!-- Fullscreen Button - Unavailable for IE -->
-            <!-- <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a> -->
-
-            <ul class="nav navbar-nav navbar-right" id="collapse" style="display:none">
-              <li class="active"><a href="#home" class="scrollTo" id="scroll-home">Home</a></li>
-              <li><a href="#about" class="scrollTo" id="scroll-about">About</a></li>
-              <li><a href="#work" class="scrollTo" id="scroll-work">Work</a></li>
-              {% if MENUITEMS %}
-                {% for title, link in MENUITEMS %}
-                  <li><a href="{{link}}">{{title}}</a></li>
-                {% endfor %}
-              {% endif %}
-              {% if LINKS %}
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{LINK_MENU_NAME}} <b class="caret"></b></a>
-                  <ul class="dropdown-menu" style="background-color:#000">
-                  {% for site_title, site_link in LINKS %}
-                    <li style="background-color:#000"><a href="{{site_link}}">{{site_title}}</a></li>
-                  {% endfor %}
-                  </ul>
-                </li>
-              {% endif %}
-            </ul>
-          </div><!-- /.navbar-collapse -->
-
-        </div>
-      </nav>
-
-    </header>
-    <!-- /Main Nav -->
-
-    <div id="page-content">
-
-<!--       <section class="well" style="display:none;text-align:left" id="searchresults">
-      <h3>Search results</h3>
-      <div id="st-results-container"></div>
-      </section>
-      <div id="blog-content-area"> -->
-
-      <!-- ABOUT -->
-      <section id="about">
-        <div class="container">
-          <header class="text-center">
-            <h1>ABOUT ME</h1>
-          </header>
-
-          <div class="divider"><!-- lines divider --></div>
-
-          {% if PERSONAL_INFO %}
-            <article class="text-center big-paragraph">
-              <p>{{PERSONAL_INFO}}</p>
-            </article>
-          {% endif %}
-
-          {% if PERSONAL_PHOTO %}
-            <div class="me-picture text-center">
-              <div class="item">
-                <img class="img-responsive" src="{{PERSONAL_PHOTO}}" width="200" height="200" alt="" />
-              </div><hr />
-            </div>
-          {% endif %}
-
-          <article>
-            <div class="row text-left">
-
-              {% if PERSONAL_INFO_SEC1 %}
-              <div class="col-md-4">
-                <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
-                <p>{{PERSONAL_INFO_SEC1}}</p>
-              </div>
-              {% endif %}
-
-
-              {% if PERSONAL_INFO_SEC2 %}
-              <div class="col-md-4">
-                <h3>{{PERSONAL_INFO_SEC2_TITLE}}</h3>
-                <p>{{PERSONAL_INFO_SEC2}}</p>
-              </div>
-              {% endif %}
-
-
-              {% if PERSONAL_INFO_SEC3 %}
-              <div class="col-md-4">
-                <h3>{{PERSONAL_INFO_SEC3_TITLE}}</h3>
-                <p>{{PERSONAL_INFO_SEC3}}</p>
-              </div>
-              {% endif %}
-
-            </div>
-          </article>
-
-        </div>
-      </section>
-      <!-- /ABOUT -->
-
-      <!-- WORK -->
-      <section id="work" class="alternate arrow-down">
-        <div class="container">
-          <header class="text-center">
-            <h1>MY WORK</h1>
-          </header>
-
-          <div class="divider"><!-- lines divider --></div>
-
-          {% if WORK_DESCRIPTION %}
-          <article>
-              {{WORK_DESCRIPTION}}
-          </article>
-          {% endif %}
-
-        {% if WORK_PUBLICATIONS %}
-        <article>
-          <script type="text/javascript">
-              function disp(s) {
-                  var win;
-                  var doc;
-                  win = window.open("", "WINDOWID");
-                  doc = win.document;
-                  doc.open("text/plain");
-                  doc.write("<pre>" + s + "</pre>");
-                  doc.close();
-              }
-          </script>
-              <h1 class="entry-title" align=left>Publications</h1>
-              <I><h3 align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ>google citations</a></h3></I>
-          <br>
-              <ol>
-              {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-              <li id="{{ key }}"><p align=left>{{ text }}
-              [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
-              {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
-              {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
-              {% endfor %}
-              </p></li>
-              {% endfor %}
-              </ol>
-          </article>
-          {% endif %}
-          <br>
-
-          {% if WORK_LIST %}
-          <div id="portfolio" class="text-center animate_fade_in">
-            <h1 class="entry-title" align=left>Portfolio</h1>
-            <br>
-
-            <div class="row">
-
-              <ul class="sort-destination isotope" data-sort-id="isotope-list">
-
-                {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
-                  {% if work_type == 'link' %}
-                    <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
-                      <a class="external" href="{{work_link}}" target="_blank">
-                        <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
-                        <div class="caption">
-                          <i class="rounded fa fa-link"></i>
-                          <h3>{{work_title}}</h3>
-                          <p>{{work_description}}</p>
+                <ul class="slides-container">
+                  <li>
+                    {% if BG_IMAGE_CAPTION %}
+                      <div class="image-caption">
+                        <hr /><hr />
+                        <div class="inner">
+                          <h2 class="bigtext strtoupper nomargin">{{ BG_IMAGE_CAPTION }}</h2>
                         </div>
-                      </a>
+                        <hr /><hr />
+                      </div>
+                    {% endif %}
+                    <div style="background-image: url('{{BG_IMAGE}}');" class="{{BG_IMAGE_TYPE}}" data-stellar-background-ratio="0.4"></div>
+                    <span class="overlay"></span>
+                  </li>
+                </ul>
+              </div>
+            {% endif %}
+
+          </section>
+          <!-- /HOME -->
+        </div>
+
+        <header id="header" class="relative">
+          <nav class="navbar navbar-inverse" role="navigation" id="slide-nav" data-swiftype-index="false">
+            <div class="container">
+
+              <div class="navbar-left">
+                <a class="navbar-toggle"> 
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <a class="navbar-brand">
+                    <h1>{{ SITENAME|e }}&nbsp;</h1>
+                  </a>
+                </a>
+                <div id="socialbarSMALL" style="">
+                  {% for group_title, group_link in SOCIAL %}
+                    <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+                  {% endfor %}
+                </div>
+              </div>
+
+              <div class="navbar-right" id="socialbarBIG" style="">
+                {% for group_title, group_link in SOCIAL %}
+                  <a href="{{group_link}}" class="social fa fa-{{group_title|lower}}"></a>
+                {% endfor %}
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div id="slidemenu">
+
+                <!-- Fullscreen Button - Unavailable for IE -->
+                <!-- <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a> -->
+
+                <ul class="nav navbar-nav navbar-right" id="collapse" style="display:none">
+                  <li class="active"><a href="#home" class="scrollTo" id="scroll-home">Home</a></li>
+                  <li><a href="#about" class="scrollTo" id="scroll-about">About</a></li>
+                  <li><a href="#work" class="scrollTo" id="scroll-work">Work</a></li>
+                  {% if MENUITEMS %}
+                    {% for title, link in MENUITEMS %}
+                      <li><a href="{{link}}">{{title}}</a></li>
+                    {% endfor %}
+                  {% endif %}
+                  {% if LINKS %}
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{LINK_MENU_NAME}} <b class="caret"></b></a>
+                      <ul class="dropdown-menu" style="background-color:#000">
+                      {% for site_title, site_link in LINKS %}
+                        <li style="background-color:#000"><a href="{{site_link}}">{{site_title}}</a></li>
+                      {% endfor %}
+                      </ul>
                     </li>
                   {% endif %}
-                {% endfor %}
+                </ul>
+              </div><!-- /.navbar-collapse -->
 
-              </ul>
             </div>
+          </nav>
+        </header>
 
-          </div>
+        <div id="page-content">
+
+          <!-- <section class="well" style="display:none;text-align:left" id="searchresults">
+          <h3>Search results</h3>
+          <div id="st-results-container"></div>
+          </section>
+          <div id="blog-content-area"> -->
+
+          <!-- ABOUT -->
+          <section id="about">
+            <div class="container">
+              <header class="text-center">
+                <h1>ABOUT ME</h1>
+              </header>
+
+              <div class="divider"><!-- lines divider --></div>
+
+              {% if PERSONAL_INFO %}
+                <article class="text-center big-paragraph">
+                  <p>{{PERSONAL_INFO}}</p>
+                </article>
+              {% endif %}
+
+              {% if PERSONAL_PHOTO %}
+                <div class="me-picture text-center">
+                  <div class="item">
+                    <img class="img-responsive" src="{{PERSONAL_PHOTO}}" width="200" height="200" alt="" />
+                  </div><hr />
+                </div>
+              {% endif %}
+
+              <article>
+                <div class="row text-left">
+
+                  {% if PERSONAL_INFO_SEC1 %}
+                  <div class="col-md-4">
+                    <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
+                    <p>{{PERSONAL_INFO_SEC1}}</p>
+                  </div>
+                  {% endif %}
+
+
+                  {% if PERSONAL_INFO_SEC2 %}
+                  <div class="col-md-4">
+                    <h3>{{PERSONAL_INFO_SEC2_TITLE}}</h3>
+                    <p>{{PERSONAL_INFO_SEC2}}</p>
+                  </div>
+                  {% endif %}
+
+
+                  {% if PERSONAL_INFO_SEC3 %}
+                  <div class="col-md-4">
+                    <h3>{{PERSONAL_INFO_SEC3_TITLE}}</h3>
+                    <p>{{PERSONAL_INFO_SEC3}}</p>
+                  </div>
+                  {% endif %}
+
+                </div>
+              </article>
+
+            </div>
+          </section>
+          <!-- /ABOUT -->
+
+          <!-- WORK -->
+          <section id="work" class="alternate arrow-down">
+            <div class="container">
+              <header class="text-center">
+                <h1>MY WORK</h1>
+              </header>
+
+              <div class="divider"><!-- lines divider --></div>
+
+              {% if WORK_DESCRIPTION %}
+              <article>
+                  {{WORK_DESCRIPTION}}
+              </article>
+              {% endif %}
+
+            {% if WORK_PUBLICATIONS %}
+            <article>
+              <script type="text/javascript">
+                  function disp(s) {
+                      var win;
+                      var doc;
+                      win = window.open("", "WINDOWID");
+                      doc = win.document;
+                      doc.open("text/plain");
+                      doc.write("<pre>" + s + "</pre>");
+                      doc.close();
+                  }
+              </script>
+                  <h1 class="entry-title" align=left>Publications</h1>
+                  <I><h3 align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ>google citations</a></h3></I>
+              <br>
+                  <ol>
+                  {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
+                  <li id="{{ key }}"><p align=left>{{ text }}
+                  [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+                  {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
+                  {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+                  {% endfor %}
+                  </p></li>
+                  {% endfor %}
+                  </ol>
+              </article>
+              {% endif %}
+              <br>
+
+              {% if WORK_LIST %}
+              <div id="portfolio" class="text-center animate_fade_in">
+                <h1 class="entry-title" align=left>Portfolio</h1>
+                <br>
+
+                <div class="row">
+
+                  <ul class="sort-destination isotope" data-sort-id="isotope-list">
+
+                    {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
+                      {% if work_type == 'link' %}
+                        <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
+                          <a class="external" href="{{work_link}}" target="_blank">
+                            <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
+                            <div class="caption">
+                              <i class="rounded fa fa-link"></i>
+                              <h3>{{work_title}}</h3>
+                              <p>{{work_description}}</p>
+                            </div>
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+
+                  </ul>
+                </div>
+
+              </div>
+              {% endif %}
+
+            
+            </div>
+          </section>
+          <!-- /WORK -->
+
+          {% if SHOW_RECENT_BLOGS %}
+          <!-- BLOG -->
+          <section id="quick-blog" class="alternate">
+            <div class="container">
+
+              <header class="text-center">
+                <h1>BLOG</h1>
+                <p>RECENT ENTRIES</p>
+              </header>
+
+              <div class="divider"><!-- lines divider --></div>
+
+              <article>
+                <div class="row animate_fade_in">
+
+                  {% for article in articles[:3] %}
+                    <div class="col-md-4 quick-hover">
+                      <div class="quick-item">
+                      {% if article.featured %}
+                        <figure class="media-preview">
+                        {% if article.type|lower=='image' %}
+                          <img src="{{article.featured}}" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
+                        {%elif article.type|lower=='video'%}
+                          <iframe class="fitvids" src="{{article.featured}}" width="800" height="450"></iframe>
+                        {%elif article.type|lower=='audio'%}
+                          <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
+                        {% endif %}
+                        </figure>
+                      {% endif %}
+                        {% if article.link %}
+                          <h4><a href="{{ article.link }}">{{article.title}} <i class="fa fa-external-link" target="_blank"></i></a></h4>
+                        {%else%}
+                          <h4><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></h4>
+                        {%endif%}
+                        <p>{{article.summary}}</p>
+                        <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
+                      </div>
+                    </div>
+                  {% endfor %} 
+
+                </div>
+              </article>
+
+              <div class="divider"><!-- lines divider --></div>
+
+              <article class="text-center" data-animation="bounceIn">
+                <a href="blog" class="plusNav" title="more from blog">+</a> 
+              </article>
+
+            </div>
+          </section>
+          <!-- /BLOG -->
           {% endif %}
 
-        
+          {% set nosearch = True %}
+          {% include "_includes/footer.html" %}
         </div>
-      </section>
-      <!-- /WORK -->
 
-      {% if SHOW_RECENT_BLOGS %}
-      <!-- BLOG -->
-      <section id="quick-blog" class="alternate">
-        <div class="container">
-
-          <header class="text-center">
-            <h1>BLOG</h1>
-            <p>RECENT ENTRIES</p>
-          </header>
-
-          <div class="divider"><!-- lines divider --></div>
-
-          <article>
-            <div class="row animate_fade_in">
-
-              {% for article in articles[:3] %}
-                <div class="col-md-4 quick-hover">
-                  <div class="quick-item">
-                  {% if article.featured %}
-                    <figure class="media-preview">
-                    {% if article.type|lower=='image' %}
-                      <img src="{{article.featured}}" class="img-responsive" data-src="holder.js/360x200/#676767:#555555/auto/" alt="img" />
-                    {%elif article.type|lower=='video'%}
-                      <iframe class="fitvids" src="{{article.featured}}" width="800" height="450"></iframe>
-                    {%elif article.type|lower=='audio'%}
-                      <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
-                    {% endif %}
-                    </figure>
-                  {% endif %}
-                    {% if article.link %}
-                      <h4><a href="{{ article.link }}">{{article.title}} <i class="fa fa-external-link" target="_blank"></i></a></h4>
-                    {%else%}
-                      <h4><a href="{{ SITEURL }}/{{ article.url }}">{{article.title}}</a></h4>
-                    {%endif%}
-                    <p>{{article.summary}}</p>
-                    <a href="{{ SITEURL }}/{{ article.url }}" class="btn btn-xs"><i class="fa fa-sign-out"></i> READ MORE</a>
-                  </div>
-                </div>
-              {% endfor %} 
-
-            </div>
-          </article>
-
-          <div class="divider"><!-- lines divider --></div>
-
-          <article class="text-center" data-animation="bounceIn">
-            <a href="blog" class="plusNav" title="more from blog">+</a> 
-          </article>
-
-        </div>
-      </section>
-      <!-- /BLOG -->
-      {% endif %}
-
-    {% set nosearch = True %}
-    {% include "_includes/footer.html" %}
+      </div>
     </div>
 
-<script type="text/javascript">
-  (function( $ ) {
+    <script type="text/javascript" src="{{SITEURL}}/theme/js/parallax.js"></script>
+    <script type="text/javascript">
+      $("body").niceScroll();
 
-      $.fn.parallax = function ( userSettings ) {
-          var options = $.extend( {}, $.fn.parallax.defaults, userSettings );
+      var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
+      $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
 
-          return this.each(function () {
-              var $this = $(this),
-                  isX = options.axis === 'x',
-                  origPos = ( $this.css( 'background-position' ) || '' ).split(' '),
-                  origX = $this.css( 'background-position-x' ) || origPos[ 0 ],
-                  origY = $this.css( 'background-position-y' ) || origPos[ 1 ],
-                  dist = function () {
-                      return -$( window )[ isX ? 'scrollLeft' : 'scrollTop' ]();
-                  };
-              $this
-                  // .css( 'background-attachment', 'fixed' )
-                  .addClass( 'inview' );
+      // $('.{{BG_IMAGE_TYPE}}').parallax({ speed: 0.4, axis: 'y' });
+      // $('.image-caption').parallaxDiv({ speed: -0.4, axis: 'y' });
 
-              $this.bind('inview', function ( e, visible ) {
-                  $this[ visible ? 'addClass' : 'removeClass' ]( 'inview' );
-              });
+    	$( document ).scroll(function () {
+        var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
 
-              $( window ).bind( 'scroll', function () {
-                  if ( !$this.hasClass( 'inview' )) { return; }
-                  var xPos = isX ? ( dist() * options.speed ) + 'px' : origX,
-                      yPos = isX ? origY : ( dist() * options.speed ) + 'px';
-                  $this.css( 'background-position', xPos + ' calc(' + origY + ' + ' + yPos +')' );
-              });
-          });
-      };
+        {% if BG_BLUR %}
+          $('.{{BG_IMAGE_TYPE}}').Vague({intensity:scrollPercent}).blur();
+        {% endif %}
 
-      $.fn.parallax.defaults = {
-          start: 0,
-          stop: $( document ).height(),
-          speed: 1,
-          axis: 'x'
-      };
-
-      $.fn.parallaxDiv = function ( userSettings ) {
-          var options = $.extend( {}, $.fn.parallax.defaults, userSettings );
-
-          return this.each(function () {
-              var $this = $(this),
-                  isX = options.axis === 'x',
-                  origTopMargin = $this.css( 'margin-top' ) || origPos[ 1 ],
-                  dist = function () {
-                      return -$( window )[ 'scrollTop' ]();
-                  };
-              $this
-                  // .css( 'background-attachment', 'fixed' )
-                  .addClass( 'inview' );
-
-              $this.bind('inview', function ( e, visible ) {
-                  $this[ visible ? 'addClass' : 'removeClass' ]( 'inview' );
-              });
-
-              $( window ).bind( 'scroll', function () {
-                  if ( !$this.hasClass( 'inview' )) { return; }
-                    var yPos = ( dist() * options.speed ) + 'px';
-                  $this.css( 'margin-top', ' calc(' + origTopMargin + ' + ' + yPos +')' );
-              });
-          });
-      };
-
-  })( jQuery );
-</script>
-
-<script type="text/javascript">
-$("body").niceScroll();
-  var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
-  $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.6*scrollPercent+0.7,1));
-
-  $('.{{BG_IMAGE_TYPE}}').parallax({ speed: -0.6, axis: 'y' });
-  $('.image-caption').parallaxDiv({ speed: -0.6, axis: 'y' });
-
-	$( document ).scroll(function () {
-    var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
-
-    {% if BG_BLUR %}
-      $('.{{BG_IMAGE_TYPE}}').Vague({intensity:scrollPercent*5}).blur();
-    {% endif %}
-
-    $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,1));
-	});
-</script>
-
-<script type="text/javascript">
-  // $(function () {
-  //   $.srSmoothscroll();
-  // });
-
-</script>
+        $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
+    	});
+    </script>
 
   </body>
 </html>
