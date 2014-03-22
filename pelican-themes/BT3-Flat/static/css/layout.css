@@ -88,7 +88,7 @@ a, a:focus, a:hover, a:active {
  html, body {
 /*  overflow-x:hidden;
   overflow-x:hidden;*/
-  min-height: 100%;
+  height: 100%;
 }
 
 .container {
@@ -241,7 +241,7 @@ section.alternate.arrow-down {
 #header .navbar-inverse {
   border:0;
   border-radius:0;
-  background: rgb(15, 17, 19);
+  background: rgb(60,60,60);/*rgb(15, 17, 19);*/
 }
 #header .navbar-inverse ul.nav {
   margin-right:20px;
@@ -252,14 +252,14 @@ section.alternate.arrow-down {
   font-size:14px;
   letter-spacing:.1em;
   font-weight:400;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 #header .navbar-inverse ul.nav li.active a, #header .navbar-inverse ul.nav a:hover {
   /*color:#ABA798;*/
-  color:#8B0000;
+  color:#FFF;
   /*background:#232428;*/
-  background:#000000;
+  background:rgba(75, 0, 0, 0.5);
 }
 #header .navbar-collapse {
   padding:0;
@@ -437,6 +437,7 @@ section.alternate.arrow-down {
   padding:10px 0;
   font-size:13px;
   background:#0F1113;
+  /*background: rgb(40,40,40);*/
   position:relative;
   height: 50px;
 }
@@ -480,7 +481,7 @@ footer a.toTop {
 
 
 /** 12. Portfolio
- **************************************************************** **/
+ **************************************************************** *
  #portfolio .isotope-item {
   max-width:360px;
   display:inline-block;

@@ -15,6 +15,7 @@ $(document).ready(function () {
     }  
     else {  
         menubar.className="nav navbar-nav navbar-right";
+        $('.navbar-inverse').css('background','rgb(15,17,19)')
     };
     $('#collapse').show();
 

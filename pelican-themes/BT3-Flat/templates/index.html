@@ -338,7 +338,6 @@
     <script type="text/javascript">
 
       var scrollPercent = 1.0 - (($(window).height() - $(window).scrollTop()) / $(window).height());
-      $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
 
       if (!isMobileWebkit) {
         createParallax('.{{BG_IMAGE_TYPE}}',0.4);
@@ -354,17 +353,16 @@
         $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
     	});
 
-    </script>
+      $(document).ready( function() {
 
-    <script type="text/javascript">
+        if ( $(window).width() > 1023 && $(window).scrollTop()==0) {
+          $(window).scrollTop( 0.4*$(window).height() );
+        };
+        
+        $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
 
-      if ( $(window).width() > 1023 && $(window).scrollTop()==0) {
+      });
 
-        $(document).ready( function() {
-          $(window).scrollTop( 0.4*$(window).height() );          
-        });
-
-      };
     </script>
 
   </body>
