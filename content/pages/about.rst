@@ -98,3 +98,9 @@ Embedding a PDF:
 
 .. gmaps:: The queens larder, london
     :mode: place
+
+.. directions::
+    :mode: transit
+    :origin: Cardiff Castle
+    :destination: Cardiff Bay
+    :align: center

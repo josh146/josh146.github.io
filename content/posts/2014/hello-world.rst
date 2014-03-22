@@ -72,3 +72,15 @@ Embedding an article:
 
 .. embedly-card:: http://physics.stackexchange.com/questions/5265/cooling-a-cup-of-coffee-with-help-of-a-spoon
     :card-chrome: 0
+
+
+Google-embed:
+
+.. static-map:: Cardiff Castle
+    :zoom: 15
+    :markers: color:red label:A Cardiff+Castle & color:red label:Cardiff+Castle Cardiff+Castle
+
+Streetview:
+
+.. streetview:: Paragon orchard rd
+
