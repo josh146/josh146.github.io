@@ -1,3 +1,4 @@
+##############
 Embedly Cards
 ##############
 :subtitle: Pelican plugin
@@ -7,7 +8,11 @@ Embedly Cards
 :category: Technology
 :author: Josh Izaac
 
-This blog is built using `Pelican <http://getpelican.com>`__, an awesome static blog generator written in Python, requiring no database or server-side scripting - in fact, all content is generated from simple reStructuredText or Markdown files (including this page, if you look at the source). Compared to a CMS like Wordpress, this results in increased speed, the ability to use static "web-hosts" (like `GitHub <http://github.com>`__ or `Dropbox <http://dropbox.com>`__ - not strictly what they were designed for, especially Dropbox, but it works - and they're free!), and, depending on your point of view, easier content management/backup. Of course, you lose certain features, like online or mobile posting, but with DroidEdit on Android now supporting Git, online editing of files on GitHub, and the ability to build your site automatically on git pushes using continuous integration sites such as `Travis CI <http://travis-ci.com>`__ (see `this tutorial <http://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html>`__), it's very nearly there.
+.. |br| raw:: html
+
+	<br />
+
+This blog is built using `Pelican <http://getpelican.com>`__ [#f1]_, an awesome static blog generator written in Python, requiring no database or server-side scripting - in fact, all content is generated from simple reStructuredText or Markdown files (including this page, if you look at the source). Compared to a CMS like Wordpress, this results in increased speed, the ability to use static "web-hosts" (like `GitHub <http://github.com>`__ or `Dropbox <http://dropbox.com>`__ - not strictly what they were designed for, especially Dropbox, but it works - and they're free!), and, depending on your point of view, easier content management/backup. Of course, you lose certain features, like online or mobile posting, but with DroidEdit on Android now supporting Git, online editing of files on GitHub, and the ability to build your site automatically on git pushes using continuous integration sites such as `Travis CI <http://travis-ci.com>`__ (see `this tutorial <http://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html>`__), it's very nearly there.
 
 However, as reStructuredText is not designed for dynamic web content, embedding external content is difficult - this is alleviated somewhat by `Pelican plugins <https://github.com/getpelican/pelican-plugins>`__ such as Pelican-Youtube_ and Pelican-Vimeo_, but this approach requires the continual development of similar plugins for further types of content. On the other end of the spectrum, there is html_rst_directive_; but this requires that
 
@@ -37,7 +42,10 @@ Check out the `Github repo <https://github.com/josh146/embedly_cards>`__ for mor
 Examples
 ------------
 
-Embedding a Google+ album using the public share key:
+|br|
+
+Embedding a Google+ album:
+***************************
 
 .. code-block:: rest
 
@@ -45,7 +53,10 @@ Embedding a Google+ album using the public share key:
 
 .. embedly-card:: https://plus.google.com/photos/107452285898786120113/albums/5962126455360751089?authkey=CKv687-PodGg0gE
 
+|br|
+
 Embedding a photo:
+***************************
 
 .. code-block:: rest
 
@@ -53,7 +64,10 @@ Embedding a photo:
 
 .. embedly-card:: https://lh5.googleusercontent.com/n7iY8f5n8qJcZraH3bvRJdpdZiYlsT_wU5ZZznpKIxHU=w1351-h901-no
 
+|br|
+
 Embedding an StackOverflow post:
+*********************************
 
 .. code-block:: rest
 
@@ -61,7 +75,10 @@ Embedding an StackOverflow post:
 
 .. embedly-card:: http://physics.stackexchange.com/questions/5265/cooling-a-cup-of-coffee-with-help-of-a-spoon
 
-Embedding a YouTube video *with card border*:
+|br|
+
+Embedding a YouTube video *with* card border:
+************************************************
 
 .. code-block:: rest
 
@@ -71,7 +88,10 @@ Embedding a YouTube video *with card border*:
 .. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
 	:card-chrome: 1
 
-Embedding a YouTube video *without card border*:
+|br|
+
+Embedding a YouTube video *without* card border:
+*************************************************
 
 .. code-block:: rest
 
@@ -79,7 +99,10 @@ Embedding a YouTube video *without card border*:
 
 .. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
 
+|br|
+
 An embedded PDF:
+*******************
 
 .. code-block:: rest
 
@@ -96,3 +119,7 @@ An embedded PDF:
 .. _oEmbed: http://oembed.com/
 .. _Embed.ly: http://embed.ly/
 .. _sphinxcontrib.embedly: https://jezdez.com/2014/01/26/embedding-external-content-in-rst/
+
+.. rubric:: Footnotes
+
+.. [#f1] Pelican also has a large number of `themes available <https://github.com/getpelican/pelican-themes>`_; this blog is based on a mixture of the excellent Bootstrap-based `BT3-Flat <https://github.com/KenMercusLai/BT3-Flat>`_ and `Elegant <http://oncrashreboot.com/elegant-best-pelican-theme-features>`_.

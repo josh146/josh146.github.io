@@ -29,11 +29,19 @@
         {% endfor %}
       {% endif %}
       <a href="{{ SITEURL }}/{{article.url}}#disqus_thread" class="scrollTo label label-default light" data-disqus-identifier="{{article.url}}"><i class="fa fa-comment-o"></i> ?? Comments</a>
-      <span class="label label-default light">{{ article.locale_date }}</span> 
+      <span class="label label-default light">{{ article.locale_date }}</span>
     </small>
   </header>
 
   <article class='content'>
+    {% if article.modified %}
+      <small><span style="font-style:italic;">
+        Last modified: {{article.modified}}
+        {% if article.update %}
+          <br>{{ article.update }}
+        {% endif %}
+      </span></small>
+    {% endif %}
     {% if article.featured %}
       {% if article.type|lower =='image' %}
         <figure>
