@@ -30,6 +30,7 @@
 
           <!-- SIDEBAR -->
           <div class="right col-md-3" id="blogSidebar" data-swiftype-index="false">
+            {% block sidebar %}
 
             {% if SWIFTYPE %}
               <!-- blog search -->
@@ -106,6 +107,8 @@
 
             </div>
 
+
+            {% endblock %}
           </div>
           <!-- /SIDEBAR -->
 

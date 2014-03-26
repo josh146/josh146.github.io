@@ -121,6 +121,8 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ['render_math',
            'neighbors',
            'summary',
+           'related_posts',
+           'twitter_bootstrap_rst_directives',
            # 'googleplus_comments',
            'pelican_youtube',
            'better_figures_and_images',

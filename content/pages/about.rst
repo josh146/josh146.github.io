@@ -9,98 +9,85 @@ About
 Introduction
 ------------
 
-Hi!
-
-This is my first rst post!
-
-And this is a link to a `page <iza.ac>`_
-
-This is a test list:
-
-* option 1
-* option 2
-
-This is another unordered list:
-
-- option1
-- option 2
-- option3
-  
-This is an ordered list:
-
-#. Option number 1
-#. option number 2
-#. This should be formatted as option number 3
-
-------------
-
-blah blah blah
-
-Testing some ReST features
-----------------------------
 
 
-what
-    Definition lists associate a term with
-    a definition.
+.. label-default::
+    
+    This is a default label content
 
-how
-    The term is a one-line phrase, and the
-    definition is one or more paragraphs or
-    body elements, indented relative to the
-    term. Blank lines are not allowed
-    between term and definition.
+.. label-primary::
+    
+    This is a primary label content
 
-Autonumbered footnotes are
-possible, like using [#]_ and [#]_.
+.. label-success::
+    
+    This is a success label content
 
-.. [#] This is the first one.
-.. [#] This is the second one.
+.. label-info::
+    
+    This is a info label content
 
-They may be assigned 'autonumber
-labels' - for instance,
-[#fourth]_ and [#third]_.
+.. label-warning::
+    
+    This is a warning label content
 
-.. [#third] a.k.a. third_
+So will this work; say you have a paragraph of text, will the label
 
-.. [#fourth] a.k.a. fourth_ 
+.. label-danger::
+    
+    This is a danger label content
 
-This is a simple code example
+be in the center of the paragraph, or not?
 
-.. code-block:: python
+.. panel-default::
+    :title: Here is some code ``test.conf``
+    
+    .. code-block:: python
 
-    import math
-    print 'import done'
+        #!/usr/bin/env python
 
-A Table
-----------
+        from __future__ import print
+
+        print('Hello world!')
+
+.. panel-primary::
+    :title: panel primary title
+    
+    This is a primary panel content
+
+.. panel-success::
+    :title: A slight tangent
+    
+    Have you ever noticed that 
+
+.. panel-info::
+    :title: panel info title
+    
+    This is a info panel content
+
+.. panel-warning::
+    :title: panel warning title
+    
+    This is a warning panel content
+
+.. panel-danger::
+    :title: panel danger title
+    
+    This is a danger panel content
 
 
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
+.. alert-success::
+    
+    This is a success alert content
 
-Embedding a PDF
-----------------
+.. alert-info::
+    
+    This is a info alert content
 
-Embedding a PDF:
+.. alert-warning::
+    
+    This is a warning alert content
 
-.. embedly-card:: http://iza.ac/pdf/cv.pdf
-    :card-chrome: 0
-
-.. gmaps:: The queens larder, london
-    :mode: place
-
-.. directions::
-    :mode: transit
-    :origin: Cardiff Castle
-    :destination: Cardiff Bay
-    :align: center
+.. alert-danger::
+    
+    This is a danger alert content
