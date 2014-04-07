@@ -12,6 +12,12 @@ Embedly Cards
 
 	<br />
 
+.. role:: bolditalic
+
+.. container:: bs-callout-small bs-callout-danger
+
+	:bolditalic:`UPDATE`: `Embedly Cards v0.2 <{filename}embedly-cards-markdown.md>`_ now supports Markdown
+
 This blog is built using `Pelican <http://getpelican.com>`__ [#f1]_, an awesome static blog generator written in Python, requiring no database or server-side scripting - in fact, all content is generated from simple reStructuredText or Markdown files (including this page, if you look at the source). Compared to a CMS like Wordpress, this results in increased speed, the ability to use static "web-hosts" (like `GitHub <http://github.com>`__ or `Dropbox <http://dropbox.com>`__ - not strictly what they were designed for, especially Dropbox, but it works - and they're free!), and, depending on your point of view, easier content management/backup. Of course, you lose certain features, like online or mobile posting, but with DroidEdit on Android now supporting Git, online editing of files on GitHub, and the ability to build your site automatically on git pushes using continuous integration sites such as `Travis CI <http://travis-ci.com>`__ (see `this tutorial <http://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html>`__), it's very nearly there.
 
 However, as reStructuredText is not designed for dynamic web content, embedding external content is difficult - this is alleviated somewhat by `Pelican plugins <https://github.com/getpelican/pelican-plugins>`__ such as Pelican-Youtube_ and Pelican-Vimeo_, but this approach requires the continual development of similar plugins for further types of content. On the other end of the spectrum, there is html_rst_directive_; but this requires that
@@ -22,6 +28,8 @@ However, as reStructuredText is not designed for dynamic web content, embedding 
 Another approach is a Python plugin using the oEmbed_ standard, allowing the embeddable HTML to be recieved and inserted on blog generation. I played around with two such plugins, PyEmbed_ and `sphinxcontrib.embedly`_, the latter of which uses `Embed.ly`_ oEmbed central repository. Whilst both are nice solutions, I still wasn't able to embed all the sources I was hoping to.
 
 However, I noticed that `Embed.ly`_ has a new poduct called `Embed.ly Cards <http://embed.ly/cards>`__:
+
+.. container:: bs-callout bs-callout-warning
 
 	Cards provide a clean, responsive, and shareable card for any content on the web.
 	Use them to make your posts easier to share and repost across the web. You can also include rich content from other sites in your own posts with Cards. 

@@ -2,6 +2,13 @@
 {% block title %}Blog · {{ super() }}{% endblock %}
 <!-- BLOG -->
 {%block content_area %}
+
+<style type="text/css">
+  p {
+    padding: 2px 0px!important;
+  }
+</style>
+
   <!-- blog item -->
 
     {% for article in articles[:POST_LIMIT] %}

@@ -39,6 +39,8 @@ AUTHORS_SAVE_AS = None
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+SUMMARY_MAX_LENGTH = 100
+
 #~~~~~~~~~~~~~~~~
 # Feed settings
 #~~~~~~~~~~~~~~~~
@@ -143,6 +145,7 @@ GPLUS_COMMENTS = False
 RESPONSIVE_IMAGES = True
 RESPONSIVE_IMAGES = True
 FIGURE_NUMBERS = True
+SITEMAP = {'format': 'xml'}
 
 #~~~~~~~~~~~~~~~~
 # Pelican-Bibtex
