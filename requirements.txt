@@ -6,3 +6,4 @@ Pillow
 pelican-minify
 google_embed
 embedly_cards
+markdown
