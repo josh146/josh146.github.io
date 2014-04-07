@@ -133,6 +133,11 @@ PLUGINS = ['render_math',
            'google_embed',
            'embedly_cards']
 
+from embedly_cards import EmbedlyCardExtension
+MD_EXTENSIONS = ['codehilite(css_class=highlight)',
+                 'extra',
+                 EmbedlyCardExtension()]
+
 GMAPS_KEY = 'AIzaSyBX58gSM6y0bd7VqQNPcw9chkmaHhHKUvw'
 GPLUS_COMMENTS = False
 RESPONSIVE_IMAGES = True
