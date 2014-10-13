@@ -117,7 +117,7 @@ def add_publications(generator):
 
     publications = [x for (y,x) in sorted(zip(datesort,publications),reverse=True)]
 
-    print publications
+    # print publications
 
     generator.context['publications'] = publications
 
