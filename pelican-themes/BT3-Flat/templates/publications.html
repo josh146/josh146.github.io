@@ -17,6 +17,7 @@
 }
 </style>
 
+
 <script type="text/javascript">
     function disp(s) {
         var win;
@@ -28,19 +29,36 @@
         doc.close();
     }
 </script>
+
 <!-- <section id="content" class="body"> -->
     <h1 class="entry-title">Publications <a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ><small>google citations</small></a></h1>
     <br>
     <ol class="list-of-pubs">
-    {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-    <li id="{{ key }}" class><p>{{ text }}
+    {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
+    <li id="{{ key }}" style="margin-bottom: -30px"><p>{{ text | replace("{","") | replace("}","")}}
+    {% if doi %}
+    <br>
+    [&nbsp;<a href="http://dx.doi.org/{{doi}}">doi:{{doi}}</a>&nbsp;]
+    {% endif %}
     [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+
+    {% if abstract %}
+    [&nbsp;<a href="#" class="abstract-link">Abstract</a>&nbsp;]
+    {% endif %}
+
     {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
     {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
     {% endfor %}
     {% if citations %}
     &nbsp;[cited by {{citations}}]
     {% endif %}
+
+    {% if abstract %}
+        <div class="bs-callout-small bs-callout-grey abstract" id="abstract{{key}}" style="display: none;font-family: 'Open Sans',sans-serif; color: #000000;">
+            {{ abstract | replace("{","") | replace("}","") }}
+        </div>
+    {% endif %}
+
     </p></li>
     {% endfor %}
     </ol>
@@ -104,6 +122,26 @@
 
     }(jQuery));
 
+</script>
+
+<script>
+$(document).ready(function() {
+
+    $(".abstract-link").click(
+        function (e) {
+
+            var keyID = $(this).parent().parent().attr("id");
+
+            if( $("#abstract" + keyID).is(":visible") ) {
+                $("#abstract" + keyID).slideUp('fast');
+            } else {                
+                $("#abstract" + keyID).slideDown('fast');
+            }
+
+        }
+    );
+
+});
 </script>
 
 {% endblock script %}

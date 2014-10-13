@@ -226,8 +226,8 @@
               <I><h3 align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ>google citations</a></h3></I>
           <br>
               <ol>
-              {% for key, year, text, bibtex, pdf, slides, poster, url in publications %}
-              <li id="{{ key }}"><p align=left>{{ text }}
+              {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
+              <li id="{{ key }}"><p align=left>{{ text | replace("{","") | replace("}","")}}
               [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
               {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
               {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}

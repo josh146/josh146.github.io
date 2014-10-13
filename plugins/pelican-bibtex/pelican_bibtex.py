@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 from pelican import signals
 
 import scholar
+from datetime import datetime
 
 __version__ = '0.2'
 
@@ -47,7 +48,8 @@ def add_publications(generator):
         from pybtex.database.output.bibtex import Writer
         from pybtex.database import BibliographyData, PybtexError
         from pybtex.backends import html
-        from pybtex.style.formatting import plain
+        from pybtex.style.formatting import plain, BaseStyle
+        from pybtex.richtext import Text, Tag
     except ImportError:
         logger.warn('`pelican_bibtex` failed to load dependency `pybtex`')
         return
@@ -62,6 +64,7 @@ def add_publications(generator):
         return
 
     publications = []
+    datesort = []
 
     # format entries
     plain_style = plain.Style()
@@ -72,10 +75,13 @@ def add_publications(generator):
         key = formatted_entry.key
         entry = bibdata_all.entries[key]
         year = entry.fields.get('year')
+        month = entry.fields.get('month')
         pdf = entry.fields.pop('pdf', None)
         slides = entry.fields.pop('slides', None)
         poster = entry.fields.pop('poster', None)
         url = entry.fields.pop('url', None)
+        doi = entry.fields.pop('doi', None)
+        abstract = entry.fields.get('abstract')
 
         #render the bibtex string for the entry
         bib_buf = StringIO()
@@ -97,12 +103,21 @@ def add_publications(generator):
         #                          citations))
         publications.append((key,
                              year,
+                             month,
                              text,
                              bib_buf.getvalue(),
                              pdf,
                              slides,
                              poster,
-                             url))
+                             url,
+                             doi,
+                             abstract))
+
+        datesort.append(datetime.strptime(year+month, '%Y%B'))
+
+    publications = [x for (y,x) in sorted(zip(datesort,publications),reverse=True)]
+
+    print publications
 
     generator.context['publications'] = publications
 
