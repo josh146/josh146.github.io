@@ -39,7 +39,7 @@
         <!-- blog short preview -->
         <p>
           {% if article.summary %}
-            {{ article.summary[25:-14] }}
+            {{ article.summary }} <!-- [25:-14] -->
           {% else %}
             {{ article.content[:196] }} + ' ...'
           {% endif %}
