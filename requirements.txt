@@ -4,5 +4,4 @@ beautifulsoup4
 pybtex==0.16
 Pillow
 pelican-minify
-embedly_cards
 markdown
