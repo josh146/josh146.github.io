@@ -2,8 +2,7 @@
 Embedly Cards
 ##############
 :subtitle: Pelican plugin
-:date: 2014-03-23 15:03
-:timezone: +0800
+:date: 2014-03-23 15:03 +0800
 :tags: python, pelican
 :category: Technology
 :author: Josh Izaac

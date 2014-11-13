@@ -1,10 +1,9 @@
 Title: Embedly Cards v0.2 - Markdown support
 Subtitle: now with added Markdownly goodness
-Date: 2014-04-07 12:23
+Date: 2014-04-07 12:23 +0800
 Tags: python, pelican
 Category: Technology
 Author: Josh Izaac
-Timezone: +0800
 
 I've just updated the embedly-cards [Pelican](http://getpelican.com) plugin to version 0.2, adding markdown support; the new version can be downloaded from [GitHub](http://github.com/josh146/embedly_cards) or [PyPi](https://pypi.python.org/pypi/embedly_cards) (if you have already installed it via `pip`, it can be upgraded via `pip install embedly-cards --upgrade`).
 

@@ -119,7 +119,7 @@ TAG_SAVE_AS = "tag/{slug}/index.html"
 # Plugins
 #~~~~~~~~~~~~~~~~
 
-PLUGIN_PATH = 'plugins'
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math',
            'neighbors',
            'summary',
