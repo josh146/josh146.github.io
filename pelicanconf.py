@@ -135,6 +135,9 @@ PLUGINS = ['render_math',
            'google_embed',
            'embedly_cards']
 
+import sys
+sys.path.append('plugins')
+
 from embedly_cards import EmbedlyCardExtension
 MD_EXTENSIONS = ['codehilite(css_class=highlight)',
                  'extra',
