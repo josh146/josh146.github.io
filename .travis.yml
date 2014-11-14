@@ -7,7 +7,7 @@ python:
 install:
 - pip install -r requirements.txt --use-mirrors
 script:
-- pip freeze; make html >> build.log; cp build.log output/build.log
+- pip freeze; make DEBUG=1 html 2>&1 | tee -a build.log; cp build.log output/build.log
 notifications:
   email:
     on_success: always
