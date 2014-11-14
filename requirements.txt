@@ -5,3 +5,5 @@ pybtex==0.16
 Pillow
 pelican-minify
 markdown
+google-embed
+embedly-cards
