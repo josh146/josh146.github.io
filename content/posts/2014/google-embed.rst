@@ -2,7 +2,7 @@
 Google Embed
 ##############
 :subtitle: Pelican plugin
-:date: 2014-03-23 22:27+0800
+:date: 2014-03-23 22:27
 :tags: python, pelican
 :category: Technology
 :author: Josh Izaac

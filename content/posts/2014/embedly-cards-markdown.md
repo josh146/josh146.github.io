@@ -1,6 +1,6 @@
 Title: Embedly Cards v0.2 - Markdown support
 Subtitle: now with added Markdownly goodness
-Date: 2014-04-07 12:23 +0800
+Date: 2014-04-07 12:23
 Tags: python, pelican
 Category: Technology
 Author: Josh Izaac

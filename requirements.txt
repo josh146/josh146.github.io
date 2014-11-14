@@ -1,4 +1,4 @@
-pelican
+https://github.com/getpelican/pelican/archive/3.3.0.tar.gz
 pelican_youtube
 beautifulsoup4
 pybtex==0.16
