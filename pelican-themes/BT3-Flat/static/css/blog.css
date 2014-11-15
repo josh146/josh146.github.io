@@ -55,6 +55,7 @@ code, tt {
   margin-top: 15px;
   /*font-family: Baskerville, Garamond, Georgia, 'DejaVu Serif', 'Times New Roman', Times, Serif;*/
 }
+
 #blog div.left {
   padding-right:50px;
 }
@@ -84,7 +85,34 @@ code, tt {
   display:block;
   font-size:11px;
 }
+#blog blockquote{
+  position: relative;
+  padding: 10px 30px;
+  border-color: #A23333;
+  background-color: #FBFBFB;
+    text-align: center;
+}
 
+blockquote:before {
+    display: block;
+    padding-left: 0px;
+    content: "\201C";
+    font-size: 60px;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    color: #7a7a7a;
+}
+
+blockquote:after {
+    display: block;
+    content: "\201D";
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    bottom: -40px;
+    color: #7a7a7a;
+}
 
 #blog a {
     color: #8B0000;
