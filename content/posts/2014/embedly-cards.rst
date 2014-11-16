@@ -89,10 +89,10 @@ Embedding a YouTube video *with* card border:
 
 .. code-block:: rest
 
-	.. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
+	.. embedly-card:: https://www.youtube.com/watch?v=E43-CfukEgs
 		:card-chrome: 1
 
-.. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
+.. embedly-card:: https://www.youtube.com/watch?v=E43-CfukEgs
 	:card-chrome: 1
 
 |br|
@@ -102,9 +102,9 @@ Embedding a YouTube video *without* card border:
 
 .. code-block:: rest
 
-	.. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
+	.. embedly-card:: https://www.youtube.com/watch?v=E43-CfukEgs
 
-.. embedly-card:: https://www.youtube.com/watch?v=ZlfIVEy_YOA
+.. embedly-card:: https://www.youtube.com/watch?v=E43-CfukEgs
 
 |br|
 
@@ -113,9 +113,9 @@ An embedded PDF:
 
 .. code-block:: rest
 
-	.. embedly-card:: https://media.readthedocs.org/pdf/pelican/latest/pelican.pdf
+	.. embedly-card:: https://dl.dropboxusercontent.com/u/152896/readme.pdf
 
-.. embedly-card:: https://media.readthedocs.org/pdf/pelican/latest/pelican.pdf
+.. embedly-card:: https://dl.dropboxusercontent.com/u/152896/readme.pdf
 
 
 .. _Pelican-Youtube: https://github.com/kura/pelican_youtube

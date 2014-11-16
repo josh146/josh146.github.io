@@ -1,14 +1,17 @@
-Title: A siberian adventure
+Title: A Siberian adventure
 Subtitle: or how I decided to trade an Australian summer for frostbite and borscht
 Date: 2014-11-16 02:50
 Tags: russia, siberia
 Category: Travel
 Author: Josh Izaac
+image: http://www.dubbed-adventourer.com/Galleries/Baikal%204x4/Ice-on-Lake-Baikal-03.jpg
 
-<center>
+<center style="margin-top:-30px;">
 ![Lake Baikal](http://www.dubbed-adventourer.com/Galleries/Baikal%204x4/Ice-on-Lake-Baikal-03.jpg)
-#####<div align=right style="margin-bottom:-30px">*Lake Baikal in Siberia*</div>
 </center>
+#####<div align=right>*Lake Baikal in Siberia*</div>
+
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 > ##*Okay, how about this. We start in Japan, catch the Trans-Siberian across Russia, and finish in Europe!*
 

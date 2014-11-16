@@ -7,7 +7,7 @@ Author: Josh Izaac
 
 I've just updated the embedly-cards [Pelican](http://getpelican.com) plugin to version 0.2, adding markdown support; the new version can be downloaded from [GitHub](http://github.com/josh146/embedly_cards) or [PyPi](https://pypi.python.org/pypi/embedly_cards) (if you have already installed it via `pip`, it can be upgraded via `pip install embedly-cards --upgrade`).
 
-Pelican tends to favour reStructuredText extensions in it's configuration (I guess due to the 'pythonic' nature of reStructuredText), and so setting up the embedly-cards markdown extension is slightly more convulated (but still pretty simple, at only 2 lines!). Simply add the following to your `pelicanconf.py` file:
+Pelican tends to favour reStructuredText extensions in it's configuration (I guess due to the 'pythonic' nature of reStructuredText), and so setting up the embedly-cards markdown extension is slightly more convoluted (but still pretty simple, at only 2 lines!). Simply add the following to your `pelicanconf.py` file:
 
 	:::python
 	from embedly_cards import EmbedlyCardExtension
@@ -42,14 +42,14 @@ where `url` is the url of the website containing the embeddable data. Similarly 
 
 ###Embedding a YouTube video *with* card border:
 
-	[!embedlycard?chrome=1](https://www.youtube.com/watch?v=ZlfIVEy_YOA)
+	[!embedlycard?chrome=1](https://www.youtube.com/watch?v=E43-CfukEgs)
 
-[!embedlycard?chrome=1](https://www.youtube.com/watch?v=ZlfIVEy_YOA)
+[!embedlycard?chrome=1](https://www.youtube.com/watch?v=E43-CfukEgs)
 
 
 ###Embedding a YouTube video *without* card border:
 
-	[!embedlycard](https://www.youtube.com/watch?v=ZlfIVEy_YOA)
+	[!embedlycard](https://www.youtube.com/watch?v=E43-CfukEgs)
 
-[!embedlycard](https://www.youtube.com/watch?v=ZlfIVEy_YOA)
+[!embedlycard](https://www.youtube.com/watch?v=E43-CfukEgs)
 
