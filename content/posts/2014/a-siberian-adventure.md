@@ -5,7 +5,10 @@ Tags: russia, siberia
 Category: Travel
 Author: Josh Izaac
 
-<center>![Lake Baikal](http://www.dubbed-adventourer.com/Galleries/Baikal%204x4/Ice-on-Lake-Baikal-03.jpg)</center>
+<center>
+![Lake Baikal](http://www.dubbed-adventourer.com/Galleries/Baikal%204x4/Ice-on-Lake-Baikal-03.jpg)
+#####<div align=right style="margin-bottom:-30px">*Lake Baikal in Siberia*</div>
+</center>
 
 > ##*Okay, how about this. We start in Japan, catch the Trans-Siberian across Russia, and finish in Europe!*
 
