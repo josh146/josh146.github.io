@@ -153,6 +153,17 @@ SITEMAP = {'format': 'xml'}
 
 PUBLICATIONS_SRC = 'content/extras/pubs.bib'
 
+
+#~~~~~~~~~~~~~~~~~~~~~~
+# Custom Jinja2 Filters
+#~~~~~~~~~~~~~~~~~~~~~~
+import calendar
+
+def month_name(month_number):
+    return calendar.month_name[int(month_number)]
+
+JINJA_FILTERS = {'month_name':month_name}
+
 #~~~~~~~~~~~~~~~~
 # Theme settings
 #~~~~~~~~~~~~~~~~

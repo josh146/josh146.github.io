@@ -89,7 +89,7 @@
                   <ul>
                     <li>
                       {% for month in group.list|groupby('month')|sort(reverse=True) %}
-                      <span><i class="fa fa-plus-square-o"></i>{{month.grouper}}</span>
+                      <span><i class="fa fa-plus-square-o"></i>{{month.grouper | month_name}}</span>
                       <ul>
                         {% for article in month.list %}
                         <li style="display: none;">
