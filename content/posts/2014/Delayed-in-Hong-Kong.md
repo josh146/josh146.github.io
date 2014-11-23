@@ -13,7 +13,7 @@ Status: draft
 
 I was so determined to leave the airport when I arrived in Hong Kong, I had planned everything meticulously; rush through immigration (30 minutes), take a taxi to Lantau Island (10 minutes), take the glass bottom cable car on a quick return journey (1 hour), and then rush back to the airport. *I've got almost 5 hours in transit*, I kept telling myself. *Easy.*
 
-<center style="margin-top:-30px;">
+<center>
 ![Leaving Perth Airport](https://lh3.googleusercontent.com/-jS5DCB2AiXU/VHFOQQF2RQI/AAAAAAABC6M/aLzLMR4VeiI/w586-h879-no/DSC04658.JPG)
 </center>
 #####<div align=right>*Leaving Perth airport*</div>
@@ -24,17 +24,18 @@ So here I am, sitting in Hong Kong airport, accepting the fact that I will not b
 
 So, in lieu of some photos of a crazy Hong Kong Transit Adventure, you're going to have to settle for some generic airport photos.
 
-<center style="margin-top:-30px;">
+<center>
 ![So close yet so far](https://lh3.googleusercontent.com/-pUb6X27tdoo/VHFOiz6GxnI/AAAAAAABC70/HnM1JDq-G2Y/w1318-h879-no/DSC04677.JPG)
 </center>
 #####<div align=right>*So close yet so far*</div>
 
-<center style="margin-top:-30px;">
+<center>
 ![Waiting to board my flight to Okinawa](https://lh3.googleusercontent.com/-mjEGw6i8YZ0/VHFO-6f7xmI/AAAAAAABC80/Zdn046nlUxg/w659-h879-no/IMG_20141123_110441.jpg)
 </center>
 #####<div align=right>*Waiting to board my flight to Okinawa. I got bored of writing and so took a selfie instead*</div>
 
-[!Don't look at your mobile phone](https://lh4.googleusercontent.com/-mqA2R2yey6A/VHFIxZE56zI/AAAAAAABC9k/5J1RhQ2Q0Zs/w1172-h879-no/IMG_20141123_103855.jpg)
+<center>
+![Don't look at your mobile phone](https://lh4.googleusercontent.com/-mqA2R2yey6A/VHFIxZE56zI/AAAAAAABC9k/5J1RhQ2Q0Zs/w1172-h879-no/IMG_20141123_103855.jpg)
 </center>
 #####<div align=right>*Please hold onto the handlebar. Stand still while the platform moves. - Loudspeaker *</div>
 
