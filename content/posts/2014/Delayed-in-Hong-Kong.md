@@ -13,4 +13,6 @@ Status: draft
 
 I was so determined to leave the airport when I arrived in Hong Kong, I had planned everything meticulously; rush through immigration (30 minutes), take a taxi to Lantau Island (10 minutes), take the glass bottom cable car on a quick return journey (1 hour), and then rush back to the airport. 'I've got almost 5 hours in transit', I kept telling myself. 'Easy.'
 
-That was, until, I found out that my flight leaving Perth was delayed for almost 2 hours. 'The plane was experiencing Technical Difficulties' I was told later at check-in, said in such a reassuring manner that I barely
+That was, until, I found out that my flight leaving Perth was delayed for almost 2 hours. 'The plane was experiencing Technical Difficulties' I was told later at check-in, said in such a reassuring manner that I barely questioned said Technical Difficulties.
+
+So here I am, sitting in Hong Kong airport, accepting the fact that I will not be able to exit the airport 
