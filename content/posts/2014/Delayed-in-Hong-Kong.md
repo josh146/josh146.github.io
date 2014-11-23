@@ -5,12 +5,11 @@ Category: Travel
 Author: Josh Izaac
 image: https://lh3.googleusercontent.com/JJkjzUSuLyBF-5WlWpQbIXCuWS7EdkMbHXCk2VSE5zYC=w1318-h879-no
 
-<center style="margin-top:-30px;">
-![Hong Kong International Airport](https://lh3.googleusercontent.com/JJkjzUSuLyBF-5WlWpQbIXCuWS7EdkMbHXCk2VSE5zYC=w1318-h879-no)
 #####<div align=center>*One of the many sights from the terminal*</div>
-</center>
 
 I was so determined to leave the airport when I arrived in Hong Kong, I had planned everything meticulously; rush through immigration (30 minutes), take a taxi to Lantau Island (10 minutes), take the glass bottom cable car on a quick return journey (1 hour), and then rush back to the airport. *I've got almost 5 hours in transit*, I kept telling myself. *Easy.*
+
+<!-- PELICAN_END_SUMMARY -->
 
 <center>
 ![Leaving Perth Airport](https://lh3.googleusercontent.com/-jS5DCB2AiXU/VHFOQQF2RQI/AAAAAAABC6M/aLzLMR4VeiI/w586-h879-no/DSC04658.JPG)
