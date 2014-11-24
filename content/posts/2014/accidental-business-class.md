@@ -28,7 +28,7 @@ Well, that can't be right. I stare back at my ticket - *Economy: 17A*. I took a 
 
 Only they failed to mention that the reason it had extra legroom was because ***it was in bloody business class***.
 
-I took my seat, nervously glancing around. I felt like an imposter. Surely someone was going to come along any second and ask me to move; it can't be that easy, can it? *Just, I don't know, pick your seat to be in business class?*. I made a mental note to try this again on my next flight (a part of me knew their system must have stuffed up, but I couldn't help but feel like I had found a quick and easy trick to upgrade yourself. For free!).
+I took my seat, nervously glancing around. I felt like an imposter. Surely someone was going to come along any second and ask me to move; it can't be that easy, can it? *To just, I don't know, pick your seat to be in business class?* I made a mental note to try this again on my next flight (a part of me knew their system must have stuffed up, but I couldn't help but feel like I had found a quick and easy trick to upgrade yourself. For free!).
 
 One by one the plane finished filling up, everyone walking passed me and making their way into economy class. I could see the look of envy in their faces. (Perhaps. It was at this point that you could argue that it was going to my head a bit.)
 
@@ -40,7 +40,7 @@ One by one the plane finished filling up, everyone walking passed me and making 
 The plane was full, and I received a business class welcome from the stewardess. Success! Maybe I was *destined* for business class (okay, definitely going to my head). The safety briefing begun, and being the only person in business class, I made sure to follow intently and nod along encouragingly. I realised somewhat alarmingly that this was the first airline safety briefing I've ever really paid attention to.
 <center>
 ![Relaxing in business class](https://lh4.googleusercontent.com/-sfoucHHSkE0/VHIHkTaGFUI/AAAAAAABDCc/ajwnxLgPqwU/w1318-h879-no/DSC04738.JPG)
-#####<div align=center>*Relaxing in business class. Look at that leg room*</div>
+#####<div align=center>*Relaxing in business class. Look at that leg room!*</div>
 </center>
 
 At this point I went somewhat snap happy, most of which is evident from the photos in this post. I was in business class! I had to document it.
@@ -54,18 +54,29 @@ Oh, and did I mention how much leg room I had?
 <center>
 ![SO MUCH LEG ROOM](https://lh4.googleusercontent.com/MVrbOvljKpXQJOnVgbCHlwa6jJa4yT37OUnH_N9ehb0E=w1318-h879-no)
 #####<div align=center>*SO MUCH LEG ROOM.*</div>
+</center>
 
+<center>
 ![I have a cocktail tray?! Better order a cocktail and test it out!](https://lh3.googleusercontent.com/-U4HRiVyEdAI/VHIHrfenyBI/AAAAAAABDD4/mBmBSGTs4gI/w1318-h879-no/DSC04754.JPG)
 #####<div align=center>*I have a cocktail tray?! Better order a cocktail and test it out!*</div>
+</center>
 
+<center>
 ![Well, I can't **not** just charge my laptop with my own personal power outlet](https://lh6.googleusercontent.com/-4dpuZ3DBETA/VHIHqE35wrI/AAAAAAABDDo/unHbodoVMXA/w1318-h879-no/DSC04752.JPG)
 #####<div align=center>*Well, I can't **not** just charge my laptop with my own personal power outlet*</div>
-
-![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
-![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
-#####<div align=center>*Oh, and there was some pretty cool stuff happening outside the plane as well. Like this amazingly clear view of Hong Kong.*</div>
-
 </center>
+
+<center>
+![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
+</center>
+
+Oh, and there was some pretty cool stuff happening outside the plane as well. Like these amazingly clear views of Hong Kong:
+
+<center>
+![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
+#####<div align=center>*Birds-eye view of Hong Kong*</div>
+</center>
+
 
 
 
