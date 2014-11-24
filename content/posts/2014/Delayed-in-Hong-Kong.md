@@ -5,7 +5,10 @@ Category: Travel
 Author: Josh Izaac
 image: https://lh3.googleusercontent.com/JJkjzUSuLyBF-5WlWpQbIXCuWS7EdkMbHXCk2VSE5zYC=w1318-h879-no
 
+<center>
+![Boarding in Hong Kong](https://lh3.googleusercontent.com/JJkjzUSuLyBF-5WlWpQbIXCuWS7EdkMbHXCk2VSE5zYC=w1318-h879-no)
 #####<div align=center>*One of the many sights from the terminal*</div>
+</center>
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 I was so determined to leave the airport when I arrived in Hong Kong, I had planned everything meticulously; rush through immigration (30 minutes), take a taxi to Lantau Island (10 minutes), take the glass bottom cable car on a quick return journey (1 hour), and then rush back to the airport. *I've got almost 5 hours in transit*, I kept telling myself. *Easy.*
