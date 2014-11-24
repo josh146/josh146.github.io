@@ -19,9 +19,9 @@ image: https://lh4.googleusercontent.com/-35oxohysHH0/VHIHTeNmMHI/AAAAAAABC_U/uf
 
 I started boarding my flight to Okinawa (an [Airbus A330-300](http://en.wikipedia.org/wiki/Airbus_A330) twin engine jet), and entered at the front of the plane, ready to find my seat 17A. *Oh wow*, I thought - *this is pretty nice!*. I knew [Dragonair](http://en.wikipedia.org/wiki/Dragonair) was a subsidiary of Cathay Pacific, and had just assumed it was budget carrier - I was expecting something on the spectrum of Jetstar to Tigerair.
 
-I got a glimpse of the next cabin down; a cramped 2-4-2 seat configuration. Ah, so this must be business class! Albeit not the same standard as business class in an A380, but still pretty luxurious. Damn it. I had gotten excited there for a second. Begrudgingly I put my head down and walked over to the start of Economy.
+I got a glimpse of the next cabin down; a cramped 2-4-2 seat configuration. Ah, so this must be business class! Albeit not the same standard as business class in an A380, but still pretty luxurious. Damn it. I had gotten excited there for a second. Begrudgingly I put my head down and walked over to the start of economy.
 
-*Seats 20ABC*
+*Seats 20AB*
 
 Well, that can't be right. I stare back at my ticket - *Economy: 17A*. I took a few steps back into business class and stared dumbfoundedly at seat 17A. It was only then that I remembered what Dragonair's online check in system said when I got my boarding pass back in Perth:
 
