@@ -31,7 +31,7 @@ Only they failed to mention that the reason it had extra legroom was because ***
 
 I took my seat, nervously glancing around. I felt like an imposter. Surely someone was going to come along any second and ask me to move; it can't be that easy, can it? *To just, I don't know, pick your seat to be in business class?* I made a mental note to try this again on my next flight (a part of me knew their system must have stuffed up, but I couldn't help but feel like I had found a quick and easy trick to upgrade yourself. For free!).
 
-One by one the plane finished filling up, everyone walking passed me and making their way into economy class. I could see the look of envy in their faces. (Perhaps. It was at this point that you could argue that it was going to my head a bit.)
+One by one the plane finished filling up, everyone walking passed me and making their way into economy class. I could see the look of envy on their faces. (Perhaps. It was at this point that you could argue that it was going to my head a bit.)
 
 <center>
 ![Economy class](https://lh6.googleusercontent.com/-wv-hZFVjnuw/VHIHU3cO7DI/AAAAAAABC_k/YpRFqtdFXcQ/w1318-h879-no/DSC04688.JPG)
