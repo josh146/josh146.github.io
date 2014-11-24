@@ -34,7 +34,7 @@ I took my seat, nervously glancing around. I felt like an imposter. Surely someo
 One by one the plane finished filling up, everyone walking passed me and making their way into economy class. I could see the look of envy on their faces. (Perhaps. It was at this point that you could argue that it was going to my head a bit.)
 
 <center>
-![Economy class](https://lh6.googleusercontent.com/-wv-hZFVjnuw/VHIHU3cO7DI/AAAAAAABC_k/YpRFqtdFXcQ/w1318-h879-no/DSC04688.JPG)
+![Economy class](https://lh3.googleusercontent.com/-wv-hZFVjnuw/VHIHU3cO7DI/AAAAAAABDNE/g9BMkAP04Yw/w1598-h735-no/DSC04688.JPG)
 #####<div align=center>*The regulars in economy class. Okay, it was definitely going to my head by this stage*</div>
 </center>
 
@@ -70,11 +70,11 @@ Oh, and did I mention how much leg room I had?
 Oh, and there was some pretty cool stuff happening outside the plane as well. Like these amazingly clear views of Hong Kong:
 
 <center>
-![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
+[![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
 </center>
 
 <center>
-![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
+[![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
 #####<div align=center>*Birds-eye view of Hong Kong*</div>
 </center>
 
