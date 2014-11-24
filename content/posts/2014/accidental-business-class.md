@@ -54,8 +54,18 @@ Oh, and did I mention how much leg room I had?
 <center>
 ![SO MUCH LEG ROOM](https://lh4.googleusercontent.com/MVrbOvljKpXQJOnVgbCHlwa6jJa4yT37OUnH_N9ehb0E=w1318-h879-no)
 #####<div align=center>*SO MUCH LEG ROOM.*</div>
-</center>
 
+![I have a cocktail tray?! Better order a cocktail and test it out!](https://lh3.googleusercontent.com/-U4HRiVyEdAI/VHIHrfenyBI/AAAAAAABDD4/mBmBSGTs4gI/w1318-h879-no/DSC04754.JPG)
+#####<div align=center>*I have a cocktail tray?! Better order a cocktail and test it out!*</div>
+
+![Well, I can't **not** just charge my laptop with my own personal power outlet](https://lh6.googleusercontent.com/-4dpuZ3DBETA/VHIHqE35wrI/AAAAAAABDDo/unHbodoVMXA/w1318-h879-no/DSC04752.JPG)
+#####<div align=center>*Well, I can't **not** just charge my laptop with my own personal power outlet*</div>
+
+![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
+![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
+#####<div align=center>*Oh, and there was some pretty cool stuff happening outside the plane as well. Like this amazingly clear view of Hong Kong.*</div>
+
+</center>
 
 
 
