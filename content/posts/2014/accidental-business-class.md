@@ -5,7 +5,6 @@ Tags: flying
 Category: Travel
 Author: Josh Izaac
 image: https://lh4.googleusercontent.com/-35oxohysHH0/VHIHTeNmMHI/AAAAAAABC_U/ufj2MDrUOEo/w1318-h879-no/DSC04684.JPG
-Status: Draft
 
 <center>
 ![Economy ticket; business class seat](https://lh4.googleusercontent.com/-35oxohysHH0/VHIHTeNmMHI/AAAAAAABC_U/ufj2MDrUOEo/w1318-h879-no/DSC04684.JPG)
@@ -66,17 +65,18 @@ Oh, and did I mention how much leg room I had?
 #####<div align=center>*Well, I can't **not** just charge my laptop with my own personal power outlet*</div>
 </center>
 
+Oh, and there was some pretty cool stuff happening outside the plane as well. Like these amazingly clear views of Hong Kong:
+
 <center>
 ![View of Hong Kong 1](https://lh4.googleusercontent.com/-aHXRE6qpc70/VHIHepzXJrI/AAAAAAABDBY/Vrkw2gytRuw/w1318-h879-no/DSC04717.JPG)
 </center>
-
-Oh, and there was some pretty cool stuff happening outside the plane as well. Like these amazingly clear views of Hong Kong:
 
 <center>
 ![View of Hong Kong 2](https://lh3.googleusercontent.com/-C8mrgDWXli8/VHIHd_a1KfI/AAAAAAABDBM/JgDgcQhsOD0/w1318-h879-no/DSC04716.JPG)
 #####<div align=center>*Birds-eye view of Hong Kong*</div>
 </center>
 
+I would have taken more, but I probably got distracted again by how much leg room I had.
 
 
 
