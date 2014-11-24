@@ -1,5 +1,5 @@
 Title: Accidental business class
-Subtitle: or how I unintentionally upgraded myself to business class
+Subtitle: or how I unintentionally upgraded myself
 Date: 2014-11-24 14:33
 Tags: flying
 Category: Travel
