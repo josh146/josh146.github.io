@@ -1,4 +1,5 @@
-Title: Things I've noticed since arriving in Okinawa
+Title: Things I've discovered since arriving in Okinawa
+Subtitle: i.e. Pineapple Park
 Date: 2014-11-25 22:02
 Tags: japan, okinawa
 Category: Travel
