@@ -58,7 +58,7 @@ Sitting right next door to the carpark - or most likely the main reason for the 
 The very same one I'd walked more than an hour to reach yesterday before turning around at a (very intimidating at the time) fork in the road.
 
 <center>
-![Onna No Eki](hhttps://lh4.googleusercontent.com/-odjfbWTIofM/VHbSuiVr3UI/AAAAAAABDTk/gaD09um5uuQ/w1203-h902-no/IMG_20141127_151142.jpg)
+![Onna No Eki](https://lh4.googleusercontent.com/-odjfbWTIofM/VHbSuiVr3UI/AAAAAAABD2E/wXTzWDD_Lh4/w1203-h902-no/IMG_20141127_151142.jpg)
 ####<div align=center>*Onna No Eki*</div>
 </center>
 

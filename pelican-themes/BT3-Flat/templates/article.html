@@ -166,7 +166,9 @@
       <h3>Related Posts</h3>
       <ul>
         {% for related_post in article.related_posts %}
-          <li><a href="{{ SITEURL }}/{{ related_post.url }}"><i class="fa fa-chevron-right"></i> {{ related_post.title }} <small style="color:#222;margin-left:5em">{{ related_post.subtitle }}</small></a></li>
+          <li><a href="{{ SITEURL }}/{{ related_post.url }}"><i class="fa fa-chevron-right"></i> {{ related_post.title }}
+          <!-- <small style="color:#222;margin-left:5em">{{ related_post.subtitle }}</small> -->
+          </a></li>
         {% endfor %}
       </ul>
     </div>
