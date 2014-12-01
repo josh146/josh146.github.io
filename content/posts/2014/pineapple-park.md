@@ -35,9 +35,9 @@ The car began to reverse, whilst the window slowly receded into the door. I was 
 
 I managed to suppress my increasingly growing urge to start singing (that song is just too catchy).
 
-"Um, Pineapple park?"
+"Um, Pineapple Park?"
 
-"Pineapple park?!" she couldn't help but laugh. "Sure, I'm on my way to Nago now. Get in!"
+"Pineapple Park?!" she couldn't help but laugh. "Sure, I'm on my way to Nago now. Get in!"
 
 We were dumbfounded, but at the same time so appreciative.
 
@@ -59,7 +59,7 @@ We approached Michael, but he was walking forward with such purpose that he didn
 
 He had a fair point. Nago was a 45 minute drive from OIST, more if you include peak hour traffic.
 
-But screw it. I'm not bypassing an opportunity to go to the mythical Pineapple park.
+But screw it. I'm not bypassing an opportunity to go to the mythical Pineapple Park.
 
 "Easy. We'll hitchhike back!"
 
@@ -175,7 +175,7 @@ It was here things really took an unexpected turn.
 ####<div align=center>*OH AND DID I MENTION THERE WAS PINEAPPLE?*</div>
 </center>
 
-and that was just a small selection. There was also pineapple curry, pineapple sorbet, pineapple ice cream, pineapple cream puffs, pineapple handcream, pineapple soap, pineapple charcoal, pineapple vinegar, pineapple t-shirts, and various other pineapple related merchandise.
+...and that was just a small selection. There was also pineapple curry, pineapple sorbet, pineapple ice cream, pineapple cream puffs, pineapple handcream, pineapple soap, pineapple charcoal, pineapple vinegar, pineapple t-shirts, and various other pineapple related merchandise.
 
 Strangely enough, the only flavour of KitKat they sold was sweet potato.
 
