@@ -194,7 +194,7 @@ We decided to alight at Kencho Mae monorail station, and walk down [Kokusai Dori
 ####<div align=center>*It turned out to be the only shop we entered*</div>
 </center>
 
-The halfway down Kokusai Dori however is the Makishi farmers markets; somewhat hungry, and trying to avoid McDonalds and/or Starbucks (the temptation was becoming too great, don't judge me), we decided to head over and check it out.
+Halfway down Kokusai Dori however is the Makishi farmers markets; somewhat hungry, and trying to avoid McDonalds and/or Starbucks (the temptation was becoming too great, don't judge me), we decided to head over and check it out.
 
 <center>
 ![Snake shop](https://lh4.googleusercontent.com/-xPdIt8Qb6sI/VHsTh8WNz5I/AAAAAAABD0c/vllG__QcGwE/w599-h901-no/DSC_0232.jpgg)
