@@ -8,7 +8,7 @@ image: https://lh5.googleusercontent.com/-oShjeUwaTFs/VHbS4lkme0I/AAAAAAABDVk/5j
 
 <center>
 ![OIST Car](https://lh5.googleusercontent.com/-oShjeUwaTFs/VHbS4lkme0I/AAAAAAABDVk/5jq_Dxc6-YA/w1535-h902-no/IMG_20141127_162645.jpg)
-####<div align=center>*Our OIST keisha car*</div>
+####<div align=center>*Our OIST kei car*</div>
 </center>
 
 <!-- PELICAN_BEGIN_SUMMARY -->
@@ -25,9 +25,9 @@ That is, if we had access to a car.
 
 Fortunately Sawako, the groups research administrator, was able to jump through some bureaucratic hurdles and secure us access to one of the OIST cars for 3 hours. For free, even. Turns out that getting my international drivers license (on a whim) before leaving Perth was one of the better decisions I've made thus far.
 
-One of the first things that struck me when I got off the plane in Naha were the cars zipping around Okinawa's narrow streets. After not sleeping for 24 hours, they just looked so *bizarre*. Like mini-minivans, if you can picture that (see the above photo for reference). It turns out that these are [keisha cars](http://www.japan-guide.com/e/e2022.html), indicated by their yellow (as opposed to white) number plates, or 'light' cars. Governed by strict size, weight, and power regulations, they turn out to be significantly cheaper to own and run, and have obviously become the vehicle of choice (4 wheel drives and sedans are few and far between).
+One of the first things that struck me when I got off the plane in Naha were the cars zipping around Okinawa's narrow streets. After not sleeping for 24 hours, they just looked so *bizarre*. Like mini-minivans, if you can picture that (see the above photo for reference). It turns out that these are [kei cars (or keishas)](http://en.wikipedia.org/wiki/Kei_car), indicated by their yellow (as opposed to white) number plates, or 'light' cars. Governed by strict size, weight, and power regulations, they turn out to be significantly cheaper to own and run, and have obviously become the vehicle of choice (4 wheel drives and sedans are few and far between).
 
-And so we set off, in our very own OIST branded keisha car. It was... very strange to get used to. For starters, it felt like I was driving a very elaborate lawn mower. And the size of it - the two front seats are essentially side-by-side, requiring a somewhat oxymoronic 'handbrake-pedal' and a considerably cramped dashboard.
+And so we set off, in our very own OIST branded kei car. It was... very strange to get used to. For starters, it felt like I was driving a very elaborate lawn mower. And the size of it - the two front seats are essentially side-by-side, requiring a somewhat oxymoronic 'handbrake-pedal' and a considerably cramped dashboard.
 
 <center>
 ![The interior](https://lh6.googleusercontent.com/-XguWh2NMWDc/VHbS3V32ZFI/AAAAAAABDUk/JPdpSzLXRV8/w1203-h902-no/IMG_20141127_162628.jpg)

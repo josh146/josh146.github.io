@@ -16,7 +16,7 @@ Unfortunately for us, nothing in Okinawa seems to open before 9am. Except for Ja
 
 <center>
 ![Driving](https://lh5.googleusercontent.com/-7OGRxoRELog/VHsVUHhCpII/AAAAAAABDzM/_rO1QqYEtmA/w1358-h902-no/10620285_10152929289288487_7725308220204624713_o.jpg)
-####<div align=center>*Driving our OIST keisha car*</div>
+####<div align=center>*Driving our OIST kei car*</div>
 </center>
 
 
