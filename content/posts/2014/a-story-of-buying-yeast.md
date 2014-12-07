@@ -40,7 +40,7 @@ Compared to the fish grill in our apartment, the community kitchen's stove and o
 ####<div align=center>*Tania documenting us discussing cake making strategies*</div>
 </center>
 
-Two hours later, the cake was done and we were ready to ice. (In this time, Tara had managed to mix, bake, ice and finish not one but *three* cakes. *Edit: I've been informed Tara actually managed to make **four** cakes, not three. For what it's worth, it took us **four hours to bake and ice a single cake.** *
+Two hours later, the cake was done and we were ready to ice. (In this time, Tara had managed to mix, bake, ice and finish not one but *three* cakes. *Edit: I've been informed Tara actually managed to make **four** cakes, not three. For what it's worth, it took us **four hours to bake and ice a single cake.**)*
 
 We got the icing ingredients assembled, and I stood there, delirious with hunger (it was around 9pm at this stage and we hadn't eaten since 11.30), holding the icing sugar.
 
