@@ -22,7 +22,7 @@ Not going to lie, we were pretty transfixed.
 
 <center>
 ![picture](https://lh6.googleusercontent.com/-ZQIKaMYgMmo/VIPHEji8f8I/AAAAAAABEdg/P7xhH8QMxq8/w599-h901-no/DSC_0396.jpg)
-####<div align=center>*Starters - mushroom, onion and goya*</div>
+####<div align=center>*Starters - mushroom, onion and zucchini*</div>
 </center>
 
 <center>
