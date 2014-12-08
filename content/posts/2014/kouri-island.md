@@ -39,7 +39,7 @@ Before you get your hopes up - unfortunately I was on the losing side of that ar
 ####<div align=center>*Crossing the bridge to enter Kourijima*</div>
 </center>
 
-And it was well worth it (although on the other hand, *ostrich riding*). It seems the further north we go on Okinawa-honto, the more picturesque it becomes.
+And it was well worth it (although on the other hand, How do you compete with *ostrich riding*). It seems the further north we go on Okinawa-honto, the more picturesque it becomes.
 
 <center>
 ![picture](https://lh6.googleusercontent.com/-K7BZXQ7dIhQ/VIPHuzyEZCI/AAAAAAABEkQ/LKfsU_b-mpw/w1352-h902-no/DSC05346.JPG)
