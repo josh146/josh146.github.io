@@ -64,7 +64,7 @@ Next up: the sea turtles and the manatees. The sea turtles were just as captivat
 Finally, time to hit the aquarium. I have to admit, I was pretty pumped for everyones favourite aquarium feature - the underwater (travelling) tunnel. It should be mentioned that everything we had seen so far (dolphins, sea turtles and manatees) were free, you could just walk in. The aquarium however, the main attraction, requires a ticket purchase.
 
 <center>
-![picture](https://lh6.googleusercontent.com/-W4tGdQq0KSA/VIPIgIgbkRI/AAAAAAABEr4/Sha-nSOLgEU/w1352-h902-no/DSC05265.JPG )
+![picture](https://lh6.googleusercontent.com/-W4tGdQq0KSA/VIPIgIgbkRI/AAAAAAABEr4/Sha-nSOLgEU/w1352-h902-no/DSC05265.JPG)
 ####<div align=center>*The main tank, holding whale sharks and manta rays*</div>
 </center>
 
