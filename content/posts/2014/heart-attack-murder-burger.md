@@ -5,7 +5,7 @@ Category: Food
 Author: Josh Izaac
 image: https://lh3.googleusercontent.com/-onLGjNw2p2o/VIQNRZbejTI/AAAAAAABE1Y/YwAh6V0fg2A/w1352-h902-no/DSC05396.JPG
 
-Some time last week, a routine visit by Thomas to our office deviated slightly from discussion of our projects to where we can get an authentic Okinawan breakfast. (A topic brought on by our recent escapade to Jakkapoes pancakes.)
+Some time last week, a routine visit by Thomas to our office deviated slightly from discussion of our projects to where we can get an authentic Okinawan breakfast (a topic brought on by our recent escapade to Jakkapoes pancakes.)
 
 Whilst we didn't learn much in terms of Okinawan breakfast custom ("Okinawan breakfast? Hmm, I'm not sure if breakfast is really a thing here. Although, the Kafuu Beach Resort does a wonderful breakfast buffet!"), a local burger shop was mentioned, known for it's delightfully healthy sounding Heart Attack Murder Burger™ (or HAMB).
 
@@ -33,7 +33,7 @@ And formidable it was; we spent our time sizing it up, working out the best atta
 ####<div align=center>*Michael assessing the situation*</div>
 </center>
 
-It suffices to say this did not go as smoothly as anticipated, and I continued my attack from here on in with ample cutlery backup.
+It suffices to say this did not go as smoothly as anticipated, and I continued my attack from here on in with ample cutlery reserves.
 
 <center>
 ![picture](https://lh5.googleusercontent.com/-dMsDS2iAfxk/VIQNTJkS2sI/AAAAAAABE1o/KYT5KcnyqPE/w1094-h902-no/DSC05398.JPG)
@@ -45,7 +45,7 @@ It suffices to say this did not go as smoothly as anticipated, and I continued m
 ####<div align=center>*VICTORY*</div>
 </center>
 
-Unfortunately we came nowhere near finishing the HAMB within the four minute competition limit, but I'd saw we did a pretty good job (Michael finishing in about 8 minutes, compared to maybe 15 minutes for me).
+Unfortunately we came nowhere near finishing the HAMB within the four minute competition limit, but I'd say we did a pretty good job (Michael finished in about 8 minutes, compared to maybe 15 minutes for me).
 
 And as much as we'd like to think we defeated the Heart Attack Murder Burger, the truth is, it probably won in the long run. After waddling back to OIST, I didn't end up eating again until *lunch time the next day.*
 
