@@ -93,6 +93,11 @@ code, tt {
     text-align: center;
 }
 
+#blog img {
+  max-width: 100%;
+  height: auto;
+}
+
 blockquote:before {
     display: block;
     padding-left: 0px;
