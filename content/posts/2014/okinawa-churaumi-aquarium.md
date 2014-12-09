@@ -140,6 +140,9 @@ One dish on the menu that wasn't pork; fried fish with rice. And even then, the 
 
 <center>
 ![picture](https://lh3.googleusercontent.com/-1D5ZdMu-xvQ/VIPI2TvfkJI/AAAAAAABEwE/QwyKodB6SJc/w1352-h902-no/DSC05314.JPG)
+</center>
+
+<center>
 ![picture](https://lh6.googleusercontent.com/-F4zwAkChs9s/VIQNDd58hXI/AAAAAAABEzY/PDUefZds6m0/w1357-h902-no/DSC_0076.jpg)
 ####<div align=center>*Tania's squid ink soba in, you guessed it, a pork broth*</div>
 </center>
