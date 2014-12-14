@@ -1,6 +1,6 @@
 Title: The Heart Attack Murder Burger
 Date: 2014-12-09 22:17
-Tags: japan, okinawa, food
+Tags: japan, okinawa
 Category: Food
 Author: Josh Izaac
 image: https://lh3.googleusercontent.com/-onLGjNw2p2o/VIQNRZbejTI/AAAAAAABE1Y/YwAh6V0fg2A/w1352-h902-no/DSC05396.JPG

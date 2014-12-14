@@ -1,7 +1,7 @@
 Title: Okinawa Churaumi Aquarium
 Subtitle: oh and bridges too
 Date: 2014-12-08 21:18
-Tags: japan, okinawa, food
+Tags: japan, okinawa, japanese food
 Category: Travel
 Author: Josh Izaac
 image: https://lh4.googleusercontent.com/-Y64WCXCru9s/VIPIXez0b-I/AAAAAAABFIQ/W2uVWInZ0Qo/w1352-h902-no/DSC05247.JPG

@@ -1,7 +1,7 @@
 Title: Searching for yeast on a Friday night
 Subtitle: in which we may have accidentally developed a baking problem
 Date: 2014-12-07 18:02
-Tags: japan, okinawa, food
+Tags: japan, okinawa
 Category: Food
 Author: Josh Izaac
 image: https://lh5.googleusercontent.com/UuAI9WO_J_zGjlSgGeRgKvwyagUFENM4qeHJCsaFKpX_=w720-h515-no

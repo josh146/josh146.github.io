@@ -5,13 +5,13 @@ Tags: japan, okinawa
 Category: Travel
 Author: Josh Izaac
 
-<!-- PELICAN_BEGIN_SUMMARY -->
+1. I've been in Japan almost three weeks now *and I am still yet to have a single piece of sushi*. Perhaps that's testament to how strongly Okinawan cuisine differs from standard mainland cuisine? Almost everywhere I go offers the ever ubiquitous [taco rice](http://en.wikipedia.org/wiki/Taco_rice), a selection of bento boxes and curries, [Okinwa soba](http://en.wikipedia.org/wiki/Okinawa_soba) (not to be confused with mainland Japanese soba), [sea grapes](http://en.wikipedia.org/wiki/Caulerpa_lentillifera), [goya champuru](http://en.wikipedia.org/wiki/Goya_champuru), a bewildering array of pork dishes, [sweet-potato-flavoured-everything](http://okinawa.stripes.com/news/whats-beni-imo-and-okinawan-yams) (even [ice cream](http://en.blueseal.co.jp/products/flavor/155.html)), and more.
 
-1. Apparently Japan is battling a butter shortage emergency - this explains why it's been so difficult to find butter the past couple of weeks!
+	Yet the sushi section at the local supermarkets is barely the same size as that of Woolworths or Coles (in fact, they are probably eclipsed by the [made-to-order sushi bars found in some Woolworths stores](http://www.sushiizu.com.au/)). 
 
-	[!embedlycard](munchies.vice.com/articles/japan-is-in-a-state-of-butter-emergency)
+	To be fair, we did pass one ¥100 sushi train near Chatan, and a small selection were sold at [Ajijiman izakaya]({filename}chicken-skin-and-other-assorted-delights.md) but apart from that I've rarely come across any. Ah well. I still have plenty of time ahead in mainland Japan.
 
-	<!-- PELICAN_END_SUMMARY -->
+1. Apparently [Japan is battling a butter shortage emergency](munchies.vice.com/articles/japan-is-in-a-state-of-butter-emergency) - this explains why it's been so difficult to find butter the past couple of weeks!
 
 2. You can buy eggs in cartons of 12, 6, 3, or even 1. Yes, you can buy a singular egg if you are so inclined.
 
