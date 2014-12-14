@@ -4,6 +4,7 @@ Date: 2014-12-14 17:12
 Tags: japan, okinawa
 Category: Food
 Author: Josh Izaac
+Image: https://lh4.googleusercontent.com/-yNlE5ydd05k/VIsHnjFxNwI/AAAAAAABFSM/dA6J_AXB4fs/w1352-h902-no/DSC05422.JPG
 
 The culmination of our previously detailed [baking problem]({filename}a-story-of-buying-yeast.md) ended with us in possession of a packet of yeast after a 10pm jaunt to MaxValu in Ishikawa. Determined to use up the two packets of flour we mistakenly bought, *still* out of bread (courtesy of the ever reliable Jimmy's), and on a high from our baking successes, we were ready - it was time to bake some bread.
 
@@ -22,10 +23,7 @@ Eventually I got the bread at a reasonably nice consistency (I thought), left it
 
 The rest of the morning was characterized by mad dashes between the office and our apartment; from 9-10.30, I feverishly submitted multiple simulations to the supercomputing cluster, before running back to the apartment and working/plaiting the dough.
 
-<center>
-![picture](https://lh6.googleusercontent.com/-TeXx8PAkoz4/VIsHhyHmpjI/AAAAAAABFRI/FcPEpohi0Sc/w1352-h902-no/DSC05413.JPG)
-####<div align=center>*Leaving it to rise*</div>
-</center>
+[!pic?caption=Leaving it to rise](https://lh5.googleusercontent.com/-WvtesHbkBTI/VIsHibHjhnI/AAAAAAABFRQ/XB_Sv-iwKHc/w1352-h902-no/DSC05414.JPG)
 
 Then, it was back to the campus at 11am, leaving the dough to rest for half an hour, before returning with bento boxes bought outside OIST. Lunch was consumed in excitement as we stared at the oven (*come on, come on*).
 
