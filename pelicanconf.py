@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
+import os, sys
 
 #~~~~~~~~~~~~~~~~
 ## Main Settings
@@ -135,9 +135,13 @@ PLUGINS = ['render_math',
            'google_embed',
            'embedly_cards']
 
+sys.path.append('plugins')
+
 from embedly_cards import EmbedlyCardExtension
+from BetterPicEmbed import BetterPicEmbedExtension
 MD_EXTENSIONS = ['codehilite(css_class=highlight)',
                  'extra',
+                 BetterPicEmbedExtension(),
                  EmbedlyCardExtension()]
 
 GMAPS_KEY = 'AIzaSyBX58gSM6y0bd7VqQNPcw9chkmaHhHKUvw'
