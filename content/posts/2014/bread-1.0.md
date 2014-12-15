@@ -38,14 +38,14 @@ Finally it was ready, and we pulled the loaves out of the oven. They smelled *am
 
 <center>
 ![picture](https://lh4.googleusercontent.com/-yNlE5ydd05k/VIsHnjFxNwI/AAAAAAABFSM/dA6J_AXB4fs/w1352-h902-no/DSC05422.JPG)
-####<div align=center>*Bread 1.0: half-risen with a steal enforced crust*</div>
+####<div align=center>*Bread 1.0: half-risen with a steel enforced crust*</div>
 </center>
 
 I tapped that bottom of the loaf. My new found baking confidence started to sink with each **thud** emanating out of the load. 
 
 "Come to think of it, I'm pretty sure they're meant to be significantly bigger than this." - they were barely larger than when we had put them into the oven.
 
-We hesitatingly cut one of the loaves in half (*oh god, the crust feels like reinforced **steal***) and tried it. To say it was dense would be an understatement
+We hesitatingly cut one of the loaves in half (*oh god, the crust feels like reinforced **steel***) and tried it. To say it was dense would be an understatement
 
 "So. Uh. Perhaps that wasn't flour after all?" we mused, clinging to the slight hope that we could still, after all this, find a way of blaming the ingredients rather than our baking skills.
 
@@ -60,7 +60,7 @@ We ended up bringing an entire loaf in with us.
 >### "Oh, what's this? - Thomas
 >### "A failure, that's what." - Michael
 
-Surprisingly, by the end of the day, the loaf was gone! It turns out that, no matter how dense the bread, and no matter how inedible the crust, when you're sitting in an office until 5.30pm, even half-risen steal enforced bread becomes an enjoyable midday snack.
+Surprisingly, by the end of the day, the loaf was gone! It turns out that, no matter how dense the bread, and no matter how inedible the crust, when you're sitting in an office until 5.30pm, even half-risen steel enforced bread becomes an enjoyable midday snack.
 
 [!pic?caption=I persevered for a couple more days, until the crust hardened to a stage where I was scared for the wellbeing of my teeth](https://lh4.googleusercontent.com/-jU6xaiKvEbA/VIsHoEjP3PI/AAAAAAABFSU/lAJZkbev_Z4/w1352-h902-no/DSC05424.JPG)
 
