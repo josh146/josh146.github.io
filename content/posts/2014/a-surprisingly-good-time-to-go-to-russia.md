@@ -1,6 +1,6 @@
 Title: A surprisingly good time to go to Russia
 Subtitle: well, from a budget standpoint at least
-Date: 2014-11-16 23:27
+Date: 2014-12-16 23:27
 Tags: russia, siberia
 Category: Travel
 Author: Josh Izaac
