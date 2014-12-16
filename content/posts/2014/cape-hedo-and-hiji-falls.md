@@ -10,11 +10,11 @@ Having hired a car for the second Saturday in a row, our plan was (we thought) p
 
 We fully expected hiccups to occur, but not so soon and definetely not as ridiculous as this; after an hour and an half of driving, having arrived at Hiji Falls, we realised we completely forgot to go to Goya Park. *Goddammit*.
 
-## Hiji Falls
-
 Ravenously hungry (that morning I had given up completely on our homemade 'bread' and resorted to a can of tuna for breakfast), and narrowly avoiding trespassing onto US military property (the [Okuma Beach Resort](http://www.kadenafss.com/rec/okuma) just looked so inviting!) we ended up at the Hiji Falls curry house.
 
 Which was slightly disappointing; low on supplies, their beef curry turned out to be both rice-less *and* beef-less, and would have more accurately been described as a 'curried soup with chapati'. Ah well. To be honest I was too hungry to properly care and devoured what was there.
+
+## Hiji Falls
 
 Hunger taken care of, we paid our entrance fee of ¥500 (although we probably didn't need to - Michael just walked straight in without realising, and the woman in the ticket office was too polite to say anything), and set off to hike to Hiji Falls, a 40 minute hike according to the front office.
 
@@ -32,7 +32,7 @@ Hunger taken care of, we paid our entrance fee of ¥500 (although we probably di
 
 [!pic?caption=After a grueling 1km 'hike' - we made it!](https://lh4.googleusercontent.com/-8Ki595hY4TY/VIxPVfCCUOI/AAAAAAABFkU/BRhPPyI-QvM/w599-h901-no/DSC_0474.jpg)
 
-[!pic?caption=Playing around with with shutter speed. Out of 10 photos, this is the only one that came out okay.](https://lh3.googleusercontent.com/-FZMm5caZ86g/VIwtPE-cabI/AAAAAAABFfc/vtyOU0IkuJY/w602-h902-no/DSC05513.JPG)
+[!pic?caption=Playing around with shutter speed. Out of 10 photos, this is the only one that came out okay.](https://lh3.googleusercontent.com/-FZMm5caZ86g/VIwtPE-cabI/AAAAAAABFfc/vtyOU0IkuJY/w602-h902-no/DSC05513.JPG)
 
 [!pic?caption=Bonus! See my remaining over/under-exposed shots all combined into one glorious gif!](https://lh4.googleusercontent.com/-fiuGFgrljNU/VIwuGOquVoI/AAAAAAABFgQ/YmenwXFZxlY/w972-h648-no/DSC05503-MOTION.gif)
 
@@ -42,7 +42,7 @@ Hunger taken care of, we paid our entrance fee of ¥500 (although we probably di
 
 Next up: Cape Hedo, the northern most tip of Okinawa and home to some awesome (or so we'd heard) cliffs and rock faces. No-one we'd spoken to at OIST before leaving had ever gone far enough north to visit Cape Hedo, so we weren't really sure what to expect. After about 30 minutes of driving by almost entirely unpopulated forest and beaches, I actually considered turning around (*Guys, this is pointless. There's nothing here!*). 
 
-Luckily Tania and Michael pointed out what a ridiculously stupid suggestion this was, 10 minutes away from our destination after 2 hours of driving, and we finally arrived at the stunning cliffs of Cape Hedo.
+Luckily Tania and Michael pointed out what a ridiculously stupid suggestion this was 10 minutes away from our destination after 2 hours of driving, and we finally arrived at the stunning cliffs of Cape Hedo.
 
 [!pic?caption=There were shrines and monuments dotted all over the cliffs](https://lh4.googleusercontent.com/-fZQml7XJob4/VIwrycWP5pI/AAAAAAABFT0/WjWKiSeh30M/w1352-h902-no/DSC05524.JPG)
 
@@ -50,7 +50,7 @@ Luckily Tania and Michael pointed out what a ridiculously stupid suggestion this
 
 [!pic?caption='I couldn't help myself!' I pleaded, as Tania lowered her camera, head shaking in disgust.](https://lh3.googleusercontent.com/-mt97eOPxs7Y/VIxPyCwWYnI/AAAAAAABFo8/QbulrtsrKgQ/w1357-h902-no/DSC_0500-2.jpg)
 
-[!pic?caption=After the overly cautious warning signs/fences at other Okinawan tourist sites, I was amazed they just let you... walk up to the end of the cliff.](https://lh6.googleusercontent.com/1n9Is5E3UasgOOUbAbXVaemlLbfBIHK0CCDvPpdJr39T=w1352-h902-no)
+[!pic?caption=After the overly cautious warning signs/fences at other Okinawan tourist sites, I was amazed they just let you walk up to the end of the cliff.](https://lh6.googleusercontent.com/1n9Is5E3UasgOOUbAbXVaemlLbfBIHK0CCDvPpdJr39T=w1352-h902-no)
 
 [!pic?caption=An activity for all ages! Climb over the painfully sharp rocks of an increasingly narrow cliff as the rough seas beckon from below](https://lh4.googleusercontent.com/-7XBJTtNo4VI/VIwr-XXBsII/AAAAAAABFVs/bBOcMibxKyA/w1352-h902-no/DSC05547.JPG)
 
@@ -70,7 +70,7 @@ Luckily Tania and Michael pointed out what a ridiculously stupid suggestion this
 
 Our final stop was the [Dai Sekirinzan Quasi-National Park](http://sekirinzan.com/), an eroded limestone plateau about a kilometer inland from Cape Hedo that is [one of the oldest parts of Okinawa-Honto](http://www.japanvisitor.com/japan-city-guides/dai-sekirinzan-park). 
 
-Eagerly wanting to get in and start exploring the trails, we were instead informed that no, you cannot walk in, you *must* pay ¥800 to take a shuttle bus 700m into the park. Strangely you can easily just walk out without taking the bus; with our limited communication skill we think the parking attendant might have mentioned something about the 'walk in being too steep'(?).
+Eagerly wanting to get in and start exploring the trails, we were instead informed that no, you cannot walk in, you *must* pay ¥800 to take a shuttle bus 700m into the park. Strangely you can easily just walk out without taking the bus; with our limited communication skills we think the parking attendant might have mentioned something about the 'walk in being too steep'(?).
 
 Ah well. I mean, it *is* a Quasi-National Park, that means it needs outside funding, right? We'll do our part and pay for the bus. Even though it does seem just a little pointless.
 
@@ -110,7 +110,9 @@ Finally, as we exited the park, we passed by a couple of truly massive banyan tr
 
 <br>
 
-Unfortunately, we arrived back at the car at 5pm; just in time for a mad dash back to OIST to return the car before 7pm, adding Melody Road to the casualty list along with Goya Park.
+Unfortunately, we arrived back at the car at 5pm. Just in time for a mad dash back to OIST to return the car before 7pm, adding Melody Road to the casualty list along with Goya Park.
+
+[!pic](https://lh3.googleusercontent.com/-isIrLdPwJSc/VI-O1ROskCI/AAAAAAABFto/ORJqvnFw9j0/w585-h694-no/hedo-map.png)
 
 Still, we had a pretty awesome day exploring the north, a feat not even achieved by some of the OIST researchers.
 
