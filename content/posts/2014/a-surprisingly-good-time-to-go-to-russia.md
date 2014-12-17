@@ -5,6 +5,8 @@ Tags: russia, siberia
 Category: Travel
 Author: Josh Izaac
 
+![picture](https://lh6.googleusercontent.com/-oy_0TGm_Fy8/VJE109M1trI/AAAAAAABF8E/5la0TTxMK1I/w693-h522-no/rouble.png)
+
 Today whilst working, I had this website playing in the background: 
 
 [!embedlycard](http://zenrus.ru/)
