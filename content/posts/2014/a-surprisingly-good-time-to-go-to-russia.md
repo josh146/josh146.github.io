@@ -15,7 +15,7 @@ In case you haven't heard, the Russian rouble has been free-falling for the last
 
 Whilst this is terrible news for the Russian economy, this crisis (and I feel a bit bad about saying this) makes it actually a [pretty good time to be a tourist in Russia](http://www.reddit.com/r/travel/comments/2pdwps/psa_if_you_want_to_travel_russia_on_a_budget_nows/). A three course meal in Moscow (one of the most expensive cities in Europe, but arguably not that bad compared to Perth) cost around \$27-\$41 three months ago.
 
-[!pic?width=400](https://lh6.googleusercontent.com/-oy_0TGm_Fy8/VJE109M1trI/AAAAAAABF8E/5la0TTxMK1I/w693-h522-no/rouble.png)
+[!pic?width=550](https://lh6.googleusercontent.com/-oy_0TGm_Fy8/VJE109M1trI/AAAAAAABF8E/5la0TTxMK1I/w693-h522-no/rouble.png)
 
 As of today, that's now \$15-\$23.
 
