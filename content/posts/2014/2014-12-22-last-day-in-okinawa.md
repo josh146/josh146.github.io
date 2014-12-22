@@ -94,7 +94,7 @@ After parking, we found a cool little hairdressers that was still open - Soho Ne
 
 Next up, we walked over to the sushi restaurant; only to be greeted with a 100 minute wait, according to the ticket machine. At 8pm at night, as well!
 
-Swamped with hunger, and doubting the veracity of all other restaurants we passed, we did the only sane thing we could thing of and returned to the same izakaya we had gone to two weeks ago (hey, we knew it would be good okay).
+Swamped with hunger, and doubting the veracity of all other restaurants we passed, we did the only sane thing we could thing of and returned to the same izakaya we had gone to two weeks ago (hey, we knew it would be good choice from prior experience).
 
 Tania regretfully told me that this was the first time she has gone to the same restaurant twice whilst on holiday, but desperate times call for desperate measures.
 
