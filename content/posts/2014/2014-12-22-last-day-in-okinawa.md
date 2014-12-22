@@ -8,9 +8,13 @@ image: https://lh6.googleusercontent.com/-yv_46i4OyCw/VJbv1F9hyLI/AAAAAAABGTs/8I
 
 ## Drive to Chatan, Round 1
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 We had grand plans for our last day; Melody Road, Goya Park, Chatan, Okinawa City, to name a few. First things things first though, I had to pick up the OIST electric car (I love driving the Mitsubishi i-MiEV) and go pick up Tania from church down in Yomitan. When I got in the car though, I immediately noticed the battery was only half full.
 
 *Oh crap.*
+
+<!-- PELICAN_END_SUMMARY -->
 
 The people who used it beforehand hadn't plugged it back in. Oh well, electric cars are meant to be economical, right? As the MiEV's GPS likes to tell us (in somewhat bizarre broken English for an English-based system), it has a 'Degree in Ecology'.
 
