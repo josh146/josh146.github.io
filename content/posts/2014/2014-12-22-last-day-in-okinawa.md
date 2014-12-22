@@ -1,6 +1,6 @@
 Title: Last day in Okinawa
 Subtitle: spoiler: it didn't go entirely to plan. Oh and I got a haircut
-Date: 2014-12-22 22:03
+Date: 2014-12-22 23:27
 Tags: okinawa, japan
 Category: Travel
 Author: Josh Izaac
