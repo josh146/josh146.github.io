@@ -84,7 +84,7 @@ Just.
 
 Leaving the car to charge for the afternoon, we formulated a new plan; we'd head to Chatan, try the ¥100 sushi train restaurant for dinner (we'd heard it was quite good), and maybe try getting haircuts. (After the American Village, the next English speaking city I'd be in would be London, and that might be a bit more pricey.)
 
-After parking, we found a cool little hairdressers that was still open - Soho New York. We deftly negotiated for a English-speaking haircut for the price of a Japanese-speaking haircut (well, unintentionally - we may have been helped my Tania questioning at the counter what the point of the price difference was), and walked out of there with brand new hairstyles. Well, it was a bit shorter than I intended, but at least I got my moneys worth.
+After parking, we found a cool little hairdressers that was still open - Soho New York. We deftly negotiated for a English-speaking haircut for the price of a Japanese-speaking haircut (well, unintentionally - we may have been helped by Tania questioning at the counter what the point of the price difference was), and walked out of there with brand new hairstyles. Well, it was a bit shorter than I intended, but at least I got my moneys worth.
 
 [!pic?caption=Before...](https://lh5.googleusercontent.com/-DEAj31j3bDs/VJgaRgic-jI/AAAAAAABGh4/d5vE57ZIgCM/w1323-h879-no/DSC_0825.jpg)
 
