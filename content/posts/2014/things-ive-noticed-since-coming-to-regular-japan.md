@@ -19,6 +19,8 @@ Tania has informed me that with that one title I've managed to offend not just t
 
 * Speaking of public transport, maybe it's just been way too long since I've attempted to use it, but I was really thrown by the Hiroshima tram system; specifically the part where you pay when you get *off* the tram. I must've spent 5 minutes trying to put my coins in any slightly coin-shaped slot near the entry door, whilst everyone else stared on in bewilderment and/or mesmerised by what they may have thought was a thought-provoking piece of performance art critiquing the privatization of public transport. 
 
+	[!pic?caption=Tram in Hiroshima](https://lh4.googleusercontent.com/-ua5PITxUWFQ/VJgLDWRHscI/AAAAAAABGXY/tGWGLBa1GLY/w1315-h877-no/DSC05734.JPG)
+
 * Also, bike! Bikes *everywhere*. I think I've forgotten how to react around bikes it's been so long since I've seen one - I literally jumped (no kidding) when the first bike swerved around me (*Good heavens! A mechanical beast!*). I might see if I can rent one next time I have the chance.
 
 * The absolute lack of taco rice and goya. Especially taco rice; I've gotten so used to it being the main staple - you could always depend on taco rice being on the menu in Okinawa, regardless whether it actually complemented the rest of the menu.
