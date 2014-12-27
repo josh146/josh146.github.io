@@ -41,4 +41,6 @@ Tania has informed me that with that one title I've managed to offend not just t
 
 * Pork is still used *everywhere*, although not to the extent of Okinawa. For example, McDonalds sells a crumbed pork (tonkatsu) burger.
 
+* Unlike Okinawa, where 90% of the cars on the road are kei cars, here it is more like 30-40%. Maybe it's because Okinawa is one of the poorest prefectures (and kei cars are cheaper), or maybe it's just due to the fact that since there is hardly any public transport, those who would own no car in Hiroshima end up settling for a kei car in Okinawa. Regardless of the reason, I'll stop baselessly speculating.
+
 I think that's all for now. I've still got so much of mainland Japan to explore!
