@@ -5,11 +5,11 @@ Category: Travel
 Author: Josh Izaac
 Image: https://lh5.googleusercontent.com/-JqBOzJvHK6E/VJgLOEvxh_I/AAAAAAABGZI/Q1zTbxTSJYI/w1315-h877-no/DSC05757.JPG
 
-<!-- BEGIN_PELICAN_SUMMARY -->
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 By the time I had landed, bussed to the central train station, and checked into my hostel, it was dark and I didn't really know what to do. I'd heard that the [Atomic Bomb Dome](http://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial) (the only structure left standing near the bomb's hypocenter, preserved as a memorial) was flood lit at night, so on a whim I decided to head down and check it out (and work out the cities tram system along the way).
 
-<!-- END_PELICAN_SUMMARY -->
+<!-- PELICAN_END_SUMMARY -->
 
 [!pic?caption=The A-Bomb Dome](https://lh5.googleusercontent.com/-JqBOzJvHK6E/VJgLOEvxh_I/AAAAAAABGZI/Q1zTbxTSJYI/w1315-h877-no/DSC05757.JPG)
 
