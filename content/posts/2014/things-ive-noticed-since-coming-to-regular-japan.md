@@ -1,7 +1,7 @@
 Title: Things I've noticed since coming to regular Japan
 Subtitle: as opposed to different Japan
 Date: 2014-12-24 17:14
-Tags: hiroshima, japan
+Tags: hiroshima, okinawa, japan
 Category: Travel
 Author: Josh Izaac
 
