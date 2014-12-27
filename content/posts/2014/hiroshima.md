@@ -5,15 +5,13 @@ Category: Travel
 Author: Josh Izaac
 Image: https://lh5.googleusercontent.com/-JqBOzJvHK6E/VJgLOEvxh_I/AAAAAAABGZI/Q1zTbxTSJYI/w1315-h877-no/DSC05757.JPG
 
+[!pic?caption=The A-Bomb Dome](https://lh5.googleusercontent.com/-JqBOzJvHK6E/VJgLOEvxh_I/AAAAAAABGZI/Q1zTbxTSJYI/w1315-h877-no/DSC05757.JPG)
+
 <!-- PELICAN_BEGIN_SUMMARY -->
 
 By the time I had landed, bussed to the central train station, and checked into my hostel, it was dark and I didn't really know what to do. I'd heard that the [Atomic Bomb Dome](http://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial) (the only structure left standing near the bomb's hypocenter, preserved as a memorial) was flood lit at night, so on a whim I decided to head down and check it out (and work out the cities tram system along the way).
 
 <!-- PELICAN_END_SUMMARY -->
-
-[!pic?caption=The A-Bomb Dome](https://lh5.googleusercontent.com/-JqBOzJvHK6E/VJgLOEvxh_I/AAAAAAABGZI/Q1zTbxTSJYI/w1315-h877-no/DSC05757.JPG)
-
-<br>
 
 Unfortunately an ordinance survey was being carried out to assess the structural integrity of the building, so the dome was covered from bottom to top in scaffolding (in typical Japanese fashion, the sign apologized profusely though).
 
@@ -55,7 +53,7 @@ The next morning, it was time to check out the Peace Memorial Park and Museum pr
 
 The atmosphere upon entering the Peace Memorial Museum was so sombre - the exhibits are so graphic and detailed, that no one was able to say a word upon entering, and throughout the entire museum I don't think I heard a single word uttered. Well, except for a young child, who upon listening to some of the videos, proceeded to repeatedly ask his mother, 'But mum, they survived right?'. She never answered him.
 
-The only change in atmosphere that morning was due to my own stupidity. One of the exhibits was of an abnormally growing black fingernail, extracted from a man exposed to the radiation. I was strangely drawn to it, and had to get closer to examine this mesmerizing 3 cm black strip inside of a almost meter by meter glass case.
+The only change in atmosphere that morning was due to my own stupidity. One of the exhibits was of an abnormally growing black fingernail, extracted from a man exposed to the radiation. I was strangely drawn to it, and had to get closer to examine this mesmerizing 3 cm black strip inside of an almost meter by meter glass case.
 
 It was the echoing thud of my forehead colliding with the glass of the display case that set of a smattering of giggles around the hall, and I couldn't help but join in. Moments later though, the gravity of the exhibits took hold once again, and the sombre climate returned.
 
