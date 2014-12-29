@@ -67,7 +67,7 @@ Since you can't enter the temple, there isn't really much to except take selfies
 
 ## Sushi dinner
 
-[!pic?](https://lh4.googleusercontent.com/-sh7q8YpwABs/VJz9N9b1SLI/AAAAAAABH3M/K9CJFEaFSQY/w1315-h877-no/DSC06243.JPG)
+[!pic](https://lh4.googleusercontent.com/-sh7q8YpwABs/VJz9N9b1SLI/AAAAAAABH3M/K9CJFEaFSQY/w1315-h877-no/DSC06243.JPG)
 
 After hearing from Kristiaan the night before about an amazing sushi train restaurant in Kyoto station (the vicinity to the hostel helped as well), I headed down to try it for dinner.
 
@@ -124,3 +124,4 @@ The vibe was a bit strange though, as they were showing The Girl with the Dragon
 Eh. You win some, you lose some.
 
 [!pic?caption=Girl with the Dragon Tattoo, playing loudly in the background](https://lh4.googleusercontent.com/-WjZdKySq1rE/VJvcZZ3zIWI/AAAAAAABJAs/nX7EtJNIhoo/w493-h876-no/Screenshot_2014-12-25-18-39-23.png)
+
