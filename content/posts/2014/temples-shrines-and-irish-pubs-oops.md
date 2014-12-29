@@ -5,13 +5,13 @@ Category: Travel
 Author: Josh Izaac
 Image: https://lh4.googleusercontent.com/-8HzzhzRHy50/VJvGnstbIGI/AAAAAAABHXY/0A-V-EmqR9o/w1315-h877-no/DSC06025.JPG
 
-<!-- BEGIN_PELICAN_SUMMARY -->
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 I woke up that morning at 7.30am, thanks to my Pebble vibrating violently on my wrist. I had arrived back at the hostel at 3am last night (due to the slight misfortune of leaving my camera behind at the izakaya - after a very harrowing 15 minute drunk Google Translate conversation with the restaurant next door, though, camera was successfully retrieved). Plus, with the amount of sake I had consumed, I was annoyingly quite hungover.
 
 Ugh, and I had planned to fit so much in today!
 
-<!-- END_PELICAN_SUMMARY -->
+<!-- PELICAN_END_SUMMARY -->
 
 ## Fushimi Inari-taisha
 
