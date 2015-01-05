@@ -6,13 +6,13 @@ Category: Travel
 Author: Josh Izaac
 Image: https://lh6.googleusercontent.com/-FOWJWRm8Qlo/VJvFbcN-b0I/AAAAAAABHMs/qKERdw2UOd0/w1315-h877-no/DSC06104.JPG
 
-<!-- BEGIN_PELICAN_SUMMARY -->
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 My plan today was quite vague; go to [Arashiyama](http://en.wikipedia.org/wiki/Arashiyama) to escape the city for a bit and walk down the bamboo path, visit Nijō-jō ([Nijō Castle](http://en.wikipedia.org/wiki/Nij%C5%8D_Castle)), and wander around for a bit that afternoon. *It doesn't really matter*, I told myself that morning, a bit sick of concrete plans. *I'll just make it up as I go along*.
 
 And that's how I ended up watching The Interview, at midnight, at a hostel on the other side of the train station, with some pretty cool Australians I had literally just met. 
 
-<!-- END_PELICAN_SUMMARY -->
+<!-- PELICAN_END_SUMMARY -->
 
 ## Arashiyama
 
