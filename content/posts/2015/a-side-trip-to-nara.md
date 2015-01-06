@@ -8,13 +8,13 @@ Image: https://lh3.googleusercontent.com/-JO5wvy2gTZU/VJz72Acv7dI/AAAAAAABHrE/FM
 
 [!pic](https://lh3.googleusercontent.com/-JO5wvy2gTZU/VJz72Acv7dI/AAAAAAABHrE/FM-z6bGMpls/w1315-h877-no/DSC06257.JPG)
 
-<!-- BEGIN_PELICAN_SUMMARY -->
+<!-- PELICAN_BEGIN_SUMMARY -->
 
 On my last day in Kyoto, I decided to do a quick trip (45 minutes by train) to [Nara](http://en.wikipedia.org/wiki/Nara,_Nara), the former capital of Japan from 710-784, and perhaps even more known for its temples than Kyoto.
 
 Oh, and also for its 1200 wild deer.
 
-<!-- END_PELICAN_SUMMARY -->
+<!-- PELICAN_END_SUMMARY -->
 
 Firstly, the wild deer are *so tame*. I managed to get within centimeters of one without it even flinching.
 
