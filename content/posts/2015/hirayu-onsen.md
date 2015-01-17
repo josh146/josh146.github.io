@@ -6,9 +6,13 @@ Category: Travel
 Author: Josh Izaac
 Image: https://lh5.googleusercontent.com/-ra9MR5_b6Gc/VJ6scE9NhlI/AAAAAAABITU/tq1gWqxJlws/w1315-h877-no/DSC06573.JPG
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+
 Having only one night in Takayama, and really wanting to try an outdoor [onsen](http://en.wikipedia.org/wiki/Onsen) (also known as a rotenburo, or outdoor hot spring) in the scenic Japanese Alps, I found myself running at full speed from the center of Takayama to the Nohi bus station on the edge of the city, desperately trying to make the 1.40pm bus (with less than 10 minutes to spare).
 
  And I was so glad I made it, because Hirayu Onsen is just as impressive (read: magical) as Takayama.
+ 
+<!-- PELICAN_END_SUMMARY -->
 
 [!pic?caption=Look at the height of the snow&#33; (with a selfie for scale)](https://lh3.googleusercontent.com/-alvhTRgJlcI/VJ6rpAMrWsI/AAAAAAABIZM/wnKak78nlSY/w1315-h877-no/DSC06524.JPG)
 
@@ -58,7 +62,7 @@ It was completely frozen - where there should be water there was instead ice. A 
 
 [!pic](https://lh5.googleusercontent.com/-utr8tL_nk2M/VJ6sm8suMBI/AAAAAAABIUg/OXm-AFX1ij0/w585-h877-no/DSC06582.JPG)
 
-After standing in awe for at least 20 minutes, I turned around and reluctantly headed back for the bus. Although no longer in sight of the waterfall, the view was no less stunning.
+After standing in awe for at least 20 minutes, I turned around and reluctantly headed back for the bus. Although no longer in sight of the waterfall, the view was no less stunning (okay, maybe *slightly* less impressive).
 
 [!pic](https://lh3.googleusercontent.com/-spdPDm9KRcs/VJ6s7-T-P4I/AAAAAAABIXo/SOyTeApBgBM/w1315-h877-no/DSC06613.JPG)
 
