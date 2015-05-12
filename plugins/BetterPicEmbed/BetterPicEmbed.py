@@ -39,19 +39,43 @@ class BetterPicEmbedPattern(Pattern):
         else:
             width = "max-width: 100%"
 
-        if caption is not None:
-            picHTML = """
+        if 'zoom' in parameters:
+            zoom = bool(int(parameters['zoom']))
+        else:
+            zoom = True
+
+        if zoom:
+            if caption is not None:
+                picHTML = """
                 <center>
-                    <img style="{2}; {3};" src='{0}' alt='{1}'></img>
+                    <a class="zoom" href="{0}" title="{4}">
+                        <img src="{0}" style="{2}; {3};" src='{0}' alt='{1}'></img>
+                    </a>
                     <h4><div align=center><em>{4}</em></div></h4>
                 </center>
-            """
-        else:
-            picHTML = """
+                """
+            else:
+                picHTML = """
                 <center>
-                    <img style="{2}; {3};" src='{0}' alt='{1}'></img>
+                    <a class="zoom" href="{0}">
+                    <img src="{0}" style="{2}; {3};" src='{0}' alt='{1}'></img>
+                    </a>
                 </center>
-            """
+                """
+        else:
+            if caption is not None:
+                picHTML = """
+                    <center>
+                        <img style="{2}; {3};" src='{0}' alt='{1}'></img>
+                        <h4><div align=center><em>{4}</em></div></h4>
+                    </center>
+                """
+            else:
+                picHTML = """
+                    <center>
+                        <img style="{2}; {3};" src='{0}' alt='{1}'></img>
+                    </center>
+                """
 
         return self.md.htmlStash.store(picHTML.format(url,alt,height,width,caption))
 

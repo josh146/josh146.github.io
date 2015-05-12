@@ -5,6 +5,39 @@
   {% include "_includes/header.html" %}
   <title>{% block title %}{{ SITENAME|striptags }} {{ SITESUBTITLE|striptags }}{% endblock %}</title>
   {% block swiftypeMeta %}{% endblock %}
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" />
+
+    <style type="text/css">
+    /* 
+
+    for zoom animation 
+    uncomment this part if you haven't added this code anywhere else
+
+    */     
+    .mfp-with-zoom .mfp-container,
+    .mfp-with-zoom.mfp-bg {
+      opacity: 0;
+      -webkit-backface-visibility: hidden;
+      -webkit-transition: all 0.3s ease-out; 
+      -moz-transition: all 0.3s ease-out; 
+      -o-transition: all 0.3s ease-out; 
+      transition: all 0.3s ease-out;
+    }
+    
+    .mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+    }
+    .mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+    }
+    
+    .mfp-with-zoom.mfp-removing .mfp-container, 
+    .mfp-with-zoom.mfp-removing.mfp-bg {
+      opacity: 0;
+    }
+    </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -120,6 +153,23 @@
     {% include "_includes/footer.html" %}
 
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <script>
+    $('.zoom').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      fixedContentPos: true,
+      mainClass: 'mfp-with-zoom',
+      image: {
+        verticalFit: true
+      },
+      zoom: {
+        enabled: true,
+        duration: 300 // don't foget to change the duration also in CSS
+      }
+    });
+  </script>
 
 </body>
 
