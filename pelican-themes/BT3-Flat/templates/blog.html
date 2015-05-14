@@ -71,7 +71,17 @@
           <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" class="label label-default light"><i class="fa fa-comment-o"></i> ?? Comments</a>
           <span class="label label-default light">{{article.locale_date}}</span>
         </div>
-        <!-- image -->
+        <!-- featured image -->
+        {% if article.image %}
+          <figure>
+            <img src="{{article.image}}" class="img-responsive" data-src="holder.js/820x500/#676767:#555555/auto/" alt="img" />
+          </figure>
+        {% endif %}
+        <!-- featured embed -->
+        {% if article.embed %}
+          {{article.embed}}
+        {% endif %}
+        <!-- featured -->
         {% if article.featured %}
           {% if article.type|lower =='image' %}
             <figure>
@@ -87,7 +97,7 @@
         <!-- blog short preview -->
         <p>
           {% if article.summary %}
-            {{ article.summary }}
+            {{ article.summary }} <!-- [25:-14] -->
           {% else %}
             {{ article.content[:196] }} + ' ...'
           {% endif %}

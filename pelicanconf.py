@@ -27,7 +27,6 @@ OUTPUT_PATH = 'output'  # os.path.abspath('../../trunk')
 
 IGNORE_FILES = ['plugins/*', 'pelican-themes/*']
 
-DEFAULT_PAGINATION = 10
 
 # Formatting for dates
 DEFAULT_DATE_FORMAT = ('%a %d %B %Y')
@@ -257,10 +256,21 @@ if THEME == "pelican-themes/BT3-Flat":
     SHOW_RECENT_BLOGS = False
 
     POST_LIMIT = 5
-    # TEMPLATE_PAGES = {  'templates/blog.html': 'blog.html'}
-    DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories', 'search')
     TAG_SAVE_AS = False
     CATEGORY_SAVE_AS = False
     AUTHOR_SAVE_AS = False
 
+    DEFAULT_PAGINATION = 5
+
+
+    if DEFAULT_PAGINATION is False:
+        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories', 'search')
+        TEMPLATE_PAGES = {  'blog.html': 'blog.html'}
+    else:
+        PAGINATED_DIRECT_TEMPLATES = ('blog-index',)
+        PAGINATION_PATTERNS = (
+            (1, '{base_name}', '{base_name}/blog/index.html'),
+            (2, '{base_name}/blog/{number}/', '{base_name}/blog/{number}/index.html'),
+        )
+        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog-index', 'blog', 'tags', 'categories', 'search')
 

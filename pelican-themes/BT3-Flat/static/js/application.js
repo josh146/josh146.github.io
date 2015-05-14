@@ -88,7 +88,7 @@ $(document).ready(function() {
     // ajax-like load blog index
     var counter = makeCounter();
     var index_num = counter(0);
-    var POST_LIMIT = 3;
+    var POST_LIMIT = 5;
     var POST_COUNT = parseInt($('#blog_main_area').attr('count'), 10);
     $('#prev').on('click', function(e) {
       index_num -= 1;
