@@ -9,20 +9,18 @@ Image: https://lh6.googleusercontent.com/-7K32zcxe_FM/VKECq0DBJlI/AAAAAAABI0M/i_
 [!pic](https://lh6.googleusercontent.com/-7K32zcxe_FM/VKECq0DBJlI/AAAAAAABI0M/i_kPywfjc0Q/w1318-h879-no/DSC07039.JPG)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-
 Whilst talking to Shun in Takayama, I asked her where she had just come from; Kanazawa, it turned out.
 
 'Oh, I'm about to head to Kanazawa! What would you recommend I see or do while there?'
 
 'Well, I stayed at this amazing place; Guest House Pongyi. Best place I've ever stayed at!'
+<!-- PELICAN_END_SUMMARY -->
 
 That was odd, I remember thinking. We had just had a massive conversation about Kanazawa, and all her highlights essentially revolved around her accommodation. By some bizarre coincidence, I had also booked Guest House Pongyi, buoyed by the almost universal praise on [booking.com](http://www.booking.com/hotel/jp/guest-house-pongyi.en-gb.html).
 
 So I bid farewell, promised to mention Shun's name when I checked in, and walked off wondering just how great this place could possibly be.
 
 This is going to be long, as I'm going to try and condense my three days in Kanazawa into one post. So strap in!
-
-<!-- PELICAN_END_SUMMARY -->
 
 ## Guest House Pongyi
 
