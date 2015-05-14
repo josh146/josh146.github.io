@@ -1,12 +1,12 @@
-Title: Guest House Pongyi
+Title: Guest House Pongyi and Doria
 Subtitle: oh and Kanazawa was okay too I guess
 Date: 2015-01-18 22:05
 Tags: kanazawa, japan
 Category: Travel
 Author: Josh Izaac
-Image: https://lh4.googleusercontent.com/-WqTXBLJLSmw/VKECvyMp1VI/AAAAAAABI1Y/hsCp45iIlBA/w1318-h879-no/DSC07047.JPG
+Image: https://lh6.googleusercontent.com/-7K32zcxe_FM/VKECq0DBJlI/AAAAAAABI0M/i_kPywfjc0Q/w1318-h879-no/DSC07039.JPG
 
-[!pic](https://lh4.googleusercontent.com/-WqTXBLJLSmw/VKECvyMp1VI/AAAAAAABI1Y/hsCp45iIlBA/w1318-h879-no/DSC07047.JPG)
+[!pic](https://lh6.googleusercontent.com/-7K32zcxe_FM/VKECq0DBJlI/AAAAAAABI0M/i_kPywfjc0Q/w1318-h879-no/DSC07039.JPG)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
@@ -28,7 +28,7 @@ This is going to be long, as I'm going to try and condense my three days in Kana
 
 I love this place. A refurbished 136 year old kimono shop, it was by far the most 'authentic' place I stayed in. Small (yet not cramped), the interior consisted of low tables, tatami mats, and folding screens, and it just felt so incredibly homely.
 
-[!pic?caption=It's built along one of the many canals adorning the streets of Kanazawa](https://lh6.googleusercontent.com/-7K32zcxe_FM/VKECq0DBJlI/AAAAAAABI0M/i_kPywfjc0Q/w1318-h879-no/DSC07039.JPG)
+[!pic?caption=It's built along one of the many canals adorning the streets of Kanazawa](https://lh4.googleusercontent.com/-WqTXBLJLSmw/VKECvyMp1VI/AAAAAAABI1Y/hsCp45iIlBA/w1318-h879-no/DSC07047.JPG)
 
 [!pic?caption=Yuu at the reception](https://lh3.googleusercontent.com/-xtJXXEhjwO0/VKECuEbfsvI/AAAAAAABI0s/vrgYjlm0iHM/w1318-h879-no/DSC07044.JPG)
 
@@ -44,18 +44,18 @@ I love this place. A refurbished 136 year old kimono shop, it was by far the mos
 
 [!pic?caption=We all made paper cranes to be burned at the local shrine for New Years Eve](https://lh5.googleusercontent.com/-e774Y89LSiw/VKECou3NzvI/AAAAAAABIz0/PJYh6GHD_m4/w1318-h879-no/DSC06800.JPG)
 
-<br>
-
 When you arrive, Yuu helps you set up your bed. Every time someone new checked in, Yuu or Maru would run around and introduce them to all the other guests. There were constantly activities available (calligraphy! tea ceremonies! communal trips to the sentō (public bath)! Admittedly I took a pass on the last one). And at night, Maru would walk around and make hot water bottles for everyone!
 
 Seriously, it was more like a home-away-from-home than a hostel.
 
-## Food
+## Doria and other assorted food discoveries
 Being so close to the sea of Japan, Kanazawa is known for it's seafood, and particularly it's shellfish. In fact, it seemed that I was there at the perfect time of year, as the ban on snow crab harvesting is lifted annually on November 6th, and the local Ōmichō-ichiba Markets near the center of town are flooded with row after row of bright orange snow crabs.
 
 [!pic?caption=Ōmichō-ichiba Markets](https://lh4.googleusercontent.com/-ggiGT4-JHo8/VKECJMmf-5I/AAAAAAABIvk/f_oDMid6DiY/w1349-h900-no/DSC06804.JPG)
 
 [!pic](https://lh6.googleusercontent.com/-EQUkqaCMPX8/VKECJ4npGuI/AAAAAAABIvs/mbqpOEoRaK8/w1349-h900-no/DSC06805.JPG)
+
+[!pic?caption=For breakfast I had a cronut at Mister Donut (don't judge) outside Ōmichō-ichiba. Best damn cronut I've ever had. And I don't even like cronuts.](https://lh4.googleusercontent.com/-W-op8HcJynY/VKECIcwa2ZI/AAAAAAABIvc/hhruFDiCiM0/w1352-h902-no/DSC06803.JPG)
 
 Of course, I couldn't resist trying a crab dish at a local Izakaya that night.
 
