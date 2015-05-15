@@ -29,7 +29,7 @@
         opacity: 1;
     }
     .mfp-with-zoom.mfp-ready.mfp-bg {
-        opacity: 0.8;
+        opacity: 0.95;
     }
     
     .mfp-with-zoom.mfp-removing .mfp-container, 
@@ -164,9 +164,10 @@
       image: {
         verticalFit: true
       },
-      // gallery: {
-      //   enabled: true
-      // },
+      gallery: {
+        enabled: true,
+        navigateByImgClick: false,
+      },
       zoom: {
         enabled: true,
         duration: 300 // don't foget to change the duration also in CSS

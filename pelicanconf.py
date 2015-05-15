@@ -260,8 +260,7 @@ if THEME == "pelican-themes/BT3-Flat":
     CATEGORY_SAVE_AS = False
     AUTHOR_SAVE_AS = False
 
-    DEFAULT_PAGINATION = 5
-
+    DEFAULT_PAGINATION = False
 
     if DEFAULT_PAGINATION is False:
         DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories', 'search')

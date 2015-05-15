@@ -59,6 +59,7 @@
 {% endfor %} 
 
 {% if DEFAULT_PAGINATION %}
+  <center>
   <ul class="pagination">
     {% if articles_page.has_previous() %}
       {% if articles_page.previous_page_number()|int() == 1 %}
@@ -72,6 +73,7 @@
       <li class="prev"><a href="{{SITEURL}}/blog/{{articles_page.next_page_number()}}">Previous &rarr; </a></li>
     {% endif %}
   </ul>
+  </center>
 {% endif %}
 
 
