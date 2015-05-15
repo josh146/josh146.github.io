@@ -95,6 +95,7 @@ $(document).ready(function() {
       if (index_num === 0) {
         index_num = 1;
         $(this).addClass('disabled');
+        $(this).hide();
       }
       else {
 
@@ -102,6 +103,7 @@ $(document).ready(function() {
         jQuery('html,body').animate({scrollTop: 0}, 1000, 'easeInOutExpo');
 
         $('#next').removeClass('disabled');
+        $('#next').show();
         $('#blog_main_area div.item').each(function() {
           if ($(this).is(':visible')) {
             $(this).fadeOut('slow');
@@ -114,6 +116,7 @@ $(document).ready(function() {
 
         if (index_num === 1) {
           $(this).addClass('disabled');
+          $(this).hide();
         }
       }
 
@@ -121,6 +124,7 @@ $(document).ready(function() {
     $('#next').on('click', function(e) {
       index_num += 1;
       $('#prev').removeClass('disabled');
+      $('#prev').show();
 
       e.preventDefault();
       jQuery('html,body').animate({scrollTop: 0}, 1000, 'easeInOutExpo');
@@ -139,6 +143,7 @@ $(document).ready(function() {
 
       if (index_num * POST_LIMIT >= POST_COUNT) {
         $(this).addClass('disabled');
+        $(this).hide();
         index_num = Math.ceil(POST_COUNT / POST_LIMIT);
       }
     });
