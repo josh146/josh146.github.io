@@ -5,9 +5,9 @@ Tags: kanazawa, japan
 Category: Travel
 Author: Josh Izaac
 Status: draft
-Image: https://lh6.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABI58/hr26ESC1YuU/w1349-h900-no/DSC06883.JPG
+Image: https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG
 
-[!pic](https://lh6.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABI58/hr26ESC1YuU/w1349-h900-no/DSC06883.JPG)
+[!pic](https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG)
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
