@@ -7,8 +7,6 @@ Author: Josh Izaac
 Status: draft
 Image: https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG
 
-[!pic](https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG)
-
 A bit 'off the beaten path' (I use inverted commas, because, let's face it, Japan is *extremely* well connected, and here 'off the beaten path' basically means 'there is no Shinkansen connection'[^1] - *oh god the horror, I have to catch a bus*), Kanazawa is not often frequented by overseas travellers. Or so, many online travel guides seemed to assure me. Nevertheless, I had 2 days to kill before heading to Nagano, and visiting Kanazawa seemed like a nice stopover. Furthermore, considering the time of year (28th of December), it would be pretty nice to be stranded in a larger city rather than a tiny rural village on the off-chance that everything would be closed ([one of my biggest worries](http://www.japan-guide.com/e/e2276.html)).
 
 ## Rain, mist and moats
@@ -37,7 +35,7 @@ The next day, by randomly meandering along the canals, I also chance upon some a
 
 ## Kanazawa Castle Park
 
-![!pic](https://lh5.googleusercontent.com/CKout3SIEwG1H6Kx6DagAldLE9M9PKm8fMeW621-xZkF=w1357-h905-no)
+[!pic](https://lh5.googleusercontent.com/CKout3SIEwG1H6Kx6DagAldLE9M9PKm8fMeW621-xZkF=w1357-h905-no)
 
 Situated in the center of Kanazawa, Kanazawa castle park is a sprawling complex containing remains of Kanazawa's original castle (first built in 1580) and the surrounding castle grounds and gardens. Of course, being a castle in Japan is a perilous undertaking (bizarre personification unintended), and I wasn't surprised to discover Kanazawa castle was no different.
 
@@ -58,7 +56,7 @@ I shouldn't complain, really, it's amazing than Kanazawa has been able to save t
 
 However, I wasn't prepared for the fact that the reconstruction effort was still in full swing and you could see additional buildings and structure being built *right before you*.
 
-![!pic?caption=Behind the scenes of the previous photo](https://lh6.googleusercontent.com/-FRX7vIRP3e0/VKEEBPqHHkI/AAAAAAABJAE/ns8WTV8-vmA/w1349-h900-no/DSC06865.JPG)
+[!pic?caption=Behind the scenes of the previous photo](https://lh6.googleusercontent.com/-FRX7vIRP3e0/VKEEBPqHHkI/AAAAAAABJAE/ns8WTV8-vmA/w1349-h900-no/DSC06865.JPG)
 
 The work is definitely impressive, with traditional construction techniques and materials being used in order to replicate the 1850's era facade as closely as possible. And perhaps I'm just crazy, but the stark minimalistic interiors along with simply the *knowledge* of the contemporary  construction robbed the site of some of the atmosphere you feel, for example, at the Tower of London, or the numerous castle ruins of Okinawa.
 
@@ -67,5 +65,27 @@ The work is definitely impressive, with traditional construction techniques and 
 [!pic?caption=And the frozen outer moats were definitely impressive](https://lh6.googleusercontent.com/-eX5QQZv8Vio/VKEDqdPPRVI/AAAAAAABI8o/cPoTjyGnChY/w1352-h902-no/DSC06813.JPG)
 
 [!pic](https://lh4.googleusercontent.com/-SN8Sr4M6_so/VKEDwkmdc3I/AAAAAAABI9s/azCvMAdLq78/w1352-h902-no/DSC06829.JPG)
+
+## Kenrokuen Garden
+
+Directly next door to Kanazawa castle park is Kenrokuen (and no coincidence either, considering it used to be a private external castle garden). However fate was kinder to Kenrokuen, and it by and large survived the many fires to ravage the castle grounds (the tea houses on site date to the early 18th century). Worked on continuously from the 1620s, it's renowned for it's numerous streams and ponds (as you would expect, for a garden in Kanazawa) before they all coalesce into the castle moats.
+
+In fact, Kenrokuen has far eclipsed the castle site to become the premier 'must-see' site in Kanazawa, and is today considered one of the Top 3 gardens in Japan (I won't name the others because I'm tired and can't remember so [here have this Wikipedia article](http://en.wikipedia.org/wiki/Three_Great_Gardens_of_Japan)).
+
+[!pic](https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG)
+
+[!pic](https://lh6.googleusercontent.com/-I84_EqPD-0s/VKEDUF_ccpI/AAAAAAABI50/CEYZRIbysB4/w1349-h900-no/DSC06881.JPG)
+
+[!pic](https://lh6.googleusercontent.com/-VQknDNtsEh4/VKEDWJqNrhI/AAAAAAABI6E/tZbjItzrKQ8/w1349-h900-no/DSC06885.JPG)
+
+To be honest, I was a bit underwhelmed. Perhaps it was the hype (*The top three gardens of Japan you just can't miss! Number 2 will make you go OMG*), the pictures I had seen the day before on Facebook when Kenrokuen was buried in snow and looked **magical** (don't judge I'm from Australia), or just the the dreary, overcast day.
+
+Or maybe it was the remnants of snow on the ground, reminding me of my time in Takayama (*Hida beef I miss you already*).
+
+Regardless, I did find the [Yukitsuri](http://en.wikipedia.org/wiki/Yukitsuri) - the rope and bamboo pole tree supports - pretty cool. Ubiquitous around Kanazawa in winter, these are essential to ensure that trees and shrubs do not collapse under the ridiculous amount of snow common in the region.
+
+Or perhaps people just enjoy the illusion of giant tree marionettes. Who knows!
+
+[!pic](https://lh6.googleusercontent.com/--d3bPV33Zwk/VKEDWwJEE-I/AAAAAAABI6M/pLf35dzWS6s/w1349-h900-no/DSC06887.JPG)
 
 [^1]: A massive development since my visit is the opening of the [Nagano-Kanazawa leg of the Hokuriku Shinkansen](http://www.japan-guide.com/e/e2018_nagano.html) on March 14th, 2015 - travel to Kanazawa from Tokyo now takes as little as 2 and a half hours!
