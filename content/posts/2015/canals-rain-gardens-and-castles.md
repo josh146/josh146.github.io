@@ -88,4 +88,29 @@ Or perhaps people just enjoy the illusion of giant tree marionettes. Who knows!
 
 [!pic](https://lh6.googleusercontent.com/--d3bPV33Zwk/VKEDWwJEE-I/AAAAAAABI6M/pLf35dzWS6s/w1349-h900-no/DSC06887.JPG)
 
+## Nagamachi Samurai District
+Apparently one of the better preserved samurai districts in Japan, this neighborhood is quite scenic with narrow alleyways, wooden ceilings, and mud brick walls - albeit somewhat historically dubious according to [Wikivoyage](http://en.wikivoyage.org/wiki/Kanazawa) (I haven't been able to find any similar sentiments online).
+
+[!pic](https://lh4.googleusercontent.com/-SFAA3vHO6yE/VKECdEDOjvI/AAAAAAABIyQ/OLQIFWKLRsQ/w1349-h900-no/DSC06969.JPG)
+
+Most of the remaining Samurai houses are private residences, almost making it feel like you're intruding into suburban neighbourhoods, but a couple are open to the public. Nomura Samurai House in one such example, and displays Nomura family artifacts spanning from 400 years ago until they were bankrupted by the Meiji Restoration.
+
+[!pic](https://lh6.googleusercontent.com/-_wueA5qjuvk/VKECRk9veQI/AAAAAAABIwg/LJz2YxB0KMo/w1349-h900-no/DSC06940.JPG)
+
+[!pic?caption='We are very happy that you brought us his head'](https://lh4.googleusercontent.com/-7Hz__Z2kvms/VKECcEURqaI/AAAAAAABIyI/T-byM_W0UAk/w1349-h900-no/DSC06967.JPG)
+
+[!pic?caption='We have been very busy these days, feeling sorry for such a simple letter like this'](https://lh4.googleusercontent.com/-17SFNPbph7Y/VKECbhHRdYI/AAAAAAABIyA/ooWu-nrjEkw/w1349-h900-no/DSC06965.JPG)
+
+The house itself is also pretty amazing (regardless of it's authenticity), and perfectly juxtaposes the typically minimalistic interiors with one of the most eclectic 'zen' gardens I'd seen. It almost seemed like there were more Yukitsuri than plants.
+
+[!pic](https://lh6.googleusercontent.com/-wU-qtW4IsOQ/VKECWv_57TI/AAAAAAABIxQ/jWRXgtG4l8o/w1349-h900-no/DSC06953.JPG)
+
+[!pic?caption=On the way to the zen garden](https://lh6.googleusercontent.com/-jzDI5NqgIhU/VKECZHSB3UI/AAAAAAABIxo/m35phOrBRak/w1349-h900-no/DSC06959.JPG)
+
+## Higashi-Chayamachi
+
+My last stop was Higashi-Chayamachi. After failing to properly explore the geisha district of Kyoto (and ending up in an [Irish pub]({filename}/posts/2014/temples-shrines-and-irish-pubs-oops.md)), what better place to make amends than the geisha district of Kanazawa. Kanazawa is known as Little Kyoto, after all, did I not mention that?
+
+Probably because 'The Seattle of Japan
+
 [^1]: A massive development since my visit is the opening of the [Nagano-Kanazawa leg of the Hokuriku Shinkansen](http://www.japan-guide.com/e/e2018_nagano.html) on March 14th, 2015 - travel to Kanazawa from Tokyo now takes as little as 2 and a half hours!
