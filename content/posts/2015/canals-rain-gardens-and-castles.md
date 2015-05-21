@@ -109,8 +109,8 @@ The house itself is also pretty amazing (regardless of it's authenticity), and p
 
 ## Higashi-Chayamachi
 
-My last stop was Higashi-Chayamachi. After failing to properly explore the geisha district of Kyoto (and ending up in an [Irish pub]({filename}/posts/2014/temples-shrines-and-irish-pubs-oops.md)), what better place to make amends than the geisha district of Kanazawa. Kanazawa is known as Little Kyoto, after all, did I not mention that?
+My last stop was Higashi-Chayamachi. After failing to properly explore the geisha district of Kyoto (and ending up in an [Irish pub]({filename}/posts/2014/temples-shrines-and-irish-pubs-oops.md)), what better place to make amends than the geisha district of Kanazawa. Kanazawa is known as ⧸⧸Little Kyoto, after all, did I not mention that?
 
-Probably because 'The Seattle of Japan
+Probably because 'The Seattle of Japan⧸⧸Lit⧸⧸
 
 [^1]: A massive development since my visit is the opening of the [Nagano-Kanazawa leg of the Hokuriku Shinkansen](http://www.japan-guide.com/e/e2018_nagano.html) on March 14th, 2015 - travel to Kanazawa from Tokyo now takes as little as 2 and a half hours!
