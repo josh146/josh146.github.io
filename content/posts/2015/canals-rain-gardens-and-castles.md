@@ -4,7 +4,6 @@ Date: 2015-05-18 18:25
 Tags: kanazawa, japan
 Category: Travel
 Author: Josh Izaac
-Status: draft
 Image: https://lh4.googleusercontent.com/-kxiJTV2QAXM/VKEDVBZetFI/AAAAAAABWPc/K7tVx48bZak/w1352-h902-no/DSC06883.JPG
 
 A bit 'off the beaten path' (I use inverted commas, because, let's face it, Japan is *extremely* well connected, and here 'off the beaten path' basically means 'there is no Shinkansen connection'[^1] - *oh god the horror, I have to catch a bus*), Kanazawa is not often frequented by overseas travellers. Or so, many online travel guides seemed to assure me. Nevertheless, I had 2 days to kill before heading to Nagano, and visiting Kanazawa seemed like a nice stopover. Furthermore, considering the time of year (28th of December), it would be pretty nice to be stranded in a larger city rather than a tiny rural village on the off-chance that everything would be closed ([one of my biggest worries](http://www.japan-guide.com/e/e2276.html)).
@@ -13,7 +12,7 @@ A bit 'off the beaten path' (I use inverted commas, because, let's face it, Japa
 
 Kanazawa certainly has a different feel from other Japanese cities I'd visited - perhaps it was its smaller size, relative isolation (and I use the term *very* weakly), and coastal location, but everything seemed a bit slower and more relaxed. The entire time I was there there was a constant drizzle, which didn't bother me too much - I was kind of expecting it, given Kanazawa's reputation as the Seattle of Japan.
 
-> #### ''Even if you forget your lunchbox, don't forget your umbrella.' - local Kanazawa proverb 
+> #### *'Even if you forget your lunchbox, don't forget your umbrella.' - local Kanazawa proverb*
 
 What I wasn't expecting however were the complex network of tree-lined canals permeating the city, ensuring wide, open public spaces that left a small-town feel in the middle of a bustling city street. Even cooler, I later found out that these canals are remnants of '[enclosure moats](http://www.kanazawa-hakusan.com/english/water.html)' built during the Edo period to strengthen the cities defences, and are the only remaining enclosure moats in Japan.
 
@@ -21,7 +20,7 @@ What I wasn't expecting however were the complex network of tree-lined canals pe
 
 Even better though - the canals provide an excellent navigational tool, especially when you arrive after dark and are delirious from hunger.
 
-> #### 'Just go out the hostel exit, turn left, and follow the canal until you hit the CBD. They'll be tonnes of food there!' - Yuu at the reception
+> #### *'Just go out the hostel exit, turn left, and follow the canal until you hit the CBD. They'll be tonnes of food there!' - Yuu at the reception*
 
 (Somehow I still managed to get lost - '*oh shit the canals are diverging*' - and ended up getting take-out yakitori at a local Lawson. But let's not dwell on that).
 
@@ -109,8 +108,40 @@ The house itself is also pretty amazing (regardless of it's authenticity), and p
 
 ## Higashi-Chayamachi
 
-My last stop was Higashi-Chayamachi. After failing to properly explore the geisha district of Kyoto (and ending up in an [Irish pub]({filename}/posts/2014/temples-shrines-and-irish-pubs-oops.md)), what better place to make amends than the geisha district of Kanazawa. Kanazawa is known as ⧸⧸Little Kyoto, after all, did I not mention that?
+My last stop was Higashi-Chayamachi. After failing to properly explore the geisha district of Kyoto (and ending up in an [Irish pub]({filename}/posts/2014/temples-shrines-and-irish-pubs-oops.md)), what better place to make amends than the geisha district of Kanazawa. Kanazawa is known as Little Kyoto, after all, did I not mention that?
 
-Probably because 'The Seattle of Japan⧸⧸Lit⧸⧸
+Probably because 'the Seattle of Japan' moniker seemed so dead on - as soon as I crossed the Asanogawa River and reached Higashi-Chaya, it started pouring.
+
+First stop: buy an umbrella.
+
+Luckily for me, I didn't need to! How serendipitous that the bus stopped right next door to a Minna no eRe:Kasa (free umbrella rental station).
+
+[!pic](https://lh4.googleusercontent.com/-hkcvOnbIZmI/VKECz7YGynI/AAAAAAABI1g/q2nU_HjR3qA/w1349-h900-no/DSC06987.JPG)
+
+Unfortunately, I didn't notice the sign until I *left* the shop, and endured a hearty laugh and repeated urgings of 'just take! just take!' as I kept trying to pay the shop owner.
+
+But jokes on him! I never actually returned umbrella (as I later found out you were supposed to - [apparently 1000 went missing the month after the trial started](http://www.shifteast.com/erekasa-project-rents-free-umbrellas-to-tourists/)), and instead donated it to the hostels overflowing umbrella stand for the next patron to use.
+
+[!pic?caption=The umbrella that I may or may not have stolen](https://lh6.googleusercontent.com/-3n4aYyMF0nY/VKEC2xtZJFI/AAAAAAABJAM/w7nsZI-fYqE/w1349-h900-no/DSC06993.JPG)
+
+[!pic?caption=Typical Kanazawa rainy day in the geisha district](https://lh4.googleusercontent.com/-XQk0EOcIG5o/VKEC3-o4EPI/AAAAAAABI2I/S5P48eNb410/w1349-h900-no/DSC06994.JPG)
+
+Whilst some of the traditional two-story Chaya houses continue to be used for geisha events and entertainment, quite a few of them have been converted into museums, tea-houses, restaurants and speciality shops, which actually makes for quite a lively neighbourhood during the day.
+
+[!pic](https://lh6.googleusercontent.com/-apdPjZgP2Gw/VKEC7bkc_wI/AAAAAAABWWU/n1m945UwFCo/w1357-h905-no/DSC07000.JPG)
+
+[!pic](https://lh4.googleusercontent.com/-l6XhGvvZHB4/VKEC98plx1I/AAAAAAABI3A/QGBFS25nLB0/w1349-h900-no/DSC07005.JPG)
+
+One of the more awesome museums is [Ochaya Shima](http://www.ochaya-shima.com/english/shima/shima_f.html), which allows you to explore the various rooms of a traditional geisha house (the waiting room and guest rooms dating from ~1820) before finishing at the tea house for some matcha and dessert (of course).
+
+[!pic?caption=19th century, meet the 21st century](https://lh4.googleusercontent.com/-RWmU8dN5lCo/VKEDDvqjjqI/AAAAAAABI4A/63F17vE4x-Q/w1349-h900-no/DSC07021.JPG)
+
+[!pic?caption=I think I was so exhausted at this point, and the tea house was so utterly relaxing, that I spent almost 40 minutes here](https://lh6.googleusercontent.com/-xouZAq48M6w/VKEDEUj3pfI/AAAAAAABI4I/VNpvu61VMQw/w1349-h900-no/DSC07022.JPG)
+
+And that was my time in Kanazawa complete! The next day I was up at 5am to catch the train (the non-shinkansen type, unfortunately), for a 4 hour + trip to Nagano/Yamanouchi to meet up with Tania and gawk at some snow monkeys.
+
+Yuu, of course, was up at 5am to help me check out and set off ([did I mention how much I loved my accommodation here?]({filename}/posts/2015/guest-house-pongyi.md)), and off I went in the darkness, hoping against all odds for rain-free walk to the train station.
+
+[!pic?caption=Kanazawa Train Station: half wooden temple, half skyscraper](https://lh4.googleusercontent.com/-awlxbklmbv4/VKECE1IWkaI/AAAAAAABIvA/wtvltYZEd94/w1306-h871-no/DSC07034.JPG)
 
 [^1]: A massive development since my visit is the opening of the [Nagano-Kanazawa leg of the Hokuriku Shinkansen](http://www.japan-guide.com/e/e2018_nagano.html) on March 14th, 2015 - travel to Kanazawa from Tokyo now takes as little as 2 and a half hours!
