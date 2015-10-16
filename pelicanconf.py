@@ -62,7 +62,7 @@ LINK_MENU_NAME = 'More'
 try:
     if RELATIVE_URLS:
         LINKS = (('Publications', 'http://127.0.0.1:8000/publications'),
-                 ('cv', 'http://127.0.0.1:8000/pdf/cv.pdf'),
+                 ('cv', 'http://127.0.0.1:8000/cv'),
                  ('Archive', 'http://127.0.0.1:8000/archives'),
                  ('Feed', 'http://127.0.0.1:8000/rss.xml'),
                  ('Search', 'http://127.0.0.1:8000/search'),)
