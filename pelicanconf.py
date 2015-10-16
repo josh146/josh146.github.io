@@ -85,7 +85,8 @@ GITHUB_URL = 'http://github.com/josh146'
 
 # Social widget
 SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
-          ('Google-Plus', 'http://plus.google.com/+JoshIzaac'),
+          #('Google-Plus', 'http://plus.google.com/+JoshIzaac'),
+          ('Linkedin', 'https://au.linkedin.com/pub/josh-izaac/104/9bb/6a2'),
           ('GitHub', 'http://github.com/josh146'),
           ('envelope-o', 'mailto:josh@iza.ac'),
           ('rss', SITEURL+'/rss.xml'),)
@@ -199,7 +200,7 @@ if THEME == "pelican-themes/BT3-Flat":
                      'http://uwa.edu.au']
 
     PERSONAL_INFO = """
-    I am a PhD student in the <a href={0}>Quantum Dynamics and Computation</a> 
+    I am a freelance science writer and PhD student in the <a href={0}>Quantum Dynamics and Computation</a> 
     research group at the <a href={1}>University of Western Australia</a>, 
     currently researching continuous-time quantum walks and potential biological models.
     """.format(*personalLinks)
@@ -219,10 +220,13 @@ if THEME == "pelican-themes/BT3-Flat":
     # Some more stuff
     # """
 
-    # PERSONAL_PHOTO = "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/t1/q71/s720x720/1476196_10151782687192131_150386508_n.jpg"
-
-    workLinks = ['http://www.ivec.org',
-                 'http://pyctqw.readthedocs.org']
+    #PERSONAL_PHOTO = "https://lh3.googleusercontent.com/as4imQyXpEaNg1dP7p7_lyImIAeVE_iOvzw7bLN_d_SREsNW_jsWMfVA3ORChgIfKpB1HmGWBv9xgw2JFdc3MxsxRWihFCPr_BhBXzkBIqOAfBRSFzMna-zYMXu2wQpPi-svrN2eTn4MhXz06Asc4ITtaf6HRj92gafP5kvD7PDFYP-FXb5uhlYFe25xAoEzq9j4iaoAj_XtONmetFZTko-aBn4IvvSNQOtBEYecvbhcU88zJQ0BWY9F315TVjxH3NnSIdPLtEHsuMqhpcOs643hoQKlNnK5faxu07PRGwyZq9tJNUI_Z_0zEmfups8_NuV2chwxtK5dN_Zk90zb51Y__CnXZxcwuX9dSGz5MIwgQM7-Oc8EWHTf_T5AzjzoyHKpskt0SkXGWeLt_nvTAvuASgL5r5AFrun1_Ogo16-wltRCPGphfshVO1d-s8ZULhVXqg_lV2pb0jwfKuT2701ItJTibP5ZDLLqwXOZVCyeedh3slFXAoN5MSEBka_SWhhncBdNHL1jhVE2UiuiMpBSGoABBIXWxG7u7MeheQj2=w431-h450-no"
+    PERSONAL_PHOTO = "https://lh3.googleusercontent.com/sJHyj6IMbBK4Q2RJxakBiUE8keerizsZxuZQUnDIneUKhIO4tC_oUyfE259oW0LFREuPgWd5RMVc6-yjY9v_jA4aUDmGLpTbL8xOwY6rLO7v9yW3Dg6MeorFJgkHjvUK1awSn486BZlvECvK9mEiogRx1UYLayIUw5BodQmaDxGjWijuNmNUPYxt9b1ShE0clb0gycJsnJXh31guWlCyEac4rI5vSqfdahYHL5MBgDpXi9zP_u3rwfdM2MkFuEmqaqw60Dglb8kpZggbDROKgDRT3pEeYK4bo-IgXND47PzwxOkbAXwd1rMCw6_gDHOjw0Yvl82xsTSlJVGDEuLu7DRpNJGlebzyN5xZLtzW_WibLMVNx2GHfMeTjbHO1j7LJQyxTKR18NS1eVqhx5dkuktAPjnA5bLhx069xkEMKyH28NIOHlD0Vk66UHgtJKFNB7R7zHfW-VFnM64oCleYkDdw1ztOanSngRSHcwmdZl3k9zh4-ChfLeh31EJ8OzkCca_wxj6LOx-WvsOc8lydih2EcnXG-Bi_hAzNuVcNftuK=w431-h450-no"
+    #PERSONAL_PHOTO = "https://lh3.googleusercontent.com/Jqffg3oDlUR61GHHRnc2W7Zmp5pTIZt0OPKnT1bG-FSBWSyBCayDsC-MJfgPhk4NKeYwd67t4EqMeDBCdzPISpL2qFf1LxEWyrYr2mvCJwj2tIrudB_sJBZRRwdKRkml8E6ntL80L0A6AzstUL6aJ50-X6h0RcMH0Q77vJm7FR6AhtSq67Rmcg91y-IP441aT70ovABjFaSISZqMlIeCLIPk_OUgJdb8zMh96Bfk5ePvISIC7sSwnwDVmu3bR301l9k8zdX98oa7WhfrBx-hzvgb3k9WDrtRL96NdPsy4mUFMJ7MxdMUflq9hmnXoHz3d1mZfC1FoE-_L_XpZbpvTaCPmu2Ov8-JUlZ18jo1w7kIFbkyNSC5GqebVquKXUYPWBlHq3m5zGHY5rRpodSQg5Zj3DBVLOLDasPiPY7NJbOHxAL8drEcM3kIdgPltPydl_NCAZ6OWO4szGVJcXd71ly6qJAKRF1P2MGGcLcZE8EpiSqE71VTIyfthctvmPLhBJFC9kr_pSwTskdcnkeH6uRAQDrb8dM0QOkKYV5p-8a9=w545-h568-no"
+    
+    workLinks = ['http://www.pawsey.org.au/',
+                 'http://pyctqw.readthedocs.org',
+                 'http://australiangeographic.com.au']
 
     WORK_DESCRIPTION = """
     <p style="text-align:left"> My current research interests mainly lie in the characterisation and applications of quantum walks, 
@@ -230,19 +234,27 @@ if THEME == "pelican-themes/BT3-Flat":
     and electron transport in functional nano-materials.<br><br>
 
     A major part of my research involves numerical simulation on high performance supercomputing 
-    clusters (mainly using the <a href={0}>iVEC</a> supercomputing facility in Western Australia), 
+    clusters (mainly using the <a href={0}>Pawsey</a> supercomputing facility in Western Australia), 
     working mostly with Fortran and Python. In order to streamline my workflow, I developed an efficient 
     parallel framework for simulating continuous-time quantum walks, <a href={1}>pyCTQW</a>, with the 
     source code available on my GitHub page. Other tools I find useful for my work include iPython, 
     matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
 
-    Outside of research, I am also employed as a tutor and lab demonstrator for third year 
-    computational physics PHYS3011 at UWA.</p>
+    Outside of research, I am also employed as a tutor, lab demonstrator, and guest lecturer for 
+    undergraduate and honours physics units at UWA.
+
+    I also enjoy science writing and communication - my writing has so far been featured in 
+    <a href={2}>Australian Geographic</a>.</p>
     """.format(*workLinks)
 
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
+                'http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/AusGeo/2015/10/12/59099/why-do-female-birds-sing.jpg',
+                'Female fairy-wrens sing for other females',
+                'Article published in Australian Geographic',
+                'http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29'],
+                ['link',
                 'http://pyctqw.readthedocs.org/en/latest/_images/1p_3cayley_graph.png',
                 'pyCTQW',
                 'Distributed memory continuous-time quantum walk framework',

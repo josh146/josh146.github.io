@@ -139,7 +139,7 @@
       <div id="blog-content-area"> -->
 
       <!-- ABOUT -->
-      <section id="about">
+      <section id="about" style="padding: 110px 0px 0px 0px;">
         <div class="container">
           <header class="text-center">
             <h1>ABOUT ME</h1>
@@ -161,15 +161,14 @@
             </div>
           {% endif %}
 
+          {% if PERSONAL_INFO_SEC1 %}
           <article>
             <div class="row text-left">
 
-              {% if PERSONAL_INFO_SEC1 %}
               <div class="col-md-4">
                 <h3>{{PERSONAL_INFO_SEC1_TITLE}}</h3>
                 <p>{{PERSONAL_INFO_SEC1}}</p>
               </div>
-              {% endif %}
 
 
               {% if PERSONAL_INFO_SEC2 %}
@@ -189,6 +188,7 @@
 
             </div>
           </article>
+          {% endif %}
 
         </div>
       </section>
@@ -250,11 +250,11 @@
 
                 {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
                   {% if work_type == 'link' %}
-                    <li class="isotope-item col-sm-6 col-md-4 brand"><!-- item -->
+                    <li class="isotope-item col-sm-6 col-md-4 brand" style="list-style-type: none"><!-- item -->
                       <a class="external" href="{{work_link}}" target="_blank">
                         <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
                         <div class="caption">
-                          <i class="rounded fa fa-link"></i>
+                          <!-- <i class="rounded fa fa-link"></i> -->
                           <h3>{{work_title}}</h3>
                           <p>{{work_description}}</p>
                         </div>
