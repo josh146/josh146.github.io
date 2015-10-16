@@ -68,7 +68,7 @@ try:
                  ('Search', 'http://127.0.0.1:8000/search'),)
 except:
     LINKS = (('Publications', SITEURL+'/publications'),
-             ('cv', SITEURL+'/pdf/cv.pdf'),
+             ('cv', SITEURL+'/cv'),
              ('Archive', SITEURL+'/archives'),
              ('Feed', SITEURL+'/rss.xml'),
              ('Search', SITEURL+'/search'),)
@@ -275,7 +275,7 @@ if THEME == "pelican-themes/BT3-Flat":
     DEFAULT_PAGINATION = False
 
     if DEFAULT_PAGINATION is False:
-        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog', 'tags', 'categories', 'search')
+        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'cv', 'blog', 'tags', 'categories', 'search')
         TEMPLATE_PAGES = {  'blog.html': 'blog.html'}
     else:
         PAGINATED_DIRECT_TEMPLATES = ('blog-index',)
@@ -283,5 +283,5 @@ if THEME == "pelican-themes/BT3-Flat":
             (1, '{base_name}', '{base_name}/blog/index.html'),
             (2, '{base_name}/blog/{number}/', '{base_name}/blog/{number}/index.html'),
         )
-        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'blog-index', 'blog', 'tags', 'categories', 'search')
+        DIRECT_TEMPLATES = ('index', 'archives', 'publications', 'cv', 'blog-index', 'blog', 'tags', 'categories', 'search')
 
