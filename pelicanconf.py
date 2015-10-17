@@ -12,7 +12,7 @@ SITENAME = u'+josh'
 SITESUBTITLE = u'iza.ac'
 SITEURL = 'http://iza.ac'
 EMAIL_ADDR = 'josh at iza dot ac'
-COPYRIGHT = 'Copyright Josh Izaac, 2014'
+COPYRIGHT = 'Copyright Josh Izaac, 2015'
 
 DISQUS_SITENAME = 'izaac'
 SWIFTYPE = 'LPcmywgYs12nMZT1EFp7'
@@ -254,7 +254,7 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                'http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/AusGeo/2015/10/12/59099/why-do-female-birds-sing.jpg',
+                'images/fairywren.jpg',
                 'Female fairy-wrens sing for other females',
                 'Article published in Australian Geographic',
                 'http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29'],
