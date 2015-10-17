@@ -259,7 +259,7 @@ if THEME == "pelican-themes/BT3-Flat":
                 'Article published in Australian Geographic',
                 'http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29'],
                 ['link',
-                'http://pyctqw.readthedocs.org/en/latest/_images/1p_3cayley_graph.png',
+                'images/pyctqw.png',
                 'pyCTQW',
                 'Distributed memory continuous-time quantum walk framework',
                 'http://pyctqw.readthedocs.org'],
