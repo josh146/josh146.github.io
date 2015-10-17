@@ -134,8 +134,13 @@ PLUGINS = ['render_math',
            'google_embed',
            'embedly_cards']
 
-# if RELATIVE_URLS is True:
-#     PLUGINS.append('minify')
+try:
+    RELATIVE_URLS
+except NameError:
+    PLUGINS.append('minify')
+else:
+    if RELATIVE_URLS is False:
+        PLUGINS.append('minify')
 
 sys.path.append('plugins')
 
@@ -164,9 +169,12 @@ PUBLICATIONS_SRC = 'content/extras/pubs.bib'
 # Custom Jinja2 Filters
 #~~~~~~~~~~~~~~~~~~~~~~
 import calendar
+import datetime
 
 def month_name(month_number):
     return calendar.month_name[int(month_number)]
+
+CURRENT_YEAR = datetime.datetime.now().year
 
 JINJA_FILTERS = {'month_name':month_name}
 
