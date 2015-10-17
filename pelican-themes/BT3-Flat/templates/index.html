@@ -363,8 +363,9 @@
         $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
 
         var images = {{BG_IMAGE|safe}};
-        $('#backgroundimage').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-        $('#ipadBG').attr('src',images[Math.floor(Math.random() * images.length)]);
+        var randomImage = images[Math.floor(Math.random() * images.length)];
+        $('#backgroundimage').css({'background-image': 'url(' + randomImage + ')'});
+        $('#ipadBG').attr('src',randomImage);
 
       });
 
