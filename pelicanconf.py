@@ -129,11 +129,13 @@ PLUGINS = ['render_math',
            'pelican_youtube',
            'better_figures_and_images',
            'pelican-bibtex',
-           'minify',
            'sitemap',
            'html_rst_directive',
            'google_embed',
            'embedly_cards']
+
+# if RELATIVE_URLS is True:
+#     PLUGINS.append('minify')
 
 sys.path.append('plugins')
 
@@ -184,10 +186,12 @@ THEME = "pelican-themes/BT3-Flat"
 
 if THEME == "pelican-themes/BT3-Flat":
     PYGMENT_STYLE = 'pygment-iris'
-
+    
+    bgimages = ['images/cover.JPG', 'images/cover2.JPG', 'images/cover3.JPG', 'images/cover4.JPG', 'images/cover5.JPG', 'images/cover6.JPG', 'images/cover7.JPG', 'images/cover8.JPG', 'images/cover9.JPG']
+    
     HOME_PAGE_STYLE = 'full'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
-    BG_IMAGE = "images/cover.JPG"
+    BG_IMAGE = [i.encode('ascii','ignore') for i in bgimages]
     BG_IMAGE_TYPE = HOME_PAGE_STYLE+"screen-img"
     BG_IMAGE_CAPTION = """
         <a href="#about" class="icon-block scrollTo">
