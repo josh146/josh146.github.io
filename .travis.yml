@@ -18,3 +18,4 @@ env:
 before_install:
 - git submodule update --init --recursive
 after_success: bash deploy.sh
+sudo: false
