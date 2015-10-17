@@ -62,9 +62,9 @@
                   </div>
                 {% endif %}
 
-                <img src="{{BG_IMAGE}}" data-stellar-background-ratio="0.4" style="display:none" id="ipadBG"/>
+                <img data-stellar-background-ratio="0.4" style="display:none" id="ipadBG"/>
 
-                <div style="background-image: url('{{BG_IMAGE}}');" class="{{BG_IMAGE_TYPE}}" data-stellar-background-ratio="0.4" id="backgroundimage"></div>
+                <div class="{{BG_IMAGE_TYPE}}" data-stellar-background-ratio="0.4" id="backgroundimage"></div>
 
                 <span class="overlay"></span>
               </li>
@@ -362,11 +362,9 @@
         
         $('.navbar-inverse').css('background', 'rgba(15, 17, 19, ' + Math.min(0.4*scrollPercent+0.7,0.9));
 
-        {% if BG_IMAGE|length > 1 %}
-           var images = {{BG_IMAGE|safe}};
-           $('#backgroundimage').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
-           $('#ipadBG').attr('src',images[Math.floor(Math.random() * images.length)]);
-        {% endif %}
+        var images = {{BG_IMAGE|safe}};
+        $('#backgroundimage').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+        $('#ipadBG').attr('src',images[Math.floor(Math.random() * images.length)]);
 
       });
 
