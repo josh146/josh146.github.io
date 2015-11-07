@@ -195,7 +195,15 @@ THEME = "pelican-themes/BT3-Flat"
 if THEME == "pelican-themes/BT3-Flat":
     PYGMENT_STYLE = 'pygment-iris'
     
-    bgimages = ['images/cover.JPG', 'images/cover2.JPG', 'images/cover3.JPG', 'images/cover4.JPG', 'images/cover5.JPG', 'images/cover6.JPG', 'images/cover7.JPG', 'images/cover8.JPG', 'images/cover9.JPG']
+    bgimages = ['images/cover.JPG',
+                'images/cover2.JPG',
+                'images/cover3.JPG',
+                'images/cover4.JPG',
+                'images/cover5.JPG',
+                'images/cover6.JPG',
+                'images/cover7.JPG',
+                'images/cover8.JPG',
+                'images/cover9.JPG']
     
     HOME_PAGE_STYLE = 'full'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
@@ -232,18 +240,17 @@ if THEME == "pelican-themes/BT3-Flat":
     # Some more stuff
     # """
 
-    #PERSONAL_PHOTO = "https://lh3.googleusercontent.com/as4imQyXpEaNg1dP7p7_lyImIAeVE_iOvzw7bLN_d_SREsNW_jsWMfVA3ORChgIfKpB1HmGWBv9xgw2JFdc3MxsxRWihFCPr_BhBXzkBIqOAfBRSFzMna-zYMXu2wQpPi-svrN2eTn4MhXz06Asc4ITtaf6HRj92gafP5kvD7PDFYP-FXb5uhlYFe25xAoEzq9j4iaoAj_XtONmetFZTko-aBn4IvvSNQOtBEYecvbhcU88zJQ0BWY9F315TVjxH3NnSIdPLtEHsuMqhpcOs643hoQKlNnK5faxu07PRGwyZq9tJNUI_Z_0zEmfups8_NuV2chwxtK5dN_Zk90zb51Y__CnXZxcwuX9dSGz5MIwgQM7-Oc8EWHTf_T5AzjzoyHKpskt0SkXGWeLt_nvTAvuASgL5r5AFrun1_Ogo16-wltRCPGphfshVO1d-s8ZULhVXqg_lV2pb0jwfKuT2701ItJTibP5ZDLLqwXOZVCyeedh3slFXAoN5MSEBka_SWhhncBdNHL1jhVE2UiuiMpBSGoABBIXWxG7u7MeheQj2=w431-h450-no"
-    PERSONAL_PHOTO = "https://lh3.googleusercontent.com/sJHyj6IMbBK4Q2RJxakBiUE8keerizsZxuZQUnDIneUKhIO4tC_oUyfE259oW0LFREuPgWd5RMVc6-yjY9v_jA4aUDmGLpTbL8xOwY6rLO7v9yW3Dg6MeorFJgkHjvUK1awSn486BZlvECvK9mEiogRx1UYLayIUw5BodQmaDxGjWijuNmNUPYxt9b1ShE0clb0gycJsnJXh31guWlCyEac4rI5vSqfdahYHL5MBgDpXi9zP_u3rwfdM2MkFuEmqaqw60Dglb8kpZggbDROKgDRT3pEeYK4bo-IgXND47PzwxOkbAXwd1rMCw6_gDHOjw0Yvl82xsTSlJVGDEuLu7DRpNJGlebzyN5xZLtzW_WibLMVNx2GHfMeTjbHO1j7LJQyxTKR18NS1eVqhx5dkuktAPjnA5bLhx069xkEMKyH28NIOHlD0Vk66UHgtJKFNB7R7zHfW-VFnM64oCleYkDdw1ztOanSngRSHcwmdZl3k9zh4-ChfLeh31EJ8OzkCca_wxj6LOx-WvsOc8lydih2EcnXG-Bi_hAzNuVcNftuK=w431-h450-no"
-    #PERSONAL_PHOTO = "https://lh3.googleusercontent.com/Jqffg3oDlUR61GHHRnc2W7Zmp5pTIZt0OPKnT1bG-FSBWSyBCayDsC-MJfgPhk4NKeYwd67t4EqMeDBCdzPISpL2qFf1LxEWyrYr2mvCJwj2tIrudB_sJBZRRwdKRkml8E6ntL80L0A6AzstUL6aJ50-X6h0RcMH0Q77vJm7FR6AhtSq67Rmcg91y-IP441aT70ovABjFaSISZqMlIeCLIPk_OUgJdb8zMh96Bfk5ePvISIC7sSwnwDVmu3bR301l9k8zdX98oa7WhfrBx-hzvgb3k9WDrtRL96NdPsy4mUFMJ7MxdMUflq9hmnXoHz3d1mZfC1FoE-_L_XpZbpvTaCPmu2Ov8-JUlZ18jo1w7kIFbkyNSC5GqebVquKXUYPWBlHq3m5zGHY5rRpodSQg5Zj3DBVLOLDasPiPY7NJbOHxAL8drEcM3kIdgPltPydl_NCAZ6OWO4szGVJcXd71ly6qJAKRF1P2MGGcLcZE8EpiSqE71VTIyfthctvmPLhBJFC9kr_pSwTskdcnkeH6uRAQDrb8dM0QOkKYV5p-8a9=w545-h568-no"
+    PERSONAL_PHOTO = "images/face.JPG"
     
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',
-                 'http://australiangeographic.com.au']
+                 'http://australiangeographic.com.au',
+                 'http://redorbit.com']
 
     WORK_DESCRIPTION = """
-    <p style="text-align:left"> My current research interests mainly lie in the characterisation and applications of quantum walks, 
-    with specific focus on quantum simulation of complex biochemical systems such as photosynthesis 
-    and electron transport in functional nano-materials.<br><br>
+    <p style="text-align:left"> My current research interests mainly lie in the characterisation and 
+    applications of quantum walks, with specific focus on quantum simulation of complex biochemical 
+    systems such as photosynthesis and electron transport in functional nano-materials.<br><br>
 
     A major part of my research involves numerical simulation on high performance supercomputing 
     clusters (mainly using the <a href={0}>Pawsey</a> supercomputing facility in Western Australia), 
@@ -256,7 +263,7 @@ if THEME == "pelican-themes/BT3-Flat":
     undergraduate and honours physics units at UWA.
 
     I also enjoy science writing and communication - my writing has so far been featured in 
-    <a href={2}>Australian Geographic</a>.</p>
+    <a href={2}>Australian Geographic</a> and <a href={3}>redOrbit</a>.</p>
     """.format(*workLinks)
 
     WORK_PUBLICATIONS = True
@@ -281,6 +288,22 @@ if THEME == "pelican-themes/BT3-Flat":
                 'Honours Thesis',
                 'Continuous-time Quantum Walks:<br> Disorder, Resonance and Interactions',
                 'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
+
+    CONFERENCES = [
+        """J. A. Izaac and P. J. Metaxas.
+         Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices.
+         Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013"""]
+
+    SCIWRITING = [
+            ["Female fairy-wrens sing for other females",
+            "http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29",
+            "Australian Geographic",
+            "October 2015"],
+            ["Testosterone levels affect how much makeup women use, study finds",
+            "http://www.redorbit.com/news/health/1113410539/testosterone-levels-affect-how-much-makeup-women-use-110515",
+            "redOrbit",
+            "November 2015"]
+        ]
 
     SHOW_RECENT_BLOGS = False
 

@@ -69,7 +69,11 @@
     <h2 class="entry-title">Conferences</h2>
     <ol class="list-of-pubs">
 
-        <li id="1" style="margin-bottom: -30px"><p>J. A. Izaac and P. J. Metaxas. Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices. Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013</p></li>
+        {% for item in CONFERENCES %}
+            <li id="{{loop.index}}" style="margin-bottom: -30px">
+                <p>{{item}}</p>
+            </li>
+        {% endfor %}
 
     </ol>
 
@@ -78,10 +82,11 @@
     <h2 class="entry-title">Science writing</h2>
     <ol class="list-of-pubs">
 
-        <li id="1" style="margin-bottom: -30px">
-            <p><a href="http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29">Female fairy-wrens sing for other females</a>. Australian Geographic. October 2015.
-            </p>
-        </li>
+        {% for title, url, place, date in SCIWRITING %}
+            <li id="{{loop.index}}" style="margin-bottom: -10px">
+                <p><a href="{{url}}">{{title}}</a>. {{place}}. {{date}}.</p>
+            </li>
+        {% endfor %}
 
     </ol>
 
