@@ -269,6 +269,11 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
+                'http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/AusGeo/2015/12/02/59733/Zebra-finches-duet_AustralianGeographic.jpg',
+                'Zebra Finch Duets',
+                'Article published in Australian Geographic',
+                'http://www.australiangeographic.com.au/news/2015/12/zebra-finch-duets'],
+                ['link',
                 'images/fairywren.jpg',
                 'Female fairy-wrens sing for other females',
                 'Article published in Australian Geographic',
@@ -295,6 +300,10 @@ if THEME == "pelican-themes/BT3-Flat":
          Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013"""]
 
     SCIWRITING = [
+            ["Zebra Finch Duets",
+            "http://www.australiangeographic.com.au/news/2015/12/zebra-finch-duets",
+            "Australian Geographic",
+            "December 2015"],
             ["Female fairy-wrens sing for other females",
             "http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29",
             "Australian Geographic",
