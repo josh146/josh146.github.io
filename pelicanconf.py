@@ -269,6 +269,11 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
+                'http://www.sciencemag.org/sites/default/files/styles/grid_thumb_-_290x163__16_9_/public/images/sn-helmetsREV.jpg?itok=V2vpzdyP',
+                'People take more risks when wearing helmets',
+                'Article published online in Science',
+                'http://www.sciencemag.org/news/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety-benefits-0'],
+                ['link',
                 'http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/AusGeo/2015/12/02/59733/Zebra-finches-duet_AustralianGeographic.jpg',
                 'Zebra Finch Duets',
                 'Article published in Australian Geographic',
@@ -300,6 +305,10 @@ if THEME == "pelican-themes/BT3-Flat":
          Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013"""]
 
     SCIWRITING = [
+            ["People take more risks when wearing helmets, potentially negating safety benefits",
+            "http://www.sciencemag.org/news/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety-benefits-0",
+            "Science Magazine",
+            "January 2016"],
             ["Zebra Finch Duets",
             "http://www.australiangeographic.com.au/news/2015/12/zebra-finch-duets",
             "Australian Geographic",
