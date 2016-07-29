@@ -14,6 +14,28 @@
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
 
+    <style type="text/css">
+<!--
+ol.pubs {
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+}
+li.pubs {
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 2em;
+}
+li.pubs:before {
+    display: inline-block;
+    content: "[" counter(item) "]";
+    counter-increment: item;
+    width: 1.5em;
+    margin-left: -2em;
+}
+-->
+</style>
+
 {% endblock %}
 
 {% block content %}
@@ -228,8 +250,30 @@
 <h3>Publications</h3>
 <br>
 
-
 <div style="display: inline-block;" class="thebibliography">
+<ol class="list-of-pubs pubs">
+    {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
+    
+    <li id="{{ key }}" style="margin-bottom: 10px; content: '[' counter(item) '] ';" class="pubs">
+            {{ text | replace("{","") | replace("}","")}}
+
+            {% if doi %}
+            <a href="http://dx.doi.org/{{doi}}">doi:{{doi}}</a>
+            {% endif %}
+
+            {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
+                {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+            {% endfor %}
+
+            {% if citations %}
+                &nbsp;[cited by {{citations}}]
+            {% endif %}
+    </li>
+    {% endfor %}
+    </ol>
+</div>
+
+<!-- <div style="display: inline-block;" class="thebibliography">
     <p class="bibitem">
         [1]&nbsp;&nbsp;&nbsp;J. A. <span class="underline">Izaac</span> and J. B. Wang. pyCTQW: a continuous-time quantum walk simulator on distributed memory computers. <span class="cmti-10">Computer Physics Communications</span>, 186(0):81–92, January 2015.
     </p>
@@ -242,13 +286,19 @@
     <p class="bibitem">
         [4]&nbsp;&nbsp;&nbsp;A. Mahasinghe, J. A. <span class="underline">Izaac</span>, J. B. Wang, and J. K. Wijerathna. Phase-modiﬁed CTQW unable to distinguish strongly regular graphs eﬃciently. <span class="cmti-10">Journal of Physics A</span>, 48(26):265301, July 2015.
     </p>
-</div>
+</div> -->
 
 <h3 style="margin:20px 0px 20px;">Conference Presentations</h3>
 
-<p class="bibitem">
- [1]&nbsp;&nbsp;&nbsp;J. A. <span class="underline">Izaac</span> and P. J. Metaxas. Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices. Paper presented at the annual <span class="cmti-10">iVEC Symposium</span>, Perth, Australia. February 2013.
-</p>
+    <ol class="list-of-pubs pubs">
+
+        {% for item in CONFERENCES %}
+            <li id="{{loop.index}}" style="margin-bottom: 10px" class="pubs">
+                {{item}}
+            </li>
+        {% endfor %}
+
+    </ol>
 
 <h3 style="margin:20px 0px 20px;">Scholarships and Awards</h3>
 
@@ -324,6 +374,18 @@
 <p style="margin-left:20px;">
     <span class="small-font">[1] Female  fairy-wrens  sing  for  other  females. <span class="cmti-10">Australian Geographic</span>. October 2015.</span>
 </p>
+
+    <ol class="list-of-pubs pubs">
+
+        {% for title, url, place, date in SCIWRITING %}
+            <span class="small-font">
+            <li id="{{loop.index}}" style="margin-bottom: 0px" class="pubs">
+                <a href="{{url}}">{{title}}</a>. {{place}}. {{date}}.
+            </li>
+            </span>
+        {% endfor %}
+
+    </ol>
 
 <h3 style="margin:10px 0px 10px;">Teaching</h3>
 

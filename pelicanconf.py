@@ -270,7 +270,7 @@ if THEME == "pelican-themes/BT3-Flat":
 
     WORK_LIST = [['link',
                 'images/PTwolfram.png',
-                'PT-symmetric Quantum Walks and Centrality Testing on Directed Graphs',
+                'PT-symmetric Quantum Walks',
                 'Software demonstration published on Wolfram Demonstrations Project',
                 'http://demonstrations.wolfram.com/PTSymmetricQuantumWalksAndCentralityTestingOnDirectedGraphs/'],
                 ['link',
@@ -290,7 +290,7 @@ if THEME == "pelican-themes/BT3-Flat":
                 'http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29'],
                 ['link',
                 'https://dl.dropboxusercontent.com/u/152896/faces.gif',
-                'Testosterone levels affect how much makeup women use, study finds',
+                'Testosterone levels affect how much makeup women use',
                 'Article published on RedOrbit.com',
                 'http://www.redorbit.com/news/health/1113410539/testosterone-levels-affect-how-much-makeup-women-use-110515'],
                 ['link',
@@ -305,15 +305,15 @@ if THEME == "pelican-themes/BT3-Flat":
                 'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
 
     CONFERENCES = [
-        """J. A. Izaac, J. B. Wang, P. C. Abbott, and X. S. Ma
+        """J. A. Izaac, J. B. Wang, P. C. Abbott, and X. S. Ma.
         Quantum centrality testing on directed graphs via PT-symmetric quantum walks.
-        Poster presented at PHHQP16: Progress in Quantum Physics with Non-Hermitian Operators, Kyoto, Japan. August 2016""",
+        Poster presented at <i>PHHQP16: Progress in Quantum Physics with Non-Hermitian Operators</i>, Kyoto, Japan. August 2016""",
         """J. A. Izaac and J. B. Wang.
-         Quantum centrality testing on directed graphs via pseudo-Hermitian quantum walks.
-         Paper presented at the Complexity of Quantum Information and Computation Workshop, Tsinghua Sanya International Mathematics Forum, Sanya, China. March 2016""",
+        Pseudo-Hermitian continuous-time quantum walks on directed graphs.
+        Paper presented at the <i>Complexity of Quantum Information and Computation Workshop</i>, Tsinghua Sanya International Mathematics Forum, Sanya, China. March 2016""",
         """J. A. Izaac and P. J. Metaxas.
-         Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices.
-         Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013"""]
+        Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices.
+        Paper presented at the annual <i>iVEC Symposium</i>, Perth, Australia. February 2013"""]
 
     SCIWRITING = [
             ["People take more risks when wearing helmets, potentially negating safety benefits",
