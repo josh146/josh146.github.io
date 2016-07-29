@@ -45,7 +45,7 @@ li.pubs:before {
 <h1 class="noindent">Curriculum Vitae</h1>
 <br>
 
-<h3>Education</h3>
+<h3 id=education>Education</h3>
 <br>
 
 <div style="display: inline-block;" class="tabular">
@@ -132,7 +132,7 @@ li.pubs:before {
 
 
 
-<h3>Research Experience</h3>
+<h3 id=research>Research Experience</h3>
 <br>
 
 <div style="display: inline-block;" class="tabular">
@@ -247,6 +247,7 @@ li.pubs:before {
     </table>
 </div>
 
+<div id=publications></div>
 <h3>Publications</h3>
 <br>
 
@@ -300,7 +301,7 @@ li.pubs:before {
 
     </ol>
 
-<h3 style="margin:20px 0px 20px;">Scholarships and Awards</h3>
+<h3 id=awards style="margin:20px 0px 20px;">Scholarships and Awards</h3>
 
 
 <div style="display: inline-block;" class="tabular">
@@ -346,7 +347,7 @@ li.pubs:before {
 </div>
 
 
-<h3 style="margin:20px 0px 10px;">Writing</h3>
+<h3 id=writing style="margin:20px 0px 10px;">Writing</h3>
 
 <div style="display: inline-block;" class="tabular">
     <table class="tabular" rules="groups" cellpadding="5px" cellspacing="0">
@@ -391,7 +392,7 @@ li.pubs:before {
 
 <h3 style="margin:10px 0px 10px;">Teaching</h3>
 
-<div style="display: inline-block;" class="tabular">
+<div id=teaching style="display: inline-block;" class="tabular">
     <table class="tabular" rules="groups" cellpadding="5px" cellspacing="5px">
         <colgroup>
             <col style="width:130px;">
@@ -480,7 +481,7 @@ li.pubs:before {
 </div>
                                                                                        
                                                                                        
-<h3 style="margin:20px 0px 20px;">Volunteer Work</h3>
+<h3 id=volunteer style="margin:20px 0px 20px;">Volunteer Work</h3>
 
 <div style="display: inline-block;" class="tabular">
     <table class="tabular" rules="groups" cellpadding="5px" cellspacing="0">
@@ -505,7 +506,7 @@ li.pubs:before {
 </div>
 
 
-<h3 style="margin:20px 0px 20px;">Skills and Interests</h3>
+<h3 id=skills style="margin:20px 0px 20px;">Skills and Interests</h3>
 
 <div style="display: inline-block;" class="tabular">
     <table class="tabular" cellpadding="0" cellspacing="0">
@@ -538,7 +539,7 @@ Experience using high performance computational tools such as OpenMP, CUDA and M
 Other interests include: Strength training, Technology, Open-Source, Programming, Kayaking <span class="cmti-10">(Two Star Award)</span>, Piano, Taekwondo <span class="cmti-10">(Low Red belt, 5th Kup)</span>, Travelling
 </p>
 
-<h3 style="margin:20px 0px 20px;">Research Interests</h3>
+<h3 id=researchinterests style="margin:20px 0px 20px;">Research Interests</h3>
 
 <p class="noindent">
 Quantum walks, whilst a relatively new area of research, have become an incredibly exciting ﬁeld due to their
@@ -567,3 +568,47 @@ Available upon request.
 
 
 {% endblock %}
+
+{% block sidebar %}
+{{ super() }}
+    <div class="well widget-filter" id=contents>
+        <h3>Contents</h3>
+        <br>
+        <ol class="nav">
+            <li><a href=#education class="scrollTo">Education</a></li>
+            <li><a href=#research class="scrollTo">Research experience</a></li>
+            <li><a href=#publications class="scrollTo">Publications</a></li>
+            <li><a href=#awards class="scrollTo">Scholarships and awards</a></li>
+            <li><a href=#writing class="scrollTo">Writing</a></li>
+            <li><a href=#teaching class="scrollTo">Teaching</a></li>
+            <li><a href=#volunteer class="scrollTo">Volunteer work</a></li>
+            <li><a href=#skills class="scrollTo">Skills and interests</a></li>
+            <li><a href=#researchinterests class="scrollTo">Research interests</a></li>
+        </ol>
+    </div>
+{% endblock sidebar %}
+
+{% block script %}
+<style>
+.fixed {  
+        position: fixed;   
+        top: 65px;
+    }
+</style>
+<script>
+$(document).ready(function() {
+
+    // check where the shoppingcart-div is  
+    var offset = $('#contents').offset();  
+
+    $(window).scroll(function () {  
+        var scrollTop = $(window).scrollTop()+65; // check the visible top of the browser  
+
+        if (offset.top<scrollTop)
+            $('#contents').addClass('fixed');  
+        else
+            $('#contents').removeClass('fixed');  
+    });
+});  
+</script>
+{% endblock script %}
