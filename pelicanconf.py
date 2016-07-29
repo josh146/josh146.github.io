@@ -269,6 +269,11 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
+                'images/PTwolfram.jpg',
+                'PT-symmetric Quantum Walks and Centrality Testing on Directed Graphs',
+                'Software demonstration published on Wolfram Demonstrations Project',
+                'http://demonstrations.wolfram.com/PTSymmetricQuantumWalksAndCentralityTestingOnDirectedGraphs/'],
+                ['link',
                 'http://www.sciencemag.org/sites/default/files/styles/grid_thumb_-_290x163__16_9_/public/images/sn-helmetsREV.jpg?itok=V2vpzdyP',
                 'People take more risks when wearing helmets',
                 'Article published online in Science',
