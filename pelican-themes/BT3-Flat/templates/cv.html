@@ -24,7 +24,7 @@ ol.pubs {
 li.pubs {
     display: block;
     margin-bottom: .5em;
-    margin-left: 2em;
+    margin-left: 3.5em;
 }
 li.pubs:before {
     display: inline-block;
@@ -364,28 +364,30 @@ li.pubs:before {
                     <br>
                     This involves keeping up to date with scientiﬁc research across disciplines,
                     developing and pitching story ideas to editors, interviewing researchers, and writing
-                    short articles. My work has so far appeared in Australian Geographic.
+                    short articles. My work has so far appeared in Australian Geographic, redOrbit, and Science Magazine.
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
 
-<p style="margin-left:20px;">
+<!-- <p style="margin-left:20px;">
     <span class="small-font">[1] Female  fairy-wrens  sing  for  other  females. <span class="cmti-10">Australian Geographic</span>. October 2015.</span>
-</p>
+</p> -->
 
     <ol class="list-of-pubs pubs">
 
         {% for title, url, place, date in SCIWRITING %}
             <span class="small-font">
-            <li id="{{loop.index}}" style="margin-bottom: 0px" class="pubs">
-                <a href="{{url}}">{{title}}</a>. {{place}}. {{date}}.
+            <li id="{{loop.index}}" style="margin-bottom: 5px" class="pubs">
+                <a href="{{url}}">{{title}}</a>. <i>{{place}}</i>. {{date}}.
             </li>
             </span>
         {% endfor %}
 
     </ol>
+
+<br>
 
 <h3 style="margin:10px 0px 10px;">Teaching</h3>
 
@@ -478,7 +480,7 @@ li.pubs:before {
 </div>
                                                                                        
                                                                                        
-<h3 style="margin:20px 0px 20px;">Upcoming Volunteer Work</h3>
+<h3 style="margin:20px 0px 20px;">Volunteer Work</h3>
 
 <div style="display: inline-block;" class="tabular">
     <table class="tabular" rules="groups" cellpadding="5px" cellspacing="0">
@@ -489,7 +491,7 @@ li.pubs:before {
         <tbody>
             <tr style="vertical-align:baseline;">
                 <td style="text-align:right;" class="td11">
-                    <span class="small-caps">Feb 2016</span>
+                    <span class="small-caps">Feb 2016 - Present</span>
                 </td>
                 <td style="white-space:wrap; text-align:left;" class="td11">
                     <p><span class="cmbx-10">Postgraduate Mentor at UWA</span>

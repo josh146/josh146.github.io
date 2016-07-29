@@ -35,7 +35,7 @@
     <br>
     <ol class="list-of-pubs">
     {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
-    <li id="{{ key }}" style="margin-bottom: -30px"><p>{{ text | replace("{","") | replace("}","")}}
+    <li id="{{ key }}" style="margin-bottom: -40px"><p>{{ text | replace("{","") | replace("}","")}}
     {% if doi %}
     <br>
     [&nbsp;<a href="http://dx.doi.org/{{doi}}">doi:{{doi}}</a>&nbsp;]

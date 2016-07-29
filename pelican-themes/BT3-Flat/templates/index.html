@@ -228,14 +228,21 @@
           <br>
               <ol>
               {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
-              <li id="{{ key }}"><p align=left>{{ text | replace("{","") | replace("}","")}}
-              [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
-              {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
-              {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
-              {% endfor %}
-              </p></li>
+
+              {% if loop.index < 6 %}
+                <li id="{{ key }}" style="margin-bottom: -10px">
+                  <p align=left>{{ text | replace("{","") | replace("}","")}}
+                  [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+                  {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
+                    {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+                  {% endfor %}
+                  </p>
+                </li>
+
+              {% endif %}
               {% endfor %}
               </ol>
+              <h3><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=publications.html>More...</a></i></h3>
           </article>
           {% endif %}
           <br>

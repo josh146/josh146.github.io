@@ -269,12 +269,17 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                'images/PTwolfram.png',
+                'images/PTwolfram2.png',
                 'PT-symmetric Quantum Walks',
                 'Software demonstration published on Wolfram Demonstrations Project',
                 'http://demonstrations.wolfram.com/PTSymmetricQuantumWalksAndCentralityTestingOnDirectedGraphs/'],
                 ['link',
-                'http://www.sciencemag.org/sites/default/files/styles/grid_thumb_-_290x163__16_9_/public/images/sn-helmetsREV.jpg?itok=V2vpzdyP',
+                'images/pyctqw.png',
+                'pyCTQW',
+                'Distributed memory continuous-time quantum walk framework',
+                'http://pyctqw.readthedocs.org'],
+                ['link',
+                'images/helmets.jpg',
                 'People take more risks when wearing helmets',
                 'Article published online in Science',
                 'http://www.sciencemag.org/news/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety-benefits-0'],
@@ -292,17 +297,13 @@ if THEME == "pelican-themes/BT3-Flat":
                 'https://dl.dropboxusercontent.com/u/152896/faces.gif',
                 'Testosterone levels affect how much makeup women use',
                 'Article published on RedOrbit.com',
-                'http://www.redorbit.com/news/health/1113410539/testosterone-levels-affect-how-much-makeup-women-use-110515'],
-                ['link',
-                'images/pyctqw.png',
-                'pyCTQW',
-                'Distributed memory continuous-time quantum walk framework',
-                'http://pyctqw.readthedocs.org'],
-                ['link',
-                'images/thesis2.png',
-                'Honours Thesis',
-                'Continuous-time Quantum Walks:<br> Disorder, Resonance and Interactions',
-                'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
+                'http://www.redorbit.com/news/health/1113410539/testosterone-levels-affect-how-much-makeup-women-use-110515']
+                # ['link',
+                # 'images/thesis2.png',
+                # 'Honours Thesis',
+                # 'Continuous-time Quantum Walks:<br> Disorder, Resonance and Interactions',
+                # 'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']
+                ]
 
     CONFERENCES = [
         """J. A. Izaac, J. B. Wang, P. C. Abbott, and X. S. Ma.
