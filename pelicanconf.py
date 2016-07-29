@@ -269,7 +269,7 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                'images/PTwolfram.jpg',
+                'images/PTwolfram.png',
                 'PT-symmetric Quantum Walks and Centrality Testing on Directed Graphs',
                 'Software demonstration published on Wolfram Demonstrations Project',
                 'http://demonstrations.wolfram.com/PTSymmetricQuantumWalksAndCentralityTestingOnDirectedGraphs/'],
@@ -305,6 +305,12 @@ if THEME == "pelican-themes/BT3-Flat":
                 'https://dl.dropboxusercontent.com/u/152896/honours_thesis.pdf']]
 
     CONFERENCES = [
+        """J. A. Izaac, J. B. Wang, P. C. Abbott, and X. S. Ma
+        Quantum centrality testing on directed graphs via PT-symmetric quantum walks.
+        Poster presented at PHHQP16: Progress in Quantum Physics with Non-Hermitian Operators, Kyoto, Japan. August 2016""",
+        """J. A. Izaac and J. B. Wang.
+         Quantum centrality testing on directed graphs via pseudo-Hermitian quantum walks.
+         Paper presented at the Complexity of Quantum Information and Computation Workshop, Tsinghua Sanya International Mathematics Forum, Sanya, China. March 2016""",
         """J. A. Izaac and P. J. Metaxas.
          Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices.
          Paper presented at the annual iVEC Symposium, Perth, Australia. February 2013"""]
