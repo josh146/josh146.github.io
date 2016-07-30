@@ -2,7 +2,16 @@
 {% block title %}Publications · {{ super() }}{% endblock %}
 
 {% block swiftypeMeta %}
-<meta property="st:title" content="Publications" >
+    <meta property="st:title" content="Publications" >
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
 {% endblock %}
 
 {% block content %}
@@ -35,9 +44,9 @@
     <br>
     <ol class="list-of-pubs">
     {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
-    <li id="{{ key }}" style="margin-bottom: -40px"><p>{{ text | replace("{","") | replace("}","")}}
-    {% if doi %}
+    <li id="{{ key }}" style="margin-bottom: -30px"><p>{{ text | replace("{","") | replace("}","")}}
     <br>
+    {% if doi %}
     [&nbsp;<a href="http://dx.doi.org/{{doi}}">doi:{{doi}}</a>&nbsp;]
     {% endif %}
     [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
