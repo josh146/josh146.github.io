@@ -203,7 +203,10 @@ if THEME == "pelican-themes/BT3-Flat":
                 'images/cover6.JPG',
                 'images/cover7.JPG',
                 'images/cover8.JPG',
-                'images/cover9.JPG']
+                'images/cover9.JPG',
+                # 'images/cover10.JPG',
+                'images/cover11.JPG',
+                'images/cover12.JPG']
     
     HOME_PAGE_STYLE = 'full'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
@@ -225,22 +228,22 @@ if THEME == "pelican-themes/BT3-Flat":
     currently researching continuous-time quantum walks and potential biological models.
     """.format(*personalLinks)
 
-    # PERSONAL_INFO_SEC1_TITLE = "Stuff"
+    # PERSONAL_INFO_SEC1_TITLE = "Travel"
     # PERSONAL_INFO_SEC1 = """
     # Some more stuff
     # """
 
-    # PERSONAL_INFO_SEC2_TITLE = "Stuff2"
+    # PERSONAL_INFO_SEC2_TITLE = "Physics"
     # PERSONAL_INFO_SEC2 = """
     # Some more stuff
     # """
 
-    # PERSONAL_INFO_SEC3_TITLE = "Stuff3"
+    # PERSONAL_INFO_SEC3_TITLE = "Technology"
     # PERSONAL_INFO_SEC3 = """
     # Some more stuff
     # """
 
-    PERSONAL_PHOTO = "images/face.JPG"
+    PERSONAL_PHOTO = "images/face4.JPG"
     
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',

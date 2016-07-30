@@ -14,28 +14,6 @@
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
 
-    <style type="text/css">
-<!--
-ol.pubs {
-    counter-reset: item;
-    margin-left: 0;
-    padding-left: 0;
-}
-li.pubs {
-    display: block;
-    margin-bottom: .5em;
-    margin-left: 3.5em;
-}
-li.pubs:before {
-    display: inline-block;
-    content: "[" counter(item) "]";
-    counter-increment: item;
-    width: 1.5em;
-    margin-left: -2em;
-}
--->
-</style>
-
 {% endblock %}
 
 {% block content %}
@@ -128,9 +106,6 @@ li.pubs:before {
         </tbody>
     </table>
 </div>
-
-
-
 
 <h3 id=research>Research Experience</h3>
 <br>
@@ -390,9 +365,9 @@ li.pubs:before {
 
 <br>
 
-<h3 style="margin:10px 0px 10px;">Teaching</h3>
+<h3 style="margin:10px 0px 10px;" id=teaching>Teaching</h3>
 
-<div id=teaching style="display: inline-block;" class="tabular">
+<div style="display: inline-block;" class="tabular">
     <table class="tabular" rules="groups" cellpadding="5px" cellspacing="5px">
         <colgroup>
             <col style="width:130px;">
@@ -571,11 +546,12 @@ Available upon request.
 
 {% block sidebar %}
 {{ super() }}
+        <nav class="navbar" role="navigation" id="cvnav">
     <div class="well widget-filter" id=contents>
-        <h3>Contents</h3>
+        <h3>Shortcuts</h3>
         <br>
         <ol class="nav">
-            <li><a href=#education class="scrollTo">Education</a></li>
+            <li class="active"><a href=#education class="scrollTo">Education</a></li>
             <li><a href=#research class="scrollTo">Research experience</a></li>
             <li><a href=#publications class="scrollTo">Publications</a></li>
             <li><a href=#awards class="scrollTo">Scholarships and awards</a></li>
@@ -586,20 +562,62 @@ Available upon request.
             <li><a href=#researchinterests class="scrollTo">Research interests</a></li>
         </ol>
     </div>
+        </nav>
 {% endblock sidebar %}
 
 {% block script %}
-<style>
-.fixed {  
-        position: fixed;   
-        top: 65px;
+<style type="text/css">
+    ol.pubs {
+        counter-reset: item;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    li.pubs {
+        display: block;
+        margin-bottom: .5em;
+        margin-left: 3.5em;
+    }
+
+    li.pubs:before {
+        display: inline-block;
+        content: "[" counter(item) "]";
+        counter-increment: item;
+        width: 1.5em;
+        margin-left: -2em;
+    }
+
+    .fixed {  
+            position: fixed;   
+            top: 65px;
+        }
+
+    .active {  
+            background-color: #eee;
+        }
+
+    .nav>li>a:focus {
+        background-color: transparent !important;
+        text-decoration: none;
+    }
+
+    @media only screen and (max-width: 960px) {
+        #cvnav {
+            display: none;
+        }
     }
 </style>
-<script>
+
+<script type="text/javascript">
 $(document).ready(function() {
 
-    // check where the shoppingcart-div is  
-    var offset = $('#contents').offset();  
+    var offset = $('#contents').offset();
+    var scrollTop = $(window).scrollTop()+65; // check the visible top of the browser  
+
+    if (offset.top<scrollTop)
+        $('#contents').addClass('fixed');  
+    else
+        $('#contents').removeClass('fixed');
 
     $(window).scroll(function () {  
         var scrollTop = $(window).scrollTop()+65; // check the visible top of the browser  
@@ -607,8 +625,8 @@ $(document).ready(function() {
         if (offset.top<scrollTop)
             $('#contents').addClass('fixed');  
         else
-            $('#contents').removeClass('fixed');  
+            $('#contents').removeClass('fixed');
     });
-});  
+});
 </script>
 {% endblock script %}
