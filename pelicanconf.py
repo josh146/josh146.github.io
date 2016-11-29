@@ -84,10 +84,11 @@ DISPLAY_CATEGORIES_ON_MENU = False
 GITHUB_URL = 'http://github.com/josh146'
 
 # Social widget
-SOCIAL = (('Facebook', 'http://facebook.com/thispage'),
+SOCIAL = (# ('Facebook', 'http://facebook.com/thispage'),
           #('Google-Plus', 'http://plus.google.com/+JoshIzaac'),
           ('Linkedin', 'https://au.linkedin.com/pub/josh-izaac/104/9bb/6a2'),
           ('GitHub', 'http://github.com/josh146'),
+          ('Instagram', 'http://instagram.com/thispage'),
           ('envelope-o', 'mailto:josh@iza.ac'),
           ('rss', SITEURL+'/rss.xml'),)
 

@@ -108,6 +108,11 @@ a.social.fa-skype:hover {
   background:#00aff0!important;
   color:#fff!important;
 }
+a.social.fa-instagram:hover {
+  /*background-image:url("../../images/instagram2.png")!important;*/
+  background:#cd486b!important;
+  color:#fff!important;
+}
 a.social.fa-rss:hover {
   background:#e0812a!important;
   color:#fff!important;
