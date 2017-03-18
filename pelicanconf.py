@@ -7,6 +7,9 @@ import os, sys
 ## Main Settings
 #~~~~~~~~~~~~~~~~
 
+# Uncomment following line if you want document-relative URLs when developing
+# RELATIVE_URLS = True
+
 AUTHOR = u'Josh Izaac'
 SITENAME = u'+josh'
 SITESUBTITLE = u'iza.ac'
@@ -35,8 +38,6 @@ DEFAULT_DATE = 'fs'
 USE_FOLDER_AS_CATEGORY = True
 AUTHORS_SAVE_AS = None
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
 
 SUMMARY_MAX_LENGTH = 100
 
@@ -173,7 +174,7 @@ import calendar
 import datetime
 
 def month_name(month_number):
-    return calendar.month_name[int(month_number)]
+    return calendar.month_name[int(float(month_number))]
 
 CURRENT_YEAR = datetime.datetime.now().year
 
