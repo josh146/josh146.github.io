@@ -42,7 +42,41 @@
 <!-- <section id="content" class="body"> -->
     <h1 class="entry-title">Publications <a href=http://scholar.google.com/citations?user=pEj09c4AAAAJ><small>google citations</small></a></h1>
     <br>
+
     <ol class="list-of-pubs">
+        {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
+        
+        <li id="{{ key }}" style="margin-bottom: -30px; content: '[' counter(item) '] ';" class="pubs">
+            <p>
+                {{ text | replace("{","") | replace("}","")}}
+
+                {% if doi %}
+                <a href="http://dx.doi.org/{{doi}}">doi:{{doi}}</a>
+                {% endif %}
+
+                {% for label, target in [('PDF', pdf), ('Link', url), ('Slides', slides), ('Poster', poster)] %}
+                    {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+                {% endfor %}
+
+                {% if abstract %}
+                    [&nbsp;<a href="#" class="abstract-link">Abstract</a>&nbsp;]
+                {% endif %}
+
+                {% if citations %}
+                    &nbsp;[cited by {{citations}}]
+                {% endif %}
+
+                {% if abstract %}
+                    <div class="bs-callout-small bs-callout-grey abstract" id="abstract{{key}}" style="display: none;font-family: 'Open Sans',sans-serif; color: #000000;">
+                        {{ abstract | replace("{","") | replace("}","") }}
+                    </div>
+                {% endif %}
+            </p>
+        </li>
+        {% endfor %}
+    </ol>
+
+<!--     <ol class="list-of-pubs">
     {% for key, year, month, text, bibtex, pdf, slides, poster, url, doi, abstract in publications %}
     <li id="{{ key }}" style="margin-bottom: -30px"><p>{{ text | replace("{","") | replace("}","")}}
     <br>
@@ -70,7 +104,7 @@
 
     </p></li>
     {% endfor %}
-    </ol>
+    </ol> -->
 <!-- </section> -->
 
     <br>
