@@ -299,7 +299,7 @@ if THEME == "pelican-themes/BT3-Flat":
                 'Article published in Australian Geographic',
                 'http://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281%29'],
                 ['link',
-                'https://dl.dropboxusercontent.com/u/152896/faces.gif',
+                'http://i.imgur.com/AIfAG8M.gif',
                 'Testosterone levels affect how much makeup women use',
                 'Article published on RedOrbit.com',
                 'http://www.redorbit.com/news/health/1113410539/testosterone-levels-affect-how-much-makeup-women-use-110515']
