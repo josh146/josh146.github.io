@@ -1,41 +1,91 @@
-@article{zhou2015,
-	title = {Quantum {Fourier} {Transform} in {Computational} {Basis}},
-	url = {http://arxiv.org/abs/1511.04818},
-	abstract = {The conventional Quantum Fourier Transform, with exponential speedup compared to the classical Fast Fourier Transform, has played an important role in quantum computation as a vital part of many quantum algorithms (most prominently, the Shor's factoring algorithm). However, situations arise where it is not sufficient to encode the Fourier coefficients within the quantum amplitudes, for example in the implementation of control operations that depend on Fourier coefficients. In this paper, we detail a new quantum algorithm to encode the Fourier coefficients in the computational basis, with success probability $1-\delta$ and desired precision $\epsilon$. Its time complexity $O((\log N)^2\log(N/\delta)/\epsilon)\big)$ depends polynomially on $\log(N)$, where $N$ is the problem size, and linearly on $\log(1/\delta)$ and $1/\epsilon$. We also discuss an application of potential practical importance, namely the simulation of circulant Hamiltonians.},
-	urldate = {2016-07-29TZ},
-	journal = {arXiv:1511.04818 [quant-ph]},
-	author = {Zhou, S. S. and Loke, T. and Izaac, J. A. and Wang, J. B.},
-	month = nov,
+
+@article{izaac2015,
+	title = {{pyCTQW:} A continuous-time quantum walk simulator on distributed memory computers},
+	volume = {186},
+	issn = {0010-4655},
+	shorttitle = {{pyCTQW}},
+	url = {http://www.sciencedirect.com/science/article/pii/S0010465514003166},
+	doi = {10.1016/j.cpc.2014.09.011},
+	abstract = {In the general field of quantum information and computation, quantum walks are playing an increasingly important role in constructing physical models and quantum algorithms. We have recently developed a distributed memory software package {pyCTQW}, with an object-oriented Python interface, that allows efficient simulation of large multi-particle {CTQW} (continuous-time quantum walk)-based systems. In this paper, we present an introduction to the Python and Fortran interfaces of {pyCTQW}, discuss various numerical methods of calculating the matrix exponential, and demonstrate the performance behavior of {pyCTQW} on a distributed memory cluster. In particular, the Chebyshev and Krylov-subspace methods for calculating the quantum walk propagation are provided, as well as methods for visualization and data analysis.
+Program summary
+Program title: {pyCTQW}
+
+Catalogue identifier: {AEUN\_v1\_0}
+
+Program summary {URL:http://cpc.cs.qub.ac.uk/summaries/AEUN\_v1\_0.html}
+
+Program obtainable from: {CPC} Program Library, Queen{\textquoteright}s University, Belfast, N. Ireland
+
+Licensing provisions: yes
+
+No. of lines in distributed program, including test data, etc.: 130389
+
+No. of bytes in distributed program, including test data, etc.: 4971890
+
+Distribution format: tar.gz
+
+Programming language: Fortran and Python.
+
+Computer: Workstation or cluster implementing {MPI.}
+
+Operating system: Any operating system with Fortran, python, and {MPI} installed.
+
+{RAM:} Depends on graph size and number of walkers
+
+Classification: 4.15, 14.
+
+External routines: {PETSc} [1{\textendash}3], {SLEPc} [4{\textendash}6], {MPI}, {NumPy} and {SciPy} [7{\textendash}9], Matplotlib [10], {NetworkX} [11]
+
+Nature of problem:
+
+Simulates, visualizes and analyzes continuous-time quantum walks on arbitrary undirected graphs.
+
+Solution method:
+
+Distributed memory implementations of the matrix exponential, via a choice of Krylov-subspace and Chebyshev expansion techniques, are used to simulate the continuous-time quantum walkers. Visualization ability is provided via the supplied Python module and Matplotlib.
+
+Restrictions:
+
+The size of the quantum walking system is limited by the amount of available memory. The current package implements up to 3 simultaneous walkers with interactions, but it can be readily extended.
+
+Unusual features:
+
+In addition to utilizing a parallelized Krylov subspace method and Chebyshev approximation scheme to maximize efficiency, {pyCTQW} also provides functions for visualization of the quantum walk dynamics and calculation of multi-particle entanglement, and allows for arbitrary diagonal defects to be placed on graph nodes to explore transmission and resonance structures.
+
+Running time:
+
+Runtime varies depending on the size of the graph, number of processors used, and number of simultaneous walkers.
+
+References:
+
+[1] S. Balay, {W.D.} Gropp, {L.C.} {McInnes}, {B.F.} Smith, Efficient management of parallelism in object oriented numerical software libraries, in: E. Arge, {A.M.} Bruaset, {H.P.} Langtangen {(Eds.)}, Modern Software Tools in Scientific Computing, Birkh\"{a}user Press, 1997, p. 163{\textendash}202.
+
+[2] S. Balay, J. Brown, K. Buschelman, {W.D.} Gropp, D. Kaushik, {M.G.} Knepley, {L.C.} {McInnes}, {B.F.} Smith, H. Zhang, {PETSc} Web page, 2013. http://www.mcs.anl.gov/petsc.
+
+[3] S. Balay, J. Brown, Buschelman, Kris, V. Eijkhout, {W.D.} Gropp, D. Kaushik, {M.G.} Knepley, {L.C.} {McInnes}, {B.F.} Smith, H. Zhang, {PETSc} Users Manual, Technical Report {ANL-} 95/11- Revision 3.4, Argonne National Laboratory, 2013.
+
+[4] V. Hernandez, {J.E.} Roman, V. Vidal, {SLEPc:} scalable library for eigenvalue problem computations, Lecture Notes in Computer Science 2565 (2003) 377{\textendash}391.
+
+[5] V. Hernandez, {J.E.} Roman, V. Vidal, {SLEPc:} a scalable and flexible toolkit for the solution of eigenvalue problems, {ACM} Trans. Math. Software 31 (2005) 351{\textendash}362.
+
+[6] C. Campos, {J.E.} Roman, E. Romero, A. Tomas, {SLEPc} Users Manual, Technical Report {DSIC-II/} 24/02- Revision 3.3, D. Sistemes Inform\`{a}tics i Computaci\'{o}, Universitat Polit\`{e}cnica de Val\`{e}ncia, 2012.
+
+[7] E. Jones, T. Oliphant, P. Peterson, et~al., {SciPy:} Open source scientific tools for Python 2001.
+
+[8] P. Peterson, {F2PY:} a tool for connecting Fortran and python programs, International Journal of Computational Science and Engineering 4 (2009) 296.
+
+[9] {T.E.} Oliphant, Python for scientific computing, Computing in Science and Engineering 9 (2007) 10{\textendash}20.
+
+[10] {J.D.} Hunter, Matplotlib: A {2D} graphics environment, Computing in Science and Engineering 9 (2007) 90{\textendash}95.
+
+[11] {A.A.} Hagberg, {D.A.} Schult, {P.J.} Swart, Exploring network structure, dynamics, and function using {NetworkX}, in: {ps-G.} Varoquaux, T. Vaught, J. Millman {(Eds.)}, Proceedings of the 7th Python in Science Conference, Pasadena, {CA} {USA}, pp. 11{\textendash}15.},
+	number = {0},
+	journal = {Computer Physics Communications},
+	author = {Izaac, Josh A. and Wang, Jingbo B.},
+	month = jan,
 	year = {2015},
-	note = {arXiv: 1511.04818},
-	keywords = {Quantum Physics}
-},
-
-@article{izaac2016,
-	title = {Quantum centrality testing on directed graphs via {PT}-symmetric quantum walks},
-	url = {http://arxiv.org/abs/1607.02673},
-	abstract = {Various quantum-walk based algorithms have been proposed to analyse and rank the centrality of graph vertices. However, issues arise when working with directed graphs -- the resulting non-Hermitian Hamiltonian leads to non-unitary dynamics, and the quantum walker is no longer conserved. In this paper, we discuss a method for simulating directed graphs using PT-symmetric quantum walks, allowing probability conserving non-unitary evolution. This method is equivalent to mapping the directed graph to an undirected, yet weighted, complete graph over the same vertex set. It can be extended to cover interdependent networks of directed graphs. Finally, we use this framework to implement a quantum algorithm for centrality testing on directed graphs with a significantly reduced Hilbert space compared to previous proposals. We demonstrate that, in certain cases, this centrality measure provides an advantage over classical algorithms used in network analysis, for example by breaking vertex rank degeneracy.},
-	urldate = {2016-07-12TZ},
-	journal = {arXiv:1607.02673 [quant-ph]},
-	author = {Izaac, J. and Wang, J. B. and Abbott, P. C. and Ma, X. S.},
-	month = jul,
-	year = {2016},
-	note = {arXiv: 1607.02673},
-	keywords = {quantum physics}
-},
-
-@article{izaac2013,
-	title = {Continuous-time quantum walks with defects and disorder},
-	volume = {88},
-	url = {http://link.aps.org/doi/10.1103/PhysRevA.88.042334},
-	doi = {10.1103/PhysRevA.88.042334},
-	abstract = {With the advent of physical implementations of quantum walks, a general theoretical and efficient numerical framework is required for the study of their interactions with defects and disorder. In this paper, we derive analytic expressions for the eigenstates of a one-dimensional continuous-time quantum walk interacting with a single defect, before investigating the effects of multiple diagonal defects and disorder, with emphasis on its transmission and reflection properties. Complex resonance behavior is demonstrated, showing alternating bands of zero and perfect transmission for various defect parameters. Furthermore, we provide an efficient numerical method to characterize quantum walks in the presence of diagonal disorder, paving the way for selective control of quantum walks via the optimization of position-dependent defects. The numerical method can be readily extended to higher dimensions and multiple interacting walkers.},
-	number = {4},
-	journal = {Physical Review A},
-	author = {Izaac, J. A. and Wang, J. B. and Li, Z. J.},
-	month = oct,
-	year = {2013},
-	pages = {042334}
+	keywords = {Chebyshev matrix expansion, Continuous-time quantum walk, Krylov subspace method, Multiple walkers, Pad\'{e} approximant},
+	pages = {81--92}
 },
 
 @article{li2013,
@@ -52,23 +102,6 @@
 	pages = {012314}
 },
 
-@article{izaac2014,
-	title = {{pyCTQW}: A continuous-time quantum walk simulator on distributed memory computers},
-	volume = {186},
-	number = {0},
-	pages = {81--92},
-	issn = {0010-4655},
-	shorttitle = {{pyCTQW}},
-	url = {http://www.sciencedirect.com/science/article/pii/S0010465514003166},
-	doi = {10.1016/j.cpc.2014.09.011},
-	abstract = {In the general field of quantum information and computation, quantum walks are playing an increasingly important role in constructing physical models and quantum algorithms. We have recently developed a distributed memory software package {pyCTQW}, with an object-oriented Python interface, that allows efficient simulation of large multi-particle {CTQW} (continuous-time quantum walk)-based systems. In this paper, we present an introduction to the Python and Fortran interfaces of {pyCTQW}, discuss various numerical methods of calculating the matrix exponential, and demonstrate the performance behavior of {pyCTQW} on a distributed memory cluster. In particular, the Chebyshev and Krylov-subspace methods for calculating the quantum walk propagation are provided, as well as methods for visualization and data analysis.},
-	journal = {Computer Physics Communications},
-	author = {Izaac, Josh A. and Wang, Jingbo B.},
-	month = jan,
-	year = {2015},
-	keywords = {Chebyshev matrix expansion, Continuous-time quantum walk, Krylov subspace method, Multiple walkers, Pad\'{e} approximant}
-},
-
 @article{mahasinghe2015,
 	title = {Phase-modified {CTQW} unable to distinguish strongly regular graphs efficiently},
 	volume = {48},
@@ -82,4 +115,89 @@
 	month = jul,
 	year = {2015},
 	pages = {265301}
+},
+
+@article{izaac2016,
+	title = {Quantum centrality testing on directed graphs via {PT-symmetric} quantum walks},
+	url = {http://arxiv.org/abs/1607.02673},
+	abstract = {Various quantum-walk based algorithms have been proposed to analyse and rank the centrality of graph vertices. However, issues arise when working with directed graphs -- the resulting {non-Hermitian} Hamiltonian leads to non-unitary dynamics, and the quantum walker is no longer conserved. In this paper, we discuss a method for simulating directed graphs using {PT-symmetric} quantum walks, allowing probability conserving non-unitary evolution. This method is equivalent to mapping the directed graph to an undirected, yet weighted, complete graph over the same vertex set. It can be extended to cover interdependent networks of directed graphs. Finally, we use this framework to implement a quantum algorithm for centrality testing on directed graphs with a significantly reduced Hilbert space compared to previous proposals. We demonstrate that, in certain cases, this centrality measure provides an advantage over classical algorithms used in network analysis, for example by breaking vertex rank degeneracy.},
+	journal = {{arXiv:1607.02673} [quant-ph]},
+	author = {Izaac, J. A. and Wang, J. B. and Abbott, P. C. and Ma, X. S.},
+	month = jul,
+	year = {2016},
+	keywords = {Quantum Physics}
+},
+
+@article{izaac2013,
+	title = {Continuous-time quantum walks with defects and disorder},
+	volume = {88},
+	url = {http://link.aps.org/doi/10.1103/PhysRevA.88.042334},
+	doi = {10.1103/PhysRevA.88.042334},
+	abstract = {With the advent of physical implementations of quantum walks, a general theoretical and efficient numerical framework is required for the study of their interactions with defects and disorder. In this paper, we derive analytic expressions for the eigenstates of a one-dimensional continuous-time quantum walk interacting with a single defect, before investigating the effects of multiple diagonal defects and disorder, with emphasis on its transmission and reflection properties. Complex resonance behavior is demonstrated, showing alternating bands of zero and perfect transmission for various defect parameters. Furthermore, we provide an efficient numerical method to characterize quantum walks in the presence of diagonal disorder, paving the way for selective control of quantum walks via the optimization of position-dependent defects. The numerical method can be readily extended to higher dimensions and multiple interacting walkers.},
+	number = {4},
+	journal = {Physical Review A},
+	author = {Izaac, J. A. and Wang, J. B. and Li, Z. J.},
+	month = oct,
+	year = {2013},
+	pages = {042334}
+},
+
+@article{hurst2017,
+	title = {Reconfigurable magnetic domain wall pinning at the nano-scale using vortex-generated magnetic fields},
+	url = {http://arxiv.org/abs/1702.02536},
+	abstract = {We demonstrate that the stray magnetic field generated beneath magnetic vortex cores can be used to generate nano-scale, localized pinning sites for magnetic domain walls in an underlying, perpendicularly magnetized nanostrip. Moreover, the pinning strength can be tuned by toggling the vortex core polarity. Indeed, switching the core polarity so that it is aligned with the magnetization of the expanding domain (rather than against it) can be used to reduce the vortex-mediated wall depinning field by between 40\% and 90\%, depending on the system geometry. Significant reductions in the depinning field can also be obtained in narrow strips by shifting the core away from the strip's center.},
+	journal = {{arXiv:1702.02536} [cond-mat]},
+	author = {Hurst, Aaron C. H. and Izaac, Joshua A. and Altaf, Fouzia and Baltz, Vincent and Metaxas, Peter J.},
+	month = feb,
+	year = {2017},
+	keywords = {Condensed Matter - Mesoscale and Nanoscale Physics}
+},
+
+@article{izaac2016-a,
+	title = {People take more risks when wearing helmets, potentially negating safety benefits},
+	issn = {0036-8075, 1095-9203},
+	url = {http://news.sciencemag.org/brain-behavior/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety},
+	doi = {10.1126/science.aae0200},
+	journal = {Science},
+	author = {Izaac, J. A.},
+	month = jan,
+	year = {2016}
+},
+
+@misc{izaac2016-b,
+	address = {Wolfram Demonstrations Project},
+	title = {{PT-symmetric} Quantum Walks and Centrality Testing on Directed Graphs},
+	url = {http://demonstrations.wolfram.com/PTSymmetricQuantumWalksAndCentralityTestingOnDirectedGraphs/},
+	author = {Izaac, J. A.},
+	month = jul,
+	year = {2016}
+},
+
+@article{izaac2017,
+	title = {Centrality measure based on continuous-time quantum walks and experimental realization},
+	volume = {95},
+	url = {http://link.aps.org/doi/10.1103/PhysRevA.95.032318},
+	doi = {10.1103/PhysRevA.95.032318},
+	abstract = {Network centrality has important implications well beyond its role in physical and information transport analysis; as such, various quantum-walk-based algorithms have been proposed for measuring network vertex centrality. In this work, we propose a continuous-time quantum walk algorithm for determining vertex centrality, and show that it generalizes to arbitrary graphs via a statistical analysis of randomly generated scale-free and {Erd\H{o}s-R\'{e}nyi} networks. As a proof of concept, the algorithm is detailed on a four-vertex star graph and physically implemented via linear optics, using spatial and polarization degrees of freedoms of single photons. This paper reports a successful physical demonstration of a quantum centrality algorithm.},
+	number = {3},
+	journal = {Physical Review A},
+	author = {Izaac, Josh A. and Zhan, Xiang and Bian, Zhihao and Wang, Kunkun and Li, Jian and Wang, Jingbo B. and Xue, Peng},
+	month = mar,
+	year = {2017},
+	pages = {032318}
+},
+
+@article{zhou2017,
+	title = {Quantum Fourier transform in computational basis},
+	volume = {16},
+	issn = {1570-0755, 1573-1332},
+	url = {https://link.springer.com/article/10.1007/s11128-017-1515-0},
+	doi = {10.1007/s11128-017-1515-0},
+	abstract = {The quantum Fourier transform, with exponential speed-up compared to the classical fast Fourier transform, has played an important role in quantum computation as a vital part of many quantum algorithms (most prominently, Shor{\textquoteright}s factoring algorithm). However, situations arise where it is not sufficient to encode the Fourier coefficients within the quantum amplitudes, for example in the implementation of control operations that depend on Fourier coefficients. In this paper, we detail a new quantum scheme to encode Fourier coefficients in the computational basis, with fidelity 1-$\delta$1-$\delta$1 - {\textbackslash}delta and digit accuracy $\epsilon$$\epsilon${\textbackslash}epsilon for each Fourier coefficient. Its time complexity depends polynomially on {log(N)log(N){\textbackslash}log} {(N)}, where N is the problem size, and linearly on 1/$\delta$1/$\delta$1/{\textbackslash}delta and 1/$\epsilon$1/$\epsilon$1/{\textbackslash}epsilon . We also discuss an application of potential practical importance, namely the simulation of circulant Hamiltonians.},
+	number = {3},
+	journal = {Quantum Information Processing},
+	author = {Zhou, S. S. and Loke, T. and Izaac, J. A. and Wang, J. B.},
+	month = mar,
+	year = {2017},
+	pages = {82}
 }
