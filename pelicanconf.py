@@ -250,12 +250,12 @@ if THEME == "pelican-themes/BT3-Flat":
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',
                  'http://australiangeographic.com.au',
-                 'http://redorbit.com']
+                 'http://www.sciencemag.org/news']
 
     WORK_DESCRIPTION = """
     <p style="text-align:left"> My current research interests mainly lie in the characterisation and 
-    applications of quantum walks, with specific focus on quantum simulation of complex biochemical 
-    systems such as photosynthesis and electron transport in functional nano-materials.<br><br>
+    applications of quantum walks, with specific focus on network analysis algorithsm and quantum simulation of complex biochemical 
+    systems such as photosynthesis.<br><br>
 
     A major part of my research involves numerical simulation on high performance supercomputing 
     clusters (mainly using the <a href={0}>Pawsey</a> supercomputing facility in Western Australia), 
@@ -264,11 +264,11 @@ if THEME == "pelican-themes/BT3-Flat":
     source code available on my GitHub page. Other tools I find useful for my work include iPython, 
     matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
 
-    Outside of research, I am also employed as a tutor, lab demonstrator, and guest lecturer for 
+    Outside of research, I am also employed as a tutor, lab demonstrator, and casual lecturer for 
     undergraduate and honours physics units at UWA.
 
     I also enjoy science writing and communication - my writing has so far been featured in 
-    <a href={2}>Australian Geographic</a> and <a href={3}>redOrbit</a>.</p>
+    <a href={2}>Australian Geographic</a> and <a href={3}>Science</a>.</p>
     """.format(*workLinks)
 
     WORK_PUBLICATIONS = True
