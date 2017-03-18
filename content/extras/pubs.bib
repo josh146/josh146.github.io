@@ -6,79 +6,7 @@
 	shorttitle = {{pyCTQW}},
 	url = {http://www.sciencedirect.com/science/article/pii/S0010465514003166},
 	doi = {10.1016/j.cpc.2014.09.011},
-	abstract = {In the general field of quantum information and computation, quantum walks are playing an increasingly important role in constructing physical models and quantum algorithms. We have recently developed a distributed memory software package {pyCTQW}, with an object-oriented Python interface, that allows efficient simulation of large multi-particle {CTQW} (continuous-time quantum walk)-based systems. In this paper, we present an introduction to the Python and Fortran interfaces of {pyCTQW}, discuss various numerical methods of calculating the matrix exponential, and demonstrate the performance behavior of {pyCTQW} on a distributed memory cluster. In particular, the Chebyshev and Krylov-subspace methods for calculating the quantum walk propagation are provided, as well as methods for visualization and data analysis.
-Program summary
-Program title: {pyCTQW}
-
-Catalogue identifier: {AEUN\_v1\_0}
-
-Program summary {URL:http://cpc.cs.qub.ac.uk/summaries/AEUN\_v1\_0.html}
-
-Program obtainable from: {CPC} Program Library, Queen{\textquoteright}s University, Belfast, N. Ireland
-
-Licensing provisions: yes
-
-No. of lines in distributed program, including test data, etc.: 130389
-
-No. of bytes in distributed program, including test data, etc.: 4971890
-
-Distribution format: tar.gz
-
-Programming language: Fortran and Python.
-
-Computer: Workstation or cluster implementing {MPI.}
-
-Operating system: Any operating system with Fortran, python, and {MPI} installed.
-
-{RAM:} Depends on graph size and number of walkers
-
-Classification: 4.15, 14.
-
-External routines: {PETSc} [1{\textendash}3], {SLEPc} [4{\textendash}6], {MPI}, {NumPy} and {SciPy} [7{\textendash}9], Matplotlib [10], {NetworkX} [11]
-
-Nature of problem:
-
-Simulates, visualizes and analyzes continuous-time quantum walks on arbitrary undirected graphs.
-
-Solution method:
-
-Distributed memory implementations of the matrix exponential, via a choice of Krylov-subspace and Chebyshev expansion techniques, are used to simulate the continuous-time quantum walkers. Visualization ability is provided via the supplied Python module and Matplotlib.
-
-Restrictions:
-
-The size of the quantum walking system is limited by the amount of available memory. The current package implements up to 3 simultaneous walkers with interactions, but it can be readily extended.
-
-Unusual features:
-
-In addition to utilizing a parallelized Krylov subspace method and Chebyshev approximation scheme to maximize efficiency, {pyCTQW} also provides functions for visualization of the quantum walk dynamics and calculation of multi-particle entanglement, and allows for arbitrary diagonal defects to be placed on graph nodes to explore transmission and resonance structures.
-
-Running time:
-
-Runtime varies depending on the size of the graph, number of processors used, and number of simultaneous walkers.
-
-References:
-
-[1] S. Balay, {W.D.} Gropp, {L.C.} {McInnes}, {B.F.} Smith, Efficient management of parallelism in object oriented numerical software libraries, in: E. Arge, {A.M.} Bruaset, {H.P.} Langtangen {(Eds.)}, Modern Software Tools in Scientific Computing, Birkh\"{a}user Press, 1997, p. 163{\textendash}202.
-
-[2] S. Balay, J. Brown, K. Buschelman, {W.D.} Gropp, D. Kaushik, {M.G.} Knepley, {L.C.} {McInnes}, {B.F.} Smith, H. Zhang, {PETSc} Web page, 2013. http://www.mcs.anl.gov/petsc.
-
-[3] S. Balay, J. Brown, Buschelman, Kris, V. Eijkhout, {W.D.} Gropp, D. Kaushik, {M.G.} Knepley, {L.C.} {McInnes}, {B.F.} Smith, H. Zhang, {PETSc} Users Manual, Technical Report {ANL-} 95/11- Revision 3.4, Argonne National Laboratory, 2013.
-
-[4] V. Hernandez, {J.E.} Roman, V. Vidal, {SLEPc:} scalable library for eigenvalue problem computations, Lecture Notes in Computer Science 2565 (2003) 377{\textendash}391.
-
-[5] V. Hernandez, {J.E.} Roman, V. Vidal, {SLEPc:} a scalable and flexible toolkit for the solution of eigenvalue problems, {ACM} Trans. Math. Software 31 (2005) 351{\textendash}362.
-
-[6] C. Campos, {J.E.} Roman, E. Romero, A. Tomas, {SLEPc} Users Manual, Technical Report {DSIC-II/} 24/02- Revision 3.3, D. Sistemes Inform\`{a}tics i Computaci\'{o}, Universitat Polit\`{e}cnica de Val\`{e}ncia, 2012.
-
-[7] E. Jones, T. Oliphant, P. Peterson, et~al., {SciPy:} Open source scientific tools for Python 2001.
-
-[8] P. Peterson, {F2PY:} a tool for connecting Fortran and python programs, International Journal of Computational Science and Engineering 4 (2009) 296.
-
-[9] {T.E.} Oliphant, Python for scientific computing, Computing in Science and Engineering 9 (2007) 10{\textendash}20.
-
-[10] {J.D.} Hunter, Matplotlib: A {2D} graphics environment, Computing in Science and Engineering 9 (2007) 90{\textendash}95.
-
-[11] {A.A.} Hagberg, {D.A.} Schult, {P.J.} Swart, Exploring network structure, dynamics, and function using {NetworkX}, in: {ps-G.} Varoquaux, T. Vaught, J. Millman {(Eds.)}, Proceedings of the 7th Python in Science Conference, Pasadena, {CA} {USA}, pp. 11{\textendash}15.},
+	abstract = {In the general field of quantum information and computation, quantum walks are playing an increasingly important role in constructing physical models and quantum algorithms. We have recently developed a distributed memory software package {pyCTQW}, with an object-oriented Python interface, that allows efficient simulation of large multi-particle {CTQW} (continuous-time quantum walk)-based systems. In this paper, we present an introduction to the Python and Fortran interfaces of {pyCTQW}, discuss various numerical methods of calculating the matrix exponential, and demonstrate the performance behavior of {pyCTQW} on a distributed memory cluster. In particular, the Chebyshev and Krylov-subspace methods for calculating the quantum walk propagation are provided, as well as methods for visualization and data analysis.},
 	number = {0},
 	journal = {Computer Physics Communications},
 	author = {Izaac, Josh A. and Wang, Jingbo B.},
@@ -151,17 +79,6 @@ References:
 	month = feb,
 	year = {2017},
 	keywords = {Condensed Matter - Mesoscale and Nanoscale Physics}
-},
-
-@article{izaac2016-a,
-	title = {People take more risks when wearing helmets, potentially negating safety benefits},
-	issn = {0036-8075, 1095-9203},
-	url = {http://news.sciencemag.org/brain-behavior/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety},
-	doi = {10.1126/science.aae0200},
-	journal = {Science},
-	author = {Izaac, J. A.},
-	month = jan,
-	year = {2016}
 },
 
 @misc{izaac2016-b,
