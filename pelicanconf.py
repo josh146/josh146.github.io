@@ -311,12 +311,15 @@ if THEME == "pelican-themes/BT3-Flat":
                 ]
 
     CONFERENCES = [
+        """J. A. Izaac, X. Zhan, J. Li, P. Xue, P. C. Abbott, X. S. Ma, and J. B. Wang.
+        Quantum centrality ranking via quantum walks and its experimental realization.
+        Talk presented at <i>17th Asian Quantum Information Science Conference</i>, Singapore. September 2017""",
         """J. A. Izaac, J. B. Wang, P. C. Abbott, and X. S. Ma.
         Quantum centrality testing on directed graphs via PT-symmetric quantum walks.
         Poster presented at <i>PHHQP16: Progress in Quantum Physics with Non-Hermitian Operators</i>, Kyoto, Japan. August 2016""",
-        """J. A. Izaac and J. B. Wang.
-        Pseudo-Hermitian continuous-time quantum walks on directed graphs.
-        Paper presented at the <i>Complexity of Quantum Information and Computation Workshop</i>, Tsinghua Sanya International Mathematics Forum, Sanya, China. March 2016""",
+        #"""J. A. Izaac and J. B. Wang.
+        #Pseudo-Hermitian continuous-time quantum walks on directed graphs.
+        #Paper presented at the <i>Complexity of Quantum Information and Computation Workshop</i>, Tsinghua Sanya International Mathematics Forum, Sanya, China. March 2016""",
         """J. A. Izaac and P. J. Metaxas.
         Nanomagnetism with GPUs: simulations of hybrid vortex - domain wall devices.
         Paper presented at the annual <i>iVEC Symposium</i>, Perth, Australia. February 2013"""]
