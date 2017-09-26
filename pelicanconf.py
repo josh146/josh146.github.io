@@ -225,9 +225,8 @@ if THEME == "pelican-themes/BT3-Flat":
                      'http://uwa.edu.au']
 
     PERSONAL_INFO = """
-    I am a freelance science writer and PhD student in the <a href={0}>Quantum Dynamics and Computation</a> 
-    research group at the <a href={1}>University of Western Australia</a>, 
-    currently researching continuous-time quantum walks and potential biological models.
+    I am a quantum mechanic, freelance science writer, and software developer, with a PhD in quantum computation
+    from the <a href={0}>Quantum Dynamics and Computation</a> research group at the <a href={1}>University of Western Australia</a>.
     """.format(*personalLinks)
 
     # PERSONAL_INFO_SEC1_TITLE = "Travel"
@@ -245,7 +244,7 @@ if THEME == "pelican-themes/BT3-Flat":
     # Some more stuff
     # """
 
-    PERSONAL_PHOTO = "images/face4.JPG"
+#     PERSONAL_PHOTO = "images/face4.JPG"
     
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',
@@ -253,9 +252,8 @@ if THEME == "pelican-themes/BT3-Flat":
                  'http://www.sciencemag.org/news']
 
     WORK_DESCRIPTION = """
-    <p style="text-align:left"> My current research interests mainly lie in the characterisation and 
-    applications of quantum walks, with specific focus on network analysis algorithsm and quantum simulation of complex biochemical 
-    systems such as photosynthesis.<br><br>
+    <p style="text-align:left"> My research interests mainly lie in the characterisation and 
+    applications of quantum walks, with specific focus on network analysis algorithms.<br><br>
 
     A major part of my research involves numerical simulation on high performance supercomputing 
     clusters (mainly using the <a href={0}>Pawsey</a> supercomputing facility in Western Australia), 
@@ -264,8 +262,10 @@ if THEME == "pelican-themes/BT3-Flat":
     source code available on my GitHub page. Other tools I find useful for my work include iPython, 
     matplotlib, the amazingly extendable SublimeText, and of course Mathematica and $\LaTeX{{}}$.<br><br>
 
-    Outside of research, I am also employed as a tutor, lab demonstrator, and casual lecturer for 
-    undergraduate and honours physics units at UWA.
+    Outside of research, I have worked as a tutor, lab demonstrator, and casual lecturer for 
+    undergraduate and honours physics units at UWA. I am currently applying my background in quantum
+    computation at Xanadu Quantum Technologies in Toronto, working to develop the software front-end
+    to their continuous-variable quantum computating system. 
 
     I also enjoy science writing and communication - my writing has so far been featured in 
     <a href={2}>Australian Geographic</a> and <a href={3}>Science</a>.</p>
@@ -274,6 +274,12 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
+                  'https://i.imgur.com/lBQRbL6.png',
+                  'PhD Thesis',
+                  'Continuous-time quantum walks: simulation and application',
+                  'http://research-repository.uwa.edu.au/en/publications/continuoustime-quantum-walks-simulation-and-application(2f9e3075-3307-4e56-bf28-f82a17953c1f).html?uwaCustom=thesis'
+                ],
+                ['link',
                 'images/PTwolfram2.png',
                 'PT-symmetric Quantum Walks',
                 'Software demonstration published on Wolfram Demonstrations Project',
