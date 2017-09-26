@@ -15,7 +15,7 @@ SITENAME = u'+josh'
 SITESUBTITLE = u'iza.ac'
 SITEURL = 'http://iza.ac'
 EMAIL_ADDR = 'josh at iza dot ac'
-COPYRIGHT = 'Copyright Josh Izaac, 2015'
+COPYRIGHT = 'Copyright Josh Izaac, 2017'
 
 DISQUS_SITENAME = 'izaac'
 SWIFTYPE = 'LPcmywgYs12nMZT1EFp7'
@@ -249,7 +249,8 @@ if THEME == "pelican-themes/BT3-Flat":
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',
                  'http://australiangeographic.com.au',
-                 'http://www.sciencemag.org/news']
+                 'http://www.sciencemag.org/news',
+                 'http://xanadu.ai']
 
     WORK_DESCRIPTION = """
     <p style="text-align:left"> My research interests mainly lie in the characterisation and 
@@ -264,7 +265,7 @@ if THEME == "pelican-themes/BT3-Flat":
 
     Outside of research, I have worked as a tutor, lab demonstrator, and casual lecturer for 
     undergraduate and honours physics units at UWA. I am currently applying my background in quantum
-    computation at Xanadu Quantum Technologies in Toronto, working to develop the software front-end
+    computation at <a href={4}>Xanadu Quantum Technologies</a> in Toronto, working to develop the software front-end
     to their continuous-variable quantum computating system. 
 
     I also enjoy science writing and communication - my writing has so far been featured in 
