@@ -277,11 +277,11 @@ if THEME == "pelican-themes/BT3-Flat":
 
     WORK_PUBLICATIONS = True
 
-    WORK_LIST = [['link',
-                  'https://i.imgur.com/9A2tu4W.png',
-                  'PhD Thesis',
-                  'Continuous-time quantum walks: simulation and application',
-                  'http://research-repository.uwa.edu.au/en/publications/continuoustime-quantum-walks-simulation-and-application(2f9e3075-3307-4e56-bf28-f82a17953c1f).html?uwaCustom=thesis'
+    WORK_LIST =[['link',
+                 'https://i.imgur.com/9A2tu4W.png',
+                 'PhD Thesis',
+                 'Continuous-time quantum walks: simulation and application',
+                 'http://research-repository.uwa.edu.au/en/publications/continuoustime-quantum-walks-simulation-and-application(2f9e3075-3307-4e56-bf28-f82a17953c1f).html?uwaCustom=thesis'
                 ],
                 ['link',
                 'images/PTwolfram2.png',
