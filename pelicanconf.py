@@ -201,14 +201,17 @@ if THEME == "pelican-themes/BT3-Flat":
                 'images/cover2.JPG',
                 'images/cover3.JPG',
                 'images/cover4.JPG',
-                'images/cover5.JPG',
+                # 'images/cover5.JPG',
                 'images/cover6.JPG',
-                'images/cover7.JPG',
-                'images/cover8.JPG',
-                'images/cover9.JPG',
-                # 'images/cover10.JPG',
+                # 'images/cover7.JPG',
+                # 'images/cover8.JPG',
+                # 'images/cover9.JPG',
+                'images/cover10.JPG',
                 'images/cover11.JPG',
-                'images/cover12.JPG']
+                'images/cover12.JPG',
+                'images/cover13.JPG',
+                'images/cover15.JPG',
+                'images/cover16.JPG']
     
     HOME_PAGE_STYLE = 'full'
     HEADER_SIZE = HOME_PAGE_STYLE+"-screen"
@@ -221,12 +224,12 @@ if THEME == "pelican-themes/BT3-Flat":
         """
     BG_BLUR = False
 
-    personalLinks = ['http://www.physics.uwa.edu.au/research/quantum-dynamics-computation',
-                     'http://uwa.edu.au']
+    personalLinks = ['http://xanadu.ai',
+                     'http://www.physics.uwa.edu.au/research/quantum-dynamics-computation']
 
     PERSONAL_INFO = """
-    I am a quantum mechanic, freelance science writer, and software developer, with a PhD in quantum computation
-    from the <a href={0}>Quantum Dynamics and Computation</a> research group at the <a href={1}>University of Western Australia</a>.
+    I am a <a href={0}>quantum mechanic</a>, freelance science writer, and software developer, with a PhD in quantum computation
+    from the <a href={1}>University of Western Australia</a>.
     """.format(*personalLinks)
 
     # PERSONAL_INFO_SEC1_TITLE = "Travel"
@@ -275,7 +278,7 @@ if THEME == "pelican-themes/BT3-Flat":
     WORK_PUBLICATIONS = True
 
     WORK_LIST = [['link',
-                  'https://i.imgur.com/lBQRbL6.png',
+                  'https://i.imgur.com/9A2tu4W.png',
                   'PhD Thesis',
                   'Continuous-time quantum walks: simulation and application',
                   'http://research-repository.uwa.edu.au/en/publications/continuoustime-quantum-walks-simulation-and-application(2f9e3075-3307-4e56-bf28-f82a17953c1f).html?uwaCustom=thesis'
