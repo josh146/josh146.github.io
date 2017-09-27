@@ -247,7 +247,7 @@ if THEME == "pelican-themes/BT3-Flat":
     # Some more stuff
     # """
 
-#     PERSONAL_PHOTO = "images/face4.JPG"
+    PERSONAL_PHOTO = "images/face4.JPG"
     
     workLinks = ['http://www.pawsey.org.au/',
                  'http://pyctqw.readthedocs.org',
