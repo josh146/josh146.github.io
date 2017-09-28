@@ -269,7 +269,7 @@ if THEME == "pelican-themes/BT3-Flat":
     Outside of research, I have worked as a tutor, lab demonstrator, and casual lecturer for 
     undergraduate and honours physics units at UWA. I am currently applying my background in quantum
     computation at <a href={4}>Xanadu Quantum Technologies</a> in Toronto, working to develop the software front-end
-    to their continuous-variable quantum computating system. 
+    to their quantum computating system. 
 
     I also enjoy science writing and communication - my writing has so far been featured in 
     <a href={2}>Australian Geographic</a> and <a href={3}>Science</a>.</p>
