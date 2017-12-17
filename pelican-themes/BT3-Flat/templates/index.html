@@ -251,33 +251,28 @@
           <div id="portfolio" class="text-center animate_fade_in">
             <h1 class="entry-title" align=left>Portfolio</h1>
             <br>
-
-            <div class="row">
-
-              <ul class="sort-destination isotope" data-sort-id="isotope-list">
-
+            <center>
+            <div class="row center-block portfolio-cards">
+              <center>
                 {% for work_type, work_cover_link, work_title, work_description, work_link in WORK_LIST %}
                   {% if work_type == 'link' %}
-                    <li class="isotope-item col-sm-6 col-md-4 brand" style="list-style-type: none"><!-- item -->
                       <a class="external" href="{{work_link}}" target="_blank">
-                        <img src="{{work_cover_link}}" class="img-responsive center-block" alt="img" align="center"/>
-                        <div class="caption">
-                          <!-- <i class="rounded fa fa-link"></i> -->
-                          <h3>{{work_title}}</h3>
-                          <p>{{work_description}}</p>
-                        </div>
+                    <div class="card card--big col-sm-6 col-md-4" style="margin-bottom: 50px;">
+
+                      <div class="card__image" style="background-image: url({{work_cover_link}});"></div>
+                      <h2 class="card__title">{{work_title}}</h2>
+                      <span class="card__subtitle">By Mattia Astorino</span>
+                      <p class="card__text">{{work_description}}</p>
+                    </div>
                       </a>
-                    </li>
                   {% endif %}
                 {% endfor %}
-
-              </ul>
+              </center>
             </div>
-
-          </div>
+          </center>
           {% endif %}
+        </div>
 
-        
         </div>
       </section>
       <!-- /WORK -->
@@ -377,8 +372,6 @@
       });
 
     </script>
-
-
 
   </body>
 </html>
