@@ -26,8 +26,7 @@ code, tt {
   text-align:left;
   border:0;
   margin:0;
-    font-family:'Trebuchet MS',Trebuchet,'Dosis','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
-    font-family:'Trebuchet MS',Trebuchet;
+    font-family:'Trebuchet MS',Trebuchet, 'Lato', sans-serif;
     font-size: 0.9em;
     font-weight: 100;
 }
