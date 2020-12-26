@@ -55,9 +55,9 @@ SOCIAL = (
 )
 
 LINKS = (
-    ("About", "/index.html"),
-	("CV", "/cv.html"),
-	("posts", "/posts/index.html"),
+    ("About", "/"),
+	("CV", "/cv"),
+	("posts", "/posts"),
 )
 
 DELETE_OUTPUT_DIRECTORY = True
