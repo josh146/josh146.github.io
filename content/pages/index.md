@@ -78,7 +78,7 @@ and [FOSDEM](https://fosdem.org).
 
 <div class="card">
     <div class="youtube text-center my-3">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/4_X6EyqXa2s" seamless frameBorder="0"></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/wX9MksF3nJU" seamless frameBorder="0"></iframe>
     </div>
 </div>
 
