@@ -7,7 +7,7 @@ SITENAME = 'josh iza.ac'
 SITEURL = 'http://iza.ac'
 EMAIL_ADDR = 'josh@iza.ac'
 COPYRIGHT = 'Copyright Josh Izaac, 2017'
-USER_LOGO_URL = '/images/header.png'
+USER_LOGO_URL = '/images/header-small.png'
 
 THEME = './themes/voce/'
 PATH = 'content'
@@ -18,7 +18,7 @@ DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 
 PLUGIN_PATHS = ["plugins", os.path.join(THEME, "plugins")]
-PLUGINS = ['pelican.plugins.embed_tweet', "pelican_youtube"]
+PLUGINS = ['pelican.plugins.embed_tweet', "pelican_youtube", "pelican.plugins.render_math"]
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -40,6 +40,8 @@ GLOBAL_KEYWORDS = ("keywords",)
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = 'oldschool'
 
+MATHJAX_CONF = {"auto_insert": True}
+
 #~~~~~~~~~~~~~~~~
 # Navbar settings
 #~~~~~~~~~~~~~~~~
@@ -55,7 +57,8 @@ SOCIAL = (
 )
 
 LINKS = (
-    ("About", "/"),
+    ("Home", "/"),
+    ("About", "/about"),
 	("CV", "/cv"),
 	("posts", "/posts"),
 )
