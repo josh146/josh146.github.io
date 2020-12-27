@@ -37,7 +37,9 @@ quantum software at [Xanadu](https://xanadu.ai). This includes:
 
 A majority of my work is in Python, but I have also dabbled in Fortran, C, and C++. I believe that
 code documentation is as---if not more---important as the underlying software, and this philosophy
-has guided the development of each of the libraries listed above.
+has guided the development of each of the libraries listed above. I am also an advisor for the
+[Unitary Fund](https://unitary.fund), a non-profit working to create an accessible quantum technology ecosystem.
+As part of the advisory board I help to source and review microgrant applications.
 
 Before joining Xanadu, I completed my PhD in quantum computation from the
 [University of Western Australia](https://www.uwa.edu.au/research/ems-research-clusters/quantum-information-simulation-and-algorithms), with a focus on graph algorithms. A large component
@@ -60,13 +62,18 @@ Geographic](https://www.australiangeographic.com.au/news/2015/10/why-do-female-b
 [computational quantum mechanics](https://www.amazon.com/Computational-Quantum-Mechanics-Joshua-Izaac/dp/331999929X).
 
 <div class="card">
-    <div class="row mx-auto my-3">
-    <img src="/images/cqm.png" width="300px"/><img src="/images/qho.png" width="400px"/>
-</div>
+    <div class="row mx-auto my-3  d-flex align-items-center">
+        <div class="col-6">
+            <img class="img-fluid" src="/images/cqm.png" width="300px"/>
+        </div>
+        <div class="col-6">
+            <img  class="img-fluid" src="/images/qho.png" width="400px"/>
+        </div>
+    </div>
 </div>
 
 Luckily, my role at Xanadu has allowed me to continue down the science communication hole,
-and since joining I have written about and highlighted various results from the quantum
+and since joining I have written about, illustrated, and highlighted various results from the quantum
 machine learning literature, including the [quantum natural gradient](https://pennylane.ai/qml/demos/tutorial_quantum_natural_gradient.html),
 [quantum stochastic gradient descent](https://pennylane.ai/qml/demos/tutorial_doubly_stochastic.html),
 [frugal shot optimization](https://pennylane.ai/qml/demos/tutorial_rosalin.html),
@@ -76,12 +83,9 @@ and many others. I've also been lucky enough to give talks on quantum machine
 learning and quantum photonics at conferences such as [QHACK](https://qhack.ai)
 and [FOSDEM](https://fosdem.org).
 
+
 <div class="card">
-    <div class="youtube text-center my-3">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/wX9MksF3nJU" seamless frameBorder="0"></iframe>
-    </div>
+<div class="embed-container my-lg-5 mx-lg-5">
+    <iframe width=800px height=500px src="https://www.youtube.com/embed/wX9MksF3nJU" frameborder='0' allowfullscreen></iframe>
 </div>
-
-Finally, I've been working on my scientific illustration game over the past few years, with all images
-on this page hand-drawn by me 🎨
-
+</div>
