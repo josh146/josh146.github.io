@@ -32,8 +32,11 @@ quantum software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photoni
   mechanics](https://www.amazon.com/Computational-Quantum-Mechanics-Joshua-Izaac/dp/331999929X).
 
 
-<div class="row">
-  <div class="col-lg-3 offset-lg-3 col-6">
+<div class="row d-flex align-items-end">
+  <div class="col-lg-3 col-6 d-none d-lg-block d-md-none">
+    <img src="/images/noon.png" style="height:200px;"/>
+  </div>
+  <div class="col-lg-3 col-6">
     <a class="hover-img" href="/about">
        <img src="/images/tell_me_more.png" />
        <img src="/images/tell_me_more_active.png" />
@@ -44,5 +47,8 @@ quantum software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photoni
        <img src="/images/publications.png" />
        <img src="/images/publications_active.png" />
     </a>
+  </div>
+  <div class="col-lg-3 col-6 d-none d-lg-block d-md-none">
+    <img src="/images/cqm.png" style="height:200px;"/>
   </div>
 </div>
