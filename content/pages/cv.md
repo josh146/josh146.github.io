@@ -12,10 +12,16 @@ Note: for a full, up to date list of my publications, please refer to
 
 <div class="container text-center">
   <div class="btn-group" style="width: 100%;">
-    <a id="prev" class="btn btn-info">Previous</a>
+    <a id="prev" class="btn btn-info">
+      <span class="d-none d-lg-inline d-md-none">Previous</span>
+      <span class="d-lg-none">Prev</span>
+    </a>
     <a id="next" class="btn btn-info">Next</a>
     <div class="px-3" style="border: 1px solid grey;">
-      <span><span class="d-none d-lg-inline d-md-none">Page </span><span id="page_num"></span> / <span id="page_count"></span></span>
+      <span>
+        <span class="d-none d-lg-inline d-md-none">Page </span>
+        <span id="page_num"></span><span class="d-none d-lg-inline d-md-none"> / </span><span class="d-lg-none">/</span><span id="page_count"></span>
+      </span>
     </div>
     <a href="/pdf/cv.pdf" class="btn btn-info">Download</a>
   </div>
