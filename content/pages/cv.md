@@ -2,9 +2,14 @@ Title: Curriculum Vitae.
 URL:
 save_as: cv.html
 
+<p class="text-center">
+Note: for a full, up to date list of my publications, please refer to
+<a href="https://scholar.google.com/citations?user=pEj09c4AAAAJ">Google Scholar</a>.
+</p>
+
 <div class="container text-center">
-  <button id="prev" class="btn btn-info mx-2">Previous</button>
-  <button id="next" class="btn btn-info mx-2">Next</button>
+  <a id="prev" class="btn btn-info mx-2">Previous</a>
+  <a id="next" class="btn btn-info mx-2">Next</a>
   <a href="/pdf/cv.pdf" class="btn btn-info mx-2">Download</a>
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 <div id="the-container">
@@ -33,11 +38,11 @@ function renderPage(num) {
   pageRendering = true;
   // Using promise to fetch the page
   pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
+    // var viewport = page.getViewport({scale: scale});
 
-    // var viewport = page.getViewport(1);
-    // var scale = container.clientWidth / viewport.width;
-    // viewport = page.getViewport(scale);
+    var viewport = page.getViewport({scale: 1});
+    var scale = container.clientWidth / viewport.width;
+    viewport = page.getViewport({scale: scale});
 
     canvas.height = viewport.height;
     canvas.width = viewport.width;

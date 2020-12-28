@@ -2,8 +2,9 @@ Title: hello.
 URL:
 save_as: index.html
 
-I'm a computational quantum physicist and software developer, working to build accessible, open-source
-quantum software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photonic hardware company.
+I'm a [computational quantum physicist](https://scholar.google.com/citations?user=pEj09c4AAAAJ) and
+[software developer](https://github.com/josh146), working to build accessible, open-source quantum
+software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photonic hardware company.
 
 
 <style>
@@ -33,13 +34,19 @@ quantum software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photoni
 
 
 <div class="row d-flex align-items-end">
-  <div class="col-lg-3 col-6 d-none d-lg-block d-md-none">
-    <img src="/images/noon.png" style="height:200px;"/>
-  </div>
+  <!-- <div class="col-lg-3 col-6 d-none d-lg-block d-md-none"> -->
+    <!-- <img src="/images/noon.png" style="height:200px;"/> -->
+  <!-- </div> -->
   <div class="col-lg-3 col-6">
     <a class="hover-img" href="/about">
        <img src="/images/tell_me_more.png" />
        <img src="/images/tell_me_more_active.png" />
+    </a>
+  </div>
+  <div class="col-lg-3 col-6">
+    <a class="hover-img" href="https://github.com/josh146">
+       <img src="/images/code.png" />
+       <img src="/images/code_active.png" />
     </a>
   </div>
   <div class="col-lg-3 col-6">
@@ -48,7 +55,13 @@ quantum software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photoni
        <img src="/images/publications_active.png" />
     </a>
   </div>
-  <div class="col-lg-3 col-6 d-none d-lg-block d-md-none">
-    <img src="/images/cqm.png" style="height:200px;"/>
+  <div class="col-lg-3 col-6">
+    <a class="hover-img" href="/posts">
+       <img src="/images/posts.png" />
+       <img src="/images/posts_active.png" />
+    </a>
   </div>
+  <!-- <div class="col-lg-3 col-6 d-none d-lg-block d-md-none"> -->
+    <!-- <img src="/images/cqm.png" style="height:200px;"/> -->
+  <!-- </div> -->
 </div>
