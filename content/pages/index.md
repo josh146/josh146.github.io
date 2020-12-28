@@ -1,6 +1,10 @@
-Title: hello.
+Title: Josh.
 URL:
 save_as: index.html
+og_title: Josh Iza.ac
+og_description: I'm a computational quantum physicist and software developer, working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
+og_image: https://iza.ac/images/header-small.png
+
 
 I'm a [computational quantum physicist](https://scholar.google.com/citations?user=pEj09c4AAAAJ) and
 [software developer](https://github.com/josh146), working to build accessible, open-source quantum

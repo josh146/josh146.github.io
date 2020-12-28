@@ -3,3 +3,4 @@ pelican-render-math
 pelican-simple-footnotes
 typogrify
 pelican-youtube
+pelican-seo

@@ -1,6 +1,9 @@
-Title: Curriculum Vitae.
+Title: Curriculum Vitae
 URL:
 save_as: cv.html
+og_title: Josh Iza.ac
+og_description: I'm a computational quantum physicist and software developer, working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
+og_image: https://iza.ac/images/header-small.png
 
 <p class="text-center">
 Note: for a full, up to date list of my publications, please refer to
@@ -8,11 +11,15 @@ Note: for a full, up to date list of my publications, please refer to
 </p>
 
 <div class="container text-center">
-  <a id="prev" class="btn btn-info mx-2">Previous</a>
-  <a id="next" class="btn btn-info mx-2">Next</a>
-  <a href="/pdf/cv.pdf" class="btn btn-info mx-2">Download</a>
-  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-<div id="the-container">
+  <div class="btn-group" style="width: 100%;">
+    <a id="prev" class="btn btn-info">Previous</a>
+    <a id="next" class="btn btn-info">Next</a>
+    <div class="px-3" style="border: 1px solid grey;">
+      <span><span class="d-none d-lg-inline d-md-none">Page </span><span id="page_num"></span> / <span id="page_count"></span></span>
+    </div>
+    <a href="/pdf/cv.pdf" class="btn btn-info">Download</a>
+  </div>
+<div class="card" id="the-container">
     <canvas id="the-canvas"></canvas>
 </div>
 </div>
