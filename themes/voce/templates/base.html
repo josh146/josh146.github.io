@@ -101,6 +101,7 @@
   {% elif temp.startswith('scholar.google.com') %}{% set class = 'ai ai-google-scholar' -%} {% set style = 'font-size: 1.6rem;' -%}
   {%- elif '.stackexchange.com' in temp %}{% set class = 'fab fa-stack-exchange' %}
   {%- elif 'atom' in temp %}{% set class = 'fas fa-rss' %}
+  {%- elif 'rss' in temp %}{% set class = 'fas fa-rss' %}
   {% endif -%}
 
   <i class="{{ class }} fa-lg" style="{{ style }}"></i>

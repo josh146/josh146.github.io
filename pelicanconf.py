@@ -30,11 +30,15 @@ PLUGINS = [
 RELATIVE_URLS = True
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_RSS = "feeds/rss.xml"
+FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+USE_FOLDER_AS_CATEGORY = True
 
 
 GOOGLE_ANALYTICS_ID = "UA-308113-3"
@@ -58,12 +62,12 @@ SEO_ENHANCER_OPEN_GRAPH = True
 
 
 SOCIAL = (
-    ("Twitter", "https://twitter.com/3rdquantization"),
-    ("LinkedIn", "https://linkedin.com/pub/josh-izaac/104/9bb/6a2"),
-    ("GitHub", "http://github.com/josh146"),
     ("Google Scholar", "https://scholar.google.com/citations?user=pEj09c4AAAAJ"),
+    ("Twitter", "https://twitter.com/3rdquantization"),
+    ("GitHub", "http://github.com/josh146"),
+    ("LinkedIn", "https://linkedin.com/pub/josh-izaac/104/9bb/6a2"),
     ("Email", "mailto:josh@iza.ac"),
-    ("Feed", "https://siteurl.com/feeds/all.atom.xml"),
+    ("Feed", "/feeds/rss.xml"),
 )
 
 LINKS = (
