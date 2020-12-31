@@ -221,14 +221,14 @@ consider the derivative of a function $f(x)$ satisfying a parameter-shift rule:
 
 $$
 \begin{align}
-\frac{d^2}{dx^2}f(x) &= \frac{d}{dx} c f(x+s) - c f(x-s)\\[7pt]
+\frac{d^2}{dx^2}f(x) &=  c \frac{d}{dx}f(x+s) - c \frac{d}{dx}f(x-s)\\[7pt]
                         &= \left[c^2 (f(x+2s)-f(x)) \right] - \left[c^2 (f(x)-f(x-2 s)\right].
 \end{align}
 $$
 
 TensorFlow will be naively performing *four* evaluations of the original function in order
 to compute the second derivative; whereas if done symbolically, we can see that some
-terms would cancel out without even needing to perform all evaluations:
+terms would cancel out or combine without even needing to perform all evaluations:
 
 
 $$\frac{d^2}{dx^2}f(x) = c^2 \left[ f(x+2s) - 2f(x) + f(x-2s) \right].$$
