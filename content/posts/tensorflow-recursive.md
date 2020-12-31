@@ -184,7 +184,7 @@ Amazing! And it agrees exactly with the known third derivative:
 tf.Tensor([-0.38941833 -0.09983342 -0.19866933], shape=(3,), dtype=float32)
 ```
 
-We can even construct a more complicated model, where we are even calling our custom sine
+We can construct a more complicated model, where we are even calling our custom sine
 function with different shift values, and compute the full Hessian matrix:
 
 ```python
@@ -231,7 +231,7 @@ to compute the second derivative; whereas if done symbolically, we can see that 
 terms would cancel out without even needing to perform all evaluations:
 
 
-$$\frac{d^2}{dx^2}f(x) = c^2 \left[ f(x+2s) - f(x) + f(x-2s) \right].$$
+$$\frac{d^2}{dx^2}f(x) = c^2 \left[ f(x+2s) - 2f(x) + f(x-2s) \right].$$
 
 And that's not all; given the periodicity of the function $f(x)$, there are often even *further*
 optimizations that can be made for a specific shift value $s$; for example
