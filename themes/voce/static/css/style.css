@@ -916,12 +916,12 @@ letter-spacing: 1px;
 }
 
 .entry-content code {
-  /*background-color: #f7f7f7;*/
+  background-color: #f7f7f7;
   font-size: 14px;
   font-family: "DM Mono", monospace;
 }
 .entry-content pre {
-  /*background-color: #f7f7f7;*/
+  background-color: #f7f7f7;
   font-size: 14px;
   font-family: "DM Mono", monospace;
   line-height: 1.5em;
@@ -1087,4 +1087,8 @@ p img{
   background-color: #8c8c8c;
   border-color: #8c8c8c;
   border-radius: 0px;
+}
+
+.simple-footnotes li {
+  margin-bottom: 20px;
 }
