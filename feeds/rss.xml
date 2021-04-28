@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>josh iza.ac</title><link>http://iza.ac/</link><description></description><lastBuildDate>Thu, 31 Dec 2020 16:00:00 +0800</lastBuildDate><item><title>Recursive custom gradients in TensorFlow</title><link>http://iza.ac/posts/2020/12/recursive-custom-gradients-in-tensorflow/</link><description>&lt;p&gt;Most autodifferentiation libraries, such as &lt;a href="https://pytorch.org"&gt;PyTorch&lt;/a&gt;,
+&lt;a href="https://tensorflow.org"&gt;TensorFlow&lt;/a&gt;, &lt;a href="https://github.com/HIPS/autograd"&gt;Autograd&lt;/a&gt;
+— and even &lt;a href="https://pennylane.ai"&gt;PennyLane&lt;/a&gt; in the quantum case — allow you to
+create new functions and register &lt;em&gt;custom gradients&lt;/em&gt; that the autodiff framework
+makes use of during backpropagation. This is useful in several cases; perhaps you have
+a composite function with a gradient that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Josh Izaac</dc:creator><pubDate>Thu, 31 Dec 2020 16:00:00 +0800</pubDate><guid isPermaLink="false">tag:iza.ac,2020-12-31:/posts/2020/12/recursive-custom-gradients-in-tensorflow/</guid><category>autodifferentiation</category><category>tensorflow</category><category>gradients</category></item></channel></rss>
