@@ -83,12 +83,12 @@ machine learning literature, including the [quantum natural gradient](https://pe
 [quantum backpropagation](https://pennylane.ai/qml/demos/tutorial_backprop.html),
 [Gaussian boson sampling](https://pennylane.ai/qml/demos/tutorial_gbs.html)
 and many others. I've also been lucky enough to give talks on quantum machine
-learning and quantum photonics at conferences such as [QHACK](https://qhack.ai)
-and [FOSDEM](https://fosdem.org).
+learning and quantum photonics at conferences such as [FOSDEM](https://fosdem.org)
+and [PyCon](https://us.pycon.org/2021/).
 
 
 <div class="card">
 <div class="embed-container my-lg-5 mx-lg-5">
-    <iframe width=800px height=500px src="https://www.youtube.com/embed/wX9MksF3nJU" frameborder='0' allowfullscreen></iframe>
+    <iframe width=800px height=500px src="https://www.youtube.com/embed/o377m0doD6M" frameborder='0' allowfullscreen></iframe>
 </div>
 </div>
