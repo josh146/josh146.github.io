@@ -5,26 +5,23 @@ og_title: Josh Iza.ac
 og_description: I'm a computational quantum physicist and software developer, working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
 og_image: https://iza.ac/images/header-small.png
 
-I'm a computational quantum physicist and software developer, working to build accessible, open-source
-quantum software at [Xanadu](https://xanadu.ai). This includes:
-
-<!-- * [PennyLane](https://pennylane.ai/), a Python library for differentiable programming of quantum computers -->
-<!-- * [Strawberry Fields](https://strawberryfields.ai/), a Python library for designing, simulating, and optimizing continuous variable (CV) quantum optical circuits. -->
-<!-- * [The Walrus](https://github.com/XanaduAI/thewalrus), a Python/C++ library for the calculation of obscure, intractable graph quantities that are very important to quantum photonics and [Gaussian boson sampling](https://pennylane.ai/qml/demos/tutorial_gbs.html). -->
+I'm a computational quantum physicist, [former quantum software developer](https://github.com/josh146),
+and current Director of Product, working to build accessible, open-source quantum
+software at [Xanadu](https://xanadu.ai). This includes:
 
 <div class="card-deck mx-1">
     <div class="card">
       <img class="card-img-top" src="https://raw.githubusercontent.com/PennyLaneAI/pennylane/master/doc/_static/header.png" alt="Card image cap">
       <div class="card-body">
         <p class="card-text">
-            <a href="https://pennylane.ai">PennyLane</a>, a Python library for differentiable programming of quantum computers, and making TensorFlow and PyTorch "quantum aware".
+            <a href="https://pennylane.ai">PennyLane</a>, an open-source quantum software ecosystem for designing, compiling, and analyzing meaningful quantum algorithms.
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="/images/noon.png" alt="Card image cap">
+      <img class="card-img-top" src="/images/teleport.png" alt="Card image cap">
       <div class="card-body">
         <p class="card-text">
-            <a href="https://strawberryfields.ai">Strawberry Fields</a>, a library for simulating, optimizing, and executing quantum photonic circuits on Xanadu's hardware.
+            <a href="https://github.com/pennylaneai/catalyst">Catalyst</a>, an MLIR-based quantum-just-in-time (QJIT) compiler for hybrid quantum programs in PennyLane.
         </p>
       </div>
     </div>
@@ -38,28 +35,50 @@ quantum software at [Xanadu](https://xanadu.ai). This includes:
     </div>
 </div>
 
-A majority of my work is in Python, but I have also dabbled in Fortran, C, and C++. I believe that
-code documentation is as---if not more---important as the underlying software, and this philosophy
-has guided the development of each of the libraries listed above. I am also an advisor for the
-[Unitary Fund](https://unitary.fund), a non-profit working to create an accessible quantum technology ecosystem.
-As part of the advisory board I help to source and review microgrant applications.
+During my coding days, a majority of my work is in Python, but I have also dabbled in Fortran, C,
+and C++. I believe that accessible documentation is as---if not more---important as the underlying
+software, and this philosophy has not only guided the development of each of the libraries listed
+above, but governed the evolution of the PennyLane.ai web ecosystem, including:
+
+- A library of 180+ [research-level demonstrations](https://pennylane.ai/qml/demonstrations) on
+  topics across quantum computing;
+
+- A [quantum compilation hub](https://pennylane.ai/compilation) detailing techniques,
+  implementations, intermediate representations (and more);
+
+- A [quantum codebook](https://pennylane.ai/codebook) that teaches beginner to advanced quantum computing topics through code; and
+
+- A [lively community blog](https://pennylane.ai/blog) with over 100 posts.
+
+To see more of the content I have written for PennyLane.ai, check out my
+[PennyLane user profile](https://pennylane.ai/profile/josh/contributions).
+
+In addition to the work I do at Xanadu building open-source quantum software products, I am also
+involved in the wider quantum software community:
+
+- I am a supporter and former advisory board member for the [Unitary Foundation](https://unitary.fund), a non-profit working to
+  create an accessible quantum technology ecosystem.
+
+- I co-organized the [Quantum Software 2.0](https://sites.google.com/view/quantum-software-2-0) workshop at IEEE Quantum Week 2024 (and its follow up,
+  [Quantum Software 2.1](https://sites.google.com/view/quantum-software-workshop-2025), at IEEE
+  Quantum Week 2025).
 
 Before joining Xanadu, I completed my PhD in quantum computation from the
 [University of Western Australia](https://www.uwa.edu.au/research/ems-research-clusters/quantum-information-simulation-and-algorithms), with a focus on graph algorithms. A large component
 of my PhD included numerical simulation on [high performance supercomputing clusters](https://pawsey.org.au/),
 working mostly with Fortran and Python.
 
-Since then, my research interests have shifted to quantum machine learning and variational
-quantum algorithms. In particular, exploring how we can [compute analytic quantum gradients
-on hardware](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.032331),
-[take advantage of the quantum geometry to improve optimization](https://quantum-journal.org/papers/q-2020-05-25-269/),
-and [use machine learning to design](https://iopscience.iop.org/article/10.1088/2058-9565/aaf59e/meta)
-[better](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.012326)
-[photonic states](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.022341). For more
-details, see my [publication list](https://scholar.google.com/citations?user=pEj09c4AAAAJ).
+Since then, my research interests have shifted over the years. Until about 2022, my focus was on
+quantum machine learning and quantum gradient methods. In particular, exploring how we can
+[compute analytic quantum gradients on hardware](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.032331) and [generalizing this result](https://quantum-journal.org/papers/q-2022-03-30-677/), [taking advantage of thequantum
+geometry to improve optimization](https://quantum-journal.org/papers/q-2020-05-25-269/), and
+[use machine learning to design](https://iopscience.iop.org/article/10.1088/2058-9565/aaf59e/meta)
+[better](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.012326) [photonic states](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.022341). Since then, my research has shifted to exploring [hybrid quantum-classical
+compilation in the context of structured, dynamic programs](https://arxiv.org/abs/2504.12449). 
+For more details, see my [publication list](https://scholar.google.com/citations?user=pEj09c4AAAAJ).
 
 In addition to research and programming, I also enjoy science writing and communication.
-Procrastination during my PhD resulted in my  writing being featured in [Australian
+Procrastination during my PhD resulted in my writing being featured in [Australian
 Geographic](https://www.australiangeographic.com.au/news/2015/10/why-do-female-birds-sing-%281/) and
 [Science](https://www.sciencemag.org/news/2016/01/people-take-more-risks-when-wearing-helmets-potentially-negating-safety-benefits), and culminated in an undergraduate textbook for
 [computational quantum mechanics](https://www.amazon.com/Computational-Quantum-Mechanics-Joshua-Izaac/dp/331999929X).
