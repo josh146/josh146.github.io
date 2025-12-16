@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/recipe.css">
+{% endblock %}
+
+{% block masthead %}
+{% endblock %}
+
+{% block content %}
+<article class="recipe-container">
+
+    <header class="recipe-header">
+
+        {% if page.image %}
+        <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.image }}');">
+            <h1 class="recipe-title hero-text">{{ page.title }}</h1>
+        </div>
+        {% else %}
+        <h1 class="recipe-title">{{ page.title }}</h1>
+        {% endif %}
+
+        <div class="recipe-meta-badges">
+            {% if page.time %}
+                <span>TIME</span><span>{{ page.time }}</span>
+            {% endif %}
+            {% if page.servings %}
+                <span>MAKES</span><span>{{ page.servings }}</span>
+            {% endif %}
+        </div>
+        <div class="recipe-intro">
+            {{ page.intro_html }}
+        </div>
+    </header>
+
+    <div class="recipe-grid">
+        <section class="recipe-ingredients">
+            <h2>INGREDIENTS</h2>
+            {{ page.ingredients_html }}
+        </section>
+
+        <section class="recipe-method">
+            <h2>STEPS</h2>
+            {{ page.method_html }}
+
+            {% if page.notes_html %}
+            <div class="recipe-notes">
+                <h3>NOTES</h3>
+                {{ page.notes_html }}
+            </div>
+            {% endif %}
+        </section>
+    </div>
+
+</article>
+{% endblock %}

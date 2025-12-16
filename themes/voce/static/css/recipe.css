@@ -1,0 +1,114 @@
+/* Layout Container */
+.recipe-container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Fira Sans";
+    color: #333;
+    line-height: 1.3;
+}
+.recipe-container h1 {
+    font-family: "Amatic SC";
+    margin-bottom: 20px;
+}
+.recipe-container h2 {
+    font-family: "Amatic SC";
+    font-size: 48px!important;
+}
+.recipe-container h3 {
+    font-family: "Fira Sans";
+}
+.recipe-container h4 {
+    font-family: "Fira Sans";
+}
+.recipe-container h5 {
+    font-family: "Fira Sans";
+}
+.recipe-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.hero-image {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 64px;
+}
+.recipe-meta-badges {
+    display: grid;
+    /* set to flex to have it on one line */
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+    grid-template-columns: 80px 1fr;
+    margin-bottom: 20px;
+}
+/* Grid Layout for Desktop */
+@media (min-width: 768px) {
+    .recipe-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* Ingredients take 1/3, Method takes 2/3 */
+        gap: 40px;
+    }
+}
+/* Ingredients Section */
+.recipe-ingredients {
+    padding-right: 20px;
+    border-right: 2px solid #e9ecef;
+    height: auto;
+}
+.recipe-ingredients h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    padding-bottom: 10px;
+}
+.recipe-ingredients h3 {
+    margin-bottom: 10px;
+}
+.recipe-ingredients .paren {
+    font-style: italic;
+    color: #b5b5b5;
+}
+.recipe-ingredients ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.recipe-ingredients li {
+    margin-bottom: 8px;
+}
+/* Method Section */
+.recipe-method h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #2c3e50;
+}
+.recipe-method li {
+    margin-bottom: 20px;
+    position: relative;
+}
+/* Notes Section */
+.recipe-notes {
+    margin-top: 40px;
+    padding-right: 15px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+    color: #856404;
+}
+.recipe-notes h3 {
+    margin: 20px;
+    color: #856404;
+}

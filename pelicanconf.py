@@ -7,8 +7,8 @@ SITENAME = "josh iza.ac"
 SITEURL = "http://iza.ac"
 EMAIL_ADDR = "josh@iza.ac"
 COPYRIGHT = "Copyright Josh Izaac, 2017"
-USER_LOGO_URL = "/images/header-small.png"
-LOGO = "https://iza.ac/images/header-small.png"
+USER_LOGO_URL = "/images/header.png"
+LOGO = "https://iza.ac/images/header.png"
 
 THEME = "./themes/voce/"
 PATH = "content"
@@ -23,7 +23,8 @@ PLUGINS = [
     "pelican.plugins.embed_tweet",
     "pelican_youtube",
     "pelican.plugins.render_math",
-    "pelican.plugins.simple_footnotes"
+    "pelican.plugins.simple_footnotes",
+    "cookbook"
     # "pelican.plugins.seo"
 ]
 
@@ -64,7 +65,6 @@ SEO_ENHANCER_OPEN_GRAPH = True
 
 SOCIAL = (
     ("Google Scholar", "https://scholar.google.com/citations?user=pEj09c4AAAAJ"),
-    ("Twitter", "https://twitter.com/3rdquantization"),
     ("GitHub", "http://github.com/josh146"),
     ("LinkedIn", "https://linkedin.com/pub/josh-izaac/104/9bb/6a2"),
     ("Email", "mailto:josh@iza.ac"),
@@ -75,7 +75,8 @@ LINKS = (
     ("Home", "/"),
     ("About", "/about"),
     ("CV", "/cv"),
-    ("posts", "/posts"),
+    ("recipes", "/recipes"),
+    ("posts", "/posts")
 )
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -101,7 +102,11 @@ EXTRA_PATH_METADATA = {
 PAGE_URL = "{slug}"
 PAGE_SAVE_AS = "{slug}.html"
 
+RECIPE_URL = 'recipes/{slug}/'
+RECIPE_SAVE_AS = 'recipes/{slug}/index.html'
+
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_EXCLUDES = ['recipes']
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 INDEX_SAVE_AS = "posts/index.html"
 

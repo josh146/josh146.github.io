@@ -23,21 +23,18 @@ software at [Xanadu](https://xanadu.ai), a Toronto-based quantum photonic hardwa
   an open-source quantum software ecosystem for designing, compiling, and
   analyzing meaningful quantum algorithms.
 
-* I'm a supporter and former advisory board member of the [Unitary Foundation](https://unitary.fund), a non-profit working to create
-  an accessible quantum technology ecosystem.
-
 * I hold a PhD in quantum computation from the [University of Western
   Australia](https://www.uwa.edu.au/research/ems-research-clusters/quantum-information-simulation-and-algorithms),
   with a focus on quantum graph algorithms and numerical simulation.
 
-* My current research interests include [hybrid quantum-classical compilation of dynamic, structured programs](https://arxiv.org/abs/2504.12449).
+* My current research interests include [hybrid compilation of dynamic, structured quantum programs](https://arxiv.org/abs/2504.12449).
   In the past, my research took me from [quantum machine learning](https://quantum-journal.org/papers/q-2020-05-25-269/) to [quantum gradients](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.99.032331)
   to [quantum software](https://www.nature.com/articles/s41586-021-03202-1).
 
 * I also enjoy science writing and communication, and have written an undergraduate textbook on
   [computational quantum
   mechanics](https://www.amazon.com/Computational-Quantum-Mechanics-Joshua-Izaac/dp/331999929X).
-  To see more of the content I have written for PennyLane.ai, check out my [PennyLane user profile](https://pennylane.ai/profile/josh/contributions).
+  Check out more content I have authored over on [PennyLane.ai](https://pennylane.ai/profile/josh/contributions).
 
 
 <div class="row d-flex align-items-end">
