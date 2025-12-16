@@ -5,7 +5,10 @@ from pelican.generators import Generator
 from pelican import signals
 from jinja2 import Template
 import re
-from bs4 import BeautifulSoup  # New import
+from bs4 import BeautifulSoup
+
+from .parse_footnotes import parse_footnotes
+
 
 log = logging.getLogger(__name__)
 
@@ -43,6 +46,9 @@ class RecipeGenerator(Generator):
                             content_class=Recipe,
                             context=self.context,
                         )
+
+                        parse_footnotes(recipe_item)
+
                         self._parse_recipe_sections(recipe_item)
                         self.recipes.append(recipe_item)
                     except Exception as e:
@@ -70,6 +76,7 @@ class RecipeGenerator(Generator):
         recipe.ingredients_html = ""
         recipe.method_html = ""
         recipe.notes_html = ""
+        recipe.footnotes_html = ""  # Store footnotes here
 
         # Standardize headers to look for (lowercase for comparison)
         section_map = {
@@ -90,6 +97,14 @@ class RecipeGenerator(Generator):
                 if header_text in section_map:
                     current_section = section_map[header_text]
                     continue  # Don't include the <h2> tag itself in the content
+
+            # simple_footnotes usually adds a div with id="footnote" or class="footnote"
+            if tag.name == "div" and (
+                tag.get("id") == "footnote" or (tag.get("class") and "footnote" in tag.get("class"))
+            ):
+                recipe.footnotes_html = str(tag)
+                recipe.notes_html = recipe.footnotes_html + recipe.notes_html
+                continue
 
             # Append the tag to the current section string
             # We convert the tag back to string to preserve HTML

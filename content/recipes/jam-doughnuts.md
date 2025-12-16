@@ -35,7 +35,7 @@ dough hook, beat on medium-low until mixture is combined.
 
 3. With the mixer on low speed, add butter a piece at a time, mixing until incorporated after each
 addition. Once all the butter has been added, mix until the dough is smooth, shiny and elastic
-(about 5 minutes). The dough should be tacky but not sticky.
+(about 5 minutes). The dough should be tacky but not sticky.[ref]More flour may need to be added if the dough is still sticky after mixing in the butter.[/ref]
 
 4. Turn the dough out onto a clean surface and knead for a few minutes by hand. Place dough in a
 lightly oiled large bowl, cover loosely, and leave to rise in a warm spot until doubled in size,
@@ -53,7 +53,7 @@ medium-high until thermometer registers 340°F/170°C.
 
 2. Working in batches and adjusting heat to maintain oil temperature, fry doughnuts, turning once,
 until golden brown, about 1 minute 30 seconds per side. Transfer to a paper towel–lined baking
-sheet; let cool slightly. 
+sheet; let cool slightly.
 
 3. Place sugar
 in a medium bowl, and working in batches, toss doughnuts to coat. Transfer back to baking sheet.
@@ -64,5 +64,5 @@ in a generous amount of jam.
 
 ## Notes
 
-* Doughnuts are best enjoyed on the day, but can be kept in an airtight container at room
-  temperature for 2-3 days. Microwave the doughnuts for 10 seconds or so.
+Doughnuts are best enjoyed on the day, but can be kept in an airtight container at room
+temperature for 2-3 days. Microwave the doughnuts for 10 seconds or so.

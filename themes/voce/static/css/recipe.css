@@ -63,6 +63,8 @@
         gap: 40px;
     }
 }
+
+
 /* Ingredients Section */
 .recipe-ingredients {
     padding-right: 20px;
@@ -111,4 +113,18 @@
 .recipe-notes h3 {
     margin: 20px;
     color: #856404;
+}
+
+.recipe-notes p {
+    margin-left: 20px;
+}
+
+/* Grid Layout for mobile */
+@media (max-width: 768px) {
+    .recipe-ingredients {
+        border-right: none;
+    }
+    .recipe-method h2 {
+        margin-top: 40px;
+    }
 }
