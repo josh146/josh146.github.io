@@ -1,4 +1,4 @@
-Title: Chllah
+Title: Challah
 Date: 2025-12-17
 Category: Bread
 Servings: One large loaf, or two small loaves.
@@ -30,8 +30,11 @@ A light and extremely fluffy challah recipe.
 
 ### Dough
 
-1. Mix yeast, 130ml of warm water, eggs, egg yolks, salt, sugar, and oil in a bowl of a stand mixer. Using the
-   dough hook, beat on medium-low until mixture is combined.
+1. Mix yeast, 130ml of warm water, eggs, egg yolks, salt, sugar, and oil in a bowl of a stand mixer.
+  Using the dough hook, beat on medium-low until mixture is combined[ref]I have tried making this
+  with a tanzhong of 30g flour and 120g whole milk; simply reduce the water in the main recipe to
+  about 50g. This works well, but the difference in the bread was too minimal for me to recognize, so
+  I often leave this out.[/ref].
 
 2. Add the flour on medium speed and mix until combined and the dough comes together. Continue mixing
    until the dough is smooth and shiny. It should be tacky to touch but not sticky, about 5-8 minutes.
@@ -44,13 +47,7 @@ A light and extremely fluffy challah recipe.
 
 ### Braiding
 
-For braiding the challah, I like to do a 6 strand braid.[ref]To make a round challah, instead divide the
-dough into 8 even pieces. Roll out each strand as above, but this time pair up the strands into 4 groups of 2.
-Place 2 of the groups horizontal, and 2 vertical crossing over at the middle, to make a square grid in the center.
-Then weave the grid; lift the top strand of the right vertical pair and slide the top horizontal pair under it.
-Do the same on the bottom left—lift the strand and slide the bottom pair under.
-Now, cross over each strand. Continue, crossing over alternate strands, until you have a circular shape; tuck
-the ends of the strands under the challah.[/ref]
+For braiding the challah, I like to do a 6 strand braid.
 
 1. Dump the dough out onto the counter, and divide the dough into 6 even pieces. Form each piece tightly into a ball.
 
@@ -78,3 +75,16 @@ the ends of the strands under the challah.[/ref]
    until evenly brown all over.
 
 ## Notes
+
+### Round challah
+
+* To make a round challah, instead divide the dough into 8 even pieces. Roll out each strand as
+  above, but this time pair up the strands into 4 groups of 2.
+
+    Place 2 of the groups horizontal, and 2 vertical crossing over at the middle, to make a square
+    grid in the center. Then weave the grid; lift the top strand of the right vertical pair and slide
+    the top horizontal pair under it. Do the same on the bottom left—lift the strand and slide the
+    bottom pair under.
+
+    Now, cross over each strand. Continue, crossing over alternate strands, until you have a circular
+    shape; tuck the ends of the strands under the challah.
