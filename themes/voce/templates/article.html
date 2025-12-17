@@ -21,7 +21,7 @@
 {% endif %}
 {% endblock %}
 
-{% block og_image %}{{ SITEURL ~ '/' ~ article.image if article.image else LOGO }}{% endblock %}
+{% block og_image %}{{ article.image if article.image else LOGO }}{% endblock %}
 
 {% block content %}
 <article>

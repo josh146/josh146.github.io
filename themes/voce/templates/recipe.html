@@ -17,7 +17,7 @@
 {% endif %}
 {% endblock %}
 
-{% block og_image %}{{ SITEURL ~ '/' ~ page.image if page.image else LOGO }}{% endblock %}
+{% block og_image %}{{ page.image if page.image else LOGO }}{% endblock %}
 
 {% block masthead %}
 {% endblock %}
