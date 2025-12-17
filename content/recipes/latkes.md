@@ -5,6 +5,7 @@ Slug: latkes
 Time: 1 hour
 Servings: 10 latkes
 Image: /images/recipes/latkes.jpg
+Sticky: true
 
 A hanukkah staple, latkes are delicious almost any time of the year.
 
