@@ -36,8 +36,10 @@ A light and extremely fluffy challah recipe.
   about 50g. This works well, but the difference in the bread was too minimal for me to recognize, so
   I often leave this out.[/ref].
 
-2. Add the flour on medium speed and mix until combined and the dough comes together. Continue mixing
-   until the dough is smooth and shiny. It should be tacky to touch but not sticky, about 5-8 minutes.
+2. Add the flour on medium speed and mix until combined and the dough comes together. Continue
+  mixing until the dough is smooth and shiny. It should be tacky to touch but not sticky, about 5-8
+  minutes[ref]You may need to increase the amount of flour to reach the tacky-but-not-sticky stage,
+  it is very dependent on the type of flour and the humidity.[/ref].
 
 5. Turn the dough out onto a clean surface and knead for a few minutes by hand. Place dough in a
    lightly oiled large bowl, cover loosely, and leave to rise in a warm spot until doubled in size,
