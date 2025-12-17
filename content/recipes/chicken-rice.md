@@ -23,7 +23,6 @@ A Singaporean classic, this is the version of chicken rice that I grew up with i
 
 * Basmati or jasmine rice[ref]The traditional rice here is jasmine rice, but I've come to personally prefer using basmati, as I find it gives better grain separation.[/ref]
 * 5-6 shallots
-* 2 pandan leaves
 * 4-5 garlic cloves
 * 1 inch ginger
 * 2 lemongrass
@@ -105,8 +104,8 @@ dressing.
 
 1. Rub the chicken all over with a mixture of 1 tbsp light soya sauce, and 1 tbsp sesame oil.
 
-2. To make the **seasoning sauce** for the chicken, pour the dripping from step (1) into a small
-   bowl, and add about a ladle-full of soup, a dash more soy sauce and sesame oil.
+2. To make the **chicken rice dressing**, pour the dripping from step (1) into a small
+   bowl, add about a ladle-full of soup, and a dash more soy sauce and sesame oil.
 
 3. To make the chilli sauce, blend all the ingredients together and add the soup and calamansi
    juice.
