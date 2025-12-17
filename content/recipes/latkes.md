@@ -43,5 +43,5 @@ A hanukkah staple, latkes are delicious almost any time of the year.
 
 * Make ahead: Latkes are best made and served right away. They can be fried and kept warm in a 200°F oven for up to 30 minutes.
 
-* Storage: Refrigerate leftovers in an airtight container and recrisp in a 300°F for 5 to 10 minutes. Keep a close eye on the latkes when reheating so they do not burn.
+* Storage: Refrigerate leftovers in an airtight container and recrisp in a 150°C for 5 to 10 minutes. Keep a close eye on the latkes when reheating so they do not burn.
 
