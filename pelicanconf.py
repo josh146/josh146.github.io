@@ -8,7 +8,7 @@ SITEURL = "http://iza.ac"
 EMAIL_ADDR = "josh@iza.ac"
 COPYRIGHT = "Copyright Josh Izaac, 2017"
 USER_LOGO_URL = "/images/header.png"
-LOGO = "https://iza.ac/images/header_small.png"
+LOGO = "https://iza.ac/images/header-small.png"
 
 THEME = "./themes/voce/"
 PATH = "content"
