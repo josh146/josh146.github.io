@@ -1232,7 +1232,7 @@ h2.recipe-category {
   display: none;
 }
 
-.recipe-header {
+.recipe-intro {
   display: grid;
   grid-auto-flow: column;
   gap: 20px;

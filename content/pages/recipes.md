@@ -3,7 +3,7 @@ slug: recipes
 save_as: recipes.html
 Description: Here you can find a collection of my recipes, ranging from savoury to dessert to bread.
 
-<div class="recipe-header">
+<div class="recipe-intro">
     <div class="view-controls">
         <p style="margin: 0;">Here you can find a collection of my recipes, ranging from savoury to dessert to bread.</p>
     </div>
@@ -29,10 +29,10 @@ Description: Here you can find a collection of my recipes, ranging from savoury 
 <div id="recipe-gallery" class="recipe-gallery">
 {% for recipe in recipes %}
     <div class="recipe-card">
-        <a href="{{ SITEURL }}/{{ recipe.url }}">
+        <a href="{{ recipe.url }}">
             <div class="card-image-wrapper">
                 {% if recipe.image %}
-                <img src="{{ SITEURL }}/{{ recipe.image }}" alt="{{ recipe.title }}">
+                <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
                 {% else %}
                 <div class="no-image">🍳</div>
                 {% endif %}
