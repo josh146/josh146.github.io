@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 {% block metatitle %}{{ page.title|striptags|escape }}{% endblock %}
 {% block title %}{{ page.title|striptags|escape }} | {{ SITENAME }} {% endblock %}
-{% block description %}{{ page.summary|striptags|escape }}{% endblock %}
+{% block og_url %} {{ page.url }} {% endblock %}
 
+{% block description %}
+{% if page.description %}
+{{ page.description }}
+{% else %}
+{{ page.content|striptags|truncate(280)|escape }}
+{% endif %}
+{% endblock %}
+
+{% block og_image %}{{ SITEURL ~ '/' ~ page.image if page.image else LOGO }}{% endblock %}
 
 {% block content %}
 <article>

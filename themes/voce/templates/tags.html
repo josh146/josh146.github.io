@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block metatitle %}Tags{% endblock %}
-{% block title %}Tags{% endblock %}
-
-{% block description %}A listing of all tags on this site{% endblock %}
+{% block metatitle %}Tags | {{ SITENAME }}{% endblock %}
+{% block title %}Tags | {{ SITENAME }}{% endblock %}
+{% block og_url %} {{ SITEURL }}/tags {% endblock %}
+{% block description %}A listing of all tags.{% endblock %}
 
 {% block content %}
 <article>

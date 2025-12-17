@@ -5,6 +5,20 @@
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/recipe.css">
 {% endblock %}
 
+{% block metatitle %}{{ page.title|striptags|escape }} recipe | {{ SITENAME }}{% endblock %}
+{% block title %}{{ page.title|striptags|escape }} recipe | {{ SITENAME }}{% endblock %}
+{% block og_url %} {{ page.url }} {% endblock %}
+
+{% block description %}
+{% if page.description %}
+{{ page.description }}
+{% else %}
+{{ page.intro_html|striptags|truncate(280)|escape }}
+{% endif %}
+{% endblock %}
+
+{% block og_image %}{{ SITEURL ~ '/' ~ page.image if page.image else LOGO }}{% endblock %}
+
 {% block masthead %}
 {% endblock %}
 

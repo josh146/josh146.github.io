@@ -1,8 +1,9 @@
 {% extends "index.html" %}
 {% block metatitle %}Category: {{ category }} | {{ SITENAME }}{% endblock %}
 {% block title %}Category: {{ category }} | {{ SITENAME }}{% endblock %}
+{% block og_url %} {{ SITEURL }}/{{ category }} {% endblock %}
 
-{% block description %}Posts in the {{ category }} section of this site{% endblock %}
+{% block description %}Posts in the {{ category }} section.{% endblock %}
 
 {% block head %}
 {% if CATEGORY_FEED_ATOM %}

@@ -9,9 +9,19 @@
 
 
 {% endblock %}
-{% block metatitle %}{{ article.title|striptags|escape }}{% endblock %}
-{% block title %}{{ article.title|striptags|escape }}{% endblock %}
-{% block description %}{{ article.title|striptags|escape }} | {{ article.content|striptags|truncate(154-article.title|length)|escape }}{% endblock %}
+{% block metatitle %}{{ article.title|striptags|escape }} | {{ SITENAME }}{% endblock %}
+{% block title %}{{ article.title|striptags|escape }} | {{ SITENAME }}{% endblock %}
+{% block og_url %} {{ article.url }} {% endblock %}
+
+{% block description %}
+{% if article.description %}
+{{ article.description }}
+{% else %}
+{{ article.content|striptags|truncate(280)|escape }}
+{% endif %}
+{% endblock %}
+
+{% block og_image %}{{ SITEURL ~ '/' ~ article.image if article.image else LOGO }}{% endblock %}
 
 {% block content %}
 <article>

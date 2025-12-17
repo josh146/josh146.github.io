@@ -2,6 +2,9 @@
 <html lang="{{ DEFAULT_LANG }}">
 
 <head>
+
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="{{ AUTHOR }}">
@@ -16,6 +19,21 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ self.title() }}">
+  <meta property="og:url" content="{% block og_url %}{{ SITEURL }}{% endblock %}">
+  <meta property="og:description" content="{{ self.description() }}">
+  <meta property="og:image" content="{% block og_image %}{{ LOGO }}{% endblock %}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="{{ SITEURL }}">
+  <meta property="twitter:url" content="{{ self.og_url() }}">
+  <meta name="twitter:title" content="{{ self.title() }}">
+  <meta name="twitter:description" content="{{ self.description() }}">
+  <meta name="twitter:image" content="{{ self.og_image() }}">
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -55,8 +73,6 @@
     {%- endif -%}
     {{tags|join(', ', attribute='0') }}">
   {% endblock %}
-
-  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
   {% include "modules/analytics.html" %}
 
