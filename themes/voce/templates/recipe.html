@@ -69,15 +69,15 @@
         <section class="recipe-method">
             <h2>STEPS</h2>
             {{ page.method_html }}
-
-            {% if page.notes_html %}
-            <div class="recipe-notes">
-                <h3>NOTES</h3>
-                {{ page.notes_html }}
-            </div>
-            {% endif %}
         </section>
     </div>
+
+    {% if page.notes_html %}
+    <div class="recipe-notes">
+        <h2>NOTES</h2>
+        {{ page.notes_html }}
+    </div>
+    {% endif %}
 
 </article>
 {% endblock %}

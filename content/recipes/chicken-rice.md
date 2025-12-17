@@ -21,7 +21,7 @@ A Singaporean classic, this is the version of chicken rice that I grew up with i
 
 ### Rice
 
-* Basmati or Jasmine rice.
+* Basmati or jasmine rice[ref]The traditional rice here is jasmine rice, but I've come to personally prefer using basmati, as I find it gives better grain separation.[/ref]
 * 5-6 shallots
 * 2 pandan leaves
 * 4-5 garlic cloves
@@ -85,7 +85,7 @@ dressing.
    the 20 minute mark).
 
 5. Remove the chicken, and immediately place it in a tub of cold (preferably iced) water. This
-   allows the skin to 'set' and achieve the correct jelly-like texture.[ref]Don’t overcook the chicken! A slow, gentle simmer for 40 minutes will produce chicken with a very pale pink blush to the meat and the inside of the thigh bones should be bright pink. If they are brown or grey the chicken is over cooked. That's okay, but the texture will not quite be right.[/ref]
+   allows the skin to 'set' and achieve the correct jelly-like texture.[ref]Don’t overcook the chicken! A slow, gentle simmer for 40 minutes will produce chicken with a very pale pink blush to the meat and the inside of the thigh bones should be bright pink. If they are brown or grey the chicken is over cooked. That's okay, but the texture will not be quite right.[/ref]
 
 6. Taste the soup, and season it with salt and MSG to taste.
 

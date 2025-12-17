@@ -54,6 +54,12 @@
     grid-template-columns: 80px 1fr;
     margin-bottom: 20px;
 }
+
+.recipe-grid {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e9ecef;
+}
+
 /* Grid Layout for Desktop */
 @media (min-width: 768px) {
     .recipe-grid {
@@ -102,17 +108,23 @@
     position: relative;
 }
 /* Notes Section */
-.recipe-notes {
+/*.recipe-notes {
     margin-top: 40px;
     padding-right: 15px;
     background-color: #fff3cd;
     border: 1px solid #ffeeba;
     border-radius: 5px;
     color: #856404;
+}*/
+.recipe-notes h2 {
+    margin: 20px;
+    /*color: #856404;*/
+    color: #2c3e50;
 }
+
 .recipe-notes h3 {
     margin: 20px;
-    color: #856404;
+    /*color: #856404;*/
 }
 
 .recipe-notes p {
