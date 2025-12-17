@@ -47,10 +47,8 @@ A light and extremely fluffy challah recipe.
 For braiding the challah, I like to do a 6 strand braid.[ref]To make a round challah, instead divide the
 dough into 8 even pieces. Roll out each strand as above, but this time pair up the strands into 4 groups of 2.
 Place 2 of the groups horizontal, and 2 vertical crossing over at the middle, to make a square grid in the center.
-
-Weave the grid:  lift the top strand of the right vertical pair and slide the top horizontal pair under it.
-Then do the same on the bottom left—lift the strand and slide the bottom pair under.
-
+Then weave the grid; lift the top strand of the right vertical pair and slide the top horizontal pair under it.
+Do the same on the bottom left—lift the strand and slide the bottom pair under.
 Now, cross over each strand. Continue, crossing over alternate strands, until you have a circular shape; tuck
 the ends of the strands under the challah.[/ref]
 
@@ -79,3 +77,4 @@ the ends of the strands under the challah.[/ref]
    for 15 minutes before turning the challah around. Bake for another 10-15 minutes
    until evenly brown all over.
 
+## Notes
