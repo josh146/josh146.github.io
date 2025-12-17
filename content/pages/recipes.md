@@ -3,7 +3,7 @@ slug: recipes
 save_as: recipes.html
 Description: Here you can find a collection of my recipes, ranging from savoury to dessert to bread.
 
-<div class="recipe-intro">
+<div class="recipe-toolbar">
     <div class="view-controls">
         <p style="margin: 0;">Here you can find a collection of my recipes, ranging from savoury to dessert to bread.</p>
     </div>
