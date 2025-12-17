@@ -62,25 +62,6 @@
         /* Ingredients take 1/3, Method takes 2/3 */
         gap: 40px;
     }
-
-    .recipe-ingredients {
-        /* Standard sticky positioning */
-        position: -webkit-sticky; /* Safari support */
-        position: sticky;
-
-        /* Distance from the top of the viewport */
-        top: 20px;
-
-        /* Ensure it doesn't overlap weirdly */
-        z-index: 10;
-
-        /* Optional: limit height and scroll internal list if it's too long */
-        max-height: calc(100vh - 40px);
-        overflow-y: auto;
-    }
-    .article-container {
-        overflow: unset;
-    }
 }
 
 

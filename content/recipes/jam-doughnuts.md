@@ -4,6 +4,7 @@ Category: Bread
 Servings: Approximately 10-12 doughnuts
 Time: 3.5 hours
 Image: /images/recipes/doughnuts.jpg
+Sticky: true
 
 An easy, yeasted, and super light jam doughnut, that can be made in a single day (or a single morning, afternoon, or evening). Based off a recipe from [Bon Appetit](https://www.bonappetit.com/recipe/jam-filled-challah-doughnuts).
 

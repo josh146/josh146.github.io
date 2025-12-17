@@ -4,6 +4,7 @@ Category: Bread
 Servings: One large loaf, or two small loaves.
 Time: 4.5 hours
 Image: /images/recipes/challah.jpg
+Sticky: true
 
 A light and extremely fluffy challah recipe.
 

@@ -9,6 +9,32 @@
 {% endblock %}
 
 {% block content %}
+
+{% if page.sticky == "true" %}
+<style>
+@media (min-width: 768px) {
+    .recipe-ingredients {
+        /* Standard sticky positioning */
+        position: -webkit-sticky; /* Safari support */
+        position: sticky;
+
+        /* Distance from the top of the viewport */
+        top: 20px;
+
+        /* Ensure it doesn't overlap weirdly */
+        z-index: 10;
+
+        /* Optional: limit height and scroll internal list if it's too long */
+        max-height: calc(100vh - 40px);
+        overflow-y: auto;
+    }
+    .article-container {
+        overflow: unset;
+    }
+}
+</style>
+{% endif %}
+
 <article class="recipe-container">
 
     <header class="recipe-header">
