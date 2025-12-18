@@ -175,4 +175,25 @@ function scaleRecipe(multiplier, btnElement) {
     }
 }
 </script>
+
+<script>
+document.querySelectorAll('.recipe-method li').forEach(li => {
+    li.addEventListener('click', function() {
+        const parent = this.parentNode;
+
+        // If clicking the already highlighted item, turn off focus mode
+        if (this.classList.contains('highlighted')) {
+            this.classList.remove('highlighted');
+            parent.classList.remove('focus-active');
+        } else {
+            // Remove highlight from others
+            parent.querySelectorAll('li').forEach(el => el.classList.remove('highlighted'));
+
+            // Highlight this one
+            this.classList.add('highlighted');
+            parent.classList.add('focus-active');
+        }
+    });
+});
+</script>
 {% endblock %}

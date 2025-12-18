@@ -174,3 +174,19 @@
     cursor: pointer;
     transition: all 0;
 }
+
+/* Base state for all steps */
+.recipe-method li {
+    transition: opacity 0.3s, transform 0.2s;
+}
+
+/* When the parent list has 'focus-mode' active... */
+.recipe-method ol.focus-active li {
+    opacity: 0.3; /* Dim everyone */
+}
+
+/* ...but keep the specifically clicked item bright */
+.recipe-method ol.focus-active li.highlighted {
+    opacity: 1;
+}
+

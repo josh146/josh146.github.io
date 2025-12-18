@@ -1,6 +1,6 @@
-Title: Singaporean Fish Head Curry
+Title: Fish Head Curry
 Date: 2025-12-18
-Category: Sinagporean
+Category: Singaporean
 Slug: singaporean-fish-curry
 Time: 1 hour
 Servings: 3-4 servings
