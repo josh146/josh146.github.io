@@ -5,6 +5,7 @@ Servings: Approximately 10-12 doughnuts
 Time: 3.5 hours
 Image: /images/recipes/doughnuts.jpg
 Sticky: true
+Timeline: Mix Ingredients | 20 | Active; First proof | 60 | Wait; Cut donuts | 15 | Active; Second proof | 60 | Wait; Fry | 20 | Active; Fill | 10 | Active
 
 An easy, yeasted, and super light jam doughnut, that can be made in a single day (or a single morning, afternoon, or evening). Based off a recipe from [Bon Appetit](https://www.bonappetit.com/recipe/jam-filled-challah-doughnuts).
 

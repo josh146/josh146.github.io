@@ -119,6 +119,63 @@
         </div>
     </header>
 
+    {% if page.timeline_parsed %}
+    <div class="timeline-container collapsed" id="timeline-container">
+        <h2 onclick="toggleTimeline()" class="timeline-header">Cooking Schedule<i class="timeline-arrow fas fa-angle-down"></i></h2>
+
+        <div id="timeline-content">
+            <div class="timeline-controls">
+                <label for="start-time-input" style="margin-bottom: 0;">Start at</label>
+                <input type="time" id="start-time-input" value="09:00" oninput="updateTimeline()">
+                <span class="finish-preview">
+                    ready by <strong id="finish-time-display">--:--</strong>
+                </span>
+            </div>
+
+            <div class="timeline-visual">
+                {% for step in page.timeline_parsed %}
+                <div class="timeline-step step-{{ step.type }}"
+                     data-offset="{{ step.start_offset }}"
+                     data-duration="{{ step.duration }}">
+
+                    <div class="step-time">00:00</div>
+
+                    <div class="step-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+
+                    <div class="step-content">
+                        <span class="step-name">{{ step.task }}</span>
+                        <span class="step-duration">
+                            {{ step.duration }} min
+                            {% if step.type == 'wait' %}(Passive){% endif %}
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+
+                <div class="timeline-step step-finish">
+                    <div class="step-time" id="visual-finish-time">--:--</div>
+
+                    <div class="step-marker">
+                        <div class="marker-dot"></div>
+                        </div>
+
+                    <div class="step-content">
+                        <span class="step-name">Finished!   </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Run once on load to set initial times
+        document.addEventListener('DOMContentLoaded', () => updateTimeline());
+    </script>
+    {% endif %}
+
     <div class="recipe-grid">
         <section class="recipe-ingredients">
             <h2>INGREDIENTS</h2>
@@ -196,4 +253,65 @@ document.querySelectorAll('.recipe-method li').forEach(li => {
     });
 });
 </script>
+
+{% if page.timeline_parsed %}
+<script>
+function updateTimeline() {
+    const input = document.getElementById('start-time-input');
+    if (!input) return;
+
+    const [startH, startM] = input.value.split(':').map(Number);
+    const startTotalMins = (startH * 60) + startM;
+
+    const steps = document.querySelectorAll('.timeline-step:not(.step-finish)'); // Exclude the finish step from the loop
+    let lastTotalMins = startTotalMins; // Initialize with start time
+
+    steps.forEach(step => {
+        const offset = parseInt(step.dataset.offset);
+        const duration = parseInt(step.dataset.duration);
+
+        const currentTotalMins = startTotalMins + offset;
+        step.querySelector('.step-time').innerText = minsToTime(currentTotalMins);
+
+        lastTotalMins = currentTotalMins + duration;
+    });
+
+    // --- NEW: Update the Visual Finish Step ---
+    const finishEl = document.getElementById('visual-finish-time');
+    if (finishEl) {
+        finishEl.innerText = minsToTime(lastTotalMins);
+    }
+
+    // Update the preview text in controls (optional, if you kept it)
+    const controlDisplay = document.getElementById('finish-time-display');
+    if (controlDisplay) controlDisplay.innerText = minsToTime(lastTotalMins);
+}
+
+// Helper: Convert "750 minutes" -> "12:30 PM"
+function minsToTime(totalMins) {
+    // Handle days overflowing (e.g. baking past midnight)
+    let h = Math.floor(totalMins / 60) % 24;
+    let m = totalMins % 60;
+
+    const ampm = h >= 12 ? 'p.m.' : 'a.m.';
+
+    h = h % 12;
+    h = h ? h : 12; // the hour '0' should be '12'
+
+    // Zero padding for minutes
+    const mStr = m < 10 ? '0' + m : m;
+
+    // Zero padding for hours
+    const hStr = h < 10 ? '0' + h : h;
+
+    return `${hStr}:${mStr} ${ampm}`;
+}
+
+function toggleTimeline() {
+    const box = document.getElementById('timeline-container');
+    box.classList.toggle('collapsed');
+}
+
+</script>
+{% endif %}
 {% endblock %}

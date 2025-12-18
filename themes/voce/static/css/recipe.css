@@ -190,3 +190,189 @@
     opacity: 1;
 }
 
+.timeline-container {
+    margin: 40px 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 30px;
+}
+
+.timeline-container h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  padding-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Make header look clickable */
+.timeline-header {
+    cursor: pointer;
+    user-select: none; /* Prevent highlighting text when clicking fast */
+    align-items: center;
+    margin-top: 0; /* Remove default top margin for cleaner look */
+}
+
+.timeline-arrow {
+    font-size: 0.8em;
+    transition: transform 0.3s ease; /* Smooth rotation */
+    margin-left: 20px;
+}
+
+.timeline-container.collapsed .timeline-arrow {
+    transform: rotate(-90deg);
+}
+
+.timeline-container.collapsed #timeline-content {
+    display: none;
+}
+
+.timeline-container.collapsed {
+    padding-bottom: 0px;
+}
+
+.timeline-controls {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timeline-controls input {
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: "Fira Sans";
+}
+
+.timeline-controls input.focus-active {
+    border: none;
+}
+
+.timeline-visual {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+/* --- The Step Row --- */
+.timeline-step {
+    display: flex;
+    align-items: stretch;
+    position: relative; /* Helper for positioning */
+    padding-bottom: 20px;
+    overflow: visible; /* CRITICAL: Allows the line to poke out */
+}
+.timeline-step:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-step:last-child .marker-line {
+    display: none; /* Hide connector line for last item */
+}
+
+/* 1. Time Column */
+.step-time {
+    font-family: "DM Mono";
+    font-weight: bold;
+    color: #2c3e50;
+    width: 120px;
+    flex-shrink: 0;
+    margin-top: 2px; /* Align with text */
+}
+
+/* 2. Visual Marker (The dot and line) */
+.step-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    flex-shrink: 0;
+    margin-right: 15px;
+    position: relative; /* Establishes the coordinate system for the line */
+}
+
+.marker-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* Matches your container background so the line doesn't show through */
+    background-color: #f9f9f9;
+    border: 2px solid #aaa;
+    z-index: 2; /* Sit ON TOP of the line */
+    margin-top: 5px; /* Align with text */
+    flex-shrink: 0;
+}
+
+.marker-line {
+    position: absolute; /* Ignore flow, obey coordinates */
+    width: 2px;
+    background-color: #ddd;
+    /* Center the line horizontally in the marker column */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Start just below the dot (Dot is 12px + 5px margin = 17px approx) */
+    top: 17px;
+    /* Stretch PAST the bottom of this step to touch the next dot */
+    bottom: -30px;
+    z-index: 1; /* Sit BEHIND the dot */
+}
+
+/* 3. Content */
+.step-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.step-name {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.step-duration {
+    font-size: 0.85em;
+    color: #777;
+}
+
+/* --- Active vs Wait Styling --- */
+
+/* Active: Orange Dot, Bold Text */
+.step-active .marker-dot {
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
+}
+.step-active .marker-line {
+    background-color: #fadbd8;
+}
+
+/* Wait: Hollow Grey Dot, Lighter Text */
+.step-wait .marker-dot {
+    background-color: #fff;
+    border: 2px solid #aaa;
+}
+.step-wait .marker-line {
+    border-left: 2px dashed #ccc; /* Dashed line for waiting */
+    background-color: transparent;
+    width: 0;
+}
+.step-wait .step-name {
+    color: #555;
+    font-weight: normal;
+}
+
+/* Finish Step Styling */
+.step-finish .marker-dot {
+    background-color: #27ae60; /* Green */
+    border: 2px solid #27ae60;
+    /* Optional: Make it slightly larger */
+    width: 14px;
+    height: 14px;
+    margin-left: -1px; /* Center adjustment if resized */
+}
+
+.step-finish .step-name {
+    color: #27ae60;
+    font-weight: bold;
+}
+

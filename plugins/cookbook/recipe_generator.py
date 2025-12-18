@@ -69,6 +69,9 @@ class RecipeGenerator(Generator):
         Splits the content into intro, ingredients, method, and notes.
         Stores them as attributes on the recipe object.
         """
+        if hasattr(recipe, 'timeline'):
+            self._parse_timeline(recipe)
+
         soup = BeautifulSoup(recipe._content, "html.parser")
 
         # Initialize sections
@@ -158,6 +161,48 @@ class RecipeGenerator(Generator):
             recipe.ingredients_html = re.sub(
                 r"(\([^)]+\))", r'<span class="paren">\1</span>', recipe.ingredients_html
             )
+
+    @staticmethod
+    def _parse_timeline(recipe):
+        # We convert it into a list of dictionaries.
+        parsed_timeline = []
+        current_offset = 0
+
+        # 1. Force it to be a string and split by semicolon
+        # Pelican reads "Step 1; Step 2" as a single string
+        raw_string = str(recipe.timeline)
+
+        # Split into individual steps
+        steps = raw_string.split(';')
+
+        for item in steps:
+            # Skip empty items (e.g. if there is a trailing semicolon)
+            if not item.strip():
+                continue
+
+            try:
+                # Expected format: "Task | Duration | Type"
+                parts = [p.strip() for p in item.split('|')]
+
+                task_name = parts[0]
+                duration = int(parts[1])
+                # Default to 'active' if type is missing
+                step_type = parts[2].lower() if len(parts) > 2 else 'active'
+
+                parsed_timeline.append({
+                    'task': task_name,
+                    'duration': duration,
+                    'type': step_type,
+                    'start_offset': current_offset,
+                    'end_offset': current_offset + duration
+                })
+
+                current_offset += duration
+            except Exception as e:
+                print(f"Error parsing timeline item '{item}': {e}")
+
+        recipe.timeline_parsed = parsed_timeline
+        recipe.total_duration_mins = current_offset
 
     def _apply_scaling_to_html(self, html_content):
         """
