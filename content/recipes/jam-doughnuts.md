@@ -12,6 +12,7 @@ An easy, yeasted, and super light jam doughnut, that can be made in a single day
 
 ### Dough
 
+* 120ml warm water
 * 8g instant yeast
 * 65g sugar
 * 5 large egg yolks
@@ -29,7 +30,7 @@ An easy, yeasted, and super light jam doughnut, that can be made in a single day
 
 ### Dough
 
-1. Mix yeast, 120ml of warm water, egg yolks, salt, and sugar in a bowl of a stand mixer. Using the
+1. Mix yeast, warm water, egg yolks, salt, and sugar in a bowl of a stand mixer. Using the
 dough hook, beat on medium-low until mixture is combined.
 
 2. Add the flour on medium speed and mix until combined and thick, about 3 minutes.

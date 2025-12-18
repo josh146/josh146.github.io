@@ -12,6 +12,7 @@ A light and extremely fluffy challah recipe.
 
 ### Dough
 
+* 130ml warm water
 * 7g instant yeast
 * 37g sugar
 * 2 large eggs
@@ -31,7 +32,7 @@ A light and extremely fluffy challah recipe.
 
 ### Dough
 
-1. Mix yeast, 130ml of warm water, eggs, egg yolks, salt, sugar, and oil in a bowl of a stand mixer.
+1. Mix yeast, water, eggs, egg yolks, salt, sugar, and oil in a bowl of a stand mixer.
   Using the dough hook, beat on medium-low until mixture is combined[ref]I have tried making this
   with a tanzhong of 30g flour and 120g whole milk; simply reduce the water in the main recipe to
   about 50g. This works well, but the difference in the bread was too minimal for me to recognize, so

@@ -95,20 +95,30 @@ class RecipeGenerator(Generator):
 
         # Iterate over all top-level elements
         for tag in soup:
-            # Check if we hit a new header
-            if tag.name == "h2":
-                header_text = tag.get_text().strip().lower()
+            # Get safe tag name
+            tag_name = getattr(tag, 'name', None)
+
+            # check for Section Headers
+            if tag_name == 'h2':
+                header_text = tag.get_text().strip().lower().rstrip(':')
                 if header_text in section_map:
                     current_section = section_map[header_text]
-                    continue  # Don't include the <h2> tag itself in the content
+                    continue
+
+            # check for Footnotes Div (The definitions at the bottom)
+            if tag_name == 'div' and hasattr(tag, 'get'):
+                classes = tag.get('class', [])
+                if classes and ('footnote' in classes or 'footnotes' in classes):
+                    recipe.footnotes_html = str(tag)
+                    continue
 
             # simple_footnotes usually adds a div with id="footnote" or class="footnote"
-            if tag.name == "div" and (
-                tag.get("id") == "footnote" or (tag.get("class") and "footnote" in tag.get("class"))
-            ):
-                recipe.footnotes_html = str(tag)
-                recipe.notes_html = recipe.footnotes_html + recipe.notes_html
-                continue
+            if tag_name == 'div' and hasattr(tag, 'get'):
+                classes = tag.get('class', [])
+                if classes and ('footnote' in classes or 'footnotes' in classes):
+                    recipe.footnotes_html = str(tag)
+                    recipe.notes_html = recipe.footnotes_html + recipe.notes_html
+                    continue
 
             # Append the tag to the current section string
             # We convert the tag back to string to preserve HTML
@@ -138,6 +148,8 @@ class RecipeGenerator(Generator):
             recipe.instructions_list = [i for i in recipe.instructions_list if i]
 
         if recipe.ingredients_html:
+            recipe.ingredients_html = self._apply_scaling_to_html(recipe.ingredients_html)
+
             # Regex explanation:
             # \(        -> Look for literal opening parenthesis
             # [^)]+     -> Match 1 or more characters that are NOT a closing parenthesis
@@ -146,6 +158,41 @@ class RecipeGenerator(Generator):
             recipe.ingredients_html = re.sub(
                 r"(\([^)]+\))", r'<span class="paren">\1</span>', recipe.ingredients_html
             )
+
+    def _apply_scaling_to_html(self, html_content):
+        """
+        Parses HTML, finds numbers in text nodes, and wraps them in spans.
+        """
+        soup = BeautifulSoup(html_content, 'html.parser')
+        number_pattern = re.compile(r'(?<!\w)(\d+(?:[./]\d+)?)')
+
+        for text_node in soup.find_all(string=True):
+            # Skip numbers inside links, existing spans, or scripts
+            if text_node.parent.name in ['a', 'script', 'style', 'sup']:
+                continue
+
+            # If we find a number, replace it
+            if number_pattern.search(text_node):
+                new_html = number_pattern.sub(
+                    lambda m: self._make_scalable_span(m.group(0)),
+                    text_node
+                )
+                # Replace the text node with the new HTML structure
+                text_node.replace_with(BeautifulSoup(new_html, 'html.parser'))
+
+        return str(soup)
+
+    def _make_scalable_span(self, val_str):
+        """Helper to create the HTML for the scalable number"""
+        try:
+            if '/' in val_str:
+                num, den = val_str.split('/')
+                base_val = float(num) / float(den)
+            else:
+                base_val = float(val_str)
+            return f'<span class="scalable" data-base="{base_val}">{val_str}</span>'
+        except ValueError:
+            return val_str
 
     def generate_output(self, writer):
         for recipe in self.recipes:

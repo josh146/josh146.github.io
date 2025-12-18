@@ -103,9 +103,17 @@
                 <span>TIME</span><span>{{ page.time }}</span>
             {% endif %}
             {% if page.servings %}
-                <span>MAKES</span><span>{{ page.servings }}</span>
+                <span>MAKES</span><span id="servings-badge" data-original="{{ page.servings }}">{{ page.servings }}</span>
+                <span class="scale-label">PORTION</span>
+                <div class="scale-controls">
+                    <a class="scale-btn" onclick="scaleRecipe(0.5, this)">0.5x</a>
+                    <a class="scale-btn active" onclick="scaleRecipe(1, this)">1x</a>
+                    <a class="scale-btn" onclick="scaleRecipe(2, this)">2x</a>
+                    <a class="scale-btn" onclick="scaleRecipe(3, this)">3x</a>
+                </div>
             {% endif %}
         </div>
+
         <div class="recipe-intro">
             {{ page.intro_html }}
         </div>
@@ -136,5 +144,35 @@
 document.querySelectorAll('.recipe-ingredients li').forEach(li => {
     li.addEventListener('click', () => li.classList.toggle('done'));
 });
+</script>
+<script>
+function scaleRecipe(multiplier, btnElement) {
+    // 1. Visuals: Update active button state
+    document.querySelectorAll('.scale-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    btnElement.classList.add('active');
+
+    // 2. Math: Update Ingredients
+    document.querySelectorAll('.scalable').forEach(el => {
+        const baseVal = parseFloat(el.dataset.base);
+        if (!isNaN(baseVal)) {
+            const newVal = baseVal * multiplier;
+
+            // Format nicely: remove trailing zeros (e.g. 2.50 -> 2.5)
+            // parseFloat(num.toFixed(2)) handles rounding to 2 decimal places
+            // and stripping unnecessary zeros automatically.
+            el.innerText = parseFloat(newVal.toFixed(2));
+        }
+    });
+
+    // 3. Update Servings Badge
+    const servBadge = document.getElementById('servings-badge');
+    const baseServings = parseFloat(servBadge.dataset.original);
+    if (!isNaN(baseServings)) {
+        // Round to nearest whole number for servings
+        servBadge.innerText = Math.round(baseServings * multiplier);
+    }
+}
 </script>
 {% endblock %}

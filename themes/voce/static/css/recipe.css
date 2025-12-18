@@ -52,7 +52,7 @@
     margin-top: 10px;
     font-weight: bold;
     color: #555;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 90px 1fr;
     margin-bottom: 20px;
 }
 
@@ -155,4 +155,22 @@
     .recipe-method h2 {
         margin-top: 40px;
     }
+}
+
+.scale-controls {
+    display: flex;
+    gap: 5px;
+}
+
+.scale-label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px;
+}
+
+.scale-btn {
+    background: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0;
 }
