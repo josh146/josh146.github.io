@@ -3,6 +3,43 @@
 {% block head %}
     {{ super() }}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/recipe.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Recipe",
+          "name": "{{ page.title|replace('&nbsp;', ' ')|striptags|e }}",
+          "image": [
+            "{{ SITEURL }}/{{ page.image }}"
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Josh Izaac"
+          },
+          "datePublished": "{{ page.date }}",
+          "description": "{{ page.intro_html|striptags|truncate(160)|e }}",
+
+          {% if page.time %}
+          "totalTime": "PT{{ page.time|replace(' mins', 'M')|replace(' min', 'M')|replace(' hours', 'H') }}",
+          {% endif %}
+
+          "recipeYield": "{{ page.servings|default('4') }} servings",
+
+          "recipeIngredient": [
+            {% for ingredient in page.ingredients_list %}
+            "{{ ingredient|e }}"{{ "," if not loop.last }}
+            {% endfor %}
+          ],
+
+          "recipeInstructions": [
+            {% for step in page.instructions_list %}
+            {
+              "@type": "HowToStep",
+              "text": "{{ step|e }}"
+            }{{ "," if not loop.last }}
+            {% endfor %}
+          ]
+        }
+    </script>
 {% endblock %}
 
 {% block metatitle %}{{ page.title|striptags|escape }} recipe | {{ SITENAME }}{% endblock %}
@@ -94,4 +131,10 @@
     {% endif %}
 
 </article>
+
+<script>
+document.querySelectorAll('.recipe-ingredients li').forEach(li => {
+    li.addEventListener('click', () => li.classList.toggle('done'));
+});
+</script>
 {% endblock %}

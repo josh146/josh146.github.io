@@ -96,6 +96,17 @@
 }
 .recipe-ingredients li {
     margin-bottom: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.recipe-ingredients li.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: #aaa;
+}
+.recipe-ingredients li.done::marker {
+    content: "✓ ";
+    color: green;
 }
 /* Method Section */
 .recipe-method h2 {

@@ -78,6 +78,10 @@ class RecipeGenerator(Generator):
         recipe.notes_html = ""
         recipe.footnotes_html = ""  # Store footnotes here
 
+        # Initialize raw lists for Schema
+        recipe.ingredients_list = []
+        recipe.instructions_list = []
+
         # Standardize headers to look for (lowercase for comparison)
         section_map = {
             "ingredients": "ingredients_html",
@@ -109,6 +113,29 @@ class RecipeGenerator(Generator):
             # Append the tag to the current section string
             # We convert the tag back to string to preserve HTML
             setattr(recipe, current_section, getattr(recipe, current_section) + str(tag))
+
+        if recipe.ingredients_html:
+            ing_soup = BeautifulSoup(recipe.ingredients_html, 'html.parser')
+            # Find all list items (li) and get their text
+            recipe.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all('li')]
+
+        if recipe.method_html:
+            method_soup = BeautifulSoup(recipe.method_html, 'html.parser')
+
+            # FIX: Prioritize List Items (<li>)
+            # Only look for <p> if no <li> tags are found.
+            # This prevents double counting when <li> contains <p>.
+
+            steps = method_soup.find_all('li')
+
+            if not steps:
+                # Fallback: If the user didn't use a list, look for paragraphs
+                steps = method_soup.find_all('p')
+
+            recipe.instructions_list = [s.get_text().strip() for s in steps]
+
+            # Clean up empty strings just in case
+            recipe.instructions_list = [i for i in recipe.instructions_list if i]
 
         if recipe.ingredients_html:
             # Regex explanation:
