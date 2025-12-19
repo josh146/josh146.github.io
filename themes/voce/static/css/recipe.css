@@ -147,6 +147,15 @@
     margin-left: 20px;
 }
 
+.recipe-notes a {
+    text-decoration: underline;
+}
+
+.recipe-notes .simple-footnote-back {
+    text-decoration: none;
+}
+
+
 /* Grid Layout for mobile */
 @media (max-width: 768px) {
     .recipe-ingredients {

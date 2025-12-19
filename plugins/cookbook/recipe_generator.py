@@ -108,21 +108,6 @@ class RecipeGenerator(Generator):
                     current_section = section_map[header_text]
                     continue
 
-            # check for Footnotes Div (The definitions at the bottom)
-            if tag_name == 'div' and hasattr(tag, 'get'):
-                classes = tag.get('class', [])
-                if classes and ('footnote' in classes or 'footnotes' in classes):
-                    recipe.footnotes_html = str(tag)
-                    continue
-
-            # simple_footnotes usually adds a div with id="footnote" or class="footnote"
-            if tag_name == 'div' and hasattr(tag, 'get'):
-                classes = tag.get('class', [])
-                if classes and ('footnote' in classes or 'footnotes' in classes):
-                    recipe.footnotes_html = str(tag)
-                    recipe.notes_html = recipe.footnotes_html + recipe.notes_html
-                    continue
-
             # Append the tag to the current section string
             # We convert the tag back to string to preserve HTML
             setattr(recipe, current_section, getattr(recipe, current_section) + str(tag))

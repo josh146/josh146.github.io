@@ -41,8 +41,7 @@ def parse_footnotes(article):
 
             # Move the inner HTML of the footnote to the list item
             # .contents is a list of children; we append them to the new li
-            for child in fn_content.contents:
-                li.append(child)
+            li.append(fn_content)
 
             back_link = soup.new_tag("a", href=f"#{back_id}", **{"class": "simple-footnote-back"})
             back_link.string = "\u21a9\ufe0e"
@@ -62,4 +61,4 @@ def parse_footnotes(article):
     output = output.replace("<html><head></head><body>", "").replace("</body></html>", "")
 
     # Revert any ignored footnotes back to brackets
-    article._content = output.replace("<footnote>", "[ref]").replace("</footnote>", "[/ref]")
+    article._content = output.replace("<footnote>", "").replace("</footnote>", "")
