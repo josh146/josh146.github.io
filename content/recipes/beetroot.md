@@ -26,7 +26,7 @@ flavours I remember from my childhood. This recipe has been adapted from [Rose's
 * 2.5 tsp salt, or to taste
 * 1 tsp black pepper
 * 1 tsp turmeric powder
-* 2 cups stock
+* 2 cups <a href="../chicken-stock" class="component-link">chicken stock</a>
 * 3 cups water
 
 ## Method

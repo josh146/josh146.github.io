@@ -1,7 +1,7 @@
-Title: Brown Chicken Stock
+Title: Chicken Stock
 Date: 2025-12-19
 Category: Stock and soups
-Slug: brown-chicken-stock
+Slug: chicken-stock
 Time: 2 hours
 Servings: About 2L of stock
 Image: /images/recipes/chicken-stock.jpg

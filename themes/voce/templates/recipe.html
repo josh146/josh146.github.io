@@ -124,13 +124,6 @@
         <h2 onclick="toggleTimeline()" class="timeline-header">Cooking Schedule<i class="timeline-arrow fas fa-angle-down"></i></h2>
 
         <div id="timeline-content">
-<!--             <div class="timeline-controls">
-                <label for="start-time-input" style="margin-bottom: 0;">Start at</label>
-                <input type="time" id="start-time-input" value="09:00" oninput="updateTimeline()">
-                <span class="finish-preview">
-                    ready by <strong id="finish-time-display">--:--</strong>
-                </span>
-            </div> -->
 
             <div class="timeline-visual">
                 {% for step in page.timeline_parsed %}
@@ -338,4 +331,50 @@ function toggleTimeline() {
 
 </script>
 {% endif %}
+
+<script>
+    // Add hover preview for component links
+document.querySelectorAll('.component-link').forEach(link => {
+    link.addEventListener('mouseenter', async function() {
+        // Create tooltip if it doesn't exist
+        let tooltip = document.getElementById('recipe-preview-tooltip');
+        if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'recipe-preview-tooltip';
+            document.body.appendChild(tooltip);
+        }
+
+        // Position it
+        const rect = this.getBoundingClientRect();
+        tooltip.style.left = `${rect.left}px`;
+        tooltip.style.top = `${rect.bottom + 5}px`;
+        tooltip.style.display = 'block';
+        tooltip.innerHTML = 'Loading...';
+
+        // Fetch the linked page
+        try {
+            const response = await fetch(this.href);
+            const text = await response.text();
+
+            // Parse the response to grab just the ingredients list
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, 'text/html');
+
+            // Assuming your ingredients are in a container with class 'recipe-ingredients'
+            const ingredients = doc.querySelector('.recipe-ingredients ul').innerHTML;
+            const title = doc.querySelector('h1').innerText;
+
+            tooltip.innerHTML = `<strong>${title}</strong><ul>${ingredients}</ul>`;
+        } catch (e) {
+            tooltip.innerHTML = 'Error loading preview.';
+        }
+    });
+
+    link.addEventListener('mouseleave', () => {
+        const tooltip = document.getElementById('recipe-preview-tooltip');
+        if (tooltip) tooltip.style.display = 'none';
+    });
+});
+</script>
+
 {% endblock %}

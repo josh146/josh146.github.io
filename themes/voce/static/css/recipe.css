@@ -419,4 +419,41 @@
     font-weight: normal;
 }
 
+.component-link {
+    /*color: #d35400; /* Chef's Orange */
+    text-decoration: none;
+    border-bottom: 1px dotted #333;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+/* Optional: Add a tiny icon after the link */
+.component-link::after {
+    content: " ↗"; /* Unicode arrow */
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+#recipe-preview-tooltip {
+    position: fixed;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    backdrop-filter: blur(3px); /* Adjust pixel value for desired blur strength */
+    background-color: rgba(255, 255, 255, 0.8); /* White with 15% opacity */
+    padding: 15px;
+    z-index: 1000;
+    max-width: 300px;
+    border-radius: 8px;
+    display: none;
+    pointer-events: none; /* Let clicks pass through */
+    font-family: "Fira Sans";
+}
+#recipe-preview-tooltip ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+    font-size: 0.85em;
+    color: #555;
+}
+
 

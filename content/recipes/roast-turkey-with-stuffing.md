@@ -60,7 +60,7 @@ delicious simply placing it underneath the spatchcocked turkey.
 * 3-4 thyme sprigs
 * 45g unsalted butter (about 3 tbsp)
 * 30g flour (about 4 tbsp)
-* 1L homemade or store bough low-sodium chicken or turkey stock (optional)
+* 1L homemade <a href="../chicken-stock" class="component-link">chicken stock</a> or store bought low-sodium chicken or turkey stock (optional)
 * Wine (optional)
 
 ## Instructions
