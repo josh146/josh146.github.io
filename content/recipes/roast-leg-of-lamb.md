@@ -24,17 +24,19 @@ I adapted this recipe from a recipe for slow-roasted lamb shoulder from a free C
 
 ## Steps
 
-* Make the marinade by placing all ingredients in a food processor and blending until you get a
-  creamy paste.
+1. Make the marinade by placing all ingredients in a food processor and blending until you get a
+creamy paste.
 
-* Using a paring knife, make 1-2cm slits all over the lamb, and rub in the marinade. Place the lamb
-  on a rack in a baking tray, and place it uncovered in the fridge for 2 hours up to overnight.
+2. Using a paring knife, make 1-2cm slits all over the lamb, and rub in the marinade. Place the lamb
+on a rack in a baking tray, and place it uncovered in the fridge for 2 hours up to overnight.
 
-* Preheat the oven to 240°C. Roast the lamb for 20 minutes, then turn the oven temperature down to
-  200°C and roast until the internal temperature reaches about 53-55°C[ref]For medium, remove the lamb when it reaches 55-57°C.[/ref]. As a rule of thumb, the approximate total roast time is 20-25 minutes for every 500g. 
+3. Preheat the oven to 240°C. Roast the lamb for 20 minutes, then turn the oven temperature down to
+200°C and roast until the internal temperature reaches about 53-55°C[ref]For medium, remove the
+lamb when it reaches 55-57°C.[/ref]. As a rule of thumb, the approximate total roast time is 20-25
+minutes for every 500g. 
 
-* Transfer the lamb to a place, and rest tented under foil for 20 minutes to 1 hour. The lamb will
-  continue to carry-over cook, and will rise to 63°C (medium rare).
+4. Transfer the lamb to a place, and rest tented under foil for 20 minutes to 1 hour. The lamb will
+continue to carry-over cook, and will rise to 63°C (medium rare).
 
 ## Notes
 
