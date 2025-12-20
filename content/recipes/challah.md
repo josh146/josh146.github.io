@@ -5,7 +5,7 @@ Servings: One large loaf, or two small loaves.
 Time: 4.5 hours
 Image: /images/recipes/challah.jpg
 Sticky: true
-Timeline: Mix Ingredients | 15 | Active; First proof | 60 | Wait; Second proof | 45 | Wait; Shape | 15 | Active; Proof | 60 | Wait; Bake | 30 | Wait
+Timeline: Mix Ingredients | 15m | Active; First proof | 60m | Wait; Second proof | 45m | Wait; Shape | 15m | Active; Proof | 60m | Wait; Bake | 30m | Wait
 
 A light and extremely fluffy challah recipe.
 

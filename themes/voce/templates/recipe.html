@@ -124,13 +124,13 @@
         <h2 onclick="toggleTimeline()" class="timeline-header">Cooking Schedule<i class="timeline-arrow fas fa-angle-down"></i></h2>
 
         <div id="timeline-content">
-            <div class="timeline-controls">
+<!--             <div class="timeline-controls">
                 <label for="start-time-input" style="margin-bottom: 0;">Start at</label>
                 <input type="time" id="start-time-input" value="09:00" oninput="updateTimeline()">
                 <span class="finish-preview">
                     ready by <strong id="finish-time-display">--:--</strong>
                 </span>
-            </div>
+            </div> -->
 
             <div class="timeline-visual">
                 {% for step in page.timeline_parsed %}
@@ -138,7 +138,12 @@
                      data-offset="{{ step.start_offset }}"
                      data-duration="{{ step.duration }}">
 
+                    {% if loop.first %}
+                    <input type="time" id="start-time-input" value="{{ page.timeline_start|default('09:00') }}" oninput="updateTimeline()">
+                    <div class="step-time" style="display: none;">00:00</div>
+                    {% else %}
                     <div class="step-time">00:00</div>
+                    {% endif %}
 
                     <div class="step-marker">
                         <div class="marker-dot"></div>
@@ -148,7 +153,7 @@
                     <div class="step-content">
                         <span class="step-name">{{ step.task }}</span>
                         <span class="step-duration">
-                            {{ step.duration }} min
+                            {{ step.duration_display }}
                             {% if step.type == 'wait' %}(Passive){% endif %}
                         </span>
                     </div>
@@ -263,35 +268,47 @@ function updateTimeline() {
     const [startH, startM] = input.value.split(':').map(Number);
     const startTotalMins = (startH * 60) + startM;
 
-    const steps = document.querySelectorAll('.timeline-step:not(.step-finish)'); // Exclude the finish step from the loop
-    let lastTotalMins = startTotalMins; // Initialize with start time
+    // Update Steps
+    const steps = document.querySelectorAll('.timeline-step:not(.step-finish)');
+    let lastOffset = 0;
+    let lastDuration = 0;
 
     steps.forEach(step => {
         const offset = parseInt(step.dataset.offset);
         const duration = parseInt(step.dataset.duration);
 
-        const currentTotalMins = startTotalMins + offset;
-        step.querySelector('.step-time').innerText = minsToTime(currentTotalMins);
+        // Update the displayed time
+        const timeDisplay = step.querySelector('.step-time');
+        // We use innerHTML because we are adding a <span> tag
+        timeDisplay.innerHTML = formatTimeWithDay(startTotalMins, offset);
 
-        lastTotalMins = currentTotalMins + duration;
+        lastOffset = offset;
+        lastDuration = duration;
     });
 
-    // --- NEW: Update the Visual Finish Step ---
+    // Update Finish Step
     const finishEl = document.getElementById('visual-finish-time');
     if (finishEl) {
-        finishEl.innerText = minsToTime(lastTotalMins);
+        finishEl.innerHTML = formatTimeWithDay(startTotalMins, lastOffset + lastDuration);
     }
-
-    // Update the preview text in controls (optional, if you kept it)
-    const controlDisplay = document.getElementById('finish-time-display');
-    if (controlDisplay) controlDisplay.innerText = minsToTime(lastTotalMins);
+    const finishDisp = document.getElementById('finish-time-display');
+    if (finishDisp) {
+        finishDisp.innerHTML = formatTimeWithDay(startTotalMins, lastOffset + lastDuration);
+    }
 }
 
-// Helper: Convert "750 minutes" -> "12:30 PM"
-function minsToTime(totalMins) {
-    // Handle days overflowing (e.g. baking past midnight)
-    let h = Math.floor(totalMins / 60) % 24;
-    let m = totalMins % 60;
+// Helper to format time with "+1 day" badges and convert "750 minutes" -> "12:30 PM"
+function formatTimeWithDay(startTotalMins, totalMinutesFromStart) {
+    const absoluteMins = startTotalMins + totalMinutesFromStart;
+
+    // Calculate days passed
+    // 1440 mins = 24 hours
+    const daysPassed = Math.floor(absoluteMins / 1440);
+
+    // Calculate clock time
+    let currentMins = absoluteMins % 1440;
+    let h = Math.floor(currentMins / 60);
+    let m = currentMins % 60;
 
     const ampm = h >= 12 ? 'p.m.' : 'a.m.';
 
@@ -304,7 +321,14 @@ function minsToTime(totalMins) {
     // Zero padding for hours
     const hStr = h < 10 ? '0' + h : h;
 
-    return `${hStr}:${mStr} ${ampm}`;
+    let timeStr = `${hStr}:${mStr} ${ampm}`;
+
+    // Append day badge if needed
+    if (daysPassed > 0) {
+        timeStr += ` <span class="day-badge">+${daysPassed}d</span>`;
+    }
+
+    return timeStr;
 }
 
 function toggleTimeline() {

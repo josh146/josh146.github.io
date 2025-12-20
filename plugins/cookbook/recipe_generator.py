@@ -148,6 +148,51 @@ class RecipeGenerator(Generator):
             )
 
     @staticmethod
+    def _parse_duration_string(duration_str):
+        """
+        Converts '1h 30m', '2 hours', '45' into total integer minutes.
+        """
+        duration_str = duration_str.lower().strip()
+
+        # If it's just a number, assume minutes (legacy support)
+        if duration_str.isdigit():
+            return int(duration_str)
+
+        total_mins = 0
+        label = ""
+
+        # Check for Days
+        days = re.search(r'(\d+)\s*d', duration_str)
+        if days:
+            d = int(days.group(1))
+            total_mins += d * 24 * 60
+
+            if d == 1:
+                label += f"{d} day "
+            else:
+                label += f"{d} days "
+
+        # Check for Hours
+        hours = re.search(r'(\d+)\s*h', duration_str)
+        if hours:
+            h = int(hours.group(1))
+            total_mins += h * 60
+
+            if h == 1:
+                label += f"{h} hour "
+            else:
+                label += f"{h} hours "
+
+        # Check for Minutes
+        mins = re.search(r'(\d+)\s*m', duration_str)
+        if mins:
+            m = int(mins.group(1))
+            total_mins += m
+            label += f"{m} min"
+
+        return total_mins, label
+
+    @staticmethod
     def _parse_timeline(recipe):
         # We convert it into a list of dictionaries.
         parsed_timeline = []
@@ -170,19 +215,24 @@ class RecipeGenerator(Generator):
                 parts = [p.strip() for p in item.split('|')]
 
                 task_name = parts[0]
-                duration = int(parts[1])
+
+                duration_str = parts[1]
+                duration_mins, label = RecipeGenerator._parse_duration_string(duration_str)
+
                 # Default to 'active' if type is missing
                 step_type = parts[2].lower() if len(parts) > 2 else 'active'
 
                 parsed_timeline.append({
                     'task': task_name,
-                    'duration': duration,
+                    'duration': duration_mins,
+                    'duration_display': label, # Keep original text for display
                     'type': step_type,
                     'start_offset': current_offset,
-                    'end_offset': current_offset + duration
+                    'end_offset': current_offset + duration_mins
                 })
 
-                current_offset += duration
+                current_offset += duration_mins
+
             except Exception as e:
                 print(f"Error parsing timeline item '{item}': {e}")
 
