@@ -14,10 +14,10 @@ I adapted this recipe from a recipe for slow-roasted lamb shoulder from a free C
 
 ### Marinade
 
-* 3 anchovies
+* 4 anchovies
 * 6-8 cloves of garlic
-* 2 sprigs of rosemary
-* 120ml olive oil
+* 3-4 sprigs of rosemary
+* 100ml olive oil
 * 1 tsp salt
 * 1 tsp pepper
 * Juice and zest of 1-2 lemons
@@ -38,8 +38,12 @@ I adapted this recipe from a recipe for slow-roasted lamb shoulder from a free C
 
 ## Notes
 
-I believe the original recipe was very similar, but with the following differences:
+The original recipe was very similar, but with the following differences:
 
-- Preheat the oven to a much lower temperature (150-170°C).
-- The lamb shoulder is placed into a dutch oven, and a mixture of red wine and stock is poured to about halfway up the lamb shoulder.
-- Slow roast until tender and falling apart, about 3 hours covered and 30 minutes uncovered.
+- The lamb shoulder is coated with flour and seared first. Once cooled, it is coated with the marinade paste.
+
+- Preheat the oven to a much lower temperature (150°C).
+
+- 250ml of red wine is reduced by half in a dutch oven, and 500ml of chicken stock is added.
+
+- The lamb shoulder is placed into a dutch oven, and slow roasted (turning halfway) until tender and falling apart, about 3 hours covered and 30 minutes uncovered.
