@@ -8,7 +8,7 @@ Image: /images/recipes/baked-rice.jpg
 
 Another blueprint recipe (like the [[One-pot chicken and rice blueprint]]), this is a recipe where the specific ingredients matters less. Simply pick vegetables, spices, and garnishes for a particular flavour profile or cuisine (or just whatever you have available in the pantry) and as long as you follow the rough blueprint below, it will come out perfectly.
 
-I've also included some riffs on the blueprint. Some of my own design (the [[bamya assam]] inspired version is a quick one-pan dish that combines the flavours of bamya with [[yellow rice]]), and others adapted (the tomato and garlic riff is adapted from Ottolenghi's Simple).
+I've also included some riffs on the blueprint. Some of my own design (the [[bamya assam]] inspired version is a quick one-pan dish that combines the flavours of bamya with [[yellow rice]]), and others adapted (the tomato and garlic riff is adapted from [Ottolenghi's Simple](https://cooking.nytimes.com/recipes/1019616-baked-rice-with-slow-roasted-tomatoes-and-garlic)).
 
 <div id="variation-controls"></div>
 
