@@ -10,9 +10,9 @@ Chicken and rice is the ultimate comfort food, and I love that these two main in
 
 I've noticed over time that the basics of *all* one-pot chicken and rice dishes is fundamentally the same: marinate and sear the chicken, fry some aromatics, fry the rice and some mixins, return the chicken, add a liquid, cover and cook!
 
-Knowing this, one-pot chicken and rice is less a recipe and more a **blueprint**. Choose your own adventure --- pick aromatics and garnishes for a particular flavour profile or cuisine, or just whatever you have available in the pantry, and as long as you follow the rough blueprint below, it will come out perfectly.
+Knowing this, one-pot chicken and rice is less a recipe and more a **blueprint**. Choose your own adventure --- pick aromatics and garnishes for a particular flavour profile or cuisine (or just whatever you have available in the pantry) and as long as you follow the rough blueprint below, it will come out perfectly.
 
-I've also included some riffs on the blueprint. Some of my own design (biriyani and [[Hainanese chicken rice|chicken rice]]), and others inspired from others (cardamom and onion via [Ottolenghi](https://cooking.nytimes.com/recipes/1014925-chicken-with-caramelized-onion-and-cardamom-rice), and lemon and oregano from [Recipe Tin Eats](https://www.recipetineats.com/one-pot-greek-chicken-lemon-rice/)).
+I've also included some riffs on the blueprint. Some of my own design (biriyani and [[Hainanese chicken rice|chicken rice]]), and others adapted (cardamom and onion via [Ottolenghi](https://cooking.nytimes.com/recipes/1014925-chicken-with-caramelized-onion-and-cardamom-rice), and lemon and oregano from [Recipe Tin Eats](https://www.recipetineats.com/one-pot-greek-chicken-lemon-rice/)).
 
 <div id="variation-controls"></div>
 
@@ -102,7 +102,7 @@ rice: basmati rice
 marinade: ginger, garlic, lemon juice, lemon zest, and oregano,
 marinade_list: 4 garlic cloves (grated); 1 tbsp dried oregano; 60 ml lemon juice (2 lemons); zest of 2 lemons
 
-mixins: oregano
+mixins: oregano, remaining marinade
 mixins_list: 1 tbsp dried oregano
 
 aromatics: onion
