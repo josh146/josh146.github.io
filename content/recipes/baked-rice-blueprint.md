@@ -16,7 +16,6 @@ I've also included some riffs on the blueprint. Some of my own design (the [[bam
 
 * 300 grams basmati rice
 * 600 ml boiling water (or [[chicken stock]])
-* 100 ml olive oil
 * 1 tsp salt
 * 1/2 tsp pepper
 
@@ -28,6 +27,7 @@ water used to cook the rice.
 
 {{vegatable_list}}
 
+* 100 ml olive oil
 * 1/2 tsp salt
 * 1/2 tsp pepper
 
