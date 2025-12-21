@@ -363,8 +363,10 @@ document.querySelectorAll('.component-link').forEach(link => {
                 // Assuming your ingredients are in a container with class 'recipe-ingredients'
                 const ingredients = doc.querySelector('.recipe-ingredients ul').innerHTML;
                 const title = doc.querySelector('h1').innerText;
+                const imageURL = extractBackgroundUrl(doc, '.hero-image');
 
-                tooltip.innerHTML = `<strong>${title}</strong><ul>${ingredients}</ul>`;
+                tooltip.innerHTML = `<strong>${title}</strong><img src=${imageURL} />`;
+                // tooltip.innerHTML = `<strong>${title}</strong><img src=${imageURL} /><ul>${ingredients}</ul>`;
             } catch (e) {
                 tooltip.innerHTML = 'Error loading preview.';
             }
@@ -378,6 +380,13 @@ document.querySelectorAll('.component-link').forEach(link => {
         console.log("Not a fine pointer device, 'mouseenter' event listener not attached.");
     }
 });
+
+function extractBackgroundUrl(doc, el) {
+    const element = doc.querySelector(el);
+    const backgroundImage = element.style.backgroundImage;
+    const url = backgroundImage.slice(61, -1).replace(/['"]/g, "");
+    return url;
+}
 </script>
 
 {% endblock %}

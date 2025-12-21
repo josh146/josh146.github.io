@@ -13,6 +13,16 @@ from .parse_footnotes import parse_footnotes
 log = logging.getLogger(__name__)
 
 
+def fix_string(s):
+    s = s.replace("&nbsp;", " ")
+    s = s.replace("\u00A0", " ")
+    s = s.replace("&#8220;", "'")
+    s = s.replace("&#8221;", "'")
+    s = s.replace("&#8216;", "'")
+    s = s.replace("&#8217;", "'")
+    return s
+
+
 class Recipe(Page):
     """
     A custom content object for Recipes.
@@ -29,6 +39,7 @@ class RecipeGenerator(Generator):
     def __init__(self, *args, **kwargs):
         super(RecipeGenerator, self).__init__(*args, **kwargs)
         self.recipes = []
+        self.recipes_index = {}
 
     def generate_context(self):
         # Define path to recipes folder
@@ -48,14 +59,18 @@ class RecipeGenerator(Generator):
                         )
 
                         parse_footnotes(recipe_item)
-
                         self._parse_recipe_sections(recipe_item)
+
                         self.recipes.append(recipe_item)
+                        self.recipes_index[fix_string(recipe_item.title.lower())] = f"/{recipe_item.url}"
                     except Exception as e:
                         log.error(f"Could not read recipe {filename}: {e}")
 
         # Sort recipes alphabetically by title
         # self.recipes.sort(key=lambda x: x.title)
+
+        for recipe in self.recipes:
+            self._parse_wikilinks(recipe)
 
         # Sort recipes by category
         self.recipes.sort(key=lambda x: (str(x.category), x.title))
@@ -63,6 +78,7 @@ class RecipeGenerator(Generator):
         # Inject into global context
         self.context["recipes"] = self.recipes
         self.context["Recipe"] = Recipe
+        self.context["recipes_index"] = self.recipes_index
 
     def _parse_recipe_sections(self, recipe):
         """
@@ -228,6 +244,37 @@ class RecipeGenerator(Generator):
         recipe.timeline_parsed = parsed_timeline
         recipe.total_duration_mins = current_offset
 
+    def _parse_wikilinks(self, recipe):
+        """
+        regex replace [[Link]] with <a class="component-link">...</a>
+        """
+        # Regex breakdown:
+        # \[\[       Match opening [[
+        # (.*?)      Group 1: The 'Key' (Recipe Title) - non-greedy
+        # (?:\|(.*?))? Group 2: Optional 'Display Text' (after |)
+        # \]\]       Match closing ]]
+        pattern = re.compile(r'\[\[(.*?)(?:\|(.*?))?\]\]')
+
+        def replace_match(match):
+            key = match.group(1).strip()
+            display_text = match.group(2).strip() if match.group(2) else key
+
+            # Lookup URL using lowercase key
+            url = self.recipes_index.get(fix_string(key.lower()))
+
+            if url:
+                # Success: Return the styled link
+                return f'<a href="{url}" class="component-link">{display_text}</a>'
+            else:
+                # Fallback: Recipe not found? Just return the text without [[ ]]
+                print(f"⚠️ Warning: Could not find recipe link for [[{key}]] in {recipe.title}")
+                return display_text
+
+        recipe.ingredients_html = pattern.sub(replace_match, recipe.ingredients_html)
+        recipe.method_html = pattern.sub(replace_match, recipe.method_html)
+        recipe.intro_html = pattern.sub(replace_match, recipe.intro_html)
+        recipe.notes_html = pattern.sub(replace_match, recipe.notes_html)
+
     def _apply_scaling_to_html(self, html_content):
         """
         Parses HTML, finds numbers in text nodes, and wraps them in spans.
@@ -285,11 +332,11 @@ def process_recipes_table(generators):
     # Get context from the first generator
     context = generators[0].context
 
-    # 1. Safety check
+    # Safety check
     if "recipes" not in context or not context["recipes"]:
         return
 
-    # 2. Find the 'recipes' page
+    # Find the 'recipes' page
     pages = context.get("pages", [])
     recipe_page = None
 
@@ -301,22 +348,13 @@ def process_recipes_table(generators):
     if not recipe_page:
         return
 
-    # 3. Render the Jinja inside the recipes.md content
+    # Render the Jinja inside the recipes.md content
     try:
         # The Markdown reader converts content to HTML before we get here.
         # This often turns spaces inside {{ }} into &nbsp; which breaks Jinja.
         # We must clean the string before creating the Template.
 
-        raw_content = recipe_page._content
-
-        # Replace &nbsp; with a standard space
-        # Optional: Fix other common encoding issues if they appear
-        # raw_content = raw_content.replace('%20', ' ')
-        raw_content = raw_content.replace("&nbsp;", " ")
-        raw_content = raw_content.replace("&#8220;", "'")
-        raw_content = raw_content.replace("&#8221;", "'")
-        raw_content = raw_content.replace("&#8216;", "'")
-        raw_content = raw_content.replace("&#8217;", "'")
+        raw_content = fix_string(recipe_page._content)
         template = Template(raw_content)
 
         rendered_content = template.render(context)

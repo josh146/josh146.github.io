@@ -24,7 +24,7 @@ The recipe below is an amalgamation of a few recipes:
 
 - The turkey and gravy recipe is adapted from [Serious Eats](https://www.seriouseats.com/butterfiled-roast-turkey-with-gravy-recipe).
 
-- The stuffing is a recipe from my grandmother, with the addition of chicken rice ginger coming from my mum (her favourite umami bomb).
+- The stuffing is a recipe from my grandmother, with the addition of [[hainanese chicken rice | chicken rice ginger sauce ]] coming from my mum (her favourite umami bomb).
 
 Spatchcocking the turkey lead to a dilemma, where do we put the stuffing? It came out perfectly
 delicious simply placing it underneath the spatchcocked turkey.
@@ -60,7 +60,7 @@ delicious simply placing it underneath the spatchcocked turkey.
 * 3-4 thyme sprigs
 * 45g unsalted butter (about 3 tbsp)
 * 30g flour (about 4 tbsp)
-* 1L homemade <a href="../chicken-stock" class="component-link">chicken stock</a> or store bought low-sodium chicken or turkey stock (optional)
+* 1L homemade [[chicken stock]] or store bought low-sodium chicken or turkey stock (optional)
 * Wine (optional)
 
 ## Instructions

@@ -1,20 +1,23 @@
-Title: Beetroot stew
-Date: 2025-12-17
+Title: Bamya Assam
+Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish
 Servings: 4-6 servings
 Time: 1 hour
-Image: /images/recipes/beetroot2.jpg
+Image: /images/recipes/bamya.jpg
 Sticky: true
 
-An earthy sweet and sour stew, this bright red dish is the result of the merging of cultures -- an
-Iraqi Jewish staple, made with south east Asian ingredients. In particular, I find the calamansi
+An earthy sweet and sour stew, this bright yellow dish is the result of the merging of cultures -- an
+Iraqi Jewish staple, made with south east Asian ingredients. The name is reflective of this, with *bamya* being the arabic word for okra, and *assam* the malay word for sour.
+Growing up, we almost always had bamya alongside [[yellow rice]] and [[potato chop | potato chops]].
+
+In particular, I find the calamansi
 juice is **key** -- attempts to replace this with lemon or lime juice does not fully replicate the
 flavours I remember from my childhood. This recipe has been adapted from [Rose's Family Favourites](https://www.jewishfoodsociety.org/stories/the-flavors-of-iraq-india-and-singapore-meet-in-th).
 
 ## Ingredients
 
 * 1.2kg of chicken legs/thighs (about 8 thighs or 4 marylands)
-* 5 medium beetroot (~1.2kg) halved and sliced
+* 10-15 ladyfingers or okra (halved)
 * 1 large tomato, finely chopped
 * 1 large onion, finely chopped
 * 5 cloves garlic
@@ -43,15 +46,15 @@ flavours I remember from my childhood. This recipe has been adapted from [Rose's
 
 4. Bring to a simmer, and then reduce heat to low, and cover for 15 minutes.
 
-5. Add the beetroot slices. 10 minutes later, add the mint leaves.
+5. Add the okra. 10 minutes later, add the mint leaves.
 
 6. Allow to simmer, covered, for 35-45 minutes.
 
 7. Taste, and add more salt/sugar/calamansi until the desired sweet and sour profile is achieved.
 
-![beetroot stew](/images/recipes/beetroot.jpg)
+![bamya assam](/images/recipes/bamya2.jpg)
 
 ## Notes
 
-Replace the beetroot with okra (or ladyfingers as they are called in Singapore), and the dish
-transforms into [[Bamya Assam]], a yellow-golden sweet and sour stew.
+Replace the okra with beetroots, and the dish
+transforms into [[beetroot stew]], a yellow-golden sweet and sour stew.
