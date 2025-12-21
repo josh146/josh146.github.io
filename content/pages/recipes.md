@@ -50,23 +50,20 @@ Description: Here you can find a collection of my recipes, ranging from savoury 
 </div>
 
 <script>
-// Get references to the button and the two elements
 const btnGallery = document.getElementById('btn-gallery');
 const btnList = document.getElementById('btn-list');
 const gallery = document.getElementById('recipe-gallery');
 const list = document.getElementById('recipe-list');
 
-// Add a click event listener to the button
+
 btnGallery.addEventListener('click', function() {
-    // Toggle the 'hidden' class on both elements
     gallery.classList.toggle('hidden', false);
     list.classList.toggle('hidden', true);
     btnGallery.classList.toggle('active', true)
     btnList.classList.toggle('active', false)
 });
-// Add a click event listener to the button
+
 btnList.addEventListener('click', function() {
-    // Toggle the 'hidden' class on both elements
     gallery.classList.toggle('hidden', true);
     list.classList.toggle('hidden', false);
     btnList.classList.toggle('active', true)

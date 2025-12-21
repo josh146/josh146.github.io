@@ -1,4 +1,3 @@
-/* Layout Container */
 .recipe-container {
     max-width: 900px;
     margin: 0 auto;
@@ -13,7 +12,7 @@
 }
 .recipe-container h2 {
     font-family: "Amatic SC";
-    font-size: 48px!important;
+    font-size: 48px !important;
 }
 .recipe-container h3 {
     font-family: "Fira Sans";
@@ -48,7 +47,6 @@
 }
 .recipe-meta-badges {
     display: grid;
-    /* set to flex to have it on one line */
     margin-top: 10px;
     font-weight: bold;
     color: #555;
@@ -65,11 +63,9 @@
     .recipe-grid {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        /* Ingredients take 1/3, Method takes 2/3 */
         gap: 40px;
     }
 }
-
 
 /* Ingredients Section */
 .recipe-ingredients {
@@ -77,12 +73,14 @@
     border-right: 2px solid #e9ecef;
     height: auto;
 }
+
 .recipe-ingredients h2 {
     margin-top: 0;
     font-size: 1.2rem;
     color: #2c3e50;
     padding-bottom: 10px;
 }
+
 .recipe-ingredients h3 {
     margin-bottom: 10px;
 }
@@ -90,43 +88,40 @@
     font-style: italic;
     color: #b5b5b5;
 }
+
 .recipe-ingredients ul {
     padding-left: 20px;
     margin-bottom: 0;
 }
+
 .recipe-ingredients li {
     margin-bottom: 8px;
     cursor: pointer;
     transition: opacity 0.2s;
 }
+
 .recipe-ingredients li.done {
     text-decoration: line-through;
     opacity: 0.5;
     color: #aaa;
 }
+
 .recipe-ingredients li.done::marker {
     content: "✓ ";
     color: green;
 }
+
 /* Method Section */
 .recipe-method h2 {
     margin-top: 0;
     font-size: 1.3rem;
     color: #2c3e50;
 }
+
 .recipe-method li {
     margin-bottom: 20px;
     position: relative;
 }
-/* Notes Section */
-/*.recipe-notes {
-    margin-top: 40px;
-    padding-right: 15px;
-    background-color: #fff3cd;
-    border: 1px solid #ffeeba;
-    border-radius: 5px;
-    color: #856404;
-}*/
 
 .recipe-notes {
     border-top: 2px solid #e9ecef;
@@ -134,13 +129,11 @@
 
 .recipe-notes h2 {
     margin: 20px;
-    /*color: #856404;*/
     color: #2c3e50;
 }
 
 .recipe-notes h3 {
     margin: 20px;
-    /*color: #856404;*/
 }
 
 .recipe-notes p {
@@ -154,7 +147,6 @@
 .recipe-notes .simple-footnote-back {
     text-decoration: none;
 }
-
 
 /* Grid Layout for mobile */
 @media (max-width: 768px) {
@@ -182,6 +174,11 @@
     border: none;
     cursor: pointer;
     transition: all 0;
+    color: #ccc;
+}
+
+.scale-btn.active {
+    color: #000 !important;
 }
 
 /* Base state for all steps */
@@ -189,12 +186,10 @@
     transition: opacity 0.3s, transform 0.2s;
 }
 
-/* When the parent list has 'focus-mode' active... */
 .recipe-method ol.focus-active li {
     opacity: 0.3; /* Dim everyone */
 }
 
-/* ...but keep the specifically clicked item bright */
 .recipe-method ol.focus-active li.highlighted {
     opacity: 1;
 }
@@ -206,24 +201,23 @@
 }
 
 .timeline-container h2 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #2c3e50;
-  padding-bottom: 10px;
-  transition: transform 0.3s ease;
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
-/* Make header look clickable */
 .timeline-header {
     cursor: pointer;
-    user-select: none; /* Prevent highlighting text when clicking fast */
+    user-select: none;
     align-items: center;
-    margin-top: 0; /* Remove default top margin for cleaner look */
+    margin-top: 0;
 }
 
 .timeline-arrow {
     font-size: 0.8em;
-    transition: transform 0.3s ease; /* Smooth rotation */
+    transition: transform 0.3s ease;
     margin-left: 20px;
 }
 
@@ -282,7 +276,6 @@
     border: none;
 }
 
-
 .timeline-visual {
     margin: 0 auto;
 }
@@ -291,9 +284,9 @@
 .timeline-step {
     display: flex;
     align-items: stretch;
-    position: relative; /* Helper for positioning */
+    position: relative;
     padding-bottom: 20px;
-    overflow: visible; /* CRITICAL: Allows the line to poke out */
+    overflow: visible;
 }
 .timeline-step:last-child {
     padding-bottom: 0;
@@ -303,18 +296,18 @@
     display: none; /* Hide connector line for last item */
 }
 
-/* 1. Time Column */
+/* Time Column */
 .step-time {
     font-family: "DM Mono";
     font-weight: bold;
     color: #2c3e50;
     width: 180px;
     flex-shrink: 0;
-    margin-top: 2px; /* Align with text */
+    margin-top: 2px;
     text-align: center;
 }
 
-/* 2. Visual Marker (The dot and line) */
+/* Visual Marker (The dot and line) */
 .step-marker {
     display: flex;
     flex-direction: column;
@@ -322,39 +315,38 @@
     width: 30px;
     flex-shrink: 0;
     margin-right: 15px;
-    position: relative; /* Establishes the coordinate system for the line */
+    position: relative;
 }
 
 .marker-dot {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    /* Matches your container background so the line doesn't show through */
     background-color: #f9f9f9;
     border: 2px solid #aaa;
-    z-index: 2; /* Sit ON TOP of the line */
-    margin-top: 5px; /* Align with text */
+    z-index: 2;
+    margin-top: 5px;
     flex-shrink: 0;
 }
 
 .marker-line {
-    position: absolute; /* Ignore flow, obey coordinates */
+    position: absolute;
     width: 2px;
     background-color: #ddd;
-    /* Center the line horizontally in the marker column */
     left: 50%;
     transform: translateX(-50%);
-    /* Start just below the dot (Dot is 12px + 5px margin = 17px approx) */
     top: 17px;
-    /* Stretch PAST the bottom of this step to touch the next dot */
     bottom: -30px;
-    z-index: 1; /* Sit BEHIND the dot */
+    z-index: 1;
 }
 
 /* 3. Content */
-.step-content {
-    display: flex;
-    flex-direction: column;
+
+@media (max-width: 768px) {
+    .step-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .step-name {
@@ -369,7 +361,6 @@
 
 /* --- Active vs Wait Styling --- */
 
-/* Active: Orange Dot, Bold Text */
 .step-active .marker-dot {
     background-color: #e67e22;
     border: 2px solid #e67e22;
@@ -378,13 +369,12 @@
     background-color: #fadbd8;
 }
 
-/* Wait: Hollow Grey Dot, Lighter Text */
 .step-wait .marker-dot {
     background-color: #fff;
     border: 2px solid #aaa;
 }
 .step-wait .marker-line {
-    border-left: 2px dashed #ccc; /* Dashed line for waiting */
+    border-left: 2px dashed #ccc;
     background-color: transparent;
     width: 0;
 }
@@ -393,14 +383,12 @@
     font-weight: normal;
 }
 
-/* Finish Step Styling */
 .step-finish .marker-dot {
-    background-color: #27ae60; /* Green */
+    background-color: #27ae60;
     border: 2px solid #27ae60;
-    /* Optional: Make it slightly larger */
     width: 14px;
     height: 14px;
-    margin-left: -1px; /* Center adjustment if resized */
+    margin-left: -1px;
 }
 
 .step-finish .step-name {
@@ -420,16 +408,14 @@
 }
 
 .component-link {
-    /*color: #d35400; /* Chef's Orange */
     text-decoration: none;
     border-bottom: 1px dotted #333;
     font-weight: 500;
     transition: all 0.2s;
 }
 
-/* Optional: Add a tiny icon after the link */
 .component-link::after {
-    content: " ↗"; /* Unicode arrow */
+    content: " ↗";
     font-size: 0.8em;
     opacity: 0.6;
 }
@@ -438,22 +424,21 @@
     position: fixed;
     background: white;
     border: 1px solid #ccc;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    backdrop-filter: blur(3px); /* Adjust pixel value for desired blur strength */
-    background-color: rgba(255, 255, 255, 0.8); /* White with 15% opacity */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 15px;
     z-index: 1000;
     max-width: 300px;
     border-radius: 8px;
     display: none;
-    pointer-events: none; /* Let clicks pass through */
+    pointer-events: none;
     font-family: "Fira Sans";
 }
+
 #recipe-preview-tooltip ul {
     margin: 5px 0 0 0;
     padding-left: 20px;
     font-size: 0.85em;
     color: #555;
 }
-
-

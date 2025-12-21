@@ -114,15 +114,10 @@ class RecipeGenerator(Generator):
 
         if recipe.ingredients_html:
             ing_soup = BeautifulSoup(recipe.ingredients_html, 'html.parser')
-            # Find all list items (li) and get their text
             recipe.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all('li')]
 
         if recipe.method_html:
             method_soup = BeautifulSoup(recipe.method_html, 'html.parser')
-
-            # FIX: Prioritize List Items (<li>)
-            # Only look for <p> if no <li> tags are found.
-            # This prevents double counting when <li> contains <p>.
 
             steps = method_soup.find_all('li')
 
@@ -137,12 +132,6 @@ class RecipeGenerator(Generator):
 
         if recipe.ingredients_html:
             recipe.ingredients_html = self._apply_scaling_to_html(recipe.ingredients_html)
-
-            # Regex explanation:
-            # \(        -> Look for literal opening parenthesis
-            # [^)]+     -> Match 1 or more characters that are NOT a closing parenthesis
-            # \)        -> Look for literal closing parenthesis
-            # The outer () capture the whole group so we can reference it with \1
             recipe.ingredients_html = re.sub(
                 r"(\([^)]+\))", r'<span class="paren">\1</span>', recipe.ingredients_html
             )

@@ -65,17 +65,10 @@
 <style>
 @media (min-width: 768px) {
     .recipe-ingredients {
-        /* Standard sticky positioning */
-        position: -webkit-sticky; /* Safari support */
+        position: -webkit-sticky;
         position: sticky;
-
-        /* Distance from the top of the viewport */
         top: 20px;
-
-        /* Ensure it doesn't overlap weirdly */
         z-index: 10;
-
-        /* Optional: limit height and scroll internal list if it's too long */
         max-height: calc(100vh - 40px);
         overflow-y: auto;
     }
@@ -146,8 +139,8 @@
                     <div class="step-content">
                         <span class="step-name">{{ step.task }}</span>
                         <span class="step-duration">
-                            {{ step.duration_display }}
-                            {% if step.type == 'wait' %}(Passive){% endif %}
+                            ({{ step.duration_display }})
+                            <!-- {% if step.type == 'wait' %}(Passive){% endif %} -->
                         </span>
                     </div>
                 </div>
@@ -167,11 +160,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // Run once on load to set initial times
-        document.addEventListener('DOMContentLoaded', () => updateTimeline());
-    </script>
     {% endif %}
 
     <div class="recipe-grid">
@@ -196,32 +184,47 @@
 </article>
 
 <script>
-document.querySelectorAll('.recipe-ingredients li').forEach(li => {
-    li.addEventListener('click', () => li.classList.toggle('done'));
+document.addEventListener('DOMContentLoaded', () => {
+    const ingredientContainer = document.querySelector('.recipe-ingredients');
+
+    if (ingredientContainer) {
+        ingredientContainer.addEventListener('click', function(e) {
+            const li = e.target.closest('li');
+
+            // If we didn't click inside an li, or we clicked the container padding, ignore.
+            if (!li) return;
+
+            // check if the user clicked an interactive element
+            if (e.target.closest('a')) {
+                return;
+            }
+
+            li.classList.toggle('done');
+        });
+    }
 });
 </script>
+
 <script>
 function scaleRecipe(multiplier, btnElement) {
-    // 1. Visuals: Update active button state
     document.querySelectorAll('.scale-btn').forEach(btn => {
         btn.classList.remove('active');
     });
     btnElement.classList.add('active');
 
-    // 2. Math: Update Ingredients
     document.querySelectorAll('.scalable').forEach(el => {
         const baseVal = parseFloat(el.dataset.base);
         if (!isNaN(baseVal)) {
             const newVal = baseVal * multiplier;
 
-            // Format nicely: remove trailing zeros (e.g. 2.50 -> 2.5)
+            // Remove trailing zeros (e.g. 2.50 -> 2.5)
             // parseFloat(num.toFixed(2)) handles rounding to 2 decimal places
             // and stripping unnecessary zeros automatically.
             el.innerText = parseFloat(newVal.toFixed(2));
         }
     });
 
-    // 3. Update Servings Badge
+    // update Servings Badge
     const servBadge = document.getElementById('servings-badge');
     const baseServings = parseFloat(servBadge.dataset.original);
     if (!isNaN(baseServings)) {
@@ -236,15 +239,15 @@ document.querySelectorAll('.recipe-method li').forEach(li => {
     li.addEventListener('click', function() {
         const parent = this.parentNode;
 
-        // If clicking the already highlighted item, turn off focus mode
+        // if clicking the already highlighted item, turn off focus mode
         if (this.classList.contains('highlighted')) {
             this.classList.remove('highlighted');
             parent.classList.remove('focus-active');
         } else {
-            // Remove highlight from others
+            // remove highlight from others
             parent.querySelectorAll('li').forEach(el => el.classList.remove('highlighted'));
 
-            // Highlight this one
+            // highlight this one
             this.classList.add('highlighted');
             parent.classList.add('focus-active');
         }
@@ -261,7 +264,6 @@ function updateTimeline() {
     const [startH, startM] = input.value.split(':').map(Number);
     const startTotalMins = (startH * 60) + startM;
 
-    // Update Steps
     const steps = document.querySelectorAll('.timeline-step:not(.step-finish)');
     let lastOffset = 0;
     let lastDuration = 0;
@@ -270,7 +272,6 @@ function updateTimeline() {
         const offset = parseInt(step.dataset.offset);
         const duration = parseInt(step.dataset.duration);
 
-        // Update the displayed time
         const timeDisplay = step.querySelector('.step-time');
         // We use innerHTML because we are adding a <span> tag
         timeDisplay.innerHTML = formatTimeWithDay(startTotalMins, offset);
@@ -279,14 +280,9 @@ function updateTimeline() {
         lastDuration = duration;
     });
 
-    // Update Finish Step
     const finishEl = document.getElementById('visual-finish-time');
     if (finishEl) {
         finishEl.innerHTML = formatTimeWithDay(startTotalMins, lastOffset + lastDuration);
-    }
-    const finishDisp = document.getElementById('finish-time-display');
-    if (finishDisp) {
-        finishDisp.innerHTML = formatTimeWithDay(startTotalMins, lastOffset + lastDuration);
     }
 }
 
@@ -329,51 +325,58 @@ function toggleTimeline() {
     box.classList.toggle('collapsed');
 }
 
+document.addEventListener('DOMContentLoaded', () => updateTimeline());
 </script>
 {% endif %}
 
 <script>
     // Add hover preview for component links
 document.querySelectorAll('.component-link').forEach(link => {
-    link.addEventListener('mouseenter', async function() {
-        // Create tooltip if it doesn't exist
-        let tooltip = document.getElementById('recipe-preview-tooltip');
-        if (!tooltip) {
-            tooltip = document.createElement('div');
-            tooltip.id = 'recipe-preview-tooltip';
-            document.body.appendChild(tooltip);
-        }
+    const isDesktop = window.matchMedia("(pointer: fine)").matches;
 
-        // Position it
-        const rect = this.getBoundingClientRect();
-        tooltip.style.left = `${rect.left}px`;
-        tooltip.style.top = `${rect.bottom + 5}px`;
-        tooltip.style.display = 'block';
-        tooltip.innerHTML = 'Loading...';
+    if (isDesktop) {
+        link.addEventListener('mouseenter', async function() {
+            // Create tooltip if it doesn't exist
+            let tooltip = document.getElementById('recipe-preview-tooltip');
+            if (!tooltip) {
+                tooltip = document.createElement('div');
+                tooltip.id = 'recipe-preview-tooltip';
+                document.body.appendChild(tooltip);
+            }
 
-        // Fetch the linked page
-        try {
-            const response = await fetch(this.href);
-            const text = await response.text();
+            // Position it
+            const rect = this.getBoundingClientRect();
+            tooltip.style.left = `${rect.left}px`;
+            tooltip.style.top = `${rect.bottom + 5}px`;
+            tooltip.style.display = 'block';
+            tooltip.innerHTML = 'Loading...';
 
-            // Parse the response to grab just the ingredients list
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(text, 'text/html');
+            // Fetch the linked page
+            try {
+                const response = await fetch(this.href);
+                const text = await response.text();
 
-            // Assuming your ingredients are in a container with class 'recipe-ingredients'
-            const ingredients = doc.querySelector('.recipe-ingredients ul').innerHTML;
-            const title = doc.querySelector('h1').innerText;
+                // Parse the response to grab just the ingredients list
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
 
-            tooltip.innerHTML = `<strong>${title}</strong><ul>${ingredients}</ul>`;
-        } catch (e) {
-            tooltip.innerHTML = 'Error loading preview.';
-        }
-    });
+                // Assuming your ingredients are in a container with class 'recipe-ingredients'
+                const ingredients = doc.querySelector('.recipe-ingredients ul').innerHTML;
+                const title = doc.querySelector('h1').innerText;
 
-    link.addEventListener('mouseleave', () => {
-        const tooltip = document.getElementById('recipe-preview-tooltip');
-        if (tooltip) tooltip.style.display = 'none';
-    });
+                tooltip.innerHTML = `<strong>${title}</strong><ul>${ingredients}</ul>`;
+            } catch (e) {
+                tooltip.innerHTML = 'Error loading preview.';
+            }
+        });
+
+        link.addEventListener('mouseleave', () => {
+            const tooltip = document.getElementById('recipe-preview-tooltip');
+            if (tooltip) tooltip.style.display = 'none';
+        });
+    } else {
+        console.log("Not a fine pointer device, 'mouseenter' event listener not attached.");
+    }
 });
 </script>
 
