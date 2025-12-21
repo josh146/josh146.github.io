@@ -73,7 +73,7 @@ For braiding the challah, I like to do a 6 strand braid.
 
 ### Baking
 
-1. Preheat the oven to 200°C
+1. Preheat the oven to 200ºC
 
 2. Brush the challah with another layer of egg wash, and sprinkle poppy seeds and flaky salt. Bake
    for 15 minutes before turning the challah around. Bake for another 10-15 minutes

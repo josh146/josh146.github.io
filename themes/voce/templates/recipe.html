@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => updateTimeline());
 {% endif %}
 
 <script>
-    // Add hover preview for component links
+// Add hover preview for component links
 document.querySelectorAll('.component-link').forEach(link => {
     const isDesktop = window.matchMedia("(pointer: fine)").matches;
 
@@ -387,6 +387,167 @@ function extractBackgroundUrl(doc, el) {
     const url = backgroundImage.slice(61, -1).replace(/['"]/g, "");
     return url;
 }
+</script>
+
+<script>
+// Blueprint recipes
+document.addEventListener('DOMContentLoaded', () => {
+    const yamlBlock = document.getElementById('variation-yaml');
+    if (!yamlBlock) return;
+
+    const rawText = yamlBlock.innerText;
+    const variations = {};
+
+    // Split by the separator "---" to get each theme block
+    const blocks = rawText.split('---');
+
+    blocks.forEach(block => {
+        if (!block.trim()) return; // Skip empty blocks
+
+        const currentThemeData = {};
+        let themeName = null;
+
+        // Split by lines
+        const lines = block.trim().split('\n');
+
+        lines.forEach(line => {
+            // Find the first colon to separate Key and Value
+            const separatorIndex = line.indexOf(':');
+            if (separatorIndex === -1) return; // Skip invalid lines
+
+            const key = line.substring(0, separatorIndex).trim();
+            const value = line.substring(separatorIndex + 1).trim();
+
+            if (key === 'Theme') {
+                themeName = value;
+            } else {
+                currentThemeData[key] = value;
+            }
+        });
+
+        if (themeName) {
+            variations[themeName] = currentThemeData;
+        }
+    });
+
+    // build the UI Controls
+    const controlContainer = document.getElementById('variation-controls');
+    controlContainer.innerHTML = '<span class="vibe-label">Choose your Vibe</span>';
+    console.log("here");
+
+    const btnGroup = document.createElement('div');
+    btnGroup.className = 'vibe-buttons';
+
+    // create a "Blueprint" (Reset) button
+    const resetBtn = document.createElement('button');
+    resetBtn.innerText = 'Blueprint';
+    resetBtn.className = 'vibe-btn active';
+    resetBtn.onclick = () => applyVariation(null, resetBtn);
+    btnGroup.appendChild(resetBtn);
+
+    // create buttons for each theme
+    Object.keys(variations).forEach(theme => {
+        const btn = document.createElement('button');
+        btn.innerText = theme;
+        btn.className = 'vibe-btn';
+        btn.onclick = () => applyVariation(theme, btn);
+        btnGroup.appendChild(btn);
+    });
+
+    controlContainer.appendChild(btnGroup);
+
+    let blueprintsInitialized = false;
+
+    function applyVariation(themeName, clickedBtn) {
+        // update Buttons Visual State
+        document.querySelectorAll('.vibe-btn').forEach(b => b.classList.remove('active'));
+        if (clickedBtn) clickedBtn.classList.add('active');
+
+        // Find placeholders in the DOM
+        if (!blueprintsInitialized) {
+            const contentArea = document.querySelector('.recipe-container');
+            if (contentArea) {
+                const walker = document.createTreeWalker(contentArea, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                // split the string so Pelican/Jinja doesn't try to parse it
+                const startBracket = '{' + '{';
+
+                while(node = walker.nextNode()) {
+                    if (node.nodeValue.includes(startBracket)) {
+                        const parent = node.parentNode;
+                        // Save original text if not already saved
+                        if (!parent.hasAttribute('data-blueprint')) {
+                            parent.setAttribute('data-blueprint', node.nodeValue);
+                            parent.classList.add('dynamic-slot');
+                        }
+                    }
+                }
+                blueprintsInitialized = true;
+            }
+        }
+
+        // the update loop
+        const slots = document.querySelectorAll('.dynamic-slot');
+
+        slots.forEach(slot => {
+            let htmlToUpdate = slot.getAttribute('data-blueprint');
+
+            // Reset parent styling (Assume standard item first)
+            if (slot.parentElement && slot.parentElement.tagName === 'LI') {
+                slot.parentElement.classList.remove('is-sublist-parent');
+            }
+
+            // apply defined replacements
+            if (themeName && variations[themeName]) {
+                const replacements = variations[themeName];
+
+                Object.keys(replacements).forEach(key => {
+                    const regex = new RegExp('{' + '{' + key + '}' + '}', 'g');
+                    let value = replacements[key];
+
+                    // If this key exists in the current theme, replace it
+                    if (value) {
+                        if (key.includes('list')) {
+                            // Multi-item List Logic
+                            const items = value.split(';').map(item => `<li>${item.trim()}</li>`).join('');
+                            value = `<ul class="dynamic-sublist">${items}</ul>`;
+
+                        } else {
+                            // Standard Single Item
+                            value = `<strong>${value}</strong>`;
+                        }
+
+                        htmlToUpdate = htmlToUpdate.replace(regex, value);
+                    }
+                });
+            }
+
+            // This handles "Blueprint Mode" AND any missing variables in specific themes
+            const pillRegex = new RegExp('{' + '{([a-zA-Z0-9_]+)}' + '}', 'g');
+
+            htmlToUpdate = htmlToUpdate.replace(pillRegex, (match, key) => {
+                const cleanName = key.replace(/_/g, ' ');
+
+                if (key.includes('list')) {
+                    return `<span class="variable-pill variable-list">${cleanName}</span>`;
+                }
+                return `<span class="variable-pill">${cleanName}</span>`;
+            });
+
+            // parens styling
+            if (slot.closest('ul') || slot.closest('.recipe-ingredients')) {
+                htmlToUpdate = htmlToUpdate.replace(/\(([^)<]+)\)(?![^<]*>)/g, '<span class="paren">($1)</span>');
+                }
+
+            // Render
+            slot.innerHTML = htmlToUpdate;
+            slot.classList.remove('changed');
+            void slot.offsetWidth;
+            slot.classList.add('changed');
+        });
+    }
+applyVariation(null, document.querySelector('.vibe-btn.active'));
+});
 </script>
 
 {% endblock %}

@@ -52,7 +52,7 @@ until not quite doubled in size, 30–60 minutes.
 ### Frying and assembly
 
 1. Fit a large heavy saucepan with thermometer; pour in oil to come 3" up sides and heat over
-medium-high until thermometer registers 340°F/170°C.
+medium-high until thermometer registers 340ºF/170ºC.
 
 2. Working in batches and adjusting heat to maintain oil temperature, fry doughnuts, turning once,
 until golden brown, about 1 minute 30 seconds per side. Transfer to a paper towel–lined baking

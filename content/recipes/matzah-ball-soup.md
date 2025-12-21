@@ -41,7 +41,7 @@ Growing up in Singapore as part of an Iraqi-Jewish community, matzah ball soup w
 
 ### Soup
 
-1. Pre-heat oven to 230°C or 220°C fan-forced. Roast the chicken parts until golden brown, approximately 45-55 minutes.[ref]The step of roasting the chicken bones can be skipped. This will lead to a paler, less 'roasty' chicken soup.[/ref]
+1. Pre-heat oven to 230ºC or 220ºC fan-forced. Roast the chicken parts until golden brown, approximately 45-55 minutes.[ref]The step of roasting the chicken bones can be skipped. This will lead to a paler, less 'roasty' chicken soup.[/ref]
 
 2. Add roasted chicken as well as pan drippings to a stock pot. Add carrots, onion, garlic, parsnip, celery, and peppercorns to the pot. Cover with approximately 3L of water, and simmer for 45 minutes.
 

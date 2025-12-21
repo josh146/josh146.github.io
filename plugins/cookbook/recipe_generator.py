@@ -15,7 +15,7 @@ log = logging.getLogger(__name__)
 
 def fix_string(s):
     s = s.replace("&nbsp;", " ")
-    s = s.replace("\u00A0", " ")
+    s = s.replace("\u00a0", " ")
     s = s.replace("&#8220;", "'")
     s = s.replace("&#8221;", "'")
     s = s.replace("&#8216;", "'")
@@ -62,7 +62,9 @@ class RecipeGenerator(Generator):
                         self._parse_recipe_sections(recipe_item)
 
                         self.recipes.append(recipe_item)
-                        self.recipes_index[fix_string(recipe_item.title.lower())] = f"/{recipe_item.url}"
+                        self.recipes_index[fix_string(recipe_item.title.lower())] = (
+                            f"/{recipe_item.url}"
+                        )
                     except Exception as e:
                         log.error(f"Could not read recipe {filename}: {e}")
 
@@ -85,7 +87,7 @@ class RecipeGenerator(Generator):
         Splits the content into intro, ingredients, method, and notes.
         Stores them as attributes on the recipe object.
         """
-        if hasattr(recipe, 'timeline'):
+        if hasattr(recipe, "timeline"):
             self._parse_timeline(recipe)
 
         soup = BeautifulSoup(recipe._content, "html.parser")
@@ -115,11 +117,11 @@ class RecipeGenerator(Generator):
         # Iterate over all top-level elements
         for tag in soup:
             # Get safe tag name
-            tag_name = getattr(tag, 'name', None)
+            tag_name = getattr(tag, "name", None)
 
             # check for Section Headers
-            if tag_name == 'h2':
-                header_text = tag.get_text().strip().lower().rstrip(':')
+            if tag_name == "h2":
+                header_text = tag.get_text().strip().lower().rstrip(":")
                 if header_text in section_map:
                     current_section = section_map[header_text]
                     continue
@@ -129,17 +131,17 @@ class RecipeGenerator(Generator):
             setattr(recipe, current_section, getattr(recipe, current_section) + str(tag))
 
         if recipe.ingredients_html:
-            ing_soup = BeautifulSoup(recipe.ingredients_html, 'html.parser')
-            recipe.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all('li')]
+            ing_soup = BeautifulSoup(recipe.ingredients_html, "html.parser")
+            recipe.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all("li")]
 
         if recipe.method_html:
-            method_soup = BeautifulSoup(recipe.method_html, 'html.parser')
+            method_soup = BeautifulSoup(recipe.method_html, "html.parser")
 
-            steps = method_soup.find_all('li')
+            steps = method_soup.find_all("li")
 
             if not steps:
                 # Fallback: If the user didn't use a list, look for paragraphs
-                steps = method_soup.find_all('p')
+                steps = method_soup.find_all("p")
 
             recipe.instructions_list = [s.get_text().strip() for s in steps]
 
@@ -167,7 +169,7 @@ class RecipeGenerator(Generator):
         label = ""
 
         # Check for Days
-        days = re.search(r'(\d+)\s*d', duration_str)
+        days = re.search(r"(\d+)\s*d", duration_str)
         if days:
             d = int(days.group(1))
             total_mins += d * 24 * 60
@@ -178,7 +180,7 @@ class RecipeGenerator(Generator):
                 label += f"{d} days "
 
         # Check for Hours
-        hours = re.search(r'(\d+)\s*h', duration_str)
+        hours = re.search(r"(\d+)\s*h", duration_str)
         if hours:
             h = int(hours.group(1))
             total_mins += h * 60
@@ -189,7 +191,7 @@ class RecipeGenerator(Generator):
                 label += f"{h} hours "
 
         # Check for Minutes
-        mins = re.search(r'(\d+)\s*m', duration_str)
+        mins = re.search(r"(\d+)\s*m", duration_str)
         if mins:
             m = int(mins.group(1))
             total_mins += m
@@ -208,7 +210,7 @@ class RecipeGenerator(Generator):
         raw_string = str(recipe.timeline)
 
         # Split into individual steps
-        steps = raw_string.split(';')
+        steps = raw_string.split(";")
 
         for item in steps:
             # Skip empty items (e.g. if there is a trailing semicolon)
@@ -217,7 +219,7 @@ class RecipeGenerator(Generator):
 
             try:
                 # Expected format: "Task | Duration | Type"
-                parts = [p.strip() for p in item.split('|')]
+                parts = [p.strip() for p in item.split("|")]
 
                 task_name = parts[0]
 
@@ -225,16 +227,18 @@ class RecipeGenerator(Generator):
                 duration_mins, label = RecipeGenerator._parse_duration_string(duration_str)
 
                 # Default to 'active' if type is missing
-                step_type = parts[2].lower() if len(parts) > 2 else 'active'
+                step_type = parts[2].lower() if len(parts) > 2 else "active"
 
-                parsed_timeline.append({
-                    'task': task_name,
-                    'duration': duration_mins,
-                    'duration_display': label, # Keep original text for display
-                    'type': step_type,
-                    'start_offset': current_offset,
-                    'end_offset': current_offset + duration_mins
-                })
+                parsed_timeline.append(
+                    {
+                        "task": task_name,
+                        "duration": duration_mins,
+                        "duration_display": label,  # Keep original text for display
+                        "type": step_type,
+                        "start_offset": current_offset,
+                        "end_offset": current_offset + duration_mins,
+                    }
+                )
 
                 current_offset += duration_mins
 
@@ -253,7 +257,7 @@ class RecipeGenerator(Generator):
         # (.*?)      Group 1: The 'Key' (Recipe Title) - non-greedy
         # (?:\|(.*?))? Group 2: Optional 'Display Text' (after |)
         # \]\]       Match closing ]]
-        pattern = re.compile(r'\[\[(.*?)(?:\|(.*?))?\]\]')
+        pattern = re.compile(r"\[\[(.*?)(?:\|(.*?))?\]\]")
 
         def replace_match(match):
             key = match.group(1).strip()
@@ -279,30 +283,29 @@ class RecipeGenerator(Generator):
         """
         Parses HTML, finds numbers in text nodes, and wraps them in spans.
         """
-        soup = BeautifulSoup(html_content, 'html.parser')
-        number_pattern = re.compile(r'(?<!\w)(\d+(?:[./]\d+)?)')
+        soup = BeautifulSoup(html_content, "html.parser")
+        number_pattern = re.compile(r"(?<!\w)(\d+(?:[./]\d+)?)")
 
         for text_node in soup.find_all(string=True):
             # Skip numbers inside links, existing spans, or scripts
-            if text_node.parent.name in ['a', 'script', 'style', 'sup']:
+            if text_node.parent.name in ["a", "script", "style", "sup"]:
                 continue
 
             # If we find a number, replace it
             if number_pattern.search(text_node):
                 new_html = number_pattern.sub(
-                    lambda m: self._make_scalable_span(m.group(0)),
-                    text_node
+                    lambda m: self._make_scalable_span(m.group(0)), text_node
                 )
                 # Replace the text node with the new HTML structure
-                text_node.replace_with(BeautifulSoup(new_html, 'html.parser'))
+                text_node.replace_with(BeautifulSoup(new_html, "html.parser"))
 
         return str(soup)
 
     def _make_scalable_span(self, val_str):
         """Helper to create the HTML for the scalable number"""
         try:
-            if '/' in val_str:
-                num, den = val_str.split('/')
+            if "/" in val_str:
+                num, den = val_str.split("/")
                 base_val = float(num) / float(den)
             else:
                 base_val = float(val_str)

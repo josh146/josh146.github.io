@@ -22,7 +22,7 @@ A hanukkah staple, latkes are delicious almost any time of the year.
 
 ## Instructions
 
-1. Heat the oven and fit one baking sheet with paper towels and another with a cooling rack. Arrange a rack in the middle of the oven and heat to 100°C. Line 1 rimmed baking sheet with a double layer of paper towels. Fit a wire cooling rack into another baking sheet. Set both aside.
+1. Heat the oven and fit one baking sheet with paper towels and another with a cooling rack. Arrange a rack in the middle of the oven and heat to 100ºC. Line 1 rimmed baking sheet with a double layer of paper towels. Fit a wire cooling rack into another baking sheet. Set both aside.
 
 2. Peel the potatoes, then grate the potatoes and onion.
 
@@ -42,7 +42,7 @@ A hanukkah staple, latkes are delicious almost any time of the year.
 
 ## Notes
 
-* Make ahead: Latkes are best made and served right away. They can be fried and kept warm in a 200°F oven for up to 30 minutes.
+* Make ahead: Latkes are best made and served right away. They can be fried and kept warm in a 200ºF oven for up to 30 minutes.
 
-* Storage: Refrigerate leftovers in an airtight container and recrisp in a 150°C for 5 to 10 minutes. Keep a close eye on the latkes when reheating so they do not burn.
+* Storage: Refrigerate leftovers in an airtight container and recrisp in a 150ºC for 5 to 10 minutes. Keep a close eye on the latkes when reheating so they do not burn.
 

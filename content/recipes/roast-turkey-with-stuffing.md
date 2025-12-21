@@ -10,7 +10,7 @@ Timeline_Start: 21:00
 Sticky: true
 
 Growing up, we would always roast a turkey for Christmas day lunch (typically one of the hottest
-days of the year in Perth, frequently over 40°C). I've tried **so many ways** to roast a whole
+days of the year in Perth, frequently over 40ºC). I've tried **so many ways** to roast a whole
 turkey and keep the breast meat moist --- dry brine, wet brine, butter under the skin, tray of
 water in the oven, etc. --- and except for one year (where I didn't put in any effort so have no
 idea what went right), I was never satisfied.
@@ -101,15 +101,15 @@ salt, pepper, olive oil, and a squeeze of lemon/lemon zest to taste.
 
 ### Roasting the turkey
 
-1. Preheat the oven to 230°C.
+1. Preheat the oven to 230ºC.
 
 2. Place the stuffing in a baking tray, and place a wire rack directly on top of the stuffing with
 the turkey on top. Optionally, poor a little water, stock, or white wine into the baking tray to stop the
 stuffing and drippings from burning.
 
 3. Transfer turkey to oven and roast, rotating occasionally, until an instant read thermometer
-inserted into the deepest part of the breast registers 150°F (66°C), and the thighs register at
-least 165°F (74°C), about 60-80 minutes depending on the size of the turkey. As a rough rule of
+inserted into the deepest part of the breast registers 150ºF (66ºC), and the thighs register at
+least 165ºF (74ºC), about 60-80 minutes depending on the size of the turkey. As a rough rule of
 thumb, 10 minutes per 500g.
 
 4. When turkey is cooked, remove from oven and transfer rack to a new baking sheet, and move the
@@ -142,5 +142,5 @@ The turkey should require approximate 20-25 minutes per 500g, working out to abo
 5.2kg turkey. Every hour or so, take the turkey out and baste it with the pan drippings. If the
 drippings start drying out, add a bit of stock to the pan. For the last 40-45 minutes, remove the
 foil and the baking tray of water to crisp up the skin (can also turn up the temperature to
-200°C).
+200ºC).
 

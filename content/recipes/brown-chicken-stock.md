@@ -26,7 +26,7 @@ into 1 and 2 cup servings and freeze for later. Adapted from [Serious Eats](http
 
 ## Instructions
 
-1. Preheat oven to 200°C with rack set in middle position. Lightly coat all the chicken parts with
+1. Preheat oven to 200ºC with rack set in middle position. Lightly coat all the chicken parts with
 oil and arrange in an even layer on a rimmed baking sheet or in a roasting pan. Roast, turning
 bones once or twice, until beginning to turn golden brown, about 30 minutes.
 
