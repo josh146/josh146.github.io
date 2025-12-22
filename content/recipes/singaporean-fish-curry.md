@@ -8,7 +8,7 @@ Image: /images/recipes/fish-curry.jpg
 
 I have fond memories of eating fish curry from the [Banana Leaf Apolo](https://www.instagram.com/thebananaleafapolo/?hl=en) in Singapore, where we would all go out as a family for Sunday lunch and feast on fish head curry served on a banana leaf. Us kids would be both freaked out by the fish heads, but at the same time fight over the delicacies of the fish eyes. Adapted from [Nyonya Cooking](https://www.nyonyacooking.com/recipes/fish-head-curry~HyPIdPjvf5-Q).
 
-The curry sauce also goes great with roti prata, especially for breakfast.
+The curry sauce also goes great with [[roti prata]], especially for breakfast.
 
 ## Ingredients
 

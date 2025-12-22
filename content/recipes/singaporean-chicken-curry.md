@@ -6,7 +6,7 @@ Time: 2 hours
 Servings: 4-5 servings
 Image: /images/recipes/chicken-curry.jpg
 
-A comfort food, this Singaporean chicken curry is uniquely different to standard Indian curries -- spicer and soupier, with use of aromatics like lemongrass and galangal. Usually eaten with white jasmine rice, but can also be eaten with roti prata.
+A comfort food, this Singaporean chicken curry is uniquely different to standard Indian curries -- spicer and soupier, with use of aromatics like lemongrass and galangal. Usually eaten with white jasmine rice, but can also be eaten with [[roti prata]].
 
 ## Ingredients
 
