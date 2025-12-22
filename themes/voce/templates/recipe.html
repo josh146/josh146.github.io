@@ -511,6 +511,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             // Multi-item List Logic
                             const items = value.split(';').map(item => `<li>${item.trim()}</li>`).join('');
                             value = `<ul class="dynamic-sublist">${items}</ul>`;
+                        } else if (key.includes('step')) {
+                            // step logic
+                            value = `<ol class="dynamic-sublist"><li><strong>${value}</strong></li></ol>`;
 
                         } else {
                             // Standard Single Item
@@ -528,7 +531,7 @@ document.addEventListener('DOMContentLoaded', () => {
             htmlToUpdate = htmlToUpdate.replace(pillRegex, (match, key) => {
                 const cleanName = key.replace(/_/g, ' ');
 
-                if (key.includes('list')) {
+                if (key.includes('list') || key.includes('step')) {
                     return `<span class="variable-pill variable-list">${cleanName}</span>`;
                 }
                 return `<span class="variable-pill">${cleanName}</span>`;

@@ -134,6 +134,30 @@
     position: relative;
 }
 
+.recipe-method {
+    counter-reset: step-counter;
+}
+/* 2. Target the OLs inside that specific container */
+.recipe-method ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* 3. Increment on list items inside that container */
+.recipe-method ol li {
+  counter-increment: step-counter;
+  position: relative;
+  padding-left: 2em; /* Spacing for the number */
+  margin-bottom: 0.5em;
+}
+
+/* 4. Display the number */
+.recipe-method ol li::before {
+  content: counter(step-counter) ". ";
+  position: absolute;
+  left: 0;
+}
+
 .recipe-notes {
     border-top: 2px solid #e9ecef;
 }
