@@ -19,7 +19,6 @@ I've also included some riffs on the blueprint. Some of my own design (biriyani 
 ## Ingredients
 
 * 1kg bone-in, skin-on chicken thighs
-* 300g **{{rice}}**
 * 550ml boiling water (or [[chicken stock]])
 
 ### Marinade
@@ -34,12 +33,11 @@ Aromatics can include onion, celery, carrots, ginger, spring onion, etc.
 
 {{aromatic_list}}
 
-### Rice mixins
+### Rice and mixins
 
-{{mixins_list}}
+* 300g **{{rice}}**
 
-* 1 tsp salt
-* 1 tsp pepper
+{{rice_and_mixins_list}}
 
 ### Garnishes
 
@@ -52,32 +50,34 @@ Fresh herbs and other garnishes to add after cooking the rice.
 Theme: Cardamom and onion
 rice: basmati rice
 
-marinade: olive oil, cardamom, cloves, and cinnamon sticks,
-marinade_list: 30ml olive oil (2 tbsp); 10 cardamom pods; 1/3 tsp whole cloves; 2 long cinnamon sticks, broken in two
+marinade: olive oil, cardamom, cloves, cinnamon sticks, salt, and pepper
+marinade_list: 30ml olive oil (2 tbsp); 10 cardamom pods; 1/3 tsp whole cloves; 2 long cinnamon sticks, broken in two; 1.5 tsp salt; 1.5 tsp pepper
 
-mixins: currents
-mixins_list: 25g currents
+rice_and_mixins: rice, currents, 1 tsp salt, and plenty of black pepper
+rice_and_mixins_list: 25g currents
 
 aromatics: sliced onions
 aromatic_list: 2 onions (sliced); 30ml olive oil (2 tbsp)
 
 garnish_list: 5g coriander; 5g dill
+garnishes: coriander and dill
 
 ---
 
 Theme: Biriyani
 rice: basmati rice
 
-marinade: mustard oil, minced ginger and garlic, kashmiri chilli powder, and spices,
-marinade_list: 1 tsp mustard oil; 1 inch ginger (grated); 4 garlic cloves (grated); 1 tbsp kashmiri chilli powder; 1 tbsp garam masala; 1 tbsp cumin; 1 tbsp coriander; juice of 1 lemon
+marinade: mustard oil, minced ginger and garlic, kashmiri chilli powder, salt, and spices,
+marinade_list: 1 tsp mustard oil; 1 inch ginger (grated); 4 garlic cloves (grated); 1 tbsp kashmiri chilli powder; 1 tbsp garam masala; 1 tbsp cumin; 1 tbsp coriander; juice of 1 lemon; 1.5 tsp salt
 
 aromatic_list: 50g butter or oil; 1 red onion (finely diced); 1 inch ginger (grated); 4 cloves garlic (grated); 1 tomato (finely diced); 1 tsp garam masala; 1 tsp tumeric
 aromatics: onion, ginger and garlic mixture, tomato, and spices,
 
-mixins: crispy fried onions
-mixins_list: crispy fried onions
+rice_and_mixins: rice, crispy fried onions, 1 tsp salt, and plenty of black pepper
+rice_and_mixins_list: crispy fried onions; 1 tsp salt; Pepper
 
 garnish_list: 5g coriander; 5g mint
+garnishes: coriander and mint
 
 ---
 
@@ -87,8 +87,8 @@ rice: jasmine rice
 marinade: soy sauce, sesame oil, ginger, and garlic,
 marinade_list: 1 tbsp soy sauce; 1 tbsp sesame oil; 1 inch ginger (grated); 1 inch garlic (grated)
 
-mixins: soy sauce, sesame oil
-mixins_list: 1 tsp soy sauce; 1 tsp sesame oil
+rice_and_mixins: soy sauce and sesame oil
+rice_and_mixins_list: 1 tsp soy sauce; 1 tsp sesame oil
 
 aromatics: chicken fat, shallots, lemongrass, ginger, and garlic,
 aromatic_list: 1 tbsp chicken fat (optional); 3 shallots (diced); 4 garlic cloves (grated); 1 inch ginger (grated); 2 lemongrass (thinly sliced)
@@ -99,16 +99,17 @@ garnish_list: 5g coriander; 5g spring onion (green part, thinly sliced); 1 tbsp 
 Theme: Lemon and oregano
 rice: basmati rice
 
-marinade: ginger, garlic, lemon juice, lemon zest, and oregano,
-marinade_list: 4 garlic cloves (grated); 1 tbsp dried oregano; 60 ml lemon juice (2 lemons); zest of 2 lemons
+marinade: ginger, garlic, lemon juice, lemon zest, salt, pepper, and oregano,
+marinade_list: 4 garlic cloves (grated); 1 tbsp dried oregano; 60 ml lemon juice (2 lemons); zest of 2 lemons; 1.5 tsp salt; 1.5 tsp pepper
 
-mixins: oregano, remaining marinade
-mixins_list: 1 tbsp dried oregano
+rice_and_mixins: oregano, remaining marinade, 1 tsp salt, and plenty of black pepper
+rice_and_mixins_list: 1 tbsp dried oregano; 1 tsp salt; Pepper
 
 aromatics: onion
 aromatic_list: 1 onion (finely diced)
 
 garnish_list: oregano leaves; lemon slices (pan fried and charred)
+garnishes: oregano and lemon slices
 
 </pre>
 
@@ -125,7 +126,7 @@ remaining oil as well, leaving just a millimetre at the bottom.
 
 3. Add the {{aromatics}} to the pan, and fry until softened and fragrant.
 
-4. Add the rice, {{mixins}}, 1 teaspoon of salt, and plenty of black pepper. Stir
+4. Add the {{rice_and_mixins}}. Stir
 well and return the seared chicken and push into the rice.
 
 5. Pour the 550 ml boiling water over the rice and chicken, cover the pan, and cook on a very low

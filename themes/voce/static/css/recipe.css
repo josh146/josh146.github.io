@@ -137,6 +137,7 @@
 .recipe-method {
     counter-reset: step-counter;
 }
+
 /* 2. Target the OLs inside that specific container */
 .recipe-method ol {
   list-style: none;
@@ -148,7 +149,7 @@
   counter-increment: step-counter;
   position: relative;
   padding-left: 2em; /* Spacing for the number */
-  margin-bottom: 0.5em;
+  margin-bottom: 30px;
 }
 
 /* 4. Display the number */
@@ -156,6 +157,7 @@
   content: counter(step-counter) ". ";
   position: absolute;
   left: 0;
+  padding-left: 10px;
 }
 
 .recipe-notes {
