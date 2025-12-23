@@ -113,7 +113,9 @@ You can also provide pre-populated template variations as well.
   vegatable_list: 500g assorted mushrooms; 4 large shallots (roughly chopped); 12-15 garlic cloves; 20g thyme (roughly chopped)
   </pre>
 
-  Variables ending with `_list` are semi-colon separated lists, and will be rendered as a bullet
+- Variables ending with `_list` are semi-colon separated lists, and will be rendered as a bullet
   point list. This is useful for adding ingredients to the variations. Note that list variables are
   not rendered as part of the default blueprint view.
 
+- Variables ending with `_step` are steps in the method, and will be rendered as a numbered list item. This is useful for adding additional steps to the method. Note that step variables are
+  not rendered as part of the default blueprint view.
