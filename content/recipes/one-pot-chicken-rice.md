@@ -129,8 +129,7 @@ remaining oil as well, leaving just a millimetre at the bottom.
 well and return the seared chicken and push into the rice.
 
 5. Pour the 550 ml boiling water over the rice and chicken, cover the pan, and cook on a very low
-heat for 30 minutes. Take the pan off the heat, remove the lid, and quickly place a clean tea towel
-over the pan and seal again with the lid. Leave the dish undisturbed for another 10 minutes.
+heat for 30 minutes. Take the pan off the heat, and eave the dish undisturbed for another 10 minutes.
 
 6. Finally, add the {{garnishes}} and use a fork to stir them in and fluff up the rice. Taste and
 add more salt and pepper if needed. Serve hot or warm.
