@@ -13,15 +13,7 @@ I love an extra tart lemon or lime tart, so I lean towards curd-based citrus tar
 
 * 1 blind-baked [[Pâte Sablée]] tart shell.
 
-### Lime curd
-
-* 115g unsalted butter (cut into 1cm cubes)
-* 180ml freshly-squeezed lime juice (about 5-6 limes)
-* 140g sugar
-* zest of two limes, unsprayed (see Note)
-* pinch of salt
-* 3 large egg yolks
-* 3 large eggs
+[[Component: lime curd]]
 
 [[Component: swiss meringue]]
 
@@ -29,21 +21,9 @@ I love an extra tart lemon or lime tart, so I lean towards curd-based citrus tar
 
 1. Preheat the oven to 180ºC.
 
-### Lime curd
+[[Component: lime curd]]
 
-1. In a glass bowl over a saucepan filled with simmering water, warm the butter, lime juice, sugar,
-zest, and salt.
-
-1. In a separate bowl, whisk together the eggs and the yolks.
-
-1. When the butter has melted and the mixture is warm, gradually pour some of the warm lime juice
-mixture into the eggs, whisking constantly. Scrape the warmed eggs back into the double boiler and
-cook the mixture over low heat.
-
-1. Stir the mixture constantly over low heat, using the whisk, until the filling thickens and begins
-to resemble soft jelly. Do not let it boil.
-
-1. Remove from heat and scrape the filling into the pre-baked tart shell, and bake for 10 minutes.
+1. Pour the curd into the pre-baked tart shell, and bake for 10 minutes.
 
 [[Component: swiss meringue]]
 

@@ -37,7 +37,11 @@
                 {% if recipe.image %}
                 <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
                 {% else %}
-                <div class="no-image">🍳</div>
+                    {% if recipe.category == "Pastry and dessert" %}
+                <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
+                    {% else %}
+                <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
+                    {% endif %}
                 {% endif %}
             </div>
 
