@@ -1106,6 +1106,7 @@ ninja-keys {
     --ninja-accent-color: #d35400; /* Your recipe theme orange */
     --ninja-font-family: 'DM Mono', sans-serif;
     --ninja-z-index: 9999;
+    --ninja-overflow-background: rgba(65, 65, 65, 0.5);
 }
 
 
