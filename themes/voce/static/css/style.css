@@ -1114,4 +1114,7 @@ ninja-keys {
     --ninja-top: 70px;
     --ninja-actions-height: 100%;
   }
+  ninja-keys::part(actions-list) {
+    height: 100vh;
+  }
 }
