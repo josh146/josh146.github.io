@@ -25,8 +25,8 @@ is based on [Stella Parks fresh-fruit ice cream swirl recipe](https://www.seriou
 
 * 225g frozen blueberries
 * 170g sugar
-* 1/4 teaspoon (1g) kosher salt
-* 1/2 teaspoon orange blossom water (or other aromatics, such as vanilla essence, almond extract, rose water, or orange blossom water)[ref]Aromatic ingredients amplify the blueberry's aroma, offsetting the muting effects of freezing temperatures.[/ref].
+* 1/4 tsp (1g) kosher salt
+* 1/2 tsp orange blossom water (or other aromatics, such as vanilla essence, almond extract, rose water, or orange blossom water)[ref]Aromatic ingredients amplify the blueberry's aroma, offsetting the muting effects of freezing temperatures.[/ref].
 
 **Ice cream base**
 

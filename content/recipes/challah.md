@@ -1,4 +1,5 @@
 Title: Challah
+Slug: challah
 Date: 2025-12-17
 Category: Bread
 Servings: One large loaf, or two small loaves.
@@ -20,7 +21,7 @@ A light and extremely fluffy challah recipe.
 * 1 large egg yolk
 * 78g oil (either olive oil or a neutral oil)
 * 1 tsp kosher salt
-* 2-3 cups of bread flour
+* 2-3 cups of bread flour (approximately 375g)
 
 ### Toppings
 
