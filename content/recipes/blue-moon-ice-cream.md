@@ -1,6 +1,6 @@
 Title: Blue Moon Ice Cream
 Date: 2025-12-22
-Category: Pastry and dessert
+Category: Ice cream
 Slug: blue-moon-ice-cream
 Time: 1 hour
 Servings: 1L of ice cream and 1/2 a cup of blueberry syrup

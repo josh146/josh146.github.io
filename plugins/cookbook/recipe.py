@@ -80,6 +80,9 @@ class Recipe(Page):
         if self.method_html:
             self._parse_method()
 
+        if hasattr(self, "servings"):
+            self.servings_html = Recipe._apply_scaling_to_html(self.servings)
+
     def _parse_ingredients(self):
         ing_soup = BeautifulSoup(self.ingredients_html, "html.parser")
         self.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all("li")]

@@ -96,7 +96,7 @@
                 <span>TIME</span><span>{{ page.time }}</span>
             {% endif %}
             {% if page.servings %}
-                <span>MAKES</span><span id="servings-badge" data-original="{{ page.servings }}">{{ page.servings }}</span>
+                <span>MAKES</span><span id="servings-badge" data-original="{{ page.servings }}">{{ page.servings_html }}</span>
                 <span class="scale-label">PORTION</span>
                 <div class="scale-controls">
                     <a class="scale-btn" onclick="scaleRecipe(0.5, this)">0.5x</a>
@@ -224,13 +224,21 @@ function scaleRecipe(multiplier, btnElement) {
         }
     });
 
+
     // update Servings Badge
     const servBadge = document.getElementById('servings-badge');
-    const baseServings = parseFloat(servBadge.dataset.original);
-    if (!isNaN(baseServings)) {
-        // Round to nearest whole number for servings
-        servBadge.innerText = Math.round(baseServings * multiplier);
-    }
+    servBadge.querySelectorAll('.scalable').forEach(el => {
+        const baseVal = parseFloat(el.dataset.base);
+        if (!isNaN(baseVal)) {
+            const newVal = baseVal * multiplier;
+
+            // Remove trailing zeros (e.g. 2.50 -> 2.5)
+            // parseFloat(num.toFixed(2)) handles rounding to 2 decimal places
+            // and stripping unnecessary zeros automatically.
+            el.innerText = parseFloat(newVal.toFixed(2));
+        }
+
+    });
 }
 </script>
 
@@ -368,7 +376,8 @@ document.querySelectorAll('.component-link').forEach(link => {
                 tooltip.innerHTML = `<strong>${title}</strong><img src=${imageURL} />`;
                 // tooltip.innerHTML = `<strong>${title}</strong><img src=${imageURL} /><ul>${ingredients}</ul>`;
             } catch (e) {
-                tooltip.innerHTML = 'Error loading preview.';
+                tooltip.style.display = 'none';
+                console.log('Error loading preview.');
             }
         });
 
