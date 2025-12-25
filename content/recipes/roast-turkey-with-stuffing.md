@@ -27,7 +27,7 @@ The recipe below is an amalgamation of a few recipes:
 - The stuffing is a recipe from my grandmother, with the addition of [[hainanese chicken rice | chicken rice ginger sauce ]] coming from my mum (her favourite umami bomb).
 
 Spatchcocking the turkey lead to a dilemma, where do we put the stuffing? It came out perfectly
-delicious simply placing it underneath the spatchcocked turkey.
+delicious simply placing it underneath the spatchcocked turkey. Serve alongside [[roast potatoes]] and cranberry sauce.
 
 ## Ingredients
 
