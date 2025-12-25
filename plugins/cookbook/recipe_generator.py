@@ -119,6 +119,7 @@ def generate_search_index(generators):
 
     # write to output/search.json
     output_path = os.path.join(article_generator.output_path, "search.json")
+    os.makedirs(article_generator.output_path, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(search_data, f)
 
