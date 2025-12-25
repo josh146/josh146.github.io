@@ -45,6 +45,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ninja-keys?module"></script>
+  <ninja-keys placeholder="Search..."></ninja-keys>
 {% endblock %}
 
 
@@ -157,6 +160,7 @@
                {% for name, link in SOCIAL %}
                 {{ display_link(name, link, "") }}
                {% endfor %}
+               <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a>
               </div>
             </div>
           </div>
@@ -240,6 +244,44 @@
     })
   </script>
   {% endif %}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const ninja = document.querySelector('ninja-keys');
+
+        if (ninja) {
+            // 1. Load your JSON index
+            fetch('/search.json')
+                .then(response => response.json())
+                .then(data => {
+                    // 2. Transform into Ninja Keys format
+                    const menuItems = data.map(item => ({
+                        id: item.url,
+                        title: item.title,
+                        section: item.type, // Groups results by 'Recipe' vs 'Page'
+                        keywords: item.keywords,
+                        handler: () => {
+                            window.location.href = item.url;
+                        }
+                    }));
+
+                    // 3. Add static actions (Optional)
+                    // e.g., Dark Mode toggle, Home button
+                    menuItems.push({
+                        id: 'home',
+                        title: 'Go to Home',
+                        section: 'Navigation',
+                        hotkey: 'cmd+h',
+                        handler: () => { window.location.href = '/'; }
+                    });
+
+                    // 4. Give data to Ninja Keys
+                    ninja.data = menuItems;
+                })
+                .catch(err => console.error("Failed to load search index:", err));
+        }
+    });
+  </script>
 
 
   {% endblock scripts %}

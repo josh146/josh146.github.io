@@ -1,4 +1,5 @@
 Title: Yellow rice
+Slug: yellow-rice
 Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish
 Servings: 4-6 servings

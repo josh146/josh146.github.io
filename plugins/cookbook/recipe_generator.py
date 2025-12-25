@@ -1,7 +1,9 @@
 import os
 import logging
-from pelican.generators import Generator
+from pelican.generators import Generator, ArticlesGenerator, PagesGenerator
 from pelican import signals
+import json
+
 from jinja2 import Template
 import re
 from bs4 import BeautifulSoup
@@ -68,9 +70,63 @@ class RecipeGenerator(Generator):
             )
 
 
+def generate_search_index(generators):
+    """
+    Generates a JSON file containing all recipes and pages for the search palette.
+    """
+    article_generator = next((g for g in generators if isinstance(g, ArticlesGenerator)), None)
+    page_generator = next((g for g in generators if isinstance(g, PagesGenerator)), None)
+    recipe_generator = next((g for g in generators if isinstance(g, RecipeGenerator)), None)
+
+    if not article_generator:
+        return
+
+    search_data = []
+
+    # add Pages
+    if page_generator:
+        for page in page_generator.pages:
+            if page.title != "hello.":
+                search_data.append(
+                    {"title": fix_string(page.title), "url": f"/{page.url}", "type": "Pages"}
+                )
+
+    search_data += [{"title": "Posts.", "url": "/posts", "type": "Pages"}]
+
+    # add Recipe
+    for recipe in recipe_generator.recipes:
+        search_data.append(
+            {
+                "title": fix_string(recipe.title),
+                "url": f"/{recipe.url}",
+                "type": "Recipes",
+                "keywords": f"{recipe.category}" + " ".join([t.name for t in getattr(recipe, "tags", [])]),
+            }
+        )
+
+    # add articles
+    for article in article_generator.articles:
+        # We assume anything in the 'Recipes' category or with type='recipe' is a recipe
+
+        search_data.append(
+            {
+                "title": fix_string(article.title),
+                "url": f"/{article.url}",
+                "type": "Articles",
+                "keywords": " ".join([t.name for t in getattr(article, "tags", [])]),
+            }
+        )
+
+    # write to output/search.json
+    output_path = os.path.join(article_generator.output_path, "search.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(search_data, f)
+
+
 def get_generators(pelican_object):
     return RecipeGenerator
 
 
 def register():
     signals.get_generators.connect(get_generators)
+    signals.all_generators_finalized.connect(generate_search_index)

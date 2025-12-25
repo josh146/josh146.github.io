@@ -1101,3 +1101,17 @@ p img{
 .simple-footnotes li {
   margin-bottom: 20px;
 }
+
+ninja-keys {
+    --ninja-accent-color: #d35400; /* Your recipe theme orange */
+    --ninja-font-family: 'DM Mono', sans-serif;
+    --ninja-z-index: 9999;
+}
+
+
+@media (max-width: 768px) {
+  ninja-keys {
+    --ninja-top: 70px;
+    --ninja-actions-height: 100%;
+  }
+}

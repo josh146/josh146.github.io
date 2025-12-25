@@ -1,1 +1,1 @@
-from .recipe_generator import register
+from .recipe_generator import register, RecipeGenerator
