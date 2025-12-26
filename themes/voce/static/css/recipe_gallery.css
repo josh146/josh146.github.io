@@ -4,9 +4,7 @@ h2.recipe-category {
 }
 
 .recipe-list {
-    columns: 2;
-    padding-left: 150px;
-    padding-right: 150px;
+    columns: 3;
 }
 
 @media (max-width: 768px) {
