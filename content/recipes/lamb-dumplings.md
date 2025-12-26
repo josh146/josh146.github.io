@@ -1,11 +1,15 @@
 Title: Lamb dumplings
-Date: 2025-12-19
+Date: 2025-12-26
 Category: Chinese
 Slug: lamb-dumplings
 Time: 2 hours
 Servings: 48-50 dumplings
 Image: /images/recipes/lamb-dumplings2.jpg
 Sticky: true
+
+My favourite dumpling restaurant in Perth, [Mom Dumpling House](https://www.momdumplinghouse.com/), is renowned for their north-eastern Chinese dumplings. After moving to Toronto, I began to miss this style of dumpling (Cantonese-style dumplings are much more common there!).
+
+This is my attempt to recreate their lamb dumplings.
 
 ## Ingredients
 
@@ -28,6 +32,8 @@ Sticky: true
 [[Component: dumpling wrappers]]
 
 ## Instructions
+
+### Filling
 
 1. Combine all of the ingredients in a large bowl, mixing thoroughly with your hands or a wooden
 spoon. Let the filling rest for thirty minutes before using to fully allow the meat to develop its

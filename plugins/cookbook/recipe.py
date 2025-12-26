@@ -317,7 +317,9 @@ class RecipePostProcessor:
         """
         # Regex to find [[Component: title]], optionally wrapped in <p> tags by Markdown
         # Capture groups: 1=Opening <p>, 2=title, 3=Closing </p>
-        tag_pattern = re.compile(r"(<p>\s*)?\[\[Component: (.*?)\]\](\s*<\/p>)?", re.IGNORECASE)
+        # tag_pattern = re.compile(r"(<p>\s*)?\[\[Component: (.*?)\]\](\s*<\/p>)?", re.IGNORECASE)
+        tag_pattern = re.compile(r'(<p>\s*)?\[\[Component: (.*?)(?:\s*\|\s*([\w\s-]+))?\]\](\s*<\/p>)?', re.IGNORECASE)
+        tag_pattern = re.compile(r'(<p>\s*)?\[\[Component: (.*?)(?:\s*\|\s*(.*?))?\]\](\s*<\/p>)?', re.IGNORECASE)
 
         # process Ingredients and Method separately
         for section_attr in ["ingredients_html", "method_html"]:
@@ -348,13 +350,52 @@ class RecipePostProcessor:
                         return ""
 
                     if component_recipe:
+                        raw_args = match.group(3) # "section | 0.5" or "0.5" or None
+
+                        # parse Arguments
+                        section_target = None
+                        scale_factor = 1.0
+
+                        if raw_args:
+                            clean_args = re.sub(r'<[^>]+>', '', raw_args)
+                            parts = [p.strip() for p in clean_args.split('|')]
+                            for p in parts:
+                                # Check if it looks like a number
+                                try:
+                                    scale_factor = float(p)
+                                except ValueError:
+                                    # If not a number, it must be the section name
+                                    section_target = p
+
+                        if section_target is not None:
+                            soup = BeautifulSoup(getattr(component_recipe, section_attr), 'html.parser')
+                            target_clean = section_target.lower().strip()
+
+                            # Find headers (h3 or h4)
+                            for header in soup.find_all(['h3', 'h4']):
+                                if header.get_text().strip().lower() == target_clean:
+                                    # Found the header! Now grab the list immediately following it
+                                    # We look for the next sibling that is a list
+                                    next_list = header.find_next_sibling(['ul', 'ol'])
+
+                                    if next_list:
+                                        # apply scaling (ONLY to ingredients)
+                                        if 'ingredients' in section_attr:
+                                            next_list = RecipePostProcessor.scale_quantities(str(next_list), scale_factor)
+
+                                        return f"<h3>{header.get_text()}</h3>\n{str(next_list)}"
+
+                            # Fallback: specific section not found
+                            print(f"Warning: Section '{section_target}' not found in component '{title}'")
+
                         placed_components.add(title)
                         # Decide if we are inserting Ingredients or Method based on attribute
-                        content = (
-                            component_recipe.ingredients_html
-                            if "ingredients" in section_attr
-                            else component_recipe.method_html
-                        )
+
+                        if "ingredients" in section_attr:
+                            content = RecipePostProcessor.scale_quantities(component_recipe.ingredients_html, scale_factor)
+                        else:
+                            content = component_recipe.method_html
+
                         # Return the HTML with a Header
                         return f"<h3>{component_recipe.title}</h3>\n{content}"
 
@@ -363,6 +404,33 @@ class RecipePostProcessor:
                 # Perform the substitution
                 current_html = tag_pattern.sub(replace_match, current_html)
                 setattr(recipe, section_attr, current_html)
+
+    @staticmethod
+    def scale_quantities(html_fragment, scale_factor):
+        """
+        Multiplies numbers found in <span class="scalable">...</span> by the scale factor.
+        """
+        if scale_factor == 1.0:
+            return html_fragment
+
+        def math_replacer(match):
+            original_number = match.group(1)
+            try:
+                # Handle fractions like "1/2" or ranges "1-2" if you want to get fancy
+                # For now, let's handle standard floats/ints
+                val = float(original_number)
+                new_val = val * scale_factor
+
+                # Formatting: remove trailing zeros (250.0 -> 250)
+                formatted = "{:.2f}".format(new_val).rstrip('0').rstrip('.')
+                return f'<span class="scalable" data-base="{formatted}">{formatted}</span>'
+            except ValueError:
+                # If it's not a number (e.g. "some"), leave it alone
+                return f'<span class="scalable" data-base="{formatted}>{original_number}</span>'
+
+        # Regex finds: <span class="scalable">123</span>
+        pattern = re.compile(r'<span class="scalable" data-base="[\d\.]+">([\d\.]+)</span>')
+        return pattern.sub(math_replacer, html_fragment)
 
     def parse_wikilinks(self, recipe):
         """

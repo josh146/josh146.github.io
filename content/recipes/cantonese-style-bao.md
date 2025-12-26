@@ -2,7 +2,6 @@ Title: Cantonese-style bao
 Date: 2025-12-26
 Category: Chinese
 Slug: cantonese-style-bao
-Hidden: true
 Time: 6 hours
 Servings: 12
 Image: /images/recipes/cantonese-style-bao.jpg
