@@ -83,6 +83,14 @@ Theme: Molten salted egg custard (liu sha bao)
 filling_list: 3 salted egg yolks; 1/2 tbsp clear rice wine (can use Cantonese rose wine or sake); 50g unsalted butter; 40g icing sugar; 30g milk powder; 2 tbsp evaporated milk; 20g cornflour
 
 filling_step: Mix the salted egg yolks with the wine, and steam for 10 minutes. Mash the steamed egg yolks with a fork until you get a smooth paste. Next, whisk together the butter and icing sugar until fluffy; add in the salted egg yolks, milk powder, evaporated milk, and cornflour, and mix until the texture of buttercream. Transfer to an airtight container, and refrigerate or freeze until solid enough to portion for the bao.
+
+---
+
+Theme: Chickpea and tomato
+
+filling_list: 220g chickpeas; 1 tsp garam masala; 1/2 lemon juiced; 1/2 tsp garlic powder; 1/2 tsp garlic powder; 1/2 tsp chili powder; 1 tsp gochujang; 1 spring onion (finely diced); 1 tomato (finely diced); coriander (finely diced); Large pinch of salt
+
+filling_step: Rinse the chickpeas and add them to a bowl, and mash with a fork. Add the remaining ingredients and mix well, adding salt to taste.
 </pre>
 
 ## Steps
