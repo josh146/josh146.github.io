@@ -11,7 +11,7 @@ black tea ice cream.
 
 ## Ingredients
 
-[[Component: vanilla bean ice cream]]
+[[Component: vanilla bean ice cream | headless]]
 
 * 1/4 cup loose leaf black tea
 

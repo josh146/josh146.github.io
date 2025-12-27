@@ -6,6 +6,7 @@ Time: 2 hours
 Servings: 48-50 dumplings
 Image: /images/recipes/lamb-dumplings2.jpg
 Sticky: true
+Tags: dumplings
 
 My favourite dumpling restaurant in Perth, [Mom Dumpling House](https://www.momdumplinghouse.com/), is renowned for their north-eastern Chinese dumplings. After moving to Toronto, I began to miss this style of dumpling (Cantonese-style dumplings are much more common there!).
 

@@ -197,6 +197,35 @@
     </div>
     {% endif %}
 
+    <div class="related">
+        <h2>Related</h2>
+        <div id="recipe-gallery" class="recipe-gallery">
+        {% for recipe in page.related %}
+            {% if not recipe.hidden %}
+            <div class="recipe-card">
+                <a href="/{{ recipe.url }}">
+                    <div class="card-image-wrapper">
+                        {% if recipe.image %}
+                        <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
+                        {% else %}
+                            {% if recipe.category in ["Pastry and dessert", "ice cream"] %}
+                        <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
+                            {% else %}
+                        <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
+                            {% endif %}
+                        {% endif %}
+                    </div>
+
+                    <div class="card-details">
+                        <h3>{{ recipe.title }}</h3>
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+
 </article>
 
 <script>

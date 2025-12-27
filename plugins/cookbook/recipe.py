@@ -318,15 +318,12 @@ class RecipePostProcessor:
 
         for recipe in self.recipes:
             self.parse_wikilinks(recipe)
+            recipe.related = self.related_recipes(recipe, limit=3)
 
     def inject_components(self, recipe):
         """
         Scans HTML for [[Component: title]]. If found, replaces it in-place.
         """
-        # Regex to find [[Component: title]], optionally wrapped in <p> tags by Markdown
-        # Capture groups: 1=Opening <p>, 2=title, 3=Closing </p>
-        # tag_pattern = re.compile(r"(<p>\s*)?\[\[Component: (.*?)\]\](\s*<\/p>)?", re.IGNORECASE)
-        tag_pattern = re.compile(r'(<p>\s*)?\[\[Component: (.*?)(?:\s*\|\s*([\w\s-]+))?\]\](\s*<\/p>)?', re.IGNORECASE)
         tag_pattern = re.compile(r'(<p>\s*)?\[\[Component: (.*?)(?:\s*\|\s*(.*?))?\]\](\s*<\/p>)?', re.IGNORECASE)
 
         # A set to track which components we've added footnotes for
@@ -371,11 +368,16 @@ class RecipePostProcessor:
                         # parse Arguments
                         section_target = None
                         scale_factor = 1.0
+                        show_header = True  # Default is True
 
                         if raw_args:
                             clean_args = re.sub(r'<[^>]+>', '', raw_args)
                             parts = [p.strip() for p in clean_args.split('|')]
                             for p in parts:
+                                if p.lower() in ['no_header', 'headless', 'no-title']:
+                                    show_header = False
+                                    continue # Skip to next part
+
                                 # Check if it looks like a number
                                 try:
                                     scale_factor = float(p)
@@ -408,7 +410,10 @@ class RecipePostProcessor:
                                         if 'ingredients' in section_attr:
                                             next_list = RecipePostProcessor.scale_quantities(str(next_list), scale_factor)
 
-                                        return f"<h3>{header.get_text()}</h3>\n{str(next_list)}"
+                                        if show_header:
+                                            return f"<h3>{header.get_text()}</h3>\n{str(next_list)}"
+
+                                        return f"{str(next_list)}"
 
                             # Fallback: specific section not found
                             print(f"Warning: Section '{section_target}' not found in component '{title}'")
@@ -421,8 +426,10 @@ class RecipePostProcessor:
                         else:
                             content = component_recipe.method_html
 
-                        # Return the HTML with a Header
-                        return f"<h3>{component_recipe.title}</h3>\n{content}"
+                        if show_header:
+                            return f"<h3>{component_recipe.title}</h3>\n{content}"
+
+                        return f"{content}"
 
                     return ""  # If component not found, remove the tag
 
@@ -583,3 +590,44 @@ class RecipePostProcessor:
         recipe.method_html = pattern.sub(replace_match, recipe.method_html)
         recipe.intro_html = pattern.sub(replace_match, recipe.intro_html)
         recipe.notes_html = pattern.sub(replace_match, recipe.notes_html)
+
+    def related_recipes(self, recipe, limit=3):
+        """
+        Finds related recipes based on weighted scoring of Title, Category, and Tags.
+        Weights: Title Match (3), Category Match (2), Tag Match (1)
+        """
+        current_tags = set(getattr(recipe, "tags", []))
+
+        # Title Keywords (Clean up common words)
+        ignore_words = {'the', 'a', 'an', 'and', 'with', 'recipe', 'how', 'to', 'make', 'easy', 'best'}
+        current_title_words = set(re.findall(r'\w+', recipe.title.lower())) - ignore_words
+
+        scored_recipes = []
+
+        for r in self.recipes:
+            # Skip self
+            if r is recipe:
+                continue
+
+            score = 0
+
+            # category match (+2 points)
+            if r.category == recipe.category:
+                score += 2
+
+            # tag overlap (+1 point each)
+            other_tags = set(getattr(r, "tags", []))
+            score += len(current_tags.intersection(other_tags))
+
+            # title word overlap (+3 points each)
+            other_title_words = set(re.findall(r'\w+', r.title.lower())) - ignore_words
+            title_matches = len(current_title_words.intersection(other_title_words))
+            score += (title_matches * 3)
+
+            if score > 0:
+                scored_recipes.append((score, r))
+
+        # Sort by score descending
+        scored_recipes.sort(key=lambda x: x[0], reverse=True)
+
+        return [item[1] for item in scored_recipes[:limit]]

@@ -5,6 +5,7 @@ Slug: sheng-jian-bao
 Time: 2 hours
 Servings: 24 dumplings
 Image: /images/recipes/sheng-jian-bao.jpg
+Tags: dumplings
 
 Sheng jian bao is the cousin of [[chicken xiao long bao | xiao long bao]]; like xiao long bao, it has a soupy, juicy
 filling, however it is a pan fried yeasted bum rather than a steamed, unleavened dumpling.

@@ -5,6 +5,7 @@ Slug: chicken-xiao-long-bao
 Time: 4-5 hours
 Servings: 48-50 dumplings
 Image: /images/recipes/xiao-long-bao.jpg
+Tags: dumplings
 
 While waiting for my PhD examination to be complete, I was essentially doing three things: teaching
 at my university, going slightly crazy, and hyperfixated on making the perfect xiao long bao at
