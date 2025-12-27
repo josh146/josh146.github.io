@@ -349,6 +349,9 @@ class RecipePostProcessor:
             if matches:
                 # We need to rebuild the string with replacements
                 # We use a callback function for re.sub to handle the logic
+
+                recipe.components = []
+
                 def replace_match(match):
                     # match.group(2) is the title (e.g., 'swiss-meringue')
                     title = fix_string(match.group(2))
@@ -362,6 +365,7 @@ class RecipePostProcessor:
                         return ""
 
                     if component_recipe:
+                        recipe.components.append(component_recipe)
                         raw_args = match.group(3) # "section | 0.5" or "0.5" or None
 
                         # parse Arguments

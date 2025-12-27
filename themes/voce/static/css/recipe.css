@@ -457,6 +457,24 @@
     opacity: 0.6;
 }
 
+.github-link {
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.github-link a {
+    transition: all 0.2s;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.github-link a::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
 #recipe-preview-tooltip {
     position: fixed;
     background: white;

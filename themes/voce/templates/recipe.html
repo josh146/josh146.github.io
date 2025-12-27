@@ -106,6 +106,12 @@
                 </div>
             {% endif %}
         </div>
+<!--         <div class="github-link">
+            <a href="{{ GITHUB_CONTENT_URL }}{{ page.relative_source_path }}"
+               target="_blank">
+               VIEW SOURCE
+            </a>
+        </div> -->
 
         <div class="recipe-intro">
             {{ page.intro_html }}
@@ -174,11 +180,20 @@
         </section>
     </div>
 
-    {% if page.notes_html or page.footnotes_html %}
+    {% if page.notes_html or page.footnotes_html or page.components %}
     <div class="recipe-notes">
         <h2>NOTES</h2>
         {{ page.notes_html }}
         {{ page.footnotes_html }}
+
+        {% if page.components %}
+        <p>
+            This page contains the following recipe components:
+            {% for r in page.components %}
+            <a href='/{{ r.url }}'>{{ r.title }}</a><!--<a href="{{ GITHUB_CONTENT_URL }}{{ r.relative_source_path }}"target="_blank" class="github-link">(source)</a>-->{{ ", " if not loop.last else "." }}
+            {% endfor %}
+        </p>
+        {% endif %}
     </div>
     {% endif %}
 

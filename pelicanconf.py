@@ -9,6 +9,7 @@ EMAIL_ADDR = "josh@iza.ac"
 COPYRIGHT = "Copyright Josh Izaac, 2017"
 USER_LOGO_URL = "/images/header.png"
 LOGO = "https://iza.ac/images/header-small.png"
+GITHUB_CONTENT_URL = 'https://github.com/josh146/josh146.github.io/blob/source/content/'
 
 THEME = "./themes/voce/"
 PATH = "content"
