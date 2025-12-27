@@ -23,7 +23,7 @@ Beef rendang is typically served alongside white rice, and sambal kangkong.
 * 1 cup water
 * 2 teaspoons tamarind pulp soaked in some warm water and strained (alternatively jarred tamarind pulp is fine).
 * 6 kaffir lime leaves (very finely sliced)
-* 6 tablespoons kerisik (toasted coconut)
+* 6 tablespoons [[kerisik]] (toasted coconut)
 * 1 tablespoon sugar/palm sugar or to taste
 
 ### Rempah (spice paste)
@@ -53,7 +53,7 @@ Beef rendang is typically served alongside white rice, and sambal kangkong.
 
     - **Pressure cook:** pressure cook on high for 40-45 minutes. When done, reduce the sauce by about 3/4, or when it has a thick, almost pasty, consistency. If the beef is close to disintegrating, remove it from the sauce before reducing, and add it back at the end.
 
-7. Add salt to taste. If not sweet enough, add more sugar to taste. Serve immediately with steamed rice and save some for overnight. Sprinkle some kerasik over the beef at service.
+7. Add salt to taste. If not sweet enough, add more sugar to taste. Serve immediately with steamed rice and save some for overnight. Sprinkle some kerisik over the beef at service.
 
 ## Notes
 
