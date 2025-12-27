@@ -43,5 +43,3 @@ then refrigerate to chill thoroughly, preferably overnight.
 
 1. Remove the vanilla bean and freeze the custard in your ice cream maker according to the
 manufacturer’s instructions.
-
-## Notes

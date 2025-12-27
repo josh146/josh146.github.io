@@ -4,7 +4,6 @@ Category: Chinese
 Slug: chicken-xiao-long-bao
 Time: 4-5 hours
 Servings: 48-50 dumplings
-Sticky: true
 Image: /images/recipes/xiao-long-bao.jpg
 
 While waiting for my PhD examination to be complete, I was essentially doing three things: teaching
@@ -48,6 +47,8 @@ version where powdered gelatin is added to pre-made or store bought chicken stoc
 * 1 tsp toasted sesame oil
 * 1 tsp ginger (grated)
 * 1 tsp white pepper
+
+[[Component: dumpling wrappers]]
 
 ### Dipping Sauce
 
