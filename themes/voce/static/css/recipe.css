@@ -145,7 +145,7 @@
 }
 
 /* 3. Increment on list items inside that container */
-.recipe-method ol li {
+.recipe-method ol > li {
   counter-increment: step-counter;
   position: relative;
   padding-left: 2em; /* Spacing for the number */
@@ -153,7 +153,7 @@
 }
 
 /* 4. Display the number */
-.recipe-method ol li::before {
+.recipe-method ol > li::before {
   content: counter(step-counter) ". ";
   position: absolute;
   left: 0;
