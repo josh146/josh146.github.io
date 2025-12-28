@@ -1,4 +1,5 @@
 Title: Bamya Assam
+Slug: bamya-assam
 Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish
 Servings: 4-6 servings

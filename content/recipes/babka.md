@@ -1,3 +1,4 @@
+---
 Title: Babka
 Date: 2025-12-19
 Category: Bread
@@ -8,6 +9,7 @@ Timeline: Mix Ingredients | 20m | Active; Bulk ferment | 12h | Wait; Shape | 30m
 Timeline_Start: 20:00
 Sticky: true
 Image: /images/recipes/babka.jpg
+---
 
 Babka's are a showstopper when bought to a dinner party. A cross between a bread and a cake, you can go pretty crazy on the filling (and even reduce the sugar in the brioche dough to about 10g or less, and skip the sugar syrup step, to make a savoury babka --- with fillings such as pesto; garlic, butter, herbs and cheese, etc.). Adapted from [Ottolenghi's Jerusalem](https://www.amazon.com.au/Jerusalem-Yotam-Ottolenghi/dp/0091943744).
 
@@ -51,6 +53,7 @@ Theme: Lemon and blueberry
 filling_step: Add the blueberries, sugar, lemon juice, salt, and other aromatics to a saucepan. Over medium heat, mash the mixture until the blueberries are mostly integrated, and then leave to boil, stirring occasionally. After 10 minutes, the mixture should have reached 102ºC and reduced to about 320g; remove from the heat, and set aside to cool completely.
 filling_list: 360g fresh blueberries; 150g sugar; 1 tbsp lemon juice; 1/4 tsp salt; 1/2 teaspoon orange blossom water (or other aromatics, optional)
 </pre>
+
 ## Instructions
 
 1. Mix yeast, warm water, eggs, salt, lemon zest, and sugar in the bowl of a stand mixer. Using the
