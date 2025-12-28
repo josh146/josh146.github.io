@@ -91,9 +91,20 @@ class Recipe(Page):
         ing_soup = BeautifulSoup(self.ingredients_html, "html.parser")
         self.ingredients_list = [li.get_text().strip() for li in ing_soup.find_all("li")]
         self.ingredients_html = Recipe._apply_scaling_to_html(self.ingredients_html)
-        self.ingredients_html = re.sub(
-            r"(\([^)]+\))", r'<span class="paren">\1</span>', self.ingredients_html
-        )
+
+        def wrap_parens(match):
+            # Check if the match is the "sup" tag (Group 1)
+            if match.group(1):
+                return match.group(1) # Return it exactly as is
+
+            # Otherwise, it must be the parentheses (Group 2)
+            # Wrap it in the span
+            return f'<span class="paren">{match.group(2)}</span>'
+
+        # The regex: Group 1 matches <sup> tags, Group 2 matches parentheses
+        pattern = r'(<sup\b[^>]*>.*?</sup>)|(\([^)]+\))'
+
+        self.ingredients_html = re.sub(pattern, wrap_parens, self.ingredients_html)
 
     def _parse_method(self):
         method_soup = BeautifulSoup(self.method_html, "html.parser")
