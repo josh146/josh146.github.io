@@ -196,6 +196,14 @@
     }
 }
 
+/* Grid Layout for mobile */
+@media (max-width: 520px) {
+    .hero-text {
+        left: 0%;
+        transform: translate(0%, -50%);
+    }
+}
+
 .scale-controls {
     display: flex;
     gap: 5px;
