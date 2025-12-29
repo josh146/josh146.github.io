@@ -2,7 +2,7 @@ Title: Pâte Sablée
 Date: 2025-12-21
 Category: Pastry and dessert
 Slug: pate-sablee
-Tags: pate, sablee
+Tags: pate, sablee, dough, tart, crust
 Time: 30 minutes
 Servings: 600g, enough for two 9 inch (23cm) tart pans.
 Sticky: true
