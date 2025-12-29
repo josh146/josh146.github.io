@@ -7,6 +7,7 @@ Servings: 5-6 servings
 Timeline: Salt the duck | 15 minutes | Active; Dry brine in fridge | 24h | Wait; Marinate | 30m | Active; Poach | 30 m | Active; Glaze | 15m | Active; Dry age | 36h | Wait; Roast | 90m | Active
 Timeline_Start: 20:30
 Image: /images/recipes/roast-duck.jpg
+Tags: roasts
 
 Cantonese roast goose is truly one of my favourite dishes in the world --- from the crispy, fatty
 skin, to the rich dark meat and savoury hoisin-laced drippings, every element of it is perfect.

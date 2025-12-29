@@ -22,37 +22,61 @@
             <a href="{{ recipe.url }}">{{ recipe.title }} </a>
         </li>
     {% endfor %}
+
+    {% if RECIPE_CATEGORIES_INCLUDE_TAGS %}
+        <!-- If a recipe has a tag that matches a category, include it in that category index -->
+        {% for recipe in recipes if group.grouper in recipe.tags|map(attribute='slug') %}
+            <li>
+                <a href="{{ recipe.url }}">{{ recipe.title }} </a>
+            </li>
+        {% endfor %}
+    {% endif %}
     </ul>
     {% endfor %}
 </div>
 
-<div id="recipe-gallery" class="recipe-gallery">
-{% for recipe in recipes %}
-    {% if not recipe.hidden %}
-    <div class="recipe-card">
-        <a href="{{ recipe.url }}">
-            <div class="card-image-wrapper">
-                {% if recipe.image %}
-                <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
-                {% else %}
-                    {% if recipe.category in ["Pastry and dessert", "ice cream"] %}
-                <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
-                    {% else %}
-                <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
-                    {% endif %}
-                {% endif %}
-            </div>
 
-            <div class="card-details">
-                <h3>{{ recipe.title }}</h3>
-                <div class="card-meta">
-                    <span>{{ recipe.category }}</span>
-                </div>
-            </div>
-        </a>
+<div id="recipe-gallery">
+    {% set categories = recipes | map(attribute='category') | unique | sort %}
+    <div id="variation-controls">
+        <label for="vibe-select" class="vibe-label">Choose your Vibe</label>
+        <div class="vibe-select-wrapper">
+            <select id="vibe-select">
+                <option value="all">All</option>
+                {% for category in categories %}
+                <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select>
+        </div>
     </div>
-    {% endif %}
-{% endfor %}
+    <div class="recipe-gallery">
+    {% for recipe in recipes %}
+        {% if not recipe.hidden %}
+        <div class="recipe-card" data-category="{{ recipe.category }}" data-tags="{{ recipe.tags | join(' ') }}">
+            <a href="{{ recipe.url }}">
+                <div class="card-image-wrapper">
+                    {% if recipe.image %}
+                    <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
+                    {% else %}
+                        {% if recipe.category in ["Pastry and dessert", "ice cream"] %}
+                    <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
+                        {% else %}
+                    <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
+                        {% endif %}
+                    {% endif %}
+                </div>
+
+                <div class="card-details">
+                    <h3>{{ recipe.title }}</h3>
+                    <div class="card-meta">
+                        <span>{{ recipe.category }}</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+    {% endfor %}
+    </div>
 </div>
 
 <script>
@@ -63,17 +87,87 @@ const list = document.getElementById('recipe-list');
 
 
 btnGallery.addEventListener('click', function() {
-    gallery.classList.toggle('hidden', false);
-    list.classList.toggle('hidden', true);
-    btnGallery.classList.toggle('active', true)
-    btnList.classList.toggle('active', false)
+    toggleView('gallery')
 });
 
 btnList.addEventListener('click', function() {
-    gallery.classList.toggle('hidden', true);
-    list.classList.toggle('hidden', false);
-    btnList.classList.toggle('active', true)
-    btnGallery.classList.toggle('active', false)
+    toggleView('index')
 });
+
+function toggleView(view) {
+    const url = new URL(window.location);
+    url.searchParams.set('view', view);
+    window.history.replaceState({}, '', url);
+
+    if (view == 'index') {
+        gallery.classList.toggle('hidden', true);
+        list.classList.toggle('hidden', false);
+        btnList.classList.toggle('active', true)
+        btnGallery.classList.toggle('active', false)
+    } else {
+        gallery.classList.toggle('hidden', false);
+        list.classList.toggle('hidden', true);
+        btnGallery.classList.toggle('active', true)
+        btnList.classList.toggle('active', false)
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('vibe-select');
+    select.value = 'all';
+
+    select.addEventListener('change', (e) => {
+        updateCards(e.target.value);
+    });
+});
+
+function getValueFromUrlHash() {
+    const hash = window.location.hash;
+    if (hash) {
+        return hash.substring(1);
+    }
+    return null;
+}
+
+function updateCards(filterValue) {
+    const url = new URL(window.location);
+    url.searchParams.set('category', filterValue);
+    window.history.replaceState({}, '', url);
+    const cards = document.querySelectorAll('.recipe-card');
+
+    cards.forEach(card => {
+        const category = card.getAttribute('data-category');
+        const tags = card.getAttribute('data-tags').split();
+
+
+        {% if RECIPE_CATEGORIES_INCLUDE_TAGS %}
+        if (filterValue === 'all' || category === filterValue || tags.includes(filterValue.toLowerCase())) {
+        {% else %}
+        if (filterValue === 'all' || category === filterValue) {
+        {% endif %}
+            card.classList.remove('hidden');
+        } else {
+            card.classList.add('hidden');
+        }
+    });
+}
+
+function setSelectedOptionFromUrl() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryValue = urlParams.get('category');
+    const select = document.getElementById("vibe-select");
+
+    if (categoryValue) {
+        select.value = categoryValue;
+        updateCards(categoryValue);
+    }
+
+    const viewValue = urlParams.get('view');
+    toggleView(viewValue);
+}
+
+document.addEventListener("DOMContentLoaded", setSelectedOptionFromUrl);
+
 </script>
+
 {% endblock %}

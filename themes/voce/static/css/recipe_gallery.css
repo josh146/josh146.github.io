@@ -119,3 +119,48 @@ h2.recipe-category {
   grid-auto-flow: column;
   gap: 20px;
 }
+
+
+/* The Control Bar */
+#variation-controls {
+    /*background: #f8f9fa;*/
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    #variation-controls {
+        display: block ruby;
+    }
+
+    .vibe-label {
+        margin-right: 20px;
+    }
+}
+
+.vibe-label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#vibe-select {
+    padding: 8px 16px;
+    border: 2px solid #333;
+    background: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+    text-align: center;
+}

@@ -60,6 +60,12 @@ SEO_ENHANCER = True
 SEO_ENHANCER_OPEN_GRAPH = True
 
 # ~~~~~~~~~~~~~~~~
+# Recipe settings
+# ~~~~~~~~~~~~~~~~
+
+RECIPE_CATEGORIES_INCLUDE_TAGS = True
+
+# ~~~~~~~~~~~~~~~~
 # Navbar settings
 # ~~~~~~~~~~~~~~~~
 

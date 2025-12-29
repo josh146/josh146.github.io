@@ -2,6 +2,7 @@ Title: Yellow rice
 Slug: yellow-rice
 Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish
+Tags: rice
 Servings: 4-6 servings
 Time: 1 hour
 Image: /images/recipes/yellow-rice.jpg

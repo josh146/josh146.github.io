@@ -1,10 +1,12 @@
 Title: Hainanese Chicken Rice
+Slug: hainanese-chicken-rice
 Date: 2025-12-17
 Category: Singaporean
 Servings: 5 servings
 Time: 1.5 hours
 Image: /images/recipes/chicken_rice.jpg
 Sticky: false
+Tags: rice
 
 A Singaporean classic, this is the version of chicken rice that I grew up with in Singapore, with a few components inspired from [Adam Liaw](https://adamliaw.com/recipe/hainanese-chicken-rice).
 

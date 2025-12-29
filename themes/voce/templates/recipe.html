@@ -489,7 +489,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // build the UI Controls
     const controlContainer = document.getElementById('variation-controls');
     controlContainer.innerHTML = '<span class="vibe-label">Choose your Vibe</span>';
-    console.log("here");
 
     const btnGroup = document.createElement('div');
     btnGroup.className = 'vibe-buttons';
@@ -498,7 +497,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetBtn = document.createElement('button');
     resetBtn.innerText = 'Blueprint';
     resetBtn.className = 'vibe-btn active';
-    resetBtn.onclick = () => applyVariation(null, resetBtn);
+    resetBtn.id = 'Blueprint';
+    resetBtn.onclick = () => applyVariation('Blueprint', resetBtn);
     btnGroup.appendChild(resetBtn);
 
     // create buttons for each theme
@@ -506,6 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const btn = document.createElement('button');
         btn.innerText = theme;
         btn.className = 'vibe-btn';
+        btn.id = theme;
         btn.onclick = () => applyVariation(theme, btn);
         btnGroup.appendChild(btn);
     });
@@ -515,6 +516,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let blueprintsInitialized = false;
 
     function applyVariation(themeName, clickedBtn) {
+        const url = new URL(window.location);
+        url.searchParams.set('vibe', themeName);
+        window.history.replaceState({}, '', url);
+
         // update Buttons Visual State
         document.querySelectorAll('.vibe-btn').forEach(b => b.classList.remove('active'));
         if (clickedBtn) clickedBtn.classList.add('active');
@@ -605,7 +610,15 @@ document.addEventListener('DOMContentLoaded', () => {
             slot.classList.add('changed');
         });
     }
-applyVariation(null, document.querySelector('.vibe-btn.active'));
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const themeName = urlParams.get('vibe');
+
+    if (Object.keys(variations).includes(themeName)) {
+        applyVariation(themeName, document.getElementById(themeName));
+    } else {
+        applyVariation('Blueprint', document.querySelector('.vibe-btn.active'));
+    }
 });
 </script>
 
