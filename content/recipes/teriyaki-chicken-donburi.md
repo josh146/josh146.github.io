@@ -19,6 +19,7 @@ chicken donburi.
 
 * 350g thigh fillets (skin on, bone removed)
 * 500g chicken mince
+* Steamed jasmine rice
 
 ### Teriyaki sauce
 
