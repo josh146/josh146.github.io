@@ -1,10 +1,11 @@
 Title: Blueberry, almond, and lemon cake
 Date: 2025-12-23
-Category: Pastry and dessert
+Category: Dessert
 Slug: blueberry-almond-and-lemon-cake
 Time: 1 hour 30 minutes
 Servings: 8-10 servings
 Image: /images/recipes/blueberry-almond-lemon-cake.jpg
+Tags: cake
 
 A delicious blueberry, almond, and lemon cake from [Ottolenghi's Simple](https://www.delicious.com.au/recipes/blueberry-almond-lemon-cake/cy6ehbic).
 

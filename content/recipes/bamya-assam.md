@@ -1,4 +1,4 @@
-Title: Bamya Assam
+Title: Bamya assam
 Slug: bamya-assam
 Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish

@@ -1,4 +1,4 @@
-Title: Potato Chop
+Title: Potato chop
 Date: 2025-12-21
 Category: Singaporean-Iraqi Jewish
 Slug: potato-chop

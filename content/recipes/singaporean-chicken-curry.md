@@ -1,4 +1,4 @@
-Title: Chicken Curry
+Title: Chicken curry
 Date: 2025-12-18
 Category: Singaporean
 Slug: singaporean-chicken-curry

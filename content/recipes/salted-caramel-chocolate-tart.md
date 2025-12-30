@@ -1,6 +1,6 @@
-Title: Salted Caramel Chocolate Tart
+Title: Salted caramel chocolate tart
 Date: 2025-12-26
-Category: Pastry and dessert
+Category: Dessert
 Slug: salted-caramel-chocolate-tart
 Time: 3 hours
 Servings: one 9 or 10 inch tart

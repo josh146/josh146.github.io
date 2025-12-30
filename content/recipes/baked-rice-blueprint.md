@@ -1,7 +1,7 @@
-Title: Baked rice with confit vegetables blueprint
+Title: Baked rice with confit vegetables
 Date: 2025-12-21
 Category: Rice
-Slug: baked-rice-with-confit-vegetables-blueprint
+Slug: baked-rice-with-confit-vegetables
 Time: 1.5 hours
 Servings: 5-6 servings
 Image: /images/recipes/baked-rice.jpg

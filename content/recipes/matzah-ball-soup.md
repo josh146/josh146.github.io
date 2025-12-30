@@ -1,4 +1,4 @@
-Title: Matzah Ball Soup
+Title: Matzah ball soup
 Date: 2025-12-19
 Category: Jewish
 Slug: matzah-ball-soup

@@ -1,7 +1,7 @@
-Title: One-pot chicken and rice blueprint
+Title: One-pot chicken and rice
 Date: 2025-12-21
 Category: Rice
-Slug: one-pot-chicken-and-rice-template
+Slug: one-pot-chicken-and-rice
 Time: 1 hour
 Servings: 5 servings
 Image: /images/recipes/one-pot-chicken-rice.jpg

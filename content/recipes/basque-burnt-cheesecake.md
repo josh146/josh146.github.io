@@ -1,11 +1,12 @@
-Title: Basque Cheesecake
+Title: Basque cheesecake
 Date: 2025-12-22
-Category: Pastry and dessert
+Category: Dessert
 Slug: basque-cheesecake
 Time: 2 hours
 Servings: 8-10 servings
 Image: /images/recipes/basque.jpg
 Sticky: true
+Tags: cake
 
 A blueprint for a basque cheesecake, originally based on the one from [Bon Appetit](https://www.bonappetit.com/recipe/basque-burnt-cheesecake), although that recipe seems to have
 been updated over the last few years with differing ingredient amounts.

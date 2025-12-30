@@ -1,9 +1,10 @@
 Title: Brioche doughnuts with orange curd and latte ice cream
 Date: 2025-12-24
-Category: Pastry and dessert
+Category: Dessert
 Slug: brioche-doughnuts-with-orange-curd-and-latte-ice-cream
 Time: 2 hours
 Servings: 6
+Tags: bread
 
 This recipe is my first attempt to recreate a recipe from MasterChef Australia --- a
 [brioche doughnut-based dessert from Matt Sinclair](https://10.com.au/masterchef/recipes/brioche-doughnuts-with-orange-curd-coffee-crumb-and-latte-ice-cream/r190614cqjhu).

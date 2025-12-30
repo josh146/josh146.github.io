@@ -1,6 +1,6 @@
 Title: Creme brûlée
 Date: 2025-12-19
-Category: Pastry and dessert
+Category: Dessert
 Slug: creme-brulee
 Tags: brulee, custard
 Time: 2 hours

@@ -1,4 +1,4 @@
-Title: Roti Prata
+Title: Roti prata
 Date: 2025-12-22
 Category: Singaporean
 Slug: roti-prata

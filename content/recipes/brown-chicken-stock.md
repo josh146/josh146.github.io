@@ -1,4 +1,4 @@
-Title: Chicken Stock
+Title: Chicken stock
 Date: 2025-12-19
 Category: Stock and soups
 Slug: chicken-stock

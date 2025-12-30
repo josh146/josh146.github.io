@@ -1,4 +1,4 @@
-Title: Fish Head Curry
+Title: Fish head curry
 Date: 2025-12-18
 Category: Singaporean
 Slug: singaporean-fish-curry

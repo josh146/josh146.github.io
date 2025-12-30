@@ -1,6 +1,6 @@
 Title: Tiramisu from scratch
 Date: 2025-12-26
-Category: Pastry and dessert
+Category: Dessert
 Slug: tiramisu
 Time: 3 days
 Servings: A 23x23cm tiramisu, or approximately 3 10x10cm tiramisu.

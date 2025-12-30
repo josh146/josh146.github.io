@@ -2,7 +2,7 @@ Title: Swiss Meringue
 Slug: swiss-meringue
 Date: 2025-12-19
 Hidden: true
-Category: Pastry and dessert
+Category: Dessert
 
 ## Ingredients
 

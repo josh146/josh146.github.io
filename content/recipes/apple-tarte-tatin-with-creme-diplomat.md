@@ -1,6 +1,6 @@
 Title: Apple tarte tatin with crème diplomat
 Date: 2025-12-29
-Category: Pastry and dessert
+Category: Dessert
 Slug: apple-tarte-tatin-with-creme-diplomat
 Time: 3 hours
 Servings: 6 servings

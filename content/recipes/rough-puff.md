@@ -1,6 +1,6 @@
 Title: Rough puff pastry
 Date: 2025-12-27
-Category: Pastry and dessert
+Category: Pastry
 Slug: rough-puff-pastry
 Time: 1.5 hours
 Servings: 585g of pastry. Makes enough for two single-crusted pie, or one double-crusted pie.

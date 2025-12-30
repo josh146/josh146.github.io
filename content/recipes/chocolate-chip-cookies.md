@@ -1,6 +1,6 @@
 Title: Chocolate chip cookies
 Date: 2025-12-29
-Category: Pastry and dessert
+Category: Dessert
 Slug: chocolate-chip-cookies
 Time: 30 minutes
 Servings: About 10-12 cookies

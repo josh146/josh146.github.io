@@ -1,4 +1,4 @@
-Title: Teriyaki Chicken Donburi
+Title: Teriyaki chicken donburi
 Date: 2025-12-17
 Category: Japanese
 Slug: teriyaki-chicken-donburi

@@ -4,6 +4,7 @@ Category: Ice cream
 Slug: chocolate-sorbet
 Time: 1 hour
 Servings: 1L
+Tags: dessert
 
 [David Lebovitz's chocolate sorbet](https://food52.com/recipes/17877-david-lebovitz-s-chocolate-sorbet) doesn't make any sense. Taste it, and you'll swear it is ice cream --- it doesn't really compute that it has no eggs or dairy!
 

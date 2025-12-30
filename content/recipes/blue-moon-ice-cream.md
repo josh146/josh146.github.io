@@ -1,4 +1,4 @@
-Title: Blue Moon Ice Cream
+Title: Blue moon ice cream
 Date: 2025-12-22
 Category: Ice cream
 Slug: blue-moon-ice-cream

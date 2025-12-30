@@ -1,4 +1,4 @@
-Title: Hainanese Chicken Rice
+Title: Hainanese chicken rice
 Slug: hainanese-chicken-rice
 Date: 2025-12-17
 Category: Singaporean
