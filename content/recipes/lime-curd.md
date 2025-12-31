@@ -1,6 +1,6 @@
 Title: Lime curd
 Date: 2025-12-24
-Category: Dessert
+Category: Sweets
 Slug: lime-curd
 Image: /images/recipes/lime-curd.jpg
 

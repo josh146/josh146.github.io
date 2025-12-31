@@ -1,11 +1,12 @@
 Title: Chocolate chip cookies
 Date: 2025-12-29
-Category: Dessert
+Category: Sweets
 Slug: chocolate-chip-cookies
 Time: 30 minutes
 Servings: About 10-12 cookies
 Image: /images/recipes/cookies.jpg
 Sticky: true
+Tags: dessert
 
 My ideal cookie is of medium thickness (not too thin and crispy, but not too thick and cakey), while
 being somewhat flexible/melleable and with an ultra fudgy interior.

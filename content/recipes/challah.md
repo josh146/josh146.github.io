@@ -7,6 +7,7 @@ Time: 4.5 hours
 Image: /images/recipes/challah.jpg
 Sticky: true
 Timeline: Mix Ingredients | 15m | Active; First proof | 60m | Wait; Second proof | 45m | Wait; Shape | 15m | Active; Proof | 60m | Wait; Bake | 30m | Wait
+Tags: jewish
 
 A light and extremely fluffy challah recipe.
 

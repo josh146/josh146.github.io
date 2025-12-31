@@ -1,6 +1,6 @@
 Title: Roasted cauliflower soup with truffle oil
 Date: 2025-12-30
-Category: Stock and soups
+Category: Stock, soups, and sauces
 Slug: roasted-cauliflower-soup-with-truffle-oil
 Time: 1 hour
 Servings: 6 servings

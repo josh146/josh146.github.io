@@ -1,11 +1,12 @@
 Title: Blueberry pie
 Date: 2025-12-27
-Category: Dessert
+Category: Pastry and Cake
 Slug: blueberry-pie
 Time: 3 hours
 Servings: One pie
 Sticky: true
 Image: /images/recipes/blueberry-pie-baked.jpg
+Tags: dessert
 
 This recipe from [Stella Parks](https://www.seriouseats.com/best-blueberry-pie-dessert-recipe) is
 perfect --- a flaky rough puff crust, a mixture of fresh and wild blueberries, and coriander powder

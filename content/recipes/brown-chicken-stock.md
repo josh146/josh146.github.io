@@ -1,6 +1,6 @@
 Title: Chicken stock
 Date: 2025-12-19
-Category: Stock and soups
+Category: Stock, soups, and sauces
 Slug: chicken-stock
 Time: 2 hours
 Servings: About 2L of stock

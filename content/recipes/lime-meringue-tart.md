@@ -1,12 +1,12 @@
 Title: Lime meringue tart
 Date: 2025-12-19
-Category: Dessert
+Category: Pastry and Cake
 Slug: lime-meringue-tart
 Time: 1 hour
 Servings: 1 9-inch (22cm) tart
 Image: /images/recipes/lime-meringue-tart.jpg
 Sticky: true
-Tags: pastry
+Tags: dessert
 
 I love an extra tart lemon or lime tart, so I lean towards curd-based citrus tarts (which are more sour, but less smooth in texture than a custard-based tart). This is an adaption of [David Lebovitz's lime meringue tart recipe](https://www.davidlebovitz.com/lime-meringue-tart/), with the main difference being a slight reduction in the amount of sugar.
 

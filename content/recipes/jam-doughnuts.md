@@ -1,4 +1,5 @@
 Title: Jam doughnuts
+Slug: jam-doughnuts
 Date: 2023-10-27
 Category: Bread
 Servings: Approximately 10-12 doughnuts
@@ -6,6 +7,7 @@ Time: 3.5 hours
 Image: /images/recipes/doughnuts.jpg
 Sticky: true
 Timeline: Mix Ingredients | 20m | Active; First proof | 60m | Wait; Cut donuts | 15m | Active; Second proof | 60m | Wait; Fry | 20m | Active; Fill | 10m | Active
+Tags: dessert
 
 An easy, yeasted, and super light jam doughnut, that can be made in a single day (or a single morning, afternoon, or evening). Based off a recipe from [Bon Appetit](https://www.bonappetit.com/recipe/jam-filled-challah-doughnuts).
 

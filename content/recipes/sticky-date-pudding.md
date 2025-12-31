@@ -1,12 +1,12 @@
 Title: Sticky date pudding
 Date: 2025-12-24
-Category: Dessert
+Category: Pastry and Cake
 Slug: sticky-date-pudding
 Time: 1 hour
 Servings: 15 slices of cake and 500ml of butterscotch sauce
 Sticky: true
 Image: /images/recipes/sticky-date-pudding.jpg
-Tags: butterscotch, cake
+Tags: butterscotch, dessert
 
 I absolutely love butterscotch sauce, and sticky date pudding (as we call it in Australia, sticky
 toffee pudding elsewhere) is a great excuse to have butterscotch sauce and ice cream.

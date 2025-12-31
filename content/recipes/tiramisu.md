@@ -1,11 +1,12 @@
 Title: Tiramisu from scratch
 Date: 2025-12-26
-Category: Dessert
+Category: Sweets
 Slug: tiramisu
 Time: 3 days
 Servings: A 23x23cm tiramisu, or approximately 3 10x10cm tiramisu.
 Image: /images/recipes/tiramisu.jpg
 Sticky: true
+Tags: dessert
 
 When my sister was pregnant, she was craving tiramisu, but needed a decaffeinated version. This is
 the recipe I used at the time, with homemade marscapone and homemade savoiardi (ladies fingers).

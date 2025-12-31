@@ -1,10 +1,10 @@
 Title: Apple tarte tatin with crème diplomat
 Date: 2025-12-29
-Category: Dessert
+Category: Pastry and Cake
 Slug: apple-tarte-tatin-with-creme-diplomat
 Time: 3 hours
 Servings: 6 servings
-Tags: creme patissiere, puff pastry, caramel
+Tags: creme patissiere, puff pastry, caramel, dessert
 
 From 2017-2018, there was a great (although underappreciated) cooking reality show on SBS here in Australia called [The Chef's Line](https://en.wikipedia.org/wiki/The_Chefs%27_Line). Each week, 4 Australian home cooks would go up against the chef's line of a restaurant, eliminating either a home cook or a chef (more often than not the head chef would win, but there were some upsets!).
 
