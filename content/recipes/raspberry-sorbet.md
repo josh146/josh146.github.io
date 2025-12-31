@@ -4,7 +4,6 @@ Category: Ice cream
 Slug: raspberry-sorbet
 Time: 1 hour
 Servings: 1L
-Tags: dessert
 
 Originally adapted from [Creme de la Crumb](https://www.lecremedelacrumb.com/raspberry-sorbet).
 

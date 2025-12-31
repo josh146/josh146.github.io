@@ -6,7 +6,7 @@ Time: 3-4 hours
 Servings: 4-6 servings
 Image: /images/recipes/braised-lamb-rice.jpg
 
-This recipe is a riff on my [[one-pot chicken and rice blueprint]], adapted to allow for a one-pot
+This recipe is a riff on my [[one-pot chicken and rice]], adapted to allow for a one-pot
 meat and rice dish where the protein, unlike chicken thighs, needs to be braised for a longer
 period of time to become tender.
 
