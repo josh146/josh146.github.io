@@ -1,6 +1,6 @@
 Title: Cacio e pepe
 Date: 2025-12-29
-Category: Pasta
+Category: Pasta and Italian
 Slug: cacio-e-pepe
 Time: 30 minutes
 Servings: 2 servings
