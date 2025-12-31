@@ -7,8 +7,7 @@ Servings: 1L
 
 I found this recipe in my notes --- I have a vague recollection of making it maybe 5 years ago, but
 re-finding it has motivated me to try it again (especially given the glowing comments). The recipe is originally from [Bill Gross via
-Epicure]
-(https://www.epicurious.com/recipes/food/views/bill-grosss-burnt-orange-ice-cream-350991). The
+Epicure](https://www.epicurious.com/recipes/food/views/bill-grosss-burnt-orange-ice-cream-350991). The
 oranges are prepared two days ahead, and the ice cream one day ahead.
 
 ## Ingredients
@@ -50,13 +49,13 @@ intact.
 sugar in a food processor, and puree. Strain the puree into a container, cover it, and refrigerate
 for at least 8 hours.
 
-7. The next day, prepare the ice cream mixture: Place the orange puree in a saucepan over medium-low
+7. The next day, prepare the ice cream mixture. Place the orange puree, cream, milk, and vanilla seeds in a saucepan over medium-low
 heat, and bring it to a simmer.
 
-8. While the orange puree is heating, whisk the cream, milk, vanilla seeds, and egg yolks
-together in a large bowl. Then, whisking constantly, slowly add the hot orange puree. Let the
-mixture cool to room temperature, and then refrigerate it until it is cold, 3 to 4 hours.
+8. Whisk and temper the egg yolks with the hot cream mixture, and then scrape the warmed cream and egg mixture back into the saucepan. Cook over low heat, stirring constantly and scraping the bottom with a heat-resistant spatula
+until the custard thickens enough to coat the spatula.
 
-9. Freeze the mixture in an ice-cream maker according to the manufacturer's instructions.
+9. Let the
+mixture cool to room temperature, and then refrigerate it until it is cold, 3 to 4 hours. Freeze the mixture in an ice-cream maker according to the manufacturer's instructions.
 
 10. Transfer the ice cream to a container, cover, and store in the freezer until ready to serve.

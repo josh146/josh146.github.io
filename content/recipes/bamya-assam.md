@@ -6,6 +6,7 @@ Servings: 4-6 servings
 Time: 1 hour
 Image: /images/recipes/bamya.jpg
 Sticky: true
+Tags: chicken
 
 An earthy sweet and sour stew, this bright yellow dish is the result of the merging of cultures -- an
 Iraqi Jewish staple, made with south east Asian ingredients. The name is reflective of this, with *bamya* being the arabic word for okra, and *assam* the malay word for sour.

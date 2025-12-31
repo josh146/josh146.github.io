@@ -137,6 +137,10 @@
     counter-reset: step-counter;
 }
 
+ol.dynamic-sublist {
+    margin-top: 30px;
+}
+
 /* 2. Target the OLs inside that specific container */
 .recipe-method ol {
   list-style: none;

@@ -538,7 +538,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         const parent = node.parentNode;
                         // Save original text if not already saved
                         if (!parent.hasAttribute('data-blueprint')) {
-                            parent.setAttribute('data-blueprint', node.nodeValue);
+                            parent.setAttribute('data-blueprint', parent.innerHTML);
                             parent.classList.add('dynamic-slot');
                         }
                     }
@@ -587,7 +587,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // This handles "Blueprint Mode" AND any missing variables in specific themes
-            const pillRegex = new RegExp('{' + '{([a-zA-Z0-9_]+)}' + '}', 'g');
+            const pillRegex = new RegExp('{' + '{([a-zA-Z0-9_]+?)}' + '}', 'g');
 
             htmlToUpdate = htmlToUpdate.replace(pillRegex, (match, key) => {
                 const cleanName = key.replace(/_/g, ' ');

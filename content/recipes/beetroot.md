@@ -1,10 +1,12 @@
 Title: Beetroot stew
+Slug: beetroot-stew
 Date: 2025-12-17
 Category: Singaporean-Iraqi Jewish
 Servings: 4-6 servings
 Time: 1 hour
 Image: /images/recipes/beetroot2.jpg
 Sticky: true
+Tags: chicken
 
 An earthy sweet and sour stew, this bright red dish is the result of the merging of cultures -- an
 Iraqi Jewish staple, made with south east Asian ingredients. In particular, I find the calamansi
