@@ -4,6 +4,7 @@ Category: Stocks, soups, and sauces
 Slug: curry-leaf-mayonnaise
 Time: 15 minutes
 Servings: 250ml
+Image: /images/recipes/curry-leaves.jpg
 
 Curry leaves are one of my favourite herbs --- a leaf from a tree in the citrus family, they have a unique citrusy-adjacent flavour. I always have hundreds of curry leaves in my freezer (and have a curry leaf plant in my apartment), so am always trying to incorporate curry leaves where possible.
 

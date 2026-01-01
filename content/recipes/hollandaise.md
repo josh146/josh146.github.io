@@ -4,6 +4,7 @@ Category: Stocks, soups, and sauces
 Slug: hollandaise
 Time: 15 minutes
 Servings: 170ml
+Image: /images/recipes/hollandaise.jpg
 
 A simple immersion blender hollandaise, courtesy of [Serious Eats](https://www.seriouseats.com/foolproof-2-minute-hollandaise-recipe).
 

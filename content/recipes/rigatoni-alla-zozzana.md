@@ -4,6 +4,7 @@ Date: 2025-12-31
 Category: Pasta and Italian
 Time: 30 minutes
 Servings: 4 servings
+Image: /images/recipes/rigatoni-alla-zozzona.jpg
 
 Pasta alla zozzona, from the outskirts of Rome, is a quick 'pantry' pasta that blends ingredients and techniques from amatriciana and carbonara. The sage in the sausage meat gives the pasta a wonderful herbacious taste, while the egg and cheese result in a wonderfully glossy, creamy tomato sauce.
 
