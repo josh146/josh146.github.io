@@ -5,13 +5,14 @@ Slug: kang-kong-in-garlic-sauce
 Time: 10 minutes
 Servings: 4
 Image: /images/recipes/kangkong.jpg
+Tags: veggies
 
 Kangkong (also known as water spinach or morning glory) is a leafy green common in Singapore
 (often served as sambal kangkong), but much less common in Australia and Canada. In Australia, you
 can sometimes find it at restaurants, but it will almost always be Market Price (alongside the
 lobster!).
 
-Here is a recipe for kangkong in garlic oyster sauce, a common side dish when I was growing up, adapted from [Ang Sarap](https://www.angsarap.net/2015/07/01/kangkong-in-garlic-sauce/).
+Here is a recipe for kangkong in garlic oyster sauce, a common side dish when I was growing up, adapted from [Ang Sarap](https://www.angsarap.net/2015/07/01/kangkong-in-garlic-sauce/). Note that this recipe also works great with kai lan rather than kangkong.
 
 ## Ingredients
 
