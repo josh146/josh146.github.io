@@ -5,6 +5,7 @@ Slug: red-braised-protein
 Time: 3.5 hours (slow cooked), or 1.5 hours (pressure cooked)
 Servings: 5-6
 Tags: chicken, beef
+Image: /images/recipes/red-braised-chicken.jpg
 
 Red braising is a braising technique used in Chinese cooking that produces a delicious caramel and savoury reddish-brown sauce. Traditionally made by caramelizing rock sugar in oil, a lot of recipes these days instead opt for dark soy sauce to lend those caramelized notes and hues.
 
