@@ -511,6 +511,7 @@ ol.dynamic-sublist {
     margin-bottom: 30px;
     margin-top: 30px;
     text-align: center;
+    display: block;
 }
 
 .vibe-label {
