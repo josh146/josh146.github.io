@@ -22,7 +22,6 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 PLUGIN_PATHS = ["plugins", os.path.join(THEME, "plugins")]
 PLUGINS = [
     "pelican.plugins.embed_tweet",
-    "pelican_youtube",
     "pelican.plugins.render_math",
     "pelican.plugins.simple_footnotes",
     "sitemap",
