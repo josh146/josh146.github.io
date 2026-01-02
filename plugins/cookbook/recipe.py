@@ -96,13 +96,15 @@ class Recipe(Page):
             # Check if the match is the "sup" tag (Group 1)
             if match.group(1):
                 return match.group(1) # Return it exactly as is
+            if match.group(2):
+                return match.group(2) # Return it exactly as is
 
             # Otherwise, it must be the parentheses (Group 2)
             # Wrap it in the span
-            return f'<span class="paren">{match.group(2)}</span>'
+            return f'<span class="paren">{match.group(3)}</span>'
 
         # The regex: Group 1 matches <sup> tags, Group 2 matches parentheses
-        pattern = r'(<sup\b[^>]*>.*?</sup>)|(\([^)]+\))'
+        pattern = r'(<sup\b[^>]*>.*?</sup>)|(\[\[.*?\]\])|(\([^)]+\))'
 
         self.ingredients_html = re.sub(pattern, wrap_parens, self.ingredients_html)
 

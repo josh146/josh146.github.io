@@ -2,11 +2,10 @@ Title: Creme brûlée
 Date: 2025-12-19
 Category: Sweets
 Slug: creme-brulee
-Tags: brulee, custard
+Tags: brulee, custard, dessert
 Time: 2 hours
 Servings: 4 150ml ramekins
 Image: /images/recipes/creme-brulee.jpg
-Tags: dessert
 
 Creme brûlée is surprisingly easy to make, the main difficulty being to ensure that you cook it
 gently enough to avoid curdling and get that amazingly silky custardy texture.
