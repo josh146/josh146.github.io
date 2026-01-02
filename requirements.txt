@@ -3,7 +3,7 @@ blinker==1.6.3
 docutils==0.16
 feedgenerator==1.9.2
 html5lib==1.1
-importlib-metadata==4.13.0
+importlib-metadata==4.13.0; python_version < '3.11'
 jinja2==2.11.3
 markdown==3.2.2
 markupsafe==2.0.1
