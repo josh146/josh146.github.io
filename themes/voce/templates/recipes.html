@@ -39,10 +39,15 @@
 <div id="recipe-gallery">
     {% set categories = recipes | map(attribute='category') | unique | sort %}
     <div id="variation-controls">
-        <!-- <label for="vibe-select" class="vibe-label">Choose your Vibe</label> -->
+        <!-- <label for="vibe-select" class="vibe-label">Sort by</label> -->
+        <div class="sort-buttons">
+          <button id="sort-date" class="vibe-btn" onclick="sortCards('date', true)">Date</button><button id="sort-title" class="vibe-btn" onclick="sortCards('title', false)">Title</button><button id="sort-category" class="vibe-btn active" onclick="sortCards('category')">Category</button>
+        </div>
+
+        <!-- <label for="vibe-select" class="vibe-label">View</label> -->
         <div class="vibe-select-wrapper">
             <select id="vibe-select">
-                <option value="all">All</option>
+                <option value="all">All categories</option>
                 {% for category in categories %}
                 <option value="{{ category }}">{{ category }}</option>
                 {% endfor %}
@@ -52,7 +57,7 @@
     <div class="recipe-gallery">
     {% for recipe in recipes %}
         {% if not recipe.hidden %}
-        <div class="recipe-card" data-category="{{ recipe.category }}" data-tags="{{ recipe.tags | join(' ') }}">
+        <div class="recipe-card" data-category="{{ recipe.category }}" data-tags="{{ recipe.tags | join(' ') }}" data-date="{{ recipe.date }}" data-title="{{ recipe.title }}">
             <a href="{{ recipe.url }}">
                 <div class="card-image-wrapper">
                     {% if recipe.image %}
@@ -117,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
     select.value = 'all';
 
     select.addEventListener('change', (e) => {
-        updateCards(e.target.value);
+        updateCardCategory(e.target.value);
     });
 });
 
@@ -129,7 +134,7 @@ function getValueFromUrlHash() {
     return null;
 }
 
-function updateCards(filterValue) {
+function updateCardCategory(filterValue) {
     const url = new URL(window.location);
     url.searchParams.set('category', filterValue);
     window.history.replaceState({}, '', url);
@@ -152,6 +157,24 @@ function updateCards(filterValue) {
     });
 }
 
+function sortCards(filterValue, reverse=false) {
+    const cards = document.querySelectorAll('.recipe-card');
+    var cardArray = Array.from(cards);
+    let sorted = cardArray.sort(sorter);
+
+    document.querySelectorAll('.sort-buttons > button').forEach(b => b.classList.remove('active'));
+    document.querySelector('#sort-'+filterValue).classList.add('active');
+
+    function sorter(a,b) {
+        if (reverse) {
+            return b.dataset[filterValue].localeCompare(a.dataset[filterValue]);
+        }
+        return a.dataset[filterValue].localeCompare(b.dataset[filterValue]);
+    }
+
+    sorted.forEach(e => document.querySelector(".recipe-gallery").appendChild(e));
+}
+
 function setSelectedOptionFromUrl() {
     const urlParams = new URLSearchParams(window.location.search);
     const categoryValue = urlParams.get('category');
@@ -159,7 +182,7 @@ function setSelectedOptionFromUrl() {
 
     if (categoryValue) {
         select.value = categoryValue;
-        updateCards(categoryValue);
+        updateCardCategory(categoryValue);
     }
 
     const viewValue = urlParams.get('view');

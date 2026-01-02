@@ -6,10 +6,11 @@
 {% block description %}A listing of all articles.{% endblock %}
 
 {% block content %}
+{% set cookbook = recipes | sort(attribute='date')  %}
 <article>
   <div class="article_text">
     <dl>
-      {% for year, year_articles in (articles + recipes)|groupby('date.year')|reverse|list %}
+      {% for year, year_articles in (articles + cookbook)|groupby('date.year')|reverse|list %}
         <h2>{{ year }}</h2>
         {% for _, month_articles in year_articles|groupby('date.month')|reverse %}
           {# A little gross, but works (need a date object to get the month name). #}
