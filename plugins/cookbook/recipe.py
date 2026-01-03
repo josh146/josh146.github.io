@@ -337,7 +337,7 @@ class RecipePostProcessor:
         """
         Scans HTML for [[Component: title]]. If found, replaces it in-place.
         """
-        tag_pattern = re.compile(r'(<p>\s*)?\[\[Component: (.*?)(?:\s*\|\s*(.*?))?\]\](\s*<\/p>)?', re.IGNORECASE)
+        tag_pattern = re.compile(r'(<p>\s*)?\[\[Component:\s*(.*?)(?:\s*\|\s*(.*?))?\]\](\s*<\/p>)?', re.IGNORECASE)
 
         # A set to track which components we've added footnotes for
         # (so we don't add the same footer twice if included twice)
@@ -383,6 +383,9 @@ class RecipePostProcessor:
                         scale_factor = 1.0
                         show_header = True  # Default is True
 
+                        variation_ingredients = False
+                        variation_step = False
+
                         if raw_args:
                             clean_args = re.sub(r'<[^>]+>', '', raw_args)
                             parts = [p.strip() for p in clean_args.split('|')]
@@ -390,6 +393,14 @@ class RecipePostProcessor:
                                 if p.lower() in ['no_header', 'headless', 'no-title']:
                                     show_header = False
                                     continue # Skip to next part
+
+                                if p.lower() in ['variation_ingredients']:
+                                    variation_ingredients = True
+                                    continue
+
+                                if p.lower() in ['variation_step']:
+                                    variation_step = True
+                                    continue
 
                                 # Check if it looks like a number
                                 try:
@@ -432,8 +443,15 @@ class RecipePostProcessor:
                             print(f"Warning: Section '{section_target}' not found in component '{title}'")
 
                         placed_components.add(title)
-                        # Decide if we are inserting Ingredients or Method based on attribute
 
+                        if variation_ingredients:
+                            content = ";".join(component_recipe.ingredients_list)
+                            return RecipePostProcessor.scale_list_quantities(content, scale_factor)
+
+                        if variation_step:
+                            return ";".join(component_recipe.instructions_list)
+
+                        # Decide if we are inserting Ingredients or Method based on attribute
                         if "ingredients" in section_attr:
                             content = RecipePostProcessor.scale_quantities(component_recipe.ingredients_html, scale_factor)
                         else:
@@ -544,6 +562,32 @@ class RecipePostProcessor:
         recipe.ingredients_html = str(soup_ing)
         recipe.method_html = str(soup_met)
         recipe.footnotes_html = str(soup_notes)
+
+    @staticmethod
+    def scale_list_quantities(list_fragment, scale_factor):
+        """
+        Multiplies numbers found in <span class="scalable">...</span> by the scale factor.
+        """
+        if scale_factor == 1.0:
+            return list_fragment
+
+        def math_replacer(match):
+            original_number = match.group(1)
+            try:
+                # Handle fractions like "1/2" or ranges "1-2" if you want to get fancy
+                # For now, let's handle standard floats/ints
+                val = float(original_number)
+                new_val = val * scale_factor
+
+                # Formatting: remove trailing zeros (250.0 -> 250)
+                return "{:.2f}".format(new_val).rstrip('0').rstrip('.')
+            except ValueError:
+                # If it's not a number (e.g. "some"), leave it alone
+                return original_number
+
+        # Regex finds: <span class="scalable">123</span>
+        pattern = re.compile(r'([\d\.]+)')
+        return pattern.sub(math_replacer, list_fragment)
 
     @staticmethod
     def scale_quantities(html_fragment, scale_factor):
