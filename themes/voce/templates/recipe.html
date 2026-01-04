@@ -19,7 +19,7 @@
           "description": "{{ page.intro_html|striptags|truncate(160)|e }}",
 
           {% if page.time %}
-          "totalTime": "PT{{ page.time|replace(' mins', 'M')|replace(' min', 'M')|replace(' hours', 'H') }}",
+          "totalTime": "PT{{ page.time|replace(' minutes', 'M')|replace(' mins', 'M')|replace(' min', 'M')|replace(' hours', 'H') }}",
           {% endif %}
 
           "recipeYield": "{{ page.servings|default('4') }} servings",

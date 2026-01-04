@@ -6,7 +6,7 @@ Time: 12 hours
 Servings: 2 loaves
 Image: /images/recipes/sourdough2.jpg
 Sticky: true
-Timeline: Mix levain and autolyse | 10m | Active; Autolyse | 5h | Wait; Mix | 20m | Active; Bulk fermentation | 210m | Wait; Preshape | 5m | Active; Rest | 20m | Wait; Shape | 5m | Active; Proof | 12h | Wait; Bake | 2h | Active
+Timeline: Mix levain and autolyse | 10m | Active; Autolyse | 5h | Wait; Mix | 20m | Active; Bulk fermentation | 3h 30m | Wait; Preshape | 5m | Active; Rest | 20m | Wait; Shape | 5m | Active; Proof | 12h | Wait; Bake | 2h | Active
 
 
 My go-to sourdough recipe, it is flexible enough to make a loaf of bread on the weekend, or even midweek. Adapted originally from [The Perfect Loaf](https://www.theperfectloaf.com/simple-weekday-sourdough-bread/).
