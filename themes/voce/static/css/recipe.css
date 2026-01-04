@@ -604,3 +604,16 @@ li .variable-pill {
     gap: 20px;
     margin: 20px;
 }
+
+.recipe-image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+.recipe-image img {
+    width: 100%;       /* Ensures image spans the full width of its container */
+    height: 300px;     /* Sets a consistent height for all recipe images */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    display: block;    /* Removes extra space below the image */
+    margin: auto;
+}

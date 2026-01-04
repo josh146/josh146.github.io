@@ -11,6 +11,11 @@ Image: /images/recipes/sourdough-loaf3.jpg
 An easy sourdough sandwich loaf recipe that is minimally enriched, and doable in one day from
 sourdough starter discard. This loaf produces bread perfect for toast, sandwiches, and more.
 
+<div class="recipe-image">
+<img src="/images/recipes/sourdough-loaf.jpg">
+<img src="/images/recipes/sourdough-loaf2.jpg">
+</div>
+
 ## Ingredients
 
 * 190g tangzhong
@@ -83,8 +88,3 @@ proofing box, I like to set the bulk fermentation temperature to 25ºC.
 loaf should be 96-99ºC.
 
 1. Leave to rest on a wire rack for at least 2 hours before slicing.
-
-	![sourdough loaf](/images/recipes/sourdough-loaf.jpg)
-
-	![sourdough loaf](/images/recipes/sourdough-loaf2.jpg)
-
