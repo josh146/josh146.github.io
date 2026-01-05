@@ -2,6 +2,7 @@ Title: Tarte aux pommes normande (apple tart)
 Slug: tarte-normande-apple-tart
 Date: 2026-01-04
 Time: 1 hour
+Category: Pastry
 Servings: 1 9-inch (22cm) tart
 Tags: dessert
 Image: /images/recipes/apple-tart.jpg
