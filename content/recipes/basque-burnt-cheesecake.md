@@ -1,6 +1,6 @@
 Title: Basque cheesecake
 Date: 2025-12-22
-Category: Pastry and Cake
+Category: Cake
 Slug: basque-cheesecake
 Time: 2 hours
 Servings: 8-10 servings

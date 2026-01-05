@@ -1,6 +1,6 @@
 Title: Pâte brisée 
 Date: 2026-01-04
-Category: Pastry and Cake
+Category: Pastry
 Slug: pate-brisee
 Tags: pate, brisee, dough, tart, crust, shortcrust
 Time: 30 minutes

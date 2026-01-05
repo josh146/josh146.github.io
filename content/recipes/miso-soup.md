@@ -5,6 +5,7 @@ Category: Stocks, soups, and sauces
 Time: 15 minutes
 Tags: japanese
 Servings: 1L
+Image: /images/recipes/miso-soup.jpg
 
 ## Ingredients
 

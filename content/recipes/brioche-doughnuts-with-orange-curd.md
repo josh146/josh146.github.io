@@ -1,6 +1,6 @@
 Title: Brioche doughnuts with orange curd and latte ice cream
 Date: 2025-12-24
-Category: Pastry and Cake
+Category: Sweets
 Slug: brioche-doughnuts-with-orange-curd-and-latte-ice-cream
 Time: 2 hours
 Servings: 6

@@ -1,7 +1,7 @@
 Title: Pâte feuilletée (puff pastry)
 Slug: pate-feuilletee-puff-pastry
 Date: 2026-01-04
-Category: Pastry and Cake
+Category: Pastry
 Tags: dough
 Time: 6 hours
 Servings: 1kg (enough for two 25cm open tarts, or 8 meat pies)

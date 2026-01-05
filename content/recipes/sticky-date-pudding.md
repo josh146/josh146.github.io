@@ -1,6 +1,6 @@
 Title: Sticky date pudding
 Date: 2025-12-24
-Category: Pastry and Cake
+Category: Cake
 Slug: sticky-date-pudding
 Time: 1 hour
 Servings: 15 slices of cake and 500ml of butterscotch sauce

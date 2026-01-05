@@ -1,7 +1,7 @@
 Title: Caramelized onion tart
 Slug: caramelized-onion-tart
 Date: 2026-01-04
-Category: Pastry and Cake
+Category: Pastry
 Tags: pate, brisee, shortcrust
 Time: 2 hours
 Servings: One 23cm tart

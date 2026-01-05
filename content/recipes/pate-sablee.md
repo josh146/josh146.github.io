@@ -1,6 +1,6 @@
 Title: Pâte sablée 
 Date: 2025-12-21
-Category: Pastry and Cake
+Category: Pastry
 Slug: pate-sablee
 Tags: pate, sablee, dough, tart, crust, shortcrust
 Time: 30 minutes

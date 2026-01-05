@@ -1,6 +1,6 @@
 Title: Lime meringue tart
 Date: 2025-12-19
-Category: Pastry and Cake
+Category: Pastry
 Slug: lime-meringue-tart
 Time: 1 hour
 Servings: 1 9-inch (22cm) tart

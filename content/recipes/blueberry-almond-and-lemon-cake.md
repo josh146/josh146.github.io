@@ -1,6 +1,6 @@
 Title: Blueberry, almond, and lemon cake
 Date: 2025-12-23
-Category: Pastry and Cake
+Category: Cake
 Slug: blueberry-almond-and-lemon-cake
 Time: 1 hour 30 minutes
 Servings: 8-10 servings

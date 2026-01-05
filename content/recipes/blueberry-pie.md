@@ -1,6 +1,6 @@
 Title: Blueberry pie
 Date: 2025-12-27
-Category: Pastry and Cake
+Category: Pastry
 Slug: blueberry-pie
 Time: 3 hours
 Servings: One pie
