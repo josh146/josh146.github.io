@@ -9,7 +9,7 @@ Timeline: Mix Ingredients | 20m | Active; Bulk ferment | 12h | Wait; Shape | 30m
 Timeline_Start: 20:00
 Sticky: true
 Image: /images/recipes/babka.jpg
-Tags: jewish, dessert
+Tags: jewish, dessert, cake
 ---
 
 Babka's are a showstopper when bought to a dinner party. A cross between a bread and a cake, you can go pretty crazy on the filling (and even reduce the sugar in the brioche dough to about 10g or less, and skip the sugar syrup step, to make a savoury babka --- with fillings such as pesto; garlic, butter, herbs and cheese, etc.). Adapted from [Ottolenghi's Jerusalem](https://www.amazon.com.au/Jerusalem-Yotam-Ottolenghi/dp/0091943744).
