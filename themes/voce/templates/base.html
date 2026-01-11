@@ -213,12 +213,6 @@
   </div>
 
   {% block scripts %}
-  <script type="text/javascript">
-    window.addEventListener('load', function(){
-    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
-      window.scroll(0, document.getElementById('main').offsetTop);
-    }})
-  </script>
 
   {% if MANGLE_EMAILS %}
   <script type="text/javascript">
