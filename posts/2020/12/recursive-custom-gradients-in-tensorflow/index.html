@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Recursive custom gradients in TensorFlow | josh iza.ac</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Josh Izaac">
+  <meta name="description" content="Most autodifferentiation libraries, such as PyTorch, TensorFlow, Autograd — and even PennyLane in the quantum case — allow you to create new functions and register custom gradients that the autodiff framework makes use of during backpropagation. This is useful in several...
+">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Recursive custom gradients in TensorFlow | josh iza.ac">
+  <meta property="og:url" content=" posts/2020/12/recursive-custom-gradients-in-tensorflow/ ">
+  <meta property="og:description" content="Most autodifferentiation libraries, such as PyTorch, TensorFlow, Autograd — and even PennyLane in the quantum case — allow you to create new functions and register custom gradients that the autodiff framework makes use of during backpropagation. This is useful in several...
+">
+  <meta property="og:image" content="https://iza.ac/images/header-small.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="../../../..">
+  <meta property="twitter:url" content=" posts/2020/12/recursive-custom-gradients-in-tensorflow/ ">
+  <meta name="twitter:title" content="Recursive custom gradients in TensorFlow | josh iza.ac">
+  <meta name="twitter:description" content="Most autodifferentiation libraries, such as PyTorch, TensorFlow, Autograd — and even PennyLane in the quantum case — allow you to create new functions and register custom gradients that the autodiff framework makes use of during backpropagation. This is useful in several...
+">
+  <meta name="twitter:image" content="https://iza.ac/images/header-small.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../../theme/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../../../../theme/css/recipe_gallery.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../../../../theme/css/pygments.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ninja-keys?module"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../../../../theme/js/functions.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="http://iza.ac/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="josh iza.ac Full Atom Feed" />
+
+<meta name="keywords" content="keywords, tensorflow, gradients">
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-308113-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-default" role="navigation">
+        <div class="container">
+          <div class="row" style="width: 100%;">
+            <div class="site-navigation-inner col-sm-12">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="social fas fa-ellipsis-v"></i>
+              </button>
+
+              <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbarSupportedContent" style="float: left;">
+                <ul id="menu-all-pages" class="nav navbar-nav mr-auto" style="padding: 20px;">
+                  <li class="menu-item"><a href="/" >Home
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/about" >About
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/cv" >CV
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/recipes" >recipes
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/posts" >posts
+
+<i class=" fa-lg" style=""></i></a></li>
+                </ul>
+              </div>
+              <div class="social">
+                <a href="https://scholar.google.com/citations?user=pEj09c4AAAAJ" title="Google Scholar" >
+
+<i class="ai ai-google-scholar fa-lg" style="font-size: 1.6rem;"></i></a>
+                <a href="http://github.com/josh146" title="GitHub" >
+
+<i class="fab fa-github fa-lg" style=""></i></a>
+                <a href="https://linkedin.com/pub/josh-izaac/104/9bb/6a2" title="LinkedIn" >
+
+<i class="fab fa-linkedin fa-lg" style=""></i></a>
+                <a data-email="ca.azi@hsoj:otliam" data-title="Email" title="You need javascript enabled to view this email" class="email">
+
+<i class="fas fa-envelope fa-lg" style=""></i></a>
+                <a href="/feeds/rss.xml" title="Feed" >
+
+<i class="fas fa-rss fa-lg" style=""></i></a>
+               <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href="../../../.."><img  style="width: 400px;" src="/images/header.png" class="attachment-full size-full" alt="logo">          </a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item"><time datetime="2020-12-31 16:00:00+08:00">Dec 31, 2020</time></span>
+        <h1 class="entry-title"><a href="../../../../posts/2020/12/recursive-custom-gradients-in-tensorflow/">Recursive custom gradients in&nbsp;TensorFlow</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="../../../../posts/2020/12/recursive-custom-gradients-in-tensorflow/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <p>Most autodifferentiation libraries, such as <a href="https://pytorch.org">PyTorch</a>,
+<a href="https://tensorflow.org">TensorFlow</a>, <a href="https://github.com/HIPS/autograd">Autograd</a>
+— and even <a href="https://pennylane.ai">PennyLane</a> in the quantum case — allow you to
+create new functions and register <em>custom gradients</em> that the autodiff framework
+makes use of during backpropagation. This is useful in several cases; perhaps you have
+a composite function with a gradient that is more stable than naively applying the
+chain rule to all constituent operations, or perhaps the function you would like to
+define cannot be written in terms of native framework operations.</p>
+<p>While this functionality is super useful, especially in quantum differentiable programming,
+it tends to be somewhat under-documented and under-utilized in ‘classical’ machine learning.
+And while most autodiff frameworks provide (small) examples of custom gradients for first
+derivatives, there is <em>very</em> little information out there for supporting higher-order derivatives.</p>
+<p>In fact, if our custom function has periodicity, we can likely define the custom
+gradient recursively, and support <em>arbitrary</em> nth order derivatives!</p>
+<p>Let’s imagine a world where TensorFlow accidentally shipped without sine and cosine support,
+and see if we can define a custom gradient to support arbitrary nth order derivatives.</p>
+<h2>Custom gradients in TensorFlow</h2>
+<p>So, we’ve imported TensorFlow, executed <code>tf.sin()</code>, and our heart sank as Python responded</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">tf</span><span class="o">.</span><span class="n">sin</span><span class="p">()</span>
+<span class="go">AttributeError: module 'tensorflow' has no attribute 'sin'</span>
+</code></pre></div>
+
+<p>Shit! No worries, though, we can use the
+<a href="https://www.tensorflow.org/api_docs/python/tf/custom_gradient"><code>@tf.custom_gradient</code></a> decorator,
+the ever-reliable NumPy, and the fact that</p>
+<div class="math">$$\frac{d}{dx}\sin(x) = \cos(x)$$</div>
+<p>to define an autodiff-supporting sine function for TensorFlow:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+
+<span class="nd">@tf</span><span class="o">.</span><span class="n">custom_gradient</span>
+<span class="k">def</span> <span class="nf">sin</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">grad</span><span class="p">(</span><span class="n">dy</span><span class="p">):</span>
+        <span class="c1"># nested function that returns the</span>
+        <span class="c1"># vector-Jacobian product</span>
+        <span class="k">return</span> <span class="n">dy</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">numpy</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">numpy</span><span class="p">()),</span> <span class="n">grad</span>
+</code></pre></div>
+
+<p>This is a great drop in replacement for our missing sine functionality:</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">weights</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">([</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="n">res</span> <span class="o">=</span> <span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+<span class="go">tf.Tensor([0.38941833 0.09983342 0.19866933], shape=(3,), dtype=float32)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">grad</span> <span class="o">=</span> <span class="n">tape</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="go">tf.Tensor([0.921061  0.9950042 0.9800666], shape=(3,), dtype=float32)</span>
+</code></pre></div>
+
+<p>What happens if we would like the second derivative, however?</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape1</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape2</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">res</span> <span class="o">=</span> <span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">grad</span> <span class="o">=</span> <span class="n">tape2</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span><span class="n">grad2</span> <span class="o">=</span> <span class="n">tape1</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">grad2</span><span class="p">)</span>
+<span class="go">None</span>
+</code></pre></div>
+
+<p>😬</p>
+<p>Because the custom gradient we are returning uses a NumPy function <code>np.cos</code>, TensorFlow does not
+know how to differentiate the returned custom gradient.</p>
+<h2>Nesting custom gradients</h2>
+<p>No worries! We can fix this by simply registering the gradient of the custom gradient! (Note: the
+TensorFlow <code>@tf.custom_decorator</code> documentation has an example of defining a second derivative this
+way, but as far as I can tell, <a href="https://stackoverflow.com/a/60518214/10958457">it appears
+incorrect</a>).</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@tf</span><span class="o">.</span><span class="n">custom_gradient</span>
+<span class="k">def</span> <span class="nf">sin</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">first_order</span><span class="p">(</span><span class="n">dy</span><span class="p">):</span>
+
+        <span class="nd">@tf</span><span class="o">.</span><span class="n">custom_gradient</span>
+        <span class="k">def</span> <span class="nf">jacobian</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
+            <span class="k">def</span> <span class="nf">hessian</span><span class="p">(</span><span class="n">ddy</span><span class="p">):</span>
+                <span class="k">return</span> <span class="n">ddy</span> <span class="o">*</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">numpy</span><span class="p">())</span>
+            <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">numpy</span><span class="p">()),</span> <span class="n">hessian</span>
+
+        <span class="k">return</span> <span class="n">dy</span> <span class="o">*</span> <span class="n">jacobian</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">numpy</span><span class="p">()),</span> <span class="n">first_order</span>
+</code></pre></div>
+
+<p>Here, we are using the fact that <span class="math">\(\frac{d^2}{dx^2}\sin(x) = -\sin(x)\)</span>, and defining
+a new <code>jacobian()</code> function that <em>itself</em> has its custom gradient (the Hessian) defined.
+This now works as required:</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape1</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape2</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">res</span> <span class="o">=</span> <span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">grad</span> <span class="o">=</span> <span class="n">tape1</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span><span class="n">grad2</span> <span class="o">=</span> <span class="n">tape2</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">grad2</span><span class="p">)</span>
+<span class="go">tf.Tensor([-0.38941833 -0.09983342 -0.19866933], shape=(3,), dtype=float32)</span>
+</code></pre></div>
+
+<p>However, say we wanted the third derivative? This would now return <code>None</code>, since we have only
+defined up until the second derivative! To support the third derivative would
+require three levels of custom-gradient nesting; similarly, for <span class="math">\(n\)</span> derivatives,
+we need <span class="math">\(n\)</span> levels of nesting.</p>
+<h2>The parameter-shift rule</h2>
+<p>Using the <a href="https://en.wikipedia.org/wiki/List_of_trigonometric_identities">trig identity</a> <span class="math">\(\sin(a+b)
+- \sin(a-b) = 2\cos(a)\sin(b)\)</span>, we can write the derivative of the sine function in a form that is
+more suited to higher derivatives:</p>
+<div class="math">$$\frac{d}{dx}\sin(x) = \cos(x) = \frac{\sin(x+s) - \sin(x-s)}{2\sin(s)}, ~~~ s\in \mathbb{R}.$$</div>
+<p>In particular, the derivative of <span class="math">\(\sin(x)\)</span> is now written in terms of a <strong>linear combination of
+calls to the <em>same</em> function, just with shifted parameters!</strong><sup id="sf-recursive-custom-gradients-in-tensorflow-1-back"><a href="#sf-recursive-custom-gradients-in-tensorflow-1" class="simple-footnote" title="The parameter-shift rule is an important result for quantum machine learning and variational algorithms, as it allows analytic quantum gradients to be computed on quantum hardware. For more details, see Evaluating analytic gradients on quantum hardware, the PennyLane glossary, or this tutorial I wrote on quantum gradients">1</a></sup> This leads to a
+really neat idea: if we define a sine function with custom gradient <em>in terms of itself</em>, will it
+allow for arbitrary <span class="math">\(n\)</span>-th derivatives in TensorFlow?</p>
+<p>Let’s give it a shot.</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@tf</span><span class="o">.</span><span class="n">custom_gradient</span>
+<span class="k">def</span> <span class="nf">sin</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">shift</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">):</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">shift</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">grad</span><span class="p">(</span><span class="n">dy</span><span class="p">):</span>
+        <span class="n">jacobian</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="p">(</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">shift</span><span class="p">,</span> <span class="n">shift</span><span class="o">=</span><span class="n">shift</span><span class="p">)</span> <span class="o">-</span> <span class="n">sin</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">shift</span><span class="p">,</span> <span class="n">shift</span><span class="o">=</span><span class="n">shift</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">dy</span> <span class="o">*</span> <span class="n">jacobian</span>
+
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">numpy</span><span class="p">()),</span> <span class="n">grad</span>
+</code></pre></div>
+
+<p>Note that we only have one level of nesting (so we are only registering the first derivative),
+but we are defining the first derivative by recursively calling the original function.</p>
+<p>Does this work? Attempting to compute the third derivative:</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape1</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape2</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape3</span><span class="p">:</span>
+<span class="gp">... </span>            <span class="n">res</span> <span class="o">=</span> <span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span>        <span class="n">grad</span> <span class="o">=</span> <span class="n">tape3</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">grad2</span> <span class="o">=</span> <span class="n">tape2</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">... </span><span class="n">grad3</span> <span class="o">=</span> <span class="n">tape1</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">grad3</span><span class="p">)</span>
+<span class="go">tf.Tensor([-0.38941827 -0.0998335  -0.19866937], shape=(3,), dtype=float32)</span>
+</code></pre></div>
+
+<p>Amazing! And it agrees exactly with the known third derivative:</p>
+<div class="highlight"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="o">-</span><span class="n">tf</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">))</span>
+<span class="go">tf.Tensor([-0.38941833 -0.09983342 -0.19866933], shape=(3,), dtype=float32)</span>
+</code></pre></div>
+
+<p>We can construct a more complicated model, where we are even calling our custom sine
+function with different shift values, and compute the full Hessian matrix:</p>
+<div class="highlight"><pre><span></span><code><span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">(</span><span class="n">persistent</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">as</span> <span class="n">tape1</span><span class="p">:</span>
+    <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">(</span><span class="n">persistent</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="k">as</span> <span class="n">tape2</span><span class="p">:</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">stack</span><span class="p">([</span><span class="n">weights</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">weights</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">weights</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">weights</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">sin</span><span class="p">(</span><span class="n">weights</span><span class="p">,</span> <span class="n">shift</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">sin</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">shift</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Result:"</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
+
+    <span class="n">grad</span> <span class="o">=</span> <span class="n">tape2</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">weights</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Gradient:"</span><span class="p">,</span> <span class="n">grad</span><span class="p">)</span>
+
+<span class="n">grad2</span> <span class="o">=</span> <span class="n">tape1</span><span class="o">.</span><span class="n">jacobian</span><span class="p">(</span><span class="n">grad</span><span class="p">,</span> <span class="n">weights</span><span class="p">,</span> <span class="n">experimental_use_pfor</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Hessian:</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">grad2</span><span class="p">)</span>
+</code></pre></div>
+
+<p style="font-italic">Out:</p>
+<pre class="ml-5" style="margin-top:-80px; color: grey;">Result: tf.Tensor([0.39061818 0.21824193 0.6536093 ], shape=(3,), dtype=float32)
+Gradient: tf.Tensor([3.0731294 1.0189977 2.1603184], shape=(3,), dtype=float32)
+Hessian:
+ tf.Tensor(
+[[3.7908227  0.         0.        ]
+ [0.         0.13997458 0.23987202]
+ [0.         0.23987202 5.3876476 ]], shape=(3, 3), dtype=float32)
+</pre>
+
+<h2>Final note</h2>
+<p>While this is a neat trick for defining custom gradients that support arbitrary
+derivatives (as long as the derivative can be written as a linear combination
+of the original function!), it is often not the most efficient method. To see why,
+consider the derivative of a function <span class="math">\(f(x)\)</span> satisfying a parameter-shift rule:</p>
+<div class="math">$$
+\begin{align}
+\frac{d^2}{dx^2}f(x) &amp;=  c \frac{d}{dx}f(x+s) - c \frac{d}{dx}f(x-s)\\[7pt]
+                        &amp;= \left[c^2 (f(x+2s)-f(x)) \right] - \left[c^2 (f(x)-f(x-2 s)\right].
+\end{align}
+$$</div>
+<p>TensorFlow will be naively performing <em>four</em> evaluations of the original function in order
+to compute the second derivative; whereas if done symbolically, we can see that some
+terms would cancel out or combine without even needing to perform all evaluations:</p>
+<div class="math">$$\frac{d^2}{dx^2}f(x) = c^2 \left[ f(x+2s) - 2f(x) + f(x-2s) \right].$$</div>
+<p>And that’s not all; given the periodicity of the function <span class="math">\(f(x)\)</span>, there are often even <em>further</em>
+optimizations that can be made for a specific shift value <span class="math">\(s\)</span>; for example
+being able to cache and re-use previous function evaluations computed during the
+first derivative.</p>
+<p>So while the recursive custom gradient is a neat trick, it’s probably always better to manually nest
+the custom gradients. Especially if evaluating <span class="math">\(f(x)\)</span> is a bottleneck! <sup id="sf-recursive-custom-gradients-in-tensorflow-2-back"><a href="#sf-recursive-custom-gradients-in-tensorflow-2" class="simple-footnote" title="Higher-order quantum gradients using the paramter-shift rule was explored in Estimating the gradient and higher-order derivatives on quantum hardware. Check it out if you are curious to see some of the optimizations that can be made when computing the Hessian.">2</a></sup></p>
+<hr>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script><ol class="simple-footnotes"><li id="sf-recursive-custom-gradients-in-tensorflow-1">The parameter-shift rule is an
+important result for quantum machine learning and variational algorithms, as it allows analytic
+quantum gradients to be computed <em>on quantum hardware</em>. For more details, see <a href="https://arxiv.org/abs/1811.11184">Evaluating analytic
+gradients on quantum hardware</a>, the <a href="https://pennylane.ai/qml/glossary/parameter_shift.html">PennyLane
+glossary</a>, or this <a href="https://pennylane.ai/qml/demos/tutorial_backprop.html">tutorial I wrote on
+quantum gradients</a> <a href="#sf-recursive-custom-gradients-in-tensorflow-1-back" class="simple-footnote-back">↩︎</a></li><li id="sf-recursive-custom-gradients-in-tensorflow-2">Higher-order quantum
+gradients using the paramter-shift rule was explored in <a href="https://arxiv.org/abs/2008.06517">Estimating the gradient and higher-order
+derivatives on quantum hardware</a>. Check it out if you are curious
+to see some of the optimizations that can be made when computing the Hessian. <a href="#sf-recursive-custom-gradients-in-tensorflow-2-back" class="simple-footnote-back">↩︎</a></li></ol>
+      </div><!-- .entry-content -->
+      <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="../../../../tag/tensorflow/">tensorflow</a>,          <a href="../../../../tag/gradients/">gradients</a>      </div>
+    </div>
+  </div>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    This site uses the <a href="https://github.com/limbenjamin/voce">voce</a> theme by <a href="//limbenjamin.com/">Benjamin Lim</a><br />
+                    &copy; 2025 <a href="../../../..">Josh Izaac</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+      var e = document.querySelectorAll(".email");
+      for (var i = 0; i < e.length; i++) {
+        var email = e[i].getAttribute("data-email")
+        var title = e[i].getAttribute("data-title")
+        if (email){
+          e[i].href = email.split("").reverse().join("");
+          e[i].removeAttribute("data-email");
+          e[i].removeAttribute("data-title");
+          e[i].removeAttribute("class");
+          if (title){
+            e[i].setAttribute("title", title);
+          }
+          else{
+            e[i].removeAttribute("title");
+          }
+        }
+      }
+    })
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const ninja = document.querySelector('ninja-keys');
+
+        if (ninja) {
+            // 1. Load your JSON index
+            fetch('/search.json')
+                .then(response => response.json())
+                .then(data => {
+                    // 2. Transform into Ninja Keys format
+                    const menuItems = data.map(item => ({
+                        id: item.url,
+                        title: item.title,
+                        section: item.type, // Groups results by 'Recipe' vs 'Page'
+                        keywords: item.keywords,
+                        handler: () => {
+                            window.location.href = item.url;
+                        }
+                    }));
+
+                    // 3. Add static actions (Optional)
+                    // e.g., Dark Mode toggle, Home button
+                    menuItems.push({
+                        id: 'home',
+                        title: 'Go to Home',
+                        section: 'Navigation',
+                        hotkey: 'cmd+h',
+                        handler: () => { window.location.href = '/'; }
+                    });
+
+                    // 4. Give data to Ninja Keys
+                    ninja.data = menuItems;
+                })
+                .catch(err => console.error("Failed to load search index:", err));
+        }
+    });
+  </script>
+
+
+  <ninja-keys placeholder="Search..." hideBreadcrumbs></ninja-keys>
+
+</body>
+</html>
