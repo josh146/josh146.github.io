@@ -2,7 +2,7 @@ Title: Shio pan
 Date: 2026-01-31
 Category: Bread
 Slug: shio-pan
-Time: 2 hours
+Time: 4 hours
 Servings: 6
 Image: /images/recipes/shio-pan.jpg
 Sticky: true
