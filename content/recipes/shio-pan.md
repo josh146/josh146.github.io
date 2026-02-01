@@ -7,15 +7,16 @@ Servings: 6
 Image: /images/recipes/shio-pan.jpg
 Sticky: true
 Tags: salt, bread
+Timeline: Mix flour and water | 5m | Active; Autolyse | 25m | Wait; Mix | 15m | Active; Bulk fermentation | 90m | Wait; Shape | 15m | Active; Proof | 1h | Wait; Bake | 15m | Wait;
 
 Shio pan, or salt bread, is almost like a cross between a buttery croissant and fluffy dinner roll.
 Originating in Japan (and since becoming very popular in Korea), the dough is rolled around a block
 of butter, which melts in the oven and fries the bottom of the bread --- forming an incredibly
 crispy, buttery base.
 
-Shio pan comes in many variations --- hard crust, soft crust, enriched with eggs, with fillings,
-etc. The version here uses a dough that is slightly enriched, producing a semi-hard crust and
-fluffy interior.
+Shio pan comes in many variations --- hard crust and dense, soft crust and fluffy, fillings, etc.
+The version here uses a dough that is slightly enriched, producing a semi-hard crust and fluffy
+interior.
 
 <div class="recipe-image">
 <img src="/images/recipes/shio-pan2.jpg">
