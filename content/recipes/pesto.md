@@ -3,6 +3,7 @@ Slug: pesto
 Date: 2026-01-03
 Category: Stocks, soups, and sauces
 Time: 15 minutes
+Image: /images/recipes/pesto.jpg
 Servings: 4
 
 ## Ingredients
