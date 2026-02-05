@@ -6,6 +6,7 @@ Time: 2 days
 Servings: 4
 Tags: fish
 Sticky: true
+Image: /images/recipes/miso-cod.jpg
 
 Inspired from the traditional Japanese preparation kasuzuke, where protein and vegetables are marinated in leftover sake lees and then grilled, this recipe was made famous by Nobu Matsuhisa.
 
