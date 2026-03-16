@@ -169,7 +169,7 @@ h2.recipe-category {
 
 .sort-buttons {
     margin-bottom: 20px;
-    display: none;
+    /*display: none;*/
 }
 
 #vibe-select {
