@@ -17,11 +17,33 @@
     <div class="view-controls">
         <p style="margin: 0;">{{ page.description }}</p>
     </div>
+</div>
+
+{% set categories = recipes | map(attribute='category') | unique | sort %}
+<div id="variation-controls">
+
     <div class="view-controls">
-        <button id="btn-gallery" class="view-btn active"><i class="fas fa-th"></i></button>
-        <button id="btn-list" class="view-btn"><i class="fas fa-bars"></i></button>
+        <button id="btn-gallery" class="view-btn active"><i class="fas fa-th"></i></button><button id="btn-list" class="view-btn"><i class="fas fa-bars"></i></button>
+    </div>
+
+    <div id="gallery-buttons">
+        <!-- <label for="vibe-select" class="vibe-label">Sort by</label> -->
+        <div class="sort-buttons">
+          <button id="sort-date" class="vibe-btn" onclick="sortCards('date', true)">Date</button><button id="sort-title" class="vibe-btn" onclick="sortCards('title', false)">Title</button><button id="sort-category" class="vibe-btn active" onclick="sortCards('category')">Category</button>
+        </div>
+
+        <!-- <label for="vibe-select" class="vibe-label">View</label> -->
+        <div class="vibe-select-wrapper">
+            <select id="vibe-select">
+                <option value="all">All categories</option>
+                {% for category in categories %}
+                <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select>
+        </div>
     </div>
 </div>
+
 
 <div id="recipe-list" class="recipe-list hidden">
     {% for group in recipes|groupby("category") %}
@@ -47,23 +69,6 @@
 
 
 <div id="recipe-gallery">
-    {% set categories = recipes | map(attribute='category') | unique | sort %}
-    <div id="variation-controls">
-        <!-- <label for="vibe-select" class="vibe-label">Sort by</label> -->
-        <div class="sort-buttons">
-          <button id="sort-date" class="vibe-btn" onclick="sortCards('date', true)">Date</button><button id="sort-title" class="vibe-btn" onclick="sortCards('title', false)">Title</button><button id="sort-category" class="vibe-btn active" onclick="sortCards('category')">Category</button>
-        </div>
-
-        <!-- <label for="vibe-select" class="vibe-label">View</label> -->
-        <div class="vibe-select-wrapper">
-            <select id="vibe-select">
-                <option value="all">All categories</option>
-                {% for category in categories %}
-                <option value="{{ category }}">{{ category }}</option>
-                {% endfor %}
-            </select>
-        </div>
-    </div>
     <div class="recipe-gallery">
     {% for recipe in recipes %}
         {% if not recipe.hidden %}
@@ -99,6 +104,7 @@ const btnGallery = document.getElementById('btn-gallery');
 const btnList = document.getElementById('btn-list');
 const gallery = document.getElementById('recipe-gallery');
 const list = document.getElementById('recipe-list');
+const galleryButtons = document.getElementById('gallery-buttons');
 
 
 btnGallery.addEventListener('click', function() {
@@ -119,11 +125,13 @@ function toggleView(view) {
         list.classList.toggle('hidden', false);
         btnList.classList.toggle('active', true)
         btnGallery.classList.toggle('active', false)
+        galleryButtons.classList.add('hidden')
     } else {
         gallery.classList.toggle('hidden', false);
         list.classList.toggle('hidden', true);
         btnGallery.classList.toggle('active', true)
         btnList.classList.toggle('active', false)
+        galleryButtons.classList.remove('hidden')
     }
 };
 
