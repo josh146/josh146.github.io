@@ -4,7 +4,7 @@ h2.recipe-category {
 }
 
 .recipe-list {
-    columns: 3;
+    columns: 2;
 }
 
 @media (max-width: 768px) {
@@ -233,4 +233,27 @@ h2.recipe-category {
 .vibe-btn.active {
     background: #333;
     color: white !important;
+}
+
+#recipe-preview-tooltip {
+    position: fixed;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    z-index: 1000;
+    max-width: 300px;
+    border-radius: 8px;
+    display: none;
+    pointer-events: none;
+    font-family: "Fira Sans";
+}
+
+#recipe-preview-tooltip ul {
+    margin: 20px 0 0 0;
+    padding-left: 20px;
+    font-size: 0.85em;
+    color: #555;
 }
