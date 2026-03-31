@@ -30,9 +30,10 @@ Growing up in Singapore as part of an Iraqi-Jewish community, matzah ball soup w
 ### Matzah balls
 
 * 2 stalks of celery
+* 1 large onion
 * 1/2 cup melted schmaltz or vegetable oil
 * 3 matzot
-* 2-3 eggs
+* 2-3 eggs[ref]For a vegan substitute for the binding power of the egg, grind up some flax seeds, and mix 2 tbsp of ground flax seeds with 6 tbsp of water. Leave for 20-30 minutes until it has developed a thick, viscous texture, and add it to the matzah ball mixture.[/ref]
 * 2 tbsp parsley
 * 1/2 cup Matzah meal
 * 1 tbsp minced ginger[ref]My mum likes to substitute this for [chicken rice ginger](hainanese-chicken-rice), specifically the [Singlong Chicken Ginger sauce](https://www.singlong.com/product/chicken-ginger-sauce/). It adds a delicious ginger-garlic-lemongrass profile, as well as an umami boost.[/ref]
