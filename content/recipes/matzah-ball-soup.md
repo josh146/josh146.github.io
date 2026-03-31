@@ -14,6 +14,8 @@ Growing up in Singapore as part of an Iraqi-Jewish community, matzah ball soup w
 - My grandmothers matzah ball recipe. Uniquely she used soften whole pieces of matzah, which adds a unique texture and makes the matzah balls very light. I've never seen other matzah ball recipes do this.
 - My mum has since modified my grandmother's matzah ball recipe to use chicken rice ginger to add an extra umami bomb.
 
+For a vegetarian/vegan adaptation of this recipe, you can replace the chicken soup with seasoned [[vegetable stock]], and replace the egg binder in the matzah balls with flax eggs.
+
 ## Ingredients
 
 ### Soup
