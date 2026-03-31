@@ -6,7 +6,7 @@ Time: 3 hours
 Servings: About 15-18 matzah balls, about 6 servings
 Image: /images/recipes/matzah-ball-soup.jpg
 Sticky: true
-Tags: jewish
+Tags: jewish, passover
 
 Growing up in Singapore as part of an Iraqi-Jewish community, matzah ball soup was not a part of my typical passover -- until I moved to Perth and had passover with my Australian grandparents. This recipe is a mutant hybrid of several recipes:
 

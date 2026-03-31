@@ -5,6 +5,7 @@ Slug: orange-cake
 Time: 1 hour
 Servings: 8 servings
 Image: /images/recipes/orange-cake.jpg
+Tags: dessert, passover
 
 Once, when searching for an orange cake recipe for passover, we came across this [orange cake recipe](https://www.sbs.com.au/food/recipe/orange-and-almond-cake/gyb3hphf8) on SBS (an Australian public broadcaster) that boiled and blended whole oranges, peel and all. It leads to a deliciously moist orange cake that is almost self-saucing.
 
