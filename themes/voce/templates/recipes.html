@@ -47,23 +47,25 @@
 
 <div id="recipe-list" class="recipe-list hidden">
     {% for group in recipes|groupby("category") %}
-    <h2 class="recipe-category">{{ group.grouper }}</h2>
-    <ul>
-    {% for recipe in group.list %}
-        <li>
-            <a href="{{ recipe.url }}">{{ recipe.title }} </a>
-        </li>
-    {% endfor %}
-
-    {% if RECIPE_CATEGORIES_INCLUDE_TAGS %}
-        <!-- If a recipe has a tag that matches a category, include it in that category index -->
-        {% for recipe in recipes if group.grouper in recipe.tags|map(attribute='slug') %}
+    <div class="recipe-list-category">
+        <h2 class="recipe-category">{{ group.grouper }}</h2>
+        <ul>
+        {% for recipe in group.list %}
             <li>
                 <a href="{{ recipe.url }}">{{ recipe.title }} </a>
             </li>
         {% endfor %}
-    {% endif %}
-    </ul>
+
+        {% if RECIPE_CATEGORIES_INCLUDE_TAGS %}
+            <!-- If a recipe has a tag that matches a category, include it in that category index -->
+            {% for recipe in recipes if group.grouper in recipe.tags|map(attribute='slug') %}
+                <li>
+                    <a href="{{ recipe.url }}">{{ recipe.title }} </a>
+                </li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
     {% endfor %}
 </div>
 

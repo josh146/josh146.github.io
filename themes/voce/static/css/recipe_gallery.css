@@ -3,8 +3,16 @@ h2.recipe-category {
   font-size: 36px;
 }
 
+#recipe-list > ul {
+    margin-left: -25px;
+}
+
 .recipe-list {
-    columns: 2;
+    columns: 3;
+}
+
+.recipe-list-category {
+    break-inside: avoid;
 }
 
 @media (max-width: 768px) {
