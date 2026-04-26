@@ -13,7 +13,7 @@ The kasoori methi (dried fenugreek leaves) is pretty crucial --- without it, you
 ## Ingredients
 
 * 70g butter or ghee
-* 2 large onions (diced)
+* 2 large red onions (diced)
 * 1 inch ginger (grated)
 * 4 garlic cloves (grated)
 * 1 tsp garam masala
