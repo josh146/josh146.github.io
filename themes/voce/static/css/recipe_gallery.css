@@ -3,7 +3,7 @@ h2.recipe-category {
   font-size: 36px;
 }
 
-#recipe-list > ul {
+.recipe-list-category > ul {
     margin-left: -25px;
 }
 
