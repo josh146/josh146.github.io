@@ -11,7 +11,11 @@
 
 
 {% block content %}
-{{ super() }}
+
+
+<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/cover3.png');">
+    <h1 class="recipe-title hero-text">{{ page.title }}</h1>
+</div>
 
 <div class="recipe-toolbar">
     <div class="view-controls">
@@ -80,10 +84,12 @@
                     {% if recipe.image %}
                     <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
                     {% else %}
-                        {% if recipe.category in ["sweets", "ice cream"] %}
+                        {% if recipe.category in ["Ice cream"] %}
+                    <img src="/images/recipes/default_recipe_icecream.png" alt="{{ recipe.title }}">
+                        {% elif "dessert" in recipe.tags %}
                     <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
                         {% else %}
-                    <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
+                    <img src="/images/recipes/default_recipe_savoury.png" alt="{{ recipe.title }}">
                         {% endif %}
                     {% endif %}
                 </div>

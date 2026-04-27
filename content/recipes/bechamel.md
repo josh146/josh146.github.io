@@ -4,7 +4,6 @@ Category: Stocks, soups, and sauces
 Slug: bechamel
 Time: 20 minutes
 Servings: About 1L
-Hidden: true
 
 ## Ingredients
 
