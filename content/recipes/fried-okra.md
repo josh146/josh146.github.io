@@ -1,6 +1,6 @@
 Title: Fried okra
 Slug: fried-okra
-Date: 2026-01-04
+Date: 2026-05-01
 Category: Veggies
 Tags: Indian
 Time: 15 minutes
