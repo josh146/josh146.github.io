@@ -248,13 +248,19 @@
                     const menuItems = data.map((item, index) => {
                         // Check if it's a physical cookbook recipe
                         if (item.type === 'Physical') {
+                            // Join the array into a comma-separated string
+                            const ingString = item.ingredients && item.ingredients.length > 0
+                                              ? item.ingredients.join(', ')
+                                              : 'Misc';
+
                             return {
-                                id: `physical-${index}`, // Needs a unique ID since there's no URL
+                                id: `physical-${index}`,
                                 title: `${item.title}`,
                                 section: `📚 Cookbook: ${item.book}`,
-                                icon: `📖 pg ${item.page}: `,
-                                keywords: item.ingredient, // Makes it searchable by ingredient
+                                icon: `p${item.page} 📖 &nbsp;`,
+                                keywords: ingString, // Now searchable by ANY of the ingredients
                                 handler: () => {
+                                    // You can keep your alert, or the URL params logic we built earlier!
                                     alert(`Go grab "${item.book}" and turn to page ${item.page}!`);
                                 }
                             };

@@ -39,7 +39,7 @@
 }
 
 .cookbook-cover {
-    height: 250px;
+    height: 300px;
     background-size: cover;
     background-position: center;
 }
@@ -102,6 +102,7 @@
     display: flex;
     gap: 15px;
     padding: 20px;
+    padding-right: 40px;
     background: #f8f9fa;
     border-bottom: 1px solid #eaeaea;
 }
@@ -115,7 +116,7 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.pane-header h2 { font-size: 1.2rem; margin: 0 0 5px 0; }
+.pane-header h3 { font-size: 1.2rem; margin: 0 0 5px 0; }
 .pane-author { color: #666; font-size: 0.9rem; }
 
 .pane-content {
@@ -150,6 +151,47 @@
     color: #999;
     font-family: monospace;
     font-weight: bold;
+}
+/* Ensure the list item spans the full width */
+.pane-recipe-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Allow the left side to grow, but give it breathing room */
+.pane-recipe-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;           /* Takes up all available space */
+    padding-right: 15px;    /* Prevents long titles from touching the page numbers */
+}
+
+/* --- NEW: Lock the page numbers into a strict column --- */
+.pane-recipe-page {
+    color: #999;
+    font-family: monospace;
+    font-weight: bold;
+    min-width: 65px;        /* Forces the column to be a consistent width */
+    text-align: right;      /* Aligns the digits down the right side */
+    flex-shrink: 0;         /* Prevents the column from being squashed by long titles */
+}
+
+.pane-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.pane-tag {
+    background: #e9ecef;
+    color: #495057;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 .close-pane-btn {
     position: absolute;
@@ -209,8 +251,8 @@
             {% for book in COOKBOOKS %}
             <div class="recipe-card" onclick="loadPane({{ loop.index0 }})">
                 <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');"></div>
-                <div class="cookbook-info">
-                    <h2>{{ book.book }}</h2>
+                <div class="card-details">
+                    <h3>{{ book.book }}</h3>
                     <span class="author">By {{ book.author }}</span>
                 </div>
             </div>
@@ -230,23 +272,43 @@
         const pane = document.getElementById('index-pane');
         const layout = document.getElementById('library-layout');
 
+        // --- NEW: Sort recipes by page number ---
+        // We spread [...] into a new array so we don't mutate the original data,
+        // then sort numerically.
+        const sortedRecipes = [...book.recipes].sort((a, b) => {
+            const pageA = parseInt(a.page) || 0;
+            const pageB = parseInt(b.page) || 0;
+            return pageA - pageB;
+        });
+
         let recipesHtml = '';
-        book.recipes.forEach(recipe => {
+
+        // --- UPDATE: Loop over sortedRecipes instead of book.recipes ---
+        sortedRecipes.forEach(recipe => {
+            let tagsHtml = '';
+            if (recipe.ingredients && recipe.ingredients.length > 0) {
+                recipe.ingredients.forEach(ing => {
+                    tagsHtml += `<span class="pane-tag">${ing}</span>`;
+                });
+            }
+
             recipesHtml += `
-                <li>
-                    <span class="pane-recipe-name">${recipe.title}</span>
-                    <span class="pane-recipe-page">pg. ${recipe.page}</span>
+                <li class="pane-recipe-item">
+                    <div class="pane-recipe-info">
+                        <span class="pane-recipe-name">${recipe.title}</span>
+                    </div>
+                    <span class="pane-recipe-page">${recipe.page}</span>
                 </li>
             `;
         });
 
-        // We inject the Close button along with the content
+        // ... (The rest of your pane.innerHTML injection remains exactly the same) ...
         pane.innerHTML = `
             <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
             <div class="pane-header">
                 <div class="pane-mini-cover" style="background-image: url('${book.cover}');"></div>
                 <div>
-                    <h2>${book.book}</h2>
+                    <h3>${book.book}</h3>
                     <span class="pane-author">By ${book.author}</span>
                 </div>
             </div>
@@ -258,7 +320,6 @@
             </div>
         `;
 
-        // Activate the pane CSS class
         layout.classList.add('pane-open');
 
         if (window.innerWidth <= 900) {

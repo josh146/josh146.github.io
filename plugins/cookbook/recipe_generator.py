@@ -4,6 +4,7 @@ from pelican.generators import Generator, ArticlesGenerator, PagesGenerator
 from pelican import signals
 import json
 import yaml
+import glob
 
 from jinja2 import Template
 import re
@@ -71,6 +72,32 @@ class RecipeGenerator(Generator):
             )
 
 
+def get_physical_cookbooks(content_path):
+    """Scans the /content/cookbooks directory and returns a list of all book dictionaries."""
+    cookbooks_dir = os.path.join(content_path, 'cookbooks')
+    all_cookbooks = []
+
+    if not os.path.exists(cookbooks_dir):
+        return all_cookbooks
+
+    # Find all .yaml and .yml files in the directory
+    search_pattern = os.path.join(cookbooks_dir, '*.[yY][aA][mM][lL]')
+    alt_pattern = os.path.join(cookbooks_dir, '*.[yY][mM][lL]')
+
+    yaml_files = glob.glob(search_pattern) + glob.glob(alt_pattern)
+
+    for filepath in yaml_files:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            try:
+                book_data = yaml.safe_load(f)
+                if book_data:
+                    all_cookbooks.append(book_data)
+            except Exception as e:
+                print(f"Error parsing cookbook {filepath}: {e}")
+
+    return all_cookbooks
+
+
 def generate_search_index(generators):
     """
     Generates a JSON file containing all recipes and pages for the search palette.
@@ -120,26 +147,26 @@ def generate_search_index(generators):
 
     # Find the cookbooks.yaml file in your content folder
     content_path = article_generator.settings.get('PATH', 'content')
-    yaml_path = os.path.join(content_path, 'cookbooks.yaml')
+    cookbooks = get_physical_cookbooks(content_path)
 
-    if os.path.exists(yaml_path):
-            with open(yaml_path, 'r', encoding='utf-8') as f:
-                try:
-                    cookbooks = yaml.safe_load(f) or []
-                    for book in cookbooks:
-                        book_title = book.get('book', 'Unknown Book')
+    for book in cookbooks:
+            book_title = book.get('book', 'Unknown Book')
 
-                        for recipe in book.get('recipes', []):
-                            search_data.append({
-                                'title': recipe.get('title', ''),
-                                'url': '#', # No URL, it's a physical book
-                                'type': 'Physical',
-                                'book': book_title,
-                                'page': recipe.get('page', ''),
-                                'ingredient': recipe.get('ingredient', ''),
-                            })
-                except Exception as e:
-                    print(f"Error parsing cookbooks.yaml: {e}")
+            for recipe in book.get('recipes', []):
+                raw_ingredients = recipe.get('ingredients', [])
+                if isinstance(raw_ingredients, str):
+                    ingredients_list = [raw_ingredients]
+                else:
+                    ingredients_list = raw_ingredients
+
+                search_data.append({
+                    'title': recipe.get('title', ''),
+                    'url': '#',
+                    'type': 'Physical',
+                    'book': book_title,
+                    'page': recipe.get('page', ''),
+                    'ingredients': ingredients_list,
+                })
 
     # write to output/search.json
     output_path = os.path.join(article_generator.output_path, "search.json")
@@ -148,22 +175,12 @@ def generate_search_index(generators):
         json.dump(search_data, f)
 
 def expose_cookbooks_to_jinja(generator):
-    """
-    Reads cookbooks.yaml and makes it available as the {{ COOKBOOKS }}
-    variable in all Jinja templates.
-    """
+    """Exposes the combined cookbook data to Jinja templates."""
     content_path = generator.settings.get('PATH', 'content')
-    yaml_path = os.path.join(content_path, 'cookbooks.yaml')
 
-    cookbooks_data = []
-    if os.path.exists(yaml_path):
-        with open(yaml_path, 'r', encoding='utf-8') as f:
-            try:
-                cookbooks_data = yaml.safe_load(f) or []
-            except Exception as e:
-                print(f"Error reading cookbooks.yaml for Jinja: {e}")
+    # Use the same helper function here!
+    cookbooks_data = get_physical_cookbooks(content_path)
 
-    # Attach to the global Jinja context
     generator.context['COOKBOOKS'] = cookbooks_data
 
 
