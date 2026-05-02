@@ -3,175 +3,272 @@
 {% block content %}
 
 <style>
-
-/* Cover Image */
-.cookbook-cover {
-    width: 100%;
-    height: 350px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid #eaeaea;
+    /* Split Layout */
+.library-layout {
+    display: grid;
+    grid-template-columns: 1fr; /* Full width by default */
+    gap: 30px;
+    align-items: start;
 }
 
-/* Metadata Section */
+/* Layout when Pane is Active */
+.library-layout.pane-open {
+    grid-template-columns: 1fr 350px; /* Splits the grid */
+}
+
+/* --- THE MASTER GRID --- */
+.cookbook-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.cookbook-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cookbook-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-color: #ccc;
+}
+
+.cookbook-cover {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
 .cookbook-info {
-    padding: 20px;
-    flex-grow: 1;
+    padding: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .cookbook-info h2 {
+    font-size: 1.1rem;
     margin: 0 0 5px 0;
-    font-size: 1.4rem;
-    line-height: 1.2;
 }
 
-.cookbook-info .author {
-    color: #777;
-    font-size: 0.95rem;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-
-/* Native HTML Accordion (Details/Summary) */
-.cookbook-index {
-    margin-top: auto; /* Pushes to bottom of card */
+.view-btn {
+    margin-top: 15px;
+    padding: 8px;
     background: #f8f9fa;
-    border-radius: 6px;
-    border: 1px solid #e1e4e8;
-}
-
-.cookbook-index summary {
-    padding: 12px 15px;
-    font-weight: bold;
-    cursor: pointer;
-    user-select: none;
-    color: #2c3e50;
-    outline: none;
-}
-
-.cookbook-index summary:hover {
-    background: #f1f3f5;
-}
-
-/* The List of Recipes */
-.cookbook-recipe-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-height: 250px; /* Prevent infinite scrolling on huge books */
-    overflow-y: auto;
-    border-top: 1px solid #e1e4e8;
-}
-
-.recipe-list li {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px;
-    border-bottom: 1px solid #f1f3f5;
-    font-size: 0.9rem;
-}
-
-.recipe-list li:last-child {
-    border-bottom: none;
-}
-
-.recipe-page {
-    color: #999;
-    font-family: monospace;
-    margin-left: 10px;
-}
-
-/* Button Styling */
-.view-index-btn {
-    margin-top: auto;
-    padding: 10px;
-    background: #f8f9fa;
-    border: 1px solid #e1e4e8;
-    border-radius: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    color: #2c3e50;
-    width: 100%;
+    color: #444;
 }
-.view-index-btn:hover { background: #f1f3f5; }
 
-/* Modal Styling */
-.cookbook-modal {
-    border: none;
+/* --- THE SIDE PANE --- */
+.cookbook-pane {
+    display: none; /* Hidden by default */
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    background: #fff;
     border-radius: 12px;
-    padding: 0;
-    width: 90%;
-    max-width: 500px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    /*box-shadow: 0 4px 6px rgba(0,0,0,0.05);*/
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #eee;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 20px;
 }
-
-/* Darken the background behind the modal */
-.cookbook-modal::backdrop {
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(2px);
-}
-
-.modal-header {
+/* Unhide the pane when active */
+.library-layout.pane-open .cookbook-pane {
     display: flex;
-    justify-content: space-between;
+}
+
+/* Empty State */
+.pane-empty-state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 15px 20px;
+    height: 100%;
+    color: #999;
+}
+.empty-icon { font-size: 3rem; margin-bottom: 10px; }
+
+/* Populated State */
+.pane-header {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
     background: #f8f9fa;
     border-bottom: 1px solid #eaeaea;
 }
 
-.modal-header h3 { margin: 0; }
-
-.close-btn {
-    background: none;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: #888;
+.pane-mini-cover {
+    width: 60px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.modal-list {
-    max-height: 60vh; /* Takes up 60% of the screen height max */
-    overflow-y: auto;
+.pane-header h2 { font-size: 1.2rem; margin: 0 0 5px 0; }
+.pane-author { color: #666; font-size: 0.9rem; }
+
+.pane-content {
+    padding: 0 20px;
+    overflow-y: auto; /* Makes the list scrollable inside the pane */
+    flex-grow: 1;
+}
+
+.pane-content h3 {
+    margin: 20px 0 10px 0;
+    font-size: 1rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.pane-recipe-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.pane-recipe-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f3f5;
+    font-size: 0.95rem;
+}
+
+.pane-recipe-page {
+    color: #999;
+    font-family: monospace;
+    font-weight: bold;
+}
+.close-pane-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #999;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+}
+
+.close-pane-btn:hover {
+    color: #333;
+    background: #f1f3f5;
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 900px) {
+    .library-layout {
+        grid-template-columns: 1fr; /* Stack pane under grid on small screens */
+    }
+
+    .library-layout.pane-open {
+        grid-template-columns: 1fr;
+    }
+
+    .cookbook-pane {
+        position: relative;
+        top: 0;
+        height: auto;
+        max-height: 80vh;
+    }
 }
 </style>
 
-<div class="cookbook-library">
-    <div class="recipe-gallery">
-        {% for book in COOKBOOKS %}
-        <div class="recipe-card">
-            <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');">
-            </div>
-
-            <div class="cookbook-info">
-                <h2>{{ book.book }}</h2>
-                <span class="author">By {{ book.author }}</span>
-
-                <button class="view-index-btn" onclick="document.getElementById('modal-{{ loop.index }}').showModal()">
-                    View Index ({{ book.recipes|length }} recipes)
-                </button>
-
-                <dialog id="modal-{{ loop.index }}" class="cookbook-modal">
-                    <div class="modal-header">
-                        <h3>{{ book.book }} Index</h3>
-                        <button class="close-btn" onclick="document.getElementById('modal-{{ loop.index }}').close()">✕</button>
-                    </div>
-
-                    <ul class="cookbook-recipe-list modal-list">
-                        {% for recipe in book.recipes %}
-                        <li>
-                            <span class="recipe-name">{{ recipe.title }}</span>
-                            <span class="recipe-page">pg. {{ recipe.page }}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </dialog>
-            </div>
-        </div>
-        {% endfor %}
+<div class="recipe-toolbar">
+    <div class="view-controls">
+        <p style="margin: 0;">{{ page.description }}</p>
     </div>
 </div>
+
+<div class="cookbook-library">
+
+    <div class="library-layout" id="library-layout">
+
+        <div class="recipe-gallery">
+            {% for book in COOKBOOKS %}
+            <div class="recipe-card" onclick="loadPane({{ loop.index0 }})">
+                <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');"></div>
+                <div class="cookbook-info">
+                    <h2>{{ book.book }}</h2>
+                    <span class="author">By {{ book.author }}</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <aside class="cookbook-pane" id="index-pane"></aside>
+
+    </div>
+</div>
+
+<script>
+    const libraryData = {{ COOKBOOKS | tojson | safe }};
+
+    function loadPane(index) {
+        const book = libraryData[index];
+        const pane = document.getElementById('index-pane');
+        const layout = document.getElementById('library-layout');
+
+        let recipesHtml = '';
+        book.recipes.forEach(recipe => {
+            recipesHtml += `
+                <li>
+                    <span class="pane-recipe-name">${recipe.title}</span>
+                    <span class="pane-recipe-page">pg. ${recipe.page}</span>
+                </li>
+            `;
+        });
+
+        // We inject the Close button along with the content
+        pane.innerHTML = `
+            <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
+            <div class="pane-header">
+                <div class="pane-mini-cover" style="background-image: url('${book.cover}');"></div>
+                <div>
+                    <h2>${book.book}</h2>
+                    <span class="pane-author">By ${book.author}</span>
+                </div>
+            </div>
+            <div class="pane-content">
+                <h3>Index (${book.recipes.length} recipes)</h3>
+                <ul class="pane-recipe-list">
+                    ${recipesHtml}
+                </ul>
+            </div>
+        `;
+
+        // Activate the pane CSS class
+        layout.classList.add('pane-open');
+
+        if (window.innerWidth <= 900) {
+            pane.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    // New function to hide the pane
+    function closePane() {
+        document.getElementById('library-layout').classList.remove('pane-open');
+    }
+</script>
 {% endblock %}
