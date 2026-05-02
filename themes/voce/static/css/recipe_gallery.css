@@ -36,6 +36,11 @@ h2.recipe-category {
     background-size: cover;
     position: relative;
     margin-bottom: 40px;
+    /*full width*/
+    margin-top: -40px;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
 }
 .hero-text {
     text-align: center;

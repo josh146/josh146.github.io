@@ -436,9 +436,6 @@ article.grid iframe {
 }
 /* Masonary style */
 @media (min-width: 768px) {
-    .article-container{
-        overflow: hidden;
-    }
     .blog.home article.post {
         width: 50%;
         margin: 0;
