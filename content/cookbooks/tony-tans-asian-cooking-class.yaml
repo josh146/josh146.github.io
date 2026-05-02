@@ -1,0 +1,524 @@
+book: "Tony Tan's Asian Cooking Class"
+author: "Tony Tan"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/tony-tans-asian-cooking-class-251322l1.jpg"
+recipes:
+  - title: "Garam masala"
+    page: 23
+    ingredients: ["green cardamom seeds", "cinnamon stick", "whole cloves", "black peppercorns", "cumin", "nutmeg"]
+  - title: "Plum sauce"
+    page: 27
+    ingredients: ["white sugar", "vinegar", "ginger", "garlic", "cinnamon stick", "star anise", "plums", "salt"]
+  - title: "Char kway teow"
+    page: 37
+    ingredients: ["dried red chiles", "flat rice noodles", "neutral oil", "garlic", "daikon radishes", "lap cheong sausages", "eggs", "green prawns", "kecap asin", "light soy sauce", "bean shoots", "garlic chives", "white pepper"]
+  - title: "Asam laksa"
+    page: 38
+    ingredients: ["whole bream", "Vietnamese mint", "galangal", "tamarind pulp", "sugar", "salt", "laksa noodles", "shallots", "dried red chillies", "long red chillies", "lemongrass", "fresh turmeric", "belacan", "pineapple", "Lebanese cucumber", "onion", "iceberg lettuce", "mint"]
+  - title: "Stir-fried squid ink noodles with prawns, lap cheong and tomato"
+    page: 39
+    ingredients: ["olive oil", "lap cheong sausages", "garlic", "long red chilli", "coriander", "green prawns", "chicken stock", "fish sauce", "oyster sauce", "cherry tomatoes", "salt", "white pepper", "lemon", "strong flour", "eggs", "squid ink", "egg yolks"]
+  - title: "Prosperity toss (Yee sang)"
+    page: 41
+    ingredients: ["neutral oil", "rice vermicelli", "carrot", "daikon", "pickled ginger", "preserved ginger", "spring onions", "makrut lime leaves", "sashimi grade salmon", "peanuts", "sesame seeds", "mirin", "Shaoxing wine", "light soy sauce", "Chinese five-spice powder", "sesame oil"]
+  - title: "Laksa lemak"
+    page: 42
+    ingredients: ["neutral oil", "chicken stock", "coconut milk", "caster sugar", "tofu puffs", "green prawns", "thick rice noodles", "bean sprouts", "chicken breast", "salt", "coriander", "lemongrass", "garlic", "fresh turmeric", "galangal", "candlenuts", "onion", "long red chillies", "belacan", "ginger"]
+  - title: "Fried rice with chicken, salted fish and bean shoots"
+    page: 43
+    ingredients: ["neutral oil", "salted fish", "chicken", "eggs", "cooked medium-grain rice", "spring onions", "bean sprouts", "light soy sauce", "salt", "white pepper"]
+  - title: "Cantonese fried rice"
+    page: 44
+    ingredients: ["neutral oil", "lap cheong sausages", "eggs", "cooked medium-grain rice", "green prawns", "spring onions", "sesame oil", "light soy sauce", "salt", "black pepper"]
+  - title: "Chinese olive fried rice"
+    page: 45
+    ingredients: ["neutral oil", "green prawns", "egg", "cooked medium-grain rice", "spring onions", "sesame oil", "light soy sauce", "salt", "white pepper", "Chinese olives", "Chinese pickled mustard greens"]
+  - title: "Fried rice with pineapple (Khao pad sapparot)"
+    page: 46
+    ingredients: ["camellia tea oil", "lap cheong sausages", "garlic", "onion", "curry powder", "prawns", "egg", "white sugar", "soy sauce", "cooked medium-grain rice", "pineapple", "tomato", "spring onion", "coriander"]
+  - title: "Glass noodles with pan-fried fish and saffron broth"
+    page: 48
+    ingredients: ["neutral oil", "spring onions", "shallots", "ginger", "garlic", "glass noodles", "saffron threads", "chicken stock", "caster sugar", "light soy sauce", "snapper fillets", "lemon zest", "chives"]
+  - title: "Jewelled-rice congee with sweetcorn and whitebait fritters"
+    page: 49
+    ingredients: ["mixed grains", "sweetcorn", "chicken stock", "salt", "neutral oil", "soy sauce", "sesame oil", "whitebait", "self-raising flour", "eggs", "spring onion", "coriander", "white pepper", "crispy fried shallots", "fried anchovies", "preserved radishes", "salted duck eggs", "chillies"]
+  - title: "Glass noodles with minced pork, shiitake and garlic chives"
+    page: 50
+    ingredients: ["dried shiitake mushrooms", "minced pork", "Shaoxing wine", "doubanjiang", "cornflour", "mung bean noodles", "neutral oil", "long red chillies", "chicken stock", "caster sugar", "salt", "white pepper", "light soy sauce", "garlic chives"]
+  - title: "Nasi lemak"
+    page: 52
+    ingredients: ["jasmine rice", "coconut milk", "salt", "pandan leaves", "lemongrass", "ginger", "dried long chillies", "long red chillies", "shallots", "garlic", "ikan bilis", "belacan", "neutral oil", "red onion", "tamarind concentrate", "caster sugar", "roasted peanuts", "eggs", "cucumber"]
+  - title: "Traders' rice (Nasi dagang)"
+    page: 53
+    ingredients: ["asam keping", "salt", "long green chillies", "long red chillies", "lemongrass", "coconut cream", "gula melaka", "jasmine rice", "glutinous rice", "coconut milk", "fenugreek seeds", "shallots", "ginger", "dried chillies", "garlic", "galangal", "neutral oil", "belacan", "ground cumin", "ground fennel seeds", "ground coriander", "mackerel"]
+  - title: "Rose-scented chicken biryani (Nasi biryani)"
+    page: 54
+    ingredients: ["boneless chicken", "chilli powder", "ground turmeric", "salt", "onions", "ginger", "garlic cloves", "neutral oil", "shallots", "raw cashews", "ghee", "green cardamom pods", "cinnamon stick", "cloves", "star anise", "tomatoes", "Greek yoghurt", "coriander", "rose petals", "ground coriander", "ground cumin", "ground cardamom", "nutmeg", "garam masala", "cardamom pods", "rosewater", "basmati rice", "evaporated milk", "saffron threads"]
+  - title: "Soba noodles with seafood"
+    page: 58
+    ingredients: ["mussels", "soba noodles", "sun-dried tomatoes", "silken tofu", "long red chilli", "celery leaves", "oyster sauce", "light soy sauce", "katsuobushi", "rice vinegar"]
+  - title: "Pork and prawn noodle soup (Hae mee)"
+    page: 59
+    ingredients: ["neutral oil", "green prawns", "light soy sauce", "caster sugar", "salt", "white pepper", "bean sprouts", "Hokkien noodles", "water spinach", "eggs", "crispy fried shallots", "garlic chives", "pork bones", "pork fillets", "black peppercorns", "ginger", "ikan bilis", "dried chillies", "onion", "garlic cloves", "belacan"]
+  - title: "Chinese Bolognese (Zhajiang mian)"
+    page: 61
+    ingredients: ["brown bean sauce", "hoisin sauce", "Shaoxing wine", "chicken stock", "neutral oil", "spring onions", "garlic cloves", "minced pork", "caster sugar", "salt", "white pepper", "cucumber", "flour", "eggs"]
+  - title: "Spicy mung bean noodle salad (Liang fen)"
+    page: 62
+    ingredients: ["roasted peanuts", "coriander", "mung bean flour", "caster sugar", "salt", "light soy sauce", "Chinkiang vinegar", "sesame oil", "neutral oil", "spring onions", "ginger", "roasted sesame seeds", "dried chilli flakes", "Sichuan peppercorn powder"]
+  - title: "Stir-fried vegetarian Hokkien noodles"
+    page: 63
+    ingredients: ["dried shiitake mushrooms", "neutral oil", "onion", "garlic cloves", "carrot", "firm tofu", "Hokkien noodles", "light soy sauce", "dark soy sauce", "vegetarian oyster sauce", "Shaoxing wine", "Chinese mustard greens ", "salt", "white pepper"]
+  - title: "Mushroom dumplings with curry oil"
+    page: 66
+    ingredients: ["wonton wrappers", "dried shiitake mushrooms", "olive oil", "unsalted butter", "garlic cloves", "shallots", "ginger", "long red chilli", "thyme", "button mushrooms", "porcini powder", "salt", "white pepper", "neutral oil", "curry powder"]
+  - title: "Pearl balls"
+    page: 68
+    ingredients: ["glutinous rice", "dried shiitake mushrooms", "minced pork", "water chestnuts", "carrot", "spring onions", "ginger", "light soy sauce", "Shaoxing wine", "sesame oil", "cornflour", "salt", "white pepper", "Chinkiang vinegar", "chilli oil", "garlic clove", "coriander"]
+  - title: "Lamb dumplings, Xi'an style"
+    page: 69
+    ingredients: ["square wonton wrappers", "neutral oil", "spring onions", "salt", "wombok", "minced lamb", "ginger", "Chinese five-spice powder", "cumin seeds", "white pepper", "light soy sauce", "caster sugar", "oyster sauce", "sesame oil", "Shaoxing wine", "coriander", "egg"]
+  - title: "Chicken and prawn windmill dumplings (Gai ha gao)"
+    page: 71
+    ingredients: ["light soy sauce", "green prawns", "minced chicken", "carrots", "canned bamboo shoots", "dried bamboo pith fungus", "coriander leaves", "ginger", "egg white", "sesame oil", "cornflour", "salt", "white pepper", "wheat starch", "tapioca flour", "neutral oil"]
+  - title: "Deep-fried glutinous rice dumplings (Hum sui gok)"
+    page: 72
+    ingredients: ["neutral oil", "dried shiitake mushrooms", "minced pork", "char siu pork", "spring onion", "dried shrimp", "canned bamboo shoots", "chicken stock", "light soy sauce", "dark soy sauce", "caster sugar", "Shaoxing wine", "Chinese five-spice powder", "salt", "white pepper", "cornflour", "glutinous rice flour", "wheat starch", "lard"]
+  - title: "Steamed chicken bao (Gai bao)"
+    page: 73
+    ingredients: ["bao flour", "caster sugar", "baking powder", "lard", "dried shiitake mushrooms", "boneless skinless chicken thighs", "water chestnuts", "spring onions", "ginger", "Shaoxing wine", "sesame oil", "neutral oil", "cornflour", "salt", "white pepper"]
+  - title: "Rice rolls with pork and wood-ear mushrooms (Banh cuon)"
+    page: 74
+    ingredients: ["crispy fried shallots", "spring onions", "coriander", "rice flour", "potato flour", "salt", "neutral oil", "shallots", "onion", "dried wood ear mushrooms", "minced pork", "jicama", "fish sauce", "caster sugar", "white pepper", "lime juice", "birdseye chillies"]
+  - title: "Thai duck curry dumplings"
+    page: 77
+    ingredients: ["gow gee wrappers", "red curry paste", "coconut cream", "Chinese roast duck", "coconut milk", "makrut lime leaves", "bamboo shoots", "fish sauce", "palm sugar", "gelatine leaves", "thin coconut milk", "paprika", "salt"]
+  - title: "Chiu chow dumplings"
+    page: 78
+    ingredients: ["light soy sauce", "Shaoxing wine", "oyster sauce", "caster sugar", "sesame oil", "salt", "white pepper", "tapioca flour", "dried shiitake mushrooms", "neutral oil", "minced pork", "preserved daikon radishes", "dried shrimp", "shallots", "spring onions", "roasted peanuts", "garlic chives", "wheat starch"]
+  - title: "Pork and Chinese cabbage dumplings (Shuijiao)"
+    page: 80
+    ingredients: ["gyoza wrappers", "Chinese cabbage", "salt", "minced pork", "jellied chicken stock", "ginger", "light soy sauce", "Shaoxing wine", "neutral oil", "sesame oil", "white pepper", "Chinkiang vinegar", "chilli oil", "garlic", "dried chilli flakes"]
+  - title: "Prawn dumplings (Har gow)"
+    page: 84
+    ingredients: ["prawns", "bamboo shoots", "water chestnuts", "sesame oil", "light soy sauce", "egg white", "cornflour", "salt", "white pepper", "wheat starch", "tapioca flour", "neutral oil"]
+  - title: "Taiwan pepper buns (Hu jiao bing)"
+    page: 86
+    ingredients: ["minced pork", "black pepper", "crispy fried shallots", "Shaoxing wine", "sesame oil", "ginger", "light soy sauce", "white pepper", "Sichuan pepper", "Chinese five-spice powder", "caster sugar", "chicken stock", "spring onions", "dried yeast", "plain flour", "lard", "salt", "neutral oil", "honey", "sesame seeds"]
+  - title: "Crisp beancurd skin dumplings (Fu pei guen)"
+    page: 87
+    ingredients: ["dried bean curd skin", "egg", "neutral oil", "minced pork", "prawns", "char siu pork", "water chestnuts", "garlic chives", "spring onion", "salt", "white pepper", "sugar", "sesame oil", "Shaoxing wine", "cornflour"]
+  - title: "Soup dumplings (Xiao long bao)"
+    page: 88
+    ingredients: ["pork skin", "spring onions", "ginger", "Shaoxing wine", "salt", "white pepper", "light soy sauce", "caster sugar", "sesame oil", "neutral oil", "plain flour", "red rice vinegar", "minced pork"]
+  - title: "Squid-ink potstickers"
+    page: 90
+    ingredients: ["neutral oil", "prawns", "scallops", "water chestnuts", "ginger", "sesame oil", "light soy sauce", "crispy fried shallots", "coriander", "makrut lime leaves", "caster sugar", "salt", "plain flour", "squid ink"]
+  - title: "Steamed pork buns with fermented black beans and chilli"
+    page: 92
+    ingredients: ["neutral oil", "onion", "garlic", "ginger", "spring onions", "long red chillies", "fermented black beans", "char siu pork", "Shaoxing wine", "light soy sauce", "caster sugar", "chicken stock", "cornflour", "dried yeast", "cake flour", "baking powder", "salt"]
+  - title: "Barbecued pork (Char siu)"
+    page: 93
+    ingredients: ["pork neck", "caster sugar", "light soy sauce", "Shaoxing wine", "honey", "Mei Kuei Lu Chiew", "fermented red bean curd", "garlic cloves", "Chinese five-spice powder"]
+  - title: "Flaky barbecue pork pastries (Char siu sou)"
+    page: 94
+    ingredients: ["egg yolk", "sesame seeds", "neutral oil", "onion", "char siu pork", "Shaoxing wine", "oyster sauce", "hoisin sauce", "light soy sauce", "sesame oil", "caster sugar", "chicken stock", "cornflour", "plain flour", "salt", "lard"]
+  - title: "Potsticker dumplings (Wor tip)"
+    page: 96
+    ingredients: ["neutral oil", "wombok", "salt", "minced pork", "ginger", "spring onion", "light soy sauce", "Shaoxing wine", "caster sugar", "sesame oil", "cornflour", "plain flour", "red rice vinegar"]
+  - title: "Steamed pork spare-ribs (Jing pai kwat)"
+    page: 97
+    ingredients: ["pork spare ribs", "bicarbonate of soda", "long red chilli", "garlic cloves", "fermented black beans", "light soy sauce", "dark soy sauce", "caster sugar", "Shaoxing wine", "cornflour", "ginger", "spring onion"]
+  - title: "Zucchini dumplings"
+    page: 98
+    ingredients: ["zucchini", "salt", "dried shiitake mushrooms", "dill", "spring onion", "fermented beancurd", "light soy sauce", "neutral oil", "sesame oil", "white pepper", "plain flour", "red rice vinegar"]
+  - title: "Chawanmushi with shellfish oil and crab meat"
+    page: 100
+    ingredients: ["kombu", "katsuobushi", "eggs", "Japanese light soy sauce", "sake", "caster sugar", "salt", "cooked crabmeat", "grapeseed oil", "shellfish oil", "chives", "white pepper", "neutral oil", "onion", "carrot", "celery stalk", "leek", "fennel bulb", "tomato", "tomato paste", "black peppercorns", "star anise", "dried bay leaf", "thyme sprigs", "brandy", "prawn shells", "prawn heads"]
+  - title: "Spring onion pancakes (Chung yew bing)"
+    page: 103
+    ingredients: ["plain flour", "salt", "lard", "sesame oil", "spring onions", "neutral oil"]
+  - title: "Roti John"
+    page: 104
+    ingredients: ["neutral oil", "onion", "lemongrass", "garlic clove", "meat curry powder", "chilli powder", "ground turmeric", "garam masala", "minced beef", "salt", "white pepper", "eggs", "Vietnamese mint", "baguette", "butter", "coriander"]
+  - title: "Roti canai"
+    page: 106
+    ingredients: ["neutral oil", "ghee", "plain flour", "salt", "caster sugar", "milk", "egg"]
+  - title: "Lace pancakes (Roti jala)"
+    page: 108
+    ingredients: ["plain flour", "coconut milk", "eggs", "ground turmeric", "neutral oil", "salt"]
+  - title: "Top hats (Kuih pie tee)"
+    page: 109
+    ingredients: ["neutral oil", "shallot", "garlic cloves", "dried shrimp", "carrot", "jicama", "bamboo shoots", "prawn stock", "oyster sauce", "caster sugar", "salt", "white pepper", "rice flour", "plain flour", "cornflour", "egg"]
+  - title: "Scrambled eggs with curry leaves and green chillies"
+    page: 110
+    ingredients: ["eggs", "salt", "white pepper", "ghee", "curry leaves", "long green chillies", "ginger", "onion", "ground turmeric", "tomatoes", "spring onions", "coriander"]
+  - title: "Peanut crackers (Rempeyek kacang)"
+    page: 112
+    ingredients: ["rice flour", "tapioca starch", "egg", "coconut milk", "makrut lime leaves", "cumin seeds", "ground coriander", "salt", "neutral oil", "roasted peanuts"]
+  - title: "Coconut jam (Kaya)"
+    page: 113
+    ingredients: ["coconut cream", "pandan leaves", "eggs", "caster sugar", "unsalted butter", "salt"]
+  - title: "Sesame doughnut with custard and chocolate (Jin deui)"
+    page: 114
+    ingredients: ["dark chocolate buttons", "sesame seeds", "neutral oil", "eggs", "butter", "milk", "caster sugar", "condensed milk", "plain flour", "custard powder", "glutinous rice flour", "salt"]
+  - title: "Egg tart (Dan tat)"
+    page: 115
+    ingredients: ["milk", "pure cream", "vanilla bean", "salt", "caster sugar", "egg", "egg yolks", "cornflour", "plain flour", "unsalted butter"]
+  - title: "Beef rendang"
+    page: 119
+    ingredients: ["lemongrass stalks", "ginger", "galangal", "onion", "long red chillies", "garlic cloves", "neutral oil", "beef oyster blade steaks", "desiccated coconut", "coconut milk", "caster sugar", "salt"]
+  - title: "Alice's ultimate meat patties"
+    page: 120
+    ingredients: ["eggs", "minced pork", "spring onion", "oyster sauce", "white pepper", "sesame oil", "salt", "neutral oil"]
+  - title: "My family's beef brisket"
+    page: 123
+    ingredients: ["beef brisket", "cumin seeds", "fennel seeds", "cinnamon stick", "star anise", "white peppercorns", "neutral oil", "ginger", "garlic bulbs", "light soy sauce", "caster sugar", "chicken stock", "salt", "white pepper", "pickled mustard greens", "Chinese celery leaves", "coriander", "long red chilli"]
+  - title: "Balinese dry-spiced shredded beef (Balinese serunding)"
+    page: 124
+    ingredients: ["beef topside", "lemongrass stalks", "garlic cloves", "coriander seeds", "long red chillies", "galangal", "ginger", "cloves", "black peppercorns", "shrimp paste", "neutral oil", "dark palm sugar", "salt", "lime juice"]
+  - title: "Thai grilled beef salad (Yam neur)"
+    page: 125
+    ingredients: ["beef fillet", "light soy sauce", "black pepper", "glutinous rice", "neutral oil", "cucumber", "fresh coriander", "mint leaves", "roasted chilli powder", "spring onion", "lime juice", "fish sauce"]
+  - title: "Eggplant with minced pork"
+    page: 126
+    ingredients: ["neutral oil", "eggplant", "shallots", "garlic", "ginger", "chilli powder", "minced pork", "caster sugar", "fish sauce", "salt", "white pepper", "coriander", "crispy fried shallots", "long red chilli", "preserved soybeans"]
+  - title: "Beef salad with roasted beetroot, preserved lemon and herb dressing"
+    page: 128
+    ingredients: ["tamarind pulp", "honey", "beef fillet", "cumin powder", "salt", "white pepper", "grapeseed oil", "long red chilli", "coriander leaves", "olive oil", "beetroot", "Chinkiang vinegar", "fresh thyme", "oranges", "preserved lemon skin", "makrut lime leaf", "extra-virgin olive oil", "garlic clove", "birdseye chillies", "anchovy fillets", "Dijon mustard", "sultanas", "capers", "flatleaf parsley", "mint leaves", "basil leaves", "lemon juice"]
+  - title: "Pork chop bun, Macanese style (Ju pa bao)"
+    page: 129
+    ingredients: ["pork cutlets", "lard", "unsalted butter", "crusty white rolls", "Shaoxing wine", "light soy sauce", "garlic cloves", "Worcestershire sauce", "English mustard", "caster sugar", "Chinese five-spice powder", "white pepper", "cornflour"]
+  - title: "Xinjiang lamb skewers (Yang rou chuanr)"
+    page: 131
+    ingredients: ["salt", "caster sugar", "boneless lamb shoulder", "soy sauce", "ground cumin", "chilli powder", "potato flour", "neutral oil", "bamboo skewers", "garlic clove", "ginger", "red capsicum", "green capsicum", "red onion", "chilli oil", "ground Sichuan pepper", "Xinjiang spice mix"]
+  - title: "Nyonya pork satay"
+    page: 132
+    ingredients: ["pork neck", "bamboo skewers", "lemongrass stalks", "neutral oil", "coconut milk", "galangal", "ginger", "coriander powder", "cumin powder", "turmeric powder", "chilli powder", "garlic cloves", "shallots", "sugar", "salt", "tamarind pulp", "palm sugar", "dried long red chillies", "fresh turmeric", "belacan", "crushed pineapple", "dry-roasted peanuts"]
+  - title: "Macanese beef 'curry' with daikon"
+    page: 138
+    ingredients: ["beef oyster blade steaks", "onions", "garlic cloves", "ginger", "neutral oil", "hot curry powder", "white-wine vinegar", "chicken stock", "daikon", "salt", "Shaoxing wine", "soy sauce", "curry powder"]
+  - title: "Massaman curry of beef (Gaeng massaman)"
+    page: 139
+    ingredients: ["gravy beef", "coconut milk", "cassia bark", "cardamom pods", "bay leaves", "potatoes", "roasted peanuts", "tamarind pulp", "coconut cream", "palm sugar", "fish sauce", "onion", "dried long red chillies", "dried small red chillies", "shallots", "garlic cloves", "galangal", "lemongrass stalks", "coriander roots", "coriander seeds", "cumin seeds", "mace", "cloves", "white peppercorns", "cardamom seeds", "salt"]
+  - title: "Beef fillet with Sichuan sauce"
+    page: 141
+    ingredients: ["fillet steaks", "salt", "black pepper", "neutral oil", "spring onions", "garlic cloves", "doubanjiang", "chicken stock", "light soy sauce", "caster sugar", "cornflour"]
+  - title: "Penang Nyonya braised pork (Hong bak)"
+    page: 142
+    ingredients: ["neutral oil", "pork belly", "caster sugar", "chicken stock", "salt", "spring onions", "shallots", "garlic cloves", "aromatic ginger", "coriander seeds", "salted soybeans", "ground white pepper"]
+  - title: "Vietnamese shaking beef (Bo luc lac)"
+    page: 145
+    ingredients: ["beef fillets", "neutral oil", "garlic", "caster sugar", "spring onions", "rice vinegar", "bean sprouts", "fish sauce", "rice wine"]
+  - title: "Beef with mandarin peel"
+    page: 146
+    ingredients: ["dried mandarin peel", "beef rump", "neutral oil", "ginger", "spring onions", "Shaoxing wine", "Sichuan chilli sauce", "cornflour", "light soy sauce", "dark soy sauce", "Chinese five-spice powder", "caster sugar", "salt", "dried red chilli", "chilli oil"]
+  - title: "Stir-fried lamb with spring onions and steamed buns (Cong pao yang rou)"
+    page: 147
+    ingredients: ["lamb fillets", "neutral oil", "garlic cloves", "ginger", "spring onions", "sesame oil", "dried yeast", "caster sugar", "plain flour", "salt", "light soy sauce", "Shaoxing wine", "pepper", "dark soy sauce"]
+  - title: "Beef cooked in sweet soy sauce (Semur)"
+    page: 148
+    ingredients: ["neutral oil", "onions", "garlic cloves", "stewing beef", "cinnamon", "star anise", "cloves", "cardamom pods", "ginger", "kecap manis", "light soy sauce", "distilled white vinegar", "caster sugar", "beef stock", "potatoes", "carrots", "tomatoes", "makrut lime leaves", "long red chilli", "crispy fried shallots"]
+  - title: "Braised pork belly with soy sauce (Nyonya tau yu bak)"
+    page: 151
+    ingredients: ["neutral oil", "garlic cloves", "lemongrass stalks", "caster sugar", "pork belly", "dark soy sauce", "light soy sauce", "black pepper", "salt", "spring onions"]
+  - title: "Braised lamb with beancurd sticks and tangerine peel (Foo jook yeong yuk bo)"
+    page: 152
+    ingredients: ["lamb shoulder", "neutral oil", "dried bean curd sticks", "spring onions", "garlic cloves", "ginger", "star anise", "fermented red bean curd", "Shaoxing wine", "caster sugar", "dried tangerine peel", "bamboo shoots", "oyster sauce", "chicken stock", "water chestnuts", "salt", "white pepper", "cornflour", "sesame oil", "coriander sprigs", "ginger juice", "Chinese five-spice powder", "light soy sauce"]
+  - title: "Sichuan twice-cooked pork (Hui guo rou)"
+    page: 153
+    ingredients: ["pork belly", "neutral oil", "leek", "chilli oil", "green capsicum", "red capsicum", "dried red chillies", "salt", "white pepper", "chicken stock", "doubanjiang", "dark soy sauce", "caster sugar"]
+  - title: "Roast lamb with saffron and tandoori spices"
+    page: 155
+    ingredients: ["plain yoghurt", "single cream", "garlic", "ginger", "salt", "lemon juice", "saffron threads", "coriander", "garam masala", "chilli powder", "ground turmeric", "black pepper", "boneless leg of lamb"]
+  - title: "Balinese roast pork (Babi guling – Be celeng)"
+    page: 157
+    ingredients: ["fresh turmeric", "pork belly", "salt", "makrut lime leaves", "shallots", "birdseye chillies", "garlic cloves", "lemongrass stalks", "ginger", "galangal", "coriander seeds", "black peppercorns", "neutral oil"]
+  - title: "Tamarind pork (Babi asam)"
+    page: 158
+    ingredients: ["tamarind pulp", "neutral oil", "salted soybeans", "caster sugar", "pork belly", "lemongrass stalks", "long green chillies", "long red chillies", "salt", "lime juice", "candlenuts", "shallots", "red chillies", "garlic cloves", "galangal", "fresh turmeric", "belacan"]
+  - title: "Chicken stock"
+    page: 163
+    ingredients: ["chicken parts", "ginger", "spring onions"]
+  - title: "Chinese superior stock"
+    page: 163
+    ingredients: ["pork bones", "chicken", "cured ham", "ginger", "spring onions", "white peppercorns", "rice wine"]
+  - title: "Vegetable stock"
+    page: 163
+    ingredients: ["neutral oil", "onions", "spring onions", "ginger", "carrots", "celery", "dried shiitake mushrooms", "black peppercorns", "lemongrass stalks"]
+  - title: "Stir-fried chicken with ginger and wood-ear mushrooms (Gai phad king)"
+    page: 164
+    ingredients: ["neutral oil", "garlic cloves", "onion", "chicken breast", "ginger", "long red chillies", "wood ear mushrooms", "fish sauce", "soy sauce", "oyster sauce", "soybean paste", "chicken stock", "spring onions", "salt", "white pepper"]
+  - title: "Isaan-style grilled chicken wings (Gai yang)"
+    page: 167
+    ingredients: ["chicken wings", "long red chillies", "birdseye chillies", "garlic cloves", "coriander roots", "caster sugar", "white vinegar", "ginger", "lemongrass", "light soy sauce", "black pepper"]
+  - title: "Drunken chicken with shaved ice (Zui ji)"
+    page: 168
+    ingredients: ["chicken thigh cutlets", "Shaoxing wine", "salt", "spring onions", "ginger", "dried goji berries", "star anise", "Mei Kuei Lu Chiew", "caster sugar"]
+  - title: "Duck breast with sweet osmanthus sauce and baby bamboo shoots"
+    page: 173
+    ingredients: ["duck breasts", "neutral oil", "bamboo shoots", "edamame", "spring onion", "red chilli", "chicken stock", "light soy sauce", "salt", "white pepper", "Mei Kuei Lu Chiew", "ginger", "garlic cloves", "shallots", "Chinese five-spice powder", "bicarbonate of soda", "maltose", "red rice vinegar", "white rice vinegar", "hoisin sauce", "plum sauce", "ground Sichuan pepper", "dark soy sauce", "osmanthus liqueur"]
+  - title: "Teochew duck (Lor ark)"
+    page: 174
+    ingredients: ["Chinese five-spice powder", "salt", "galangal", "caster sugar", "garlic cloves", "star anise", "cinnamon stick", "light soy sauce", "long red chillies", "rice vinegar", "fine salt", "whole duck", "kecap asin"]
+  - title: "Thai red duck curry with lychee"
+    page: 175
+    ingredients: ["vegetable oil", "coconut cream", "fish sauce", "palm sugar", "coconut milk", "Chinese roast duck", "apple aubergines", "pea aubergines", "long red chillies", "makrut lime leaves", "lychees", "pineapple", "Thai basil leaves", "dried long red chillies", "coriander seeds", "cumin seeds", "white peppercorns", "shallots", "garlic cloves", "galangal", "lemongrass stalks", "shrimp paste", "makrut lime peel", "salt", "coriander roots"]
+  - title: "Grilled chicken with savoury coconut sauce (Ayam percik)"
+    page: 176
+    ingredients: ["chicken", "neutral oil", "lemongrass stalks", "asam keping", "makrut lime leaves", "cloves", "cardamom pods", "sugar", "coconut milk", "salt", "chilli powder", "ground turmeric", "caster sugar", "dried chillies", "candlenuts", "garlic cloves", "shallots", "ginger", "galangal"]
+  - title: "Kerabu rice salad"
+    page: 177
+    ingredients: ["medium-grain white rice", "lemongrass stalks", "snake beans", "golden shallots", "cucumber", "desiccated coconut", "mint leaves", "makrut lime leaves", "Thai basil leaves", "coriander leaves", "Vietnamese mint", "caster sugar", "salt"]
+  - title: "Chicken with black bean sauce"
+    page: 181
+    ingredients: ["Shaoxing wine", "ginger", "neutral oil", "light soy sauce", "Chinese five-spice powder", "onion", "garlic cloves", "red capsicum", "spring onion", "fermented black beans", "chicken stock", "dark soy sauce", "cornflour", "salt", "white pepper", "whole chicken"]
+  - title: "Balinese-style roast spatchcock with glutinous rice"
+    page: 182
+    ingredients: ["neutral oil", "coconut milk", "spatchcocks (Australia)", "glutinous rice", "onion", "black peppercorns", "garlic", "coriander roots", "kencur powder", "salt", "shallots", "lemongrass stalks", "candlenuts", "fresh turmeric", "kencur", "ginger", "black pepper", "red chillies", "birdseye chillies", "coriander seeds", "shrimp paste", "makrut lime leaves"]
+  - title: "Slow-cooked duck with cumin and black pepper (Itik golek)"
+    page: 183
+    ingredients: ["hard-boiled egg", "potato", "duck", "tamarind pulp", "coconut milk", "salt", "cumin seeds", "black peppercorns", "onion", "garlic bulb", "neutral oil"]
+  - title: "Roast stuffed spatchcock with daikon"
+    page: 186
+    ingredients: ["spatchcocks (Australia)", "chives", "dried shiitake mushrooms", "dried porcini mushrooms", "medium-grain white rice", "shallots", "spring onions", "garlic cloves", "ginger", "brandy", "Chinese five-spice powder", "salt", "white pepper", "neutral oil", "chicken stock", "porcini mushroom soaking liquid", "Shaoxing wine", "light soy sauce", "dark soy sauce", "butter", "daikon"]
+  - title: "Braised chicken with lemongrass (Ga xao xa ot)"
+    page: 187
+    ingredients: ["lemongrass stalks", "garlic cloves", "long red chilli", "fish sauce", "caster sugar", "boneless skinless chicken thighs", "neutral oil", "onion", "dark soy sauce", "salt", "white pepper", "Vietnamese mint"]
+  - title: "My mother's roast chicken"
+    page: 189
+    ingredients: ["chicken", "garlic cloves", "onions", "Dutch cream potatoes", "olive oil", "salt", "ground black pepper", "butter", "chicken stock", "English mustard", "light soy sauce", "dark soy sauce", "Worcestershire sauce", "sugar"]
+  - title: "Fragrant duck, Shanxi style (Shanxi ya)"
+    page: 190
+    ingredients: ["duck", "neutral oil", "Shaoxing wine", "light soy sauce", "ground Sichuan pepper", "ground star anise", "ground cloves", "ground cinnamon", "sweet bean sauce", "spring onions", "ginger", "Sichuan pepper", "sea salt"]
+  - title: "Balinese roast duck (Bebek betutu)"
+    page: 191
+    ingredients: ["Pekin duck", "banana leaves", "shallots", "garlic cloves", "lemongrass stalks", "candlenuts", "fresh turmeric", "kencur", "ginger", "black peppercorns", "long red chillies", "birdseye chillies", "coriander seeds", "belacan", "neutral oil", "makrut lime leaves", "salt"]
+  - title: "Slow-cooked duck with fragrant stuffing"
+    page: 192
+    ingredients: ["dried shiitake mushrooms", "duck", "Shaoxing wine", "caster sugar", "neutral oil", "star anise", "light soy sauce", "cornflour", "onion", "ginger", "dried mandarin peel", "glutinous rice", "spring onions", "garlic cloves", "minced pork", "lap cheong sausages", "chestnuts", "dried shrimp", "oyster sauce", "salt", "white pepper", "Malaysian thick soy sauce"]
+  - title: "Kung pao chicken (Gong bao ji ding)"
+    page: 194
+    ingredients: ["skinless chicken thighs", "neutral oil", "dried long red chillies", "Sichuan pepper", "ginger", "garlic cloves", "spring onions", "Shaoxing wine", "roasted peanuts", "light soy sauce", "cornflour", "salt", "chicken stock", "dark soy sauce", "Chinkiang vinegar", "sesame oil", "caster sugar"]
+  - title: "Curry kapitan"
+    page: 197
+    ingredients: ["ground turmeric", "salt", "chicken", "neutral oil", "caster sugar", "coconut milk", "coconut cream", "limes", "makrut lime leaves", "crispy fried shallots", "long red chillies", "dried red chillies", "fresh turmeric", "lemongrass stalks", "candlenuts", "shallots", "garlic cloves", "belacan"]
+  - title: "Vietnamese honey-roasted quail (Chim cut ran)"
+    page: 198
+    ingredients: ["quail", "garlic cloves", "honey", "caster sugar", "Chinese five-spice powder", "salt", "black pepper", "fish sauce", "Shaoxing wine", "dark soy sauce", "neutral oil", "spring onions", "lime"]
+  - title: "Chicken buah keluak (Ayam buah keluak)"
+    page: 199
+    ingredients: ["buah keluak", "tamarind pulp", "minced pork", "salt", "caster sugar", "neutral oil", "lemongrass stalks", "makrut lime leaves", "chicken drumsticks", "fresh turmeric", "garlic cloves", "onion", "galangal", "long red chillies", "candlenuts", "belacan"]
+  - title: "Stir-fried chicken with cashew nuts"
+    page: 201
+    ingredients: ["skinless chicken breast", "egg white", "salt", "cornflour", "neutral oil", "garlic", "cashew nuts", "spring onions", "red capsicum", "sesame oil", "coriander leaves", "oyster sauce", "Shaoxing wine", "light soy sauce", "chicken stock", "caster sugar", "potato flour"]
+  - title: "Slow-cooked spatchcock with jicama, Brussels sprouts and vadouvan"
+    page: 202
+    ingredients: ["spatchcocks (Australia)", "salt", "white pepper", "neutral oil", "butter", "Brussels sprouts", "jicama", "chicken stock", "coconut milk", "onions", "shallots", "garlic cloves", "fenugreek", "ground black pepper", "ground cumin", "ground cardamom", "brown mustard seeds", "chilli powder", "ground turmeric", "nutmeg", "ground cloves", "fresh curry leaves"]
+  - title: "Fried chicken, Nyonya style (Inche kabin)"
+    page: 203
+    ingredients: ["chicken Marylands", "neutral oil", "curry powder", "light soy sauce", "coconut cream", "caster sugar", "salt", "Worcestershire sauce", "ground mustard", "long red chilli", "limes"]
+  - title: "Oysters with my dressing"
+    page: 206
+    ingredients: ["oysters", "palm sugar", "coriander", "lemongrass stalks", "birdseye chillies", "makrut lime leaves", "fish sauce", "lime juice"]
+  - title: "Thai green papaya salad (Som tam)"
+    page: 209
+    ingredients: ["garlic cloves", "green birdseye chillies", "dried shrimp", "runner beans", "tomato", "green papayas", "fish sauce", "lime juice", "palm sugar", "salt", "cooked prawns", "roasted peanuts"]
+  - title: "Shellfish with garlic, coriander and Thai basil"
+    page: 210
+    ingredients: ["mussels", "green prawns", "scallops", "neutral oil", "chicken stock", "oyster sauce", "fish sauce", "palm sugar", "Thai basil leaves", "coriander", "white peppercorns", "birdseye chillies", "garlic cloves", "coriander roots"]
+  - title: "Singapore chilli crab"
+    page: 211
+    ingredients: ["live mud crabs", "ginger", "long red chillies", "neutral oil", "garlic cloves", "egg", "cornflour", "salt", "white pepper", "spring onions", "light chicken stock", "chilli sauce", "tomato sauce", "light soy sauce", "caster sugar"]
+  - title: "Stir-fried pipis with Malaysian flavours (Kam heong la la)"
+    page: 214
+    ingredients: ["neutral oil", "garlic cloves", "shallot", "long red chillies", "curry leaves", "dried shrimp", "pipis", "chicken stock", "Malaysian curry powder", "oyster sauce", "dark soy sauce", "Shaoxing wine", "caster sugar", "preserved soybeans"]
+  - title: "Calamari and green mango salad"
+    page: 217
+    ingredients: ["calamari hoods", "neutral oil", "ginger", "mint leaves", "coriander sprigs", "Thai basil leaves", "shallots", "limes", "coriander roots", "birdseye chillies", "long red chillies", "lemongrass stalks", "fish sauce", "lime juice", "palm sugar", "sour mangoes"]
+  - title: "Spicy pomelo and prawn salad (Yam som-o)"
+    page: 218
+    ingredients: ["pomelo", "lime juice", "fish sauce", "birdseye chillies", "palm sugar", "nam prik pao", "cooked prawns", "coconut cream", "desiccated coconut", "dried shrimp", "makrut lime leaves", "crispy fried shallots"]
+  - title: "Watermelon with crisp fish"
+    page: 219
+    ingredients: ["flathead fillets", "salt", "neutral oil", "seedless watermelon", "Thai basil", "crispy fried shallots", "caster sugar", "malt syrup", "coriander roots", "garlic cloves", "long red chillies", "rice vinegar", "fish sauce", "ginger", "dried shrimp", "grated coconut"]
+  - title: "Vietnamese stuffed squid or calamari"
+    page: 220
+    ingredients: ["squid", "neutral oil", "fish sauce", "caster sugar", "lime juice", "birdseye chillies", "garlic clove", "carrot", "shallots", "minced pork", "squid tentacles", "glass noodles", "wood ear mushrooms", "egg", "light soy sauce", "coconut milk", "Chinese five-spice powder"]
+  - title: "Steamed seafood pudding (Otak-otak)"
+    page: 221
+    ingredients: ["betel leaves", "eggs", "coconut milk", "glutinous rice flour", "caster sugar", "salt", "white pepper", "white fish fillets", "makrut lime leaves", "neutral oil", "dried chillies", "shallots", "lemongrass stalks", "garlic cloves", "candlenuts", "fresh turmeric", "galangal", "belacan", "fish stock", "ginger", "ground turmeric", "cornflour"]
+  - title: "Grilled scallops with sweetcorn sauce and curry leaves"
+    page: 222
+    ingredients: ["ghee", "curry leaves", "scallops", "salt", "white pepper", "butter", "onion", "garlic clove", "ginger", "chicken stock", "single cream", "sweetcorn on the cob"]
+  - title: "Butter prawns (Nai yow ha)"
+    page: 225
+    ingredients: ["green prawns", "salt", "white pepper", "neutral oil", "egg yolks", "butter", "curry leaves", "birdseye chillies", "garlic clove", "light soy sauce", "desiccated coconut", "sugar"]
+  - title: "Steamed prawns with pickled leeks, ginger and spring onions"
+    page: 226
+    ingredients: ["green prawns", "Shaoxing wine", "chicken stock", "pickled leeks", "ginger", "light soy sauce", "sesame oil", "caster sugar", "salt", "white pepper", "spring onion", "camellia tea oil", "coriander sprigs"]
+  - title: "Oyster omelette with chilli sauce"
+    page: 227
+    ingredients: ["eggs", "fish sauce", "tapioca flour", "rice flour", "neutral oil", "garlic", "oysters", "salt", "white pepper", "coriander sprigs", "long red chillies", "rice vinegar", "caster sugar"]
+  - title: "Steamed mussels with XO sauce"
+    page: 232
+    ingredients: ["dried scallops", "dried shrimp", "neutral oil", "garlic", "shallots", "jamón", "long red chillies", "dried long chillies", "birdseye chillies", "belacan", "sugar", "salt", "baby carrots", "spring onions", "ginger", "makrut lime leaves", "mussels", "Shaoxing wine", "coriander sprigs"]
+  - title: "Penang Nyonya fish 'curry' with spicy tamarind sauce (Gulai ikan)"
+    page: 235
+    ingredients: ["neutral oil", "tamarind pulp", "caster sugar", "salt", "fish fillets", "onions", "dried chillies", "galangal", "lemongrass", "fresh turmeric", "long red chillies", "belacan", "ginger flower fruit"]
+  - title: "Stir-fried prawns with duck-liver sausage"
+    page: 236
+    ingredients: ["neutral oil", "duck liver sausages", "onion", "ginger", "garlic", "green prawns", "Shaoxing wine", "light soy sauce", "dark soy sauce", "sugar", "chicken stock", "sesame oil", "cornflour", "spring onions"]
+  - title: "Typhoon shelter crab"
+    page: 237
+    ingredients: ["live mud crabs", "neutral oil", "garlic bulbs", "shallots", "ginger", "dried chillies", "fermented black beans", "salt", "caster sugar", "spring onion"]
+  - title: "Pan-fried snapper with vinegar sambal"
+    page: 239
+    ingredients: ["snapper cutlets", "neutral oil", "rice vinegar", "dark soy sauce", "caster sugar", "salt", "spring onion", "dried red chillies", "shallots", "candlenuts", "ground turmeric", "chilli powder"]
+  - title: "Fish head curry (Kari kepala ikan)"
+    page: 241
+    ingredients: ["fish heads", "salt", "tamarind pulp", "neutral oil", "mustard seeds", "curry leaves", "fenugreek seeds", "lemongrass stalks", "star anise", "Malaysian fish curry powder", "thin coconut milk", "okra", "Japanese aubergines", "caster sugar", "tomato", "dried long red chillies", "long red chillies", "shallots", "garlic cloves", "fresh turmeric", "galangal", "ginger"]
+  - title: "Five-spice 'smoked' fish with broad bean mash and spicy witlof salad"
+    page: 242
+    ingredients: ["blue-eye fillets", "neutral oil", "spring onions", "preserved limes", "ginger", "light soy sauce", "Shaoxing wine", "salt", "peanut oil", "garlic cloves", "star anise", "dried mandarin peel", "cassia bark", "rock sugar", "dark soy sauce", "ground Sichuan pepper", "black peppercorns", "pickled mustard greens", "broad beans", "chicken stock", "caster sugar", "white pepper", "witlof", "pickled Sichuan chillies", "white-wine vinegar"]
+  - title: "Char siu cauliflower"
+    page: 248
+    ingredients: ["salt", "cauliflower", "neutral oil", "spring onions", "garlic cloves", "light soy sauce", "dark soy sauce", "white pepper", "hoisin sauce", "fermented red bean curd", "Chinese five-spice powder", "honey", "Mei Kuei Lu Chiew"]
+  - title: "Lemongrass tofu"
+    page: 251
+    ingredients: ["lemongrass stalks", "light soy sauce", "birdseye chillies", "ground turmeric", "caster sugar", "firm tofu", "neutral oil", "onion", "garlic cloves", "ginger", "salt", "white pepper", "roasted peanuts", "betel leaves"]
+  - title: "Spicy Sichuan mung bean noodles"
+    page: 252
+    ingredients: ["mung bean flour", "spring onion", "light soy sauce", "Chinkiang vinegar", "caster sugar", "salt", "neutral oil of your choice", "sesame oil", "ginger", "roasted sesame seeds", "chilli powder", "Sichuan pepper"]
+  - title: "Grilled eggplant salad with chilli jam (Yam makua pow)"
+    page: 254
+    ingredients: ["dried shrimp", "fish sauce", "lime juice", "caster sugar", "spring onion", "coriander leaves", "garlic bulbs", "shallots", "dried long red chillies", "neutral oil", "salt", "palm sugar", "Asian eggplants"]
+  - title: "Stir-fried Chinese spinach or amaranth"
+    page: 255
+    ingredients: ["amaranth greens", "neutral oil", "garlic clove", "oyster sauce", "caster sugar", "chicken stock"]
+  - title: "Stir-fried mixed vegetables"
+    page: 259
+    ingredients: ["carrots", "neutral oil", "shallot", "ginger", "garlic clove", "asparagus", "shiitake mushrooms", "wombok", "bok choy", "light soy sauce", "oyster sauce", "caster sugar", "Shaoxing wine", "salt", "white pepper", "sesame oil", "chicken stock"]
+  - title: "Stir-fried bean shoots with salted fish"
+    page: 260
+    ingredients: ["neutral oil", "salted fish", "garlic cloves", "long red chilli", "bean shoots", "spring onions", "caster sugar", "salt", "white pepper"]
+  - title: "Wood-ear mushrooms and shredded chicken, Nyonya style (Kerabu bok nee)"
+    page: 261
+    ingredients: ["dried wood ear mushrooms", "chicken breast", "salt", "shallots", "ginger flower bud", "desiccated coconut", "caster sugar", "long red chillies", "belacan", "cumquat juice"]
+  - title: "Edible chrysanthemum leaf and tofu salad"
+    page: 262
+    ingredients: ["garland chrysanthemum leaves", "silken tofu", "roasted sesame seeds", "neutral oil", "light soy sauce", "rice vinegar", "spring onion", "brown sugar", "black peppercorns"]
+  - title: "Gai lan with lotus root or beef"
+    page: 263
+    ingredients: ["salt", "white pepper", "neutral oil", "gai lan", "lotus root", "ginger", "garlic clove", "Shaoxing wine", "caster sugar", "oyster sauce", "light soy sauce", "chicken stock", "cornflour"]
+  - title: "Grilled asparagus with walnut pesto"
+    page: 264
+    ingredients: ["asparagus", "neutral oil", "lemons", "walnuts", "garlic cloves", "white miso", "fish sauce", "rice vinegar", "chilli powder", "salt"]
+  - title: "Pineapple curry (Pajeri nenas)"
+    page: 265
+    ingredients: ["neutral oil", "star anise", "cinnamon", "pineapple", "coconut milk", "brown sugar", "salt", "long red chilli", "shallots", "garlic cloves", "dried long red chillies", "fresh turmeric", "coriander seeds"]
+  - title: "My dhal"
+    page: 266
+    ingredients: ["neutral oil", "curry leaves", "cinnamon stick", "green chillies", "yellow split peas", "coconut milk", "sugar", "salt", "chilli powder", "garlic cloves", "ginger", "onion", "Malaysian curry powder"]
+  - title: "Rajasthani watermelon curry"
+    page: 269
+    ingredients: ["seedless watermelon", "chilli powder", "ground turmeric", "ground coriander", "garlic", "neutral oil", "cumin seeds", "brown mustard seeds", "salt", "caster sugar", "lime juice"]
+  - title: "Sri Lankan spicy cashew curry"
+    page: 270
+    ingredients: ["raw cashews", "neutral oil", "brown mustard seeds", "cumin seeds", "pandan leaves", "curry leaves", "onions", "cinnamon stick", "thin coconut milk", "salt", "lime juice", "tomatoes", "coriander", "ground turmeric", "ground cumin", "ground coriander", "chilli powder"]
+  - title: "Pol sambol"
+    page: 271
+    ingredients: ["grated coconut", "dried chilli", "onion", "sweet paprika", "lime juice", "salt", "neutral oil", "curry leaves", "brown mustard seeds"]
+  - title: "Seitan"
+    page: 272
+    ingredients: ["high-gluten flour", "salt"]
+  - title: "Stir-fried seitan with mushrooms and capsicum"
+    page: 273
+    ingredients: ["neutral oil", "seitan", "garlic cloves", "spring onion", "Sichuan pepper", "red capsicum", "mixed mushrooms", "sesame oil", "salt", "white pepper", "oyster sauce", "Shaoxing wine", "light soy sauce", "dark soy sauce", "caster sugar", "cornflour", "chicken stock"]
+  - title: "Steamed rice cake (Chwee kuih)"
+    page: 274
+    ingredients: ["rice flour", "tapioca flour", "neutral oil", "salt", "preserved daikon radishes", "shallots", "garlic cloves", "fish sauce", "caster sugar", "white pepper", "kecap asin"]
+  - title: "Spicy fried tempeh (Sambal tempe)"
+    page: 275
+    ingredients: ["neutral oil", "tempeh", "shallots", "garlic cloves", "long red chillies", "galangal", "belacan", "dark palm sugar", "tamarind pulp", "salt", "birdseye chillies"]
+  - title: "Roast potatoes with fermented bean sauce"
+    page: 276
+    ingredients: ["new potatoes", "white miso paste", "butter", "salt", "white pepper", "chives", "dill"]
+  - title: "Taro gnocchi in brown butter"
+    page: 278
+    ingredients: ["taro root", "floury potatoes", "Chinese five-spice powder", "nutmeg", "salt", "egg yolks", "plain flour", "unsalted butter"]
+  - title: "Taro gnocchi with mushrooms and dried shrimp"
+    page: 278
+    ingredients: ["taro root", "floury potatoes", "Chinese five-spice powder", "nutmeg", "salt", "egg yolks", "plain flour", "coriander", "dried shrimp", "dried shiitake mushrooms", "neutral oil", "garlic cloves", "ginger", "king mushrooms", "light soy sauce", "doubanjiang"]
+  - title: "Silken tofu with roasted capsicum and fermented chilli"
+    page: 280
+    ingredients: ["red capsicum", "neutral oil", "ginger", "garlic cloves", "oyster sauce", "light soy sauce", "chicken stock", "caster sugar", "silken tofu", "spring onions", "cayenne chillies", "salt", "baijiu"]
+  - title: "Spicy pickled Chinese cabbage"
+    page: 281
+    ingredients: ["wombok", "salt", "red chillies", "caster sugar", "rice vinegar"]
+  - title: "Pickled young ginger"
+    page: 282
+    ingredients: ["young ginger", "salt", "rice vinegar", "caster sugar"]
+  - title: "Pickled green chillies"
+    page: 283
+    ingredients: ["long green chillies", "rice vinegar", "salt", "caster sugar"]
+  - title: "Penang Nyonya pickles (Acar awak)"
+    page: 284
+    ingredients: ["cucumber", "salt", "snake beans", "green beans", "cabbage", "carrots", "cauliflower", "long red chillies", "long green chillies", "neutral oil", "garlic", "rice vinegar", "caster sugar", "roasted peanuts", "sesame seeds", "dried red chillies", "fresh turmeric", "ground turmeric"]
+  - title: "Pandan panna cotta with red rubies"
+    page: 288
+    ingredients: ["single cream", "vanilla bean", "pandan leaves", "palm sugar", "gelatine leaves", "water chestnuts", "red food colouring", "cornflour", "caster sugar", "coconut milk"]
+  - title: "Watermelon granita with coconut jelly and berry compote"
+    page: 290
+    ingredients: ["watermelon", "caster sugar", "vodka", "lemon juice", "agar-agar", "coconut milk", "rose essence", "raspberries", "strawberries"]
+  - title: "Matcha ice-cream with sago and dried persimmon"
+    page: 292
+    ingredients: ["milk", "single cream", "vanilla bean", "egg yolks", "caster sugar", "cornflour", "matcha powder", "salt", "hoshigaki", "sago", "sugar", "coconut milk"]
+  - title: "Kulfi ice-cream"
+    page: 294
+    ingredients: ["milk", "ground cardamom", "saffron threads", "caster sugar", "corn syrup", "single cream", "full-cream milk", "milk powder", "unsalted butter"]
+  - title: "Fluffy pancakes with roasted peanuts and sesame seeds (Ban chang kuih)"
+    page: 295
+    ingredients: ["plain flour", "caster sugar", "baking powder", "salt", "egg", "neutral oil", "peanuts", "roasted sesame seeds", "unsalted butter", "icing sugar"]
+  - title: "Pandan crêpes with coconut filling (Kuih dadar)"
+    page: 296
+    ingredients: ["frozen pandan leaves", "spinach leaves", "plain flour", "egg", "milk", "butter", "salt", "neutral oil", "pandan leaves", "palm sugar", "desiccated coconut", "coconut milk", "caster sugar", "cornflour"]
+  - title: "Glutinous rice with coconut custard (Pulut serikaya)"
+    page: 298
+    ingredients: ["glutinous rice", "pandan leaves", "coconut milk", "coconut cream", "salt", "caster sugar", "eggs", "plain flour", "vanilla extract", "green food colouring"]
+  - title: "Rhubarb, cardamom and rosewater sorbet, boozy watermelon and sago"
+    page: 300
+    ingredients: ["rhubarb", "caster sugar", "ground cardamom", "glucose", "rosewater", "sago", "coconut milk", "watermelons", "gin"]
+  - title: "Black rice pudding with roasted-coconut ice-cream (Bubur pulut hitam)"
+    page: 302
+    ingredients: ["black sticky rice", "pandan leaves", "dark palm sugar", "caster sugar", "salt", "coconut milk", "single cream", "full-cream milk", "toasted desiccated coconut", "egg yolks"]
+  - title: "Indian rice pudding (Payasam)"
+    page: 303
+    ingredients: ["milk", "medium-grain rice", "cardamom seeds", "lemon zest", "raisins", "caster sugar", "coconut cream", "ghee", "cashews"]
+  - title: "Sri Lankan coconut custard with pear and persimmon (Watalappan)"
+    page: 304
+    ingredients: ["palm sugar", "thin coconut milk", "milk", "eggs", "egg yolks", "ground cardamom", "ground cloves", "ground nutmeg", "ground cinnamon", "rosewater", "jaggery", "nashi pear", "persimmon", "passionfruit", "caster sugar", "Fuji fruits"]
+  - title: "Chinese almond biscuits (Hang yen paeng)"
+    page: 305
+    ingredients: ["blanched almonds", "plain flour", "baking powder", "bicarbonate of soda", "caster sugar", "unsalted butter", "salt", "egg", "almond extract", "vanilla extract", "almond meal", "egg yolk"]
+  - title: "Makrut lime leaf crème brûlée"
+    page: 306
+    ingredients: ["makrut lime leaves", "single cream", "egg yolks", "caster sugar", "limes", "rapadura sugar"]
+  - title: "Onde onde"
+    page: 308
+    ingredients: ["coconut", "salt", "yellow sweet potatoes", "pandan leaves", "spinach leaves", "glutinous rice flour", "palm sugar", "caster sugar"]
+  - title: "Snow skin mooncake with custard filling"
+    page: 310
+    ingredients: ["icing sugar", "glutinous rice flour", "neutral oil", "eggs", "caster sugar", "milk powder", "cornflour", "full-cream milk", "vanilla extract", "butter"]
+  - title: "Pineapple tarts"
+    page: 312
+    ingredients: ["pineapple", "caster sugar", "cinnamon stick", "cloves", "star anise", "shortcrust pastry"]
+  - title: "Rhubarb crumble with rhubarb sorbet"
+    page: 313
+    ingredients: ["rhubarb", "raw sugar", "whipped cream", "caster sugar", "orange zest", "chilli powder", "salt", "liquid glucose", "brown sugar", "baking powder", "ground cinnamon", "butter", "plain flour"]
+  - title: "Cheesecake with red fermented tofu"
+    page: 314
+    ingredients: ["unsalted butter", "Chinese almond cookies", "cream cheese", "caster sugar", "fermented red bean curd", "cornflour", "eggs", "sour cream", "pure cream", "salt", "strawberry compote"]
+  - title: "Pandan chiffon cake"
+    page: 316
+    ingredients: ["pandan leaves", "coconut milk", "egg whites", "caster sugar", "neutral oil", "plain flour", "baking powder", "salt", "cream of tartar", "eggs"]
+

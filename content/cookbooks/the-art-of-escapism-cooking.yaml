@@ -1,0 +1,325 @@
+book: "The Art of Escapism Cooking"
+author: "Mandy Lee"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-art-of-escapism-cooking-191228l2.jpg"
+recipes:
+  - title: "Ramen seasoning"
+    page: 12
+    ingredients: ["scallions", "mushroom powder", "sea salt", "fish sauce", "mirin", "kombu powder", "bonito powder"]
+  - title: "Vegan ramen seasoning"
+    page: 12
+    ingredients: ["scallions", "mushroom powder", "sea salt", "mirin", "kombu powder", "soy sauce"]
+  - title: "Makrut lime leaf oil"
+    page: 13
+    ingredients: ["makrut lime leaves", "canola oil"]
+  - title: "Garlic confit sauce"
+    page: 14
+    ingredients: ["garlic", "fish sauce", "white pepper", "fresh bay leaves"]
+  - title: "Fried chile verde sauce"
+    page: 15
+    ingredients: ["green cayenne chiles", "garlic", "Sichuan peppercorns", "fish sauce", "cilantro", "fresh ginger", "green Sichuan peppercorns", "rice vinegar", "white pepper"]
+  - title: "Fried shallots, dry or in blended fat"
+    page: 17
+    ingredients: ["pork fat", "shallots"]
+  - title: "Mala paste"
+    page: 20
+    ingredients: ["pork back fat", "guanciale", "doubanjiang", "dark miso", "fermented black beans", "scallions", "garlic", "fresh ginger", "dried Thai bird's eye chiles", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "Chinese rice wine", "dried Sichuan chiles", "mushroom powder", "ground coriander", "ground cumin", "ground fennel", "ground cinnamon", "whole star anise", "black cardamom pods", "bay leaves", "toasted sesame oil", "soy sauce", "strawberry jam", "kombu powder"]
+  - title: "Caramelized onion powder paste"
+    page: 22
+    ingredients: ["onion powder", "fish sauce", "white pepper"]
+  - title: "Orange chile sambal"
+    page: 23
+    ingredients: ["cayenne chiles", "Thai chiles", "navel oranges", "fish sauce", "distilled vinegar"]
+  - title: "My ultimate chile oil"
+    page: 24
+    ingredients: ["soy sauce", "garlic", "dried Sichuan chiles", "whole star anise", "ground coriander", "ground cumin", "curry powder", "sesame seeds", "bay leaves", "Sichuan peppercorns"]
+  - title: "Pickled chilies"
+    page: 25
+    ingredients: ["dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "dried cayenne chiles"]
+  - title: "Sweet soy sauce"
+    page: 26
+    ingredients: ["soy sauce", "molasses"]
+  - title: "Fried garlic powder"
+    page: 27
+    ingredients: ["garlic", "canola oil"]
+  - title: "Helldust"
+    page: 28
+    ingredients: ["Korean chile flakes", "sesame seeds", "Sichuan peppercorns", "ground cumin", "curry powder", "dry-roasted peanuts", "garlic"]
+  - title: "Chinese southern almond (apricot kernel) milk"
+    page: 29
+    ingredients: ["apricot kernels", "roasted unsalted peanuts"]
+  - title: "All-purpose mother dough"
+    page: 35
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea"]
+  - title: "Crusty loaves"
+    page: 38
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea"]
+  - title: "Pita bread"
+    page: 38
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea"]
+  - title: "Pizza dough"
+    page: 40
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea"]
+  - title: "Mochi challah bread stuffed with prosciutto and dates"
+    page: 43
+    ingredients: ["sticky rice flour", "bread flour", "eggs", "egg whites", "instant yeast", "dates", "prosciutto", "honey"]
+  - title: "Poached eggs with miso-browned butter Hollandaise"
+    page: 47
+    ingredients: ["egg yolks", "yellow miso", "white pepper", "butter", "shallots", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "country bread", "poached eggs"]
+  - title: "Pandora's box"
+    page: 51
+    ingredients: ["vanilla beans", "milk", "chamomile tea", "egg yolks", "honey", "custard powder", "Japanese milk bread", "eggs", "ground cinnamon"]
+  - title: "Rice chowder with sausage cornflakes"
+    page: 53
+    ingredients: ["schmaltz", "chicken stock", "cooked short grain rice", "fish sauce", "ground chicken", "white pepper", "fresh ginger", "cornflakes", "dried Thai bird's eye chiles", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles"]
+  - title: "Jammy eggs"
+    page: 54
+    ingredients: ["eggs"]
+  - title: "Magic 15-second scrambled eggs in mushroom cream"
+    page: 56
+    ingredients: ["mushroom powder", "shallots", "heavy cream", "scallions", "fish sauce", "mirin", "kombu powder", "bonito powder", "garlic", "bay leaves", "nutmeg", "baguette bread", "potato starch", "eggs"]
+  - title: "Clams over oatmeal"
+    page: 60
+    ingredients: ["quick-cooking oats", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "littleneck clams", "sake", "white pepper", "mint"]
+  - title: "Semi-instant risotto with pork fat crispy rice cereal"
+    page: 62
+    ingredients: ["guanciale", "thyme sprigs", "crispy rice cereal", "chicken stock", "heavy cream", "cooked sushi rice", "pecorino cheese"]
+  - title: "Spelt jianbing with kettle-cooked potato chips"
+    page: 64
+    ingredients: ["whole grain spelt flour", "tapioca starch", "doubanjiang", "honey", "peanut butter", "scallions", "kettle-cooked potato chips", "eggs"]
+  - title: "Crackling pancake with caramel-clustered blueberries"
+    page: 69
+    ingredients: ["balsamic vinegar", "honey", "blueberries", "all-purpose flour", "buttermilk", "eggs"]
+  - title: "Egg in a blanket with creamed garlic confit"
+    page: 74
+    ingredients: ["eggs", "milk", "all-purpose flour", "beef fat", "heavy cream", "mushroom powder", "bonito powder", "fish sauce", "mint", "parsley", "shallots", "onion powder", "white pepper", "garlic", "fresh bay leaves"]
+  - title: "My all-purpose ramen noodles"
+    page: 81
+    ingredients: ["tapioca flour", "all-purpose flour", "egg yolks"]
+  - title: "Chicken white broth (Tori paitan)"
+    page: 85
+    ingredients: ["chicken carcass", "chicken feet", "yellow onions"]
+  - title: "Chicken paitan ramen"
+    page: 88
+    ingredients: ["chicken carcass", "chicken feet", "yellow onions", "tapioca flour", "all-purpose flour", "egg yolks", "chicken fat", "white peppercorns", "black peppercorns", "pickled green peppercorns", "toasted sesame oil", "chicken thighs", "white pepper", "potato starch", "scallions", "mushroom powder", "fish sauce", "mirin", "kombu powder", "bonito powder", "eggs", "nori"]
+  - title: "Buffalo fried chicken ramen"
+    page: 93
+    ingredients: ["chicken carcass", "chicken feet", "yellow onions", "tapioca flour", "all-purpose flour", "egg yolks", "scallions", "mushroom powder", "fish sauce", "mirin", "kombu powder", "bonito powder", "garlic", "white pepper", "Frank's RedHot Original Sauce", "Tabasco sauce", "paprika", "honey", "Worcestershire sauce", "five-spice powder", "chicken thighs", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles", "eggs", "garlic powder", "canola oil", "sour cream", "nori", "fresh bay leaves"]
+  - title: "Truffle lard-infused ramen with fennel pork belly and sauerkraut"
+    page: 97
+    ingredients: ["chicken carcass", "chicken feet", "yellow onions", "tapioca flour", "all-purpose flour", "egg yolks", "scallions", "mushroom powder", "fish sauce", "mirin", "kombu powder", "bonito powder", "garlic", "bay leaves", "white pepper", "shallots", "ground fennel", "pork belly", "pork fat", "guanciale", "truffles", "eggs", "sauerkraut", "toasted sesame seeds"]
+  - title: "Vegan burned miso ramen"
+    page: 102
+    ingredients: ["tapioca flour", "all-purpose flour", "scallions", "carrots", "yellow onions", "daikon radishes", "fresh ginger", "vegetable broth", "sake", "mushroom powder", "yellow miso", "toasted sesame oil", "garlic", "curry powder", "shiitake mushrooms", "soy sauce", "onion powder", "white pepper", "mirin", "kombu powder", "soy milk"]
+  - title: "Chilled ramen in Chinese almond milk slush, served with grilled pork belly"
+    page: 107
+    ingredients: ["tapioca flour", "all-purpose flour", "pork belly", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "apricot kernels", "roasted unsalted peanuts", "scallions", "mushroom powder", "mirin", "kombu", "bonito powder", "toasted sesame oil", "white pepper", "eggs"]
+  - title: "Onsen egg"
+    page: 108
+    ingredients: ["eggs"]
+  - title: "Mala hot pot tsukemen"
+    page: 109
+    ingredients: ["boneless beef short ribs", "scallions", "fresh ginger", "mushroom powder", "gelatin", "toasted sesame oil", "eggs", "nori", "garlic powder", "chicken carcass", "chicken feet", "yellow onions", "tapioca flour", "all-purpose flour", "egg yolks", "pork back fat", "guanciale", "doubanjiang", "dark miso", "fermented black beans", "garlic", "dried Thai bird's eye chiles", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "Chinese rice wine", "Korean red pepper flakes", "ground coriander", "ground cumin", "ground fennel", "ground cinnamon", "whole star anise", "black cardamom pods", "bay leaves", "soy sauce", "strawberry jam", "kombu powder", "mirin", "bonito powder", "curry powder", "canola oil", "sesame seeds"]
+  - title: "Crab bisque tsukemen"
+    page: 115
+    ingredients: ["chicken fat", "fresh ginger", "Old Bay seasoning", "bonito powder", "blue crabs", "shrimp shells", "shrimp heads", "carrots", "garlic", "tomato paste", "paprika", "white pepper", "Cognac", "chicken carcass", "chicken feet", "yellow onions", "tapioca flour", "all-purpose flour", "egg yolks", "scallions", "fish sauce", "mirin", "kombu powder", "fresh bay leaves"]
+  - title: "Dandan mazemen"
+    page: 118
+    ingredients: ["scallions", "pork back fat", "guanciale", "doubanjiang", "dark miso", "fermented black beans", "garlic", "fresh ginger", "Chinese rice wine", "Korean red pepper flakes", "mushroom powder", "ground coriander", "ground cumin", "ground fennel", "ground cinnamon", "whole star anise", "black cardamom pods", "Sichuan peppercorns", "toasted sesame oil", "strawberry jam", "fish sauce", "kombu powder", "dried Thai bird's eye chiles", "rice vinegar", "vodka", "cayenne chiles", "tahini", "peanut butter", "onion powder", "mirin", "bonito powder", "all-purpose flour", "tapioca starch", "egg yolks", "fresh bay leaves"]
+  - title: "Cajun chopped liver dirty mazemen"
+    page: 121
+    ingredients: ["chicken livers", "shallots", "Shaoxing rice wine", "fish sauce", "white pepper", "schmaltz", "celery leaves", "celery", "poblano chiles", "pickled jalapeño brine", "tomato paste", "garlic powder", "paprika", "dried oregano", "ground cayenne pepper", "ground cumin", "chicken carcass", "chicken feet", "yellow onions", "onion powder", "garlic", "scallions", "mushroom powder", "mirin", "kombu powder", "bonito powder", "Old Bay seasoning", "all-purpose flour", "tapioca starch", "egg yolks", "eggs", "fresh bay leaves"]
+  - title: "Peking duck ramen"
+    page: 127
+    ingredients: ["Peking duck", "chicken feet", "scallions", "honey", "daikon radishes", "sake", "duck breasts", "soy sauce", "five-spice paste", "onion powder", "sesame seeds", "tian mian jiang", "mushroom powder", "fish sauce", "mirin", "kombu powder", "bonito powder", "eggs", "bean sprouts", "white pepper", "dragon beard noodles"]
+  - title: "My pho bo"
+    page: 133
+    ingredients: ["beef bones", "yellow onions", "fresh ginger", "lemongrass", "shrimp paste", "beef short ribs", "whole star anise", "whole cloves", "fennel seeds", "ground cinnamon", "beef bottom round", "fish sauce", "white pepper", "pho noodles", "bean sprouts", "shallots", "scallions", "MSG", "limes"]
+  - title: "Fresh rice vermicelli in chilled spicy sauce"
+    page: 139
+    ingredients: ["chicken stock", "lemons", "fresh ginger", "shallots", "fish sauce", "paprika", "rice flour", "tapioca flour", "Thai basil"]
+  - title: "Semi-instant laksa mix"
+    page: 143
+    ingredients: ["lemongrass", "belacan", "galangal", "dried shrimp", "shallots", "garlic", "paprika", "ground cayenne pepper", "curry powder", "ground coriander", "shrimp heads", "shrimp shells", "makrut lime leaves", "fresh ginger", "Korean red pepper flakes", "coconut oil", "coconut milk", "rice noodles"]
+  - title: "The soloist"
+    page: 146
+    ingredients: ["all-purpose flour", "bread flour", "Asian eggplants", "sun-dried tomatoes", "shallots", "yellow miso", "ground cumin", "rice wine", "chicken stock", "fish sauce", "gelatin", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles"]
+  - title: "Handkerchiefs with burned scallion pesto"
+    page: 151
+    ingredients: ["all-purpose flour", "tapioca flour", "eggs", "egg yolks", "scallions", "anchovies", "pine nuts", "Parmigiano Reggiano cheese", "fresh ginger", "fish sauce", "white pepper"]
+  - title: "Laksa-flavored paella"
+    page: 160
+    ingredients: ["dried shrimp", "coconut milk", "coconut oil", "Thai red curry paste", "Thai yellow curry paste", "curry powder", "ground coriander", "shrimp", "fish sauce", "short-grain rice", "seafood stock", "paprika", "makrut lime leaves"]
+  - title: "Crackling pork belly"
+    page: 164
+    ingredients: ["pork belly", "whole star anise", "canola oil", "fresh bay leaves"]
+  - title: "Grilled bao burger buns"
+    page: 168
+    ingredients: ["bread flour", "heavy cream", "instant yeast"]
+  - title: "Cumin lamb rib burgers"
+    page: 169
+    ingredients: ["lamb ribs", "fish sauce", "yellow mustard", "garlic", "fresh ginger", "ground cumin", "ground coriander", "Chinese chile flakes", "Sichuan peppercorns", "white pepper", "Greek yogurt", "mint", "cilantro", "scallions", "bread flour", "heavy cream", "instant yeast"]
+  - title: "Sichuan hot chicken"
+    page: 173
+    ingredients: ["chicken legs", "chicken thighs", "scallions", "fresh ginger", "doubanjiang", "soy sauce", "sake", "Sichuan peppercorns", "white pepper", "Chinese chile flakes", "ground coriander", "ground cumin", "ground cinnamon", "whole star anise", "toasted sesame oil", "honey", "rice vinegar", "garlic", "cilantro", "buttermilk", "all-purpose flour", "potato starch", "rice flour", "garlic powder", "canola oil", "white bread"]
+  - title: "Crackling-studded pork belly burger"
+    page: 177
+    ingredients: ["pork belly", "shiso leaves", "guanciale", "egg yolks", "honey", "toasted sesame oil", "shallots", "fresh ginger", "yellow miso", "rice vinegar", "potato buns"]
+  - title: "Guijie lobster bake"
+    page: 183
+    ingredients: ["whole lobsters", "shrimp", "razor clams", "butter", "garlic", "lemongrass", "dried bird chiles", "Old Bay seasoning", "chicken stock", "pork back fat", "guanciale", "doubanjiang", "dark miso", "fermented black beans", "scallions", "fresh ginger", "dried Thai bird's eye chiles", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "Chinese rice wine", "Chinese chile flakes", "mushroom powder", "ground coriander", "ground cumin", "ground fennel", "ground cinnamon", "whole star anise", "black cardamom pods", "toasted sesame oil", "soy sauce", "strawberry jam", "kombu powder", "MSG", "corn on the cob", "fresh bay leaves"]
+  - title: "Lamb and cheese slab pie rubbed with cumin-chile oil"
+    page: 187
+    ingredients: ["all-purpose flour", "shallots", "garlic", "fresh ginger", "ground lamb", "potato starch", "fish sauce", "white pepper", "mint", "semi-soft cheese", "olive oil", "ground cumin", "chile flakes", "ground coriander", "Sichuan peppercorns"]
+  - title: "Chewy layered paratha"
+    page: 194
+    ingredients: ["bread flour", "all-purpose flour"]
+  - title: "Tapenade whipped cream"
+    page: 194
+    ingredients: ["green olives", "anchovies", "lemons", "onion powder", "capers", "heavy cream", "fish sauce"]
+  - title: "Gooey cheese soup dumplings on a lacy crust"
+    page: 197
+    ingredients: ["instant yeast", "prosciutto", "pork shoulder", "shallots", "fresh ginger", "fish sauce", "white pepper", "Gouda cheese", "cream cheese", "Brie cheese", "Parmigiano Reggiano cheese", "balsamic vinegar"]
+  - title: "Naked Thai duck sausage bun"
+    page: 203
+    ingredients: ["Thai shrimp paste", "lemongrass", "galangal", "fresh turmeric", "shallots", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "duck breasts", "makrut lime leaves", "white pepper", "mayonnaise", "potato hot dog rolls", "mint"]
+  - title: "Italian meatballs in Taiwanese rouzao sauce"
+    page: 207
+    ingredients: ["black tea", "whole star anise", "whole cloves", "cinnamon sticks", "prunes", "guanciale", "ground pork", "panko breadcrumbs", "Parmigiano Reggiano cheese", "shallots", "potato starch", "dark soy sauce", "soy sauce", "Chinese rice wine", "molasses", "fish sauce", "gelatin", "white pepper", "five-spice powder", "ground cinnamon"]
+  - title: "Thai laap-style passion fruit-shrimp ceviche"
+    page: 211
+    ingredients: ["shrimp", "lemons", "passion fruit", "garlic", "galangal", "fish sauce", "white pepper", "cornflakes", "lemongrass", "makrut lime leaves", "mint", "shallots", "cilantro", "scallions", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles"]
+  - title: "Tom yum Margherita pizza"
+    page: 216
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea", "canned tomatoes", "lemongrass", "shallots", "makrut lime leaves", "galangal", "limes", "fish sauce", "Thai shrimp paste", "mozzarella cheese", "shrimp heads", "shrimp shells", "fresh ginger", "Korean red pepper flakes", "paprika", "coconut oil", "dried Thai bird's eye chiles", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles"]
+  - title: "Pizza tonnato"
+    page: 219
+    ingredients: ["yogurt", "bread flour", "instant yeast", "roasted barley tea", "lap yuk", "chile flakes", "dried oregano", "canned mackerel", "mayonnaise", "egg yolks", "rice vinegar", "white pepper", "heavy cream", "shallots", "capers", "fresh ginger", "fish sauce", "Parmigiano Reggiano cheese"]
+  - title: Bastardized Hainan chicken rice
+    page: 226
+    ingredients: ["whole chicken", "chicken stock", "garlic", "lemongrass", "shallots", "makrut lime leaves", "galangal", "pandan leaves", "white pepper", "short-grain rice", "fresh ginger"]
+  - title: "Ginger sauce"
+    page: 229
+    ingredients: ["fresh ginger", "fish sauce", "makrut lime leaves"]
+  - title: "Chile sambal with fried shallots"
+    page: 229
+    ingredients: ["red jalapeño chiles", "rice vinegar", "fish sauce", "shallots"]
+  - title: "Kori-Mex bibimbap with minced beef mole"
+    page: 231
+    ingredients: ["ground beef", "potato starch", "soy sauce", "yellow onions", "garlic", "thyme sprigs", "raisins", "peanut butter", "tomato paste", "Mexican chile powder", "smoked paprika", "ground cinnamon", "ground cumin", "ground cloves", "ground allspice", "chicken stock", "unsweetened chocolate", "tomatoes", "shallots", "fish sauce", "cilantro", "egg yolks", "avocados", "kimchi", "cheddar cheese", "sour cream", "scallions", "toasted sesame oil", "cooked short-grain rice"]
+  - title: "Cucumber banchan"
+    page: 234
+    ingredients: ["baby cucumbers", "toasted sesame oil", "toasted sesame seeds", "fish sauce"]
+  - title: "Bean sprout banchan"
+    page: 234
+    ingredients: ["bean sprouts", "toasted sesame oil", "chile flakes", "fish sauce", "toasted sesame seeds"]
+  - title: "Caramelized mushroom banchan"
+    page: 235
+    ingredients: ["shiitake mushrooms", "toasted sesame oil", "soy sauce", "toasted sesame seeds"]
+  - title: "Crispy whole-fried sandstorm chicken"
+    page: 237
+    ingredients: ["whole chicken", "Shaoxing rice wine", "fish sauce", "galangal powder", "white pepper", "potato starch", "canola oil", "garlic powder", "dried bird's eye chiles", "Parmigiano Reggiano cheese", "Sichuan peppercorns"]
+  - title: "French fish dumplings gone mad (Quenelles)"
+    page: 241
+    ingredients: ["pike fillets", "heavy cream", "eggs", "potato starch", "fish sauce", "white pepper", "tiger shrimp", "doubanjiang", "garlic", "fresh ginger", "scallions", "Shaoxing rice wine", "chicken stock", "soy sauce", "dried Thai bird's eye chiles", "rice vinegar", "vodka", "Sichuan peppercorns", "cayenne chiles", "mushroom powder", "strawberry jam", "ground cumin", "chile flakes"]
+  - title: "Mala smoked meat with tahini mustard"
+    page: 247
+    ingredients: ["boneless beef short ribs", "kosher salt", "smoked sea salt", "light brown sugar", "pink curing salt", "pickling spice", "garlic", "fresh ginger", "Sichuan peppercorns", "Korean red pepper flakes", "black peppercorns", "coriander seeds", "mustard seeds", "white peppercorns", "ground cumin", "black cardamom pods", "smoked paprika", "yellow mustard", "doubanjiang", "liquid smoke", "Dijon mustard", "fish sauce", "white pepper", "soy sauce", "toasted sesame oil", "cilantro", "scallions", "dark tahini", "fresh bay leaves"]
+  - title: "Saliva chicken meatballs"
+    page: 255
+    ingredients: ["chicken thighs", "fresh ginger", "sake", "toasted sesame oil", "fish sauce", "white pepper", "tahini", "soy sauce", "balsamic vinegar", "cilantro", "garlic", "Chinese chile flakes", "whole star anise", "ground coriander", "ground cumin", "curry powder", "canola oil", "sesame seeds", "Sichuan peppercorns", "fresh bay leaves"]
+  - title: "Wontons with shrimp and chile coconut oil and herbed yogurt"
+    page: 257
+    ingredients: ["tiger shrimp", "ground pork", "egg whites", "fresh ginger", "potato starch", "toasted sesame oil", "white pepper", "wonton wrappers", "shrimp heads", "shrimp shells", "lemongrass", "Korean red pepper flakes", "paprika", "coconut oil", "anchovies", "cherry tomatoes", "navel oranges", "shallots", "dried Thai bird's eye chiles", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "yogurt", "chives", "cilantro"]
+  - title: "Korean-style beef tartare"
+    page: 261
+    ingredients: ["beef eye of round", "shallots", "capers", "chives", "toasted sesame oil", "soy sauce", "honey", "sharp white cheddar cheese", "country bread"]
+  - title: "Spicy chickpea poppers"
+    page: 262
+    ingredients: ["Sichuan peppercorns", "chile flakes", "white pepper", "ground coriander", "kombu powder", "ground cumin", "five-spice powder", "canola oil", "canned chickpeas", "buttermilk", "garlic powder", "Thai basil", "garlic", "fish sauce", "fresh bay leaves"]
+  - title: "Korean pork belly tacos with pear and sticky rice tortillas"
+    page: 264
+    ingredients: ["cherry tomatoes", "shallots", "cayenne chiles", "Thai chiles", "navel oranges", "garlic", "fish sauce", "distilled vinegar", "honey", "pork belly", "apples", "soy sauce", "toasted sesame oil", "sticky rice flour", "spelt flour", "scallions", "lettuce", "toasted sesame seeds", "Korean red pepper flakes", "pears"]
+  - title: "Opa rice ball"
+    page: 269
+    ingredients: ["ground beef", "fresh ginger", "soy sauce", "toasted sesame oil", "honey", "mayonnaise", "yellow mustard", "scallions", "cooked sushi rice", "crispy rice cereal", "roasted seaweed"]
+  - title: "Baked corn rice crackers"
+    page: 272
+    ingredients: ["cooked short-grain rice", "sticky rice flour", "cornmeal", "ground coriander", "ground cumin", "mint", "egg whites"]
+  - title: "Thai guacamole"
+    page: 273
+    ingredients: ["dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "makrut lime leaves", "garlic", "canola oil", "white pepper", "fresh bay leaves", "shallots", "avocados", "limes", "ground cumin", "cilantro"]
+  - title: "Chicken floss and herb sandwich"
+    page: 277
+    ingredients: ["potato starch", "white pepper", "ground cumin", "cooked chicken meat", "canola oil", "basil", "tarragon", "parsley", "cilantro", "scallions", "green cayenne chiles", "garlic", "Sichuan peppercorns", "fish sauce", "fresh ginger", "rice vinegar", "fresh bay leaves", "shallots", "crusty bread", "mayonnaise"]
+  - title: "Vietnamese-style chopped liver toast"
+    page: 279
+    ingredients: ["chicken fat", "lemongrass", "white vinegar", "lemons", "watermelon radishes", "chicken livers", "shallots", "fresh ginger", "Cognac", "Chinese rice wine", "fish sauce", "whole star anise", "whole cloves", "fennel seeds", "ground cinnamon", "white pepper", "baguette bread", "mint"]
+  - title: "Fried razor clams with Thai tartar sauce"
+    page: 283
+    ingredients: ["mayonnaise", "Greek yogurt", "Thai basil", "shallots", "cornichons", "cilantro", "fresh ginger", "makrut lime leaves", "fish sauce", "limes", "canola oil", "potato starch", "fine cornmeal", "white pepper", "razor clams"]
+  - title: "Black hummus"
+    page: 285
+    ingredients: ["canned black beans", "black sesame paste", "ground cayenne pepper", "toasted sesame oil", "ground cumin", "dried red pepper flakes", "canned chickpeas"]
+  - title: "Mapo tofummus"
+    page: 289
+    ingredients: ["ground pork", "toasted sesame oil", "potato starch", "doubanjiang", "fermented black beans", "Korean red pepper flakes", "fresh ginger", "Sichuan peppercorns", "ground cumin", "Shaoxing rice wine", "apricot jam", "white pepper", "rice vinegar", "firm tofu", "garlic", "fresh bay leaves", "fish sauce", "scallions"]
+  - title: "Chewy scallion and garlic naan"
+    page: 291
+    ingredients: ["bread flour", "tapioca flour", "instant yeast", "roasted barley tea", "Greek yogurt", "scallions", "garlic"]
+  - title: "Crepe X with black mustard seeds"
+    page: 294
+    ingredients: ["cherry tomatoes", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "apricot jam", "shallots", "black mustard seeds", "tapioca flour", "mint", "scallions", "cilantro"]
+  - title: "Smoky daddy"
+    page: 299
+    ingredients: ["eggplants", "shallots", "Greek yogurt", "tahini", "dried Thai bird's eye chiles", "fresh ginger", "rice vinegar", "fish sauce", "vodka", "Sichuan peppercorns", "cayenne chiles", "toasted sesame oil", "ground cumin", "ground fennel"]
+  - title: "Huan Fei Hong spicy cold peanut noodles"
+    page: 302
+    ingredients: ["soy sauce", "honey", "toasted sesame oil", "rice vinegar", "instant ramen noodles", "scallions", "cilantro", "Huang Fei Hong spicy crispy peanuts"]
+  - title: "Kare risotto"
+    page: 305
+    ingredients: ["chicken stock", "Japanese curry paste", "unsweetened chocolate", "onion powder", "fish sauce", "fresh ginger", "curry powder", "honey", "cooked short-grain rice", "egg yolks", "Parmesan cheese"]
+  - title: "Fast and furious carbonara"
+    page: 306
+    ingredients: ["instant ramen noodles", "eggs", "soy sauce", "garlic", "Chinese chile flakes", "whole star anise", "ground coriander", "ground cumin", "curry powder", "canola oil", "sesame seeds", "Sichuan peppercorns", "shallots", "dried Thai bird's eye chiles", "fresh ginger", "fish sauce", "vodka", "cayenne chiles", "doubanjiang", "white pepper", "herbs of your choice", "fresh bay leaves"]
+  - title: "Freezer dumpling ravioli"
+    page: 309
+    ingredients: ["canned tomatoes", "thyme sprigs", "chile flakes", "fish sauce", "frozen pork dumplings", "heavy cream", "Parmesan cheese"]
+  - title: "Cat food"
+    page: 310
+    ingredients: ["canned sardines", "mint", "makrut lime leaves", "fish sauce", "dried Thai bird's eye chiles", "rice vinegar", "fresh ginger", "vodka", "Sichuan peppercorns", "cayenne chiles", "white pepper", "chile flakes", "cooked sushi rice"]
+  - title: "Spamacado toast"
+    page: 313
+    ingredients: ["Spam", "soy sauce", "garlic", "Chinese chile flakes", "whole star anise", "ground coriander", "ground cumin", "curry powder", "canola oil", "sesame seeds", "bay leaves", "Sichuan peppercorns", "toasted sesame oil", "white pepper", "avocados", "country bread", "scallions"]
+  - title: "Chongqing melted cheese"
+    page: 314
+    ingredients: ["Chinese chile flakes", "whole star anise", "ground coriander", "ground cumin", "curry powder", "canola oil", "sesame seeds", "bay leaves", "Sichuan peppercorns", "pepper Jack cheese", "cheddar cheese", "eggs", "mint", "parsley", "scallions", "crusty bread"]
+  - title: "Speed-folding laminated dough"
+    page: 320
+    ingredients: ["sticky rice flour", "bread flour", "eggs", "egg whites", "instant yeast", "butter"]
+  - title: "Cruffins with salted yolk custard"
+    page: 324
+    ingredients: ["sticky rice flour", "bread flour", "eggs", "egg whites", "instant yeast", "butter", "milk", "salted duck eggs", "egg yolks"]
+  - title: "Mochi bread doughnuts with salted honey and cardamom"
+    page: 327
+    ingredients: ["sticky rice flour", "bread flour", "eggs", "egg whites", "instant yeast", "honey", "sea salt", "ground cardamom", "ground cinnamon", "canola oil"]
+  - title: "Nutella focaccia di Recco"
+    page: 330
+    ingredients: ["bread flour", "cream cheese", "Nutella", "honey"]
+  - title: "Mochi with peanut brown sugar and ice cream"
+    page: 336
+    ingredients: ["sticky rice flour", "roasted salted peanuts", "ice cream", "store-cupboard ingredients", "dark brown sugar"]
+  - title: "Mochi-stuffed dates in spiced tea syrup"
+    page: 339
+    ingredients: ["sticky rice flour", "dates", "honey", "oranges", "cinnamon sticks", "whole cloves", "black tea", "ground allspice"]
+  - title: "Basic vanilla mochi ice cream"
+    page: 344
+    ingredients: ["milk", "heavy cream", "honey", "vanilla beans", "sticky rice flour"]
+  - title: "Recycled nuts and caramel apple cake"
+    page: 347
+    ingredients: ["butter", "apples", "apricot kernels", "lemons", "eggs"]
+  - title: "Wonton wrapper cigars soaked in orange honey"
+    page: 350
+    ingredients: ["wonton wrappers", "apricot kernels", "roasted salted pistachio nuts", "ground cinnamon", "nutmeg", "dried apricots", "egg whites", "oranges", "honey"]
+  - title: "Milk tea swamp cake with sago pearls"
+    page: 354
+    ingredients: ["evaporated milk", "black tea", "sago pearls", "store-cupboard ingredients"]
