@@ -1032,6 +1032,7 @@ time{
 .social{
   float: right;
   padding: 20px;
+  padding-right: 0px;
 }
 
 .social a{
