@@ -2,7 +2,7 @@ Title: Tomato, goat's cheese, and basil tart
 Slug: tomato-goats-cheese-and-basil-tart
 Date: 2026-01-04
 Category: Pastry
-Tags: puff, pastry
+Tags: puff
 Time: 2 hours
 Servings: One 25cm tart
 Image: /images/recipes/tomato-tart.jpg
