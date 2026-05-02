@@ -21,7 +21,7 @@ h2.recipe-category {
         padding-left: 10px;
     }
     .hero-image {
-        height: 200px;
+        height: 200px !important;
     }
 }
 
