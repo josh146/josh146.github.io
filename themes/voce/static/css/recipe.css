@@ -617,3 +617,70 @@ li .variable-pill {
     display: block;    /* Removes extra space below the image */
     margin: auto;
 }
+
+.recipe-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-image-wrapper {
+    height: 200px;
+    width: 100%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    color: #ccc;
+}
+
+.card-details {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.card-details h3 {
+    margin: 0;
+    font-size: unset;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.card-meta {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    display: flex;
+    gap: 10px;
+}
+
