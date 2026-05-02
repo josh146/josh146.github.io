@@ -20,6 +20,9 @@ h2.recipe-category {
         columns: 1;
         padding-left: 10px;
     }
+    .hero-image {
+        height: 200px;
+    }
 }
 
 .recipe-gallery {
