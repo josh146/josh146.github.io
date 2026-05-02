@@ -1,0 +1,286 @@
+book: "Rambutan: Recipes from Sri Lanka"
+author: "Cynthia Shanmugalingam"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/rambutan-fresh-sri-lankan-recipes-202540l1.jpg"
+recipes:
+  - title: Sri Lankan curry powder
+    page: 21
+    ingredients: ["coriander seeds", "cumin seeds", "fennel seeds", "black peppercorns", "coconut oil", "fresh curry leaves", "dried Kashmiri chillies", "turmeric"]
+  - title: Meat powder
+    page: 21
+    ingredients: ["cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg"]
+  - title: Potato white sodhi curry
+    page: 28
+    ingredients: ["potatoes", "coconut oil", "red onions", "garlic", "fresh curry leaves", "cinnamon sticks", "cardamom pods", "green chillies", "coconut milk", "turmeric", "limes", "mustard seeds", "fenugreek seeds"]
+  - title: Roast pumpkin curry
+    page: 30
+    ingredients: ["pumpkins", "coconut oil", "Sri Lankan curry powder", "red onions", "fresh curry leaves", "mustard seeds", "cumin seeds", "cardamom pods", "coconut milk", "turmeric", "fresh ginger", "limes"]
+  - title: Roasted aubergine red curry
+    page: 32
+    ingredients: ["aubergines", "coconut oil", "red onions", "fresh curry leaves", "garlic", "fresh ginger", "tomatoes", "Sri Lankan curry powder", "coconut milk", "limes"]
+  - title: Coconut dal with kale
+    page: 40
+    ingredients: ["split red lentils", "lemongrass", "Sri Lankan curry powder", "turmeric", "coconut milk", "kale", "limes", "red onions", "fresh curry leaves", "mustard seeds", "cumin seeds"]
+  - title: Fried sweet plantain curry
+    page: 42
+    ingredients: ["coconut oil", "black plantains", "red onions", "fresh curry leaves", "green chillies", "mustard seeds", "cumin seeds", "coriander seeds", "lemongrass", "coconut milk", "Sri Lankan curry powder", "turmeric"]
+  - title: Black coconut pineapple curry
+    page: 44
+    ingredients: ["fresh curry leaves", "cinnamon sticks", "cardamom pods", "coriander seeds", "black peppercorns", "mustard seeds", "cumin seeds", "fenugreek seeds", "fennel seeds", "whole cloves", "rice", "desiccated coconut", "coconut oil", "pineapple", "red onions", "green chillies", "fresh ginger", "apple cider vinegar"]
+  - title: Breadfruit curry
+    page: 48
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "cardamom pods", "cinnamon sticks", "fennel seeds", "canned breadfruit", "Sri Lankan curry powder", "turmeric", "coconut milk", "limes", "green chillies", "mustard seeds", "cumin seeds"]
+  - title: Green mango curry
+    page: 50
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "cumin seeds", "fennel seeds", "green mangoes", "Sri Lankan curry powder", "cinnamon sticks", "turmeric", "white vinegar", "coconut milk", "limes", "mustard seeds"]
+  - title: Coconut milk greens curry
+    page: 52
+    ingredients: ["coconut oil", "red onions", "turmeric", "cumin seeds", "green chillies", "baby spinach", "coconut milk", "limes"]
+  - title: Roast beetroot dry varai curry
+    page: 54
+    ingredients: ["beetroots", "coconut oil", "fresh curry leaves", "mustard seeds", "fenugreek seeds", "cumin seeds", "green chillies", "grated fresh coconut", "limes"]
+  - title: Burnt turmeric hispi cabbage varai
+    page: 56
+    ingredients: ["urad dal", "coconut oil", "black mustard seeds", "cumin seeds", "green chillies", "fresh curry leaves", "turmeric", "grated fresh coconut", "hispi cabbage", "chilli flakes"]
+  - title: Squash sambar spicy wet curry
+    page: 58
+    ingredients: ["red lentils", "pumpkins", "carrots", "cauliflower", "tamarind block", "green chillies", "Sri Lankan curry powder", "turmeric", "coconut milk", "coconut oil", "fresh curry leaves", "cumin seeds", "black mustard seeds"]
+  - title: Carrot, parsnip and peas avial curry
+    page: 63
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "parsnips", "turmeric", "cinnamon sticks", "lemongrass", "green chillies", "carrots", "peas", "coconut milk", "limes", "coriander seeds", "cardamom pods", "fennel seeds", "cumin seeds", "mustard seeds"]
+  - title: Cucumber and turmeric white curry
+    page: 64
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "cumin seeds", "coriander seeds", "cucumbers", "cinnamon sticks", "turmeric", "coconut milk", "mustard seeds"]
+  - title: Cashew nut curry
+    page: 74
+    ingredients: ["raw cashew nuts", "coconut oil", "onions", "fresh curry leaves", "green chillies", "fenugreek seeds", "fennel seeds", "cardamom pods", "Sri Lankan curry powder", "turmeric", "cinnamon sticks", "coconut milk", "limes", "cumin seeds"]
+  - title: Chickpea spicy red curry
+    page: 76
+    ingredients: ["tamarind block", "coconut oil", "red onions", "garlic", "fenugreek seeds", "fresh curry leaves", "tinned chickpeas", "Sri Lankan curry powder", "coconut milk", "mustard seeds"]
+  - title: Green beans white curry
+    page: 78
+    ingredients: ["coconut oil", "red onions", "coriander seeds", "cumin seeds", "fennel seeds", "fresh curry leaves", "green beans", "turmeric", "green chillies", "coconut milk", "limes", "fenugreek seeds"]
+  - title: Semolina spinach puttu with fenugreek milk
+    page: 80
+    ingredients: ["couscous", "coconut oil", "spinach", "green chillies", "red onions", "grated fresh coconut", "fresh curry leaves", "fenugreek seeds", "coconut milk", "limes"]
+  - title: Tomato rasam broth with leek and coriander
+    page: 84
+    ingredients: ["tamarind block", "coconut oil", "tomatoes", "leeks", "coriander leaves", "cumin seeds", "black peppercorns", "dried red chillies", "garlic", "fresh curry leaves", "mustard seeds"]
+  - title: Tempered crunchy fried potatoes with turmeric
+    page: 86
+    ingredients: ["new potatoes", "turmeric", "coconut oil", "limes", "red onions", "fresh curry leaves", "green chillies", "Maldive fish flakes", "chilli powder", "black mustard seeds", "katsuobushi"]
+  - title: Turmeric and coconut fish curry
+    page: 92
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "fresh ginger", "coriander seeds", "black peppercorns", "cumin seeds", "tamarind block", "cinnamon sticks", "whole cloves", "turmeric", "coconut milk", "fish of your choice", "limes"]
+  - title: Red fish curry
+    page: 94
+    ingredients: ["tamarind block", "coconut oil", "red onions", "fresh curry leaves", "fresh ginger", "tomatoes", "turmeric", "Sri Lankan curry powder", "hake", "coconut milk", "limes"]
+  - title: Grilled ambul fish kebabs
+    page: 96
+    ingredients: ["thick fish fillets e.g. cod or haddock", "coconut oil", "limes", "whole cloves", "cardamom pods", "pandan leaves", "fresh curry leaves", "Greek yoghurt", "garlic", "fresh ginger", "goroka paste"]
+  - title: Tempered kunisso dried shrimp and onion
+    page: 98
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "dried shrimp", "chilli flakes", "limes"]
+  - title: Prawn curry with tamarind
+    page: 106
+    ingredients: ["prawns in shells", "coconut oil", "Sri Lankan curry powder", "red onions", "fresh curry leaves", "fresh ginger", "tamarind block", "coconut milk", "limes"]
+  - title: Jaffna crab curry
+    page: 108
+    ingredients: ["whole crabs", "coconut oil", "red onions", "fresh ginger", "fresh curry leaves", "Sri Lankan curry powder", "rocket", "coconut milk", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg"]
+  - title: Crab fried rice
+    page: 112
+    ingredients: ["cooked rice", "coconut oil", "red onions", "fresh curry leaves", "tamarind block", "Sri Lankan curry powder", "rocket", "coconut milk", "cooked crabmeat", "chilli flakes", "mayonnaise", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg", "spring onions"]
+  - title: Shrimp and seafood kool stew
+    page: 116
+    ingredients: ["tamarind block", "white rice", "rice flour", "monkfish tails", "prawns", "dried Kashmiri chillies", "garlic", "black peppercorns", "cumin seeds", "coriander seeds", "whole cloves", "turmeric"]
+  - title: Lamb chops and mint sambol
+    page: 118
+    ingredients: ["lamb chops", "coconut oil", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg", "limes", "coconut cream", "Sri Lankan curry powder", "fresh curry leaves", "fresh ginger", "mint", "coconut milk", "shallots", "green chillies"]
+  - title: Mint sambol
+    page: 118
+    ingredients: ["mint", "coconut milk", "shallots", "green chillies", "limes", "grated fresh coconut"]
+  - title: Slow-cooked lamb red curry
+    page: 120
+    ingredients: ["potatoes", "coconut oil", "red onions", "fresh curry leaves", "garlic", "fresh ginger", "lamb shanks", "Sri Lankan curry powder", "coconut milk", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg"]
+  - title: Black pork belly curry
+    page: 124
+    ingredients: ["fresh curry leaves", "cinnamon sticks", "cardamom pods", "coriander seeds", "black peppercorns", "mustard seeds", "whole cloves", "cumin seeds", "fenugreek seeds", "fennel seeds", "rice", "desiccated coconut", "pork belly", "coconut oil", "red onions", "green chillies", "fresh ginger", "lemongrass", "apple cider vinegar", "goroka paste"]
+  - title: Pickled pork curry
+    page: 128
+    ingredients: ["coconut oil", "onions", "fresh curry leaves", "fresh ginger", "pork ribs", "apple cider vinegar", "lemongrass", "coconut milk", "coriander seeds", "cumin seeds", "cinnamon sticks", "fenugreek seeds", "chilli powder"]
+  - title: Egg curry
+    page: 130
+    ingredients: ["eggs", "coconut oil", "red onions", "tomatoes", "Sri Lankan curry powder", "turmeric", "coconut milk", "fresh curry leaves", "mustard seeds", "fenugreek seeds", "green chillies"]
+  - title: Sri Lankan turmeric omelette
+    page: 132
+    ingredients: ["cumin seeds", "black peppercorns", "eggs", "turmeric", "coconut oil", "red onions", "green chillies", "fresh curry leaves"]
+  - title: Seeni sambol, egg and cheese sandwich
+    page: 134
+    ingredients: ["tamarind block", "coconut oil", "fresh curry leaves", "cinnamon sticks", "cardamom pods", "whole cloves", "green chillies", "red onions", "apple cider vinegar", "white bread", "cheddar cheese", "eggs"]
+  - title: Seeni sambol
+    page: 136
+    ingredients: ["tamarind block", "coconut oil", "fresh curry leaves", "cinnamon sticks", "cardamom pods", "whole cloves", "green chillies", "red onions", "apple cider vinegar"]
+  - title: Red chicken curry
+    page: 138
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "garlic", "fresh ginger", "turmeric", "tomatoes", "Sri Lankan curry powder", "chicken thighs", "coconut milk", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg", "limes"]
+  - title: Chicken white sodhi curry
+    page: 142
+    ingredients: ["chicken drumsticks", "cumin seeds", "coriander seeds", "turmeric", "fresh ginger", "red onions", "green chillies", "fresh curry leaves", "coconut milk", "limes"]
+  - title: Lampra-ish with short-rib beef curry
+    page: 146
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "lemongrass", "fresh ginger", "garlic", "turmeric", "cardamom pods", "fenugreek seeds", "coriander seeds", "cumin seeds", "whole cloves", "cinnamon sticks", "chilli powder", "beef short-ribs", "apple cider vinegar", "coconut milk", "eggs", "vegetable oil", "panko breadcrumbs", "radishes", "Greek yoghurt", "asafoetida", "tamarind block", "dried shrimp", "aubergines", "Turkish green peppers", "Sri Lankan curry powder", "mustard seeds", "short grain rice", "black peppercorns", "chicken stock"]
+  - title: Radish yoghurt pachadi
+    page: 149
+    ingredients: ["radishes", "Greek yoghurt", "asafoetida", "cardamom pods"]
+  - title: Pol sambol and fried chicken sandwich
+    page: 156
+    ingredients: ["dried Kashmiri chillies", "fresh ginger", "cumin seeds", "fresh curry leaves", "limes", "grated fresh coconut", "soft white bread", "cardamom pods", "buttermilk", "boneless skinless chicken thighs", "polenta", "rice flour", "vegetable oil"]
+  - title: Pol sambol
+    page: 156
+    ingredients: ["dried Kashmiri chillies", "fresh ginger", "cumin seeds", "fresh curry leaves", "limes", "grated fresh coconut"]
+  - title: Burnt aubergine sambol with coconut milk
+    page: 162
+    ingredients: ["aubergines", "coconut oil", "coconut milk", "green chillies", "fresh curry leaves", "limes"]
+  - title: Daikon, mint, carrot and kohlrabi sambol aka slambol
+    page: 164
+    ingredients: ["shallots", "fresh curry leaves", "mint", "daikon radishes", "carrots", "kohlrabi", "limes"]
+  - title: A beginner's guide to freshly grating coconut
+    page: 175
+    ingredients: ["whole coconuts"]
+  - title: Parsley and fresh lime sambol
+    page: 176
+    ingredients: ["flat-leaf parsley", "red onions", "green chillies", "grated fresh coconut", "limes"]
+  - title: Green mango sambol
+    page: 178
+    ingredients: ["green mangoes", "green chillies", "red onions", "grated fresh coconut", "fresh curry leaves", "mint", "limes"]
+  - title: Fresh pineapple sambol
+    page: 180
+    ingredients: ["pineapple", "shallots", "fresh curry leaves", "grated fresh coconut", "limes", "chilli flakes"]
+  - title: Raw carrot sambol salad
+    page: 182
+    ingredients: ["carrots", "green chillies", "red onions", "fresh curry leaves", "coriander leaves", "limes"]
+  - title: Black sesame sambol
+    page: 184
+    ingredients: ["tamarind block", "black sesame seeds", "groundnut oil", "split yellow lentils", "dried Kashmiri chillies", "grated fresh coconut", "tahini", "coconut oil", "mustard seeds"]
+  - title: Fried chickpea and yoghurt sundal
+    page: 186
+    ingredients: ["tinned chickpeas", "grated fresh coconut", "red onions", "coconut oil", "fresh curry leaves", "dried Kashmiri chillies", "mustard seeds", "cumin seeds", "ground cumin", "Greek yoghurt", "asafoetida"]
+  - title: Corn sundal salad with lime, coconut and curry leaves
+    page: 188
+    ingredients: ["corn on the cob", "coconut oil", "fresh curry leaves", "mustard seeds", "cumin seeds", "coriander leaves", "grated fresh coconut", "limes"]
+  - title: Apple acharu
+    page: 196
+    ingredients: ["apples", "black peppercorns", "chilli powder", "caster sugar", "coarse grain mustard", "apple cider vinegar"]
+  - title: Fried aubergine vinegar moju
+    page: 198
+    ingredients: ["aubergines", "red onions", "apple cider vinegar", "vegetable oil", "Turkish green peppers", "fresh ginger", "garlic", "Sri Lankan curry powder", "whole cloves", "cardamom pods", "cinnamon sticks", "mustard seeds", "fresh curry leaves"]
+  - title: Cucumber sambol with salted spiced mor yoghurt
+    page: 200
+    ingredients: ["Greek yoghurt", "mor milagai", "coconut oil", "cucumbers", "limes", "fresh ginger", "dill", "fresh curry leaves", "green chillies", "cumin seeds", "mustard seeds", "salt"]
+  - title: Yellow rice
+    page: 206
+    ingredients: ["short grain rice", "red onions", "cardamom pods", "whole cloves", "black peppercorns", "turmeric", "fresh curry leaves", "chicken stock", "coconut milk"]
+  - title: Coconut rice kiri bath with lunu miris
+    page: 208
+    ingredients: ["short grain rice", "cinnamon sticks", "coconut milk", "limes", "turmeric", "dried Kashmiri chillies", "red onions"]
+  - title: Turmeric rice pongal with eggs and beetroot acharu pickle
+    page: 210
+    ingredients: ["apple cider vinegar", "yellow mustard seeds", "cinnamon sticks", "whole cloves", "beetroots", "green chillies", "red onions", "yellow mung dal", "Arborio rice", "coconut milk", "asafoetida", "fresh ginger", "turmeric", "eggs", "cumin seeds", "fresh curry leaves"]
+  - title: Sticky chicken buriani
+    page: 214
+    ingredients: ["chicken legs", "chicken breasts", "coconut milk", "white rice", "cinnamon sticks", "lemongrass", "coconut oil", "shallots", "cardamom pods", "raw cashew nuts", "saffron threads", "dried red chillies", "coriander seeds", "fennel seeds", "whole cloves", "poppy seeds"]
+  - title: Flaky paratha
+    page: 216
+    ingredients: ["plain white flour", "store-cupboingredients"]
+  - title: Coconut and onion pol roti
+    page: 218
+    ingredients: ["plain white flour", "grated fresh coconut", "red onions", "green chillies", "coconut oil", "Greek yoghurt"]
+  - title: Thin godamba roti
+    page: 220
+    ingredients: ["plain white flour", "store-cupboingredients"]
+  - title: Cheeseburger kothu roti
+    page: 228
+    ingredients: ["coconut oil", "red onions", "fresh ginger", "garlic", "fresh curry leaves", "minced beef", "lemongrass", "cinnamon sticks", "Sri Lankan curry powder", "coconut milk", "cardamom pods", "fennel seeds", "whole cloves", "whole nutmeg", "plain white flour", "white cabbage", "carrots", "eggs", "cheddar cheese", "spring onions", "limes"]
+  - title: Hoppers
+    page: 230
+    ingredients: ["white rice flour", "caster sugar", "eggs", "fast-action dried yeast", "coconut milk", "jaggery"]
+  - title: Egg hoppers
+    page: 230
+    ingredients: ["white rice flour", "caster sugar", "eggs", "fast-action dried yeast", "coconut milk", "jaggery"]
+  - title: Milk hoppers
+    page: 230
+    ingredients: ["white rice flour", "caster sugar", "eggs", "fast-action dried yeast", "coconut milk", "jaggery"]
+  - title: Curry leaf rava dosa
+    page: 234
+    ingredients: ["groundnut oil", "fresh curry leaves", "fine semolina", "rice flour", "cumin seeds", "Greek yoghurt"]
+  - title: Plain dosas and tomato thokku sambol
+    page: 236
+    ingredients: ["urad dal", "chana dal", "fenugreek seeds", "basmati rice", "groundnut oil", "green chillies", "tamarind", "tomatoes", "coconut oil", "fresh curry leaves", "red chillies", "asafoetida", "mustard seeds"]
+  - title: Tomato thokku sambol
+    page: 236
+    ingredients: ["green chillies", "tamarind", "tomatoes", "coconut oil", "fresh curry leaves", "fenugreek seeds", "red chillies", "asafoetida", "mustard seeds"]
+  - title: Malu buns
+    page: 252
+    ingredients: ["plain white flour", "fast-action dried yeast", "eggs", "caster sugar", "butter", "coconut oil", "waxy potatoes", "turmeric", "red onions", "fresh curry leaves", "lemongrass", "tinned fish of your choice", "green chillies", "fresh ginger", "cumin seeds", "mustard seeds", "limes"]
+  - title: Devilled party cashew nuts
+    page: 256
+    ingredients: ["coconut oil", "fresh curry leaves", "cashew nuts", "Sri Lankan curry powder", "plantain chips"]
+  - title: Potato and leek spicy stuffed roti
+    page: 258
+    ingredients: ["plain white flour", "potatoes", "turmeric", "onions", "fresh curry leaves", "cumin seeds", "mustard seeds", "carrots", "leeks", "Sri Lankan curry powder", "ground cardamom"]
+  - title: Vadai doughnuts
+    page: 262
+    ingredients: ["urad dal", "white rice flour", "green chillies", "fresh curry leaves", "red onions", "cumin seeds", "asafoetida", "vegetable oil"]
+  - title: Prawn fritters isso vadai
+    page: 264
+    ingredients: ["chana dal", "dried red chillies", "green chillies", "cumin seeds", "fresh curry leaves", "gram flour", "prawns"]
+  - title: Mutton rolls
+    page: 266
+    ingredients: ["coconut oil", "red onions", "fresh curry leaves", "fresh ginger", "lamb", "Sri Lankan curry powder", "waxy potatoes", "coconut milk", "whole nutmeg", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "panko breadcrumbs", "turmeric", "plain white flour", "eggs", "milk", "vegetable oil"]
+  - title: Tinned fish croquettes with dill sambol
+    page: 270
+    ingredients: ["waxy potatoes", "turmeric", "coconut oil", "red onions", "fresh curry leaves", "tinned fish of your choice", "green chillies", "fresh ginger", "cumin seeds", "mustard seeds", "limes", "eggs", "panko breadcrumbs", "vegetable oil", "dill", "coriander sprigs"]
+  - title: Minced beef curry puffs
+    page: 272
+    ingredients: ["vegetable oil", "red onions", "fresh curry leaves", "minced beef", "Sri Lankan curry powder", "coconut milk", "cardamom pods", "fennel seeds", "whole cloves", "cinnamon sticks", "whole nutmeg", "plain white flour", "milk"]
+  - title: Hot butter cuttlefish
+    page: 276
+    ingredients: ["cuttlefish", "rice flour", "vegetable oil", "butter", "chilli flakes", "spring onions", "Turkish green peppers", "garlic"]
+  - title: Black pepper beef
+    page: 280
+    ingredients: ["beef fillet", "black peppercorns", "coconut oil", "red onions", "fresh curry leaves", "green chillies", "lemongrass", "fresh ginger", "apple cider vinegar"]
+  - title: Milk toffee
+    page: 286
+    ingredients: ["raw cashew nuts", "unsalted butter", "tinned condensed milk", "caster sugar", "ground cardamom"]
+  - title: Love cake
+    page: 288
+    ingredients: ["butter", "caster sugar", "eggs", "ground cinnamon", "ground cardamom", "whole cloves", "whole nutmeg", "rosewater", "honey", "raw cashews", "semolina"]
+  - title: Banana and Milo icebox cake
+    page: 290
+    ingredients: ["Milo powder", "double cream", "milk", "ladyfinger biscuits", "bananas"]
+  - title: Jaggery mess with coconut and cardamom
+    page: 292
+    ingredients: ["tinned chickpeas", "caster sugar", "coconut milk", "passionfruit", "coconut flakes", "ground cardamom", "kithul syrup"]
+  - title: Ravana cake
+    page: 294
+    ingredients: ["coconut oil", "plain white flour", "caster sugar", "cocoa powder", "coffee", "eggs", "coconut butter", "icing sugar", "strawberries", "coconut flakes", "kithul syrup"]
+  - title: Watalappan tart
+    page: 298
+    ingredients: ["plain flour", "caster sugar", "unsalted butter", "egg yolks", "double cream", "coconut milk", "jaggery", "ground cardamom"]
+  - title: Mango fluff pie
+    page: 302
+    ingredients: ["unsalted butter", "digestive biscuits", "caster sugar", "ground cardamom", "eggs", "tinned mango pulp", "limes", "golden syrup"]
+  - title: Rambutan and rose frozen falooda
+    page: 304
+    ingredients: ["double cream", "crème fraîche", "condensed milk", "raspberries", "dried rose petals", "basil seeds", "tinned rambutans"]
+  - title: Arrack egg muttai coffee
+    page: 308
+    ingredients: ["ground cardamom", "caster sugar", "fresh ginger", "coffee", "eggs", "arrack"]
+  - title: Condensed milk spiced tea
+    page: 310
+    ingredients: ["cardamom pods", "cinnamon sticks", "fresh ginger", "black tea bags", "condensed milk"]
+  - title: Lemongrass and lime soda
+    page: 312
+    ingredients: ["granulated sugar", "lemongrass", "limes", "soda water"]
+  - title: Ice Sangakkara
+    page: 318
+    ingredients: ["Ceylon arrack", "Ceylon tea", "limes", "soda water", "pandan leaves"]

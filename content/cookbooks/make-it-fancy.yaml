@@ -2,93 +2,152 @@ book: "Make it Fancy"
 author: "Brandon Skier"
 cover: "https://m.media-amazon.com/images/I/51FOPYc5qXL.jpg"
 recipes:
-  - title: "Beet Salad, Chevre, and Pistachio"
-    page: "136-39"
-  - title: "Blistered Grapes with Stracciatella and Saba"
-    page: 132
-  - title: "Duck Confit with Mole Poblano"
-    page: "173-75"
-  - title: "Grilled Prawns with Salsa Macha"
-    page: "106-8"
-  - title: "Hazelnut Crumble"
-    page: 33
-  - title: "Horchata"
-    page: 240
   - title: "Lime Leaf Peanuts"
     page: 26
+  - title: "Burnt Onion Powder"
+    page: 27
+  - title: "Garlic Scape Powder"
+    page: 28
+  - title: "All the Seeds Mix"
+    page: 30
   - title: "Pistachio Dukkah"
     page: 32
-  - title: "Pistachio Oil Cake"
-    page: "225-26"
-  - title: "Scallops, Celeriac, and Apple with Brown Butter and Hazelnuts"
-    page: "195-96"
-  - title: "Shallot, Sherry, and Walnut Dressing"
-    page: 75
-  - title: "Summer Squash with Green Curry and Lime Leaf Peanuts"
-    page: "112-13"
-  - title: "Bass and Potato Soup with Wilted Spinach"
-    ingredients: ["fish"]
-    page: "202-5"
-  - title: "Beef Stock"
-    page: "82-83"
-  - title: "Blond Chicken Stock"
-    page: 84
-  - title: "Charred Onion Broth"
-    page: 89
-  - title: "Dark Chicken Stock"
-    page: 85
-  - title: "Hiramasa Aguachile"
-    page: 105
-  - title: "Pickled Red Onions"
-    page: 55
-  - title: "Brown Butter Emulsion"
-    page: 81
-  - title: "Duck Breast and Braised Turnips"
-    page: "177-79"
-  - title: "Oysters, Coconut, and Cucumber with Cilantro-Serrano Oil"
-    ingredients: ["Oysters, Coconut, and Cucumber with Cilantro-Serrano Oil"]
-    page: "100-102"
-  - title: "Palmiers"
-    page: 222
+  - title: "Hazelnut Crumble"
+    page: 33
+  - title: "Black Limes"
+    page: 35
+  - title: "Potato Crumbs"
+    page: 36
+  - title: "Salt and Vinegar Powder"
+    page: 39
   - title: "Hot Sauce Powder"
     page: 40
+  - title: "Puffed Grains"
+    page: 43
+  - title: "California Kosho"
+    page: 48
+  - title: "Preserved Lemons"
+    page: 51
+  - title: "Preserved Lemon Gel"
+    page: 52
+  - title: "Pickled Red Onions"
+    page: 55
+  - title: "Pear Mostarda"
+    page: 56
+  - title: "Sweet Pickled Shallots"
+    page: 60
+  - title: "Black Garlic"
+    page: 65
+  - title: "Cured Egg Yolks"
+    page: 66
+  - title: "Fine Herb Vinaigrette"
+    page: 72
+  - title: "Charred Onion Vinaigrette"
+    page: 73
+  - title: "Preseved Lemon Vinaigrette"
+    page: 74
+  - title: "Shallot, Sherry, and Walnut Dressing"
+    page: 75
+  - title: "Chile Pomodoro"
+    page: 80
+  - title: "Brown Butter Emulsion"
+    page: 81
+  - title: "Beef Stock"
+    page: 82
+  - title: "Blond Chicken Stock"
+    page: 84
+  - title: "Dark Chicken Stock"
+    page: 85
+  - title: "Duck Jus"
+    page: 86
+  - title: "Beef and Mushroom Reduction"
+    page: 87
+  - title: "Mushroom Stock"
+    page: 88
+  - title: "Charred Onion Broth"
+    page: 89
+  - title: "Bordelaise"
+    page: 90
+  - title: "Pulled Beef Tendon"
+    page: 96
+  - title: "Oysters, Coconut, and Cucumber with Cilantro-Serrano Oil"
+    page: 100
+  - title: "Hiramasa Aguachile"
+    page: 105
+  - title: "Grilled Prawns with Salsa Macha"
+    page: 106
+  - title: "Snap Peas with California Kosho and Mint"
+    page: 111
+  - title: "Summer Squash with Green Curry and Lime Leaf Peanuts"
+    page: 112
+  - title: "Shishitos with Bonio Ailoi and Puffed Grains"
+    page: 115
+  - title: "Brussels Sprouts with Chorizo Bread Crumbs"
+    page: 116
+  - title: "Roasted Baby Carrots with Spiced Labne and Pistachio Dukkah"
+    page: 121
+  - title: "Country Loaves with Leek and Herb Butter"
+    page: 122
+  - title: "Leek and Herb Butter"
+    page: 125
+  - title: "Broccolini with Black Garlic Salsa Verde"
+    page: 126
+  - title: "Blistered Grapes with Stracciatella and Saba"
+    page: 132
+  - title: "Little Gems with Crème Fraîche, Burnt Onion, and Seeds"
+    page: 135
+  - title: "Beet Salad, Chevre, and Pistachio"
+    page: 136
+  - title: "Tomato and Peach Salad with Farmer Cheese and Dill Vinny"
+    page: 140
+  - title: "Potato Gnocchi"
+    ingredients: ["pasta"]
+    page: 157
   - title: "Potato Gnocchi with Chile Pomodoro and Fried Garlic"
     ingredients: ["pasta"]
     page: 158
-  - title: "Tagliatelle and Morels"
-    ingredients: ["pasta"]
-    page: 163
-  - title: "Beef and Pomme Puree with Bone Marrow and Bordelaise"
-    page: "180-83"
-  - title: "Broccolini with Black Garlic Salsa Verde"
-    page: 126
-  - title: "Fine Herb Vinaigrette"
-    page: 72
-  - title: "Leek and Herb Butter"
-    page: 125
-  - title: "Little Gems with Crème Fraîche, Burnt Onion, and Seeds"
-    page: 135
-  - title: "Potato Gnocchi"
-    ingredients: ["pasta", "pasta paddle", "Potato Gnocchi"]
-    page: 157
   - title: "Tagliatelle"
-    ingredients: ["pasta", "pasta machine", "pasta roller"]
-    page: "161-62"
-  - title: "Tomato and Peach Salad with Farmer Cheese and Dill Vinny"
-    page: "140-41"
-  - title: "Pork Chop with Fennel Pollen and Pear Mostarda"
-    page: "192-94"
-  - title: "Pear Mostarda"
-    page: 56
-  - title: "Snap Peas with California Kosho and Mint"
-    page: 111
-  - title: "All the Seeds Mix"
-    page: 30
-  - title: "Pickled Shallots"
-    page: 60
+    ingredients: ["pasta"]
+    page: 161
+  - title: "Tagliatelle and Morels"
+    ingredients: ["pasta", "mushroom"]
+    page: 163
+  - title: "Roast Chicken and Jus"
+    page: 168
+  - title: "Duck Confit with Mole Poblano"
+    page: 173
+  - title: "Duck Breast and Braised Turnips"
+    page: 177
+  - title: "Beef and Pomme Puree with Bone Marrow and Bordelaise"
+    page: 180
+  - title: "Rib Steak and Grilled Mushrooms with Beef and Mushroom Reduction"
+    page: 90
   - title: "Dukkah-Crusted Lamb Rack with Burnt Honey Gastrique"
-    page: "188-91"
-  - title: "Roasted Baby Carrots with Spiced Labne and Pistachio Dukkah"
-    page: 121
-  - title: "Potato Crumbs"
-    page: 36
+    page: 188
+  - title: "Pork Chop with Fennel Pollen and Pear Mostarda"
+    page: 192
+  - title: "Scallops, Celeriac, and Apple with Brown Butter and Hazelnuts"
+    page: 195
+  - title: "Grilled Branzino with Fish Sauce Caramel"
+    page: 199
+  - title: "Bass and Potato Soup with Wilted Spinach"
+    ingredients: ["fish"]
+    page: 202
+  - title: "Canele"
+    page: 211
+  - title: "Fig and Ricotta Tart"
+    page: 214
+  - title: "Puff Pastry"
+    page: 219
+  - title: "Palmiers"
+    page: 222
+  - title: "Pistachio Oil Cake"
+    page: 225
+  - title: "Rhubard Galette"
+    page: 228
+  - title: "Yuzu Lemonada"
+    page: 236
+  - title: "Horchata"
+    page: 240
+  - title: "Ginger Beer"
+    page: 242

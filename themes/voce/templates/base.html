@@ -255,9 +255,9 @@
 
                             return {
                                 id: `physical-${index}`,
-                                title: `${item.title}`,
+                                title: `${item.title} (p${item.page})`,
                                 section: `📚 Cookbook: ${item.book}`,
-                                icon: `p${item.page} 📖 &nbsp;`,
+                                icon: `📖&nbsp;`,
                                 keywords: ingString, // Now searchable by ANY of the ingredients
                                 handler: () => {
                                     // You can keep your alert, or the URL params logic we built earlier!

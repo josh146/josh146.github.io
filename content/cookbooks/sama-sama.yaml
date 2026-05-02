@@ -1,0 +1,307 @@
+book: "Sama Sama: Comfort Food from my Mixed Malaysian Kitchen"
+author: "Julie Lin"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/sama-sama-comfort-food-from-259157l2.jpg"
+recipes:
+  - title: "Rice"
+    page: 26
+    ingredients: ["jasmine rice", "basmati rice", "sushi rice", "brown rice", "long grain rice"]
+  - title: "Salad dressing: tuning into your agak agak"
+    page: 39
+    ingredients: ["fish sauce", "limes", "long red chillies", "white sugar"]
+  - title: "Base curry paste"
+    page: 42
+    ingredients: ["belacan", "shallots", "fresh turmeric", "lemongrass", "galangal", "fresh ginger", "garlic", "long red chilli", "dried red chillies", "vegetable oil"]
+  - title: "Master wok sauce"
+    page: 43
+    ingredients: ["MSG", "rice wine vinegar", "light soy sauce", "dark soy sauce", "sesame oil", "white sugar"]
+  - title: "Sweet dim sum dipping sauce"
+    page: 44
+    ingredients: ["white sugar", "light soy sauce", "dark soy sauce", "oyster sauce", "sesame oil"]
+  - title: "Simple sambal"
+    page: 45
+    ingredients: ["dried red chillies", "belacan", "onions", "garlic", "fresh ginger", "lemons", "coconut sugar"]
+  - title: "Sambal oelek: the OG chilli paste"
+    page: 46
+    ingredients: ["long red chillies", "rice wine vinegar"]
+  - title: "Sambal belacan"
+    page: 47
+    ingredients: ["dried red chillies", "belacan", "long red chilli", "garlic", "lemongrass", "neutral oil of your choice", "coconut oil", "white sugar"]
+  - title: "Green chilli chutney: unsung hero of leftovers and versatility"
+    page: 48
+    ingredients: ["long green chillies", "green bird's eye chillies", "garlic", "fresh coriander", "cumin seeds", "coriander seeds", "malt vinegar", "rapeseed oil"]
+  - title: "Sweet chilli sauce"
+    page: 49
+    ingredients: ["limes", "fish sauce", "palm sugar", "garlic", "long red chillies", "red bird's eye chillies", "cornstarch", "fresh coriander"]
+  - title: "Julie's Kopitiam chilli oil"
+    page: 50
+    ingredients: ["dried red chillies", "dried round red chillies", "vegetable oil", "shallots", "garlic", "roasted salted peanuts", "whole star anise", "black cardamom pods", "green cardamom pods", "Sichuan peppercorns", "whole cloves", "white pepper", "ground cinnamon", "ground cumin", "five-spice powder", "mushroom bouillon powder", "MSG"]
+  - title: "Peanut sauce"
+    page: 52
+    ingredients: ["dry-roasted peanuts", "tamarind concentrate", "gula melaka", "ground coriander", "kecap manis", "dried red chillies", "garlic", "shallots", "lemongrass", "galangal"]
+  - title: "Black tahini dressing"
+    page: 53
+    ingredients: ["black sesame seeds", "sesame oil"]
+  - title: "Chaat masala potato fritter in a morning roll"
+    page: 61
+    ingredients: ["potatoes", "plain flour", "baking powder", "eggs", "milk", "vegetable oil", "chaat masala", "malt vinegar", "bread rolls", "tamarind sauce", "mayonnaise"]
+  - title: "Chilli crisp puttanesca"
+    page: 64
+    ingredients: ["bucatini pasta", "butter", "celery", "garlic", "mixed white and brown crab meat", "capers", "chilli crisp oil", "light soy sauce", "fresh coriander"]
+  - title: "Garlic udon in sesame and chilli oil"
+    page: 67
+    ingredients: ["fresh udon noodles", "Asian sesame paste", "light soy sauce", "dark soy sauce", "rice wine vinegar", "Sichuan chilli oil", "garlic", "fresh ginger", "spring onions", "sesame seeds"]
+  - title: "Chop suey aubergine with Thai basil"
+    page: 68
+    ingredients: ["baby aubergines", "neutral oil of your choice", "red peppers", "garlic", "red bird's eye chillies", "light soy sauce", "oyster sauce", "white wine vinegar", "Thai basil", "crispy fried shallots"]
+  - title: "Goodbye buttermilk chicken, hello tea-brined crispy fried chicken"
+    page: 70
+    ingredients: ["chicken pieces", "black tea bags", "pineapple juice", "onions", "garlic", "light brown sugar", "black peppercorns", "whole cloves", "limes", "makrut lime leaves", "cornstarch", "eggs", "potato starch", "oil for deep frying"]
+  - title: "Orange and cashew chicken"
+    page: 74
+    ingredients: ["boneless skinless chicken breasts", "black tea bags", "pineapple juice", "onions", "garlic", "light brown sugar", "black peppercorns", "whole cloves", "limes", "makrut lime leaves", "cornstarch", "eggs", "potato starch", "roasted cashews", "oranges", "light soy sauce", "rice vinegar", "fresh ginger", "spring onion", "oil for deep frying"]
+  - title: "Crispy chicken burger: the one with sambal, mayo, cucumber and a fried egg"
+    page: 77
+    ingredients: ["boneless skinless chicken thighs", "black tea bags", "pineapple juice", "onions", "garlic", "light brown sugar", "black peppercorns", "whole cloves", "limes", "makrut lime leaves", "cornstarch", "eggs", "potato starch", "vegetable oil", "sesame brioche buns", "Kewpie mayonnaise", "cucumbers", "dried red chillies", "belacan", "long red chilli", "lemongrass", "neutral oil of your choice", "coconut oil", "white sugar"]
+  - title: "Crispy chicken burger: the one with fish sauce caramel"
+    page: 79
+    ingredients: ["boneless skinless chicken thighs", "black tea bags", "pineapple juice", "onions", "garlic", "light brown sugar", "black peppercorns", "whole cloves", "limes", "makrut lime leaves", "cornstarch", "eggs", "potato starch", "oil for deep frying", "sugar", "fish sauce", "sesame brioche buns", "shredded cabbage", "carrots", "white vinegar"]
+  - title: "Sichuan brown butter aubergines"
+    page: 80
+    ingredients: ["aubergines", "unsalted butter", "Sichuan peppercorns", "garlic", "fresh ginger", "light soy sauce", "rice vinegar", "fresh coriander", "sesame seeds"]
+  - title: "Clams with Chinese sausage and samphire"
+    page: 82
+    ingredients: ["clams", "dried Chinese sausages", "samphire", "garlic", "red bird's eye chillies", "Shaoxing rice wine", "light soy sauce", "oyster sauce", "chicken bouillon powder", "white pepper", "Thai basil", "sesame oil"]
+  - title: "Nasi goreng with smoked mackerel"
+    page: 85
+    ingredients: ["vegetable oil", "spring onions", "string beans", "smoked mackerel", "cooked jasmine rice", "kecap manis", "fish sauce", "eggs", "beansprouts", "banana shallots", "garlic", "long red chillies", "dried red chillies", "dried anchovies"]
+  - title: "Cheese toastie with tamarind onions"
+    page: 86
+    ingredients: ["long green chillies", "green bird's eye chillies", "garlic", "fresh coriander", "cumin seeds", "coriander seeds", "malt vinegar", "rapeseed oil", "neutral oil of your choice", "red onions", "tamarind sauce", "butter", "white bread", "vintage cheddar cheese"]
+  - title: "Mushroom and potato pot stickers"
+    page: 89
+    ingredients: ["plain flour", "dumpling wrappers", "flat mushrooms", "chestnut mushrooms", "button mushrooms", "fresh ginger", "potatoes", "Shaoxing rice wine", "dark soy sauce", "black vinegar", "MSG"]
+  - title: "Curry leaf chicken legs with salted egg yolk sauce"
+    page: 93
+    ingredients: ["turmeric", "chilli powder", "chicken legs", "vegetable oil", "butter", "garlic", "fresh ginger", "salted egg yolks", "evaporated milk", "white pepper", "fresh curry leaves"]
+  - title: "To salt egg yolks"
+    page: 93
+    ingredients: ["fine salt", "egg yolks"]
+  - title: "Sambal halloumi morning buns"
+    page: 94
+    ingredients: ["halloumi cheese", "dried red chillies", "belacan", "long red chilli", "garlic", "lemongrass", "neutral oil of your choice", "coconut oil", "white sugar", "limes", "eggs", "sesame brioche buns", "Kewpie mayonnaise", "avocados"]
+  - title: "Garlic dhal"
+    page: 103
+    ingredients: ["brown lentils", "black cardamom pods", "garlic", "garam masala", "tomato purée", "limes", "red onions", "pickled green chillies", "fresh coriander"]
+  - title: "Gado-gado"
+    page: 104
+    ingredients: ["white cabbage", "Tenderstem broccoli", "green beans", "carrots", "cucumbers", "beansprouts", "potatoes", "pineapple", "hard-boiled eggs", "tofu", "tempeh", "crispy fried shallots"]
+  - title: "Fragrant soy roast chicken"
+    page: 107
+    ingredients: ["chicken legs", "dark soy sauce", "honey", "cornflour", "Shaoxing rice wine", "light soy sauce", "gula melaka", "sea salt flakes", "MSG", "whole cloves", "fresh ginger", "spring onions", "whole star anise"]
+  - title: "Green apple and green bean kerabu"
+    page: 108
+    ingredients: ["desiccated coconut", "roasted salted peanuts", "red bird's eye chillies", "green beans", "green apple", "carrots", "cucumbers", "red onions", "fresh mint", "fresh coriander", "garlic", "limes", "fish sauce", "sesame oil", "palm sugar"]
+  - title: "Cucumber and crystallised ginger salad"
+    page: 109
+    ingredients: ["cucumbers", "red onions", "crystallised ginger", "rice vinegar", "honey", "fresh mint", "fresh coriander"]
+  - title: "Pineapple curry with lime leaves"
+    page: 112
+    ingredients: ["belacan", "shallots", "fresh turmeric", "lemongrass", "galangal", "fresh ginger", "garlic", "long red chilli", "dried red chillies", "vegetable oil", "coriander seeds", "cumin seeds", "fennel seeds", "candlenuts", "coconut milk", "makrut lime leaves", "tamarind paste", "palm sugar", "sea salt flakes", "pineapple", "desiccated coconut", "coriander sprigs"]
+  - title: "Singapore butter prawns"
+    page: 115
+    ingredients: ["tiger prawns", "caster sugar", "plain flour", "cornflour", "eggs", "butter", "fresh curry leaves", "red bird's eye chillies", "chicken bouillon powder", "golden syrup-flavoured oats"]
+  - title: "Grilled lemongrass chicken thighs with peanut sauce"
+    page: 116
+    ingredients: ["boneless skin-on chicken thighs", "kecap manis", "lemongrass", "garlic", "ground coriander", "ground cumin", "Kashmiri chilli powder", "sea salt flakes", "pineapple", "cucumbers", "limes", "chilli flakes", "dry-roasted peanuts", "tamarind concentrate", "gula melaka", "dried red chillies", "shallots", "galangal"]
+  - title: "Sticky tamarind prawns"
+    page: 118
+    ingredients: ["tamarind concentrate", "lemongrass", "dark soy sauce", "light soy sauce", "limes", "palm sugar", "king prawns", "desiccated coconut"]
+  - title: "Beef shin rendang"
+    page: 121
+    ingredients: ["coconut cream", "boneless beef shin", "coconut milk", "makrut lime leaves", "whole star anise", "cinnamon sticks", "green cardamom pods", "coconut flakes", "palm sugar", "belacan", "banana shallots", "lemongrass", "fresh turmeric", "fresh ginger", "garlic", "dried red chillies", "long red chillies", "candlenuts"]
+  - title: "Salt and pepper oyster mushrooms"
+    page: 124
+    ingredients: ["oyster mushrooms", "cornflour", "ground black pepper", "salt", "garlic powder", "onion powder", "five-spice powder", "MSG", "spring onions", "red chilli", "fresh coriander", "vegetable oil"]
+  - title: "Pork and prawn dumplings"
+    page: 126
+    ingredients: ["high-gluten dumpling flour", "pork mince", "lard", "prawns", "fresh ginger", "white onions", "spring onions", "eggs", "sesame oil", "dark soy sauce", "light soy sauce", "Sichuan peppercorns", "cinnamon sticks", "whole star anise", "Chinkiang black rice vinegar", "Lao Gan Ma spicy chilli crisp", "fresh coriander "]
+  - title: "Puffed rice, peanut and prawn cracker bhel"
+    page: 131
+    ingredients: ["puffed rice", "salted peanuts", "prawn crackers", "sev", "red onions", "long chillies", "fresh coriander", "tamarind paste", "limes", "ground cumin", "chaat masala", "chilli powder"]
+  - title: "Clamorous noods"
+    page: 132
+    ingredients: ["clams", "glass noodles", "garlic", "fresh ginger", "spring onions", "light soy sauce", "dark soy sauce", "oyster sauce", "chicken bouillon powder", "red bird's eye chillies", "limes", "sesame seeds", "sesame oil", "choi sum"]
+  - title: "Mushroom sticky rice with kecap manis oyster mushrooms"
+    page: 137
+    ingredients: ["sticky rice", "dried shiitake mushrooms", "sesame oil", "garlic", "fresh ginger", "mushroom bouillon powder", "whole star anise", "light soy sauce", "oyster mushrooms", "kecap manis", "black vinegar", "dark soy sauce", "crisp-fried garlic"]
+  - title: "Spiced leg of lamb"
+    page: 138
+    ingredients: ["leg of lamb", "potatoes", "full-fat yogurt", "mango chutney", "bhuna curry paste", "ground cumin", "Kashmiri chilli powder", "black cardamom pods", "limes", "fresh herbs"]
+  - title: "Lunar New Year deep-fried oysters"
+    page: 140
+    ingredients: ["oysters", "flavourless oil", "plain flour", "baking powder", "garlic powder", "onion powder", "sesame oil", "sparkling water", "tomato ketchup", "gochujang", "garlic", "dark soy sauce", "rice vinegar"]
+  - title: "Cashew chicken stir fry made with leftover celery"
+    page: 146
+    ingredients: ["light soy sauce", "cornflour", "caster sugar", "boneless skinless chicken thighs", "dark soy sauce", "sambal oelek", "rice vinegar", "vegetable oil", "garlic", "fresh ginger", "spring onions", "celery", "salted roasted cashews"]
+  - title: "Hake in ginger-soy brown butter made with leftover cream"
+    page: 148
+    ingredients: ["hake fillets", "garlic", "fresh ginger", "peas", "light soy sauce", "lemons", "double cream"]
+  - title: "Perkedel made with leftover potatoes"
+    page: 153
+    ingredients: ["floury potatoes", "coriander sprigs", "crispy fried shallots", "cornflour", "white pepper", "vegetable oil", "eggs"]
+  - title: "Simple dipping sauce"
+    page: 153
+    ingredients: ["bird's eye chillies", "kecap manis", "black vinegar", "limes"]
+  - title: "Cream cheese bagels with pickles made with leftover milk"
+    page: 154
+    ingredients: ["whole milk", "lemons or limes", "sesame bagels", "chilli oil", "pickles", "dill"]
+  - title: "Sweetcorn fritters made with leftover beansprouts (Bakwan jagung)"
+    page: 156
+    ingredients: ["sweetcorn kernels", "garlic", "fresh ginger", "spring onions", "red onions", "white pepper", "plain flour", "sweet potato flour", "eggs", "green chilli", "long red chilli", "beansprouts", "vegetable oil"]
+  - title: "Simple pickling liquor"
+    page: 158
+    ingredients: ["white vinegar", "white sugar"]
+  - title: "Pickled pink onions"
+    page: 159
+    ingredients: ["white vinegar", "red onions"]
+  - title: "Simple pickled carrots"
+    page: 159
+    ingredients: ["white vinegar", "carrots"]
+  - title: "Pickled cucumber relish"
+    page: 159
+    ingredients: ["white vinegar", "cucumbers", "garlic", "red chilli", "dill"]
+  - title: "Achar"
+    page: 160
+    ingredients: ["carrots", "cucumbers", "white rice vinegar", "cauliflower", "green beans", "white cabbage", "banana shallots", "fresh turmeric", "fresh ginger", "long red chilli", "chilli powder", "white vinegar", "white sugar", "roasted peanuts", "white sesame seeds"]
+  - title: "Kaya croissant-and-butter pudding made with leftover pastries"
+    page: 163
+    ingredients: ["stale croissants", "eggs", "coconut cream", "pandan extract", "coconut sugar", "raspberries", "coconut flakes", "frozen pandan leaves", "caster sugar", "egg yolks", "icing sugar"]
+  - title: "Burnt toast ice cream made with stale bread"
+    page: 164
+    ingredients: ["double cream", "whole milk", "honey", "vanilla pod", "egg yolks", "golden caster sugar", "stale bread"]
+  - title: "Banana fritters made with brown bananas (Pisang goreng)"
+    page: 167
+    ingredients: ["frozen shredded coconut", "very ripe bananas", "plain flour", "rice flour", "bicarbonate of soda", "ground cardamom", "ground nutmeg", "coconut milk", "vegetable oil", "icing sugar"]
+  - title: "Masala beans with poached eggs"
+    page: 172
+    ingredients: ["ghee", "onions", "garlic", "tomato purée", "ground cumin", "ground coriander", "turmeric", "garam masala", "light brown sugar", "chilli powder", "tomatoes", "tinned cannellini beans", "distilled malt vinegar", "eggs", "sourdough bread", "coriander leaves"]
+  - title: "XO butter sweetcorn"
+    page: 175
+    ingredients: ["corn on the cob", "chives", "limes", "unsalted butter", "garlic", "XO sauce", "honey", "light soy sauce"]
+  - title: "Smashed chicken (Ayam penyet)"
+    page: 176
+    ingredients: ["whole chicken legs (thigh and leg)", "cucumbers", "limes", "tamarind paste", "garlic", "fresh ginger", "lemongrass", "chilli powder", "banana shallots", "green chillies", "fresh mint", "fresh coriander", "gula melaka", "chicken bouillon powder"]
+  - title: "Chinese sausage bucatini carbonara"
+    page: 179
+    ingredients: ["bucatini pasta", "dried Chinese sausages", "garlic", "egg yolks", "Parmesan cheese", "light soy sauce", "kecap manis"]
+  - title: "Chinese-style spicy garlic celery"
+    page: 180
+    ingredients: ["Shaoxing rice wine", "light soy sauce", "celery", "garlic", "cornflour", "crispy prawn chilli", "white pepper"]
+  - title: "Mum's lap cheong fried rice"
+    page: 182
+    ingredients: ["eggs", "dried Chinese sausages", "spring onions", "cooked jasmine rice", "frozen peas", "white pepper", "light soy sauce", "dark soy sauce", "oyster sauce", "MSG "]
+  - title: "Gochujang mac 'n' cheese"
+    page: 185
+    ingredients: ["macaroni pasta", "butter", "garlic", "plain flour", "whole milk", "gochujang", "mozzarella cheese", "cheddar cheese", "Parmesan cheese", "Dijon mustard", "double cream", "kimchi"]
+  - title: "Mee hoon goreng"
+    page: 187
+    ingredients: ["vermicelli noodles", "onions", "roast turkey", "cooked cabbage", "cooked Brussels sprouts", "beansprouts", "eggs", "shallots", "garlic", "long red chillies", "dried red chilies", "dried shrimp", "kecap manis", "fish sauce", "light soy sauce"]
+  - title: "Chilli padi"
+    page: 187
+    ingredients: ["bird's eye chillies", "malt vinegar"]
+  - title: "Maggi goreng with crispy fried eggs"
+    page: 190
+    ingredients: ["instant noodles", "garlic", "onions", "red peppers", "green peppers", "carrots", "eggs", "beansprouts", "spring onion", "light soy sauce", "dark soy sauce", "oyster sauce", "chilli sauce"]
+  - title: "Steak au Sichuan poivre"
+    page: 193
+    ingredients: ["fillet steaks", "sea salt flakes", "black peppercorns", "Sichuan peppercorns", "banana shallot", "fresh ginger", "garlic", "Shaoxing rice wine", "light soy sauce", "rice wine vinegar", "beef stock", "MSG", "egg yolks", "chives"]
+  - title: "Mushroom au Sichuan poivre"
+    page: 193
+    ingredients: ["oyster mushrooms", "kecap manis", "vegetable stock", "sea salt flakes", "black peppercorns", "Sichuan peppercorns", "banana shallot", "fresh ginger", "garlic", "Shaoxing rice wine", "light soy sauce", "rice wine vinegar", "MSG", "egg yolks", "chives"]
+  - title: "Sweet and sour pineapple meatballs"
+    page: 197
+    ingredients: ["pork mince", "garlic", "fresh ginger", "spring onions", "chicken bouillon powder", "light soy sauce", "sesame oil", "vegetable oil", "red peppers", "green peppers", "onions", "pineapple", "tomato ketchup", "light brown sugar", "white vinegar", "cornflour", "sesame seeds"]
+  - title: "Sambal aubergine and green beans"
+    page: 198
+    ingredients: ["Chinese aubergines", "vegetable oil", "fine green beans", "sambal oelek", "kecap manis", "palm sugar", "MSG", "crisp-fried garlic"]
+  - title: "Kaya toast with soft-boiled eggs"
+    page: 210
+    ingredients: ["frozen pandan leaves", "caster sugar", "egg yolks", "pandan essence", "coconut cream", "eggs", "dark soy sauce", "white pepper", "white bread", "butter"]
+  - title: "Singapore chilli crab"
+    page: 212
+    ingredients: ["brown crabs", "fresh coriander", "belacan", "shallots", "garlic", "fresh ginger", "dried red chillies", "dried ancho chillies", "soybean paste", "rapeseed oil", "tomato purée", "tomato ketchup", "distilled malt vinegar", "eggs"]
+  - title: "Big fat noodles (Char kuay teow)"
+    page: 217
+    ingredients: ["fresh wide rice noodles", "dried Chinese sausages", "garlic", "king prawns", "Thai fishcakes", "Shaoxing rice wine", "Chinese garlic chives", "eggs", "beansprouts", "light soy sauce", "dark soy sauce", "kecap manis", "fish sauce"]
+  - title: "Ahma's house fish head curry"
+    page: 221
+    ingredients: ["banana shallots", "lemongrass", "dried red chillies", "long red chillies", "galangal", "garlic", "belacan", "medium curry powder", "green cardamom pods", "fennel seeds", "chilli powder", "ground cinnamon", "fresh curry leaves", "mustard seeds", "fish heads", "tomatoes", "aubergine", "okra", "tamarind paste", "fish sauce"]
+  - title: "Sambal mackerel in banana leaf"
+    page: 222
+    ingredients: ["banana leaves", "mackerel fillets", "dried red chillies", "belacan", "long red chilli", "garlic", "lemongrass", "flavourless oil", "coconut oil", "white sugar", "coriander leaves", "limes"]
+  - title: "Prawn rice noodles (Bihoon udang)"
+    page: 225
+    ingredients: ["rice vermicelli noodles", "garlic", "onions", "carrots", "cabbage", "king prawns", "eggs", "light soy sauce", "oyster sauce", "MSG", "spring onions", "long red chillies"]
+  - title: "Fragrant coconut rice"
+    page: 226
+    ingredients: ["jasmine rice", "coconut milk", "pandan leaves", "coconut cream"]
+  - title: "Prawn fritters (Cucur udang)"
+    page: 228
+    ingredients: ["rice flour", "white whole wheat flour", "bicarbonate of soda", "turmeric", "eggs", "raw shelled prawns", "prawns in shells", "garlic chives", "beansprouts", "vegetable oil", "white pepper"]
+  - title: "Garlicky green beans"
+    page: 231
+    ingredients: ["fine green beans", "garlic", "sesame oil", "light soy sauce", "Shaoxing rice wine"]
+  - title: "Water spinach with shrimp paste (Kangkung belacan)"
+    page: 232
+    ingredients: ["kangkung", "belacan", "garlic", "sambal oelek", "light soy sauce", "dark soy sauce", "MSG"]
+  - title: "Oyster omelette with wild garlic"
+    page: 234
+    ingredients: ["oysters", "eggs", "wild garlic", "fish sauce", "tapioca flour", "plain flour", "sweet potato starch", "light soy sauce"]
+  - title: "Prawn noodle soup (Penang hokkien mee)"
+    page: 236
+    ingredients: ["prawn heads", "prawn shells", "garlic", "dried red chillies", "pork ribs", "rock sugar", "tamarind paste", "belacan", "long red chillies", "lemongrass", "flavourless oil", "coconut oil", "white sugar", "prawns", "limes", "dried egg noodles", "rice vermicelli noodles", "spinach", "beansprouts", "hard-boiled eggs", "crispy fried shallots", "red chillies"]
+  - title: "Beef satay skewers (Sate daging)"
+    page: 241
+    ingredients: ["beef fillet", "shallots", "garlic", "long red chillies", "galangal", "limes", "gula melaka", "ground coriander", "ground cumin", "light soy sauce", "kecap manis", "wooden skewers"]
+  - title: "Rojak"
+    page: 242
+    ingredients: ["celeriac", "cucumbers", "mango", "pineapple", "firm tofu", "roasted salted peanuts", "tamarind paste", "gula melaka", "light soy sauce", "cooking caramel", "long red chilli", "red bird's eye chillies", "limes"]
+  - title: "Sambal mussels"
+    page: 244
+    ingredients: ["mussels in the shell", "rapeseed oil", "tamarind water", "kecap manis", "gula melaka", "wild garlic leaves", "limes", "Thai basil", "banana shallots", "garlic", "dried red chillies", "long red chillies", "lemongrass", "belacan", "flavourless oil", "coconut oil", "white sugar"]
+  - title: "Gula melaka sticky toffee pudding"
+    page: 253
+    ingredients: ["stoned dates", "butter", "vanilla bean paste", "gula melaka", "eggs", "self-raising flour", "bicarbonate of soda", "coconut milk", "green cardamom pods"]
+  - title: "Pavlova with mango cream and pandan curd"
+    page: 254
+    ingredients: ["egg whites", "caster sugar", "distilled malt vinegar", "cornflour", "mango", "toasted coconut", "double cream", "icing sugar", "eggs", "coconut milk", "pandan leaves", "unsalted butter"]
+  - title: "Hibiscus and pomegranate posset"
+    page: 258
+    ingredients: ["double cream", "caster sugar", "dried hibiscus flowers", "pomegranate juice", "lemons", "pomegranate seeds"]
+  - title: "Raspberry and sesame blondies"
+    page: 261
+    ingredients: ["unsalted butter", "light brown sugar", "eggs", "vanilla extract", "plain flour", "baking powder", "white chocolate chips", "sesame seeds", "raspberries"]
+  - title: "Sichuan dark chocolate crémeux with peanut brittle"
+    page: 263
+    ingredients: ["70% dark chocolate", "double cream", "whole milk", "vanilla extract", "egg yolks", "caster sugar", "ground Sichuan pepper", "granulated sugar", "unsalted peanuts", "bicarbonate of soda"]
+  - title: "Homemade peach and mango pies"
+    page: 267
+    ingredients: ["puff pastry", "eggs", "vegetable oil", "whipped cream", "peaches", "mango", "vanilla extract", "ground cinnamon", "lemons", "unsalted butter", "plain flour"]
+  - title: "Pandan leaf panna cotta with gula melaka"
+    page: 268
+    ingredients: ["pandan leaves", "coconut milk", "double cream", "caster sugar", "pandan extract", "vanilla pod", "gelatine sheets", "icing sugar", "gula melaka"]
+  - title: "Kopitiam turmeric ginger tea"
+    page: 271
+    ingredients: ["fresh ginger", "fresh turmeric", "honey"]
+  - title: "Peach iced tea"
+    page: 272
+    ingredients: ["black tea bags", "tinned peaches", "granulated sugar"]
+  - title: "Pineapple peel iced tea"
+    page: 272
+    ingredients: ["pineapple peel", "black tea bags", "fresh ginger", "turmeric", "maple syrup"]
+  - title: "Salted plum drink (Asam boi)"
+    page: 273
+    ingredients: ["salted plums", "limes"]
+  - title: "Hot limau"
+    page: 273
+    ingredients: ["limes", "light brown sugar"]
