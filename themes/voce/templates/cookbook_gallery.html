@@ -1,0 +1,206 @@
+{% extends "recipes.html" %}
+
+{% block content %}
+
+<style>
+/* Library Header */
+.cookbook-library h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cookbook-library > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* The Grid */
+.cookbook-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+/* Individual Book Card */
+.cookbook-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cover Image */
+.cookbook-cover {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Metadata Section */
+.cookbook-info {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookbook-info h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.cookbook-info .author {
+    color: #777;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Native HTML Accordion (Details/Summary) */
+.cookbook-index {
+    margin-top: auto; /* Pushes to bottom of card */
+    background: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e1e4e8;
+}
+
+.cookbook-index summary {
+    padding: 12px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    color: #2c3e50;
+    outline: none;
+}
+
+.cookbook-index summary:hover {
+    background: #f1f3f5;
+}
+
+/* The List of Recipes */
+.recipe-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 250px; /* Prevent infinite scrolling on huge books */
+    overflow-y: auto;
+    border-top: 1px solid #e1e4e8;
+}
+
+.recipe-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f1f3f5;
+    font-size: 0.9rem;
+}
+
+.recipe-list li:last-child {
+    border-bottom: none;
+}
+
+.recipe-page {
+    color: #999;
+    font-family: monospace;
+    margin-left: 10px;
+}
+
+/* Button Styling */
+.view-index-btn {
+    margin-top: auto;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2c3e50;
+    width: 100%;
+}
+.view-index-btn:hover { background: #f1f3f5; }
+
+/* Modal Styling */
+.cookbook-modal {
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Darken the background behind the modal */
+.cookbook-modal::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.modal-header h3 { margin: 0; }
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #888;
+}
+
+.modal-list {
+    max-height: 60vh; /* Takes up 60% of the screen height max */
+    overflow-y: auto;
+}
+</style>
+
+<div class="cookbook-library">
+    <div class="cookbook-grid">
+        {% for book in COOKBOOKS %}
+        <div class="cookbook-card">
+            <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');">
+            </div>
+
+            <div class="cookbook-info">
+                <h2>{{ book.book }}</h2>
+                <span class="author">By {{ book.author }}</span>
+
+                <button class="view-index-btn" onclick="document.getElementById('modal-{{ loop.index }}').showModal()">
+                    View Index ({{ book.recipes|length }} recipes)
+                </button>
+
+                <dialog id="modal-{{ loop.index }}" class="cookbook-modal">
+                    <div class="modal-header">
+                        <h3>{{ book.book }} Index</h3>
+                        <button class="close-btn" onclick="document.getElementById('modal-{{ loop.index }}').close()">✕</button>
+                    </div>
+
+                    <ul class="recipe-list modal-list">
+                        {% for recipe in book.recipes %}
+                        <li>
+                            <span class="recipe-name">{{ recipe.title }}</span>
+                            <span class="recipe-page">pg. {{ recipe.page }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </dialog>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

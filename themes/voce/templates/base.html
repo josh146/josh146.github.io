@@ -244,16 +244,32 @@
             fetch('/search.json')
                 .then(response => response.json())
                 .then(data => {
-                    // 2. Transform into Ninja Keys format
-                    const menuItems = data.map(item => ({
-                        id: item.url,
-                        title: item.title,
-                        section: item.type, // Groups results by 'Recipe' vs 'Page'
-                        keywords: item.keywords,
-                        handler: () => {
-                            window.location.href = item.url;
+                    // Transform into Ninja Keys format
+                    const menuItems = data.map((item, index) => {
+                        // Check if it's a physical cookbook recipe
+                        if (item.type === 'Physical') {
+                            return {
+                                id: `physical-${index}`, // Needs a unique ID since there's no URL
+                                title: `${item.title}`,
+                                section: `📚 Cookbook: ${item.book}`,
+                                icon: `📖 pg ${item.page}: `,
+                                keywords: item.ingredient, // Makes it searchable by ingredient
+                                handler: () => {
+                                    alert(`Go grab "${item.book}" and turn to page ${item.page}!`);
+                                }
+                            };
                         }
-                    }));
+                        // Otherwise, it's a standard digital recipe or page
+                        return {
+                            id: item.url,
+                            title: item.title,
+                            section: item.type, // Groups results by 'Recipe' vs 'Page'
+                            keywords: item.keywords,
+                            handler: () => {
+                                window.location.href = item.url;
+                            }
+                        };
+                    });
 
                     // 3. Add static actions (Optional)
                     // e.g., Dark Mode toggle, Home button

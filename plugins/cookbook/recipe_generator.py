@@ -3,6 +3,7 @@ import logging
 from pelican.generators import Generator, ArticlesGenerator, PagesGenerator
 from pelican import signals
 import json
+import yaml
 
 from jinja2 import Template
 import re
@@ -117,11 +118,53 @@ def generate_search_index(generators):
             }
         )
 
+    # Find the cookbooks.yaml file in your content folder
+    content_path = article_generator.settings.get('PATH', 'content')
+    yaml_path = os.path.join(content_path, 'cookbooks.yaml')
+
+    if os.path.exists(yaml_path):
+            with open(yaml_path, 'r', encoding='utf-8') as f:
+                try:
+                    cookbooks = yaml.safe_load(f) or []
+                    for book in cookbooks:
+                        book_title = book.get('book', 'Unknown Book')
+
+                        for recipe in book.get('recipes', []):
+                            search_data.append({
+                                'title': recipe.get('title', ''),
+                                'url': '#', # No URL, it's a physical book
+                                'type': 'Physical',
+                                'book': book_title,
+                                'page': recipe.get('page', ''),
+                                'ingredient': recipe.get('ingredient', ''),
+                            })
+                except Exception as e:
+                    print(f"Error parsing cookbooks.yaml: {e}")
+
     # write to output/search.json
     output_path = os.path.join(article_generator.output_path, "search.json")
     os.makedirs(article_generator.output_path, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(search_data, f)
+
+def expose_cookbooks_to_jinja(generator):
+    """
+    Reads cookbooks.yaml and makes it available as the {{ COOKBOOKS }}
+    variable in all Jinja templates.
+    """
+    content_path = generator.settings.get('PATH', 'content')
+    yaml_path = os.path.join(content_path, 'cookbooks.yaml')
+
+    cookbooks_data = []
+    if os.path.exists(yaml_path):
+        with open(yaml_path, 'r', encoding='utf-8') as f:
+            try:
+                cookbooks_data = yaml.safe_load(f) or []
+            except Exception as e:
+                print(f"Error reading cookbooks.yaml for Jinja: {e}")
+
+    # Attach to the global Jinja context
+    generator.context['COOKBOOKS'] = cookbooks_data
 
 
 def get_generators(pelican_object):
@@ -129,5 +172,6 @@ def get_generators(pelican_object):
 
 
 def register():
+    signals.page_generator_init.connect(expose_cookbooks_to_jinja)
     signals.get_generators.connect(get_generators)
     signals.all_generators_finalized.connect(generate_search_index)

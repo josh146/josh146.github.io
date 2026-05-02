@@ -14,6 +14,11 @@
 {% block og_image %}{{ SITEURL ~ '/' ~ page.image if page.image else LOGO }}{% endblock %}
 
 {% block masthead %}
+{% if page.hero %}
+<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.hero }}');">
+    <h1 class="recipe-title hero-text">{{ page.title }}</h1>
+</div>
+{% endif %}
 {% endblock %}
 
 {% block content %}

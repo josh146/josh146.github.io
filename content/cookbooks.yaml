@@ -1,0 +1,20 @@
+- book: "The Food Lab"
+  author: "J. Kenji López-Alt"
+  cover: "https://m.media-amazon.com/images/I/71NXfMvnmQL._SL1500_.jpg" # Web URL or local /images/food-lab.jpg
+  recipes:
+    - title: "Classic Roast Chicken"
+      ingredient: "Chicken"
+      page: 345
+    - title: "All-American Meatloaf"
+      ingredient: "Beef"
+      page: 412
+
+- book: "Salt, Fat, Acid, Heat"
+  author: "Samin Nosrat"
+  recipes:
+    - title: "Buttermilk Roast Chicken"
+      ingredient: "Chicken"
+      page: 340
+    - title: "Pasta Cacio e Pepe"
+      ingredient: "Pasta"
+      page: 382
