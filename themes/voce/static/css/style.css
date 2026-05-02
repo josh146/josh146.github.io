@@ -574,7 +574,7 @@ input[type=submit]:hover,
 
 .post-navigation a,
 .paging-navigation a {
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
   font-size: 12px;
   display: block;
   letter-spacing: 1px;
@@ -609,7 +609,7 @@ input[type=submit]:hover,
 }
 .navbar.navbar-default {
   background-color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   margin-bottom: 0;
   font-weight: 400;
   min-height: auto;
@@ -619,7 +619,7 @@ input[type=submit]:hover,
 .navbar-default .navbar-nav > li > a {
   color: #1c202a;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
 padding: 20px 0;
 margin-right: 25px;
