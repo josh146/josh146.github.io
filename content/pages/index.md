@@ -1,4 +1,5 @@
 Title: hello.
+Slug: hello
 save_as: index.html
 Description: I'm a computational quantum physicist, former software developer, and product developer working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
 

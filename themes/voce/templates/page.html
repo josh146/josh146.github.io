@@ -18,6 +18,10 @@
 <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.hero }}');">
     <h1 class="recipe-title hero-text">{{ page.title }}</h1>
 </div>
+{% else %}
+<header class="entry-header page-header">
+  <h1 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h1>
+</header><!-- .entry-header -->
 {% endif %}
 {% endblock %}
 
@@ -25,9 +29,6 @@
 <article>
   <div class="blog-item-wrap">
     <div class="post-inner-content">
-      <header class="entry-header page-header">
-        <h1 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h1>
-      </header><!-- .entry-header -->
       <div class="entry-content">
         {{ page.content }}
       </div><!-- .entry-content -->
