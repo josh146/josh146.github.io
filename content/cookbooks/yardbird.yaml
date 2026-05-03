@@ -1,0 +1,396 @@
+book: "Chicken and Charcoal: Yakitori, Yardbird, Hong Kong"
+author: "Matt Abergel"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/chicken-and-charcoal-yakitori-yardbird-185354l3.jpg"
+recipes:
+  - title: "Butchering"
+    page: 47
+    ingredients: ["whole chicken"]
+  - title: "Skewering"
+    page: 61
+    ingredients: ["bamboo skewers", "chicken"]
+  - title: "Skewering: breast (Mune)"
+    page: 68
+    ingredients: ["chicken breasts", "bamboo skewers"]
+  - title: "Skewering: green miso breast (Mune miso)"
+    page: 69
+    ingredients: ["chicken breasts", "basil", "parsley", "pine nuts", "olive oil", "miso soup", "roasted garlic", "bamboo skewers"]
+  - title: "Skewering: fillet (Sasami)"
+    page: 70
+    ingredients: ["chicken fillets", "barley miso", "mirin", "sake", "yuzu skin", "dark sesame oil", "white sesame oil", "light soy sauce", "bamboo skewers"]
+  - title: "Skewering: thigh, Tokyo onion (Negima)"
+    page: 71
+    ingredients: ["chicken thighs", "Tokyo negi onions", "bamboo skewers"]
+  - title: "Skewering: ume shiso thigh (Shiso maki momo)"
+    page: 72
+    ingredients: ["chicken thighs", "shiso leaves", "bamboo skewers"]
+  - title: "Skewering: inner thigh (Rosu)"
+    page: 73
+    ingredients: ["bamboo skewers", "chicken thighs"]
+  - title: "Skewering: oyster (Sori re-su)"
+    page: 74
+    ingredients: ["bamboo skewers", "chicken oysters"]
+  - title: "Skewering: achilles (Akiresuken)"
+    page: 75
+    ingredients: ["chicken drumsticks", "bamboo skewers"]
+  - title: "Skewering: soft knee bone (Hiza nankotsu)"
+    page: 76
+    ingredients: ["chicken legs", "bamboo skewers"]
+  - title: "Skewering: neck (Seseri)"
+    page: 77
+    ingredients: ["bamboo skewers", "chicken necks"]
+  - title: "Skewering: wing (Teba)"
+    page: 78
+    ingredients: ["bamboo skewers", "chicken wings"]
+  - title: "Skewering: tail (Bonjiri)"
+    page: 79
+    ingredients: ["chicken tails", "bamboo skewers"]
+  - title: "Skewering: wing skin (Tebakawa)"
+    page: 80
+    ingredients: ["chicken wings", "bamboo skewers"]
+  - title: "Skewering: wing tip (Tebasakinosaki)"
+    page: 81
+    ingredients: ["chicken wing tips", "bamboo skewers"]
+  - title: "Skewering: thyroid (Kojosen)"
+    page: 82
+    ingredients: ["bamboo skewers", "chicken thyroids"]
+  - title: "Skewering: rib (Harami)"
+    page: 83
+    ingredients: ["chicken ribs", "bamboo skewers"]
+  - title: "Skewering: liver (Reba)"
+    page: 84
+    ingredients: ["chicken livers", "bamboo skewers"]
+  - title: "Skewering: heart (Hatsu)"
+    page: 85
+    ingredients: ["chicken hearts", "bamboo skewers"]
+  - title: "Skewering: ventricle (Hatsumoto)"
+    page: 86
+    ingredients: ["chicken hearts", "bamboo skewers"]
+  - title: "Skewering: gizzard (Sunagimo)"
+    page: 87
+    ingredients: ["chicken gizzards", "bamboo skewers"]
+  - title: "Skewering: meatball (Tsukune)"
+    page: 88
+    ingredients: ["bamboo skewers", "chicken drumsticks", "chicken breasts", "panko breadcrumbs"]
+  - title: "Skewering: duck meatball (Kamo dango)"
+    page: 89
+    ingredients: ["duck breasts", "white onions", "sansho pepper", "panko breadcrumbs", "duck skin", "smoked daikon radishes"]
+  - title: "Grilling: breast"
+    page: 100
+    ingredients: ["sake", "wasabi", "soy sauce", "chicken breasts", "bamboo skewers"]
+  - title: "Grilling: fillet"
+    page: 101
+    ingredients: ["sake", "wasabi", "soy sauce", "chicken fillets", "barley miso", "mirin", "yuzu zest", "dark sesame oil", "white sesame oil", "light soy sauce", "bamboo skewers"]
+  - title: "Grilling: green miso breast"
+    page: 102
+    ingredients: ["sake", "lemons", "chicken breasts", "basil", "parsley", "pine nuts", "olive oil", "miso soup", "roasted garlic", "bamboo skewers"]
+  - title: "Grilling: ume shiso thigh"
+    page: 103
+    ingredients: ["sesame oil", "sake", "ume paste", "black sesame seeds", "shiso leaves", "chicken thighs", "bamboo skewers"]
+  - title: "Grilling: thigh, Tokyo onion"
+    page: 104
+    ingredients: ["chicken carcass", "chicken bones", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "sugar", "soy sauce", "tamari", "chicken thighs", "bamboo skewers"]
+  - title: "Grilling: inner thigh"
+    page: 105
+    ingredients: ["sake", "lemons", "chicken thighs", "bamboo skewers"]
+  - title: "Grilling: oyster"
+    page: 106
+    ingredients: ["sake", "bamboo skewers", "chicken oysters"]
+  - title: "Grilling: Achilles"
+    page: 107
+    ingredients: ["garlic", "thyme", "butter", "chicken legs", "bamboo skewers"]
+  - title: "Grilling: soft knee bone"
+    page: 108
+    ingredients: ["garlic", "sake", "chicken legs", "bamboo skewers"]
+  - title: "Grilling: neck"
+    page: 109
+    ingredients: ["yuzu kosho", "sake", "bamboo skewers", "chicken necks"]
+  - title: "Grilling: tail"
+    page: 110
+    ingredients: ["sake", "chicken tails", "bamboo skewers"]
+  - title: "Grilling: wing"
+    page: 111
+    ingredients: ["sake", "lemons", "shichimi", "bamboo skewers", "chicken wings"]
+  - title: "Grilling: wing skin"
+    page: 112
+    ingredients: ["sake", "chicken wings", "bamboo skewers"]
+    Grilling: wing tip
+    ingredients: ["sake", "chicken wing tips", "bamboo skewers"]
+  - title: "Grilling: thyroid"
+    page: 114
+    ingredients: ["garlic", "sake", "bamboo skewers", "chicken thyroids"]
+  - title: "Grilling: rib"
+    page: 115
+    ingredients: ["sake", "chicken ribs", "bamboo skewers", "chicken carcass", "Tokyo negi onions", "fresh ginger", "mirin", "sugar", "soy sauce", "tamari", "sansho pepper"]
+  - title: "Grilling: liver"
+    page: 116
+    ingredients: ["sake", "bamboo skewers", "chicken carcass", "Tokyo negi onions", "fresh ginger", "mirin", "sugar", "soy sauce", "tamari", "sansho pepper", "chicken livers"]
+  - title: "Grilling: heart"
+    page: 117
+    ingredients: ["garlic", "sake", "ginger juice", "spring onions", "chicken hearts", "bamboo skewers"]
+  - title: "Grilling: ventricle"
+    page: 118
+    ingredients: ["chicken hearts", "bamboo skewers", "sake", "chicken carcass", "Tokyo negi onions", "fresh ginger", "mirin", "sugar", "soy sauce", "tamari", "shichimi"]
+  - title: "Grilling: gizzard"
+    page: 119
+    ingredients: ["sake", "garlic chips", "chicken gizzards", "bamboo skewers"]
+  - title: "Grilling: meatball"
+    page: 120
+    ingredients: ["bamboo skewers", "chicken legs", "chicken breasts", "panko breadcrumbs", "sake", "chicken carcass", "Tokyo negi onions", "fresh ginger", "mirin", "soy sauce", "tamari", "egg yolks", "coffee sugar crystals"]
+  - title: "Grilling: duck meatball"
+    page: 121
+    ingredients: ["duck breasts", "white onions", "sansho pepper", "panko breadcrumbs", "duck skin", "kinome leaves", "duck bones", "chicken carcass", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "soy sauce", "tamari", "coffee sugar crystals", "smoked daikon radishes", "mizansho shouyu ni"]
+  - title: "Pickled fennel with yuzu"
+    page: 130
+    ingredients: ["rice vinegar", "sugar", "yuzu", "fennel"]
+  - title: "Kimchi"
+    page: 130
+    ingredients: ["napa cabbage", "salt", "baby carrots", "garlic chives", "green-skinned apples", "garlic", "fresh ginger", "salted shrimp", "Korean chilli powder", "fish sauce", "light soy sauce"]
+  - title: "Pickled cucumber"
+    page: 130
+    ingredients: ["Japanese cucumbers", "grey salt", "fresh ginger", "rice vinegar", "superfine sugar"]
+  - title: "Daikon and red shiso"
+    page: 130
+    ingredients: ["daikon radishes", "salt", "shiso vinegar", "shiso leaves"]
+  - title: "Cucumber salad with sesame, miso, and pine nuts"
+    page: 132
+    ingredients: ["Japanese cucumbers", "grey salt", "lemons", "sesame seeds", "pine nuts", "white miso", "white rice miso", "mirin", "sesame paste", "dark sesame oil", "rice vinegar"]
+  - title: "Fruit tomato salad"
+    page: 134
+    ingredients: ["yuba skin", "Japanese fruit tomatoes", "shiso oil", "shiso leaves", "gray sea salt", "Chinkiang vinegar", "Okinawan black sugar", "sweet soy sauce", "white sesame oil", "black garlic"]
+  - title: "Seared yellowtail salad"
+    page: 136
+    ingredients: ["yellowtail kingfish", "sesame seeds", "black sesame seeds", "sansho pepper", "Korean chilli powder", "dried yuzu", "aonori", "daikon radishes", "watermelon radishes", "mizuna", "yuzu", "kabosu juice", "sudachi", "soy sauce", "sesame oil", "red yuzu kosho"]
+  - title: "Eggplant salad with pickled garlic and ginger tosazu"
+    page: 138
+    ingredients: ["Japanese eggplants", "cucumbers", "myoga", "crispy shallots", "fresh ginger", "rice vinegar", "mirin", "light soy sauce", "kombu", "katsuobushi", "bonito pickled garlic"]
+  - title: "Mushroom salad with mizuna, watercress and wasabi"
+    page: 140
+    ingredients: ["shiitake mushrooms", "king oyster mushrooms", "maitake mushrooms", "sake", "mirin", "rice vinegar", "soy sauce", "tamari", "kizami wasabi", "wasabi", "kombu", "mizuna", "shungiku", "watercress", "red onions", "myoga", "lemons", "lotus root", "frying oil"]
+  - title: "Yardbird Caesar"
+    page: 142
+    ingredients: ["napa cabbage", "mizuna", "lemons", "dried anchovies", "kizami nori", "egg yolks", "anchovies", "garlic", "rice vinegar", "Parmesan cheese", "black peppercorns", "miso katsuo ninniku"]
+  - title: "Liver mousse with milk bread and crispy fried shallots"
+    page: 144
+    ingredients: ["chicken livers", "butter", "sel gris", "crispy shallots", "scallions", "Japanese milk bread", "chicken fat"]
+  - title: "Miso soup"
+    page: 146
+    ingredients: ["mizuna", "daikon radishes", "scallions", "yuzu skin", "barley miso", "kombu", "dried shiitake mushrooms", "dried porcini mushrooms", "dried matsutake mushrooms", "rice miso"]
+  - title: "Yardbird soup"
+    page: 148
+    ingredients: ["chicken stock", "gobo", "mizuna", "napa cabbage", "myoga", "scallions"]
+  - title: "Asparagus with onsen egg and nori dressing"
+    page: 152
+    ingredients: ["asparagus", "sake", "eggs", "nori", "rice vinegar", "sweet soy sauce", "furikake", "butter", "aonori", "panko breadcrumbs"]
+  - title: "Brussels sprouts with black garlic sauce and garlic chips"
+    page: 154
+    ingredients: ["Brussels sprouts", "lemons", "garlic", "frying oil", "sake", "mirin", "soy sauce", "maple syrup", "Okinawan black sugar", "black garlic"]
+  - title: "KFC (Korean fried cauliflower)"
+    page: 156
+    ingredients: ["cauliflower", "vegetable oil", "sesame seeds", "limes", "potato starch", "tempura flour", "egg yolks", "karaage flour"]
+  - title: "Corn tempura"
+    page: 158
+    ingredients: ["corn kernels", "tempura flour", "egg yolks", "vegetable oil"]
+  - title: "Fried chicken with garlic Kewpie mayo"
+    page: 162
+    ingredients: ["chicken drumsticks", "potato starch", "tempura flour", "vegetable oil", "lemons", "Kewpie mayonnaise", "light soy sauce", "garlic", "olive oil", "karaage flour"]
+  - title: "Duck fried rice"
+    page: 164
+    ingredients: ["duck legs", "garlic", "yukari shiso salt", "Welsh onions", "myoga", "Japanese short-grain rice", "sesame seeds", "shiso leaves", "black sesame seeds", "sansho pepper", "Korean chilli powder", "dried yuzu", "aonori", "salt", "sugar", "black peppercorns", "shiro miso", "umeboshi paste", "yuzu skin", "sake", "mirin"]
+  - title: "Takana mushroom udon"
+    page: 166
+    ingredients: ["pickled takana greens", "mirin", "sake", "udon noodles", "lemons", "Korean chilli paste", "kombu", "dried shiitake mushrooms", "dried porcini mushrooms", "dried matsutake mushrooms", "daikoku shimeji mushrooms"]
+  - title: "Chicken and egg rice"
+    page: 168
+    ingredients: ["chicken fat", "white onions", "sea salt", "glutinous rice", "sake", "chicken stock", "peas", "scallions", "eggs", "chicken skin", "potato starch", "tempura flour", "vegetable oil", "karaage flour"]
+  - title: "Mushroom rice"
+    page: 170
+    ingredients: ["white onions", "king oyster mushrooms", "shiitake mushrooms", "maitake mushrooms", "butter", "light soy sauce", "sake", "mochi gome", "kombu", "dried shiitake mushrooms", "dried porcini mushrooms", "dried matsutake mushrooms", "scallions", "garlic chips"]
+  - title: "Scotch egg with cabbage, tonkatsu sauce, and Kewpie mayo"
+    page: 172
+    ingredients: ["eggs", "chicken carcass", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "coffee sugar crystals", "soy sauce", "tamari", "potato starch", "tempura flour", "panko breadcrumbs", "white cabbage", "lemons", "vegetable oil", "tonkatsu sauce", "Sriracha sauce", "Kewpie mayonnaise", "aonori", "chicken thighs", "white onions", "karaage flour"]
+  - title: "Katsu sando"
+    page: 174
+    ingredients: ["white cabbage", "Kewpie mayonnaise", "tonkatsu sauce", "Sriracha sauce", "vegetable oil", "Japanese milk bread"]
+  - title: "Rice cakes with mirin and furikake"
+    page: 176
+    ingredients: ["Korean rice cakes", "mirin", "sesame oil", "furikake"]
+  - title: "Tare"
+    page: 180
+    ingredients: ["chicken carcass", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "coffee sugar crystals", "soy sauce", "tamari"]
+  - title: "Yardbird shichimi"
+    page: 183
+    ingredients: ["sesame seeds", "black sesame seeds", "sansho pepper", "Korean chilli powder", "dried yuzu", "aonori"]
+  - title: "Dashi"
+    page: 184
+    ingredients: ["kombu", "katsuobushi"]
+  - title: "Chicken stock"
+    page: 184
+    ingredients: ["chicken necks", "chicken backs", "kombu", "katsuobushi", "white onions", "Welsh onions", "fresh ginger", "gray sea salt", "light soy sauce"]
+  - title: "Mushroom dashi"
+    page: 185
+    ingredients: ["kombu", "dried shiitake mushrooms", "dried porcini mushrooms", "dried matsutake mushrooms"]
+  - title: "Amazu"
+    page: 185
+    ingredients: ["rice vinegar", "superfine sugar"]
+  - title: "Tosazu"
+    page: 186
+    ingredients: ["rice vinegar", "mirin", "light soy sauce", "kombu", "katsuobushi"]
+  - title: "Red shiso vinegar"
+    page: 186
+    ingredients: ["rice vinegar", "superfine sugar", "pickled red shiso leaves"]
+  - title: "Wasabi dressing"
+    page: 187
+    ingredients: ["sake", "mirin", "rice vinegar", "soy sauce", "tamari", "kizami wasabi", "wasabi", "kombu"]
+  - title: "Pickled mushrooms"
+    page: 187
+    ingredients: ["sake", "mirin", "rice vinegar", "soy sauce", "tamari", "kizami wasabi", "wasabi", "kombu", "shiitake mushrooms", "trumpet royale mushrooms", "maitake mushrooms"]
+  - title: "Shiso oil"
+    page: 187
+    ingredients: ["shiso leaves", "vegetable oil", "parsley"]
+  - title: "Fruit tomato dressing"
+    page: 187
+    ingredients: ["Chinkiang vinegar", "Okinawan black sugar", "sweet soy sauce", "white sesame oil", "black garlic"]
+  - title: "Sesame dressing"
+    page: 188
+    ingredients: ["white miso", "mirin", "sesame paste", "dark sesame oil", "rice vinegar", "rice miso"]
+  - title: "Nori dressing"
+    page: 188
+    ingredients: ["nori", "toasted nori", "rice vinegar", "sweet soy sauce", "olive oil"]
+  - title: "Green miso pesto"
+    page: 188
+    ingredients: ["basil", "parsley", "pine nuts", "roasted garlic", "barley miso", "kombu", "dried shiitake mushrooms", "dried porcini mushrooms", "dried matsutake mushrooms", "rice miso"]
+  - title: "Yuzu miso marinade"
+    page: 188
+    ingredients: ["barley miso", "mirin", "sake", "yuzu skin", "dark sesame oil", "white sesame oil", "light soy sauce"]
+  - title: "Roasted garlic"
+    page: 189
+    ingredients: ["garlic", "salt", "olive oil"]
+  - title: "Black garlic sauce"
+    page: 189
+    ingredients: ["sake", "mirin", "soy sauce", "maple syrup", "Okinawan black sugar", "roasted garlic", "garlic", "black garlic"]
+  - title: "B+S sauce"
+    page: 189
+    ingredients: ["tonkatsu sauce", "Sriracha sauce"]
+  - title: "Ume paste"
+    page: 189
+    ingredients: ["umeboshi paste", "yuzu skin", "sake", "mirin"]
+  - title: "Lotus root chips"
+    page: 190
+    ingredients: ["lotus root", "vegetable oil"]
+  - title: "Garlic chips"
+    page: 190
+    ingredients: ["garlic", "vegetable oil"]
+  - title: "Seaweed panko bread crumbs"
+    page: 190
+    ingredients: ["butter", "olive oil", "aonori", "panko breadcrumbs"]
+  - title: "Crispy fried shallots"
+    page: 190
+    ingredients: ["banana shallots", "buttermilk", "vegetable oil", "tempura flour", "potato starch", "karaage flour"]
+  - title: "Onsen egg"
+    page: 191
+    ingredients: ["eggs"]
+  - title: "Sweet glutinous mochi rice"
+    page: 191
+    ingredients: ["glutinous rice", "sake"]
+  - title: "Yukari rice"
+    page: 191
+    ingredients: ["Japanese short-grain rice", "red shiso leaves"]
+  - title: "Yardbird chicken flour mix"
+    page: 191
+    ingredients: ["potato starch", "tempura flour", "karaage flour"]
+  - title: "Tempura batter"
+    page: 192
+    ingredients: ["egg yolks", "tempura flour"]
+  - title: "Rendered chicken fat"
+    page: 192
+    ingredients: ["chicken fat", "chicken skin"]
+  - title: "Chicken fat onion paste"
+    page: 192
+    ingredients: ["chicken fat", "chicken skin", "white onions", "sea salt"]
+  - title: Crispy chicken skin
+    page: 192
+    ingredients: ["vegetable oil", "potato starch", "tempura flour", "chicken skin", "karaage flour"]
+  - title: "Young ginger pickles"
+    page: 193
+    ingredients: ["young ginger", "rice vinegar", "superfine sugar"]
+  - title: "Marinated egg yolk"
+    page: 193
+    ingredients: ["egg yolks", "chicken carcass", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "coffee sugar crystals", "soy sauce", "tamari"]
+  - title: "Duck tare"
+    page: 193
+    ingredients: ["duck bones", "chicken carcass", "Tokyo negi onions", "fresh ginger", "sake", "mirin", "coffee sugar crystals", "soy sauce", "tamari", "mizansho shouyu ni"]
+  - title: "Yukari powder"
+    page: 193
+    ingredients: ["red shiso leaves"]
+  - title: "Yaki lime"
+    page: 196
+    ingredients: ["limes", "muscovado sugar", "mint", "Flor de Caña 4-year-old white rum", "soda water"]
+  - title: "Rob Roy"
+    page: 196
+    ingredients: ["whisky", "vermouth", "cherry brandy", "cocktail cherries"]
+  - title: "Whisky lemonade"
+    page: 197
+    ingredients: ["lemons", "Okinawan black sugar", "whisky", "yuzu liqueur", "soda water"]
+  - title: "Shino"
+    page: 197
+    ingredients: ["lemons", "Okinawan black sugar", "gin", "shiso leaves", "soda water"]
+  - title: "Okinawa express"
+    page: 198
+    ingredients: ["awamori", "shochu", "pineapple juice", "limes", "Okinawan black sugar"]
+  - title: Jolly rancer
+    page: 199
+    ingredients: ["shochu", "watermelons", "lemons", "simple syrup"]
+  - title: "Bloody Kim Jong Il"
+    page: 199
+    ingredients: ["Aylesbury Duck vodka", "lemons", "chilli salt", "tomato juice", "Tabasco sauce", "tonkatsu sauce", "yuzu zest", "simple syrup"]
+  - title: "Wakayama Margarita"
+    page: 199
+    ingredients: ["tequila", "simple syrup", "lemons", "limes", "Jabarashu"]
+  - title: "Bambino"
+    page: 200
+    ingredients: ["barley shochu", "vermouth bianco", "grapefruit bitters", "grapefruit peel", "Fernet Hunter"]
+  - title: "El Chonie"
+    page: 200
+    ingredients: ["yuzu zest", "salt", "tequila", "simple syrup", "lemons", "limes", "Suntory beer"]
+  - title: "Mezcal mule"
+    page: 201
+    ingredients: ["mezcal", "umeboshi paste", "agave syrup", "cucumbers", "limes", "ginger ale"]
+  - title: "Simple syrup"
+    page: 201
+    ingredients: ["sugar"]
+  - title: "Rockfish"
+    page: 202
+    ingredients: ["whisky", "soda water", "lemons"]
+  - title: "Nikka highball"
+    page: 202
+    ingredients: ["whisky", "soda water", "limes"]
+  - title: "Ichiro's highball"
+    page: 203
+    ingredients: ["whisky", "soda water", "shiso leaves"]
+  - title: "Danryu Danball"
+    page: 203
+    ingredients: ["awamori", "limes", "soda water"]
+  - title: "Yoichi highball"
+    page: 204
+    ingredients: ["single malt whisky", "soda water", "lemons"]
+  - title: "Hunter hi"
+    page: 204
+    ingredients: ["soda water", "mint", "Fernet Hunter"]
+  - title: "Mars highball"
+    page: 205
+    ingredients: ["whisky", "soda water", "oranges"]
+  - title: "Kirin hi"
+    page: 205
+    ingredients: ["whisky", "soda water", "limes"]
+  - title: "Hakushu highball"
+    page: 206
+    ingredients: ["single malt whisky", "soda water", "mint"]
+  - title: "Rainbow hi"
+    page: 206
+    ingredients: ["whisky", "soda water", "grapefruits"]
+  - title: "Chu hi"
+    page: 207
+    ingredients: ["shochu", "pink grapefruits"]
+  - title: "Yu-gin"
+    page: 207
+    ingredients: ["gin", "shiso leaves", "yuzu sparkling water"]

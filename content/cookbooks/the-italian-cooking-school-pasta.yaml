@@ -1,0 +1,226 @@
+book: "The Italian Cooking School - Pasta"
+author: "The Silver Spoon Kitchen"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-italian-cooking-school--167229l2.jpg"
+recipes:
+  - title: "Fresh egg pasta"
+    page: 17
+    ingredients: ["00 flour", "eggs"]
+  - title: "A lesson in tagliatelle"
+    page: 21
+    ingredients: ["00 flour", "eggs"]
+  - title: "Pappardelle with meat sauce (Pappardelle al ragù misto)"
+    page: 23
+    ingredients: ["butter", "onions", "carrots", "celery", "bacon", "ground beef", "red wine", "nutmeg", "canned tomatoes", "chicken giblets", "Parmesan cheese", "pappardelle pasta"]
+  - title: "Pappardelle with mushrooms (Pappardelle ai funghi)"
+    page: 24
+    ingredients: ["garlic", "porcini mushrooms", "pappardelle pasta", "parsley"]
+  - title: "Tagliatelle with ham and peas (Tagliatelle prosciutto e piselli)"
+    page: 27
+    ingredients: ["butter", "onions", "peas", "prosciutto cotto", "nutmeg", "whipping cream", "Parmesan cheese", "tagliatelle pasta"]
+  - title: "Tagliatelle gratin (Gratin di tagliatelle)"
+    page: 28
+    ingredients: ["tagliatelle pasta", "butter", "Fontina cheese", "thyme"]
+  - title: "Abruzzan pasta with tomato sauce (Sagne chietine)"
+    page: 31
+    ingredients: ["garlic", "tomatoes", "basil", "red peppers", "chile powder", "fresh egg pasta", "pecorino cheese"]
+  - title: "Green fettuccine (Fettuccine verdi)"
+    page: 32
+    ingredients: ["spinach", "00 flour", "eggs", "butter", "sage", "Parmesan cheese"]
+  - title: "Fettuccine with sausage and balsamic vinegar (Fettuccine con salsiccia all' aceto balsamico)"
+    page: 35
+    ingredients: ["onions", "Italian sausages", "canned crushed tomatoes", "marjoram", "fresh fettuccine pasta", "balsamic vinegar"]
+  - title: "Mascarpone and bell pepper taglierini (Taglierini alla crema di mascarpone e peperoni)"
+    page: 36
+    ingredients: ["yellow bell peppers", "red peppers", "mascarpone cheese", "egg taglierini pasta"]
+  - title: "Tagliatelle with sausage ragu (Tagliatelle al ragù di salsiccia)"
+    page: 39
+    ingredients: ["butter", "bacon fat", "onions", "celery", "carrots", "lean beef", "lean pork", "Italian sausages", "chicken livers", "milk", "dry white wine", "canned tomato puree", "fresh tagliatelle pasta", "Parmesan cheese"]
+  - title: "Tagliatelle with asparagus (Tagliatelle alle asparagi)"
+    page: 40
+    ingredients: ["asparagus", "butter", "onions", "fresh tagliatelle pasta", "Parmesan cheese"]
+  - title: "Fettuccine with chicken and almonds (Fettuccine al pollo e mandorle)"
+    page: 43
+    ingredients: ["butter", "shallots", "boneless skinless chicken breasts", "almonds", "dry white wine", "heavy cream", "fresh fettuccine pasta", "Parmesan cheese"]
+  - title: "Tagliatelle with salmon (Tagliatelle al salmone)"
+    page: 44
+    ingredients: ["butter", "smoked salmon", "heavy cream", "whiskey", "lemons", "fresh tagliatelle pasta"]
+  - title: "Tagliatelle with fava beans and squid (Tagliatelle, fave e calamaretti)"
+    page: 47
+    ingredients: ["butter", "shallots", "dry white wine", "frozen fava beans", "squid", "fresh tagliatelle pasta"]
+  - title: "Stracci with clams (Stracci alle vongole)"
+    page: 48
+    ingredients: ["fresh egg pasta", "clams", "garlic", "canned tomatoes", "parsley"]
+  - title: "Pappardelle with rabbit and tomato sauce (Pappardelle al sugo di coniglio)"
+    page: 51
+    ingredients: ["onions", "celery", "parsley", "garlic", "rabbit", "dry white wine", "canned tomato purée", "fresh pappardelle pasta"]
+  - title: "Pappardelle with creamy crab and tomato sauce (Pappardelle al granchio velate al pomodoro)"
+    page: 52
+    ingredients: ["plum tomatoes", "onions", "light cream", "canned tomato purée", "crabmeat", "fresh pappardelle pasta"]
+  - title: "Pappardelle with scallops (Pappardelle alle cappesante)"
+    page: 55
+    ingredients: ["shallots", "tarragon", "scallops", "dry white wine", "canned crushed tomatoes", "fresh pappardelle pasta", "parsley"]
+  - title: "Pappardelle con cavolfiore e Gorgonzola (Pappardelle with cauliflower and Gorgonzola)"
+    page: 56
+    ingredients: ["cauliflower", "butter", "Gorgonzola cheese", "garlic", "thyme", "fresh pappardelle pasta", "Parmesan cheese"]
+  - title: "Pappardelle with walnuts (Pappardelle alle noci)"
+    page: 59
+    ingredients: ["butter", "walnuts", "pink peppercorns", "parsley", "fresh pappardelle pasta"]
+  - title: "Two-tone tagliatelle with bean sauce (Tagliatelle bicolori al sugo di fagioli)"
+    page: 60
+    ingredients: ["cranberry beans", "butter", "pancetta", "onions", "parsley", "garlic", "tomato paste", "vegetable stock", "fresh tagliatelle pasta", "fresh spinach tagliatelle pasta", "Parmesan cheese"]
+  - title: "Arezzo-style pappardelle (Pappardelle all' Aretina)"
+    page: 63
+    ingredients: ["duckling", "pancetta", "onions", "celery", "carrots", "dry white wine", "canned tomatoes", "fresh pappardelle pasta", "butter", "Parmesan cheese"]
+  - title: "Taglierini with crab (Taglierini alla granceola)"
+    page: 64
+    ingredients: ["whole crabs", "butter", "garlic", "brandy", "taglierini pasta", "white pepper"]
+  - title: "Taglierini with truffle (Taglierini al tartufo)"
+    page: 67
+    ingredients: ["all-purpose flour", "eggs", "Parmesan cheese", "butter", "nutmeg", "stock of your choice", "Alba truffles"]
+  - title: "Pappardelle with duck ragu ('Nana' sulle pappardelle)"
+    page: 68
+    ingredients: ["duckling", "butter", "carrots", "onions", "celery", "parsley", "thyme", "marjoram", "dry white wine", "tomato paste", "fresh pappardelle pasta", "Parmesan cheese"]
+  - title: "Lasagne with pesto (Lasagne al pesto)"
+    page: 73
+    ingredients: ["fresh egg pasta sheets", "butter", "all-purpose flour", "milk", "Parmesan cheese", "pesto", "pine nuts"]
+  - title: "Lasagne with meat sauce (Lasagne alla Bolognese)"
+    page: 75
+    ingredients: ["carrots", "onions", "beef", "dry white wine", "tomatoes", "fresh lasagne pasta", "butter", "all-purpose flour", "milk", "Parmesan cheese"]
+  - title: "Vegetarian lasagne (Lasagne vegetariane)"
+    page: 76
+    ingredients: ["butter", "fresh lasagne pasta", "scallions", "pumpkins", "zucchini", "cherry tomatoes", "rosemary", "double cream", "Stracchino cheese", "marjoram", "Parmesan cheese"]
+  - title: "Ham and egg lasagne (Lasagne dorate)"
+    page: 79
+    ingredients: ["fresh lasagne pasta", "butter", "all-purpose flour", "milk", "Parmesan cheese", "egg yolks", "ham", "hard-boiled eggs", "Fontina cheese"]
+  - title: "Creamy mushroom and Parmesan lasagne (Lasagne con crema di Parmigiano e funghi)"
+    page: 80
+    ingredients: ["fresh lasagne pasta", "butter", "sage", "double cream", "Parmesan cheese", "garlic", "chanterelle mushrooms"]
+  - title: "Eggplant and ricotta lasagne (Lasagne alle melanzane e ricotta)"
+    page: 83
+    ingredients: ["butter", "eggplants", "fresh lasagne pasta", "pine nuts", "ricotta cheese", "canned tomato purée", "basil", "Parmesan cheese"]
+  - title: "Tricolor lasagne (Lasagne tricolori)"
+    page: 84
+    ingredients: ["fresh lasagne pasta", "ricotta cheese", "spinach", "garlic", "canned tomato purée", "butter", "pecorino cheese"]
+  - title: "Artichoke and mushroom lasagne (Lasagne ai carciofi e funghi)"
+    page: 87
+    ingredients: ["dried porcini mushrooms", "baby artichokes", "lemons", "onions", "garlic", "fresh lasagne pasta", "Parmesan cheese", "butter", "all-purpose flour", "milk"]
+  - title: "Seafood lasagne (Lasagne al sapore di mare)"
+    page: 88
+    ingredients: ["butter", "fresh lasagne pasta", "scallops", "dry white wine", "light cream", "chives", "pecorino cheese", "crabmeat", "pesto", "canned tomatoes"]
+  - title: "Lasagne with porcini (Lasagne ai funghi porcini)"
+    page: 91
+    ingredients: ["garlic", "ceps mushrooms", "thyme", "dry white wine", "butter", "all-purpose flour", "milk", "Parmesan cheese", "nutmeg", "fresh lasagne pasta"]
+  - title: "Carnival lasagne (Lasagne di Carnevale)"
+    page: 92
+    ingredients: ["celery", "carrots", "onions", "Italian sausages", "canned tomato purée", "ground veal", "stale bread", "eggs", "pecorino cheese", "fresh lasagne pasta", "ricotta cheese", "Neapolitan salami", "caciocavallo cheese", "semolina"]
+  - title: "Buckwheat lasagne with broccoli (Lasagne di grano saraceno con broccoli)"
+    page: 95
+    ingredients: ["buckwheat flour", "00 flour", "eggs", "broccoli", "Savoy cabbage", "butter", "pancetta", "shallots", "ricotta cheese", "Parmesan cheese", "nutmeg", "all-purpose flour", "milk", "Emmental cheese"]
+  - title: "Lasagne with truffled veal and leek sauce (Lasagne al ragù, tartufo, e crema di porri)"
+    page: 96
+    ingredients: ["butter", "fresh lasagne pasta", "breadcrumbs", "ground veal", "dry white wine", "black truffles", "eggs", "Parmesan cheese", "nutmeg", "leeks", "vegetable stock"]
+  - title: "Cheese and spinach cannelloni (Cannelloni alle erbette)"
+    page: 101
+    ingredients: ["fresh egg pasta", "spinach", "sheep ricotta cheese", "Parmesan cheese", "eggs", "nutmeg", "butter", "light cream"]
+  - title: "Cannelloni with Béchamel sauce (Cannelloni alla Besciamella)"
+    page: 102
+    ingredients: ["butter", "spinach", "roast veal", "ham", "Parmesan cheese", "eggs", "fresh egg pasta", "all-purpose flour", "milk"]
+  - title: "Cheese and vegetable cannelloni (Cannelloni di formaggi e verdure)"
+    page: 105
+    ingredients: ["artichokes", "lemons", "carrots", "zucchini", "green beans", "butter", "leeks", "tomatoes", "stracchino", "Parmesan cheese", "fresh egg pasta sheets", "peas", "all-purpose flour", "milk"]
+  - title: "Meat and mushroom cannelloni (Cannelloni di carne e funghi)"
+    page: 106
+    ingredients: ["dried porcini mushrooms", "carrots", "celery", "onions", "ground veal", "boneless skinless chicken breasts", "chicken livers", "fresh egg pasta sheets", "dry Marsala wine", "eggs", "Parmesan cheese", "nutmeg", "butter", "all-purpose flour", "milk", "canned tomato purée"]
+  - title: "Sorrento-style vegetable cannelloni (Cannelloni di ortaggi alla Sorrentina)"
+    page: 109
+    ingredients: ["butter", "eggplants", "red peppers", "fresh egg pasta sheets", "mozzarella cheese", "basil", "Parmesan cheese", "canned tomato purée"]
+  - title: "Neapolitan cannelloni (Cannelloni alla Napoletana)"
+    page: 110
+    ingredients: ["Italian sausages", "ground beef", "Neapolitan salami", "hard-boiled eggs", "butter", "fresh egg pasta sheets", "pecorino cheese"]
+  - title: "Radicchio cannelloni (Cannelloni alla crema di radicchio)"
+    page: 113
+    ingredients: ["butter", "shallots", "ground chicken breast meat", "radicchio", "fresh egg pasta sheets", "all-purpose flour", "milk", "Parmesan cheese", "Fontina cheese"]
+  - title: "Artichoke cannelloni (Cannelloni ai carciofi)"
+    page: 114
+    ingredients: ["fresh egg pasta sheets", "butter", "onions", "garlic", "artichokes", "all-purpose flour", "nutmeg", "vegetable stock", "parsley", "eggs", "Parmesan cheese", "milk"]
+  - title: "Seafood cannelloni (Cannelloni ai frutti di mare)"
+    page: 117
+    ingredients: ["shallots", "cod fillets", "white wine", "shrimp", "garlic", "brandy", "ricotta cheese", "parsley", "egg yolks", "all-purpose flour", "fish broth", "fresh egg pasta sheets", "white pepper"]
+  - title: "Ricotta ravioli (Ravioli di ricotta)"
+    page: 121
+    ingredients: ["ricotta cheese", "Parmesan cheese", "eggs", "lemons", "nutmeg", "fresh egg pasta sheets", "butter", "sage"]
+  - title: "Cheese ravioli (Ravioli di magro)"
+    page: 122
+    ingredients: ["Fontina cheese", "milk", "nutmeg", "parsley", "Parmesan cheese", "fresh egg pasta sheets", "butter", "sage"]
+  - title: "Ricotta ravioli with zucchini and thyme (Ravioli di ricotta con zucchine e timo)"
+    page: 125
+    ingredients: ["butter", "zucchini", "thyme", "double cream", "ricotta cheese", "Parmesan cheese", "eggs", "lemons", "nutmeg", "fresh egg pasta sheets"]
+  - title: "Wild mushroom and thyme ravioli (Ravioli di gallinacci al timo)"
+    page: 126
+    ingredients: ["all-purpose flour", "eggs", "egg yolks", "onions", "garlic", "thyme", "wild mushrooms", "Parmesan cheese", "butter"]
+  - title: "Eggplant and tomato ravioli (Ravioli di melanzane al burro)"
+    page: 129
+    ingredients: ["all-purpose flour", "eggs", "eggplants", "butter", "onions", "garlic", "tomatoes", "basil", "Parmesan cheese"]
+  - title: "Marjoram ravioli (Ravioli alla maggiorana)"
+    page: 130
+    ingredients: ["all-purpose flour", "egg yolks", "dry white wine", "ricotta cheese", "eggs", "Parmesan cheese", "ground cinnamon", "marjoram", "butter", "superfine sugar"]
+  - title: "Piedmont ravioli (Ravioli del plin)"
+    page: 133
+    ingredients: ["escarole", "leftover roasted meat", "eggs", "Parmesan cheese", "nutmeg", "fresh egg pasta sheets", "butter"]
+  - title: "Artichoke and cheese tortelli (Tortelli di carciofi e formaggio)"
+    page: 134
+    ingredients: ["butter", "baby artichokes", "onions", "all-purpose flour", "milk", "eggs", "Parmesan cheese", "fresh egg pasta sheets"]
+  - title: "Pumpkin tortelli (Tortelli di zucca)"
+    page: 137
+    ingredients: ["pumpkins", "amaretti cookies", "mostarda", "Parmesan cheese", "lemons", "eggs", "breadcrumbs", "fresh egg pasta sheets", "butter"]
+  - title: "Piedmont-style agnolotti (Agnolotti alla Piemontese)"
+    page: 138
+    ingredients: ["peanut oil", "veal", "pork", "rabbit thighs", "onions", "garlic", "chicken stock", "dry white wine", "bay leaves", "sage", "rosemary", "spinach", "Parmesan cheese", "eggs", "nutmeg", "fresh egg pasta sheets"]
+  - title: "Radicchio and robiolia tortelli (Tortelli di radicchio e robiola)"
+    page: 141
+    ingredients: ["all-purpose flour", "eggs", "dry white wine", "radicchio", "robiola cheese", "Parmesan cheese", "butter", "thyme"]
+  - title: "Sea bass ravioli (Ravioli di branzino)"
+    page: 142
+    ingredients: ["00 flour", "semolina flour", "eggs", "egg yolks", "sea bass", "lemons", "mascarpone cheese", "chives", "butter"]
+  - title: "Spinach and meat agnolotti (Agnolotti di spinaci)"
+    page: 145
+    ingredients: ["spinach", "braised meat", "eggs", "egg yolks", "Parmesan cheese", "ham", "fresh egg pasta sheets"]
+  - title: "Ravioli with white truffle (Ravioli al tartufo bianco)"
+    page: 146
+    ingredients: ["ricotta cheese", "Parmesan cheese", "nutmeg", "eggs", "fresh egg pasta sheets", "butter", "white truffles"]
+  - title: "Lucca-style tordelli (Tordelli alla Lucchese)"
+    page: 149
+    ingredients: ["thyme", "ground beef", "ground pork", "mortadella", "eggs", "Parmesan cheese", "pecorino cheese", "breadcrumbs", "parsley", "nutmeg", "fresh egg pasta sheets", "butter", "sage"]
+  - title: "Duck ravioli (Ravioli d' anatra)"
+    page: 150
+    ingredients: ["duck breasts", "duck legs", "rosemary", "sage", "bay leaves", "butter", "brandy", "bread crumbs", "prosciutto", "eggs", "Parmesan cheese", "nutmeg", "fresh egg pasta sheets", "meat broth", "oranges"]
+  - title: "Tortellini"
+    page: 155
+    ingredients: ["rosemary", "garlic", "butter", "pork tenderloin", "prosciutto", "mortadella", "Parmesan cheese", "fresh egg pasta sheets", "nutmeg", "eggs", "beef stock"]
+  - title: "Tortelloni with chicken broth (Tortelloni in brodo)"
+    page: 156
+    ingredients: ["butter", "fresh egg pasta sheets", "ham", "boneless skinless chicken breasts", "Parmesan cheese", "heavy cream", "chicken stock"]
+  - title: "Cheese tortellini (Tortellini di magro)"
+    page: 159
+    ingredients: ["ricotta cheese", "eggs", "Parmesan cheese", "parsley", "fresh egg pasta sheets", "butter", "sage"]
+  - title: "Cappelletti in broth (Cappelletti in brodo)"
+    page: 160
+    ingredients: ["cooked chicken breast", "eggs", "egg yolks", "ricotta cheese", "nutmeg", "fresh egg pasta sheets", "beef stock", "Parmesan cheese"]
+  - title: "Pumpkin cappellacci (Cappellacci di zucca)"
+    page: 163
+    ingredients: ["pumpkins", "eggs", "Parmesan cheese", "nutmeg", "breadcrumbs", "fresh egg pasta sheets", "butter"]
+  - title: "Parma-style anolini (Anolini di Parma)"
+    page: 164
+    ingredients: ["butter", "carrots", "celery", "onions", "whole cloves", "beef chuck", "salami", "red wine", "tomato paste", "beef stock", "breadcrumbs", "Parmesan cheese", "fresh egg pasta sheets"]
+  - title: "Pumpkin fagottini (Fagottini di zucca)"
+    page: 167
+    ingredients: ["pumpkins", "white onions", "ricotta cheese", "golden raisins", "fresh egg pasta sheets", "chives", "butter", "all-purpose flour", "milk"]
+  - title: "Asparagus and cheese fagottini (Fagottini di punte d' asparagi e formaggi)"
+    page: 168
+    ingredients: ["fresh egg pasta sheets", "butter", "onions", "asparagus", "Fontina cheese", "Gorgonzola cheese", "all-purpose flour", "milk", "Parmesan cheese"]
+  - title: "Genoese pansotti (Pansotti alla Genovese)"
+    page: 171
+    ingredients: ["borage", "garlic", "ricotta cheese", "eggs", "Parmesan cheese", "fresh egg pasta sheets", "breadcrumbs", "milk", "walnuts", "butter"]
+  - title: "Tortellini with pesto and squid (Tortellini di calamari alla crema verde)"
+    page: 172
+    ingredients: ["basil", "parsley", "pine nuts", "walnuts", "ricotta cheese", "fresh egg pasta sheets", "garlic", "baby squid", "dry white wine", "tomatoes"]

@@ -1,0 +1,415 @@
+book: "Home Style Cookery"
+author: "Matty Matheson"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/matty-matheson---home-195849l2.jpg"
+recipes:
+  - title: "Sesame seed rolls"
+    page: 21
+    ingredients: ["active dry yeast", "all-purpose flour", "toasted sesame seeds"]
+  - title: "Seeded rye bread"
+    page: 22
+    ingredients: ["active dry yeast", "sunflower seeds", "sesame seeds", "pumpkin seeds", "rye flour", "bread flour", "molasses", "cracked rye"]
+  - title: "Molasses bread in an apple juice can"
+    page: 25
+    ingredients: ["active dry yeast", "molasses", "old-fashioned oats", "whole wheat flour", "all-purpose flour", "apple juice"]
+  - title: "Bannock 'ghost bread'"
+    page: 26
+    ingredients: ["milk", "instant yeast", "eggs", "sour cream", "canola oil", "all-purpose flour"]
+  - title: "Roti"
+    page: 29
+    ingredients: ["durum wheat flour"]
+  - title: "Grilled naan"
+    page: 30
+    ingredients: ["milk", "instant yeast", "eggs", "all-purpose flour", "sour cream", "canola oil", "za'atar", "sumac"]
+  - title: "Cornbread"
+    page: 33
+    ingredients: ["eggs", "buttermilk", "sour cream", "all-purpose flour", "instant cornmeal", "jalapeño chiles", "pickled jalapeño chiles", "smoked Gouda cheese", "Monterey Jack cheese"]
+  - title: "Focaccia"
+    page: 34
+    ingredients: ["active dry yeast", "all-purpose flour", "olive oil", "summer savory"]
+  - title: "Celeriac stock"
+    page: 41
+    ingredients: ["celeriac", "yellow onions", "thyme", "bay leaves"]
+  - title: "Rutabaga nage"
+    page: 42
+    ingredients: ["rutabagas", "yellow onions"]
+  - title: "Mushroom stock"
+    page: 44
+    ingredients: ["cremini mushrooms", "thyme", "bay leaves", "parsley", "dried kombu", "onions", "black peppercorns"]
+  - title: "Court bouillon"
+    page: 47
+    ingredients: ["white onions", "leeks", "carrots", "garlic", "celery", "tomatoes", "white wine", "black peppercorns", "white peppercorns", "pink peppercorns", "coriander seeds", "cardamom pods", "bay leaves", "parsley", "tarragon"]
+  - title: "Fish fumet"
+    page: 48
+    ingredients: ["grouper heads", "white wine", "fresh ginger", "lemongrass", "shallots", "scallions", "coriander seeds", "cilantro", "tarragon"]
+  - title: "Chicken stock"
+    page: 51
+    ingredients: ["whole chicken", "onions", "lemongrass", "scallions", "bird's eye chiles", "cilantro", "garlic", "fresh ginger", "black peppercorns", "white peppercorns"]
+  - title: "Pork stock"
+    page: 52
+    ingredients: ["pork neck bones", "pork rib bones", "white onions", "celery", "tomatoes", "garlic", "parsley", "bay leaves", "black peppercorns"]
+  - title: "Beef and bone marrow stock"
+    page: 55
+    ingredients: ["onions", "bay leaves", "black peppercorns", "beef bone marrow", "beef chuck roll"]
+  - title: "Lamb stock"
+    page: 56
+    ingredients: ["lamb shanks", "white onions", "carrots", "celery", "tomatoes", "thyme", "parsley", "bay leaves", "black peppercorns", "garlic"]
+  - title: "Yuzu cucumbers"
+    page: 65
+    ingredients: ["limes", "yuzu", "toasted sesame oil", "fresh ginger", "malt vinegar", "sambal oelek", "cilantro", "mini cucumbers"]
+  - title: "Black radish kraut"
+    page: 65
+    ingredients: ["black radishes", "cumin seeds"]
+  - title: "Fish sauce green tomatoes"
+    page: 66
+    ingredients: ["white vinegar", "fish sauce", "jalapeño chiles", "green tomatoes"]
+  - title: "Pickled hot peppers"
+    page: 67
+    ingredients: ["white vinegar", "granulated sugar", "canning salt", "jalapeño chiles", "Anaheim chiles", "serrano chiles", "poblano chiles", "red peppers", "garlic", "bay leaves", "pimento peppers"]
+  - title: "Nannie's blood-red beets"
+    page: 68
+    ingredients: ["whole cloves", "allspice berries", "red wine vinegar", "canning salt", "beets", "bay leaves", "cinnamon sticks", "garlic", "granulated sugar"]
+  - title: "Hot pepper agrodolce"
+    page: 68
+    ingredients: ["granulated sugar", "shallots", "fresh ginger", "white vinegar", "canning salt", "jalapeño chiles", "poblano chiles", "serrano chiles", "Anaheim chiles", "red peppers", "garlic", "bay leaves", "pimento peppers"]
+  - title: "Carrot kraut"
+    page: 69
+    ingredients: ["granulated sugar", "white vinegar", "apple cider vinegar", "mustard seeds", "celery seeds", "carrots", "bird's eye chiles", "bay leaves"]
+  - title: "Pickled radish"
+    page: 69
+    ingredients: ["white vinegar", "radishes"]
+  - title: "Dilled pickles"
+    page: 70
+    ingredients: ["canning salt", "pickling cucumbers", "white vinegar", "granulated sugar", "dill", "garlic", "dried chiles"]
+  - title: "Bread and butter pickles"
+    page: 71
+    ingredients: ["canning salt", "pickling cucumbers", "white vinegar", "white onions", "granulated sugar", "cumin seeds", "turmeric", "mustard powder", "celery seeds", "garlic", "tarragon"]
+  - title: "Favorite salad of all time"
+    page: 73
+    ingredients: ["white vinegar", "parsley", "green olives", "celery", "shallots", "cooked green beans", "cucumbers", "canned albacore tuna", "green-leaf lettuce"]
+  - title: "Kitchen sink salad"
+    page: 74
+    ingredients: ["white vinegar", "dried basil", "dried oregano", "garlic powder", "iceberg lettuce", "salami", "cheddar cheese", "peperoncini peppers", "cooked broccoli", "cherry tomatoes", "corn on the cob", "hard-boiled eggs", "red onions"]
+  - title: "Zucchini Greek salad"
+    page: 77
+    ingredients: ["zucchini", "feta cheese", "peperoncini peppers", "Kalamata olives", "cucumbers", "cherry tomatoes", "arugula", "red onions", "capers", "Champagne vinegar", "dried oregano"]
+  - title: "Burn your tongue Caesar salad"
+    page: 78
+    ingredients: ["canned anchovies in oil", "egg yolks", "Parmesan cheese", "bread", "romaine lettuce hearts"]
+  - title: "Bulgur tabbouleh salad"
+    page: 81
+    ingredients: ["bulgur", "tomatoes", "heirloom carrots", "parsley", "mint", "scallions", "lemons"]
+  - title: "'Good' canned tuna chickpea salad"
+    page: 82
+    ingredients: ["white vinegar", "parsley", "canned chickpeas", "red onions", "carrots", "celery", "canned tuna in olive oil", "white anchovies", "chervil"]
+  - title: "Waldorf sweet potato salad"
+    page: 84
+    ingredients: ["sweet potatoes", "breadcrumbs", "maple syrup", "Roquefort cheese", "white grapes", "tarragon"]
+  - title: "All the tomatoes tomato salad"
+    page: 87
+    ingredients: ["heirloom tomatoes", "cherry tomatoes", "limes", "feta cheese", "basil", "eggs", "buttermilk", "sour cream", "all-purpose flour", "instant cornmeal", "jalapeño chiles", "pickled jalapeño chiles", "smoked Gouda cheese", "Monterey Jack cheese"]
+  - title: "Escarole bean brodo"
+    page: 88
+    ingredients: ["leeks", "celery", "dry white wine", "canned cannellini beans", "canned navy beans", "canned butter beans", "chicken stock", "escarole", "Parmesan cheese"]
+  - title: "Kombu-steamed fingerling potatoes"
+    page: 91
+    ingredients: ["fingerling potatoes", "kombu", "cultured butter", "lemons", "scallions"]
+  - title: "Broccoli and mussel escabeche"
+    page: 92
+    ingredients: ["mussels", "dry white wine", "bay leaves", "yellow onions", "sweet smoked paprika", "black peppercorns", "fish sauce", "malt vinegar", "Chardonnay vinegar", "soy sauce", "sambal oelek", "toasted sesame oil", "scallions", "cilantro", "fresh ginger", "broccoli", "egg yolks", "black garlic", "squid ink", "Korean chile powder", "limes"]
+  - title: "Leek and mackerel terrine"
+    page: 95
+    ingredients: ["mackerel", "rice wine vinegar", "fish fumet", "leeks", "gelatin sheets", "mirin", "lemons", "parsley", "chervil", "tarragon", "shallots", "capers"]
+  - title: "Roasted cauliflower and hazelnuts"
+    page: 99
+    ingredients: ["cauliflower", "maple syrup", "apple cider vinegar", "toasted hazelnuts", "butter"]
+  - title: "Butter-basted cabbage with sunflower seed sabayon"
+    page: 100
+    ingredients: ["green cabbage", "butter", "apple cider vinegar", "egg yolks", "white miso", "sunflower seeds", "thyme"]
+  - title: "Root vegetable bouillon soup"
+    page: 103
+    ingredients: ["court bouillon", "kombu", "turnips", "daikon radishes", "rutabagas", "butternut squash", "celeriac", "limes", "toasted sesame seeds"]
+  - title: "Fingerling potato supreme"
+    page: 104
+    ingredients: ["white onions", "American cheese", "pickled jalapeño chiles", "yellow mustard", "fingerling potatoes", "cilantro", "scallions"]
+  - title: "Butter 'chicken' rutabaga"
+    page: 107
+    ingredients: ["garlic", "bird's eye chiles", "red chiles", "yellow onions", "fresh ginger", "ghee", "tomato paste", "turmeric", "chile powder", "garam masala", "ground coriander", "ground cumin", "court bouillon", "canned tomato purée", "dried fenugreek leaves", "rutabagas", "paneer", "heavy cream", "cooked jasmine rice", "cilantro", "peas", "butter"]
+  - title: "Aligot potatoes, or cheesy stringy potatoes"
+    page: 108
+    ingredients: ["potatoes", "heavy cream", "butter", "cheese curds", "mozzarella cheese", "white pepper"]
+  - title: "Thanksgiving stuffing butternut squash"
+    page: 110
+    ingredients: ["ground sage", "dried thyme", "dried marjoram", "dried rosemary", "nutmeg", "butter", "white onions", "celery", "butternut squash", "packaged cooked chestnuts", "court bouillon", "sourdough bread", "parsley", "celeriac stock"]
+  - title: "Chopped baba ghanoush"
+    page: 119
+    ingredients: ["eggplants", "parsley", "lemons"]
+  - title: "'Good' canned tuna tonnato sauce"
+    page: 120
+    ingredients: ["mackerel fillets", "grapeseed oil", "lemons", "Anaheim chile powder", "tarragon", "egg yolks", "canned tuna"]
+  - title: "The infamous cheesy citrus refried beans"
+    page: 123
+    ingredients: ["jalapeño chiles", "ground cumin", "ground coriander", "Mexican seasoning blend", "grapefruits", "canned refried beans", "canned pinto beans", "mozzarella cheese"]
+  - title: "Smoked whitefish mousse sundae"
+    page: 124
+    ingredients: ["sour cream", "heavy cream", "pickerel fillets"]
+  - title: "Pickled hot pepper queso and braised beef ribs"
+    page: 127
+    ingredients: ["beef short ribs", "yellow onions", "celery", "green peppers", "tomato paste", "Mexican lager", "thyme", "jalapeño chiles", "beef stock", "Tabasco sauce", "American cheese", "sharp cheddar cheese", "Monterey Jack cheese", "Oaxaca cheese", "yellow mustard", "white vinegar", "granulated sugar", "canning salt", "Anaheim chiles", "serrano chiles", "poblano chiles", "pimento peppers", "red peppers", "garlic", "black peppercorns"]
+  - title: "The inedible seven-layer dip"
+    page: 129
+    ingredients: ["cream cheese", "sour cream", "Mexican seasoning blend", "ground cumin", "ground coriander", "canned corn", "canned black beans", "limes", "red onions", "cilantro", "jalapeño chiles", "ground beef", "Mexican spice mix", "garlic powder", "chile powder", "tomatoes", "sharp cheddar cheese", "Monterey Jack cheese", "cherry belle radishes", "grapefruits", "canned refried beans", "canned pinto beans", "mozzarella cheese"]
+  - title: "Whipped goat cheese with anchovy parsley salad"
+    page: 133
+    ingredients: ["goat cheese", "sour cream", "lemons", "parsley", "shallots", "white anchovies", "bread"]
+  - title: "Bone marrow tomato tartine"
+    page: 134
+    ingredients: ["beef femur bones", "beefsteak tomatoes", "sourdough bread", "parsley", "shallots"]
+  - title: "Green olive tapenade"
+    page: 136
+    ingredients: ["cerignola olives", "shallots", "garlic", "jalapeño chiles", "mint", "basil", "parsley", "lemons"]
+  - title: "Romesco sauce"
+    page: 139
+    ingredients: ["red peppers", "red serrano chiles", "tomatoes", "almonds", "breadcrumbs", "onions", "tomato paste", "smoked paprika", "ground cayenne pepper", "sherry vinegar"]
+  - title: "Whipped goat cheese with pea lardon, honey, and bee pollen"
+    page: 140
+    ingredients: ["goat cheese", "honey", "lemons", "double-smoked slab bacon", "shallots", "peas", "honeycomb", "bee pollen", "mint", "tarragon", "chervil", "pea tendrils"]
+  - title: "Oxtail and mirepoix pierogis"
+    page: 147
+    ingredients: ["oxtail", "yellow onions", "carrots", "celery", "tomato paste", "red wine", "thyme", "parsley", "bay leaves", "beef stock", "all-purpose flour", "eggs", "leeks"]
+  - title: "Parsnip and cauliflower pierogis"
+    page: 149
+    ingredients: ["all-purpose flour", "eggs", "cauliflower", "parsnips", "butter", "maple syrup"]
+  - title: "Beautiful shrimp dumplings"
+    page: 154
+    ingredients: ["shrimp", "pork lard", "fresh ginger", "wonton wrappers", "chicken stock"]
+  - title: "Frozen king crab legs Rangoon"
+    page: 155
+    ingredients: ["crab meat", "cream cheese", "lemons", "chives", "wonton wrappers", "canola oil", "eggs"]
+  - title: "Pork and shrimp gyoza"
+    page: 159
+    ingredients: ["soy sauce", "lemons", "bonito flakes", "pork belly", "pork lard", "shrimp", "wonton wrappers", "malt vinegar", "sambal oelek", "scallions", "fresh ginger"]
+  - title: "Ricotta egg yolk raviolo"
+    page: 161
+    ingredients: ["egg yolks", "all-purpose flour", "ricotta cheese", "Parmesan cheese", "eggs", "bacon", "garlic", "cherry tomatoes", "honey"]
+  - title: "Le Select chicken fusilli"
+    page: 165
+    ingredients: ["red onions", "chicken thighs", "chicken stock", "fusilli pasta", "white onions", "whipping cream", "Parmesan cheese", "lemons", "capers", "Kalamata olives"]
+  - title: "Pickled onions"
+    page: 165
+    ingredients: ["red onions"]
+  - title: "Clams and hot Italian sausage spaghetti"
+    page: 166
+    ingredients: ["hot Italian sausages", "white onions", "carrots", "spaghetti pasta", "dry white wine", "Manila clams", "broccoli rabe", "chicken stock", "dried red pepper flakes", "parsley"]
+  - title: "One-hour Bolognese"
+    page: 169
+    ingredients: ["carrots", "white onions", "garlic", "ground beef", "tomato paste", "beef stock", "milk", "egg yolks", "spaghetti pasta", "Parmesan cheese"]
+  - title: "Braised rabbit, cipollini onions, and green olive bucatini"
+    page: 170
+    ingredients: ["rabbit legs", "carrots", "celery", "chicken stock", "bucatini pasta", "garlic", "cipollini onions", "cerignola olives", "Parmesan cheese"]
+  - title: "Braised lamb neck ragu rigatoni"
+    page: 173
+    ingredients: ["lamb neck", "white onions", "carrots", "celery", "chicken stock", "garlic", "tomato paste", "rigatoni pasta", "canned crushed tomatoes"]
+  - title: "Littleneck clams orecchiette"
+    page: 174
+    ingredients: ["orecchiette pasta", "garlic", "littleneck clams", "Parmesan cheese"]
+  - title: "Green curry beef ribs"
+    page: 181
+    ingredients: ["beef short-ribs", "onions", "celery", "jalapeño chiles", "leeks", "lemongrass", "fresh ginger", "green curry paste", "ground cardamom", "ground cumin", "beef stock", "coconut milk", "limes", "garlic", "bird's eye chiles", "white vinegar"]
+  - title: "Green curry duck legs"
+    page: 182
+    ingredients: ["duck legs", "onions", "celery", "leeks", "fresh ginger", "lemongrass", "turmeric", "ground coriander", "green curry paste", "chicken stock", "coconut milk", "limes", "Thai basil", "cilantro", "scallions", "mint"]
+  - title: "Yellow curry clams"
+    page: 185
+    ingredients: ["cherrystone clams", "cornmeal", "onions", "leeks", "fresh ginger", "yellow curry powder", "chicken stock", "heavy cream", "limes", "basil"]
+  - title: "Lamb neck dizi sangi"
+    page: 186
+    ingredients: ["lamb neck", "turmeric", "white onions", "tomato paste", "lamb stock", "potatoes", "canned chickpeas", "canned white beans", "lemons", "garlic", "white vinegar", "Greek yogurt", "mint", "tarragon", "durum wheat flour"]
+  - title: "Pho gà"
+    page: 189
+    ingredients: ["chicken feet", "whole chicken", "scallions", "fresh ginger", "white onions", "lemongrass", "cilantro", "coriander seeds", "white peppercorns", "green bird's eye chiles", "white vinegar", "vermicelli noodles"]
+  - title: "Master Rang's sister's Vietnamese fish ball soup"
+    page: 190
+    ingredients: ["shrimp", "pork lard", "fish sauce", "white pepper", "Anaheim chiles", "cilantro", "fresh ginger", "fish fumet", "napa cabbage", "bok choy", "limes", "scallions"]
+  - title: "Smoked ham hock and split pea soup"
+    page: 193
+    ingredients: ["ham hocks", "pork lard", "garlic", "bay leaves", "black peppercorns", "thyme", "parsley", "double-smoked slab bacon", "carrots", "celery", "yellow split peas", "dry white wine", "chicken stock", "pork stock"]
+  - title: "Double rib chili"
+    page: 194
+    ingredients: ["boneless beef short ribs", "pork ribs", "white onions", "red peppers", "green peppers", "celery", "garlic", "poblano chiles", "jalapeño chiles", "ground cumin", "paprika", "ground coriander", "mace", "ground cayenne pepper", "Mexican chile powder", "ground beef", "ground pork", "tomato paste", "Mexican lager", "canned crushed tomatoes", "canned red kidney beans", "beef stock", "cilantro", "parsley", "bay leaves", "Tabasco sauce", "Worcestershire sauce", "cheddar cheese", "sour cream", "scallions"]
+  - title: "Beef cheek risotto"
+    page: 197
+    ingredients: ["beef cheeks", "white onions", "carrots", "celery", "tomato paste", "red wine", "beef stock", "thyme", "parsley", "bay leaves", "shallots", "Arborio rice", "dry white wine", "chicken stock", "mascarpone cheese", "lemons", "pecorino cheese"]
+  - title: "Sichuan preferably Newfoundland cod"
+    page: 200
+    ingredients: ["jasmine rice", "garlic", "dried red pepper flakes", "Szechuan peppercorns", "paprika", "fish fumet", "chicken stock", "napa cabbage", "bok choy", "cod", "cilantro"]
+  - title: "Turkey neck stew"
+    page: 203
+    ingredients: ["turkey neck", "white onions", "carrots", "celery", "tomato paste", "chicken stock", "butter", "Tokyo turnips", "rutabagas", "butternut squash", "pearl onions", "potatoes"]
+  - title: "Double beef patty melt with Gruyère and molasses bread"
+    page: 209
+    ingredients: ["ground beef brisket", "yellow onions", "maple syrup", "sherry vinegar", "Gruyère cheese", "yellow mustard", "active dry yeast", "molasses", "old-fashioned oats", "whole wheat flour", "all-purpose flour", "apple juice"]
+  - title: "Eggplant Parmesan and Italian sesame seed bun"
+    page: 210
+    ingredients: ["eggplants", "eggs", "panko breadcrumbs", "garlic", "canned tomatoes", "roasted red peppers", "pickled hot peppers", "white onions", "dried oregano", "white vinegar", "mozzarella cheese", "sesame seed buns", "basil"]
+  - title: "Beef and cheddar"
+    page: 213
+    ingredients: ["beef top sirloin", "Cheez Whiz", "yellow mustard", "prepared horseradish", "sour cream", "mayonnaise", "potato rolls", "black peppercorns"]
+  - title: "Italian beef"
+    page: 214
+    ingredients: ["white vinegar", "granulated sugar", "red pearl onions", "celery", "carrots", "cauliflower", "garlic", "serrano chiles", "jalapeño chiles", "dried oregano", "dried basil", "olive oil", "beef stock", "black peppercorns", "beef chuck roast", "white onions", "active dry yeast", "all-purpose flour", "toasted sesame seeds"]
+  - title: "Fried mortadella with American cheese sauce and savory focaccia"
+    page: 217
+    ingredients: ["mortadella", "American cheese", "mayonnaise", "yellow mustard", "iceberg lettuce", "active dry yeast", "all-purpose flour", "olive oil", "summer savory"]
+  - title: "Chicago-style pork chops"
+    page: 218
+    ingredients: ["pork chops", "white onions", "toasted bread of your choice", "yellow mustard", "pickled jalapeño chiles"]
+  - title: "Nashville hot halibut"
+    page: 221
+    ingredients: ["canola oil", "Scotch bonnet chiles", "bird's eye chiles", "jalapeño chiles", "butter", "ground cayenne pepper", "smoked paprika", "all-purpose flour", "eggs", "panko breadcrumbs", "halibut fillets", "Japanese milk bread", "mayonnaise", "American cheese", "canning salt", "pickling cucumbers", "white vinegar", "white onions", "granulated sugar", "cumin seeds", "turmeric", "mustard powder", "celery seeds", "garlic", "tarragon"]
+  - title: "Submarine"
+    page: 222
+    ingredients: ["garlic powder", "dried basil", "dried oregano", "white vinegar", "roasted red peppers", "pickled hot peppers", "iceberg lettuce", "active dry yeast", "all-purpose flour", "toasted sesame seeds", "mortadella", "sopressata sausages", "capicola", "mozzarella cheese", "tomatoes", "roasted jalapeño chiles"]
+  - title: "Fried chicken"
+    page: 229
+    ingredients: ["whole chicken", "all-purpose flour", "garlic powder", "onion powder", "ground cayenne pepper", "paprika", "ground fennel", "canola oil", "lemons"]
+  - title: "Chicken cutlets"
+    page: 230
+    ingredients: ["chicken breasts", "all-purpose flour", "eggs", "breadcrumbs", "canola oil", "lemons"]
+  - title: "Master Rang's wok-fried snapper"
+    page: 232
+    ingredients: ["whole snapper", "canola oil", "garlic", "Chinese broccoli", "scallions", "daikon radishes"]
+  - title: "Pork shoulder schnitzel"
+    page: 235
+    ingredients: ["pork shoulder", "eggs", "all-purpose flour", "breadcrumbs", "canola oil", "lemons"]
+  - title: "Chicken fried steak"
+    page: 236
+    ingredients: ["beef top sirloin", "all-purpose flour", "eggs", "breadcrumbs", "canola oil", "chicken stock", "lemons"]
+  - title: "Fish sticks with Kewpie tartar sauce"
+    page: 239
+    ingredients: ["hard-boiled eggs", "dill pickles", "red onions", "capers", "parsley", "dill", "Kewpie mayonnaise", "halibut fillets", "canola oil", "all-purpose flour", "eggs", "panko breadcrumbs", "lemons"]
+  - title: "Minute steak and onions with House of Parliament sauce"
+    page: 240
+    ingredients: ["beef top sirloin", "white onions", "HP sauce"]
+  - title: "Toad in a hole: pig cheek, sausage, giant Yorkshire pudding, and frozen vegetable gravy"
+    page: 242
+    ingredients: ["pork cheeks", "duck fat", "lemons", "thyme", "bay leaves", "pork sausages", "eggs", "milk", "all-purpose flour", "beef demiglace", "rosemary", "sherry vinegar", "frozen peas", "heirloom carrots", "Dijon mustard"]
+  - title: "Joanie's liver and onions"
+    page: 246
+    ingredients: ["veal livers", "milk", "onions", "sherry vinegar", "chicken stock", "soy sauce", "Worcestershire sauce"]
+  - title: "Fried catfish taco night"
+    page: 249
+    ingredients: ["white onions", "tomatoes", "jalapeño chiles", "limes", "sour cream", "Parmesan cheese", "green cabbage", "serrano chiles", "cilantro", "masa harina", "pork lard", "canola oil", "whole catfish", "all-purpose flour"]
+  - title: "Roast salt crust leg of lamb"
+    page: 257
+    ingredients: ["potatoes", "duck fat", "kosher salt", "egg whites", "leg of lamb", "rosemary", "garlic", "lamb stock", "shallots", "green peppercorns", "bourbon", "heavy cream", "spinach", "milk", "cream cheese", "nutmeg"]
+  - title: "Crispiest pork belly"
+    page: 261
+    ingredients: ["pork belly", "kosher salt"]
+  - title: "Beef tourtière"
+    page: 262
+    ingredients: ["all-purpose flour", "butter", "onions", "celery", "leeks", "ground beef", "ground cloves", "ground cardamom", "ground cinnamon", "mace", "ground star anise", "eggs"]
+  - title: "Broiler pork chops"
+    page: 265
+    ingredients: ["paprika", "onion salt", "ground cayenne pepper", "pork chops", "canned tomatoes", "fennel seeds", "garlic", "onions", "jalapeño chiles", "red peppers", "banana peppers", "parsley"]
+  - title: "Macaroni and tuna casserole"
+    page: 266
+    ingredients: ["elbow macaroni pasta", "milk", "sharp white cheddar cheese", "Monterey Jack cheese", "cream cheese", "American cheese", "yellow mustard", "canned tuna in water", "panko breadcrumbs"]
+  - title: "Whole turbot with peas and bacon"
+    page: 269
+    ingredients: ["whole turbot", "double-smoked slab bacon", "shallots", "thyme", "butter", "parsley", "chervil", "tarragon", "peas", "white pepper"]
+  - title: "Sunday roast beef"
+    page: 271
+    ingredients: ["beef top sirloin", "black peppercorns", "carrots", "rosemary", "beets", "thyme", "marrow bones", "beef demiglace", "sherry vinegar", "potatoes", "butter"]
+  - title: "Christmas ducks with orange, whiskey, and hoisin glaze"
+    page: 279
+    ingredients: ["whole duck", "hoisin sauce", "whiskey", "oranges", "maple syrup", "Chinese five-spice powder", "fresh ginger"]
+  - title: "Hard smoked merguez sausage and polenta"
+    page: 281
+    ingredients: ["lamb rack", "red wine", "pomegranate juice", "ground cumin", "ground cayenne pepper", "garlic powder", "lamb casings", "milk", "instant cornmeal", "Parmesan cheese"]
+  - title: "Curry spiced whole lamb rack"
+    page: 285
+    ingredients: ["ground cumin", "ground coriander", "yellow curry powder", "smoked paprika", "ground cayenne pepper", "ground cloves", "ground cardamom", "nutmeg", "ground fennel", "Frenched lamb rack"]
+  - title: "Texas-style prime rib"
+    page: 286
+    ingredients: ["beef prime rib roast", "black peppercorns", "kosher salt"]
+  - title: "Burnt-ends hot dogs"
+    page: 289
+    ingredients: ["Bologna", "black peppercorns", "cola", "yellow mustard", "tomato ketchup", "apple cider vinegar", "molasses", "ground cumin", "ground cayenne pepper", "mustard powder", "smoked paprika", "garlic powder", "potato hot dog rolls", "white onions"]
+  - title: "Smoked seven seafood chowder"
+    page: 291
+    ingredients: ["mussels", "littleneck clams", "cornmeal", "mackerel fillets", "trout fillets", "onions", "celery", "carrots", "leeks", "dry white wine", "fish fumet", "potatoes", "thyme", "tarragon", "parsley", "lobster tails", "scallops", "shrimp", "heavy cream", "saltine crackers", "butter"]
+  - title: "Smoked mackerel"
+    page: 294
+    ingredients: ["whole mackerel", "store-cupboard ingredients"]
+  - title: "Smoked trout almondine"
+    page: 297
+    ingredients: ["kosher salt", "trout fillets", "green beans", "butter", "sliced almonds", "parsley", "chervil", "tarragon"]
+  - title: "T-bone steak and fine herb chimichurri"
+    page: 303
+    ingredients: ["beef T-bone steaks", "butter", "rosemary", "shallots", "sherry vinegar", "parsley", "cilantro", "mint"]
+  - title: "Spatchcock squab with hot pepper and plum agrodolce"
+    page: 305
+    ingredients: ["squab", "plums", "poblano chiles", "bird's eye chiles", "apple cider vinegar", "soy sauce", "fresh ginger", "dried red pepper flakes"]
+  - title: "Chicken thighs with peas and aligot potatoes"
+    page: 309
+    ingredients: ["chicken thighs", "chicken stock", "frozen peas", "potatoes", "heavy cream", "butter", "cheese curds", "mozzarella cheese", "white pepper"]
+  - title: "Chorizo verde and tomatillo salsa"
+    page: 311
+    ingredients: ["poblano chiles", "jalapeño chiles", "green peppers", "pork shoulder", "pork back fat with skin", "marjoram", "cilantro", "oregano", "garlic", "ground cayenne pepper", "paprika", "lager beer", "hog casings", "green tomatoes", "tomatillos", "apple cider vinegar", "basil"]
+  - title: "Squid and romesco"
+    page: 314
+    ingredients: ["squid", "ground fennel", "red peppers", "red serrano chiles", "tomatoes", "almonds", "breadcrumbs", "onions", "tomato paste", "smoked paprika", "ground cayenne pepper", "sherry vinegar"]
+  - title: "Whole sea bass and fennel mash"
+    page: 317
+    ingredients: ["whole sea bass", "butter", "fennel", "lemons", "ground Espelette pepper"]
+  - title: "Grilled sardine and cabbage sando"
+    page: 318
+    ingredients: ["white cabbage", "jalapeño chiles", "cilantro", "fresh sardines", "Japanese milk bread", "Kewpie mayonnaise", "wasabi paste"]
+  - title: "Clams with nduja butter and bread crumbs"
+    page: 320
+    ingredients: ["littleneck clams", "cornmeal", "active dry yeast", "all-purpose flour", "summer savory", "butter", "nduja", "oranges", "olive oil"]
+  - title: "Shrimp banh mi dog"
+    page: 323
+    ingredients: ["daikon radishes", "carrots", "rice vinegar", "black tiger prawns", "pork lard", "egg whites", "onion powder", "cilantro", "bird's eye chiles", "potato hot dog rolls", "cucumbers", "Sriracha sauce"]
+  - title: "Lamb chops with Scotch bonnet pepper sauce"
+    page: 324
+    ingredients: ["lamb chops", "habanero salsa"]
+  - title: "Swordfish and peppers with couscous and salsa verde"
+    page: 327
+    ingredients: ["fennel", "white onions", "leeks", "couscous", "chicken stock", "cipollini onions", "mini peppers", "parsley", "tarragon", "shallots", "jalapeño chiles", "almonds", "cashew nuts", "limes", "swordfish loin", "mint", "garlic", "basil"]
+  - title: "Lobster Thermidor with Béarnaise and salt and vinegar chips"
+    page: 329
+    ingredients: ["potatoes", "white vinegar", "canola oil", "white wine vinegar", "shallots", "black peppercorns", "tarragon", "butter", "egg yolks", "whole lobsters", "sea salt flakes"]
+  - title: "Joanie's chocolate zucchini cake"
+    page: 337
+    ingredients: ["all-purpose flour", "cocoa powder", "espresso powder", "butter", "coconut oil", "granulated sugar", "eggs", "Greek yogurt", "zucchini", "dark chocolate chips", "dark chocolate", "heavy cream", "light corn syrup"]
+  - title: "Trish's Hello Dollies"
+    page: 338
+    ingredients: ["butter", "graham cracker crumbs", "butterscotch chips", "dark chocolate chips", "unsweetened shredded coconut", "condensed milk", "walnuts"]
+  - title: "Apple tarte Tatin"
+    page: 341
+    ingredients: ["all-purpose flour", "butter", "sour cream", "eggs", "tart apples"]
+  - title: "Pate brisee"
+    page: 341
+    ingredients: ["all-purpose flour", "butter", "sour cream", "eggs"]
+  - title: "Lemon tart"
+    page: 345
+    ingredients: ["all-purpose flour", "butter", "sour cream", "eggs", "egg yolks", "lemons", "limes", "granulated sugar"]
+  - title: "Banana cake"
+    page: 346
+    ingredients: ["eggs", "all-purpose flour", "sour cream", "bananas", "walnuts", "chocolate chips", "overripe bananas"]
+  - title: "Dean's Cow Bay frogs"
+    page: 349
+    ingredients: ["bananas", "eggs", "molasses", "sweetened flaked coconut", "all-purpose flour", "dark chocolate chips", "old-fashioned oats"]
+  - title: "Trish's chocolate chip cookies"
+    page: 351
+    ingredients: ["all-purpose flour", "butter", "light brown sugar", "eggs", "dark chocolate chips"]
+  - title: "Molasses cookies stuffed with dulce de leche"
+    page: 352
+    ingredients: ["eggs", "dark molasses", "all-purpose flour", "ground cinnamon", "ground ginger", "ground cardamom", "turbinado sugar", "dulce de leche"]
+  - title: "Crème caramel"
+    page: 355
+    ingredients: ["granulated sugar", "milk", "Grand Marnier", "egg yolks", "gelatin sheets"]
+  - title: "Chocolate chip mint ice cream sundae"
+    page: 356
+    ingredients: ["butter", "granulated sugar", "eggs", "cocoa powder", "heavy cream", "mint chocolate chip ice cream", "macerated cherries"]
