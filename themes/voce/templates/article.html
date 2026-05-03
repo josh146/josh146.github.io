@@ -23,7 +23,18 @@
 
 {% block og_image %}{{ article.image if article.image else LOGO }}{% endblock %}
 
+
+{% block masthead %}
+{% endblock %}
+
 {% block content %}
+
+<style>
+.page-header {
+  margin: 0!important;
+}
+</style>
+
 <article>
   <div class="blog-item-wrap">
     <div class="post-inner-content">

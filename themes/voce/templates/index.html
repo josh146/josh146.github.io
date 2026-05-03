@@ -3,7 +3,10 @@
 {% block title %}Posts. | {{ SITENAME }}{% endblock %}
 
 {% block masthead %}
-    {{ super() }}
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/hero10.jpg');">
+        <h1 class="recipe-title hero-text">Posts.</h1>
+    </div>
+
     {% if articles|count > 0 %}
     <div class="tagline">
         {% if TAGS_URL %}
@@ -15,23 +18,28 @@
             <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" {{ 'class="active"' if  output_file == ARCHIVES_URL }}>{{ 'Archives ('+ articles|count|string + ')' if  articles|count > all_articles|count  else 'Archives (' + all_articles|count|string + ')'}}</a>
         {% endif %}
     </div>
+    <style>
+    .entry-header {
+      margin: 0;
+    }
+    </style>
     {% endif %}
 {% endblock %}
 
 {% block content %}
 {% for article in articles_page.object_list %}
 <article class="post">
-	<div class="blog-item-wrap">
-		<div class="post-inner-content">
-			<header class="entry-header page-header">
-				<span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
-				<h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-			</header><!-- .entry-header -->
-			<div class="entry-content">
-				{{ article.summary|striptags }}
-        	</div><!-- .entry-content -->
-		</div>
-	</div>
+    <div class="blog-item-wrap">
+        <div class="post-inner-content">
+            <header class="entry-header page-header">
+                <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            </header><!-- .entry-header -->
+            <div class="entry-content">
+                {{ article.summary|striptags }}
+            </div><!-- .entry-content -->
+        </div>
+    </div>
 </article><!-- #post-## -->
 {% if not loop.last %}
 {% endif %}
