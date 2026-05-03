@@ -236,62 +236,116 @@
   {% endif %}
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const ninja = document.querySelector('ninja-keys');
+document.addEventListener('DOMContentLoaded', () => {
+    const ninja = document.querySelector('ninja-keys');
 
-        if (ninja) {
-            // 1. Load your JSON index
-            fetch('/search.json')
-                .then(response => response.json())
-                .then(data => {
-                    // Transform into Ninja Keys format
-                    const menuItems = data.map((item, index) => {
-                        // Check if it's a physical cookbook recipe
-                        if (item.type === 'Physical') {
-                            // Join the array into a comma-separated string
-                            const ingString = item.ingredients && item.ingredients.length > 0
-                                              ? item.ingredients.join(', ')
-                                              : 'Misc';
-                            return {
-                                id: `physical-${index}`,
-                                title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
-                                section: `📚 Cookbook: ${item.book}`,
-                                icon: `📖&nbsp;`,
-                                keywords: ingString, // Now searchable by ANY of the ingredients
-                                handler: () => {
-                                    // You can keep your alert, or the URL params logic we built earlier!
-                                    alert(`Go grab "${item.book}" and turn to page ${item.page}!`);
-                                }
-                            };
-                        }
-                        // Otherwise, it's a standard digital recipe or page
-                        return {
-                            id: item.url,
-                            title: item.title,
-                            section: item.type, // Groups results by 'Recipe' vs 'Page'
-                            keywords: item.keywords,
-                            handler: () => {
-                                window.location.href = item.url;
-                            }
-                        };
-                    });
+    let rawSearchData = [];
+    let searchIngredients = true;
 
-                    // 3. Add static actions (Optional)
-                    // e.g., Dark Mode toggle, Home button
-                    menuItems.push({
-                        id: 'home',
-                        title: 'Go to Home',
-                        section: 'Navigation',
-                        hotkey: 'cmd+h',
-                        handler: () => { window.location.href = '/'; }
-                    });
+    // Helper to pierce the Shadow DOM (Works on all Ninja Keys versions)
+    const getNinjaInput = () => {
+        if (!ninja || !ninja.shadowRoot) return null;
+        let input = ninja.shadowRoot.querySelector('input');
+        if (!input && ninja.shadowRoot.querySelector('ninja-header')) {
+            input = ninja.shadowRoot.querySelector('ninja-header').shadowRoot.querySelector('input');
+        }
+        return input;
+    };
 
-                    // 4. Give data to Ninja Keys
-                    ninja.data = menuItems;
-                })
-                .catch(err => console.error("Failed to load search index:", err));
+    // The single, isolated toggle function
+    const toggleIngredientSearch = () => {
+        const inputEl = getNinjaInput();
+        const currentSearch = inputEl ? inputEl.value : "";
+
+        // 1. Flip the state and rebuild data
+        searchIngredients = !searchIngredients;
+        updateNinjaData();
+
+        // 2. Restore text and bust the search cache
+        setTimeout(() => {
+            const newInp = getNinjaInput();
+            if (newInp) {
+                // Trick Ninja Keys into re-filtering by briefly adding a space
+                newInp.value = currentSearch + " ";
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+
+                // Immediately remove it
+                newInp.value = currentSearch;
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+            }
+        }, 10);
+    };
+
+    // --- THE FIX: Handle the Hotkey Globally ---
+    // This guarantees Cmd+I only ever fires EXACTLY once per press.
+    document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'i') {
+            e.preventDefault();
+            toggleIngredientSearch();
         }
     });
+
+    function updateNinjaData() {
+        if (!ninja || rawSearchData.length === 0) return;
+
+        const menuItems = rawSearchData.map((item, index) => {
+            if (item.type === 'Physical') {
+                const ingString = item.ingredients && item.ingredients.length > 0
+                                  ? item.ingredients.join(', ')
+                                  : '';
+                return {
+                    id: `physical-${index}`,
+                    title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
+                    section: `📚 Cookbook: ${item.book}`,
+                    icon: `📖&nbsp;`,
+                    // Use the global state variable
+                    keywords: searchIngredients ? ingString : "",
+                    handler: () => {
+                      alert(`Go grab "${item.book}" and turn to page ${item.page}!`);
+                    }
+                };
+            }
+
+            return {
+                id: item.url,
+                title: item.title,
+                section: item.type,
+                keywords: item.keywords,
+                handler: () => { window.location.href = item.url; }
+            };
+        });
+
+        // The Clickable Command
+        menuItems.push({
+            id: 'toggle-ingredients',
+            title: `Ingredient Search is ${searchIngredients ? 'ON' : 'OFF'} (Cmd+I to Toggle)`,
+            section: '⚙️ Preferences',
+            icon: searchIngredients ? '✅ ' : '❌ ',
+            // CRITICAL: We removed `hotkey: 'cmd+i'` from here so Ninja Keys stops breaking!
+            handler: () => {
+                toggleIngredientSearch();
+                return { keepOpen: true }; // Prevent UI flicker
+            }
+        });
+
+        menuItems.push({
+            id: 'home', title: 'Go to Home', section: 'Navigation',
+            hotkey: 'cmd+h', handler: () => { window.location.href = '/'; }
+        });
+
+        ninja.data = menuItems;
+    }
+
+    if (ninja) {
+        fetch('/search.json')
+            .then(response => response.json())
+            .then(data => {
+                rawSearchData = data;
+                updateNinjaData();
+            })
+            .catch(err => console.error("Failed to load search index:", err));
+    }
+});
   </script>
 
 

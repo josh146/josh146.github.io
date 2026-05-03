@@ -13,6 +13,14 @@ from bs4 import BeautifulSoup
 from .recipe import Recipe, RecipePostProcessor, fix_string
 
 
+PANTRY_STAPLES = {
+    'milk', 'cream', 'heavy cream', 'butter', 'white peper', 'flour', 'sugar',
+    'brown sugar', 'salt', 'pepper', 'black pepper', 'water',
+    'oil', 'olive oil', 'garlic', 'onion', 'onions', 'eggs', 'egg', 'all purpose flour',
+    'vanilla', 'vanilla extract', 'baking powder', 'baking soda', 'plain flour'
+}
+
+
 log = logging.getLogger(__name__)
 
 
@@ -158,6 +166,12 @@ def generate_search_index(generators):
                     ingredients_list = [raw_ingredients]
                 else:
                     ingredients_list = raw_ingredients
+
+                # Filter out noisy pantry staples
+                searchable_ingredients = [
+                    ing for ing in ingredients_list
+                    if ing.lower().strip() not in PANTRY_STAPLES
+                ]
 
                 search_data.append({
                     'title': recipe.get('title', ''),
