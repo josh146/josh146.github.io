@@ -1,0 +1,586 @@
+book: "RecipeTin Eats - Dinner"
+author: "Nagi Maehashi"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/recipetin-eats---dinner-221419l3.jpg"
+recipes:
+  - title: "Crispy Parmesan tomato rice"
+    page: 17
+    ingredients: ["carrots", "celery", "tomato paste", "cooked rice", "eggs", "Parmesan cheese", "green onions"]
+  - title: "Vietnamese baked chicken"
+    page: 20
+    ingredients: ["chicken thighs", "lemongrass", "garlic", "limes", "fish sauce", "light soy sauce"]
+  - title: "Garlic butter prawns"
+    page: 23
+    ingredients: ["prawns", "garlic", "Chardonnay wine", "unsalted butter", "parsley"]
+  - title: "Greek chicken gyros"
+    page: 24
+    ingredients: ["chicken thigh fillets", "Greek yoghurt", "dried oregano", "cucumbers", "mint", "tomatoes", "red onions", "flat-leaf parsley", "pita bread"]
+  - title: "Tzatziki"
+    page: 24
+    ingredients: ["cucumbers", "Greek yoghurt", "mint", "store-cupboard ingredients"]
+  - title: "Cheesy baked broccoli fritters"
+    page: 26
+    ingredients: ["broccoli", "eggs", "garlic powder", "onion powder", "Italian herb blend", "cooked rice", "tasty cheese", "green onions", "panko breadcrumbs", "ketchup"]
+  - title: "Crunchy baked chicken tenders"
+    page: 29
+    ingredients: ["panko breadcrumbs", "chicken tenderloins", "eggs", "mayonnaise", "ketchup"]
+  - title: "Swedish meatballs"
+    page: 30
+    ingredients: ["brown onions", "sandwich bread", "beef mince", "pork mince", "eggs", "ground nutmeg", "ground allspice", "low-salt beef stock", "thickened cream"]
+  - title: "House special glazed meatloaf"
+    page: 33
+    ingredients: ["panko breadcrumbs", "brown onions", "beef mince", "eggs", "Worcestershire sauce", "ketchup", "dried thyme", "beef bouillon cubes", "apple cider vinegar"]
+  - title: "Simple, very tasty cauliflower cheese steaks"
+    page: 34
+    ingredients: ["cauliflower", "red Leicester cheese", "parsley", "smoked paprika", "garlic powder", "ground coriander", "Parmesan cheese", "panko breadcrumbs"]
+  - title: "Sun-dried tomato pesto pasta salad"
+    page: 36
+    ingredients: ["fusilli pasta", "Danish feta cheese", "red onions", "cherry tomatoes", "Lebanese cucumbers", "baby rocket", "basil", "Kalamata olives", "jarred red peppers", "jarred artichokes", "sun-dried tomatoes in oil", "Parmesan cheese", "toasted pine nuts"]
+  - title: "Bizarrely good wings"
+    page: 39
+    ingredients: ["smoked paprika", "ground cumin", "garlic powder", "onion powder", "ground coriander", "chicken drumettes", "chicken wingettes", "Parmesan cheese", "chives", "white sesame seeds", "sesame oil", "long red chillies", "long green chillies"]
+  - title: "Crispy Korean pancakes"
+    page: 40
+    ingredients: ["zucchini", "carrots", "green beans", "green onions", "light soy sauce", "rice vinegar", "sesame oil", "white sesame seeds", "plain flour", "garlic powder", "onion powder", "soda water"]
+  - title: "One-pot baked Greek chicken and lemon rice"
+    page: 43
+    ingredients: ["chicken thighs", "lemons", "dried oregano", "garlic", "brown onions", "long-grain rice", "low-salt chicken stock"]
+  - title: "Beef biryani"
+    page: 44
+    ingredients: ["basmati rice", "low-salt chicken stock", "cloves", "star anise", "dried bay leaves", "ground cardamom", "ghee", "fresh ginger", "brown onions", "beef mince", "ground cinnamon", "ground cayenne pepper", "ground turmeric", "garam masala", "tomato passata", "plain yoghurt", "mint", "saffron threads", "crispy fried shallots", "coriander leaves"]
+  - title: "Minted yoghurt"
+    page: 45
+    ingredients: ["plain yoghurt", "mint"]
+  - title: "Chicken shawarma"
+    page: 46
+    ingredients: ["boneless skinless chicken thighs", "ground coriander", "ground cumin", "ground cardamom", "ground cayenne pepper", "smoked paprika", "Greek yoghurt", "cos lettuce", "tomatoes", "lemons", "Lebanese flatbread", "coriander sprigs"]
+  - title: "Butter chicken"
+    page: 48
+    ingredients: ["chicken thigh fillets", "ghee", "tomato passata", "thickened cream", "chilli powder", "ground turmeric", "ground cumin", "garam masala", "fresh ginger", "plain yoghurt"]
+  - title: "No-fry pappadums"
+    page: 48
+    ingredients: ["pappadums"]
+  - title: "Naan"
+    page: 50
+    ingredients: ["instant yeast", "eggs", "bread flour", "ghee"]
+  - title: "Garlic butter"
+    page: 51
+    ingredients: ["ghee", "garlic"]
+  - title: "Miso-glazed eggplant"
+    page: 54
+    ingredients: ["red miso", "mirin", "cooking sake", "eggplants", "green onions", "sesame seeds"]
+  - title: "Fried cabbage with noodles and bacon"
+    page: 57
+    ingredients: ["angel hair pasta", "streaky bacon", "brown onions", "green cabbage", "Parmesan cheese"]
+  - title: "Mussels in white wine"
+    page: 58
+    ingredients: ["brown onions", "celery", "mussels", "Chardonnay wine"]
+  - title: "The Asian glazed salmon"
+    page: 60
+    ingredients: ["salmon fillets", "fresh ginger", "light soy sauce", "oyster sauce", "sweet chilli sauce"]
+  - title: "Teriyaki beef bowls"
+    page: 63
+    ingredients: ["brown onions", "carrots", "zucchini", "beef mince", "light soy sauce", "mirin", "cooking sake"]
+  - title: "Spicy Sichuan pork noodles"
+    page: 64
+    ingredients: ["oyster sauce", "kecap manis", "sambal oelek", "Shanghai noodles", "green beans", "brown onions", "pork mince"]
+  - title: "Crispy skin fish with bean ragu"
+    page: 67
+    ingredients: ["barramundi fillets", "brown onions", "carrots", "celery", "fennel", "tomato paste", "canned cannellini beans", "kale", "dill"]
+  - title: "Baked fish with lemon cream sauce"
+    page: 68
+    ingredients: ["white fish fillets", "eschalots", "thickened cream", "parsley", "lemons"]
+  - title: "Southern pork and beans"
+    page: 70
+    ingredients: ["boneless pork shoulder", "garlic powder", "smoked paprika", "streaky bacon", "brown onions", "canned kidney beans", "ketchup", "tomato passata", "molasses", "apple cider vinegar", "mustard powder", "Worcestershire sauce", "ground cayenne pepper"]
+  - title: "One-tray Moroccan baked chicken with chickpeas"
+    page: 73
+    ingredients: ["chicken thighs", "cherry tomatoes", "bulb fennel", "baharat spice mix", "ground cumin", "smoked paprika", "canned chickpeas", "ground turmeric", "ground ginger", "coriander leaves"]
+  - title: "One-pot sausage meatball pasta"
+    page: 74
+    ingredients: ["beef sausages", "brown onions", "carrots", "celery", "bay leaves", "dried rosemary", "tomato paste", "canned crushed tomatoes", "low-salt chicken stock", "rigatoni pasta", "Colby cheese"]
+  - title: "Magic baked chicken fried rice"
+    page: 77
+    ingredients: ["long-grain rice", "low-salt chicken stock", "light soy sauce", "Chinese cooking wine", "white pepper", "frozen vegetables of your choice", "bacon", "chicken thigh fillets", "oyster sauce", "sesame oil", "green onions"]
+  - title: "Garlic bread pizza"
+    page: 78
+    ingredients: ["Turkish bread", "garlic", "tomato passata", "tomato paste", "caster sugar", "red onions", "mozzarella cheese", "white mushrooms", "salami"]
+  - title: "Italian beef rice pilaf"
+    page: 80
+    ingredients: ["brown onions", "carrots", "celery", "fennel seeds", "dried chilli flakes", "beef mince", "long-grain white rice", "low-salt beef stock", "bay leaves", "Worcestershire sauce", "tomatoes", "Parmesan cheese"]
+  - title: "Baked creamy feta risoni"
+    page: 83
+    ingredients: ["cherry tomatoes", "red onions", "dried oregano", "risoni pasta", "vegetable stock", "Danish feta cheese", "basil"]
+  - title: "3-minute double smash burgers"
+    page: 84
+    ingredients: ["beef mince", "Swiss cheese", "brioche buns", "ketchup", "iceberg lettuce", "tomatoes", "red onions", "pickles", "mustard"]
+  - title: "Sticky chicken drumsticks"
+    page: 87
+    ingredients: ["corn on the cob", "chicken drumsticks", "ketchup", "sweet chilli sauce", "light soy sauce", "apple cider vinegar"]
+  - title: "Green spaghetti"
+    page: 88
+    ingredients: ["spaghetti pasta", "Parmesan cheese", "baby spinach", "toasted pine nuts", "lemons"]
+  - title: "Chorizo potato stew-soup"
+    page: 90
+    ingredients: ["chorizo sausages", "rosemary sprigs", "red onions", "red capsicums", "smoked paprika", "baby potatoes", "canned crushed tomatoes", "low-salt chicken stock"]
+  - title: "Charlie - my all-purpose stir-fry sauce"
+    page: 94
+    ingredients: ["light soy sauce", "oyster sauce", "Chinese cooking wine", "sesame oil", "white pepper"]
+  - title: "Build your own stir-fries and noodles"
+    page: 97
+    ingredients: ["fresh ginger", "chillies", "protein of your choice", "vegetables of your choice", "stir-fry sauce", "noodles"]
+  - title: "Easy everyday chicken stir-fry"
+    page: 98
+    ingredients: ["chicken breast fillets", "light soy sauce", "oyster sauce", "Chinese cooking wine", "sesame oil", "white pepper", "brown onions", "green beans", "red capsicums", "carrots"]
+  - title: "Vietnamese shaking beef"
+    page: 100
+    ingredients: ["beef rump steaks", "oyster sauce", "caster sugar", "fish sauce", "kecap manis", "limes"]
+  - title: "Chilli garlic ginger prawns"
+    page: 103
+    ingredients: ["prawns", "sesame oil", "garlic", "fresh ginger", "dried chilli flakes", "Sriracha sauce", "light soy sauce"]
+  - title: "Cashew chicken"
+    page: 104
+    ingredients: ["chicken thigh fillets", "brown onions", "green capsicums", "roasted unsalted cashew nuts", "light soy sauce", "Chinese cooking wine", "oyster sauce", "sesame oil", "white pepper"]
+  - title: "Crispy Chinese eggplant"
+    page: 106
+    ingredients: ["eggplants", "canola oil", "soda water", "caster sugar", "cooking sake", "tamarind purée", "ketchup", "light soy sauce", "glucose syrup", "Chinese five spice powder", "fresh ginger", "red miso", "white sesame seeds", "long red chillies", "green onions"]
+  - title: "Sesame ginger garlic stir-fried vegetables"
+    page: 108
+    ingredients: ["broccoli", "brown onions", "fresh ginger", "shiitake mushrooms", "carrots", "red capsicums", "baby corn", "hoisin sauce", "light soy sauce", "Chinese cooking wine", "white sesame seeds", "garlic"]
+  - title: "Crispy salt and pepper tofu"
+    page: 110
+    ingredients: ["firm tofu", "green onions", "long red chillies", "long green chillies", "table salt", "white pepper", "Chinese five spice powder", "ground fennel", "caster sugar"]
+  - title: "Vietnamese caramel pork mince"
+    page: 113
+    ingredients: ["brown onions", "fresh ginger", "pork mince", "fish sauce"]
+  - title: "Pad Thai"
+    page: 114
+    ingredients: ["pad Thai noodles", "brown onions", "chicken breast fillets", "eggs", "bean sprouts", "firm tofu", "garlic chives", "roasted unsalted peanuts", "tamarind purée", "fish sauce", "oyster sauce", "limes or lemons"]
+  - title: "Peking shredded beef"
+    page: 116
+    ingredients: ["beef Scotch fillet steaks", "Chinese cooking wine", "light soy sauce", "ketchup", "dark soy sauce", "honey", "sesame oil", "rice vinegar", "rice flour", "canola oil", "carrots", "green onions"]
+  - title: "Pad see ew"
+    page: 118
+    ingredients: ["Chinese broccoli", "wide rice stick noodles", "chicken thigh fillets", "eggs", "dark soy sauce", "light soy sauce", "oyster sauce", "white vinegar"]
+  - title: "Chinese fried rice"
+    page: 120
+    ingredients: ["bacon", "frozen mixed vegetables", "cooked white rice", "eggs", "green onions", "Chinese cooking wine", "oyster sauce", "light soy sauce", "white pepper"]
+  - title: "Chow mein"
+    page: 123
+    ingredients: ["chicken breast fillets", "chow mein noodles", "green cabbage", "carrots", "green onions", "bean sprouts", "light soy sauce", "oyster sauce", "Chinese cooking wine", "sesame oil", "white pepper"]
+  - title: "Malaysian Hokkien mee"
+    page: 124
+    ingredients: ["prawns", "fresh Hokkien noodles", "boneless pork belly", "anchovies in oil", "green cabbage", "carrots", "dark soy sauce", "light soy sauce", "oyster sauce"]
+  - title: "Chicken breast - pan-fry it"
+    page: 129
+    ingredients: ["boneless skinless chicken breasts", "sauce of your choice"]
+  - title: "Chicken breast - poach it"
+    page: 130
+    ingredients: ["boneless skinless chicken breasts"]
+  - title: "Chicken breast - bake it"
+    page: 131
+    ingredients: ["boneless skinless chicken breasts", "paprika", "dried oregano", "garlic powder"]
+  - title: "Crispy garlic chicken thighs"
+    page: 133
+    ingredients: ["boneless skinless chicken thighs", "garlic powder", "Chardonnay wine"]
+  - title: "Crazy crispy no-oil chicken"
+    page: 134
+    ingredients: ["chicken thighs"]
+  - title: "Butter-basted steak"
+    page: 137
+    ingredients: ["beef Scotch fillets", "unsalted butter", "garlic", "thyme sprigs"]
+  - title: "Pan-fried fish fillets"
+    page: 139
+    ingredients: ["white fish fillets", "lemons"]
+  - title: "Pan-seared salmon"
+    page: 141
+    ingredients: ["salmon fillets", "lemons"]
+  - title: "Garlic roasted mushrooms"
+    page: 143
+    ingredients: ["garlic", "portobello mushrooms"]
+  - title: "Smoky pork chops"
+    page: 145
+    ingredients: ["boneless pork chops", "smoked paprika", "garlic powder", "onion powder", "dried oregano", "mustard powder", "ground cumin", "ground sage"]
+  - title: "Rosemary garlic lamb cutlets"
+    page: 147
+    ingredients: ["lamb cutlets", "rosemary", "garlic"]
+  - title: "Saucy baked pork meatballs"
+    page: 151
+    ingredients: ["bay leaves", "dried thyme", "dried oregano", "tomato paste", "Chardonnay wine", "canned crushed tomatoes", "low-salt vegetable stock", "pork mince", "panko breadcrumbs", "eggs", "green onions", "ground sage", "onion powder", "Parmesan cheese", "mozzarella cheese", "spaghetti pasta"]
+  - title: "Saucy tomato sauce"
+    page: 151
+    ingredients: ["bay leaves", "dried thyme", "dried oregano", "tomato paste", "Chardonnay wine", "canned crushed tomatoes", "low-salt vegetable stock"]
+  - title: "French sausage and bean casserole"
+    page: 153
+    ingredients: ["speck (German)", "pork sausages", "brown onions", "carrots", "tomato paste", "thyme sprigs", "rosemary sprigs", "bay leaves", "Chardonnay wine", "canned cannellini beans", "low-salt chicken stock", "cherry tomatoes", "panko breadcrumbs", "parsley"]
+  - title: "Baked ratatouille with beans"
+    page: 154
+    ingredients: ["eggplants", "zucchini", "red capsicums", "yellow capsicums", "brown onions", "canned cannellini beans", "thyme", "canned crushed tomatoes", "pitted Kalamata olives", "basil"]
+  - title: "Chilli con carne"
+    page: 157
+    ingredients: ["brown onions", "red capsicums", "beef mince", "tomato paste", "canned crushed tomatoes", "canned red kidney beans", "beef bouillon cubes", "ground cumin", "paprika", "garlic powder", "onion powder", "dried oregano", "ground cayenne pepper", "sour cream", "Colby cheese", "avocados", "white rice"]
+  - title: "Creamy Tuscan chicken pasta bake"
+    page: 158
+    ingredients: ["penne pasta", "streaky bacon", "baby spinach", "sun-dried tomatoes in oil", "chicken thigh fillets", "Chardonnay wine", "milk", "thickened cream", "low-salt chicken stock", "onion powder", "garlic powder", "Parmesan cheese", "mozzarella cheese"]
+  - title: "Zuppa Toscana"
+    page: 160
+    ingredients: ["streaky bacon", "brown onions", "garlic", "Italian pork sausages", "low-salt chicken stock", "Sebago potatoes", "thickened cream", "kale"]
+  - title: "Pumpkin soup"
+    page: 163
+    ingredients: ["pumpkins", "brown onions", "low-salt vegetable stock", "thickened cream"]
+  - title: "Moroccan harira soup with lamb"
+    page: 164
+    ingredients: ["dried chickpeas", "lamb leg steaks", "brown onions", "celery", "green lentils", "cinnamon sticks", "ground turmeric", "ground cumin", "ground ginger", "low-salt chicken stock", "tomato passata", "angel hair pasta", "coriander sprigs"]
+  - title: "Spinach and ricotta cannelloni"
+    page: 167
+    ingredients: ["tomato sauce", "basil", "cannelloni tubes", "Parmesan cheese", "mozzarella cheese", "frozen chopped spinach", "ricotta cheese", "eggs", "ground nutmeg"]
+  - title: "My forever spaghetti Bolognese"
+    page: 168
+    ingredients: ["brown onions", "beef mince", "Pinot noir wine", "beef bouillon cubes", "canned crushed tomatoes", "tomato paste", "Worcestershire sauce", "bay leaves", "thyme sprigs", "spaghetti pasta", "Parmesan cheese"]
+  - title: "Creamy chicken and mushroom fettuccine"
+    page: 170
+    ingredients: ["chicken breast fillets", "garlic powder", "onion powder", "fettuccine pasta", "button mushrooms", "Chardonnay wine", "thickened cream", "Parmesan cheese", "chives"]
+  - title: "Restaurant-worthy easy prawn linguine"
+    page: 173
+    ingredients: ["prawns", "linguine pasta", "dried chilli flakes", "cherry tomatoes", "parsley", "eschalots", "canned anchovies", "bay leaves", "prawn heads", "prawn shells", "Chardonnay wine", "low-salt chicken stock"]
+  - title: "Mac and cheese"
+    page: 177
+    ingredients: ["macaroni pasta", "panko breadcrumbs", "garlic powder", "onion powder", "mustard powder", "milk", "Gruyère cheese", "mozzarella cheese"]
+  - title: "Chicken fricassee"
+    page: 178
+    ingredients: ["chicken thighs", "chicken drumsticks", "white button mushrooms", "brown onions", "fresh bay leaves", "thyme sprigs", "Chardonnay wine", "low-salt chicken stock", "thickened cream"]
+  - title: "The Bangkok - satay chicken noodle salad"
+    page: 183
+    ingredients: ["red curry paste", "natural peanut butter", "coconut milk", "apple cider vinegar", "fish sauce", "baby spinach", "pineapple", "bean sprouts", "green onions", "baby cucumbers", "poached chicken breasts", "roasted salted peanuts", "limes", "sesame oil", "light soy sauce", "wheat noodles"]
+  - title: "Island bliss - prawn salad with coconut lime dressing"
+    page: 184
+    ingredients: ["green apples", "limes", "green onions", "cooked prawns", "mint", "coriander leaves", "coconut cream", "fish sauce", "caster sugar", "fresh ginger", "wombok"]
+  - title: "The rainbow - quinoa salad with ginger dressing"
+    page: 186
+    ingredients: ["Lebanese cucumbers", "carrots", "red cabbage", "green onions", "cherry tomatoes", "frozen edamame", "red capsicums", "coriander leaves", "tricolour quinoa", "light soy sauce", "mirin", "rice wine vinegar", "sesame oil", "grapeseed oil", "Kewpie mayonnaise", "fresh ginger", "wasabi peas", "toasted white sesame seeds"]
+  - title: "Thai beef salad"
+    page: 188
+    ingredients: ["beef sirloin", "red bird's eye chillies", "coriander sprigs", "grapeseed oil", "lime juice", "fish sauce", "baby salad greens", "cherry tomatoes", "red onions", "Lebanese cucumbers", "mint", "roasted unsalted peanuts"]
+  - title: "The Kyoto - chicken soba salad with creamy sesame dressing"
+    page: 191
+    ingredients: ["soba noodles", "poached chicken breasts", "mixed baby greens", "wombok", "red onions", "Lebanese cucumbers", "avocados", "cherry tomatoes", "mint", "coriander leaves", "black sesame seeds", "toasted white sesame seeds", "Kewpie mayonnaise", "grapeseed oil", "light soy sauce", "rice vinegar", "mirin", "honey", "sesame oil", "white pepper"]
+  - title: "Devour - maple sweet potato salad with tamarind dressing"
+    page: 192
+    ingredients: ["kale", "cherry tomatoes", "red onions", "toasted pumpkin seeds", "sweet potatoes", "maple syrup", "tamarind purée", "grapeseed oil", "light soy sauce", "white pepper", "Kewpie mayonnaise", "canola oil", "wild rice"]
+  - title: "Ms Saigon - Vietnamese chicken salad"
+    page: 195
+    ingredients: ["poached chicken breasts", "wombok", "red onions", "red capsicums", "Lebanese cucumbers", "carrots", "mint", "coriander leaves", "roasted unsalted peanuts", "lime juice", "rice vinegar", "fish sauce", "grapeseed oil", "red bird's eye chillies"]
+  - title: "Chicken tinga tacos"
+    page: 198
+    ingredients: ["brown onions", "dried oregano", "low-salt chicken stock", "chipotle in adobo", "canned crushed tomatoes", "ground cumin", "chicken thigh fillets", "tortillas", "coriander leaves", "guacamole"]
+  - title: "Chipotle salmon tacos"
+    page: 201
+    ingredients: ["salmon fillets", "paprika", "ground coriander", "onion powder", "ground cumin", "chipotle powder", "tortillas", "limes"]
+  - title: "Steak fajitas"
+    page: 202
+    ingredients: ["beef rump steaks", "brown onions", "yellow capsicums", "red capsicums", "green capsicums", "orange juice", "limes", "ground coriander", "ground cumin", "onion powder", "chipotle powder", "coriander leaves", "tortillas", "avocados", "sour cream"]
+  - title: "Nachos of your dreams"
+    page: 204
+    ingredients: ["nacho cheese sauce", "corn chips", "Monterey Jack cheese", "pickled jalapeños", "dried oregano", "garlic powder", "onion powder", "ground cumin", "paprika", "brown onions", "beef mince", "canned black beans", "canned refried beans", "tomato paste", "guacamole", "sour cream", "pico de gallo", "coriander leaves"]
+  - title: "Beef enchiladas"
+    page: 207
+    ingredients: ["flour tortillas", "Monterey Jack cheese", "onion powder", "garlic powder", "ground cumin", "paprika", "dried oregano", "low-salt chicken stock", "tomato passata", "brown onions", "beef mince", "canned refried beans", "canned black beans"]
+  - title: "Mexican shredded beef"
+    page: 208
+    ingredients: ["beef chuck steaks", "garlic", "brown onions", "orange juice", "lime juice", "canned crushed tomatoes", "low-salt beef stock", "ground allspice", "ground coriander", "onion powder", "paprika", "dried oregano", "chipotle powder"]
+  - title: "Burritos"
+    page: 210
+    ingredients: ["flour tortillas", "beef chuck steaks", "garlic", "brown onions", "orange juice", "lime juice", "canned crushed tomatoes", "low-salt beef stock", "ground allspice", "ground coriander", "onion powder", "paprika", "dried oregano", "chipotle powder", "shredded cheese of your choice", "canned black beans", "canned corn", "tomatoes", "red onions", "jalapeños", "guacamole", "sour cream", "Sriracha sauce", "long-grain rice", "low-salt chicken stock", "tomato paste", "coriander sprigs"]
+  - title: "Baja fish tacos"
+    page: 212
+    ingredients: ["flathead fillets", "ground cumin", "garlic powder", "chipotle powder", "rice flour", "Corona beer", "corn tortillas", "avocado crema", "coriander leaves", "canola oil", "pickled cabbage"]
+  - title: "Pork carnitas"
+    page: 214
+    ingredients: ["ground cumin", "dried oregano", "boneless pork shoulder", "brown onions", "garlic", "orange juice", "corn tortillas", "pico de gallo", "white onions", "coriander leaves", "limes"]
+  - title: "Mushroom quesadillas"
+    page: 217
+    ingredients: ["portobello mushrooms", "chipotle powder", "Colby cheese", "flour tortillas", "sour cream", "pico de gallo", "guacamole", "limes"]
+  - title: "Nachos cheese sauce"
+    page: 219
+    ingredients: ["American-style burger cheese", "mozzarella cheese", "evaporated milk", "garlic powder", "onion powder", "thickened cream"]
+  - title: "Lime crema"
+    page: 219
+    ingredients: ["sour cream", "mayonnaise", "limes"]
+  - title: "Avocado crema"
+    page: 220
+    ingredients: ["avocados", "sour cream", "mayonnaise", "lime juice", "coriander leaves"]
+  - title: "Guacamole"
+    page: 220
+    ingredients: ["white onions", "jalapeños", "coriander leaves", "avocados", "lime juice"]
+  - title: "Instant spicy pink sauce"
+    page: 221
+    ingredients: ["sour cream", "Sriracha sauce"]
+  - title: "Taco sauce"
+    page: 221
+    ingredients: ["tomatoes", "jalapeños", "chipotle powder", "ground cumin", "dried oregano", "lime juice", "coriander leaves"]
+  - title: "Mango avocado salsa"
+    page: 222
+    ingredients: ["mangoes", "avocados", "red onions", "coriander leaves", "jalapeños", "lime juice"]
+  - title: "Taco slaw"
+    page: 222
+    ingredients: ["green cabbage", "green onions", "coriander leaves", "sour cream", "mayonnaise", "limes or lemons"]
+  - title: "Mexican red rice"
+    page: 223
+    ingredients: ["long-grain rice", "low-salt chicken stock", "tomato paste", "coriander sprigs"]
+  - title: "Pico de gallo"
+    page: 224
+    ingredients: ["tomatoes", "coriander leaves", "white onions", "jalapeños", "lime juice"]
+  - title: "Quick pickled cabbage"
+    page: 224
+    ingredients: ["green cabbage", "green onions"]
+  - title: "Warming tortillas"
+    page: 225
+    ingredients: ["tortillas"]
+  - title: "Thai chicken satay skewers"
+    page: 228
+    ingredients: ["chicken thigh fillets", "coconut milk", "curry powder", "red curry paste", "natural peanut butter", "dark soy sauce", "apple cider vinegar", "roasted unsalted peanuts"]
+  - title: "Chinese lettuce wraps (San choy bow)"
+    page: 231
+    ingredients: ["light soy sauce", "dark soy sauce", "oyster sauce", "sesame oil", "Chinese cooking wine", "peanut oil", "fresh ginger", "pork mince", "carrots", "canned water chestnuts", "canned baby corn", "shiitake mushrooms", "iceberg lettuce", "unsalted peanuts", "green onions"]
+  - title: "Prawn toast"
+    page: 232
+    ingredients: ["prawns", "caster sugar", "egg whites", "canola oil", "fresh ginger", "green onions", "white sandwich bread", "white sesame seeds", "sweet and sour sauce"]
+  - title: "Vietnamese rice paper rolls"
+    page: 234
+    ingredients: ["cooked prawns", "butter lettuce", "vermicelli noodles", "bean sprouts", "rice paper rounds", "mint", "natural peanut butter", "hoisin sauce", "white vinegar"]
+  - title: "Mum's gyoza"
+    page: 237
+    ingredients: ["wonton wrappers", "green cabbage", "pork mince", "garlic chives", "fresh ginger", "sesame oil", "rice wine vinegar", "rayu oil", "Japanese soy sauce"]
+  - title: "Spring rolls"
+    page: 238
+    ingredients: ["spring roll wrappers", "canola oil", "pork mince", "carrots", "bean sprouts", "green cabbage", "dried shiitake mushrooms", "light soy sauce", "sweet and sour sauce"]
+  - title: "Laksa"
+    page: 240
+    ingredients: ["low-salt chicken stock", "chicken drumsticks", "light soy sauce", "laksa curry paste", "Sriracha sauce", "sambal oelek", "fresh ginger", "lemongrass", "bird's eye chillies", "coconut milk", "fish sauce", "tofu puffs", "vermicelli noodles", "fresh Hokkien noodles", "bean sprouts", "coriander sprigs", "crispy fried shallots", "limes"]
+  - title: "Chinese noodle soup"
+    page: 242
+    ingredients: ["fresh thin egg noodles", "baby bok choy", "poached chicken", "low-salt chicken stock", "fresh ginger", "light soy sauce", "Chinese cooking wine", "sesame oil"]
+  - title: "Chinese broth"
+    page: 242
+    ingredients: ["low-salt chicken stock", "fresh ginger", "light soy sauce", "Chinese cooking wine", "sesame oil"]
+  - title: "Our secret family quick ramen"
+    page: 244
+    ingredients: ["pork lard", "sesame oil", "pork belly mince", "fresh ginger", "cooking sake", "fresh ramen noodles", "low-salt chicken stock", "dried shiitake mushrooms", "brown onions", "shiro miso", "light soy sauce", "dashi powder", "dark soy sauce", "eggs", "frozen corn kernels", "bean sprouts", "toasted white sesame seeds", "green onions"]
+  - title: "Wonton soup"
+    page: 246
+    ingredients: ["wonton wrappers", "green onions", "pork mince", "prawns", "fresh ginger", "light soy sauce", "Chinese cooking wine", "sesame oil", "Chinese broccoli", "fresh egg noodles", "low-salt chicken stock"]
+  - title: "Tachin"
+    page: 250
+    ingredients: ["dried barberries", "caster sugar", "basmati rice", "brown onions", "lamb mince", "ground allspice", "ground cardamom", "ground turmeric", "ground cinnamon", "canned crushed tomatoes", "toasted pine nuts", "saffron threads", "plain yoghurt", "ghee", "egg yolks"]
+  - title: "Yoghurt sauce"
+    page: 251
+    ingredients: ["plain yoghurt", "store-cupboard ingredients"]
+  - title: "Beef Wellington"
+    page: 252
+    ingredients: ["beef tenderloin", "prosciutto", "all-butter puff pastry", "portobello mushrooms", "eschalots", "eggs", "egg yolks", "red wine sauce"]
+  - title: "Christmas baked salmon"
+    page: 258
+    ingredients: ["sour cream", "dill", "eschalots", "lemons", "orange juice", "dried cranberries", "toasted slivered almonds", "flat-leaf parsley", "salmon side", "unsalted butter", "honey", "pomegranates"]
+  - title: "Lamb shanks in red wine sauce"
+    page: 260
+    ingredients: ["lamb shanks", "tomato paste", "low-salt beef stock", "brown onions", "carrots", "celery", "Pinot noir wine", "thyme sprigs", "fresh bay leaves"]
+  - title: "Slow-cooked beef ribs in Korean BBQ sauce"
+    page: 265
+    ingredients: ["beef short ribs", "garlic", "mirin", "rice vinegar", "light soy sauce", "ketchup", "green onions"]
+  - title: "Pork ribs with BBQ sauce"
+    page: 266
+    ingredients: ["pork ribs", "apple cider (alcohol)", "paprika", "garlic powder", "dried thyme", "dried oregano", "onion powder", "ground cayenne pepper", "apple cider vinegar", "ketchup", "molasses", "Worcestershire sauce", "mustard powder"]
+  - title: "The best ever lamb shoulder"
+    page: 269
+    ingredients: ["lamb shoulder", "brown onions", "rosemary", "dried oregano"]
+  - title: "Juiciest, easiest roast chicken ever"
+    page: 270
+    ingredients: ["whole chicken", "Sebago potatoes", "carrots", "onion powder", "dried thyme", "garlic powder", "paprika"]
+  - title: "Beef brisket with BBQ sauce"
+    page: 273
+    ingredients: ["beef brisket", "paprika", "onion powder", "garlic powder", "ground cumin", "mustard powder", "garlic", "apple cider vinegar", "ketchup", "brown sugar", "ground cayenne pepper", "Worcestershire sauce"]
+  - title: "Ultra-crispy slow-roasted pork belly"
+    page: 274
+    ingredients: ["pork belly", "thickened cream", "wholegrain mustard"]
+  - title: "Mushroom lasagne"
+    page: 276
+    ingredients: ["fresh lasagne pasta", "Swiss cheese", "Parmesan cheese", "dried porcini mushrooms", "Chardonnay wine", "white button mushrooms", "brown onions", "carrots", "celery", "tomato paste", "oregano", "rosemary", "low-salt vegetable stock", "canned crushed tomatoes", "fresh bay leaves", "unsalted butter", "milk", "white pepper", "ground nutmeg"]
+  - title: "Chicken ragu"
+    page: 281
+    ingredients: ["chicken thighs", "pappardelle pasta", "Parmigiano Reggiano cheese", "bacon", "brown onions", "carrots", "celery", "tomato paste", "tomato passata", "Pinot noir wine", "low-salt beef stock", "fresh bay leaves", "thyme sprigs"]
+  - title: "Stuffed butternut pumpkin"
+    page: 285
+    ingredients: ["butternut pumpkins", "red onions", "white button mushrooms", "Puy lentils", "dried cranberries", "rosemary", "thyme", "ground nutmeg", "Pinot noir wine", "cooked brown rice", "baby spinach", "pistachio nuts", "roasted unsalted cashew nuts", "roasted almonds"]
+  - title: "Spanish seafood stew"
+    page: 288
+    ingredients: ["ling fillets", "prawns", "mussels", "Chardonnay wine", "brown onions", "squid", "flat-leaf parsley", "lemons", "tomatoes", "blanched almonds", "white bread"]
+  - title: "Shepherd's pie and cottage pie"
+    page: 290
+    ingredients: ["brown onions", "carrots", "celery", "dried thyme", "dried rosemary", "lamb mince", "tomato paste", "low-salt beef stock", "Pinot noir wine", "beef bouillon cubes", "Worcestershire sauce", "bay leaves", "frozen peas", "Sebago potatoes", "white pepper", "Parmesan cheese"]
+  - title: "Guinness stew"
+    page: 292
+    ingredients: ["beef chuck steaks", "brown onions", "streaky bacon", "carrots", "celery", "Guinness", "low-salt chicken stock", "tomato paste", "bay leaves", "thyme sprigs"]
+  - title: "Beef lasagne"
+    page: 294
+    ingredients: ["fresh lasagne pasta", "mozzarella cheese", "Parmesan cheese", "brown onions", "carrots", "celery", "beef mince", "pork mince", "canned crushed tomatoes", "tomato paste", "Pinot noir wine", "beef bouillon cubes", "fresh bay leaves", "dried thyme", "dried oregano", "Worcestershire sauce", "white pepper", "milk", "ground nutmeg", "Gruyère cheese"]
+  - title: "Eggplant Parmigiana"
+    page: 297
+    ingredients: ["eggplants", "Parmesan cheese", "basil", "mozzarella cheese", "brown onions", "garlic", "tomato passata", "canned crushed tomatoes", "oregano"]
+  - title: "Apple crumble"
+    page: 301
+    ingredients: ["Granny Smith apples", "ground cinnamon", "rolled oats", "plain flour", "brown sugar", "unsalted butter", "vanilla ice cream"]
+  - title: "My forever chocolate cake"
+    page: 302
+    ingredients: ["plain flour", "unsweetened cocoa powder", "white sugar", "eggs", "milk", "instant coffee powder"]
+  - title: "My perfect vanilla cake"
+    page: 304
+    ingredients: ["plain flour", "eggs", "caster sugar", "unsalted butter", "milk", "vanilla extract"]
+  - title: "Base buttercream frosting"
+    page: 308
+    ingredients: ["unsalted butter", "icing sugar", "flavouring of your choice"]
+  - title: "Chocolate buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "unsweetened cocoa powder"]
+  - title: "Coconut buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "coconut cream", "coconut extract"]
+  - title: "Vanilla buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "vanilla extract"]
+  - title: "Lemon buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "lemons", "lemon extract"]
+  - title: "Nutella buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "Nutella"]
+  - title: "Bailey's Irish cream! buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "Baileys Irish Cream liqueur"]
+  - title: "Peanut butter buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "natural peanut butter"]
+  - title: "Margarita! buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "limes", "tequila"]
+  - title: "Mint chocolate buttercream frosting"
+    page: 309
+    ingredients: ["unsalted butter", "icing sugar", "peppermint extract", "green food colouring", "dark chocolate"]
+  - title: "Death by chocolate caramel cake"
+    page: 311
+    ingredients: ["plain flour", "unsweetened cocoa powder", "white sugar", "eggs", "milk", "instant coffee powder", "dark chocolate", "caster sugar", "cream", "unsalted butter", "icing sugar"]
+  - title: "Simple strawberries and cream"
+    page: 315
+    ingredients: ["strawberries", "caster sugar", "slivered almonds", "thickened cream", "vanilla bean paste"]
+  - title: "Lime Prosecco granita"
+    page: 316
+    ingredients: ["white sugar", "Prosecco wine", "limes"]
+  - title: "Blueberry tart with almond filling"
+    page: 318
+    ingredients: ["plain flour", "almond meal", "unsalted butter", "eggs", "almond essence", "blueberries"]
+  - title: "Lemon cheesecake"
+    page: 320
+    ingredients: ["Marie biscuits", "caster sugar", "cream cheese", "lemons", "eggs", "unsalted butter"]
+  - title: "Creamy mushroom sauce"
+    page: 325
+    ingredients: ["button mushrooms", "Chardonnay wine", "thickened cream", "Parmesan cheese", "thyme"]
+  - title: "Gravy"
+    page: 326
+    ingredients: ["drippings", "low-salt beef stock", "store-cupboard ingredients"]
+  - title: "Honey garlic sauce"
+    page: 326
+    ingredients: ["apple cider vinegar", "light soy sauce", "honey", "garlic"]
+  - title: "Red wine sauce"
+    page: 327
+    ingredients: ["Cabernet Sauvignon wine", "eschalots", "beef stock", "caster sugar"]
+  - title: "Sweet and sour sauce"
+    page: 327
+    ingredients: ["apple cider vinegar", "ketchup", "light soy sauce"]
+  - title: "White wine sauce"
+    page: 328
+    ingredients: ["Chardonnay wine", "eschalots", "white pepper", "thickened cream"]
+  - title: "Brown butter and lemon butter sauce"
+    page: 328
+    ingredients: ["salted butter", "lemons"]
+  - title: "Chimichurri"
+    page: 330
+    ingredients: ["parsley", "store-cupboard ingredients"]
+  - title: "My favourite blue cheese sauce"
+    page: 330
+    ingredients: ["rosemary sprigs", "Chardonnay wine", "thickened cream", "Gorgonzola piccante cheese", "white pepper"]
+  - title: "Bearnaise sauce"
+    page: 331
+    ingredients: ["unsalted butter", "egg yolks", "chervil", "Chardonnay wine", "eschalots", "tarragon sprigs", "flavored vinegar of your choice"]
+  - title: "Honey mustard sauce"
+    page: 331
+    ingredients: ["mayonnaise", "Dijon mustard", "honey"]
+  - title: "Everyday salad dressing"
+    page: 333
+    ingredients: ["apple cider vinegar", "store-cupboard ingredients"]
+  - title: "Lemon dressing"
+    page: 333
+    ingredients: ["lemons", "store-cupboard ingredients"]
+  - title: "Balsamic dressing"
+    page: 333
+    ingredients: ["balsamic vinegar", "store-cupboard ingredients"]
+  - title: "Ginger dressing"
+    page: 333
+    ingredients: ["fresh ginger", "light soy sauce", "sesame oil", "rice vinegar", "caster sugar"]
+  - title: "French dressing"
+    page: 333
+    ingredients: ["extra virgin olive oil", "store-cupboard ingredients"]
+  - title: "Italian dressing"
+    page: 333
+    ingredients: ["Parmesan cheese", "caster sugar", "dried chilli flakes", "dried basil", "dried parsley", "dried oregano"]
+  - title: "Mediterranean dressing"
+    page: 333
+    ingredients: ["dried oregano", "store-cupboard ingredients"]
+  - title: "Asian sesame dressing"
+    page: 333
+    ingredients: ["light soy sauce", "white vinegar", "sesame oil", "caster sugar"]
+  - title: "White rice"
+    page: 335
+    ingredients: ["long-grain rice"]
+  - title: "Brown rice"
+    page: 335
+    ingredients: ["medium-grain brown rice"]
+  - title: "Jasmine rice"
+    page: 336
+    ingredients: ["jasmine rice"]
+  - title: "Basmati rice"
+    page: 336
+    ingredients: ["white basmati rice"]
+  - title: "Cauliflower rice"
+    page: 336
+    ingredients: ["cauliflower"]
+  - title: "Fluffy coconut rice"
+    page: 337
+    ingredients: ["jasmati rice", "coconut milk"]
+  - title: "Creamy mashed potato"
+    page: 338
+    ingredients: ["Sebago potatoes", "store-cupboard ingredients"]
+  - title: "Creamy mashed cauliflower (puree)"
+    page: 338
+    ingredients: ["cauliflower", "Parmesan cheese", "sour cream"]
+  - title: "Garlic roast potatoes"
+    page: 339
+    ingredients: ["baby potatoes", "garlic", "thyme sprigs", "rosemary sprigs"]
+  - title: "Easy crusty artisan bread"
+    page: 341
+    ingredients: ["bread flour", "instant yeast"]
+  - title: "Easy flatbread"
+    page: 342
+    ingredients: ["plain flour"]
+  - title: "Cornbread muffins"
+    page: 342
+    ingredients: ["fine cornmeal", "plain flour", "unsalted butter", "eggs", "canned creamed corn"]
+  - title: "No-yeast rolls"
+    page: 344
+    ingredients: ["plain flour", "store-cupboard ingredients"]
+  - title: "Vegetable stock"
+    page: 347
+    ingredients: ["carrots", "brown onions", "celery", "parsley stalks", "bay leaves", "thyme sprigs", "black peppercorns", "coriander seeds"]
+  - title: "Beef stock"
+    page: 348
+    ingredients: ["beef bones", "carrots", "tomatoes", "apple cider vinegar", "coriander seeds", "black peppercorns", "celery", "bay leaves", "thyme sprigs", "celery leaves"]
+  - title: "Chicken stock"
+    page: 349
+    ingredients: ["chicken carcass", "carrots", "celery", "celery leaves", "black peppercorns", "apple cider vinegar", "bay leaves", "thyme sprigs", "parsley"]
