@@ -12,7 +12,7 @@ Hero: /images/cover2.png
 ^ +Categories:.+\n +
 ^ *\d\n
 
-^ +([A-Za-z ,'-:é&!áö"èùê\(\)]+) \(page ([0-9]+)\)
+^ +([A-Za-z ,'-:é&!áö"èùêàâ\(\)%\[\]']+) \(page ([0-9]+)\)
   - title: "\1"
     page: \2
 

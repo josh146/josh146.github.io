@@ -1,0 +1,292 @@
+book: "The French Baker"
+author: "Jean Michel Raynaud"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-french-baker-authentic-french-154955l3.jpg"
+recipes:
+  - title: "Almond biscotti (Croquants aux amandes)"
+    page: 32
+    ingredients: ["plain flour", "caster sugar", "almond meal", "eggs", "orange blossom water", "almonds", "pistachios"]
+  - title: "Almond tuiles (Tuiles aux amandes)"
+    page: 34
+    ingredients: ["unsalted butter", "egg whites", "caster sugar", "flaked almonds"]
+  - title: "Orange and cinnamon lace tuiles (Tuiles dentelle à l'orange et à la cannelle)"
+    page: 35
+    ingredients: ["orange juice", "ground cinnamon", "oranges", "store-cupboard ingredients"]
+  - title: "Florentines"
+    page: 37
+    ingredients: ["flaked almonds", "almond meal", "candied orange peel", "glace cherries", "unsalted butter", "caster sugar", "honey", "whipping cream", "dark chocolate"]
+  - title: "Traditional Nancy macarons (Macarons de Nancy)"
+    page: 38
+    ingredients: ["almond meal", "caster sugar", "egg whites", "bitter almond essence", "icing sugar"]
+  - title: "Coconut macaroons with orgeat syrup (Congolais à l'orgeat)"
+    page: 40
+    ingredients: ["shredded coconut", "egg whites", "honey", "caster sugar", "orgeat syrup"]
+  - title: "Jam shortbreads (Sablés à la confiture)"
+    page: 41
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "strawberry jam"]
+  - title: "Chocolate, almond and pistachio biscuits (Biscuits au chocolat, aux amandes et aux pistaches)"
+    page: 42
+    ingredients: ["blanched almonds", "pistachio nuts", "dark chocolate", "unsalted butter", "plain flour", "caster sugar", "eggs"]
+  - title: "French vanilla crostoli (Bugnes)"
+    page: 45
+    ingredients: ["eggs", "vanilla extract", "rum", "plain flour", "maize cornflour", "lemons", "unsalted butter", "vegetable oil"]
+  - title: "Orange blossom navettes (Navettes à l'eau de fleur d'oranger)"
+    page: 46
+    ingredients: ["plain flour", "caster sugar", "eggs", "olive oil", "oranges", "orange blossom water"]
+  - title: "Flourless Moroccan orange and almond cake (Gâteau Marocain)"
+    page: 52
+    ingredients: ["oranges", "almond meal", "eggs", "blood oranges", "almonds", "candied lemon slices", "edible flowers"]
+  - title: "Baked cheesecake with mandarin-chocolate sauce (Gâteau au fromage, sauce mandarine-chocolat)"
+    page: 54
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "cream cheese", "Greek yoghurt", "maize cornflour", "eggs", "egg yolks", "mandarin juice", "whipping cream", "mandarins", "egg whites", "dark chocolate", "milk chocolate", "honey"]
+  - title: "Madeleines"
+    page: 57
+    ingredients: ["unsalted butter", "plain flour", "eggs", "caster sugar", "lemons"]
+  - title: "Raspberry and coconut friands (Financiers aux framboises et à la noix de coco)"
+    page: 58
+    ingredients: ["almond meal", "icing sugar", "plain flour", "egg whites", "unsalted butter", "raspberries", "flaked coconut"]
+  - title: "Chocolate and walnut butter fudge cake (Fondant au chocolat et aux noix)"
+    page: 61
+    ingredients: ["egg yolks", "Demerara sugar", "honey", "caster sugar", "milk chocolate", "unsalted butter", "egg whites", "walnuts", "lemons", "plain flour", "whipping cream", "pistachio slivers"]
+  - title: "Banana and caramel muffins (Muffins caramel-banane)"
+    page: 62
+    ingredients: ["bananas", "lemons", "unsalted butter", "caster sugar", "plain flour", "eggs", "milk", "vegetable oil"]
+  - title: "Bread and butter pudding (Diplomate)"
+    page: 63
+    ingredients: ["stale croissants", "stale brioche", "sultanas", "milk", "unsalted butter", "vanilla beans", "eggs", "caster sugar", "rum", "apricot jam"]
+  - title: "Chestnut cake with salted caramel ganache (Ardéchois à la crème de marrons et ganache au caramel salé)"
+    page: 65
+    ingredients: ["crème de marrons", "unsalted butter", "eggs", "egg yolks", "rum", "honey", "plain flour", "candied chestnuts", "almonds", "whipping cream", "caster sugar", "dark chocolate", "fleur de sel"]
+  - title: "Date and pear pound cake (Quatre-quarts à la poire et aux dates)"
+    page: 66
+    ingredients: ["dates", "sultanas", "unsalted butter", "caster sugar", "Greek yoghurt", "honey", "eggs", "plain flour", "rum", "Williams pear", "ground cinnamon", "slivered pistachios", "flaked almonds", "glace cherries"]
+  - title: "Olive oil cake with candied lemons and lavender (Gâteau à l'huile d'olive, au citron confit et à la lavande)"
+    page: 69
+    ingredients: ["plain flour", "caster sugar", "eggs", "milk", "virgin olive oil", "limoncello", "lavender essence", "vanilla beans", "lemons"]
+  - title: "Chartreuse soufflé with peppered strawberry coulis (Soufflé à Chartreuse et coulis de fraises poivrées)"
+    page: 70
+    ingredients: ["egg whites", "caster sugar", "milk", "vanilla beans", "egg yolks", "Chartreuse", "strawberries", "lemons", "black peppercorns"]
+  - title: "Caramel and orange blossom rice cakes (Gâteaux de riz au caramel et à la fleur d'oranger)"
+    page: 72
+    ingredients: ["Arborio rice", "milk", "whipping cream", "vanilla beans", "sultanas", "eggs", "caster sugar", "orange blossom water"]
+  - title: "Shortcrust pastry (Pâte sablée)"
+    page: 80
+    ingredients: ["plain flour", "butter", "caster sugar"]
+  - title: "Savoury shortcrust pastry (Pâte brisée)"
+    page: 84
+    ingredients: ["plain flour", "butter", "egg yolks"]
+  - title: "Sweet shortcrust pastry (Pâte sucrée)"
+    page: 86
+    ingredients: ["caster sugar", "unsalted butter", "eggs", "egg yolks", "plain flour", "almond meal"]
+  - title: "Ricotta, orange, chocolate and pastis tart (Tarte ricotta-orange au chocolat et au pastis)"
+    page: 92
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "ricotta cheese", "mascarpone", "honey", "egg yolks", "dark chocolate", "oranges", "pastis"]
+  - title: "Almond butter Basque cake (Gâteau Basque)"
+    page: 94
+    ingredients: ["caster sugar", "unsalted butter", "eggs", "egg yolks", "plain flour", "almond meal", "milk", "rum", "maize cornflour"]
+  - title: "Lavender crème brûlée tarts (Tartes crème brûlée à la lavande)"
+    page: 96
+    ingredients: ["egg yolks", "caster sugar", "milk", "whipping cream", "vanilla beans", "unsalted butter", "eggs", "plain flour", "almond meal", "lavender essence"]
+  - title: "Fig and rose pistachio tart ( Tarte à la pistache, aux figues et à l'eau de rose)"
+    page: 99
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "rosewater", "eggs", "egg yolks", "pistachio meal", "rum", "figs"]
+  - title: "Upside-down apple and rhubarb tart (Tarte Tatin à la rhubarbe)"
+    page: 100
+    ingredients: ["unsalted butter", "caster sugar", "rhubarb", "Granny Smith apples", "lemons", "plain flour"]
+  - title: "Liquorice and banana tart (Tarte banane-réglisse)"
+    page: 101
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "bananas", "lemons", "milk", "whipping cream", "soft liquorice", "maize cornflour", "eggs"]
+  - title: "Cherry clafoutis (Clafoutis aux cerises)"
+    page: 102
+    ingredients: ["milk", "whipping cream", "vanilla beans", "caster sugar", "eggs", "plain flour", "unsalted butter", "black cherries"]
+  - title: "Lemon and basil meringue tart (Tarte meringuée au citron et au basilic)"
+    page: 104
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "egg whites", "icing sugar", "basil", "lemons", "vanilla beans", "eggs", "egg yolks"]
+  - title: "Pear and almond cream tart with pear liqueur (Tarte amandine aux poires et à la Williamine)"
+    page: 107
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "eggs", "egg yolks", "rum", "vanilla beans", "Williams pear", "pear eau de vie"]
+  - title: "Chocolate ganache tart with fresh raspberries (Tarte ganache aux framboises fraiches)"
+    page: 108
+    ingredients: ["plain flour", "unsalted butter", "caster sugar", "cocoa powder", "raspberries", "pistachios", "dark chocolate", "honey", "whipping cream"]
+  - title: "Almond and spiced orange tart (Conversation aux oranges épicées)"
+    page: 109
+    ingredients: ["plain flour", "unsalted butter", "orange blossom water", "caster sugar", "eggs", "egg yolks", "rum", "Chinese five spice powder", "oranges", "egg whites", "icing sugar", "lemons", "almond meal"]
+  - title: "Silver beet and raisin tart (Tartes aux blettes et aux raisins)"
+    page: 110
+    ingredients: ["plain flour", "unsalted butter", "egg yolks", "silver beet", "vegetable bouillon powder", "Camargue white rice", "onions", "speck (German)", "ham", "whipping cream", "eggs", "nutmeg", "Gruyere", "Parmesan cheese", "raisins"]
+  - title: "Beef Burgundy pie (Tourte au boeuf Bourguignon)"
+    page: 112
+    ingredients: ["eggs", "egg yolks", "plain flour", "unsalted butter", "maize cornflour", "red wine", "onions", "smoked bacon", "button mushrooms", "baby carrots", "celery", "tomato paste", "beef chuck steaks", "beef stock", "thyme", "bay leaves"]
+  - title: "Chicken, leek and laurel pies (Tourtes de poulet aux poireaux et au laurier)"
+    page: 114
+    ingredients: ["leeks", "whipping cream", "maize cornflour", "onions", "bay leaves", "boneless skinless chicken thighs", "plain flour", "unsalted butter", "egg yolks", "eggs"]
+  - title: "Blue cheese and prosciutto tart (Tarte au jambon cru et au Roquefort)"
+    page: 116
+    ingredients: ["plain flour", "unsalted butter", "egg yolks", "whipping cream", "milk", "eggs", "nutmeg", "Gruyère cheese", "Roquefort cheese", "prosciutto"]
+  - title: "Quiche Lorraine"
+    page: 117
+    ingredients: ["plain flour", "unsalted butter", "egg yolks", "whipping cream", "milk", "eggs", "speck (German)", "Gruyère cheese"]
+  - title: "Choux pastry (Paté à choux)"
+    page: 122
+    ingredients: ["milk", "unsalted butter", "plain flour", "eggs"]
+  - title: "Pearl sugar puffs (Chouquettes)"
+    page: 126
+    ingredients: ["eggs", "milk", "unsalted butter", "plain flour", "pearl sugar"]
+  - title: "Strawberry and mandarin éclairs (Eclairs à la fraise et à la mandarine)"
+    page: 128
+    ingredients: ["milk", "unsalted butter", "plain flour", "eggs", "maize cornflour", "caster sugar", "egg yolks", "strawberry purée", "mandarins", "vanilla beans", "whipping cream", "Demerara sugar", "red food colouring"]
+  - title: "Peanut butter and milk chocolate puffs (Choux beurre de cacachouète-chocolat au lait)"
+    page: 132
+    ingredients: ["eggs", "milk", "unsalted butter", "plain flour", "salted peanuts", "vanilla beans", "maize cornflour", "caster sugar", "egg yolks", "milk chocolate", "smooth peanut butter", "whipping cream"]
+  - title: "Anise and lemon nun's puffs (Pets de nonne citronnés à l'anis)"
+    page: 135
+    ingredients: ["caster sugar", "ground star anise", "milk", "unsalted butter", "plain flour", "eggs", "lemons", "vanilla beans", "vegetable oil"]
+  - title: "Gruyère Béchamel-filled puffs (Gougères fourrées à la Béchamel au Gruyère)"
+    page: 136
+    ingredients: ["eggs", "milk", "unsalted butter", "plain flour", "Gruyère cheese", "ground nutmeg"]
+  - title: "Clam and pesto gnocchi (Gnocchi au pistou et au palourdes)"
+    page: 138
+    ingredients: ["milk", "unsalted butter", "plain flour", "onions", "thyme", "whipping cream", "dry white wine", "clams", "lemons", "basil", "garlic", "Parmesan cheese", "roasted pine nuts", "EVOO"]
+  - title: "Traditional puff pastry (Pâte feuilletée)"
+    page: 145
+    ingredients: ["plain flour", "unsalted butter"]
+  - title: "Iced puff pastry fingers (Allumettes glacées)"
+    page: 150
+    ingredients: ["plain flour", "unsalted butter", "egg whites", "icing sugar"]
+  - title: "Hazelnut palmiers (Palmiers aux noisettes)"
+    page: 151
+    ingredients: ["hazelnuts", "plain flour", "unsalted butter", "caster sugar", "cocoa powder", "milk powder"]
+  - title: "Ricotta and fig pastries (Feuilletés ricotta-figue)"
+    page: 152
+    ingredients: ["ricotta cheese", "Greek yoghurt", "lemons", "caster sugar", "vanilla beans", "honey", "figs", "eggs", "egg yolks", "plain flour", "unsalted butter"]
+  - title: "Baked apples in pastry with Calvados and vanilla bean (Douillons de pommes au Calvados et gousse de vanille)"
+    page: 154
+    ingredients: ["plain flour", "unsalted butter", "Calvados", "oranges", "reinette apples", "caster sugar", "eggs", "egg yolks", "vanilla beans"]
+  - title: "Frangipane pie (Pithiviers)"
+    page: 157
+    ingredients: ["unsalted butter", "plain flour", "caster sugar", "eggs", "egg yolks", "rum", "almond meal", "milk", "vanilla beans", "maize cornflour"]
+  - title: "Cheese sticks (Batons Gruyère-Parmesan)"
+    page: 158
+    ingredients: ["Gruyère cheese", "Parmesan cheese", "eggs", "plain flour"]
+  - title: "Olive tapenade and halloumi swirls (Roulades à la tapenade et au haloumi)"
+    page: 160
+    ingredients: ["unsalted butter", "plain flour", "halloumi cheese", "green olives", "capers", "anchovy fillets", "lemons", "EVOO"]
+  - title: "Speck and pumpkin tart (Tarte au potiron et aux lardons)"
+    page: 164
+    ingredients: ["unsalted butter", "plain flour", "eggs", "egg yolks", "Kent pumpkin", "whipping cream", "nutmeg", "speck (German)"]
+  - title: "Potato and cream tart (Tarte gratinée)"
+    page: 167
+    ingredients: ["unsalted butter", "plain flour", "potatoes", "whipping cream", "nutmeg", "eggs", "Gruyère cheese"]
+  - title: "Goat's cheese, tomato and basil tart (Tarte au fromage de Banon)"
+    page: 168
+    ingredients: ["unsalted butter", "plain flour", "Roma tomatoes", "black olives", "Banon", "onions", "cherry tomatoes", "thyme", "basil"]
+  - title: "Croissant dough (Pâte à croissant)"
+    page: 174
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "milk", "unsalted butter"]
+  - title: "Making the croissants"
+    page: 180
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "milk", "unsalted butter", "eggs"]
+  - title: "Chocolate and hazelnut croissants (Pains au chocolat et aux noisettes)"
+    page: 183
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "milk", "unsalted butter", "eggs", "dark chocolate", "hazelnuts"]
+  - title: "Almond croissants (Croissants aux amandes)"
+    page: 184
+    ingredients: ["day-old croissants", "caster sugar", "eggs", "egg yolks", "rum", "almond meal", "flaked almonds"]
+  - title: "Peach and lemon pastries (Fourrés aux pêches et au citron)"
+    page: 187
+    ingredients: ["milk", "vanilla beans", "maize cornflour", "eggs", "egg yolks", "caster sugar", "lemons", "whipping cream", "peaches", "plain flour", "dried yeast", "unsalted butter"]
+  - title: "Pistachio and raspberry swirls (Roulades pistache-framboise)"
+    page: 188
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "milk", "unsalted butter", "eggs", "egg yolks", "rum", "pistachio flour", "frozen raspberries"]
+  - title: "Brioche dough (Pâte au brioche)"
+    page: 194
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "eggs", "unsalted butter"]
+  - title: "Candied orange peel and pearl sugar brioche (Brioche au sucre et au écorces d'oranges)"
+    page: 198
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "eggs", "unsalted butter", "orange blossom water", "orange peel", "pearl sugar"]
+  - title: "French toast (Pain perdu)"
+    page: 199
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "eggs", "unsalted butter", "milk", "vanilla beans"]
+  - title: "Cinnamon doughnuts (Beignets à la cannelle)"
+    page: 201
+    ingredients: ["caster sugar", "ground cinnamon", "vanilla beans", "canola oil", "plain flour", "eggs", "dried yeast", "milk", "lemons", "unsalted butter"]
+  - title: "Snails (Pains au raisins)"
+    page: 202
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "eggs", "unsalted butter", "raisins", "vanilla beans", "rum", "milk", "maize cornflour", "egg yolks", "whipping cream"]
+  - title: "Chocolate and banana pizzas (Pizzas banane-chocolat)"
+    page: 205
+    ingredients: ["plain flour", "caster sugar", "dried yeast", "eggs", "unsalted butter", "bananas", "dark chocolate", "whipping cream"]
+  - title: "French panettone (Pastis Landais)"
+    page: 206
+    ingredients: ["eggs", "pearl sugar", "plain flour", "dried yeast", "milk", "vanilla beans", "rum", "caster sugar", "orange blossom water", "unsalted butter"]
+  - title: "Bread, direct method (Pain méthode directe)"
+    page: 214
+    ingredients: ["plain flour", "dried yeast"]
+  - title: "Semi-sourdough bread (Pain sur poolish)"
+    page: 220
+    ingredients: ["dried yeast", "plain flour"]
+  - title: "Traditional walnut and raisin loaf (Miche traditionnelle aux noix et aux raisins)"
+    page: 222
+    ingredients: ["plain flour", "dried yeast", "roasted walnuts", "raisins"]
+  - title: "Country bread (Pain de campagne)"
+    page: 223
+    ingredients: ["dried yeast", "plain flour", "rye flour"]
+  - title: "Provençal olive bread (Fougasse aux olives)"
+    page: 225
+    ingredients: ["milk", "fleur de sel", "thyme", "plain flour", "dried yeast", "black olives"]
+  - title: "Onion and anchovy focaccia (Pissaladière)"
+    page: 226
+    ingredients: ["brown onions", "anchovy paste", "black olives", "anchovy fillets", "thyme sprigs", "plain flour", "milk", "caster sugar", "dried yeast"]
+  - title: "Sugar fougasse (Fougasse au sucre)"
+    page: 229
+    ingredients: ["unsalted butter", "caster sugar", "whipping cream", "plain flour", "dried yeast"]
+  - title: "Margherita pizza (Pizza Margherita)"
+    page: 230
+    ingredients: ["EVOO", "plain flour", "dried yeast", "buffalo mozzarella cheese sheets", "brown onions", "vine tomatoes", "dried oregano", "thyme sprigs", "basil"]
+  - title: "Yogurt bread (Pain de mie au yaourt)"
+    page: 232
+    ingredients: ["dried yeast", "plain flour", "honey", "Greek yoghurt", "eggs"]
+  - title: "Olive oil and orange-blossom sweet bread (Pompe à l'huile d'olive et à la fleur d'oranger)"
+    page: 236
+    ingredients: ["milk", "egg yolks", "dried yeast", "plain flour", "caster sugar", "orange blossom water", "olive oil"]
+  - title: "Potato, black olive and herb fougasse (Fougasse aux herbes, à la pomme de terre et aux olives noires)"
+    page: 238
+    ingredients: ["dried yeast", "plain flour", "potatoes", "rosemary sprigs", "thyme", "black olives"]
+  - title: "Apricot, saffron and yoghurt pockets (Chausson à l'abricot safrané et au yaourt)"
+    page: 240
+    ingredients: ["milk", "egg yolks", "Greek yoghurt", "flaked almonds", "dried yeast", "plain flour", "caster sugar", "vanilla beans", "apricots", "saffron threads"]
+  - title: "Raspberry and coconut jam (Confiture de framboises à la noix de coco)"
+    page: 247
+    ingredients: ["caster sugar", "pectin powder", "tinned coconut cream", "raspberries"]
+  - title: "Strawberry, mint and lime jam (Confiture de fraises à la menthe et au citron vert)"
+    page: 248
+    ingredients: ["caster sugar", "pectin powder", "mint", "strawberries", "limes"]
+  - title: "Rockmelon, cinnamon and confit lemon jam (Confiture de melon à la cannelle et au citron confit)"
+    page: 249
+    ingredients: ["lemons", "caster sugar", "ground cinnamon", "pectin powder", "rockmelons", "vanilla beans"]
+  - title: "Peppered pineapple jam (Confiture d'ananas poivrée)"
+    page: 250
+    ingredients: ["lemons", "pineapple", "pectin powder", "vanilla beans", "caster sugar", "black pepper"]
+  - title: "Pear and orgeat syrup compote (Compote de poires à l'orgeat)"
+    page: 253
+    ingredients: ["Williams pears", "lemons", "caster sugar", "orgeat syrup", "vanilla beans"]
+  - title: "Apricot and lemon verbena compote (Compote d'abricots à la verveine citronnelle)"
+    page: 254
+    ingredients: ["lemon verbena", "apricots", "caster sugar", "vanilla beans"]
+  - title: "Apple and rhubarb compote (Compote de pommes et de rhubarbe)"
+    page: 255
+    ingredients: ["rhubarb", "green apples", "honey", "caster sugar", "ground cinnamon"]
+  - title: "Hazelnut and chocolate spread (Pâte à tartiner choco-noisette)"
+    page: 257
+    ingredients: ["caster sugar", "hazelnuts", "cocoa powder", "milk powder"]
+  - title: "Milk jam (Confiture de lait)"
+    page: 258
+    ingredients: ["milk", "caster sugar", "vanilla beans"]
+  - title: "Salted caramel spread (Pâte de caramel au beurre salé)"
+    page: 259
+    ingredients: ["whipping cream", "caster sugar", "unsalted butter", "sea salt flakes"]
+  - title: "Almond cream (Crème d'amandes)"
+    page: 260
+    ingredients: ["unsalted butter", "caster sugar", "eggs", "egg yolks", "almond meal", "rum"]
+  - title: "Custard (Crème pâtissière)"
+    page: 261
+    ingredients: ["milk", "vanilla beans", "maize cornflour", "caster sugar", "eggs", "egg yolks"]

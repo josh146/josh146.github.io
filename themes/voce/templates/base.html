@@ -252,10 +252,9 @@
                             const ingString = item.ingredients && item.ingredients.length > 0
                                               ? item.ingredients.join(', ')
                                               : 'Misc';
-
                             return {
                                 id: `physical-${index}`,
-                                title: `${item.title} (p${item.page})`,
+                                title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
                                 section: `📚 Cookbook: ${item.book}`,
                                 icon: `📖&nbsp;`,
                                 keywords: ingString, // Now searchable by ANY of the ingredients

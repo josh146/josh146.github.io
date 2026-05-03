@@ -297,7 +297,15 @@
                     <div class="pane-recipe-info">
                         <span class="pane-recipe-name">${recipe.title}</span>
                     </div>
+                `
+
+            if ( 'page' in recipe ) {
+                recipesHtml += `
                     <span class="pane-recipe-page">${recipe.page}</span>
+                `
+            }
+
+            recipesHtml += `
                 </li>
             `;
         });

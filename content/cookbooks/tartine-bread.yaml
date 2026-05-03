@@ -1,0 +1,145 @@
+book: "Tartine Bread"
+author: "Chad Robertson"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/tartine-bread-81302l1.jpg"
+recipes:
+  - title: "Basic country bread"
+    ingredients: ["whole wheat flour", "all-purpose flour"]
+  - title: "Olive bread"
+    ingredients: ["whole wheat flour", "all-purpose flour", "olives", "walnuts", "herbes de Provence", "lemons"]
+  - title: "Sesame bread"
+    ingredients: ["all-purpose flour", "whole wheat flour", "sesame seeds"]
+  - title: "Walnut bread"
+    ingredients: ["all-purpose flour", "whole wheat flour", "walnuts"]
+  - title: "Polenta bread"
+    ingredients: ["all-purpose flour", "whole wheat flour", "pumpkin seeds", "rosemary", "polenta"]
+  - title: "Pizza"
+    ingredients: ["all-purpose flour", "whole wheat flour", "nettles", "heavy cream", "dried red pepper flakes", "mozzarella cheese", "Fontina cheese"]
+  - title: "Margherita pizza"
+    ingredients: ["all-purpose flour", "whole wheat flour", "tomato sauce", "mozzarella cheese"]
+  - title: "Potato focaccia"
+    ingredients: ["whole wheat flour", "all-purpose flour", "potatoes", "thyme", "pecorino cheese"]
+  - title: "Semolina bread"
+    ingredients: ["whole wheat flour", "semolina flour", "all-purpose flour", "fennel seeds", "sesame seeds", "poppyseeds"]
+  - title: "Golden raisin, fennel seed, and orange zest bread"
+    ingredients: ["whole wheat flour", "semolina flour", "all-purpose flour", "fennel seeds", "sesame seeds", "poppyseeds", "golden raisins", "coriander seeds", "oranges"]
+  - title: "Whole wheat bread"
+    ingredients: ["all-purpose flour", "whole wheat flour"]
+  - title: "Flax and sunflower whole wheat bread"
+    ingredients: ["all-purpose flour", "whole wheat flour", "flaxseeds", "sunflower seeds"]
+  - title: "Raisin and coriander whole wheat bread"
+    ingredients: ["all-purpose flour", "whole wheat flour", "raisins", "coriander seeds"]
+  - title: "Pain au Gruyère"
+    ingredients: ["all-purpose flour", "whole wheat flour", "Gruyère cheese"]
+  - title: "Country rye"
+    ingredients: ["rye flour", "bread flour"]
+  - title: "Baguettes"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour"]
+  - title: "Tordu"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour"]
+  - title: "Fendu"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour"]
+  - title: "Fougasse"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour"]
+  - title: "English muffin"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour", "butter"]
+  - title: "Brioche"
+    ingredients: ["bread flour", "active dry yeast", "all-purpose flour", "eggs", "butter"]
+  - title: "Olive oil brioche"
+    ingredients: ["bread flour", "active dry yeast", "all-purpose flour", "eggs", "honey", "olive oil", "orange blossom water"]
+  - title: "Beignets"
+    ingredients: ["all-purpose flour", "bread flour", "active dry yeast", "eggs", "butter", "maple syrup", "corn syrup", "pecans", "lemons", "sugar", "olive oil"]
+  - title: "Brioche lardon"
+    ingredients: ["all-purpose flour", "bread flour", "active dry yeast", "eggs", "butter", "smoked bacon", "hazelnuts", "thyme", "oranges"]
+  - title: "Kugelhopf"
+    ingredients: ["all-purpose flour", "bread flour", "active dry yeast", "eggs", "butter", "dried currants", "marc", "dried apricots", "pistachio nuts", "ground cardamom", "almonds", "orange blossom water"]
+  - title: "Croissants"
+    ingredients: ["all-purpose flour", "active dry yeast", "bread flour", "butter"]
+  - title: "Fresh fava panzanella"
+    ingredients: ["red onions", "fava beans", "stale bread", "mint", "lemons"]
+  - title: "Tomato panzanella"
+    ingredients: ["baby artichokes", "stale bread", "Parmesan cheese", "heirloom beans", "red onions", "olive oil", "cucumbers", "basil"]
+  - title: "Escalivada"
+  - title: "Escalivada"
+    ingredients: ["eggplants", "zucchini", "gypsy peppers", "red onions", "stale bread", "anchovies", "walnuts", "coriander seeds", "lemons", "marjoram", "thyme", "dried figs", "heirloom tomatoes", "parsley"]
+  - title: "Bagnet vert"
+    ingredients: ["coriander seeds", "anchovies", "lemons", "dried red pepper flakes", "stale bread", "sherry vinegar", "parsley", "olive oil", "capers"]
+  - title: "Croutons"
+    ingredients: ["stale bread"]
+  - title: "Breadcrumbs"
+    ingredients: ["stale bread"]
+  - title: "Aioli"
+    ingredients: ["lemons", "egg yolks", "olive oil", "stale bread"]
+  - title: "Rouille"
+    ingredients: ["lemons", "egg yolks", "olive oil", "stale bread", "red peppers", "dried red pepper flakes"]
+  - title: "Pan con tomate"
+    ingredients: ["stale bread", "heirloom tomatoes", "Manchego cheese", "serrano ham"]
+  - title: "Late summer bruschetta"
+    ingredients: ["stale bread"]
+  - title: "Tomato, melon, and chile bruschetta"
+    ingredients: ["lemons", "olive oil", "dried chiles", "heirloom tomatoes", "melons", "basil", "mint", "country bread"]
+  - title: "Summer squash and pea bruschetta"
+    ingredients: ["zucchini", "summer squash", "sugar snap peas", "melons", "mint", "country bread", "Parmesan cheese", "lemons", "olive oil"]
+  - title: "Eggplant and charred pepper bruschetta"
+    ingredients: ["red onions", "sherry vinegar", "dried currants", "eggplants", "basil", "Padrón peppers", "country bread"]
+  - title: "Raclette"
+    ingredients: ["raclette cheese", "country bread"]
+  - title: "Pickled sardines"
+    ingredients: ["fresh sardines", "red onions", "lemons", "olive oil", "oranges", "marjoram", "Champagne vinegar", "shallots", "arugula", "parsley", "cilantro", "basil", "chervil", "fennel", "purslane", "country bread"]
+  - title: "Sardines and fresh garbanzo hummus"
+    ingredients: ["cumin seeds", "tahini", "mint", "lemons", "whole wheat bread", "canned sardines", "cilantro", "garbanzo beans"]
+  - title: "Crab sandwich"
+    ingredients: ["Dungeness crabs", "cucumbers", "chervil", "tarragon", "lemons", "mayonnaise", "whole grain mustard", "poppyseeds", "croissants"]
+  - title: "Bay shrimp sandwich"
+    ingredients: ["little gem lettuce", "shrimp", "fennel", "celery hearts", "celery leaves", "mayonnaise", "crème fraîche", "trout roe", "croissants"]
+  - title: "Kale Caesar"
+    ingredients: ["lemons", "anchovies", "egg yolks", "olive oil", "Parmesan cheese", "black kale", "croutons"]
+  - title: "Tomatoes Provençal"
+    ingredients: ["heirloom tomatoes", "country bread", "herbes de Provence", "lemons", "Parmesan cheese"]
+  - title: "Chilled consommé with soldiers"
+    ingredients: ["yellow onions", "carrots", "celery", "whole chicken", "chicken feet", "chicken legs", "thyme", "bay leaves", "country bread"]
+  - title: "White gazpacho"
+    ingredients: ["almonds", "country bread", "olive oil", "sherry vinegar", "cherry tomatoes", "red grapes", "cucumbers", "mint"]
+  - title: "Sopa de ajo"
+    ingredients: ["chicken stock", "garlic", "parsley", "egg yolks", "Spanish paprika", "croutons"]
+  - title: "French onion soup"
+    ingredients: ["yellow onions", "heavy cream", "duck fat", "dry white wine", "chicken stock", "whole wheat bread", "Gruyère cheese"]
+  - title: "Jambon beurre tartine"
+    ingredients: ["ham", "butter", "country bread"]
+  - title: "Niçoise pan bagnat"
+    ingredients: ["tuna fillets", "dried chiles", "thyme", "marjoram", "gypsy peppers", "Niçoise olives", "lemons", "dried red pepper flakes", "anchovies", "capers", "sherry vinegar", "baguette bread", "caper berries", "arugula"]
+  - title: "Clarise's meatball sandwich"
+    ingredients: ["parsley", "basil", "arugula", "pine nuts", "Parmesan cheese", "ground beef", "ground pork", "eggs", "milk", "Romano cheese", "breadcrumbs", "dried red pepper flakes", "canned tomatoes", "country bread", "provolone cheese"]
+  - title: "Bánh-mi"
+    ingredients: ["red wine vinegar", "red onions", "carrots", "radishes", "basil", "cilantro", "aioli", "limes", "garlic", "jalapeño chiles", "chile oil", "Vietnamese fish sauce", "baguette bread", "mortadella", "chicken livers", "shallots", "thyme", "Cognac"]
+  - title: "Panade"
+    ingredients: ["leeks", "milk", "country bread", "butternut squash", "cauliflower", "Fontina cheese", "black kale"]
+  - title: "Nettle fritatine"
+    ingredients: ["nettles", "tomato sauce", "croutons"]
+  - title: "Le tourin"
+    ingredients: ["carrots", "yellow onions", "kale", "chicken stock", "whole wheat bread"]
+  - title: "Garbanzo breakfast soup"
+    ingredients: ["chicken stock", "cumin seeds", "yellow onions", "gypsy peppers", "dried chiles", "fennel seeds", "coriander seeds", "garlic", "shallots", "lemons", "mint", "cilantro", "paprika", "serrano chiles", "eggs", "tuna fillets", "thyme", "marjoram", "garbanzo beans", "croutons"]
+  - title: "Involtini"
+    ingredients: ["yellow onions", "carrots", "tomato paste", "dried red pepper flakes", "canned tomatoes", "breadcrumbs", "ricotta cheese", "lemons", "thyme", "eggplants", "heavy cream", "Asiago cheese"]
+  - title: "Savory bread pudding"
+    ingredients: ["leeks", "mushrooms", "eggs", "heavy cream", "milk", "nutmeg", "thyme", "Gruyère cheese", "smoked ham", "country bread", "radicchio di Treviso"]
+  - title: "Burger"
+    ingredients: ["bread flour", "active dry yeast", "eggs", "milk", "butter", "poppyseeds", "sesame seeds", "red onions", "sherry vinegar", "shallots", "cherry tomatoes", "marjoram", "thyme", "dried currants", "mayonnaise", "lemons", "cucumbers", "dill", "rice vinegar", "potatoes", "peanut oil", "sage", "ground beef", "Comté cheese", "avocados", "little gem lettuce", "Spanish chorizo sausages"]
+  - title: "Baker's foie"
+    ingredients: ["duck livers", "shallots", "thyme", "Cognac", "butter", "country bread"]
+  - title: "Porchetta"
+    ingredients: ["pork shoulder", "parsley", "sage", "rosemary", "thyme", "fennel", "dried red pepper flakes", "fennel seeds", "garlic", "country bread"]
+  - title: "Tartine baked French toast"
+    ingredients: ["lemons", "milk", "country bread", "bacon", "maple syrup", "Hachiya persimmons"]
+  - title: "Leavened waffles"
+    ingredients: ["all-purpose flour", "whole wheat flour", "milk", "pastry flour", "eggs"]
+  - title: "Trouble affogato"
+    ingredients: ["heavy cream", "milk", "coconut", "unsweetened coconut", "egg yolks", "sugar", "dark rum", "country bread", "ground cinnamon", "espresso powder", "caramel sauce"]
+  - title: "Bostock"
+    ingredients: ["oranges", "sliced almonds", "brandy", "butter", "brioche bread", "orange blossom water", "orange liqueur", "orange marmalade"]
+  - title: "Babas with Prosecco-poached nectarines"
+    ingredients: ["all-purpose flour", "active dry yeast", "butter", "eggs", "sugar", "pistachio nuts", "Prosecco wine", "vanilla beans", "dark rum", "ricotta cheese", "dried currants", "oranges", "nectarines"]
+  - title: "Summer pudding"
+    ingredients: ["raspberries", "blackberries", "blueberries", "brioche bread", "heavy cream"]
+  - title: "Liz's jam"
+    ingredients: ["fruits of your choice", "sugar", "lemons"]

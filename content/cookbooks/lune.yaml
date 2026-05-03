@@ -1,0 +1,250 @@
+book: "Lune: Croissants All Day, All Night"
+author: "Kate Reid"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/lune-croissants-all-day-all-204369l3.jpg"
+recipes:
+  - title: "Clarified butter"
+    page: 10
+    ingredients: ["butter"]
+  - title: "The raw pastry [dough]"
+    page: 17
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Lamination"
+    page: 24
+    ingredients: ["croissant dough", "butter"]
+  - title: "[Shaping] Croissants"
+    page: 32
+    ingredients: ["croissant dough"]
+  - title: "[Shaping] Pain au chocolat"
+    page: 34
+    ingredients: ["croissant dough", "chocolate batons"]
+  - title: "[Shaping] Danish"
+    page: 35
+    ingredients: ["croissant dough"]
+  - title: "[Shaping] Escargot and kouign-amann"
+    page: 36
+    ingredients: ["croissant dough", "filling of your choice"]
+  - title: "[Shaping] Torsade"
+    page: 37
+    ingredients: ["croissant dough"]
+  - title: "Cruffin"
+    page: 38
+    ingredients: ["milk", "fresh yeast", "flour", "eggs", "caster sugar", "clarified butter", "butter"]
+  - title: "Traditional croissant"
+    page: 45
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Ham and Gruyère croissant"
+    page: 49
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "seeded mustard", "double-smoked ham", "Gruyère"]
+  - title: "Cheese and Vegemite escargot"
+    page: 51
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "Vegemite", "Gruyère", "seeded mustard"]
+  - title: "Kouign-amann"
+    page: 55
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Pain au chocolat"
+    page: 59
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "chocolate batons"]
+  - title: "Choc almond [pain au chocolat variation]"
+    page: 60
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "chocolate batons", "flaked almonds", "oranges", "almond meal"]
+  - title: "Choc pistachio [pain au chocolat variation]"
+    page: 61
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "chocolate batons", "pistachios", "desiccated coconut", "rosewater", "blanched pistachio meal", "semi-sweet baking chocolate"]
+  - title: "Pain au ‘Reese’ [pain au chocolat variation]"
+    page: 62
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "chocolate batons", "salted peanuts", "cream", "semi-sweet baking chocolate"]
+  - title: "Lemon curd cruffin"
+    page: 71
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "egg yolks", "lemons"]
+  - title: "Coconut kouign-amann"
+    page: 75
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "coconut cream", "desiccated coconut", "brown sugar", "raw sugar"]
+  - title: "Pecan sticky bun"
+    page: 79
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "maple syrup", "cream", "pecan halves", "pecan meal", "brown sugar", "ground cinnamon"]
+  - title: "Danishes"
+    page: 83
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Baked quince and vanilla Danish"
+    page: 85
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "white wine", "lemons", "vanilla pod", "star anise", "thyme", "quinces", "apricot jam", "rum", "egg yolks"]
+  - title: "Rhubarb bakewell Danish"
+    page: 86
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "apricot jam", "rum", "lemons", "rhubarb", "oranges", "almond meal"]
+  - title: "Chocolate plum sake Danish"
+    page: 89
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "plums", "sake", "star anise", "dark cooking chocolate", "ground almonds", "cocoa powder"]
+  - title: "Blind-baked Danishes"
+    page: 93
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Strawberry miso Danish"
+    page: 95
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "ground almonds", "strawberries", "apricot jam", "rum", "miso paste", "cream", "egg yolks", "gelatine leaves", "double cream"]
+  - title: "Mango ginger Danish"
+    page: 96
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "apricot jam", "rum", "cream", "crystallised ginger", "mangoes", "fresh ginger", "vanilla pod", "egg yolks"]
+  - title: "Blueberry bay Danish"
+    page: 99
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "apricot jam", "rum", "blueberries", "thickened cream", "egg yolks", "gelatine leaves", "lemons", "fromage blanc", "frozen blueberries", "fresh bay leaves"]
+  - title: "Spring pea and goat‘s curd Danish"
+    page: 107
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "goat curd", "pea tendrils", "onion flowers", "oranges", "grapeseed oil", "brown onions", "raw sugar", "white wine vinegar", "cinnamon sticks", "allspice", "black peppercorns", "mint", "basil", "chives", "confit garlic", "capers", "broad beans", "fresh peas", "coriander seeds"]
+  - title: "The Reuben"
+    page: 111
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "pastrami", "sauerkraut", "Gruyère", "cornichons", "horseradish", "Worcestershire sauce", "Tabasco", "onion powder", "paprika", "HP sauce", "egg yolks"]
+  - title: "Spiced cauliflower bearclaw"
+    page: 113
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "Parmesan", "hazelnuts", "white sesame seeds", "coriander seeds", "cumin seeds", "black peppercorns", "pink sea salt", "cauliflower", "white wine vinegar", "fennel seeds", "mustard seeds"]
+  - title: "Escargots"
+    page: 117
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Cacio e pepe escargot"
+    page: 119
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "Parmesan", "pecorino Romano", "bay leaf", "black peppercorns"]
+  - title: "Spanakopita escargot"
+    page: 123
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "English spinach", "shallot", "flat-leaf parsley", "mint", "dill", "feta", "ricotta", "lemons", "nutmeg"]
+  - title: "Pepperoni pizza escargot"
+    page: 125
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "scamorza cheese", "pepperoni", "shallot", "dried oregano", "tomato paste", "buffalo mozzarella", "micro basil"]
+  - title: "Lamington cruffin"
+    page: 131
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "desiccated coconut", "thickened cream", "raspberry jam", "dark chocolate buttons", "liquid glucose"]
+  - title: "PBJ cruffin"
+    page: 134
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "raspberry jam", "peanut butter", "ground cinnamon"]
+  - title: "Pumpkin pie cruffin"
+    page: 137
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "butternut squash", "ground cinnamon", "ground ginger", "ground nutmeg", "ground cloves", "egg yolks", "thickened cream", "gelatine leaves", "maple syrup", "agar powder", "double cream", "ground cardamom"]
+  - title: "Passionfruit coconut cruffin"
+    page: 141
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "pectin", "passionfruit pulp", "Malibu", "flaked coconut", "thickened cream", "coconut cream", "double cream", "xanthan gum", "egg whites", "freeze-dried passion fruit powder"]
+  - title: "Banoffee pie cruffin"
+    page: 143
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "dark cocoa powder", "dark chocolate", "thickened cream", "banana puree", "egg yolks", "gelatine leaves", "Marie biscuits", "double cream"]
+  - title: "Snickers cruffin"
+    page: 146
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "peanuts", "cream", "milk chocolate buttons", "liquid glucose", "thickened cream", "peanut butter"]
+  - title: "Four-cheese torsade"
+    page: 151
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "pecorino", "raclette cheese", "piment d'Espelette", "bay leaf", "black peppercorns", "blue cheese", "Gruyère cheese"]
+  - title: "The pulled pork croissant"
+    page: 159
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "garlic", "pork butt", "chilli powder", "oranges", "limes", "bay leaves", "chicken stock", "oregano", "Roma tomatoes", "long red chillies", "fresh ginger", "fish sauce", "Manchego", "queso fresco", "guindilla peppers", "ground cumin"]
+  - title: "Fish pie"
+    page: 163
+    ingredients: ["croissant dough trimmings", "leek", "fennel", "ground cayenne pepper", "milk", "thickened cream", "lemons", "dill", "sorrel", "sea trout fillets", "Spanish mackerel", "prawns", "capers"]
+  - title: "Tomato and Taleggio Danish"
+    page: 167
+    ingredients: ["Roma tomatoes", "black garlic", "day-old croissants", "oranges", "shallot", "Taleggio", "sherry vinegar", "balsamic vinegar", "milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Blind-baked croissants"
+    page: 171
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter"]
+  - title: "Boeuf Bourguignon [blind-baked croissants]"
+    page: 173
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "brown onions", "mushrooms", "carrots", "bacon", "boneless beef chuck", "red wine", "tomato paste", "soy sauce", "thyme", "red potatoes", "thickened cream", "kale", "truffle"]
+  - title: "Fried chicken croissant"
+    page: 175
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "Kewpie mayonnaise", "baby cucumbers", "flaked sea salt", "black peppercorns", "coriander seeds", "yellow mustard seeds", "bay leaves", "white wine vinegar", "dill", "chicken tenderloins", "buttermilk", "ground cayenne pepper", "smoked paprika", "garlic powder", "white cabbage", "purple cabbage", "carrots", "apple cider vinegar", "cornstarch", "onion powder", "hot paprika", "sweet paprika", "red onions"]
+  - title: "Lobster ‘rolls’ [blind-baked croissants]"
+    page: 179
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "avocado", "chives", "dill", "lobster tails", "egg yolks", "wholegrain mustard", "canola oil", "sherry vinegar", "lemons", "sea salt flakes", "olive oil", "baby cos lettuce", "hot English mustard"]
+  - title: "Pear tarte Tatin"
+    page: 185
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "white wine", "lemons", "vanilla pods", "star anise", "cinnamon sticks", "pears", "ground cinnamon", "mixed spice (UK)"]
+  - title: "Paris-Brest"
+    page: 189
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "double cream", "sweetened condensed milk", "hazelnuts", "sugar", "thickened cream", "praline paste", "egg yolks", "gold-strength gelatine leaves", "milk chocolate"]
+  - title: "Strawberry cheesecake mille-feuille"
+    page: 193
+    ingredients: ["milk", "fresh yeast", "flour", "caster sugar", "eggs", "clarified butter", "butter", "strawberries", "thickened cream", "sheep cheese", "egg yolks", "Champagne wine", "gelatine leaves", "lemons", "vanilla pods"]
+  - title: "Tiramisu"
+    page: 197
+    ingredients: ["croissants", "thickened cream", "caster sugar", "espresso", "Dutch-process cocoa powder", "egg yolks", "eggs", "mascarpone", "Marsala", "Strega liqueur", "sambuca"]
+  - title: "Toffee apple and whiskey Danish"
+    page: 201
+    ingredients: ["fresh yeast", "milk", "flour", "caster sugar", "eggs", "clarified butter", "butter", "yellow pectin", "apple juice", "citric acid", "egg yolks", "whiskey", "double cream", "feuilletine flakes", "pectin NH", "apples"]
+  - title: "Almond croissant"
+    page: 207
+    ingredients: ["day-old croissants", "caster sugar", "kirsch", "flaked almonds", "butter", "oranges", "eggs", "almond meal"]
+  - title: "Coconut pandan twice baked [croissant]"
+    page: 209
+    ingredients: ["day-old croissants", "flaked coconut", "pandan leaves", "coconut cream", "white chocolate", "caster sugar", "butter", "eggs", "desiccated coconut", "blanched almond meal"]
+  - title: "Carrot cake twice baked [croissant]"
+    page: 213
+    ingredients: ["day-old croissants", "carrots", "butter", "caster sugar", "eggs", "almond meal", "walnut meal", "ground cinnamon", "mixed spice (UK)", "brown sugar", "cinnamon sticks", "nutmeg", "cream cheese"]
+  - title: "Pecan pie twice baked [croissant]"
+    page: 217
+    ingredients: ["day-old croissants", "pecan halves", "butter", "maple syrup", "eggs", "almond meal", "ground pecans", "bourbon", "caster sugar", "thickened cream"]
+  - title: "Macca sacca [twice baked croissant]"
+    page: 219
+    ingredients: ["day-old croissants", "macadamias", "butter", "caster sugar", "eggs", "blanched almond meal", "kirsch", "cream", "macadamia nut meal"]
+  - title: "Finger bun"
+    page: 223
+    ingredients: ["day-old croissants", "desiccated coconut", "frozen strawberries", "thickened cream", "double cream", "butter", "caster sugar", "eggs", "milk powder", "blanched almond meal", "coconut milk powder"]
+  - title: "Mocha twice baked [croissant]"
+    page: 227
+    ingredients: ["day-old croissants", "hazelnuts", "butter", "caster sugar", "eggs", "espresso", "almond meal", "hazelnut meal", "milk", "vanilla pods", "egg yolks", "icing sugar", "dark chocolate buttons", "liquid glucose", "thickened cream"]
+  - title: "Choc chip cookie [twice baked croissant]"
+    page: 231
+    ingredients: ["day-old pain au chocolat", "Callebaut milk chocolate callets", "butter", "brown sugar", "caster sugar", "eggs", "plain flour", "milk powder", "milk chocolate chips", "thickened cream", "liquid glucose", "Marie biscuits", "rolled oats", "Frangelico", "dulcey chocolate chips"]
+  - title: "Anzac biscuit kouign-amann"
+    page: 237
+    ingredients: ["milk", "fresh yeast", "flour", "eggs", "clarified butter", "butter", "caster sugar", "rolled oats", "brown sugar", "golden syrup", "desiccated coconut"]
+  - title: "Birthday cake twice baked [croissant]"
+    page: 241
+    ingredients: ["day-old croissants", "multicoloured sprinkles", "eggs", "butter", "buttermilk", "plain flour", "blanched almond meal", "custard powder", "milk", "caster sugar", "egg whites"]
+  - title: "Hot cross cruffin"
+    page: 245
+    ingredients: ["fresh yeast", "milk", "caster sugar", "eggs", "flour", "clarified butter", "butter", "vanilla pods", "ground cinnamon", "star anise", "mixed spice (UK)", "nutmeg", "egg yolks", "sultanas", "mixed peel", "lemons"]
+  - title: "Persian love cake [twice baked croissant]"
+    page: 249
+    ingredients: ["day-old croissants", "pearl sugar", "slivered pistachios", "dried rose petals", "blanched almond meal", "raw sugar", "brown sugar", "Greek yoghurt", "eggs", "ground nutmeg", "caster sugar", "rosewater", "egg whites", "butter", "pink food coloring"]
+  - title: "Croissant ‘bread and butter’ pudding"
+    page: 254
+    ingredients: ["day-old croissants", "eggs", "milk", "thickened cream"]
+  - title: "Chocolate-dipped croissant ‘biscotti’"
+    page: 257
+    ingredients: ["day-old croissants", "thickened cream", "caster sugar", "sea salt flakes", "dark chocolate", "cocoa butter"]
+  - title: "Croissant croutons"
+    page: 260
+    ingredients: ["day-old croissants", "store-cupboard ingredients"]
+  - title: "Almond frangipane"
+    page: 262
+    ingredients: ["butter", "caster sugar", "oranges", "eggs", "almond meal"]
+  - title: "Coconut frangipane"
+    page: 262
+    ingredients: ["butter", "caster sugar", "eggs", "desiccated coconut", "blanched almond meal"]
+  - title: "Pistachio and rosewater frangipane"
+    page: 262
+    ingredients: ["butter", "caster sugar", "eggs", "desiccated coconut", "blanched almond meal", "rosewater", "blanched pistachio meal"]
+  - title: "Peanut butter frangipane"
+    page: 262
+    ingredients: ["butter", "smooth peanut butter", "caster sugar", "blanched almond meal"]
+  - title: "Vanilla crème pâtissière"
+    page: 263
+    ingredients: ["milk", "vanilla pods", "egg yolks"]
+  - title: "Peanut butter crème pâtissière"
+    page: 263
+    ingredients: ["milk", "eggs", "peanut butter", "store-cupboard ingredients"]
+  - title: "Salted caramel"
+    page: 264
+    ingredients: ["cream", "caster sugar", "butter", "sea salt"]
+  - title: "Dark chocolate ganache"
+    page: 264
+    ingredients: ["dark chocolate buttons", "liquid glucose", "thickened cream"]
+  - title: "Dulce de leche"
+    page: 264
+    ingredients: ["tinned condensed milk"]
+  - title: "Nappage"
+    page: 265
+    ingredients: ["apricot jam", "rum"]
+  - title: "Egg wash"
+    page: 265
+    ingredients: ["eggs"]
+  - title: "Cinnamon sugar"
+    page: 265
+    ingredients: ["caster sugar", "ground cinnamon"]
+  - title: "Strawberry or raspberry jam"
+    page: 265
+    ingredients: ["strawberries", "pectin", "store-cupboard ingredients"]

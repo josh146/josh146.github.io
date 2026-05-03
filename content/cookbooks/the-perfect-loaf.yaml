@@ -1,0 +1,265 @@
+book: "The Perfect Loaf"
+author: "Maurizio Leo"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-perfect-loaf-the-craft-204050l3.jpg"
+recipes:
+  - title: "How to create your own starter from scratch"
+    page: 19
+    ingredients: ["white flour", "whole rye flour"]
+  - title: "Simple sourdough"
+    page: 27
+    ingredients: ["white flour", "100% hydration sourdough starter"]
+  - title: "Fifty-fifty sourdough"
+    page: 153
+    ingredients: ["whole wheat flour", "white flour", "high protein flour", "100% hydration sourdough starter"]
+  - title: "Twenty-five rye sourdough"
+    page: 157
+    ingredients: ["white flour", "whole rye flour", "100% hydration sourdough starter"]
+  - title: "Cranberry and walnut sourdough"
+    page: 161
+    ingredients: ["white flour", "whole wheat flour", "whole rye flour", "raw walnuts", "sweetened dried cranberries", "100% hydration sourdough starter"]
+  - title: "Sunflower and sesame sourdough"
+    page: 167
+    ingredients: ["white flour", "whole wheat flour", "honey", "raw sunflower seeds", "black sesame seeds", "100% hydration sourdough starter"]
+  - title: "Rosemary and olive oil sourdough"
+    page: 171
+    ingredients: ["white flour", "whole wheat flour", "whole rye flour", "rosemary", "100% hydration sourdough starter", "extra-virgin olive oil"]
+  - title: "Mediterranean olive & rosemary sourdough"
+    page: 177
+    ingredients: ["white flour", "whole wheat flour", "rosemary", "100% hydration sourdough starter", "Kalamata olives"]
+  - title: "Lemon and herb sourdough"
+    page: 181
+    ingredients: ["white flour", "whole rye flour", "100% hydration sourdough starter", "herbes de Provence", "lemons"]
+  - title: "Wintertime sourdough"
+    page: 187
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "sweetened dried cranberries", "raw pecans", "sage"]
+  - title: "Seeded spelt sourdough"
+    page: 190
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole rye flour", "whole spelt flour", "black sesame seeds", "flaxseeds"]
+  - title: "Rustico sourdough"
+    page: 195
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole spelt flour", "type 85 flour"]
+  - title: "Polenta sourdough"
+    page: 199
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "polenta", "high protein flour", "rosemary"]
+  - title: "Sun-dried tomato and olive sourdough"
+    page: 205
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "Kalamata olives", "sun-dried tomatoes"]
+  - title: "Miche"
+    page: 209
+    ingredients: ["100% hydration sourdough starter", "whole wheat flour", "whole rye flour", "malted type-85 flour"]
+  - title: "Earthy buckwheat miche"
+    page: 213
+    ingredients: ["100% hydration sourdough starter", "whole wheat flour", "whole-grain buckwheat flour", "malted type-85 flour"]
+  - title: "Potato rosemary sourdough (Pane di patate)"
+    page: 214
+    ingredients: ["100% hydration sourdough starter", "whole wheat flour", "white flour", "high protein flour", "Yukon Gold potatoes", "rosemary"]
+  - title: "100% whole wheat sourdough"
+    page: 219
+    ingredients: ["whole wheat flour", "100% hydration sourdough starter"]
+  - title: "Five-grain sourdough"
+    page: 225
+    ingredients: ["whole wheat flour", "100% hydration sourdough starter", "white flour", "whole rye flour", "spelt berries", "steel-cut oats", "polenta", "flaxseeds", "buckwheat groats"]
+  - title: "Oat porridge sourdough"
+    page: 229
+    ingredients: ["whole wheat flour", "100% hydration sourdough starter", "white flour", "high protein flour", "old-fashioned rolled oats"]
+  - title: "Extra-sour sourdough"
+    page: 237
+    ingredients: ["whole wheat flour", "100% hydration sourdough starter", "white flour", "whole rye flour"]
+  - title: "Country Italian sourdough (Pane Pugliese)"
+    page: 241
+    ingredients: ["whole wheat flour", "100% hydration sourdough starter", "white flour", "durum flour"]
+  - title: "Cracked spelt sourdough"
+    page: 246
+    ingredients: ["100% hydration sourdough starter", "white flour", "spelt berries"]
+  - title: "Demi baguettes"
+    page: 251
+    ingredients: ["white flour", "100% hydration sourdough starter"]
+  - title: "My best sourdough (High-hydration white)"
+    page: 257
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour"]
+  - title: "Everyday sandwich bread"
+    page: 265
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "honey"]
+  - title: "Soft white sandwich bread (Pain de mie)"
+    page: 269
+    ingredients: ["white flour", "100% hydration sourdough starter", "milk", "honey", "butter"]
+  - title: "Honey whole wheat sandwich bread"
+    page: 275
+    ingredients: ["whole wheat flour", "milk", "honey", "100% hydration sourdough starter"]
+  - title: "Whole-grain maple spelt pan loaf"
+    page: 279
+    ingredients: ["whole spelt flour", "maple syrup", "100% hydration sourdough starter"]
+  - title: "Naturally leavened brioche"
+    page: 284
+    ingredients: ["high protein flour", "eggs", "unsalted butter", "superfine sugar", "diastatic malt powder", "100% hydration sourdough starter"]
+  - title: "German whole rye (Roggenvollkornbrot)"
+    page: 288
+    ingredients: ["whole rye flour", "100% hydration sourdough starter", "raw sunflower seeds", "flaxseeds", "black sesame seeds", "rye chops"]
+  - title: "Sourdough pizza dough"
+    page: 294
+    ingredients: ["type 00 flour", "whole wheat flour", "100% hydration sourdough starter"]
+  - title: "My go-to sauce for pizza"
+    page: 298
+    ingredients: ["canned peeled tomatoes", "store-cupboard ingredients"]
+  - title: "Roman-style pan pizza (Pizza in teglia)"
+    page: 301
+    ingredients: ["type 00 flour", "whole spelt flour", "100% hydration sourdough starter", "tomato sauce", "mozzarella cheese", "toppings of your choice"]
+  - title: "Focaccia"
+    page: 305
+    ingredients: ["white flour", "high protein flour", "100% hydration sourdough starter", "coarse sea salt"]
+  - title: "Tuscan flatbread (Schiacciata)"
+    page: 309
+    ingredients: ["white flour", "100% hydration sourdough starter", "coarse sea salt"]
+  - title: "French flatbread (Fougasse)"
+    page: 313
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour"]
+  - title: "Olive fougasse"
+    page: 317
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "Kalamata olives"]
+  - title: Black pepper and Parmesan cheese fougasse
+    page: 317
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "black pepper", "Parmesan cheese"]
+  - title: Za’atar fougasse
+    page: 317
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour", "za'atar"]
+  - title: "Naan"
+    page: 319
+    ingredients: ["white flour", "milk", "100% hydration sourdough starter", "cilantro"]
+  - title: "Flour tortillas"
+    page: 323
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour"]
+  - title: "Pita"
+    page: 327
+    ingredients: ["white flour", "100% hydration sourdough starter", "whole wheat flour"]
+  - title: "Soft dinner rolls"
+    page: 333
+    ingredients: ["white flour", "high protein flour", "100% hydration sourdough starter", "eggs"]
+  - title: "Hot dog buns"
+    page: 336
+    ingredients: ["white flour", "high protein flour", "100% hydration sourdough starter", "eggs"]
+  - title: "Mini herb rolls"
+    page: 337
+    ingredients: ["white flour", "100% hydration sourdough starter", "durum flour", "honey", "rosemary"]
+  - title: "Ciabatta rolls"
+    page: 341
+    ingredients: ["high protein flour", "whole wheat flour", "100% hydration sourdough starter"]
+  - title: "Crunchy breadsticks (Grissini)"
+    page: 345
+    ingredients: ["high protein flour", "100% hydration sourdough starter"]
+  - title: "Potato buns"
+    page: 349
+    ingredients: ["100% hydration sourdough starter", "white flour", "eggs", "unsalted butter", "russet potatoes"]
+  - title: "Baked potatoes"
+    page: 351
+    ingredients: ["russet potatoes"]
+  - title: "Sweet potato buns"
+    page: 353
+    ingredients: ["sweet potatoes", "white flour", "eggs", "unsalted butter", "100% hydration sourdough starter"]
+  - title: "Potato pull-apart rolls"
+    page: 353
+    ingredients: ["white flour", "eggs", "unsalted butter", "100% hydration sourdough starter", "russet potatoes"]
+  - title: "Whole wheat sandwich buns"
+    page: 354
+    ingredients: ["white flour", "white whole wheat flour", "eggs", "unsalted butter", "100% hydration sourdough starter"]
+  - title: "English muffins"
+    page: 358
+    ingredients: ["high protein flour", "whole spelt flour", "100% hydration sourdough starter", "semolina flour", "clarified butter"]
+  - title: "Cheese and chive-stuffed rolls"
+    page: 363
+    ingredients: ["100% hydration sourdough starter", "white flour", "milk", "eggs", "Gouda cheese", "cheddar cheese", "chives"]
+  - title: "Bagels"
+    page: 367
+    ingredients: ["high protein flour", "barley malt syrup", "diastatic malt powder", "100% hydration sourdough starter"]
+  - title: "German-style soft pretzels"
+    page: 375
+    ingredients: ["high protein flour", "white flour", "whole wheat flour", "diastatic malt powder", "100% hydration sourdough starter", "food grade lye", "pretzel salt"]
+  - title: "Sourdough starter crackers"
+    page: 380
+    ingredients: ["white flour", "whole spelt flour", "100% hydration sourdough starter", "coarse sea salt"]
+  - title: "Skillet corn bread"
+    page: 383
+    ingredients: ["cornmeal", "buttermilk", "eggs", "maple syrup", "100% hydration sourdough starter"]
+  - title: "Corn bread muffins"
+    page: 383
+    ingredients: ["cornmeal", "buttermilk", "eggs", "maple syrup", "100% hydration sourdough starter"]
+  - title: "Flaky drop biscuits"
+    page: 384
+    ingredients: ["unsalted European butter", "pastry flour", "buttermilk", "100% hydration sourdough starter"]
+  - title: "Drop biscuit cobbler"
+    page: 384
+    ingredients: ["unsalted European butter", "pastry flour", "buttermilk", "100% hydration sourdough starter", "blueberries", "ground cinnamon"]
+  - title: "Hot cross buns"
+    page: 389
+    ingredients: ["high protein flour", "raisins", "dried currants", "ground cinnamon", "ground allspice", "ground nutmeg", "lemons", "oranges", "100% hydration sourdough starter", "eggs"]
+  - title: Chocolate and cranberry hot cross buns
+    page: 392
+    ingredients: ["high protein flour", "ground cinnamon", "ground allspice", "ground nutmeg", "lemons", "oranges", "100% hydration sourdough starter", "eggs", "dark chocolate chips", "sweetened dried cranberries"]
+  - title: "Italian doughnuts (Bomboloni)"
+    page: 393
+    ingredients: ["high protein flour", "white flour", "eggs", "unsalted butter", "100% hydration sourdough starter", "refined coconut oil", "granulated sugar", "ground cinnamon", "milk", "superfine sugar", "egg yolks", "lemons"]
+  - title: "Pastry cream (Crema pasticcera)"
+    page: 398
+    ingredients: ["milk", "egg yolks", "lemons"]
+  - title: "Cinnamon babka"
+    page: 399
+    ingredients: ["white flour", "eggs", "100% hydration sourdough starter", "unsalted butter", "dark brown sugar", "ground cinnamon"]
+  - title: "Chocolate babka filling"
+    page: 404
+    ingredients: ["dark chocolate", "unsweetened Dutch-process cocoa powder", "store-cupboard ingredients"]
+  - title: "Hazelnut babka filling"
+    page: 404
+    ingredients: ["roasted hazelnuts", "store-cupboard ingredients"]
+  - title: "Cinnamon-pecan babka filling"
+    page: 404
+    ingredients: ["pecan meal", "ground cinnamon", "store-cupboard ingredients"]
+  - title: "Weekend cinnamon rolls"
+    page: 406
+    ingredients: ["white flour", "eggs", "100% hydration sourdough starter", "dark brown sugar", "ground cinnamon", "powdered sugar", "unsalted butter"]
+  - title: "Cream cheese icing"
+    page: 409
+    ingredients: ["cream cheese", "store-cupboard ingredients"]
+  - title: "Sunday morning pancakes"
+    page: 410
+    ingredients: ["eggs", "milk", "100% hydration sourdough starter", "all-purpose flour"]
+  - title: "Cornmeal pancakes"
+    page: 410
+    ingredients: ["eggs", "milk", "100% hydration sourdough starter", "all-purpose flour", "cornmeal"]
+  - title: "Buttermilk waffles"
+    page: 412
+    ingredients: ["all-purpose flour", "buttermilk", "100% hydration sourdough starter", "eggs"]
+  - title: "Buckwheat waffles"
+    page: 413
+    ingredients: ["all-purpose flour", "buttermilk", "100% hydration sourdough starter", "eggs", "buckwheat flour"]
+  - title: "Healthyish wheat waffles"
+    page: 413
+    ingredients: ["all-purpose flour", "buttermilk", "100% hydration sourdough starter", "eggs", "wheat germ"]
+  - title: "Cornmeal waffles"
+    page: 413
+    ingredients: ["all-purpose flour", "buttermilk", "100% hydration sourdough starter", "eggs", "cornmeal"]
+  - title: "Savory waffles"
+    page: 413
+    ingredients: ["all-purpose flour", "buttermilk", "100% hydration sourdough starter", "eggs"]
+  - title: "Sourdough scones"
+    page: 415
+    ingredients: ["all-purpose flour", "unsalted butter", "dried cherries", "eggs", "100% hydration sourdough starter", "buttermilk", "turbinado sugar"]
+  - title: "Whole-grain spelt blueberry scones"
+    page: 415
+    ingredients: ["all-purpose flour", "unsalted butter", "eggs", "100% hydration sourdough starter", "buttermilk", "turbinado sugar", "whole-grain spelt flour", "blueberries", "lemons"]
+  - title: "Crêpes"
+    page: 417
+    ingredients: ["pastry flour", "eggs", "100% hydration sourdough starter", "clarified butter", "store-cupboard ingredients"]
+  - title: "Banana bread 2.0"
+    page: 418
+    ingredients: ["walnuts", "overripe bananas", "100% hydration sourdough starter", "honey", "eggs", "all-purpose flour", "ground cinnamon"]
+  - title: Zucchini & chocolate chip bread
+    page: 418
+    ingredients: ["100% hydration sourdough starter", "honey", "eggs", "all-purpose flour", "ground cinnamon", "zucchini", "dark chocolate chips"]
+  - title: "Banana muffins"
+    page: 418
+    ingredients: ["100% hydration sourdough starter", "honey", "eggs", "all-purpose flour", "ground cinnamon", "walnuts", "overripe bananas"]
+  - title: "Peach and blueberry sourdough crostata"
+    page: 421
+    ingredients: ["all-purpose flour", "unsalted butter", "100% hydration sourdough starter", "peaches", "blueberries", "eggs", "coarse sugar"]
+  - title: "Cherry-almond biscotti"
+    page: 422
+    ingredients: ["raw almonds", "all-purpose flour", "almond flour", "anise seeds", "unsalted butter", "granulated sugar", "eggs", "100% hydration sourdough starter", "anise extract", "sweetened dried sour cherries"]

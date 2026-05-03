@@ -3,636 +3,424 @@ author: "Eataly"
 cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/how-to-eataly-a-guide-139559l3.jpg"
 recipes:
   - title: "Garlic and anchovy sauce with crudités (Bagna cauda)"
-    page: 
     ingredients: ["seasonal vegetables of your choice", "garlic", "anchovies"]
   - title: "Rosemary sage salt rub"
-    page: 
     ingredients: ["rosemary", "sage", "salt", "sugar"]
   - title: "Red and black pepper salt rub"
-    page: 
     ingredients: ["dried red pepper flakes", "black peppercorns", "salt", "sugar"]
   - title: "Lemon mint salt rub"
-    page: 
     ingredients: ["lemons", "mint", "salt", "sugar"]
   - title: "Parsley fennel salt rub"
-    page: 
     ingredients: ["parsley", "ground fennel", "salt", "sugar"]
   - title: "Orange lavender salt rub"
-    page: 
     ingredients: ["oranges", "lavender", "salt", "sugar"]
   - title: "How to salt pasta cooking water"
-    page: 
     ingredients: ["coarse sea salt"]
   - title: "Spicy spaghetti with olives, capers, and tomatoes (Spaghetti alla puttanesca)"
-    page: 
     ingredients: ["dried red pepper flakes", "salted capers", "black olives", "anchovies", "canned tomatoes", "spaghetti pasta"]
   - title: "How to prepare garlic"
-    page: 
     ingredients: ["garlic"]
   - title: "Eggplant caponata (Caponata di melanzane)"
-    page: 
     ingredients: ["eggplants", "golden raisins", "celery", "red onions", "red peppers", "garlic", "chiles", "salted anchovies", "sun-dried tomatoes in oil", "nocellara olives", "pine nuts"]
   - title: "Three-color salad (Insalata tricolore)"
-    page: 
     ingredients: ["arugula", "radicchio", "endive", "balsamic vinegar", "Parmigiano Reggiano cheese"]
   - title: "Spaghetti with tomato sauce (Spaghetti al pomodoro)"
-    page: 
     ingredients: ["canned tomatoes", "basil", "spaghetti pasta"]
   - title: "Tomato sauce (Pomodoro)"
-    page: 
     ingredients: ["canned tomatoes", "basil"]
   - title: "How to crush whole peeled canned tomatoes"
-    page: 
     ingredients: ["canned tomatoes"]
   - title: "Branzino with tomatoes and olives (Branzino con pomodori e olive)"
-    page: 
     ingredients: ["canned cherry tomatoes", "black olives", "branzino fillets", "oregano"]
   - title: "Tomato sauce with cranberry beans (Sugo ai borlotti)"
-    page: 
     ingredients: ["carrots", "onions", "celery", "cranberry beans", "tomato purée"]
   - title: "Cannellini beans and canned tuna (Cannellini e tonno)"
-    page: 
     ingredients: ["cooked cannellini beans", "canned tuna in olive oil", "scallions"]
   - title: "Pasta with chickpeas (Pasta e ceci)"
-    page: 
     ingredients: ["carrots", "celery", "onions", "rosemary", "pancetta", "cooked chickpeas", "shells pasta"]
   - title: "Puglia-style fava bean puree with chicory (Purè di fave e cicoria alla Pugliese)"
-    page: 
     ingredients: ["dried fava beans", "onions", "bay leaves", "chicory"]
   - title: "Lentils with rice (Lenticchie e riso)"
-    page: 
     ingredients: ["cooked lentils", "short grain rice", "Parmigiano Reggiano cheese"]
   - title: "Lentil soup with meatballs (Zuppa di lenticchie con polpettine)"
-    page: 
     ingredients: ["carrots", "celery", "yellow onions", "Castelluccio lentils", "canned tomatoes", "sweet Italian sausages"]
   - title: "Beans in tomato sauce (Fagioli all'uccelletto)"
-    page: 
     ingredients: ["dried cannellini beans", "canned tomatoes", "sage"]
   - title: "How to determine whether a bean is cooked"
-    page: 
     ingredients: ["dried beans"]
   - title: "Chickpea flour pancake (Farinata)"
-    page: 
     ingredients: ["chickpea flour"]
   - title: "Fried dried cod (Baccalà fritto)"
-    page: 
     ingredients: ["baccala", "olive oil"]
   - title: "Livorno-style dried cod (Baccalà alla Livornese)"
-    page: 
     ingredients: ["baccala", "tomatoes", "capers"]
   - title: "Whipped dried cod (Baccalà mantecato)"
-    page: 
     ingredients: ["baccala"]
   - title: "Vicenza-style dried cod (Baccalà alla Vicentina)"
-    page: 
     ingredients: ["yellow onions", "salted sardines", "parsley", "Grana Padano cheese", "milk"]
   - title: "Spaghetti with bottarga (Spaghetti con la bottarga)"
-    page: 
     ingredients: ["bottarga", "spaghetti pasta", "parsley", "breadcrumbs"]
   - title: "Bucatini with tuna (Bucatini al tonno)"
-    page: 
     ingredients: ["yellow onions", "Calabrian peppers in oil", "canned tuna in olive oil", "salted capers", "lemons", "breadcrumbs", "bucatini pasta"]
   - title: "Jam tart (Crostata alla marmellata)"
-    page: 
     ingredients: ["all-purpose flour", "egg yolks", "jam of your choice"]
   - title: "How to make egg pasta"
-    page: 
     ingredients: ["eggs", "all-purpose flour"]
   - title: "Green spinach pasta"
-    page: 
     ingredients: ["eggs", "all-purpose flour", "spinach"]
   - title: "Black squid ink pasta"
-    page: 
     ingredients: ["eggs", "all-purpose flour", "squid ink"]
   - title: "Tagliatelle with Bolognese ragù (Tagliatelle alla Bolognese)"
-    page: 
     ingredients: ["yellow onions", "carrots", "celery", "ground veal", "ground pork", "ground beef", "tomato paste", "chicken stock", "all-purpose flour", "eggs"]
   - title: "Tajarin with truffle butter (Tajarin con burro al tartufo)"
-    page: 
     ingredients: ["all-purpose flour", "truffle butter", "eggs"]
   - title: "Lasagne with spring vegetables (Lasagne primavera)"
-    page: 
     ingredients: ["milk", "bay leaves", "black peppercorns", "nutmeg", "basil", "pine nuts", "pecorino Romano cheese", "all-purpose flour", "asparagus", "peas"]
   - title: "Orecchiette with broccoli rabe and pecorino (Orecchiette con cime di rapa e pecorino)"
-    page: 
     ingredients: ["durum wheat semolina flour", "all-purpose flour", "broccoli rabe", "pecorino cheese", "dried red pepper flakes"]
   - title: "Potato gnocchi with spicy tomato sauce (Gnocchi al pomodoro piccante)"
-    page: 
   - title: "Potato gnocchi with spicy tomato sauce (Gnocchi al pomodoro piccante)"
-    page: 
     ingredients: ["potatoes", "coarse sea salt", "all-purpose flour", "dried red pepper flakes", "canned tomatoes"]
   - title: "Agnolotti del plin in melted butter (Agnolotti del plin con burro fuso)"
-    page: 
     ingredients: ["spinach", "yellow onions", "ground beef", "ground veal", "Grana Padano cheese", "nutmeg", "all-purpose flour", "sage", "butter"]
   - title: "Pansotti in walnut sauce (Pansotti con salsa di noci)"
-    page: 
     ingredients: ["spinach", "ricotta cheese", "Grana Padano cheese", "all-purpose flour", "walnuts", "parsley"]
   - title: "Tortellini in broth (Tortellini in brodo)"
-    page: 
     ingredients: ["capon", "celery", "carrots", "yellow onions", "bay leaves", "parsley", "black peppercorns", "pork loin", "sage", "prosciutto crudo", "mortadella", "Parmigiano Reggiano cheese", "nutmeg", "all-purpose flour", "beef on the bone"]
   - title: "Vesuvio pasta with sausage ragù and escarole (Vesuvio al ragù di salsiccia e scarola)"
-    page: 
     ingredients: ["sweet sausage", "tomato purée", "chicken stock", "escarole", "Vesuvio pasta", "Grana Padano cheese"]
   - title: "Paccheri with seafood sauce (Paccheri con sugo di mare)"
-    page: 
     ingredients: ["olive oil", "lemons", "tuna belly", "shrimp", "mussels", "dry white wine", "paccheri pasta", "dried red pepper flakes", "tomato purée", "parsley"]
   - title: "Thick spaghetti with crushed black pepper and pecorino (Spaghettoni cacio e pepe)"
-    page: 
     ingredients: ["black peppercorns", "spaghettoni pasta", "pecorino Romano cheese"]
   - title: "How to put together an antipasto platter"
-    page: 
     ingredients: ["cured meats of your choice", "soft cheese", "aged cheese", "preserved vegetables", "bread"]
   - title: "Prosciutto and melon (Prosciutto e melone)"
-    page: 
     ingredients: ["cantaloupes", "prosciutto crudo"]
   - title: "Veal with prosciutto and sage (Saltimbocca alla Romana)"
-    page: 
     ingredients: ["veal scaloppine", "prosciutto crudo", "sage"]
   - title: "Bresaola and arugula salad (Bresaola e rucola)"
-    page: 
     ingredients: ["bresaola", "lemons", "arugula", "Parmigiano Reggiano cheese"]
   - title: "Fusilli with speck and radicchio (Fusilli con speck e radicchio)"
-    page: 
     ingredients: ["radicchio", "shallots", "speck (Italian)", "heavy cream", "fusilli pasta"]
   - title: "Winter greens with pancetta and egg (Verdure invernali con pancetta e uova)"
-    page: 
     ingredients: ["pancetta", "lemons", "acacia honey", "winter greens", "rustic bread", "eggs"]
   - title: "Ricotta cannelloni with eggplant and tomato sauce (Cannelloni alla ricotta con melanzane e pomodori)"
-    page: 
     ingredients: ["tomatoes", "thyme", "eggplants", "dried red pepper flakes", "canned tomatoes", "basil", "Grana Padano cheese", "all-purpose flour", "ricotta cheese", "white pepper"]
   - title: "How to make ricotta"
-    page: 
     ingredients: ["milk", "heavy cream", "apple cider vinegar"]
   - title: "Tomato and mozzarella salad (Pomodoro e mozzarella)"
-    page: 
     ingredients: ["tomatoes", "basil", "milk"]
   - title: "How to make our mozzarella"
-    page: 
     ingredients: ["milk"]
   - title: "Crispy frico (Frico friabile)"
-    page: 
     ingredients: ["Montasio cheese"]
   - title: "Stuffed zucchini blossoms (Fiori di zucchina ripieni)"
-    page: 
     ingredients: ["zucchini blossoms", "buffalo ricotta cheese", "scallions", "anchovies", "nutmeg", "rice flour", "sparkling water"]
   - title: "Pasta with eggplant (Pasta alla Norma)"
-    page: 
     ingredients: ["eggplants", "red onions", "tomato purée", "penne pasta", "ricotta salata cheese", "basil"]
   - title: "Valle d'Aosta fondue (Fonduta Valdostana)"
-    page: 
     ingredients: ["Fontina cheese", "milk", "egg yolks", "white truffles"]
   - title: "Croxetti pasta with pesto (Croxetti al pesto Genovese)"
-    page: 
     ingredients: ["green beans", "baby potatoes", "croxetti pasta", "basil", "pine nuts", "pecorino Romano cheese"]
   - title: "Cannellini bean crostini (Crostini ai cannellini)"
-    page: 
     ingredients: ["filone bread", "cooked white beans", "red onions", "speck ham (Italian)"]
   - title: "Tuna crostini (Crostini al tonno)"
-    page: 
     ingredients: ["filone bread", "canned tuna in olive oil", "capers"]
   - title: "Squash crostini (Crostini alla zucca)"
-    page: 
     ingredients: ["filone bread", "winter squash", "aged sheep cheese"]
   - title: "Garlic bruschetta (Bruschetta all'aglio)"
-    page: 
     ingredients: ["garlic", "rustic bread"]
   - title: "Tomato bruschetta (Bruschetta al pomodoro)"
-    page: 
     ingredients: ["rustic bread", "tomatoes", "basil"]
   - title: "Sicilian-style bruschetta (Bruschetta Siciliana)"
-    page: 
     ingredients: ["rustic bread", "ricotta cheese", "topping of your choice"]
   - title: "How to 'fare la scarpetta'"
-    page: 
     ingredients: ["Italian bread", "sauce or gravy of your choice"]
   - title: "Country-style bread (Pane rustico)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour"]
   - title: "Fig bread (Pane rustico con fichi)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour", "dried figs"]
   - title: "Raisin bread (Pane rustico con uvetta)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour", "raisins"]
   - title: "Walnut bread (Pane rustico con noci)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour", "walnuts"]
   - title: "Olive bread (Pane rustico con olive)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour", "black olives", "dried herbs of your choice"]
   - title: "Bread with candied orange peel (Pane rustico con scorza di arancia candita)"
-    page: 
     ingredients: ["bread flour", "whole wheat flour", "instant yeast", "rye flour", "oranges", "sugar"]
   - title: "How to make a starter"
-    page: 
     ingredients: ["rye bread"]
   - title: "Pizza Margherita"
-    page: 
     ingredients: ["Italian 00 flour", "bread flour", "rye flour", "instant yeast", "canned crushed tomatoes", "mozzarella cheese", "basil"]
   - title: "How to stretch pizza dough"
-    page: 
     ingredients: ["pizza dough"]
   - title: "Focaccia Genovese (Focaccia)"
-    page: 
     ingredients: ["all-purpose flour", "bread flour", "rye flour", "instant yeast", "rosemary"]
   - title: "Onion focaccia (Focaccia alla cipolla)"
-    page: 
     ingredients: ["all-purpose flour", "bread flour", "rye flour", "instant yeast", "rosemary", "red onions"]
   - title: "Zucchini focaccia (Focaccia alle zucchine)"
-    page: 
     ingredients: ["all-purpose flour", "bread flour", "rye flour", "instant yeast", "rosemary", "zucchini", "summer squash", "Grana Padano cheese", "ricotta cheese", "basil"]
   - title: "How to form focaccia"
-    page: 
     ingredients: ["all-purpose flour", "bread flour", "rye flour", "instant yeast", "rosemary"]
   - title: "Flatbreads (Piadina)"
-    page: 
     ingredients: ["all-purpose flour"]
   - title: "Savory bread pudding (Sformato di pane)"
-    page: 
     ingredients: ["stale bread", "milk", "onions", "Fontina cheese", "Parmigiano Reggiano cheese"]
   - title: "Bread soup (Pancotto)"
-    page: 
     ingredients: ["Parmigiano Reggiano cheese rind", "stale bread", "parsley"]
   - title: "Trentino bread dumplings (Canederli)"
-    page: 
     ingredients: ["stale bread", "milk", "speck (Italian)", "parsley", "nutmeg", "all-purpose flour"]
   - title: "Stale bread fruitcake (Pinza or macafame)"
-    page: 
     ingredients: ["stale bread", "cornmeal", "pine nuts", "raisins", "dried figs", "ground fennel", "grappa", "apples", "milk"]
   - title: "Brianza chocolate bread cake (Turta di michelac)"
-    page: 
     ingredients: ["stale bread", "milk", "cocoa powder", "amaretti cookies", "lemons", "raisins", "pine nuts"]
   - title: "Breadcrumb noodles in broth (Passatelli in brodo)"
-    page: 
     ingredients: ["capon broth", "Grana Padano cheese", "breadcrumbs", "lemons", "nutmeg"]
   - title: "Bread salad (Panzanella)"
-    page: 
     ingredients: ["red onions", "stale bread", "tomatoes", "cucumbers", "black olives", "green olives", "basil"]
   - title: "Tomato-bread soup (Pappa col pomodoro)"
-    page: 
     ingredients: ["onions", "dried red pepper flakes", "tomatoes", "basil", "stale bread"]
   - title: "Brisket meatballs (Polpettini di punta di petto di manzo)"
-    page: 
     ingredients: ["breadcrumbs", "ground beef brisket", "Parmigiano Reggiano cheese", "pecorino Romano cheese", "parsley", "egg yolks"]
   - title: "Grilled vegetables with farro (Verdure alla piastra con farro)"
-    page: 
     ingredients: ["farro", "radicchio", "chicory", "sparkling water", "dried basil", "dried oregano", "broccoli rabe", "zucchini", "red onions", "baby turnips", "red peppers", "Brussels sprouts", "scallions", "pine nuts"]
   - title: "Grilled polenta with mushroom ragù (Polenta alla griglia con ragù di funghi)"
-    page: 
   - title: "Grilled polenta with mushroom ragu (Polenta alla griglia con ragù di funghi)"
-    page: 
     ingredients: ["polenta", "dried porcini mushrooms", "mixed mushrooms", "shallots", "yellow onions", "vegetable broth", "thyme", "rosemary", "sage", "tomato paste", "dry Marsala wine"]
   - title: "Grilled polenta"
-    page: 
     ingredients: ["polenta"]
   - title: "The Italian way with polenta"
-    page: 
     ingredients: ["polenta"]
   - title: "Mushroom risotto (Risotto coi funghi)"
-    page: 
     ingredients: ["broth", "yellow onions", "risotto rice", "Parmigiano Reggiano cheese", "button mushrooms"]
   - title: "Risotto with saffron and zucchini blossoms (Risotto con zafferano e fiori di zucca)"
-    page: 
     ingredients: ["broth", "risotto rice", "yellow onions", "Parmigiano Reggiano cheese", "saffron", "zucchini blossoms"]
   - title: "Risotto with spring vegetables (Risotto primavera)"
-    page: 
     ingredients: ["broth", "risotto rice", "Parmigiano Reggiano cheese", "spring onions", "asparagus", "peas", "green garlic", "parsley"]
   - title: "Shrimp and tarragon risotto (Risotto ai gamberi con dragoncello)"
-    page: 
     ingredients: ["broth", "risotto rice", "shrimp", "scallions", "lemons", "tarragon"]
   - title: "Roman rice croquettes (Supplì al telefono)"
-    page: 
     ingredients: ["beef broth", "yellow onions", "risotto rice", "Parmigiano Reggiano cheese", "breadcrumbs", "mozzarella cheese", "vegetable oil"]
   - title: "Macerated berries (Frutti di bosco)"
-    page: 
     ingredients: ["berries of your choice", "sugar"]
   - title: "Fruit salad (Macedonia)"
-    page: 
     ingredients: ["apples", "pears", "kiwifruits", "melons", "pineapple", "bananas"]
   - title: "Baked apples (Mele cotte)"
-    page: 
     ingredients: ["apples", "ground cinnamon"]
   - title: "Poached pears (Pere sciroppate)"
-    page: 
     ingredients: ["sugar", "pears", "vanilla beans"]
   - title: "Stuffed peaches (Pesche ripiene)"
-    page: 
     ingredients: ["peaches", "amaretti cookies"]
   - title: "Fennel and citrus salad (Insalata di finocchio e agrumi)"
-    page: 
     ingredients: ["fennel", "blood oranges", "grapefruits", "white pepper", "pine nuts"]
   - title: "Pear and Montasio risotto (Risotto pere e Montasio)"
-    page: 
     ingredients: ["chicken broth", "shallots", "Vialone Nano rice", "pears", "Montasio cheese"]
   - title: "Tuscan vegetable soup (Ribollita)"
-    page: 
     ingredients: ["Tuscan kale", "Savoy cabbage", "Swiss chard", "potatoes", "carrots", "zucchini", "celery", "leeks", "cooked cannellini beans", "dried red pepper flakes", "canned tomatoes", "bay leaves", "thyme", "stale bread"]
   - title: "Puntarelle salad (Puntarelle in salsa)"
-    page: 
     ingredients: ["puntarelle", "anchovies", "dried red pepper flakes", "egg yolks", "lemons", "olive oil"]
   - title: "Lemon spinach (Spinaci all'agro)"
-    page: 
     ingredients: ["spinach", "lemons"]
   - title: "Garlic spinach (Spinach all'aglio)"
-    page: 
     ingredients: ["garlic", "spinach"]
   - title: "Spinach with raisins and pine nuts (Spinaci con uvetta e pinoli)"
-    page: 
     ingredients: ["spinach", "raisins", "pine nuts"]
   - title: "Spinach pancakes (Frittelle agli spinaci)"
-    page: 
     ingredients: ["spinach", "shallots", "Grana Padano cheese"]
   - title: "Spinach crepes (Crespelle agli spinaci)"
-    page: 
     ingredients: ["spinach", "ricotta cheese", "prosciutto cotto", "milk", "Grana Padano cheese"]
   - title: "Grilled chicory with pine nuts, currants, and Parmigiano (Cicorie alla griglia)"
-    page: 
     ingredients: ["escarole", "endive", "pine nuts", "dried currants", "Parmigiano Reggiano cheese", "aged balsamic vinegar", "Chioggia radicchio"]
   - title: "Carrot salad (Insalata di carote)"
-    page: 
     ingredients: ["carrots"]
   - title: "Green salad (Insalata verde)"
-    page: 
     ingredients: ["tender greens e.g. spinach / beet greens / Swiss chard", "balsamic vinegar"]
   - title: "Mixed salad (Insalata mista)"
-    page: 
     ingredients: ["tender greens e.g. spinach / beet greens / Swiss chard", "balsamic vinegar", "carrots", "cucumbers", "tomatoes"]
   - title: "Arugula salad (Insalata di rucola)"
-    page: 
     ingredients: ["arugula", "walnuts", "pears", "aged cheese"]
   - title: "Artichoke salad (Insalata di carciofi)"
-    page: 
     ingredients: ["baby artichokes", "parsley", "mint"]
   - title: "Shaved vegetable salad with citronette (Pinzimonio)"
-    page: 
     ingredients: ["lemons", "thyme", "ground cayenne pepper", "acacia honey", "seasonal vegetables of your choice"]
   - title: "Baked cardoons (Cardi gratinati)"
-    page: 
     ingredients: ["cardoons", "milk", "nutmeg", "Parmigiano Reggiano cheese", "breadcrumbs"]
   - title: "How to trim an artichoke"
-    page: 
     ingredients: ["artichokes", "lemons"]
   - title: "Spring vegetable stew (Scafata)"
-    page: 
     ingredients: ["Swiss chard", "asparagus", "baby artichokes", "fava beans", "peas", "spring onions", "basil"]
   - title: "Pasta with squash and scamorza (Pasta con ragù di zucca e scamorza)"
-    page: 
     ingredients: ["garlic", "summer squash", "zucchini", "grape tomatoes", "Vesuvio pasta", "scamorza cheese", "mint", "pecorino Romano cheese"]
   - title: "How to roast red peppers"
-    page: 
     ingredients: ["red peppers"]
   - title: "Piemontese potato fritters (Subrìch)"
-    page: 
     ingredients: ["potatoes", "Parmigiano Reggiano cheese", "olive oil"]
   - title: "Potato salad (Insalata di patate)"
-    page: 
     ingredients: ["green beans", "capers", "red onions", "balsamic vinegar", "cooked potatoes"]
   - title: "Mashed potatoes (Purè di patate)"
-    page: 
     ingredients: ["potatoes", "Parmigiano Reggiano cheese", "milk"]
   - title: "Potato frittata (Frittata di patate)"
-    page: 
     ingredients: ["potatoes", "yellow onions", "eggs"]
   - title: "Potatoes with mackerel (Patate con lo sgombro)"
-    page: 
     ingredients: ["potatoes", "parsley", "mackerel fillets"]
   - title: "Celery root and apple salad (Insalata di sedano rapa e mele)"
-    page: 
     ingredients: ["celery root", "olive oil", "walnuts", "apples"]
   - title: "Bruschetta with butternut squash and black truffle vinaigrette (Bruschetta con zucca e 'vinaigrette' di tartufo nero)"
-    page: 
     ingredients: ["butternut squash", "shallots", "black truffles", "apple cider vinegar", "rustic bread"]
   - title: "Potato pancake (Gattò di patate)"
-    page: 
     ingredients: ["potatoes", "sun-dried tomatoes", "aged pecorino cheese", "mozzarella cheese", "parsley", "basil", "breadcrumbs"]
   - title: "Acorn squash with black lentils (Zucca con lenticchie nere)"
-    page: 
     ingredients: ["acorn squash", "cipollini onions", "sage", "thyme", "black peppercorns", "carrots", "celery", "shallots", "black beluga lentils", "balsamic vinegar"]
   - title: "Genoese pesto (Pesto alla Genovese)"
-    page: 
     ingredients: ["basil", "pine nuts", "pecorino Romano cheese"]
   - title: "Roasted potatoes with rosemary (Patate al rosmarino)"
-    page: 
     ingredients: ["potatoes", "rosemary"]
   - title: "Borage and ricotta ravioli (Ravioli di borragine e ricotta)"
-    page: 
     ingredients: ["borage", "ricotta cheese", "Grana Padano cheese", "all-purpose flour", "walnuts", "parsley"]
   - title: "Pasta with sardines (Pasta con le sarde)"
-    page: 
     ingredients: ["fresh sardines", "anchovies", "pine nuts", "dried currants", "fennel", "fennel leaves", "saffron", "bucatini pasta", "breadcrumbs"]
   - title: "Mint eggplant (Melanzana alla menta)"
-    page: 
     ingredients: ["eggplants", "garlic", "chiles", "mint"]
   - title: "Herb frittata (Frittata alle erbe)"
-    page: 
     ingredients: ["herbs of your choice", "eggs"]
   - title: "Frittata with greens (Frittata di verdure)"
-    page: 
     ingredients: ["eggs", "spinach"]
   - title: "Mushroom frittata (Frittata ai funghi)"
-    page: 
     ingredients: ["eggs", "mushrooms"]
   - title: "Roman-style artichokes (Carciofi alla Romana)"
-    page: 
     ingredients: ["parsley", "mint", "Romanesco artichokes"]
   - title: "Veal cutlets with Marsala"
-    page: 
     ingredients: ["veal cutlets", "Marsala wine"]
   - title: "Veal cutlets with lemon, capers and parsley"
-    page: 
     ingredients: ["veal cutlets", "lemons", "capers", "parsley"]
   - title: "Veal cutlets with tomatoes"
-    page: 
     ingredients: ["veal cutlets", "canned tomatoes", "mozzarella cheese"]
   - title: "Veal cutlets with garlic, anchovy and white wine"
-    page: 
     ingredients: ["veal cutlets", "garlic", "anchovies", "white wine"]
   - title: "Veal cutlets with heavy cream and thyme"
-    page: 
     ingredients: ["veal cutlets", "heavy cream", "thyme"]
   - title: "Beef tartar (Carne cruda)"
-    page: 
     ingredients: ["beef top round"]
   - title: "Thinly sliced raw beef (Carpaccio)"
-    page: 
     ingredients: ["beef tenderloin", "arugula"]
   - title: "Beef short ribs with porcini rub and balsamic vinegar (Costata di manzo ai porcini con aceto balsamico)"
-    page: 
     ingredients: ["dried porcini mushrooms", "dried red pepper flakes", "beef short-ribs", "aged balsamic vinegar"]
   - title: "Seared lamb chops (Agnello alla scottadito)"
-    page: 
     ingredients: ["lemons", "mint", "rosemary", "lamb chops"]
   - title: "Panfried veal sweetbreads (Animelle di vitello dorate)"
-    page: 
     ingredients: ["veal sweetbreads", "coriander seeds", "white wine vinegar", "carrots", "celery", "yellow onions", "fennel", "all-purpose flour"]
   - title: "Boneless pork roast (Arista in porchetta)"
-    page: 
     ingredients: ["fine sea salt", "pork loin", "pork belly", "fennel seeds", "black peppercorns"]
   - title: "Eataly's housemade sausage (Salsiccia fresca)"
-    page: 
     ingredients: ["pork shoulder", "fatback", "fennel seeds", "nutmeg", "hog casings"]
   - title: "Chicken involtini with spinach and ricotta"
-    page: 
     ingredients: ["chicken breasts", "white wine", "stock", "spinach", "ricotta cheese"]
   - title: "Chicken involtini with mushrooms and parsley"
-    page: 
     ingredients: ["chicken breasts", "white wine", "stock", "parsley", "mushrooms"]
   - title: "Chicken involtini with caramelized onions and Gorgonzola cheese"
-    page: 
     ingredients: ["chicken breasts", "white wine", "stock", "onions", "Gorgonzola cheese"]
   - title: "Chicken involtini with breadcrumbs and pancetta"
-    page: 
     ingredients: ["chicken breasts", "white wine", "stock", "breadcrumbs", "pancetta"]
   - title: "Chicken involtini with olives and capers"
-    page: 
     ingredients: ["chicken breasts", "olives", "capers", "white wine", "stock"]
   - title: "Peppery Cornish hen (Pollo alla diavola)"
-    page: 
     ingredients: ["black peppercorns", "olive oil", "lemons", "Cornish hens", "grape tomatoes", "arugula"]
   - title: "Quail in breadcrumb sauce (Quaglie in salsa di pane)"
-    page: 
     ingredients: ["seedless red grapes", "rosemary", "quail", "red wine", "breadcrumbs"]
   - title: "Pappardelle with rabbit sauce (Pappardelle al sugo di coniglio)"
-    page: 
     ingredients: ["rabbit", "carrots", "leeks", "chicken stock", "tomato purée", "all-purpose flour", "eggs", "Parmigiano Reggiano cheese"]
   - title: "Chicken liver pâté (Paté di fegatini di pollo)"
-    page: 
     ingredients: ["chicken livers", "red onions", "vin santo wine"]
   - title: "Fish in 'crazy water' (Pesce all'acqua pazza)"
-    page: 
     ingredients: ["garlic", "onions", "cherry tomatoes", "white wine", "fish fillets", "spaghetti pasta"]
   - title: "Adriatic-style fish (Pesce all'Adriatica)"
-    page: 
     ingredients: ["fish fillets", "breadcrumbs", "parsley"]
   - title: "Fish with lemon sauce (Pesce al limone)"
-    page: 
     ingredients: ["fish fillets", "lemons", "white wine", "capers"]
   - title: "Fish in parchment (Pesce in cartoccio)"
-    page: 
     ingredients: ["fish fillets", "lemons", "scallions", "asparagus"]
   - title: "Fish in sweet-and-sour sauce (Pesce in saor)"
-    page: 
     ingredients: ["fish fillets", "yellow onions", "white wine vinegar", "pine nuts", "raisins"]
   - title: "Ligurian marinated anchovies (Acciughe marinate alla Ligure)"
-    page: 
     ingredients: ["anchovies", "lemons", "basil"]
   - title: "Mackerel with fennel (Sgombri al finocchio)"
-    page: 
     ingredients: ["mackerel", "pearl onions", "carrots", "celery", "fennel", "parsley", "oranges", "tomato paste"]
   - title: "How to clean and scale a fish"
-    page: 
     ingredients: ["whole fish"]
   - title: "Whole grilled fish (Pesce alla griglia)"
-    page: 
     ingredients: ["lemons", "rosemary", "whole fish"]
   - title: "How to fillet a cooked fish"
-    page: 
     ingredients: ["cooked fish of your choice"]
   - title: "Grilled tuna with peperonata (Tonno alla griglia con peperonata)"
-    page: 
     ingredients: ["red peppers", "yellow peppers", "orange peppers", "red chiles", "yellow onions", "fennel", "bay leaves", "rosemary", "tuna steaks"]
   - title: "Branzino in salt crust (Branzino al sale)"
-    page: 
     ingredients: ["lemons", "egg whites", "fine sea salt", "marjoram", "branzino"]
   - title: "Striped bass with Tuscan kale (Spigola al cavolo nero)"
-    page: 
     ingredients: ["Tuscan kale", "onions", "cooked chickpeas", "striped bass fillets"]
   - title: "Swordfish Sicilian-style (Pesce spada alla Siciliana)"
-    page: 
     ingredients: ["swordfish", "dried oregano", "breadcrumbs"]
   - title: "Neapolitan pasta with calamari (Calamarata)"
-    page: 
     ingredients: ["garlic", "dried red pepper flakes", "calamari rings", "white wine", "cherry tomatoes", "calamarata pasta"]
   - title: "Stuffed calamari (Calamari ripieni)"
-    page: 
     ingredients: ["calamari", "garlic", "breadcrumbs", "capers"]
   - title: "Stewed calamari (Calamari in umido)"
-    page: 
     ingredients: ["calamari", "garlic", "black olives", "marjoram", "tomato purée", "spinach"]
   - title: "Calamari salad (Insalata di calamari)"
-    page: 
     ingredients: ["calamari", "cooked white beans", "red onions", "lemons", "parsley"]
   - title: "Squid ink risotto (Risotto nero)"
-    page: 
     ingredients: ["squid ink", "calamari", "yellow onions", "risotto rice", "broth"]
   - title: "Calamari skewers (Spiedini di calamari)"
-    page: 
     ingredients: ["calamari", "breadcrumbs", "parsley"]
   - title: "Fregola salad with calamari and chickpeas (Insalata di fregola con calamari e ceci)"
-    page: 
     ingredients: ["calamari", "fregola pasta", "cooked chickpeas", "red onions", "parsley", "oregano"]
   - title: "Octopus and potato salad (Insalata di polpo e patate)"
-    page: 
     ingredients: ["octopus", "potatoes", "parsley", "red onions", "celery", "celery leaves"]
   - title: "Adriatic fish soup (Brodetto)"
-    page: 
     ingredients: ["dried cannellini beans", "clam broth", "dried chiles", "garlic", "clams", "mussels", "scallops", "parsley", "basil"]
   - title: "Fried seafood (Fritto misto di pesce)"
-    page: 
     ingredients: ["shrimp", "squid", "instant flour", "cornstarch", "ground cayenne pepper", "olive oil", "canola oil", "smelts", "milk", "parsley"]
   - title: "Chocolate 'salami' (Salame di cioccolato)"
-    page: 
     ingredients: ["dark chocolate", "butter", "rum", "ladyfingers"]
   - title: "Tuscan almond cookies (Cantucci Toscani)"
-    page: 
     ingredients: ["raw almonds", "eggs", "sugar", "butter", "pastry flour"]
   - title: "Cornmeal shortbread cookies (Paste di meliga)"
-    page: 
     ingredients: ["vanilla beans", "pastry flour", "stoneground yellow cornmeal", "butter", "sugar", "egg yolks"]
   - title: "'Lady's kisses' hazelnut cookies (Baci di dama)"
-    page: 
     ingredients: ["butter", "sugar", "all-purpose flour", "hazelnut flour", "gianduja paste"]
   - title: "The Italian way with granita"
-    page: 
     ingredients: ["sugar", "flavoring of your choice"]
   - title: "Yogurt mousse (Spuma allo yogurt)"
-    page: 
     ingredients: ["leaf gelatine", "Greek yogurt", "heavy cream", "sugar", "raspberries"]
   - title: "Panna cotta with almond streusel (Panna cotta con 'streusel' alla mandorla)"
-    page: 
     ingredients: ["granulated sugar", "heavy cream", "leaf gelatine", "all-purpose flour", "confectioner's sugar", "almond flour", "ground cinnamon", "butter"]
   - title: "Piemontese terrine (Bonet)"
-    page: 
     ingredients: ["sugar", "milk", "cocoa powder", "espresso", "amaretti cookies"]
   - title: "Nougat semifreddo (Semifreddo al torroncino)"
-    page: 
     ingredients: ["egg yolks", "heavy cream", "torrone", "gianduia chocolate"]
   - title: "Italian sponge cake (Pan di Spagna)"
-    page: 
     ingredients: ["all-purpose flour", "store-cupboard ingredients"]
   - title: "Flourless hazelnut cake (Torta di nocciole)"
-    page: 
     ingredients: ["hazelnuts", "eggs", "sugar"]
   - title: "Ring cake (Ciambellone)"
-    page: 
     ingredients: ["sugar", "butter", "all-purpose flour"]
   - title: "Pound cake (Plum cake)"
-    page: 
     ingredients: ["butter", "all-purpose flour", "lemons"]
   - title: "Limoncello babà (Babà al limoncello)"
-    page: 
     ingredients: ["bread flour", "instant yeast", "sugar", "eggs", "butter", "limoncello"]
   - title: "Beer and apricot braised pork shoulder (Brasato di maiale alla birra)"
-    page: 
     ingredients: ["dried red pepper flakes", "pork shoulder", "diastatic malt", "apricot jam", "apricot beer"]
   - title: "Beef braised in Barolo (Brasato al Barolo)"
-    page: 
     ingredients: ["beef round steaks", "yellow onions", "carrots", "celery", "rosemary", "bay leaves", "whole cloves", "Barolo wine"]
   - title: "Amarone risotto (Risotto all'Amarone)"
-    page: 
     ingredients: ["beef broth", "beef marrow", "shallots", "Vialone Nano rice", "Amarone wine", "Monte Veronese cheese"]
   - title: "Monkfish with zucchini and white wine (Coda di rospo con zucchine al vino bianco)"
-    page: 
     ingredients: ["monkfish", "baby zucchini", "white wine", "oregano"]
   - title: "Linguine with clams (Linguine alle vongole)"
-    page: 
     ingredients: ["garlic", "cockle clams", "parsley", "linguine pasta"]
   - title: "Moscato custard (Zabaione al Moscato)"
-    page: 
     ingredients: ["Moscato d'Asti wine", "eggs"]
   - title: "Tiramisu with salted peanuts and caramel (Tiramisù alle arachidi e caramello)"
-    page: 
     ingredients: ["all-purpose flour", "sugar", "heavy cream", "mascarpone cheese", "espresso", "roasted salted peanuts", "eggs"]
   - title: "Ice cream 'drowned' in coffee (Affogato)"
-    page: 
     ingredients: ["vanilla gelato", "espresso"]
