@@ -117,10 +117,9 @@
 }
 
 .pane-header h3 { font-size: 1.2rem; margin: 0 0 5px 0; }
-.pane-author { color: #666; font-size: 0.9rem; }
+.pane-author { color: #666; font-size: 0.9rem; margin: 10px 0 0 0;}
 
 .pane-content {
-    padding: 0 20px;
     overflow-y: auto; /* Makes the list scrollable inside the pane */
     flex-grow: 1;
 }
@@ -131,18 +130,18 @@
     color: #888;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding: 12px;
 }
 
 .pane-recipe-list {
     list-style: none;
     padding: 0;
-    margin: 0 0 20px 0;
 }
 
 .pane-recipe-list li {
     display: flex;
     justify-content: space-between;
-    padding: 12px 0;
+    padding: 12px 20px 12px 20px;
     border-bottom: 1px solid #f1f3f5;
     font-size: 0.95rem;
 }
@@ -233,6 +232,7 @@
         top: 0;
         height: auto;
         max-height: 80vh;
+        scroll-margin-top: 20px;
     }
 }
 
@@ -244,6 +244,89 @@
         height: 200px;
     }
 }
+
+.pane-recipe-name {
+    font-weight: 500;
+}
+
+.clickable-title {
+    cursor: pointer;
+    transition: color 0.2s ease;
+    display: inline-block; /* Helps prevent layout jumps when adding the checkmark */
+}
+
+/* Add a subtle visual cue that it is an interactive element */
+.clickable-title:hover {
+    color: #007bff; /* Change this to your site's primary theme color */
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 4px;
+}
+
+/* Optional: Briefly change color when successfully copied */
+.clickable-title.copy-success {
+    color: #28a745;
+    text-decoration: none;
+}
+
+/* Ensure the recipe names still look bold */
+.pane-recipe-name {
+    font-weight: 600;
+}
+
+/* Keep the Deep Linking Highlight Effect */
+.highlighted-recipe {
+    background-color: #fff3cd;
+    transition: background-color 1s ease-out;
+}
+
+/* --- TAG TOGGLE UI --- */
+
+/* Align the H3 and the Button on the same line */
+.pane-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px 20px 10px 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Strip the old margin off the H3 since the wrapper handles it now */
+.pane-list-header h3 {
+    margin: 0;
+}
+
+/* The Toggle Button */
+.toggle-tags-btn {
+    background: transparent;
+    border: 1px solid #ced4da;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.toggle-tags-btn:hover {
+    background: #f8f9fa;
+    color: #333;
+    border-color: #adb5bd;
+}
+
+/* THE MAGIC: Instantly collapse all tags when this class is applied to the parent */
+.tags-hidden .pane-tags-container {
+    display: none;
+}
+
 </style>
 
 <div class="recipe-toolbar">
@@ -274,14 +357,49 @@
 </div>
 
 <script>
+    function escapeHTML(str) {
+            if (!str) return "";
+            return str
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;");
+        }
+
     const libraryData = {{ COOKBOOKS | tojson | safe }};
+
+    // Global state to remember your preference across clicks
+    let areTagsVisible = false;
+
+    // The function to toggle the UI
+    function toggleTags() {
+        areTagsVisible = !areTagsVisible;
+
+        const listContainer = document.getElementById('recipe-list-container');
+        const btn = document.getElementById('toggle-tags-btn');
+
+        if (areTagsVisible) {
+            listContainer.classList.remove('tags-hidden');
+            btn.innerText = 'Hide Ingredients';
+        } else {
+            listContainer.classList.add('tags-hidden');
+            btn.innerText = 'Show Ingredients';
+        }
+
+        // NEW: Silently update the URL in the browser address bar
+        const url = new URL(window.location);
+        url.searchParams.set('tags', areTagsVisible ? 'show' : 'hide');
+        window.history.replaceState({}, '', url);
+    }
 
     function loadPane(index) {
         const book = libraryData[index];
         const pane = document.getElementById('index-pane');
         const layout = document.getElementById('library-layout');
+        const safeBook = escapeHTML(book.book);
 
-        // --- NEW: Sort recipes by page number ---
+        // Sort recipes by page number
         // We spread [...] into a new array so we don't mutate the original data,
         // then sort numerically.
         const sortedRecipes = [...book.recipes].sort((a, b) => {
@@ -292,7 +410,6 @@
 
         let recipesHtml = '';
 
-        // --- UPDATE: Loop over sortedRecipes instead of book.recipes ---
         sortedRecipes.forEach(recipe => {
             let tagsHtml = '';
             if (recipe.ingredients && recipe.ingredients.length > 0) {
@@ -301,10 +418,20 @@
                 });
             }
 
+            // Clean title for data attribute to prevent HTML breakage
+            const safeTitle = escapeHTML(recipe.title);
+
             recipesHtml += `
-                <li class="pane-recipe-item">
+                <li class="pane-recipe-item" data-recipe-title="${safeTitle}">
                     <div class="pane-recipe-info">
-                        <span class="pane-recipe-name">${recipe.title}</span>
+                        <span class="pane-recipe-name clickable-title"
+                              data-book="${safeBook}"
+                              data-recipe="${safeTitle}"
+                              onclick="handleTitleClick(this, event)"
+                              title="Click to copy recipe link">
+                            ${escapeHTML(recipe.title)}
+                        </span>
+                        <div class="pane-tags-container">${tagsHtml}</div>
                     </div>
                 `
 
@@ -319,19 +446,29 @@
             `;
         });
 
-        // ... (The rest of your pane.innerHTML injection remains exactly the same) ...
         pane.innerHTML = `
             <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
             <div class="pane-header">
                 <div class="pane-mini-cover" style="background-image: url('${book.cover}');"></div>
                 <div>
-                    <h3>${book.book}</h3>
-                    <span class="pane-author">By ${book.author}</span>
+                    <h3 class="clickable-title"
+                        data-book="${safeBook}"
+                        onclick="handleTitleClick(this, event)"
+                        title="Click to copy book link">
+                        ${escapeHTML(book.book)}
+                    </h3>
+                    <p class="pane-author">By ${escapeHTML(book.author)}</p>
                 </div>
             </div>
             <div class="pane-content">
-                <h3>Index (${book.recipes.length} recipes)</h3>
-                <ul class="pane-recipe-list">
+                <div class="pane-list-header">
+                    <h3>Index (${book.recipes.length} recipes)</h3>
+                    <button id="toggle-tags-btn" class="toggle-tags-btn" onclick="toggleTags()">
+                        ${areTagsVisible ? 'Hide Ingredients' : 'Show Ingredients'}
+                    </button>
+                </div>
+
+                <ul id="recipe-list-container" class="pane-recipe-list ${areTagsVisible ? '' : 'tags-hidden'}">
                     ${recipesHtml}
                 </ul>
             </div>
@@ -344,9 +481,86 @@
         }
     }
 
-    // New function to hide the pane
     function closePane() {
         document.getElementById('library-layout').classList.remove('pane-open');
+
+        // Clean up the URL so it doesn't stay linked when you close it
+        const url = new URL(window.location);
+        url.search = '';
+        window.history.pushState({}, '', url);
     }
+
+    // This reads the safe data from the HTML and passes it to your copy function
+    function handleTitleClick(element, event) {
+        const bookTitle = element.dataset.book;
+
+        // If it's the book title, it won't have a dataset.recipe, so we default to null
+        const recipeTitle = element.dataset.recipe || null;
+
+        copyLink(bookTitle, recipeTitle, element, event);
+    }
+
+    // Helper: Copies the deep link to the clipboard
+    function copyLink(bookTitle, recipeTitle, element, event) {
+        event.stopPropagation();
+
+        const url = new URL(window.location.origin + window.location.pathname);
+        url.searchParams.set('book', bookTitle);
+        url.searchParams.set('tags', areTagsVisible ? 'show' : 'hide');
+
+        if (recipeTitle) {
+            url.searchParams.set('recipe', recipeTitle);
+            const recipeEl = document.querySelector(`.pane-recipe-item[data-recipe-title="${recipeTitle}"]`);
+
+            // 1. Select all elements that have the specific class
+            const elements = document.querySelectorAll('.highlighted-recipe');
+
+            // 2. Loop through each and remove the class
+            elements.forEach(el => {
+              el.classList.remove('highlighted-recipe');
+            });
+
+            recipeEl.classList.add('highlighted-recipe');
+        }
+
+        window.history.pushState(null, '', url.toString());
+    }
+
+    // --- DEEP LINKING LOGIC ---
+    document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const urlBook = params.get('book');
+        const urlRecipe = params.get('recipe');
+        const urlTags = params.get('tags');
+
+        if (urlBook) {
+            // Find the index of the book in our JSON data (case-insensitive)
+            const bookIndex = libraryData.findIndex(b => b.book.toLowerCase() === urlBook.toLowerCase());
+
+            if (bookIndex !== -1) {
+                if (urlTags === 'show') {
+                    areTagsVisible = true;
+                }
+
+                // 1. Open the pane for this book
+                loadPane(bookIndex);
+
+                // 2. Scroll the specific recipe into view
+                if (urlRecipe) {
+                    // Wait a tiny bit for the HTML to render in the DOM
+                    setTimeout(() => {
+                        // Find the recipe element using the data attribute we added
+                        const safeRecipeQuery = urlRecipe.replace(/"/g, '\\"');
+                        const recipeEl = document.querySelector(`.pane-recipe-item[data-recipe-title="${safeRecipeQuery}"]`);
+
+                        if (recipeEl) {
+                            recipeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            recipeEl.classList.add('highlighted-recipe');
+                        }
+                    }, 100);
+                }
+            }
+        }
+    });
 </script>
 {% endblock %}
