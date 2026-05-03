@@ -1,0 +1,334 @@
+book: "Modern Sourdough"
+author: "Michelle Eshkeri"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/modern-sourdough-sweet-and-savoury-191490l4.jpg"
+recipes:
+  - title: "Sourdough starter"
+    page: 12
+    ingredients: ["whole wheat flour"]
+  - title: "The dough process"
+    page: 18
+    ingredients: ["whole wheat flour"]
+  - title: "The baking process"
+    page: 20
+    ingredients: ["whole wheat flour"]
+  - title: "The Margot"
+    page: 22
+    ingredients: ["whole wheat flour", "strong white flour", "wholegrain rye flour", "sea salt", "sunflower oil", "rice flour", "whole wheat sourdough starter"]
+  - title: "Brown bread"
+    page: 25
+    ingredients: ["whole wheat flour", "Khorason flour", "strong white flour", "sea salt", "rice flour", "sunflower oil", "wheat sourdough starter"]
+  - title: "New York light rye"
+    page: 26
+    ingredients: ["wholegrain rye flour", "rye starter", "strong white flour", "sea salt", "rice flour", "sunflower oil", "caraway seeds"]
+  - title: "Geronimo"
+    page: 29
+    ingredients: ["wholegrain rye flour", "strong white flour", "sea salt", "rice flour", "sunflower oil", "chia seeds", "flax seeds", "sunflower seeds", "pumpkin seeds", "sesame seeds", "wheat sourdough starter"]
+  - title: "Brioche"
+    page: 30
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil"]
+  - title: "Focaccia"
+    page: 33
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "wheat sourdough starter"]
+  - title: "Mushroom, sage and Gorgonzola [focaccia]"
+    page: 34
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "mushrooms", "sage", "Gorgonzola cheese", "wheat sourdough starter"]
+  - title: "Apple, Comté and thyme [focaccia]"
+    page: 34
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "apples", "thyme", "Comté cheese", "wheat sourdough starter"]
+  - title: "Peach, goat’s cheese and mint [focaccia]"
+    page: 34
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "peaches", "goat cheese", "mint", "wheat sourdough starter"]
+  - title: "Ricotta, spring onion, chive, provolone and Parmesan [focaccia]"
+    page: 34
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "ricotta cheese", "spring onions", "chives", "provolone cheese", "Parmesan cheese", "wheat sourdough starter"]
+  - title: "Tomato and mozzarella [focaccia]"
+    page: 34
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "mozzarella cheese", "tomato passata", "dried oregano", "dried red pepper flakes", "wheat sourdough starter"]
+  - title: "Sourdough pizzas"
+    page: 37
+    ingredients: ["strong white flour", "caster sugar", "sea salt", "rosemary", "mozzarella cheese", "tomato passata", "semolina", "dried oregano", "dried red pepper flakes", "buffalo mozzarella cheese", "basil", "sunflower oil", "wheat sourdough starter"]
+  - title: "Tomato sauce"
+    page: 37
+    ingredients: ["tomato passata", "dried oregano", "dried red pepper flakes"]
+  - title: "Baguette"
+    page: 38
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "rice flour", "wheat sourdough starter"]
+  - title: "Finchley sticks"
+    page: 41
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "rice flour", "green olives", "wheat sourdough starter"]
+  - title: "Ciabatta"
+    page: 45
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "wheat sourdough starter"]
+  - title: "Sourdough challah"
+    page: 46
+    ingredients: ["strong white bread flour", "caster sugar", "eggs", "rapeseed oil", "Demerara sugar", "rye flour", "sesame seeds", "wheat sourdough starter"]
+  - title: "Lepeshka"
+    page: 51
+    ingredients: ["strong white bread flour", "caster sugar", "date syrup", "sunflower oil", "nigella seeds", "wheat sourdough starter"]
+  - title: "Jachnun"
+    page: 53
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "wheat sourdough starter", "bread", "butter", "zhoug", "tomatoes"]
+  - title: "Flatbreads"
+    page: 56
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "wheat sourdough starter", "topping of your choice"]
+  - title: "Pizza di Recco"
+    page: 59
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "wheat sourdough starter", "Stracchino cheese", "date syrup", "fennel seeds", "rosemary", "garlic"]
+  - title: "Sourdough bagels"
+    page: 62
+    ingredients: ["wheat sourdough starter", "strong white bread flour", "caster sugar", "malt syrup", "plain flour", "rice flour", "sunflower oil", "seeds of your choice"]
+  - title: "Simit"
+    page: 64
+    ingredients: ["wheat sourdough starter", "strong white bread flour", "caster sugar", "malt syrup", "plain flour", "rice flour", "sunflower oil"]
+  - title: "Beetroot bread"
+    page: 66
+    ingredients: ["whole wheat bread flour", "whole wheat sourdough starter", "beetroots", "sunflower oil", "rice flour", "whole wheat flour"]
+  - title: "Apple, raisin and rosemary bread"
+    page: 69
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "wholegrain rye flour", "sunflower oil", "apples", "raisins", "rosemary", "rice flour"]
+  - title: "Roasted red pepper, garlic and Parmesan bread"
+    page: 70
+    ingredients: ["wholegrain rye flour", "rye sourdough starter", "strong white bread flour", "rice flour", "sunflower oil", "red peppers", "garlic", "Parmesan cheese"]
+  - title: "East End date and fennel bread"
+    page: 72
+    ingredients: ["rye sourdough starter", "wholegrain rye flour", "strong white bread flour", "whole wheat flour", "fennel seeds", "dates", "sunflower oil"]
+  - title: "Cheddar and paprika bread"
+    page: 75
+    ingredients: ["wholegrain rye flour", "rye sourdough starter", "strong white bread flour", "whole wheat flour", "sunflower oil", "paprika", "mature cheddar cheese"]
+  - title: "Dolomite rye, walnut and raisin loaf"
+    page: 76
+    ingredients: ["wholegrain rye flour", "rye sourdough starter", "walnuts", "raisins", "rice flour", "sunflower oil"]
+  - title: "Sourdough laminated pastry dough"
+    page: 80
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter"]
+  - title: "Croissants"
+    page: 84
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter"]
+  - title: "Pain au chocolat"
+    page: 87
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "dark chocolate"]
+  - title: "Pain aux raisins"
+    page: 88
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "crème pâtissière", "simple syrup", "raisins"]
+  - title: "Rugelach"
+    page: 91
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter"]
+  - title: "Rugelach with chocolate filling"
+    page: 91
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "cocoa powder", "dark chocolate", "date syrup"]
+  - title: "Rugelach with tahini and date filling"
+    page: 91
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "tahini", "date syrup", "sesame seeds"]
+  - title: "Danish pastries"
+    page: 94
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "crème pâtissière", "simple syrup", "blueberries", "apricots", "peaches", "apples", "pears", "rhubarb"]
+  - title: "Blue cheese and red onion marmalade twists"
+    page: 96
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "soft blue cheese", "red onions", "bay leaves", "rosemary", "thyme sprigs", "dark brown sugar"]
+  - title: "Pumpkin and provolone rolls"
+    page: 99
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "butter", "sage", "provolone cheese", "butternut pumpkins"]
+  - title: "Twice baked almond croissants"
+    page: 102
+    ingredients: ["stale croissants", "simple syrup", "flaked almonds", "caster sugar", "eggs", "ground almonds"]
+  - title: "Twice baked hazelnut and chocolate croissants"
+    page: 102
+    ingredients: ["stale croissants", "simple syrup", "dark chocolate", "cocoa powder", "caster sugar", "eggs", "ground hazelnuts", "dark cocoa powder"]
+  - title: "Twice baked jam and custard croissants with meringue"
+    page: 103
+    ingredients: ["stale croissants", "simple syrup", "jam of your choice", "crème pâtissière", "egg whites", "icing sugar"]
+  - title: "Twice baked lemon curd and pistachio croissants"
+    page: 103
+    ingredients: ["stale croissants", "simple syrup", "lemon curd", "pistachio nuts", "caster sugar", "eggs", "ground pistachios"]
+  - title: "Twice baked tahini and caramel croissants"
+    page: 103
+    ingredients: ["stale croissants", "simple syrup", "granulated sugar", "toasted sesame seeds", "caster sugar", "eggs", "tahini"]
+  - title: "Sourdough pancakes"
+    page: 106
+    ingredients: ["sourdough starter", "whole wheat flour", "caster sugar", "milk", "plain flour", "eggs", "fruit of your choice", "maple syrup"]
+  - title: "Crumpets"
+    page: 109
+    ingredients: ["strong white bread flour", "milk", "wheat sourdough starter", "caster sugar"]
+  - title: "Plum and fennel bostock (Brioche aux amandes)"
+    page: 110
+    ingredients: ["brioche loaf", "vanilla pods", "caster sugar", "ground almonds", "eggs", "plums", "fennel seeds", "Demerara sugar"]
+  - title: "Babka"
+    page: 112
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "filling of your choice"]
+  - title: "Babka with chocolate filling"
+    page: 113
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "dark chocolate", "date syrup"]
+  - title: "Babka with chocolate and raspberry filling"
+    page: 113
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "dark chocolate", "date syrup", "raspberries"]
+  - title: "Cinnamon babka"
+    page: 113
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "dark brown sugar", "ground cinnamon"]
+  - title: "Poppy seed babka"
+    page: 113
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "poppy seeds", "crème pâtissière", "oranges"]
+  - title: "Cinnamon buns"
+    page: 116
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "ground cinnamon"]
+  - title: "Apple and cinnamon bread and butter pudding"
+    page: 119
+    ingredients: ["cinnamon buns", "apples", "eggs", "double cream", "caster sugar", "milk", "Demerara sugar"]
+  - title: "Brioche feuilletée"
+    page: 120
+    ingredients: ["simple syrup", "butter", "strong white flour", "caster sugar", "eggs", "sunflower oil"]
+  - title: "Hot cross buns"
+    page: 122
+    ingredients: ["whole wheat sourdough starter", "strong white bread flour", "bread flour", "caster sugar", "raisins", "crystallised mixed peel", "cranberries", "mincemeat", "ground cinnamon", "caraway seeds", "milk", "eggs", "butter", "vanilla pods"]
+  - title: "Doughnuts"
+    page: 125
+    ingredients: ["whole wheat sourdough starter", "strong white bread flour", "bread flour", "caster sugar", "eggs", "sunflower oil", "filling of your choice"]
+  - title: "Panettone"
+    page: 129
+    ingredients: ["strong white bread flour", "bread flour", "caster sugar", "sunflower oil", "wheat sourdough starter", "egg yolks", "butter", "raisins", "candied peel", "oranges", "vanilla pods"]
+  - title: "Stollen"
+    page: 131
+    ingredients: ["strong white bread flour", "caster sugar", "sunflower oil", "butter", "raisins", "candied peel", "vanilla pods", "wheat sourdough starter", "dried cranberries", "rum", "oranges", "caraway seeds", "ground cinnamon", "almonds", "marzipan", "icing sugar"]
+  - title: "Sourdough banana bread"
+    page: 134
+    ingredients: ["strong whole wheat flour", "whole wheat sourdough starter", "bread flour", "caster sugar", "plain flour", "eggs", "bananas", "raisins"]
+  - title: "Sourdough rye brownies"
+    page: 136
+    ingredients: ["whole grain rye flour", "rye sourdough starter", "eggs", "caster sugar", "butter", "dark chocolate", "cocoa solids", "dark brown sugar", "cocoa powder"]
+  - title: "Fennel and feta muffins"
+    page: 140
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "caster sugar", "bulb fennel", "date syrup", "caraway seeds", "butter", "spelt flour", "eggs", "feta cheese"]
+  - title: "Pumpkin scones"
+    page: 143
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "caster sugar", "butter", "eggs", "plain flour", "pumpkins", "Demerara sugar"]
+  - title: "Cheese scones"
+    page: 144
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "caster sugar", "butter", "plain flour", "mature cheddar cheese", "double cream"]
+  - title: "Savoury swirls"
+    page: 146
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "filling of your choice"]
+  - title: "Marmite and cheddar [savoury swirls]"
+    page: 146
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "Marmite", "mature cheddar cheese"]
+  - title: "Pizza [savoury swirls]"
+    page: 146
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "mozzarella cheese", "basil", "tomato passata", "dried oregano", "dried red pepper flakes"]
+  - title: "Cheddar, dill and spring onion [savoury swirls]"
+    page: 146
+    ingredients: ["strong white flour", "caster sugar", "eggs", "butter", "sunflower oil", "mature cheddar cheese", "dill", "spring onions"]
+  - title: "Pugliese potato focaccia"
+    page: 148
+    ingredients: ["strong white bread flour", "whole wheat sourdough starter", "caster sugar", "potatoes", "green olives", "baby tomatoes", "dried oregano"]
+  - title: "Pesto flatbreads"
+    page: 151
+    ingredients: ["strong white bread flour", "wheat sourdough starter", "plain flour", "milk", "wild garlic", "chillies", "plain white bread flour", "caster sugar", "sunflower oil"]
+  - title: "Smoked cheese and beetroot pull apart bread"
+    page: 152
+    ingredients: ["butter", "smoked cheddar cheese", "strong white bread flour", "wheat sourdough starter", "bread flour", "eggs", "caster sugar", "beetroots", "red onions", "caraway seeds", "dried chilli flakes", "dark brown sugar", "dill"]
+  - title: "Onion focaccia tarte Tatin"
+    page: 155
+    ingredients: ["wheat sourdough starter", "strong white bread flour", "caster sugar", "red onions", "olive oil"]
+  - title: "Aubergine einkorn galettes"
+    page: 157
+    ingredients: ["aubergines", "red onions", "garlic", "pine nuts", "tomatoes", "dried red pepper flakes", "dried currants", "date syrup", "salted capers", "paprika", "mint", "coriander leaves", "whole grain einkorn flour", "butter", "wheat sourdough starter", "Greek yoghurt", "eggs"]
+  - title: "Lily’s tahini cookies"
+    page: 162
+    ingredients: ["butter", "caster sugar", "tahini", "plain flour"]
+  - title: "Edible flower shortbreads"
+    page: 165
+    ingredients: ["plain flour", "butter", "egg yolks", "vanilla pods", "lavender flowers", "fennel seeds", "lemons", "oranges", "caster sugar", "edible flowers", "leaves of your choice"]
+  - title: "Gingerbread dinosaurs"
+    page: 166
+    ingredients: ["golden syrup", "oranges", "ground cinnamon", "ground ginger", "butter", "plain flour"]
+  - title: "Salted caramel chocolate chip cookies"
+    page: 169
+    ingredients: ["caster sugar", "double cream", "sea salt", "tahini", "eggs", "strong white bread flour", "dark chocolate", "cocoa solids"]
+  - title: "Banana spelt muffins"
+    page: 170
+    ingredients: ["white spelt flour", "caster sugar", "butter", "eggs", "bananas", "Demerara sugar"]
+  - title: "Berry spelt muffins"
+    page: 170
+    ingredients: ["white spelt flour", "caster sugar", "butter", "eggs", "Demerara sugar", "berries of your choice"]
+  - title: "Blackberry and apple spelt muffins"
+    page: 170
+    ingredients: ["white spelt flour", "caster sugar", "butter", "eggs", "Demerara sugar", "blackberries", "apples"]
+  - title: "Apple and cinnamon spelt muffins"
+    page: 170
+    ingredients: ["white spelt flour", "caster sugar", "butter", "eggs", "Demerara sugar", "apples", "ground cinnamon"]
+  - title: "Carrot cake spelt muffins"
+    page: 170
+    ingredients: ["white spelt flour", "caster sugar", "butter", "eggs", "Demerara sugar", "ground cinnamon", "carrots", "ground ginger"]
+  - title: "Spelt honey cakes"
+    page: 172
+    ingredients: ["white spelt flour", "caster sugar", "eggs", "ground cinnamon", "sunflower oil", "honey", "golden syrup"]
+  - title: "Hazelnut friands"
+    page: 174
+    ingredients: ["butter", "vanilla pods", "icing sugar", "ground hazelnuts", "dark chocolate", "egg whites", "cocoa powder", "glucose", "milk", "desiccated coconut"]
+  - title: "Fig Khorasan cake"
+    page: 177
+    ingredients: ["butter", "caster sugar", "eggs", "Khorasan flour", "figs", "Demerara sugar"]
+  - title: "Blood orange polenta cake"
+    page: 178
+    ingredients: ["sunflower oil", "caster sugar", "blood oranges", "eggs", "polenta", "gluten-free baking powder", "ground almonds"]
+  - title: "Marina’s apricot lavender slice"
+    page: 180
+    ingredients: ["apricots", "dried lavender flowers", "caster sugar", "plain flour", "butter", "Greek yogurt", "egg yolks", "Demerara sugar"]
+  - title: "Perlette’s apple cake"
+    page: 182
+    ingredients: ["apples", "caster sugar", "ground cinnamon", "butter", "vanilla caster sugar", "eggs", "plain flour"]
+  - title: "Chocolate cake with chocolate glaze"
+    page: 184
+    ingredients: ["plain flour", "cocoa powder", "coffee", "butter", "caster sugar", "eggs", "dark chocolate", "glucose"]
+  - title: "Blueberry bundt with fondant icing"
+    page: 187
+    ingredients: ["Greek yogurt", "eggs", "plain flour", "butter", "vanilla pods", "lemons", "cream cheese", "caster sugar", "blueberries", "icing sugar", "glucose", "oranges", "leaves of your choice", "edible flowers"]
+  - title: "Mixed fruit and poppy seed strudel"
+    page: 188
+    ingredients: ["poppy seeds", "apples", "caster sugar", "Demerara sugar", "raisins", "dried currants", "plain white bread flour", "eggs", "sunflower oil", "butter"]
+  - title: "Custard tart with caramelised breadcrumbs"
+    page: 191
+    ingredients: ["stale sourdough bread", "Demerara sugar", "plain flour", "vanilla caster sugar", "butter", "egg yolks", "eggs", "double cream", "milk", "vanilla pods"]
+  - title: "Cheese and onion pie"
+    page: 192
+    ingredients: ["brown onions", "thyme", "Lancashire cheese", "butter", "strong white bread flour", "eggs"]
+  - title: "Goat’s cheese, pear and walnut galette"
+    page: 195
+    ingredients: ["strong white bread flour", "butter", "Greek yogurt", "white vinegar", "goat cheese", "pears", "thyme", "eggs"]
+  - title: "Lamingtons"
+    page: 197
+    ingredients: ["plain flour", "butter", "caster sugar", "egg yolks", "milk", "cocoa powder", "glucose", "dark chocolate", "icing sugar", "desiccated coconut"]
+  - title: "Crème pâtissière"
+    page: 200
+    ingredients: ["eggs", "egg yolks", "caster sugar", "double cream", "vanilla pods"]
+  - title: "Frangipane"
+    page: 200
+    ingredients: ["caster sugar", "eggs", "ground nuts of your choice"]
+  - title: "Almond frangipane"
+    page: 201
+    ingredients: ["caster sugar", "eggs", "ground almonds"]
+  - title: "Hazelnut and chocolate frangipane"
+    page: 201
+    ingredients: ["caster sugar", "eggs", "ground hazelnuts", "dark cocoa powder"]
+  - title: "Pistachio frangipane"
+    page: 201
+    ingredients: ["caster sugar", "eggs", "ground pistachios"]
+  - title: "Tahini frangipane"
+    page: 201
+    ingredients: ["caster sugar", "eggs", "tahini"]
+  - title: "Lemon curd"
+    page: 203
+    ingredients: ["eggs", "egg yolks", "lemons"]
+  - title: "Fermented red pepper, tomato and chilli"
+    page: 204
+    ingredients: ["baby tomatoes", "red peppers", "red chillies"]
+  - title: "Beetroot and caraway jam"
+    page: 206
+    ingredients: ["beetroots", "red onions", "caraway seeds", "dried chilli flakes", "dark brown sugar", "dill"]
+  - title: "Plum and fennel oven jam"
+    page: 209
+    ingredients: ["plums", "fennel seeds", "Demerara sugar"]
+  - title: "Red onion marmalade"
+    page: 210
+    ingredients: ["red onions", "bay leaves", "rosemary", "thyme sprigs", "dark brown sugar"]
+  - title: "Slow roasted tomatoes"
+    page: 212
+    ingredients: ["baby tomatoes", "garlic", "red chillies", "parsley", "thyme", "caster sugar", "basil"]

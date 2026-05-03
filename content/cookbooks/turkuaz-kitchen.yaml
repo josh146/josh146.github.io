@@ -1,0 +1,316 @@
+book: "Turkuaz Kitchen"
+author: "Bëtul Tunç"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/turkuaz-kitchen-traditional-and-modern-249798l2.jpg"
+recipes:
+  - title: "Khachapuri"
+    page: 14
+    ingredients: ["instant yeast", "bread flour", "mozzarella cheese", "feta cheese", "blue cheese", "Parmesan cheese", "eggs", "sesame seeds"]
+  - title: "Whole-grain sandwich bread"
+    page: 27
+    ingredients: ["quick-cooking oats", "instant yeast", "bread flour", "flaxseed meal", "whole wheat bread flour", "sunflower seeds", "flaxseeds", "poppyseeds", "eggs"]
+  - title: "Ciabatta"
+    page: 31
+    ingredients: ["instant yeast", "bread flour"]
+  - title: "Roasted veggie sandwiches"
+    page: 33
+    ingredients: ["cherry tomatoes", "garlic", "shallots", "basil", "eggplants", "zucchini", "ciabatta bread", "basil pesto", "burrata cheese", "microgreens"]
+  - title: "Basil pesto"
+    page: 35
+    ingredients: ["pine nuts", "basil", "Parmesan cheese", "pecorino Romano cheese"]
+  - title: "Bagels"
+    page: 36
+    ingredients: ["instant yeast", "bread flour", "molasses", "everything bagel seasoning", "poppy seeds", "sesame seeds"]
+  - title: "Spinach-artichoke stuffed garlic knots"
+    page: 39
+    ingredients: ["instant yeast", "bread flour", "spinach", "cream cheese", "mozzarella cheese", "Parmesan cheese", "marinated artichoke hearts", "garlic powder", "garlic", "dried red pepper flakes", "dried oregano", "eggs", "basil", "parsley"]
+  - title: "Soft pretzels"
+    page: 42
+    ingredients: ["instant yeast", "all-purpose flour", "molasses", "neutral oil of your choice", "lye", "pretzel salt"]
+  - title: "Pretzel buns"
+    page: 43
+    ingredients: ["instant yeast", "all-purpose flour", "molasses", "neutral oil of your choice", "lye", "pretzel salt"]
+  - title: "Pretzel bites"
+    page: 44
+    ingredients: ["instant yeast", "all-purpose flour", "molasses", "neutral oil of your choice", "lye", "pretzel salt"]
+  - title: "Cinnamon sugar pretzel bites"
+    page: 44
+    ingredients: ["instant yeast", "all-purpose flour", "molasses", "neutral oil of your choice", "lye", "pretzel salt", "ground cinnamon", "sugar"]
+  - title: "Basic pizza dough"
+    page: 45
+    ingredients: ["instant yeast", "bread flour", "semolina flour"]
+  - title: "Neapolitan pizza"
+    page: 49
+    ingredients: ["pizza dough", "Roma tomatoes", "canned crushed tomatoes", "oregano", "basil", "fresh mozzarella cheese"]
+  - title: "No-knead Mediterranean-flavored brunch bread"
+    page: 51
+    ingredients: ["bread flour", "instant yeast", "garlic powder", "mixed Greek olives", "marinated sun-dried tomatoes", "walnuts", "rosemary", "thyme"]
+  - title: "Pita"
+    page: 55
+    ingredients: ["instant yeast", "all-purpose flour", "whole wheat flour"]
+  - title: "Hummus with caramelized beef and pita chips"
+    page: 57
+    ingredients: ["pita bread", "dried red pepper flakes", "garlic salt", "canned chickpeas", "tahini", "ground cumin", "beef sirloin", "sumac", "paprika"]
+  - title: "Garlic naan"
+    page: 60
+    ingredients: ["instant yeast", "yogurt", "neutral oil of your choice", "all-purpose flour", "garlic", "parsley"]
+  - title: "Chicken shish kebabs with cacik"
+    page: 63
+    ingredients: ["Turkish red pepper paste", "tomato paste", "yogurt", "buttermilk", "honey", "ground cumin", "dried oregano", "hot paprika", "boneless skinless chicken thighs", "boneless skinless chicken breasts", "green peppers", "red peppers", "red onions", "garlic powder", "Roma tomatoes", "garlic naan", "sour cream", "English cucumbers", "dill"]
+  - title: "Schiacciata"
+    page: 65
+    ingredients: ["instant yeast", "bread flour", "semolina flour"]
+  - title: "Eggplant and artichoke pecorino cream sandwiches"
+    page: 69
+    ingredients: ["cream cheese", "marinated artichoke hearts", "pecorino Romano cheese", "basil", "eggplants", "garlic salt", "dried red pepper flakes", "schiacciatta bread", "arugula", "pastrami"]
+  - title: "Hazelnut-chocolate filled donuts"
+    page: 76
+    ingredients: ["active dry yeast", "bread flour", "eggs", "granulated sugar", "ground cinnamon", "neutral oil of your choice", "chocolate hazelnut spread"]
+  - title: "Chocolate babka"
+    page: 79
+    ingredients: ["instant yeast", "eggs", "bread flour", "unsalted butter", "dark chocolate chips", "Dutch-process cocoa powder", "instant coffee"]
+  - title: "Betül's way croissant and pain au chocolat"
+    page: 83
+    ingredients: ["instant yeast", "bread flour", "European-style unsalted butter", "chocolate batons", "eggs"]
+  - title: "Cramique"
+    page: 87
+    ingredients: ["instant yeast", "eggs", "bread flour", "unsalted butter", "chocolate chips", "neutral oil of your choice"]
+  - title: "Crème brûlée French toast with vanilla sauce"
+    page: 89
+    ingredients: ["heavy cream", "vanilla beans", "egg yolks", "eggs", "whole milk", "vanilla extract", "instant yeast", "bread flour", "unsalted butter", "chocolate chips", "neutral oil of your choice"]
+  - title: "Vegan brioche"
+    page: 92
+    ingredients: ["instant yeast", "raw cane sugar", "sweetened soy milk", "vegan egg replacer", "bread flour", "vegan butter"]
+  - title: "Swedish cardamom buns"
+    page: 93
+    ingredients: ["whole milk", "instant yeast", "all-purpose flour", "eggs", "egg yolks", "ground cardamom", "unsalted butter", "ground cinnamon"]
+  - title: "Pistachio rolls"
+    page: 97
+    ingredients: ["instant yeast", "bread flour", "eggs", "pistachio nuts", "unsalted butter", "cream cheese", "mascarpone cheese"]
+  - title: "Chocolate buns with caramel cream"
+    page: 99
+    ingredients: ["instant yeast", "bread flour", "Dutch-process cocoa powder", "eggs", "chocolate chips", "mascarpone cheese", "caramel", "heavy cream", "chocolate hazelnut spread", "butterscotch chips"]
+  - title: "German bee sting cake (Bienenstich)"
+    page: 103
+    ingredients: ["instant yeast", "bread flour", "eggs", "unsalted butter", "heavy cream", "honey", "sliced almonds", "mascarpone cheese", "powdered sugar", "orange zest", "white chocolate"]
+  - title: "Vegan hazelnut-chocolate star bread"
+    page: 106
+    ingredients: ["instant yeast", "raw cane sugar", "sweetened soy milk", "vegan egg replacer", "bread flour", "vegan butter", "chocolate hazelnut spread"]
+  - title: "Hazelnut-chocolate spread"
+    page: 108
+    ingredients: ["hazelnuts", "almonds", "Dutch-process cocoa powder", "chocolate chips", "hazelnut extract", "hazelnut oil"]
+  - title: "Buttermilk dinner rolls"
+    page: 109
+    ingredients: ["instant yeast", "buttermilk", "eggs", "bread flour", "garlic salt", "unsalted butter", "herbs of your choice"]
+  - title: "Potato buns"
+    page: 113
+    ingredients: ["instant yeast", "eggs", "bread flour", "mashed potatoes"]
+  - title: "Mashed potatoes"
+    page: 114
+    ingredients: ["potatoes"]
+  - title: "Hot dogs with crispy shallots and potato chips"
+    page: 115
+    ingredients: ["russet potatoes", "neutral oil of your choice", "shallots", "tomato ketchup", "barbecue sauce", "pickle brine", "apple cider vinegar", "Sriracha sauce", "garlic powder", "paprika", "honey", "beef hot dogs", "potato hot dog rolls"]
+  - title: "Burger buns"
+    page: 119
+    ingredients: ["instant yeast", "eggs", "bread flour"]
+  - title: "Gourmet black buns"
+    page: 120
+    ingredients: ["instant yeast", "eggs", "bread flour", "activated charcoal", "egg whites"]
+  - title: "Fried chicken sandwiches with burger sauce"
+    page: 121
+    ingredients: ["boneless skinless chicken thighs", "buttermilk", "eggs", "garlic powder", "hot paprika", "all-purpose flour", "onion powder", "dried basil", "dried oregano", "dried thyme", "celery salt", "neutral oil of your choice", "burger buns", "lettuce", "mayonnaise", "Sriracha sauce", "sour cream", "dill pickles", "pickled chiles", "red cabbage", "apple cider vinegar"]
+  - title: "Basic pie dough"
+    page: 130
+    ingredients: ["butter", "all-purpose flour", "apple cider vinegar"]
+  - title: "Sweet pie dough"
+    page: 131
+    ingredients: ["butter", "all-purpose flour", "apple cider vinegar"]
+  - title: "Savory pie dough"
+    page: 131
+    ingredients: ["butter", "all-purpose flour", "apple cider vinegar", "garlic powder", "herbs of your choice"]
+  - title: "Rough puff pastry"
+    page: 132
+    ingredients: ["unsalted butter", "all-purpose flour", "apple cider vinegar"]
+  - title: "Apple pie with easy vanilla mascarpone ice cream"
+    page: 135
+    ingredients: ["pie dough", "Granny Smith apples", "Gala apples", "ground cinnamon", "pumpkin pie spice", "oranges", "vanilla extract", "eggs", "turbinado sugar", "mascarpone cheese", "cream cheese", "sweetened condensed milk", "vanilla beans", "heavy cream"]
+  - title: "Chocolate tarts with caramel"
+    page: 138
+    ingredients: ["Dutch-process cocoa powder", "almond meal", "egg yolks", "heavy cream", "chocolate chips", "butter"]
+  - title: "Chocolate tarts with raspberry sauce"
+    page: 138
+    ingredients: ["Dutch-process cocoa powder", "almond meal", "egg yolks", "heavy cream", "chocolate chips", "raspberries"]
+  - title: "Pumpkin scones"
+    page: 143
+    ingredients: ["all-purpose flour", "pumpkin pie spice", "canned pumpkin purée", "buttermilk", "eggs", "molasses", "butterscotch chips", "powdered sugar", "butter", "maple syrup"]
+  - title: "Vegan lemon blueberry scones"
+    page: 144
+    ingredients: ["soy milk", "lemons", "all-purpose flour", "raw cane sugar", "vegan butter", "blueberries", "turbinado sugar", "powdered sugar", "lemon extract"]
+  - title: "Raspberry Key lime bars"
+    page: 146
+    ingredients: ["raspberries", "unsalted butter", "all-purpose flour", "granulated sugar", "lemons", "Key limes", "lemon extract", "eggs"]
+  - title: "Shortbread cookies"
+    page: 149
+    ingredients: ["unsalted butter", "all-purpose flour", "lime zest", "egg whites", "pistachio nuts"]
+  - title: "Chocolate-orange rugelach"
+    page: 151
+    ingredients: ["unsalted butter", "cream cheese", "all-purpose flour", "sour cream", "apple cider vinegar", "dark chocolate chips", "Dutch-process cocoa powder", "ground cinnamon", "orange zest", "eggs", "turbinado sugar"]
+  - title: "Palmiers"
+    page: 153
+    ingredients: ["rough puff pastry", "orange zest", "dark chocolate chips"]
+  - title: "Biscotti"
+    page: 156
+    ingredients: ["all-purpose flour", "neutral oil of your choice", "granulated sugar", "eggs", "almond extract", "hazelnuts", "sliced almonds", "turbinado sugar", "mini chocolate chips"]
+  - title: "Ginger cookie sandwiches with cookie butter ice cream"
+    page: 158
+    ingredients: ["vanilla ice cream", "cookie butter", "all-purpose flour", "ground ginger", "ground cinnamon", "ground allspice", "ground cloves", "eggs", "molasses", "turbinado sugar"]
+  - title: "Zucchini cream cheese biscuits"
+    page: 161
+    ingredients: ["cream cheese", "zucchini", "all-purpose flour", "buttermilk", "feta cheese", "sharp cheddar cheese", "dill", "eggs", "smoked salt"]
+  - title: "Cheddar-jalapeño biscuits"
+    page: 162
+    ingredients: ["all-purpose flour", "garlic powder", "buttermilk", "heavy cream", "cheddar cheese", "jalapeño chiles", "eggs", "honey"]
+  - title: "Four-cheese tomato galette"
+    page: 165
+    ingredients: ["all-purpose flour", "ground walnuts", "Parmesan cheese", "sour cream", "distilled white vinegar", "ricotta cheese", "mozzarella cheese", "feta cheese", "heirloom tomatoes", "basil pesto", "cherry tomatoes", "eggs"]
+  - title: "Spinach mushroom deep-dish quiche"
+    page: 166
+    ingredients: ["all-purpose flour", "eggs", "white mushrooms", "onions", "baby spinach", "garlic powder", "dried red pepper flakes", "heavy cream", "sour cream", "Gruyère cheese", "Parmesan cheese", "garlic salt", "fennel fronds"]
+  - title: "Tahini cookies"
+    page: 169
+    ingredients: ["tahini", "neutral oil of your choice", "all-purpose flour", "hazelnuts"]
+  - title: "Chocolate tahini cookies"
+    page: 169
+    ingredients: ["tahini", "neutral oil of your choice", "all-purpose flour", "hazelnuts", "cocoa powder"]
+  - title: "Basic pasta dough"
+    page: 177
+    ingredients: ["00 flour", "eggs", "egg yolks", "semolina flour"]
+  - title: "Roasted cherry tomato pasta"
+    page: 181
+    ingredients: ["red peppers", "cherry tomatoes", "basil", "00 flour", "eggs", "egg yolks", "semolina flour"]
+  - title: "Vegan semolina pasta dough"
+    page: 182
+    ingredients: ["fine semolina flour"]
+  - title: "Red pasta"
+    page: 183
+    ingredients: ["cooked beets", "eggs", "all-purpose flour"]
+  - title: "Orange pasta"
+    page: 183
+    ingredients: ["cooked carrots", "eggs", "all-purpose flour"]
+  - title: "Green pasta"
+    page: 183
+    ingredients: ["baby spinach", "eggs", "all-purpose flour"]
+  - title: "Potato gnocchi"
+    page: 186
+    ingredients: ["russet potatoes", "egg yolks", "dried basil", "all-purpose flour"]
+  - title: "Brown butter and sage gnocchi"
+    page: 189
+    ingredients: ["salted butter", "sage", "Parmesan cheese", "russet potatoes", "egg yolks", "dried basil", "all-purpose flour"]
+  - title: "Egg noodles"
+    page: 190
+    ingredients: ["eggs", "00 flour"]
+  - title: "Chicken ramen with soy eggs"
+    page: 192
+    ingredients: ["egg noodles", "soy sauce", "sesame oil", "rice vinegar", "boneless skinless chicken thighs", "black peppercorns", "whole star anise", "whole cloves", "cinnamon sticks", "chicken stock", "mushroom powder", "fresh ginger", "chile oil", "shiitake mushrooms", "eggs", "scallions", "cilantro"]
+  - title: "Soft-boiled eggs"
+    page: 195
+    ingredients: ["eggs"]
+  - title: "Dumpling wrappers"
+    page: 197
+    ingredients: ["00 flour"]
+  - title: "Chicken dumplings"
+    page: 198
+    ingredients: ["dumpling wrappers", "ground chicken thighs", "napa cabbage", "carrots", "fresh ginger", "scallions", "cilantro", "sesame oil", "peanut oil", "soy sauce", "chile oil", "rice vinegar", "honey", "sesame seeds"]
+  - title: "Wonton wrappers"
+    page: 201
+    ingredients: ["all-purpose flour", "distilled white vinegar"]
+  - title: "Buffalo chicken Rangoons"
+    page: 203
+    ingredients: ["cooked shredded chicken", "cream cheese", "sour cream", "scallions", "parsley", "wonton wrappers", "mozzarella cheese", "neutral oil of your choice", "hot sauce", "white vinegar", "honey", "garlic powder", "hot paprika"]
+  - title: "Buffalo sauce"
+    page: 205
+    ingredients: ["unsalted butter", "hot sauce", "white vinegar", "honey", "garlic powder", "hot paprika"]
+  - title: "Flour tortillas"
+    page: 206
+    ingredients: ["all-purpose flour", "store-cupboard ingredients"]
+  - title: "Fish tacos with red cabbage slaw, jalapeño sour cream sauce, and pico de gallo"
+    page: 209
+    ingredients: ["tilapia", "garlic powder", "onion powder", "chile powder", "sparkling water", "cornflakes", "flour tortillas", "red cabbage", "apple cider vinegar", "sour cream", "buttermilk", "mayonnaise", "pickled jalapeño chiles", "cilantro", "pickled jalapeño brine", "canned chipotle chiles in adobo sauce", "tomatoes", "red onions", "lime juice"]
+  - title: "Beef empanadas with salsa verde and salsa roja"
+    page: 213
+    ingredients: ["all-purpose flour", "onions", "ground beef", "double concentrated tomato paste", "red peppers", "yellow bell peppers", "dried thyme", "dried oregano", "garlic powder", "dried parsley", "chile powder", "ancho chile powder", "Oaxaca cheese", "neutral oil of your choice", "Roma tomatoes", "tomatillos", "garlic", "dried guajillo chiles", "dried chiles de arbol", "jalapeño chiles", "serrano chiles", "cilantro", "canned chipotle chiles in adobo sauce", "limes"]
+  - title: "Choux"
+    page: 216
+    ingredients: ["eggs", "store-cupboard ingredients"]
+  - title: "Mini Paris-Brests"
+    page: 217
+    ingredients: ["eggs", "egg yolks", "whole milk", "vanilla bean paste", "almond butter"]
+  - title: "Profiteroles"
+    page: 217
+    ingredients: ["eggs", "egg yolks", "whole milk", "vanilla bean paste", "butter", "chocolate sauce"]
+  - title: "Karpatka"
+    page: 219
+    ingredients: ["egg yolks", "granulated sugar", "cornstarch", "whole milk", "heavy cream", "vanilla bean paste", "unsalted butter", "dark chocolate chips"]
+  - title: "Craquelin cream puff (Choux au craquelin)"
+    page: 221
+    ingredients: ["unsalted butter", "all-purpose flour", "egg yolks", "whole milk", "vanilla bean paste"]
+  - title: "Pastry cream"
+    page: 222
+    ingredients: ["egg yolks", "sugar", "cornstarch", "all-purpose flour", "whole milk", "vanilla bean paste", "butter"]
+  - title: "Churros with chocolate sauce"
+    page: 224
+    ingredients: ["all-purpose flour", "semolina flour", "eggs", "neutral oil of your choice", "ground cinnamon", "heavy cream", "dark chocolate chips"]
+  - title: "Simit"
+    page: 228
+    ingredients: ["instant yeast", "bread flour", "molasses", "sesame seeds"]
+  - title: "Manti"
+    page: 231
+    ingredients: ["all-purpose flour", "eggs", "onions", "ground beef", "scallions", "double concentrated tomato paste", "paprika", "dried red pepper flakes", "Turkish red pepper paste", "parsley", "tomato paste", "yogurt", "sour cream"]
+  - title: "Lahmacun with onion salad"
+    page: 235
+    ingredients: ["all-purpose flour", "yellow onions", "tomatoes", "red peppers", "Anaheim chiles", "ground lamb", "parsley", "dried red pepper flakes", "hot paprika", "double concentrated tomato paste", "Turkish red pepper paste", "red onions", "Urfa biber", "lemons"]
+  - title: "Turkish pistachio baklava"
+    page: 237
+    ingredients: ["eggs", "neutral oil of your choice", "apple cider vinegar", "all-purpose flour", "granulated sugar", "unsalted butter", "cornstarch", "pistachio nuts"]
+  - title: "Grandma's lavash"
+    page: 241
+    ingredients: ["instant yeast", "all-purpose flour", "store-cupboard ingredients"]
+  - title: "Poğaça"
+    page: 243
+    ingredients: ["instant yeast", "unsalted butter", "yogurt", "eggs", "all-purpose flour", "ground beef", "yellow onions", "dried red pepper flakes", "parsley", "mozzarella cheese"]
+  - title: "Ramadan pidesi"
+    page: 247
+    ingredients: ["instant yeast", "heavy cream", "bread flour", "semolina flour", "egg yolks"]
+  - title: "Iskender kebab"
+    page: 249
+    ingredients: ["beef sirloin", "onions", "yogurt", "buttermilk", "dried thyme", "dried basil", "hot paprika", "tomato paste", "Turkish red pepper paste", "tomato sauce", "tomatoes", "jalapeño chiles", "pide bread"]
+  - title: "Adana kebabs with acili ezme, sumac onion salad, and ayran"
+    page: 253
+    ingredients: ["red peppers", "ground lamb", "ground beef", "hot paprika", "Aleppo pepper", "parsley", "sumac", "pomegranate molasses", "tomatoes", "lavash bread", "green peppers", "red chiles", "yogurt", "sour cream", "buttermilk"]
+  - title: "Acili ezme"
+    page: 255
+    ingredients: ["red peppers", "green peppers", "red chiles", "tomatoes", "pomegranate molasses", "Turkish red pepper paste", "sumac", "Aleppo pepper"]
+  - title: "Ayran"
+    page: 255
+    ingredients: ["yogurt", "sour cream", "buttermilk"]
+  - title: "Turkish-style phyllo"
+    page: 256
+    ingredients: ["all-purpose flour", "store-cupboard ingredients"]
+  - title: "Sariyer börek"
+    page: 259
+    ingredients: ["all-purpose flour", "russet potatoes", "onions", "garlic salt", "parsley", "scallions", "basil"]
+  - title: "Spinach triangle böreks"
+    page: 261
+    ingredients: ["all-purpose flour", "yellow onions", "baby spinach", "lemon zest", "feta cheese", "mozzarella cheese", "sesame seeds", "black sesame seeds"]
+  - title: "Water börek (Su böregi)"
+    page: 265
+    ingredients: ["eggs", "all-purpose flour", "heavy cream", "feta cheese", "mozzarella cheese", "parsley"]
+  - title: "Feta hand pies with karoo dough"
+    page: 268
+    ingredients: ["all-purpose flour", "eggs", "yogurt", "apple cider vinegar", "dill", "feta cheese", "parsley", "green onions"]
+  - title: "Pişi"
+    page: 271
+    ingredients: ["all-purpose flour", "eggs", "yogurt", "neutral oil of your choice"]
+  - title: "Kalburabasti"
+    page: 273
+    ingredients: ["granulated sugar", "all-purpose flour", "semolina flour", "neutral oil of your choice", "yogurt", "apple cider vinegar", "walnuts", "pistachio nuts"]

@@ -1,0 +1,912 @@
+book: "The Perfect Scoop"
+author: "David Lebovitz"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-perfect-scoop-revised-and-183942l1.jpg"
+recipes:
+  - title: "Vanilla ice cream"
+    page: 28
+    ingredients: ["heavy cream", "vanilla beans", "egg yolks", "milk"]
+  - title: "Chocolate chip ice cream"
+    page: 28
+    ingredients: ["heavy cream", "vanilla beans", "dark chocolate", "egg yolks", "milk"]
+  - title: "Bourbon and spiced pecan ice cream"
+    page: 28
+    ingredients: ["bourbon", "chile powder", "ground cinnamon", "heavy cream", "ground ginger", "vanilla beans", "pecans", "ground cloves", "egg yolks", "milk", "eggs"]
+  - title: "Vanilla ice cream, Philadelphia-style"
+    page: 29
+    ingredients: ["heavy cream", "vanilla beans"]
+  - title: "Caramel-chocolate ripple ice cream"
+    page: 29
+    ingredients: ["heavy cream", "vanilla beans", "light corn syrup", "sugar", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate ice cream"
+    page: 30
+    ingredients: ["heavy cream", "dark chocolate", "egg yolks", "alkalized unsweetened cocoa powder", "milk"]
+  - title: "Rocky road ice cream"
+    page: 30
+    ingredients: ["heavy cream", "dark chocolate", "roasted unsalted peanuts", "egg yolks", "alkalized unsweetened cocoa powder", "milk", "gelatin powder", "sugar", "light corn syrup", "confectioner's sugar"]
+  - title: "Chocolate mint ice cream"
+    page: 30
+    ingredients: ["heavy cream", "dark chocolate", "egg yolks", "alkalized unsweetened cocoa powder", "milk", "mint oil", "confectioner's sugar", "light corn syrup"]
+  - title: "Chocolate ice cream, Philadelphia-style"
+    page: 32
+    ingredients: ["heavy cream", "unsweetened chocolate", "sugar", "milk", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate-peanut butter patty ice cream"
+    page: 32
+    ingredients: ["heavy cream", "peanut butter", "unsweetened chocolate", "light corn syrup", "sugar", "milk", "alkalized unsweetened cocoa powder"]
+  - title: "Double chocolate ice cream with dark chocolate truffles"
+    page: 32
+    ingredients: ["heavy cream", "unsweetened chocolate", "light corn syrup", "sugar", "milk", "alkalized unsweetened cocoa powder", "dark chocolate", "Cognac"]
+  - title: "Double chocolate ice cream with white chocolate truffles"
+    page: 32
+    ingredients: ["heavy cream", "unsweetened chocolate", "white chocolate", "light corn syrup", "sugar", "milk", "alkalized unsweetened cocoa powder"]
+  - title: "Aztec 'hot' chocolate ice cream"
+    page: 33
+    ingredients: ["heavy cream", "dark chocolate", "ground cinnamon", "chile powder", "brandy", "alkalized unsweetened cocoa powder", "milk"]
+  - title: "Mexican chocolate and cajeta ice cream"
+    page: 33
+    ingredients: ["brandy", "chile powder", "cinnamon sticks", "ground cinnamon", "heavy cream", "dark chocolate", "milk", "light corn syrup", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Chocolate-peanut butter ice cream"
+    page: 34
+    ingredients: ["half and half cream", "peanut butter", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate fudge swirl peanut butter ice cream"
+    page: 34
+    ingredients: ["half and half cream", "peanut butter", "light corn syrup", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Chocolate-raspberry ice cream"
+    page: 34
+    ingredients: ["heavy cream", "raspberries", "alkalized unsweetened cocoa powder"]
+  - title: "Milk chocolate ice cream"
+    page: 35
+    ingredients: ["egg yolks", "milk chocolate", "heavy cream", "Cognac", "milk"]
+  - title: "Milk chocolate and brownie ice cream"
+    page: 35
+    ingredients: ["dark chocolate chips", "milk chocolate", "Cognac", "heavy cream", "unsweetened chocolate", "egg yolks", "butter", "eggs"]
+  - title: "Milk chocolate and chocolate-covered peanut ice cream"
+    page: 35
+    ingredients: ["milk chocolate", "Cognac", "heavy cream", "dark chocolate", "roasted unsalted peanuts", "egg yolks", "milk"]
+  - title: "Guinness-milk chocolate ice cream"
+    page: 36
+    ingredients: ["milk chocolate", "heavy cream", "Guinness", "egg yolks", "milk"]
+  - title: "Guinness-milk chocolate and oatmeal ice cream"
+    page: 36
+    ingredients: ["milk chocolate", "heavy cream", "rolled oats", "Guinness", "egg yolks", "milk", "sugar"]
+  - title: "White chocolate ice cream"
+    page: 37
+    ingredients: ["white chocolate", "egg yolks", "heavy cream", "milk"]
+  - title: "White chocolate-cherry ice cream"
+    page: 37
+    ingredients: ["heavy cream", "white chocolate", "egg yolks", "milk", "jarred sour cherries", "sugar"]
+  - title: "Black and white chocolate ice cream"
+    page: 37
+    ingredients: ["heavy cream", "white chocolate", "light corn syrup", "egg yolks", "milk", "sugar", "alkalized unsweetened cocoa powder"]
+  - title: "Coffee ice cream"
+    page: 38
+    ingredients: ["coffee beans", "heavy cream", "egg yolks", "milk", "ground coffee"]
+  - title: "Coffee ice cream brownie sundaes"
+    page: 38
+    ingredients: ["dark chocolate chips", "heavy cream", "dark chocolate", "coffee beans", "egg yolks", "sliced almonds", "milk", "ground coffee", "butter", "alkalized unsweetened cocoa powder", "sugar", "eggs", "all-purpose flour", "espresso"]
+  - title: "Coffee frozen yogurt"
+    page: 39
+    ingredients: ["yogurt", "heavy cream", "espresso", "ground coffee"]
+  - title: "Vietnamese coffee ice cream"
+    page: 39
+    ingredients: ["condensed milk", "half and half cream", "espresso", "ground coffee"]
+  - title: "Green tea ice cream"
+    page: 40
+    ingredients: ["heavy cream", "egg yolks", "milk", "matcha"]
+  - title: "Green tea and red bean ice cream"
+    page: 40
+    ingredients: ["heavy cream", "light corn syrup", "adzuki beans", "egg yolks", "milk", "matcha", "sugar"]
+  - title: "Black currant tea ice cream"
+    page: 42
+    ingredients: ["heavy cream", "blackcurrant tea", "egg yolks", "milk"]
+  - title: "Black currant tea and chocolate truffle ice cream"
+    page: 42
+    ingredients: ["heavy cream", "dark chocolate", "light corn syrup", "blackcurrant tea", "egg yolks", "milk", "Cognac"]
+  - title: "Black currant tea and fudge ripple ice cream"
+    page: 42
+    ingredients: ["heavy cream", "light corn syrup", "blackcurrant tea", "egg yolks", "dark chocolate", "milk", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Fresh ginger ice cream"
+    page: 43
+    ingredients: ["fresh ginger", "heavy cream", "egg yolks", "milk"]
+  - title: "Lemon-fresh ginger ice cream"
+    page: 43
+    ingredients: ["fresh ginger", "heavy cream", "egg yolks", "lemons", "milk"]
+  - title: "Ginger and candied lemon ice cream"
+    page: 43
+    ingredients: ["heavy cream", "fresh ginger", "lemons", "egg yolks", "milk", "sugar"]
+  - title: "Ginger-gingersnap ice cream"
+    page: 43
+    ingredients: ["ground allspice", "ground cinnamon", "heavy cream", "fresh ginger", "ground ginger", "molasses", "egg yolks", "milk"]
+  - title: "Anise ice cream"
+    page: 44
+    ingredients: ["anise seeds", "heavy cream", "honey", "egg yolks", "milk"]
+  - title: "Biscotti ice cream"
+    page: 44
+    ingredients: ["anise seeds", "heavy cream", "honey", "egg yolks", "raisins", "golden raisins", "Marsala wine", "almonds"]
+  - title: "Anise ice cream puffs"
+    page: 44
+    ingredients: ["heavy cream", "honey", "eggs", "dark chocolate", "anise seeds", "light corn syrup", "egg yolks", "milk", "all-purpose flour", "alkalized unsweetened cocoa powder"]
+  - title: "Orange-anise ice cream"
+    page: 44
+    ingredients: ["corn syrup", "heavy cream", "honey", "oranges", "anise seeds", "egg yolks", "milk", "sugar", "light corn syrup"]
+  - title: "Cinnamon ice cream"
+    page: 45
+    ingredients: ["cinnamon sticks", "heavy cream", "egg yolks", "milk"]
+  - title: "Aztec cinnamon-chocolate ice cream"
+    page: 45
+    ingredients: ["brandy", "chile powder", "cinnamon sticks", "ground cinnamon", "heavy cream", "dark chocolate", "egg yolks", "milk", "sugar", "alkalized unsweetened cocoa powder"]
+  - title: "Butterscotch ice cream with peanut butter, chocolate, and pretzel brittle"
+    page: 46
+    ingredients: ["butter", "heavy cream", "egg yolks", "Scotch", "peanut butter", "dry-roasted peanuts", "pretzel twists", "dark chocolate"]
+  - title: "Blondie sundaes"
+    page: 47
+    ingredients: ["cocoa powder", "heavy cream", "whisky", "pecans", "dark chocolate", "light corn syrup", "egg yolks", "butter", "all-purpose flour", "light brown sugar", "eggs", "chocolate chips"]
+  - title: "Butterscotch pecan ice cream"
+    page: 47
+    ingredients: ["heavy cream", "egg yolks", "pecans", "butter", "Scotch"]
+  - title: "Date, rum, and pecan ice cream"
+    page: 47
+    ingredients: ["dates", "dark rum", "heavy cream", "egg yolks", "milk", "toasted pecans"]
+  - title: "Candied bacon and bourbon ice cream"
+    page: 48
+    ingredients: ["heavy cream", "milk", "egg yolks", "ground cinnamon", "bourbon", "smoked bacon", "light brown sugar", "ground cayenne pepper"]
+  - title: "Bourbon pecan ice cream"
+    page: 49
+    ingredients: ["heavy cream", "milk", "egg yolks", "ground cinnamon", "bourbon", "smoked bacon", "light brown sugar", "ground cayenne pepper", "eggs", "ground ginger", "ground cloves", "ground chiles", "pecans"]
+  - title: "Gianduja gelato"
+    page: 51
+    ingredients: ["hazelnuts", "heavy cream", "milk chocolate", "egg yolks", "milk"]
+  - title: "Gianduja-stracciatella gelato"
+    page: 51
+    ingredients: ["milk chocolate", "heavy cream", "hazelnuts", "dark chocolate", "egg yolks", "milk", "eggs", "sugar"]
+  - title: "Caramel “crack” ice cream"
+    page: 52
+    ingredients: ["heavy cream", "granulated sugar", "milk", "matzoh", "butter", "light brown sugar", "dark chocolate chips", "sliced almonds"]
+  - title: "Maple walnut ice cream with wet walnuts"
+    page: 54
+    ingredients: ["heavy cream", "egg yolks", "walnuts", "milk", "dark maple syrup"]
+  - title: "Maple walnut ice cream sundaes"
+    page: 54
+    ingredients: ["almond extract", "cherries", "dark chocolate chips", "heavy cream", "walnuts", "unsweetened chocolate", "egg yolks", "milk", "dark maple syrup", "butter", "sugar"]
+  - title: "Vanilla frozen yogurt"
+    page: 55
+    ingredients: ["yogurt", "sugar", "vanilla extract"]
+  - title: "Rich vanilla frozen yogurt"
+    page: 55
+    ingredients: ["Greek yogurt", "sugar", "vanilla extract"]
+  - title: "S’mores ice cream"
+    page: 56
+    ingredients: ["milk", "heavy cream", "egg yolks", "gelatin powder", "light corn syrup", "confectioner's sugar", "sugar", "alkalized unsweetened cocoa powder", "graham crackers"]
+  - title: "Caramel corn ice cream"
+    page: 57
+    ingredients: ["popcorn kernels", "dry-roasted peanuts", "butter", "light brown sugar", "light corn syrup", "molasses", "milk", "heavy cream", "egg yolks"]
+  - title: "Peanut butter ice cream"
+    page: 59
+    ingredients: ["peanut butter", "half and half cream"]
+  - title: "Peanut butter and jelly ice cream"
+    page: 59
+    ingredients: ["peanut butter", "half and half cream", "jam of your choice"]
+  - title: "Orange popsicle ice cream"
+    page: 59
+    ingredients: ["oranges", "sour cream", "half and half cream", "Grand Marnier"]
+  - title: "Labneh ice cream with pistachio-sesame brittle"
+    page: 60
+    ingredients: ["yogurt", "heavy cream", "honey", "pistachio nuts", "sesame seeds"]
+  - title: "Camomille-infused honey"
+    page: 62
+  - title: "Malted milk ice cream"
+    page: 63
+    ingredients: ["half and half cream", "heavy cream", "malt powder", "egg yolks", "chocolate-covered malted milk balls"]
+  - title: "Chocolate-malted milk ice cream"
+    page: 63
+    ingredients: ["half and half cream", "heavy cream", "malt powder", "chocolate-covered malted milk balls", "egg yolks", "butter", "all-purpose flour", "light brown sugar", "eggs", "chocolate chips", "pecans"]
+  - title: "Oatmeal-raisin ice cream"
+    page: 64
+    ingredients: ["raisins", "whisky", "heavy cream", "ground cinnamon", "egg yolks", "rolled oats", "milk", "sugar"]
+  - title: "Oatmeal cookie ice cream sandwiches"
+    page: 64
+    ingredients: ["raisins", "whisky", "heavy cream", "ground cinnamon", "egg yolks", "rolled oats", "milk", "sugar", "eggs"]
+  - title: "Rum raisin ice cream"
+    page: 65
+    ingredients: ["raisins", "golden raisins", "dark rum", "oranges", "heavy cream", "egg yolks"]
+  - title: "Rum raisin vacherins"
+    page: 65
+    ingredients: ["dark rum", "heavy cream", "oranges", "raisins", "golden raisins", "eggs", "light corn syrup", "sugar"]
+  - title: "Tin roof ice cream"
+    page: 66
+    ingredients: ["heavy cream", "dark chocolate", "roasted unsalted peanuts", "egg yolks", "vanilla beans", "sugar", "light corn syrup", "alkalized unsweetened cocoa powder"]
+  - title: "Tin roof sundaes"
+    page: 66
+    ingredients: ["heavy cream", "dark chocolate", "candied cherries", "marshmallows", "light corn syrup", "roasted unsalted peanuts", "egg yolks", "peanuts", "milk", "vanilla beans", "cherries", "almond extract"]
+  - title: "Zabaglione gelato"
+    page: 67
+    ingredients: ["heavy cream", "egg yolks", "Marsala wine", "lemons", "milk"]
+  - title: "Chartreuse ice cream"
+    page: 68
+    ingredients: ["sour cream", "Chartreuse", "milk"]
+  - title: "Eggnog ice cream"
+    page: 69
+    ingredients: ["heavy cream", "egg yolks", "brandy", "dark rum", "milk", "whole nutmeg"]
+  - title: "Eggnog ice cream cups"
+    page: 69
+    ingredients: ["dark rum", "brandy", "heavy cream", "egg yolks", "milk", "whole nutmeg", "whiskey", "sugar"]
+  - title: "Toasted almond and candied cherry ice cream"
+    page: 70
+    ingredients: ["heavy cream", "almonds", "egg yolks", "almond extract", "bottled sour cherries", "milk", "sugar"]
+  - title: "Almond, cherry, and chocolate ice cream"
+    page: 70
+    ingredients: ["almond extract", "almonds", "heavy cream", "light corn syrup", "bottled sour cherries", "egg yolks", "milk", "sugar", "alkalized unsweetened cocoa powder"]
+  - title: "Crème fraîche ice cream"
+    page: 72
+    ingredients: ["egg yolks", "crème fraîche", "milk"]
+  - title: "Mascarpone ice cream"
+    page: 72
+    ingredients: ["egg yolks", "milk", "mascarpone cheese"]
+  - title: "Cherries jubilee"
+    page: 72
+    ingredients: ["almond extract", "cherries", "crème fraîche", "kirsch", "egg yolks", "milk", "sugar"]
+  - title: "Turrón ice cream"
+    page: 73
+    ingredients: ["half and half cream", "honey", "oranges", "heavy cream", "egg yolks", "orange flower water", "candied orange peel", "almonds", "pistachio nuts"]
+  - title: "Goat cheese ice cream"
+    page: 74
+    ingredients: ["goat cheese", "egg yolks", "milk"]
+  - title: "Goat cheese ice cream with honey and walnuts"
+    page: 74
+    ingredients: ["goat cheese", "honey", "walnuts", "egg yolks", "milk"]
+  - title: "Cheesecake ice cream"
+    page: 75
+    ingredients: ["cream cheese", "sour cream", "half and half cream", "lemons"]
+  - title: "Blueberry cheesecake ice cream"
+    page: 75
+    ingredients: ["blueberries", "half and half cream", "sour cream", "kirsch", "lemons", "cream cheese", "sugar"]
+  - title: "Tiramisù ice cream"
+    page: 75
+    ingredients: ["mascarpone cheese", "half and half cream", "brandy", "light corn syrup", "coffee liqueur", "espresso", "instant coffee granules", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Affogato"
+    page: 75
+    ingredients: ["mascarpone cheese", "half and half cream", "brandy", "light corn syrup", "coffee liqueur", "espresso", "instant coffee granules", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Lavender-honey ice cream"
+    page: 76
+    ingredients: ["honey", "lavender", "heavy cream", "egg yolks", "milk"]
+  - title: "Honey-sesame ice cream"
+    page: 76
+    ingredients: ["honey", "heavy cream", "egg yolks", "sesame seeds", "milk"]
+  - title: "Figs roasted in Pernod"
+    page: 77
+    ingredients: ["figs", "honey", "Pernod"]
+  - title: "Roquefort-honey ice cream"
+    page: 77
+    ingredients: ["honey", "Roquefort cheese", "heavy cream", "egg yolks"]
+  - title: "Sweet potato ice cream with maple-glazed pecans"
+    page: 78
+    ingredients: ["sweet potatoes", "ground cinnamon", "maple syrup", "walnuts", "milk"]
+  - title: "Panforte ice cream"
+    page: 79
+    ingredients: ["egg yolks", "half and half cream", "cinnamon sticks", "ground cloves", "heavy cream", "honey", "almonds", "whole nutmeg", "mixed citrus fruit peel"]
+  - title: "Fresh apricot ice cream"
+    page: 81
+    ingredients: ["apricots", "heavy cream", "almond extract"]
+  - title: "Apricot vacherins with sour cherries in syrup"
+    page: 81
+    ingredients: ["almond extract", "apricots", "heavy cream", "bottled sour cherries", "egg whites", "sugar"]
+  - title: "Roasted banana ice cream"
+    page: 82
+    ingredients: ["bananas", "milk", "store-cupboard ingredients"]
+  - title: "Banana split"
+    page: 82
+    ingredients: ["bananas", "heavy cream", "dark chocolate", "milk", "light corn syrup", "alkalized unsweetened cocoa powder", "cherries", "sugar", "almond extract"]
+  - title: "Sour cherry frozen yogurt"
+    page: 83
+    ingredients: ["sour cherries", "yogurt", "almond extract"]
+  - title: "Sour cherry profiteroles"
+    page: 83
+    ingredients: ["almond extract", "eggs", "yogurt", "dark chocolate", "light corn syrup", "sour cherries", "jarred sour cherries", "sugar", "all-purpose flour", "egg yolks", "alkalized unsweetened cocoa powder"]
+  - title: "Dried apricot-pistachio ice cream"
+    page: 84
+    ingredients: ["dried apricots", "pistachio nuts", "half and half cream", "dry white wine"]
+  - title: "Apricot-pistachio crêpes"
+    page: 84
+    ingredients: ["dried apricots", "half and half cream", "pistachio nuts", "acacia honey", "dry white wine", "eggs"]
+  - title: "Plum ice cream"
+    page: 85
+    ingredients: ["plums", "heavy cream", "kirsch"]
+  - title: "Plum-raspberry swirl ice cream"
+    page: 85
+    ingredients: ["heavy cream", "kirsch", "vodka", "plums", "raspberries", "egg yolks", "milk", "sugar"]
+  - title: "Plum-blackberry swirl ice cream"
+    page: 85
+    ingredients: ["blackberries", "heavy cream", "kirsch", "vodka", "plums", "egg yolks", "milk", "sugar"]
+  - title: "Pear-caramel ice cream"
+    page: 86
+    ingredients: ["pears", "heavy cream"]
+  - title: "Pear, caramel, and ginger ice cream"
+    page: 86
+    ingredients: ["pears", "heavy cream", "candied ginger"]
+  - title: "Pear-caramel cream puffs with salted butter caramel and chocolate sauces and buttercrunch toffee bits"
+    page: 86
+    ingredients: ["almonds", "heavy cream", "pears", "eggs", "dark chocolate", "light corn syrup", "all-purpose flour", "butter", "sugar", "coarse sea salt", "alkalized unsweetened cocoa powder", "chocolate chips"]
+  - title: "Fresh fig ice cream"
+    page: 87
+    ingredients: ["figs", "lemons", "heavy cream"]
+  - title: "Prune-Armagnac ice cream"
+    page: 88
+    ingredients: ["prunes", "Armagnac", "sour cream", "milk"]
+  - title: "Olive oil ice cream"
+    page: 90
+    ingredients: ["heavy cream", "egg yolks", "olive oil", "milk"]
+  - title: "Lemon-olive oil ice cream"
+    page: 90
+    ingredients: ["heavy cream", "egg yolks", "olive oil", "lemons"]
+  - title: "Honey-roasted apricots"
+    page: 90
+    ingredients: ["apricots", "honey", "vanilla beans"]
+  - title: "Orange-Szechwan pepper ice cream"
+    page: 91
+    ingredients: ["heavy cream", "oranges", "egg yolks", "Szechwan peppercorns", "milk", "sugar"]
+  - title: "Orange-cardamom ice cream"
+    page: 91
+    ingredients: ["cardamom seeds", "heavy cream", "oranges", "egg yolks", "milk", "sugar"]
+  - title: "Orange-clove ice cream"
+    page: 91
+    ingredients: ["whole cloves", "heavy cream", "oranges", "egg yolks", "milk", "sugar"]
+  - title: "Blueberry frozen yogurt"
+    page: 92
+    ingredients: ["yogurt", "blueberries", "kirsch"]
+  - title: "Blueberry frozen yogurt: rich variation"
+    page: 92
+    ingredients: ["Greek yogurt", "blueberries", "kirsch"]
+  - title: "Raspberry frozen yogurt"
+    page: 92
+    ingredients: ["raspberries", "yogurt"]
+  - title: "Super lemon ice cream"
+    page: 93
+    ingredients: ["lemons", "half and half cream"]
+  - title: "Mock lemon meringue pie"
+    page: 93
+    ingredients: ["half and half cream", "lemons", "confectioner's sugar", "light corn syrup", "gelatin powder", "sugar", "egg whites"]
+  - title: "Lemon-speculoos ice cream"
+    page: 95
+    ingredients: ["lemons", "heavy cream", "egg yolks", "molasses", "ground cinnamon", "ground ginger", "ground allspice", "milk"]
+  - title: "Peach ice cream"
+    page: 96
+    ingredients: ["peaches", "sour cream", "heavy cream"]
+  - title: "Nectarine ice cream"
+    page: 96
+    ingredients: ["nectarines", "sour cream", "heavy cream"]
+  - title: "Peaches and cream compote"
+    page: 96
+    ingredients: ["heavy cream", "sour cream", "crème fraîche", "peaches", "egg yolks", "milk"]
+  - title: "Peach frozen yogurt"
+    page: 97
+    ingredients: ["peaches", "yogurt", "store-cupboard ingredients"]
+  - title: "Strawberry-sour cream ice cream"
+    page: 98
+    ingredients: ["strawberries", "vodka", "sour cream", "heavy cream"]
+  - title: "Strawberry frozen yogurt"
+    page: 99
+    ingredients: ["strawberries", "yogurt"]
+  - title: "Strawberry frozen yogurt meringues"
+    page: 99
+    ingredients: ["heavy cream", "strawberries", "vodka", "yogurt", "egg whites", "sugar"]
+  - title: "Raspberry swirl ice cream"
+    page: 100
+    ingredients: ["heavy cream", "egg yolks", "raspberries", "vodka", "milk"]
+  - title: "Blackberry swirl ice cream"
+    page: 100
+    ingredients: ["heavy cream", "egg yolks", "blackberries", "vodka", "milk"]
+  - title: "Raspberry ice cream"
+    page: 101
+    ingredients: ["half and half cream", "heavy cream", "raspberries", "egg yolks", "sugar"]
+  - title: "Raspberry ice cream and tartufi with white chocolate sauce"
+    page: 101
+    ingredients: ["half and half cream", "heavy cream", "raspberries", "dark chocolate", "egg yolks", "sugar", "light corn syrup", "white chocolate"]
+  - title: "Passion fruit ice cream"
+    page: 102
+    ingredients: ["heavy cream", "passion fruit", "egg yolks"]
+  - title: "Avocado ice cream"
+    page: 103
+    ingredients: ["avocados", "sour cream", "heavy cream", "limes"]
+  - title: "Batido de aguacate con leche"
+    page: 103
+    ingredients: ["avocados", "heavy cream", "sour cream", "limes", "milk"]
+  - title: "Basil ice cream"
+    page: 104
+    ingredients: ["basil", "heavy cream", "egg yolks", "lemons", "milk"]
+  - title: "Strawberries in lemon syrup"
+    page: 104
+    ingredients: ["lemons", "strawberries"]
+  - title: "Toasted coconut ice cream"
+    page: 105
+    ingredients: ["unsweetened shredded coconut", "heavy cream", "vanilla beans", "egg yolks", "milk"]
+  - title: "Fresh mint ice cream"
+    page: 106
+    ingredients: ["heavy cream", "mint", "egg yolks", "milk"]
+  - title: "Girl Scout-style ice cream sandwiches"
+    page: 106
+    ingredients: ["heavy cream", "mint", "egg yolks", "milk", "butter", "alkalized unsweetened cocoa powder", "sugar", "eggs", "all-purpose flour"]
+  - title: "Mango sorbet"
+    page: 112
+    ingredients: ["mangoes", "limes", "dark rum"]
+  - title: "Green apple and sparkling cider sorbet"
+    page: 114
+    ingredients: ["tart apples", "sparkling apple cider (alcohol-free)"]
+  - title: "Apple-ginger sorbet"
+    page: 115
+    ingredients: ["red-skinned apples", "Riesling wine", "fresh ginger"]
+  - title: "Pear sorbet"
+    page: 116
+    ingredients: ["pears", "store-cupboard ingredients"]
+  - title: "Pear-ginger sorbet"
+    page: 116
+    ingredients: ["pears", "candied ginger"]
+  - title: "Cantaloupe sorbet"
+    page: 116
+    ingredients: ["cantaloupes", "limes"]
+  - title: "Grape sorbet"
+    page: 117
+    ingredients: ["grapes", "light corn syrup", "vodka"]
+  - title: "Watermelon sorbetto"
+    page: 119
+    ingredients: ["watermelons", "limes", "dark chocolate chips"]
+  - title: "Lime sorbet"
+    page: 120
+    ingredients: ["limes", "sugar"]
+  - title: "Cranberry-orange sorbet"
+    page: 120
+    ingredients: ["cranberries", "oranges"]
+  - title: "Lemon sorbet"
+    page: 121
+    ingredients: ["lemons", "sugar"]
+  - title: "Lemon sherbet"
+    page: 122
+    ingredients: ["lemons", "milk"]
+  - title: "Lemon-buttermilk sherbet"
+    page: 122
+    ingredients: ["lemons", "buttermilk"]
+  - title: "Pink grapefruit-Champagne sorbet"
+    page: 123
+    ingredients: ["Champagne wine", "pink grapefruits"]
+  - title: "Tangerine sorbet"
+    page: 124
+    ingredients: ["tangerines", "sugar"]
+  - title: "Chocolate-tangerine sorbet"
+    page: 125
+    ingredients: ["dark chocolate", "tangerines", "store-cupboard ingredients"]
+  - title: "Mocha sherbet"
+    page: 126
+    ingredients: ["coffee", "alkalized unsweetened cocoa powder"]
+  - title: "Mocha freeze"
+    page: 126
+    ingredients: ["heavy cream", "coffee", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate sorbet"
+    page: 126
+    ingredients: ["dark chocolate", "alkalized unsweetened cocoa powder", "sugar"]
+  - title: "Chocolate-coconut sorbet"
+    page: 128
+    ingredients: ["dark chocolate", "sugar", "Thai coconut milk"]
+  - title: "Nectarine sorbet"
+    page: 129
+    ingredients: ["nectarines", "kirsch", "sugar"]
+  - title: "Peach sorbet"
+    page: 129
+    ingredients: ["peaches", "kirsch", "sugar"]
+  - title: "Blackberry sorbet"
+    page: 131
+    ingredients: ["blackberries", "store-cupboard ingredients"]
+  - title: "Blackberry-lime sorbet"
+    page: 131
+    ingredients: ["blackberries", "limes"]
+  - title: "Cherry sorbet"
+    page: 132
+    ingredients: ["cherries", "almond extract"]
+  - title: "Apricot sorbet"
+    page: 133
+    ingredients: ["apricots", "almond extract", "sugar"]
+  - title: "Strawberry sorbet"
+    page: 134
+    ingredients: ["strawberries", "store-cupboard ingredients"]
+  - title: "Plum-berry compote"
+    page: 134
+    ingredients: ["plums", "berries of your choice"]
+  - title: "Strawberry-rhubarb sorbet"
+    page: 135
+    ingredients: ["rhubarb", "strawberries"]
+  - title: "Red wine-poached rhubarb compote"
+    page: 135
+    ingredients: ["cinnamon sticks", "honey", "rhubarb", "red wine", "ground cloves"]
+  - title: "Plum-raspberry sorbet"
+    page: 136
+    ingredients: ["plums", "raspberries", "kirsch"]
+  - title: "Raspberry-rosé sorbet"
+    page: 137
+    ingredients: ["rosé wine", "raspberries"]
+  - title: "Strawberry-rosé sorbet"
+    page: 137
+    ingredients: ["rosé wine", "strawberries"]
+  - title: "Raspberry sherbet"
+    page: 138
+    ingredients: ["raspberries", "milk", "sugar"]
+  - title: "Raspberry-champagne sorbet"
+    page: 138
+    ingredients: ["Champagne wine", "raspberries"]
+  - title: "Raspberry frozé"
+    page: 139
+    ingredients: ["rosé wine", "raspberries", "vodka"]
+  - title: "Cucumber-gin sorbet"
+    page: 140
+    ingredients: ["tonic water", "gin", "mint", "cucumbers", "limes"]
+  - title: "Banana-blueberry sorbet"
+    page: 142
+    ingredients: ["bananas", "blueberries"]
+  - title: "Banana-blackberry sorbet"
+    page: 142
+    ingredients: ["bananas", "blackberries"]
+  - title: "Banana sorbet"
+    page: 142
+    ingredients: ["bananas", "limes", "store-cupboard ingredients"]
+  - title: "Pineapple sorbet"
+    page: 143
+    ingredients: ["pineapple", "sugar"]
+  - title: "Pineapple-Champagne sorbet"
+    page: 144
+    ingredients: ["pineapple", "Champagne wine"]
+  - title: "Piña colada sherbet"
+    page: 144
+    ingredients: ["pineapple", "dark rum", "limes", "sugar", "Thai coconut milk"]
+  - title: "Tropical fruit sorbet"
+    page: 145
+    ingredients: ["bananas", "pineapple", "tangerines", "passion fruit", "dark rum", "limes", "sugar"]
+  - title: "Kiwifruit sorbet"
+    page: 145
+    ingredients: ["kiwifruits", "sugar"]
+  - title: "Spritz sorbet"
+    page: 146
+    ingredients: ["Prosecco wine", "pink grapefruits", "Campari"]
+  - title: "Leche merengada"
+    page: 148
+    ingredients: ["lemons", "egg whites", "cinnamon sticks", "milk"]
+  - title: "Fleur de lait"
+    page: 149
+    ingredients: ["heavy cream", "milk"]
+  - title: "Espresso granita"
+    page: 154
+    ingredients: ["espresso"]
+  - title: "Chocolate granita"
+    page: 154
+    ingredients: ["dark chocolate", "sugar", "alkalized unsweetened cocoa powder"]
+  - title: "Plum granita"
+    page: 155
+    ingredients: ["plums", "sugar"]
+  - title: "Nectarine granita"
+    page: 155
+    ingredients: ["nectarines", "sugar"]
+  - title: "Peach granita"
+    page: 155
+    ingredients: ["peaches", "sugar"]
+  - title: "Kir granita"
+    page: 156
+    ingredients: ["Champagne wine", "crème de cassis"]
+  - title: "Strawberry granita"
+    page: 156
+    ingredients: ["strawberries", "store-cupboard ingredients"]
+  - title: "Pear granita"
+    page: 158
+    ingredients: ["pears"]
+  - title: "Cranberry granita"
+    page: 158
+    ingredients: ["cranberries", "oranges", "sugar"]
+  - title: "Grape granita"
+    page: 159
+    ingredients: ["grapes", "store-cupboard ingredients"]
+  - title: "Mojito granita"
+    page: 160
+    ingredients: ["limes", "mint", "white rum"]
+  - title: "Blood orange granita"
+    page: 161
+    ingredients: ["blood oranges", "Grand Marnier"]
+  - title: "Pink grapefruit granita"
+    page: 162
+    ingredients: ["red grapefruits"]
+  - title: "Lemon granita"
+    page: 164
+    ingredients: ["lemons", "sugar"]
+  - title: "Lime granita"
+    page: 165
+    ingredients: ["limes", "sugar"]
+  - title: "Pineapple granita"
+    page: 165
+    ingredients: ["pineapple", "limes"]
+  - title: "Melon granita"
+    page: 167
+    ingredients: ["melons", "store-cupboard ingredients"]
+  - title: "Kiwifruit granita"
+    page: 167
+    ingredients: ["kiwifruits", "sugar"]
+  - title: "Raspberry granita"
+    page: 168
+    ingredients: ["raspberries"]
+  - title: "Frozen gimlets"
+    page: 169
+    ingredients: ["gin", "limes"]
+  - title: "Rosemary syrup"
+    page: 169
+    ingredients: ["rosemary"]
+  - title: "Negroni slush"
+    page: 171
+    ingredients: ["grapefruits", "Campari", "sweet vermouth", "gin"]
+  - title: "Semisweet hot fudge"
+    page: 176
+    ingredients: ["heavy cream", "light corn syrup", "dark chocolate"]
+  - title: "Classic hot fudge"
+    page: 178
+    ingredients: ["heavy cream", "light corn syrup", "dark chocolate", "alkalized unsweetened cocoa powder"]
+  - title: "Lean chocolate sauce"
+    page: 179
+    ingredients: ["light corn syrup", "dark chocolate", "alkalized unsweetened cocoa powder"]
+  - title: "Mocha sauce"
+    page: 179
+    ingredients: ["dark chocolate", "espresso", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate shell"
+    page: 181
+    ingredients: ["dark chocolate", "coconut oil"]
+  - title: "Marshmallow sauce"
+    page: 182
+    ingredients: ["light corn syrup", "powdered gelatin", "egg whites"]
+  - title: "Marshmallow-hot fudge sauce"
+    page: 183
+    ingredients: ["marshmallows", "dark chocolate", "store-cupboard ingredients"]
+  - title: "White chocolate sauce"
+    page: 184
+    ingredients: ["heavy cream", "white chocolate"]
+  - title: "White chocolate and vanilla bean sauce"
+    page: 184
+    ingredients: ["heavy cream", "white chocolate", "vanilla beans"]
+  - title: "White chocolate-Chartreuse sauce"
+    page: 184
+    ingredients: ["heavy cream", "Chartreuse", "white chocolate"]
+  - title: "Whipped cream"
+    page: 184
+    ingredients: ["heavy cream", "store-cupboard ingredients"]
+  - title: "Dulce de leche"
+    page: 185
+    ingredients: ["condensed milk"]
+  - title: "Creamy caramel sauce"
+    page: 186
+    ingredients: ["heavy cream", "sugar"]
+  - title: "Cajeta"
+    page: 188
+    ingredients: ["light corn syrup", "cinnamon sticks", "milk", "sugar"]
+  - title: "Salted butter caramel sauce"
+    page: 189
+    ingredients: ["heavy cream", "butter", "coarse sea salt"]
+  - title: "Lemon caramel sauce"
+    page: 190
+    ingredients: ["lemons", "sugar"]
+  - title: "Whiskey caramel sauce"
+    page: 190
+    ingredients: ["whisky", "sugar"]
+  - title: "Rum caramel sauce"
+    page: 190
+    ingredients: ["rum", "sugar"]
+  - title: "Sour cherries in syrup"
+    page: 191
+    ingredients: ["bottled sour cherries", "sugar"]
+  - title: "Candied citrus peel"
+    page: 193
+    ingredients: ["lemons", "light corn syrup", "sugar"]
+  - title: "Candied pineapple"
+    page: 194
+    ingredients: ["pineapple", "vanilla beans", "store-cupboard ingredients"]
+  - title: "Pecan-praline sauce"
+    page: 195
+    ingredients: ["light corn syrup", "heavy cream", "pecans", "whisky"]
+  - title: "Pecan, cranberry, and praline sauce"
+    page: 195
+    ingredients: ["light corn syrup", "heavy cream", "pecans", "dried cranberries", "whisky"]
+  - title: "Strawberry sauce"
+    page: 196
+    ingredients: ["strawberries", "store-cupboard ingredients"]
+  - title: "Smooth raspberry sauce"
+    page: 196
+    ingredients: ["raspberries", "store-cupboard ingredients"]
+  - title: "Chunky raspberry sauce"
+    page: 197
+    ingredients: ["raspberries", "store-cupboard ingredients"]
+  - title: "Mixed berry coulis"
+    page: 198
+    ingredients: ["strawberries", "raspberries", "blackberries"]
+  - title: "Blueberry sauce"
+    page: 198
+    ingredients: ["blueberries", "kirsch", "store-cupboard ingredients"]
+  - title: "Blueberry-cassis sauce"
+    page: 198
+    ingredients: ["blueberries", "kirsch", "crème de cassis"]
+  - title: "Candied red beans"
+    page: 200
+    ingredients: ["adzuki beans", "light corn syrup", "store-cupboard ingredients"]
+  - title: "Honeyed cashews"
+    page: 201
+    ingredients: ["honey", "cashew nuts"]
+  - title: "Hot honey"
+    page: 202
+    ingredients: ["honey", "Thai chiles"]
+  - title: "Honey crunch granola"
+    page: 204
+    ingredients: ["rolled oats", "sunflower seeds", "unsweetened shredded coconut", "sesame seeds", "honey", "mixed dried fruits", "sliced almonds"]
+  - title: "French almonds"
+    page: 205
+    ingredients: ["almonds"]
+  - title: "Candied oats"
+    page: 205
+    ingredients: ["rolled oats", "ground cinnamon"]
+  - title: "Salt-roasted peanuts"
+    page: 207
+    ingredients: ["peanuts", "light corn syrup", "coarse sea salt"]
+  - title: "Candied lemon slices"
+    page: 213
+    ingredients: ["lemons", "sugar"]
+  - title: "Candied orange slices"
+    page: 213
+    ingredients: ["oranges", "sugar"]
+  - title: "Candied cherries"
+    page: 214
+    ingredients: ["cherries", "almond extract", "sugar"]
+  - title: "Buttered pecans"
+    page: 216
+    ingredients: ["butter", "pecans"]
+  - title: "Pralined almonds"
+    page: 217
+    ingredients: ["almonds", "sugar"]
+  - title: "Pralined peanuts"
+    page: 217
+    ingredients: ["peanuts", "sugar"]
+  - title: "Spiced pecans"
+    page: 218
+    ingredients: ["ground cinnamon", "ground ginger", "ground cloves", "chile powder", "pecans", "egg whites"]
+  - title: "Spiced walnuts"
+    page: 218
+    ingredients: ["ground cinnamon", "ground ginger", "ground cloves", "chile powder", "walnuts", "egg whites"]
+  - title: "Wet walnuts"
+    page: 219
+    ingredients: ["maple syrup", "walnuts"]
+  - title: "Wet pecans"
+    page: 219
+    ingredients: ["maple syrup", "pecans"]
+  - title: "Chocolate-covered peanuts"
+    page: 220
+    ingredients: ["dark chocolate", "roasted unsalted peanuts"]
+  - title: "Peanut brittle"
+    page: 220
+    ingredients: ["light corn syrup", "salted peanuts"]
+  - title: "Buttercrunch toffee"
+    page: 223
+    ingredients: ["almonds", "butter", "chocolate chips", "store-cupboard ingredients"]
+  - title: "Croquant"
+    page: 224
+    ingredients: ["nuts of your choice", "sugar"]
+  - title: "Honey-sesame brittle"
+    page: 224
+    ingredients: ["honey", "sesame seeds"]
+  - title: "Oatmeal praline"
+    page: 225
+    ingredients: ["rolled oats", "sugar"]
+  - title: "Peppermint patties"
+    page: 226
+    ingredients: ["confectioner's sugar", "light corn syrup", "peppermint extract", "dark chocolate"]
+  - title: "Peanut butter patties"
+    page: 228
+    ingredients: ["peanut butter"]
+  - title: "Speculoos"
+    page: 229
+    ingredients: ["molasses", "ground cinnamon", "ground ginger", "ground allspice", "egg yolks", "store-cupboard ingredients"]
+  - title: "Stracciatella"
+    page: 230
+    ingredients: ["dark chocolate"]
+  - title: "Dark chocolate truffles"
+    page: 230
+    ingredients: ["heavy cream", "light corn syrup", "dark chocolate", "Cognac"]
+  - title: "Fudge ripple"
+    page: 231
+    ingredients: ["light corn syrup", "alkalized unsweetened cocoa powder"]
+  - title: "Mocha ripple"
+    page: 231
+    ingredients: ["light corn syrup", "espresso", "alkalized unsweetened cocoa powder"]
+  - title: "Marshmallows"
+    page: 232
+    ingredients: ["light corn syrup", "confectioner's sugar", "gelatin powder"]
+  - title: "White chocolate truffles"
+    page: 234
+    ingredients: ["heavy cream", "white chocolate"]
+  - title: "Chocolate chip cookie dough"
+    page: 235
+    ingredients: ["nuts of your choice", "dark chocolate chips", "store-cupboard ingredients"]
+  - title: "Cakelike brownies"
+    page: 240
+    ingredients: ["dark chocolate", "pecans or walnuts", "butter", "alkalized unsweetened cocoa powder", "sugar", "eggs", "all-purpose flour"]
+  - title: "Chocolate-dulce de leche brownies"
+    page: 240
+    ingredients: ["condensed milk", "dark chocolate", "pecans or walnuts", "store-cupboard ingredients", "butter", "alkalized unsweetened cocoa powder", "sugar", "eggs", "all-purpose flour"]
+  - title: "Peppermint brownies"
+    page: 240
+    ingredients: ["light corn syrup", "peppermint extract", "dark chocolate", "pecans or walnuts", "condensed milk", "butter", "alkalized unsweetened cocoa powder", "sugar", "eggs", "all-purpose flour"]
+  - title: "Blondies"
+    page: 241
+    ingredients: ["chocolate chips", "pecans or walnuts", "butter", "all-purpose flour", "light brown sugar", "eggs"]
+  - title: "Chewy-dense brownies"
+    page: 242
+    ingredients: ["unsweetened chocolate", "butter", "sugar", "eggs", "dark chocolate chips"]
+  - title: "Oatmeal ice cream sandwich cookies"
+    page: 244
+    ingredients: ["ground cinnamon", "rolled oats", "raisins", "store-cupboard ingredients", "eggs"]
+  - title: "Chocolate ice cream sandwich cookies"
+    page: 245
+    ingredients: ["butter", "sugar", "eggs", "alkalized unsweetened cocoa powder", "all-purpose flour"]
+  - title: "Chocolate chip ice cream sandwich cookies"
+    page: 247
+    ingredients: ["dark chocolate chips", "pecans or walnuts", "butter", "eggs", "all-purpose flour"]
+  - title: "Almond butterscotch cookie cups"
+    page: 248
+    ingredients: ["light corn syrup", "almond extract", "sliced almonds", "store-cupboard ingredients"]
+  - title: "Lemon-poppy seed cookie cups"
+    page: 249
+    ingredients: ["sliced almonds", "poppyseeds", "lemons", "store-cupboard ingredients"]
+  - title: "Ice cream cones"
+    page: 250
+    ingredients: ["egg whites", "store-cupboard ingredients"]
+  - title: "Sesame seed ice cream cones"
+    page: 252
+    ingredients: ["sesame seeds", "store-cupboard ingredients", "egg whites"]
+  - title: "Poppy seed ice cream cones"
+    page: 252
+    ingredients: ["poppyseeds", "store-cupboard ingredients", "egg whites"]
+  - title: "Chocolate ice cream cones"
+    page: 252
+    ingredients: ["store-cupboard ingredients", "alkalized unsweetened cocoa powder", "egg whites"]
+  - title: "Gingersnap ice cream cones"
+    page: 252
+    ingredients: ["molasses", "ground cinnamon", "ground ginger", "nutmeg", "store-cupboard ingredients", "egg whites"]
+  - title: "Honey-cornmeal ice cream cones"
+    page: 252
+    ingredients: ["honey", "cornmeal", "store-cupboard ingredients", "egg whites"]
+  - title: "Rosemary ice cream cones"
+    page: 252
+    ingredients: ["rosemary", "honey", "cornmeal", "store-cupboard ingredients", "egg whites"]
+  - title: "Crêpes"
+    page: 253
+    ingredients: ["store-cupboard ingredients", "eggs"]
+  - title: "Profiteroles"
+    page: 255
+    ingredients: ["eggs", "all-purpose flour", "egg yolks"]
+  - title: "Meringue nests"
+    page: 256
+    ingredients: ["store-cupboard ingredients", "egg whites"]
+  - title: "Almond meringue nests"
+    page: 256
+    ingredients: ["store-cupboard ingredients", "almond extract", "egg whites", "sliced almonds"]
+  - title: "Chocolate meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "egg whites", "alkalized unsweetened cocoa powder"]
+  - title: "Chocolate chip meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "dark chocolate chips", "egg whites"]
+  - title: "Chocolate-chocolate chip meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "dark chocolate chips", "egg whites", "alkalized unsweetened cocoa powder"]
+  - title: "Cinnamon meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "ground cinnamon", "egg whites"]
+  - title: "Cocoa nib meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "cocoa nibs", "egg whites"]
+  - title: "Coconut meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "egg whites", "shredded coconut"]
+  - title: "Coffee meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "instant coffee powder", "egg whites"]
+  - title: "Green tea and black sesame meringue nests"
+    page: 257
+    ingredients: ["store-cupboard ingredients", "egg whites", "matcha", "black sesame seeds"]
+  - title: "Tartufi"
+    page: 258
+    ingredients: ["ice cream", "dark chocolate", "light corn syrup "]
