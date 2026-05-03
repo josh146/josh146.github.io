@@ -1,0 +1,409 @@
+book: "Ottolenghi Comfort"
+author: "Yotam Ottolenghi, Helen Goh, Tara Wigley, and Verena Lochmuller"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/ottolenghi-comfort-249659l1.jpg"
+recipes:
+  - title: "Dutch baby with oven-roasted tomatoes"
+    page: 22
+    ingredients: ["plain flour", "Parmesan cheese", "thyme", "English mustard powder", "eggs", "milk", "bacon", "cheddar cheese", "cherry tomatoes", "balsamic vinegar", "chilli flakes", "basil"]
+  - title: "Egg and cress"
+    page: 25
+    ingredients: ["eggs", "egg yolks", "maple syrup", "buttermilk", "jalapeño chiles", "pistachio nuts", "watercress", "chives", "salad cress"]
+  - title: "Egg sambal 'shakshuka'"
+    page: 26
+    ingredients: ["fennel seeds", "whole cloves", "cardamom seeds", "ground cinnamon", "medium curry powder", "black mustard seeds", "curry leaves", "red onions", "fresh ginger", "garlic", "coriander leaves", "datterini tomatoes", "tinned crushed tomatoes", "sambal oelek", "tamarind concentrate", "palm sugar", "eggs"]
+  - title: "Leek, tomato and turmeric frittata"
+    page: 29
+    ingredients: ["leeks", "fresh ginger", "green chillies", "cumin seeds", "turmeric", "plum tomatoes", "eggs"]
+  - title: "Zhoug"
+    page: 29
+    ingredients: ["cumin seeds", "cardamom seeds", "whole cloves", "coriander leaves", "parsley", "green chillies", "caster sugar", "apple cider vinegar"]
+  - title: "Aubergine omelette (Tortang talong)"
+    page: 30
+    ingredients: ["aubergines", "shallots", "ground cumin", "ground allspice", "ground cinnamon", "minced lamb", "rose harissa", "spring onions", "coriander leaves", "mint", "eggs"]
+  - title: "Tahini sauce 1"
+    page: 30
+    ingredients: ["natural yoghurt", "tahini"]
+  - title: "Steamed eggs with shrimps and chives"
+    page: 34
+    ingredients: ["eggs", "dashi", "white pepper", "sunflower oil", "cooked brown shrimp", "fresh ginger", "Shaoxing rice wine", "chives", "sesame oil", "light soy sauce", "Chinkiang vinegar"]
+  - title: "Crêpes"
+    page: 39
+    ingredients: ["eggs", "milk", "store-cupboard ingredients"]
+  - title: "Crêpes with sesame and hazelnut chocolate praline spread"
+    page: 40
+    ingredients: ["eggs", "milk", "sesame seeds", "blanched hazelnuts", "caster sugar", "vanilla pods", "sunflower oil", "milk chocolate", "cocoa powder"]
+  - title: "Cheesy curry crêpes"
+    page: 42
+    ingredients: ["milk", "eggs", "roast chicken", "spring onions", "Greek yoghurt", "mild curry powder", "turmeric", "cheddar cheese"]
+  - title: "Lemon, mascarpone and thyme crêpes"
+    page: 44
+    ingredients: ["milk", "eggs", "lemons", "caster sugar", "thyme", "vanilla bean paste", "mascarpone cheese", "double cream", "lemon curd", "hazelnuts"]
+  - title: "Polenta pancakes with spiced corn salad"
+    page: 46
+    ingredients: ["quick-cooking polenta", "eggs", "soured cream", "maple syrup", "spring onions", "peanut oil", "black mustard seeds", "cumin seeds", "cinnamon sticks", "whole cloves", "curry leaves", "corn", "roasted salted peanuts", "red chillies", "coriander leaves"]
+  - title: "'Thousand' hole pancakes"
+    page: 49
+    ingredients: ["fine semolina", "strong white bread flour", "caster sugar", "fast-action dried yeast"]
+  - title: "Salted honey butter with pecans"
+    page: 49
+    ingredients: ["unsalted butter", "runny honey", "flaked sea salt", "pecans"]
+  - title: "Roasted aubergine, red pepper and tomato soup"
+    page: 53
+    ingredients: ["aubergines", "tomatoes", "red peppers", "onions", "garlic", "thyme", "ground cumin", "paprika", "ground cayenne pepper", "saffron threads", "tomato paste", "vegetable stock"]
+  - title: "Fried almond topping"
+    page: 53
+    ingredients: ["flaked almonds", "thyme", "saffron threads", "ground cayenne pepper", "paprika", "ground cumin", "parsley", "sherry vinegar"]
+  - title: "Mulligatawny"
+    page: 54
+    ingredients: ["chicken thighs", "Camargue red rice", "onions", "carrots", "celery", "green peppers", "fresh ginger", "medium curry powder", "garam masala", "chickpea flour", "tomatoes", "tomato paste", "split red lentils", "coconut cream", "lime juice", "cumin seeds", "black mustard seeds", "green chillies", "curry leaves"]
+  - title: "Pea and ham soup"
+    page: 55
+    ingredients: ["onions", "carrots", "celery", "bay leaves", "cumin seeds", "coriander seeds", "green split peas", "tinned chopped tomatoes", "pork shanks", "chicken stock"]
+  - title: "Pea and mint salsa"
+    page: 55
+    ingredients: ["pumpkin seeds", "mint", "dried mint", "frozen petits pois", "lime juice"]
+  - title: "Matza ball soup"
+    page: 58
+    ingredients: ["carrots", "chicken legs", "parsnips", "celery", "onions", "bay leaves", "parsley stalks", "dill stalks", "turmeric", "black peppercorns", "matzah meal", "eggs", "sunflower oil", "garlic"]
+  - title: "Hawaij spice mix"
+    page: 58
+    ingredients: ["coriander seeds", "cumin seeds", "whole cloves", "cardamom pods", "fenugreek seeds", "black peppercorns", "turmeric"]
+  - title: "Cheesy bread soup with Savoy cabbage"
+    page: 61
+    ingredients: ["anchovies", "thyme", "bay leaves", "dry white wine", "Savoy cabbage", "cavolo nero", "nutmeg", "parsley", "sourdough bread", "Fontina cheese", "Parmesan cheese", "chicken stock"]
+  - title: "Hummus"
+    page: 62
+    ingredients: ["jarred chickpeas", "ground cumin", "red chillies", "apple cider vinegar", "tahini", "lemons", "cumin seeds", "parsley"]
+  - title: "Hummus by way of southern France (aka chickpea and fennel purée)"
+    page: 63
+    ingredients: ["onions", "fennel", "fennel seeds", "dry vermouth", "jarred chickpeas", "lemons", "basil"]
+  - title: "Tomato, olive and pepper topping"
+    page: 63
+    ingredients: ["red peppers", "cherry tomatoes", "Niçoise olives"]
+  - title: "Easy, cheesy rice cakes"
+    page: 68
+    ingredients: ["sushi rice", "turmeric", "spring onions", "Greek yoghurt", "nigella seeds", "frozen peas", "low-moisture mozzarella cheese", "feta cheese", "ghee"]
+  - title: "Quick sweet chilli sauce"
+    page: 68
+    ingredients: ["red chillies", "fish sauce", "runny honey", "lime juice"]
+  - title: "Mung bean and kimchi 'falafel'"
+    page: 69
+    ingredients: ["mung beans", "kimchi", "white cabbage", "spring onions", "coriander leaves", "sunflower oil"]
+  - title: "Kimchi dipping sauce"
+    page: 69
+    ingredients: ["kimchi", "soy sauce", "rice vinegar", "runny honey", "sesame oil", "fish sauce"]
+  - title: "Cauliflower and butternut pakoras"
+    page: 72
+    ingredients: ["chickpea flour", "turmeric", "ground coriander", "hot chile powder", "cumin seeds", "black mustard seeds", "fresh ginger", "coriander leaves", "red onions", "butternut squash", "cauliflower", "sunflower oil"]
+  - title: "Tamarind sauce"
+    page: 72
+    ingredients: ["tamarind puree", "lime juice", "fish sauce", "chilli flakes"]
+  - title: "Prawn spoon fritters (Cucur udang)"
+    page: 76
+    ingredients: ["prawns", "sunflower oil", "caster sugar", "fast-action dried yeast", "turmeric", "spring onions", "green chillies", "fish sauce", "sesame oil", "white pepper"]
+  - title: "Chilli dipping sauce"
+    page: 76
+    ingredients: ["red chillies", "fresh ginger", "caster sugar", "lime juice", "sesame oil"]
+  - title: "Spiced chicken sando with harissa mayonnaise"
+    page: 78
+    ingredients: ["natural yoghurt", "baharat spice mix", "ground cinnamon", "caster sugar", "chicken breast fillets", "white cabbage", "spring onions", "panko breadcrumbs", "vegetable oil", "white sandwich bread", "rose harissa", "mayonnaise", "lime juice"]
+  - title: "Salmon fishcakes with chermoula remoulade"
+    page: 80
+    ingredients: ["sweet potatoes", "King Edward potatoes", "skinless salmon fillets", "spring onions", "chives", "lime zest", "chermoula", "panko breadcrumbs", "eggs", "sunflower oil", "limes", "mayonnaise", "Greek yoghurt", "dill pickles"]
+  - title: "Meatballs with nuoc cham, cucumber and mint"
+    page: 83
+    ingredients: ["shallots", "coriander leaves", "mint", "fish sauce", "caster sugar", "leftover rice", "minced pork", "white pepper", "red bird's eye chiles", "red chillies", "palm sugar", "lime juice", "rice vinegar"]
+  - title: "Caponata with celery and burrata"
+    page: 86
+    ingredients: ["aubergines", "celery", "onions", "dried oregano", "chilli flakes", "tinned chopped tomatoes", "tomato paste", "runny honey", "Kalamata olives", "capers", "basil", "burrata cheese"]
+  - title: "Creamy aubergine Caesar dip"
+    page: 87
+    ingredients: ["aubergines", "spring onions", "padron peppers", "garlic", "anchovies", "lemons", "natural yoghurt", "English mustard", "Parmesan cheese", "sourdough bread", "maple syrup", "sesame seeds"]
+  - title: "Silky courgette and salmon salad"
+    page: 91
+    ingredients: ["banana shallots", "lemon juice", "courgettes", "salmon fillets", "rocket", "pine nuts"]
+  - title: "Rice vermicelli with turmeric fish, dill and spring onion"
+    page: 92
+    ingredients: ["cod", "peanut oil", "rice vermicelli noodles", "spring onions", "dill", "bird's eye chillies", "roasted salted peanuts", "banana shallots", "fresh ginger", "fish sauce", "turmeric", "curry powder", "mild red chillies", "palm sugar", "lime juice", "rice vinegar"]
+  - title: "Silky steamed aubergine"
+    page: 93
+    ingredients: ["aubergine", "Chinkiang vinegar", "Shaoxing rice wine", "light soy sauce", "sesame oil", "peanut oil", "spring onions", "fresh ginger", "red chillies", "sesame seeds", "coriander leaves", "tahini"]
+  - title: "Vegan creamed spinach and artichokes"
+    page: 97
+    ingredients: ["red chillies", "onions", "coriander leaves", "chargrilled artichokes in oil", "frozen leaf spinach", "capers", "spring onions", "silken tofu", "nutritional yeast flakes", "sourdough bread"]
+  - title: "All-purpose mushroom ragù"
+    page: 98
+    ingredients: ["dried porcini mushrooms", "mixed mushrooms", "onions", "celeriac", "Urfa chilli flakes", "white miso", "preserved lemon rind", "sherry vinegar", "stock of your choice", "double cream", "tarragon"]
+  - title: "Butter beans with roasted cherry tomatoes"
+    page: 101
+    ingredients: ["cherry tomatoes", "onions", "dried oregano", "thyme", "fennel seeds", "fresh bay leaves", "dry white wine", "smoked paprika", "jarred butter beans"]
+  - title: "Green beans on toast"
+    page: 102
+    ingredients: ["banana shallots", "French beans", "runner beans", "cherry tomatoes", "dried oregano", "chipotle chilli flakes", "oregano", "basil", "feta cheese", "mascarpone cheese", "sourdough bread"]
+  - title: "Slow-roasted celeriac with Gorgonzola cream"
+    page: 105
+    ingredients: ["olive oil", "lemons", "garlic", "cumin seeds", "celeriac", "roasted red peppers", "blanched hazelnuts", "pomegranate molasses", "Aleppo pepper", "Gorgonzola cheese", "soured cream", "chives"]
+  - title: "Roasted carrots with curry leaf dukkah"
+    page: 106
+    ingredients: ["carrots", "Greek yoghurt", "cashews", "raw peanuts", "blanched almonds", "blanched hazelnuts", "coriander seeds", "curry leaves", "fried shallots", "chilli flakes"]
+  - title: "Butter-braised kohlrabi with olive chimichurri"
+    page: 109
+    ingredients: ["unsalted butter", "kohlrabi", "crème fraîche", "pumpkin seeds", "green olives", "jalapeño chiles", "parsley", "chives", "capers", "maple syrup"]
+  - title: "Charred sprouts with olive oil and lemon"
+    page: 110
+    ingredients: ["Brussels sprouts", "garlic", "green chiles", "olive oil", "onions", "stock of your choice", "lemons", "tarragon", "dill fronds", "parsley", "preserved lemon rind"]
+  - title: "Roasted beets with tarragon and walnut tarator"
+    page: 115
+    ingredients: ["beetroot", "caster sugar", "tarragon", "white bread", "walnuts", "mint"]
+  - title: "Parmesan and black pepper roasted parsnips"
+    page: 116
+    ingredients: ["parsnips", "cracked black pepper", "maple syrup", "Parmesan cheese"]
+  - title: "Roast chicken with Auntie Pauline's marinade"
+    page: 121
+    ingredients: ["whole chicken", "garlic", "fresh ginger", "light soy sauce", "limes", "palm sugar", "peanut oil", "hot chilli powder", "ground coriander", "coriander leaves", "coconut milk", "fish sauce"]
+  - title: "Chicken with Steph's spice"
+    page: 122
+    ingredients: ["allspice berries", "bay leaves", "hot chilli powder", "paprika", "ground cinnamon", "mixed spice", "runny honey", "jalapeño chiles", "Scotch bonnet chillies", "red onions", "spring onions", "chicken thighs"]
+  - title: "Coconut rice with peanut sauce and cucumber relish"
+    page: 124
+    ingredients: ["rice vinegar", "caster sugar", "cucumbers", "fresh ginger", "red chillies", "coriander leaves", "roasted unsalted peanuts", "onions", "lemongrass", "sambal oelek", "paprika", "ground coriander", "tamarind puree", "jasmine rice", "coconut milk", "lime leaves"]
+  - title: "Peanut sauce"
+    page: 124
+    ingredients: ["roasted unsalted peanuts", "onions", "lemongrass", "fresh ginger", "sambal oelek", "paprika", "ground coriander", "caster sugar", "tamarind puree"]
+  - title: "Sambal spiced chicken"
+    page: 125
+    ingredients: ["chicken thighs", "ground coriander", "ground cumin", "turmeric", "fennel seeds", "maple syrup", "lime juice", "sambal oelek", "peanut oil"]
+  - title: "Roast chicken with curry leaf dukkah"
+    page: 128
+    ingredients: ["cashews", "raw peanuts", "blanched almonds", "blanched hazelnuts", "coriander seeds", "curry leaves", "fried shallots", "chilli flakes", "onions", "whole chicken", "limes", "garlic"]
+  - title: "Summer chicken cacciatore with herb salsa"
+    page: 132
+    ingredients: ["chicken thighs", "dried oregano", "dried thyme", "datterini tomatoes", "sourdough bread", "sesame seeds", "parsley", "chives", "green olives", "mint", "plum tomatoes"]
+  - title: "Cheeseball lemon rice with chilli butter"
+    page: 133
+    ingredients: ["whole cloves", "cardamom pods", "lemons", "ricotta cheese", "feta cheese", "mozzarella cheese", "Parmesan cheese", "eggs", "basmati rice", "green olives", "unsalted butter", "chilli flakes", "Aleppo pepper", "sumac", "spring onions"]
+  - title: "White-poached chicken with Chinese cabbage and peanut rayu"
+    page: 136
+    ingredients: ["chicken breast fillets", "Shaoxing rice wine", "fresh ginger", "peanut oil", "Chinese cabbage", "basil", "spring onions", "limes", "chilli flakes", "roasted salted peanuts", "sesame seeds", "soy sauce", "caster sugar"]
+  - title: "Shawarma meatloaf with caramelised onions"
+    page: 139
+    ingredients: ["onions", "eggs", "ground cumin", "paprika", "ground allspice", "turmeric", "ground cayenne pepper", "bulgur", "minced lamb", "courgettes", "coriander leaves", "mint", "caster sugar", "pomegranate molasses", "ground cinnamon", "Greek yoghurt"]
+  - title: "Roasted hispi cabbage with miso butter"
+    page: 140
+    ingredients: ["unsalted butter", "white miso", "fresh ginger", "toasted sesame oil", "rice vinegar", "sesame seeds", "chilli flakes", "light soy sauce", "spring onions", "hispi cabbage"]
+  - title: "Hawaij-roasted cauliflower with gribiche sauce"
+    page: 144
+    ingredients: ["cauliflower", "banana shallots", "coriander seeds", "cumin seeds", "fenugreek seeds", "whole cloves", "cardamom pods", "turmeric", "caster sugar", "golden raisins", "apple cider vinegar", "runny honey", "dill", "parsley", "cornichons", "hard-boiled eggs"]
+  - title: "Cheesy baked rice with okra and tomato"
+    page: 146
+    ingredients: ["okra", "cherry tomatoes", "basmati rice", "whole cloves", "cinnamon sticks", "onions", "ground cardamom", "ground cumin", "caster sugar", "garlic", "green chillies", "coriander leaves", "tomato paste", "stock of your choice", "buffalo mozzarella cheese", "mature cheddar cheese", "panko breadcrumbs"]
+  - title: "Braised fennel and cod with black-eyed beans and 'nduja butter"
+    page: 148
+    ingredients: ["fennel", "banana shallots", "garlic", "tinned black-eyed beans", "chicken stock", "dry vermouth", "cod", "crème fraîche", "chives", "lemons", "unsalted butter", "'nduja paste", "Urfa pepper flakes", "chipotle chilli flakes", "smoked paprika"]
+  - title: "Puttanesca-style salmon traybake"
+    page: 153
+    ingredients: ["fine green beans", "spring onions", "cherry tomatoes", "salmon fillets", "anchovies", "tomato paste", "chilli flakes", "coriander seeds", "garlic", "preserved lemon rind", "maple syrup", "Kalamata olives", "capers", "basil", "parsley"]
+  - title: "Red lentil dal with potato and fennel"
+    page: 157
+    ingredients: ["mustard seeds", "cumin seeds", "fennel seeds", "nigella seeds", "fenugreek seeds", "dried red chillies", "fresh ginger", "green chiles", "onions", "ghee", "curry leaves", "fennel", "Maris Piper potatoes", "tomatoes", "turmeric", "split red lentils", "split mung beans", "coconut milk", "lime juice", "coriander leaves"]
+  - title: "Oyakodon: Mother and child"
+    page: 158
+    ingredients: ["sunflower oil", "onions", "boneless skinless chicken thighs", "fresh ginger", "Shaoxing rice wine", "mirin", "dashi", "soy sauce", "eggs", "spring onions", "coriander leaves"]
+  - title: "Soy-braised pork belly with eggs and tofu"
+    page: 162
+    ingredients: ["pork belly", "spring onions", "garlic", "fresh ginger", "cinnamon sticks", "whole star anise", "bay leaves", "five-spice powder", "Shaoxing rice wine", "light soy sauce", "dark soy sauce", "eggs", "maple syrup", "rice vinegar", "tofu puffs"]
+  - title: "Quick-pickled cucumber"
+    page: 162
+    ingredients: ["cucumbers", "rice vinegar", "mirin", "spring onions", "mint", "coriander leaves"]
+  - title: "Butternut, tamarind and coconut stew"
+    page: 164
+    ingredients: ["black mustard seeds", "onions", "curry leaves", "garlic", "jalapeño chiles", "turmeric", "hot chilli powder", "paprika", "ground coriander", "butternut squash", "tamarind concentrate", "coconut milk", "jaggery", "coriander leaves"]
+  - title: "Cumin and coriander flatbreads"
+    page: 165
+    ingredients: ["plain flour", "wholemeal flour", "cumin seeds", "coriander seeds", "ghee"]
+  - title: "Fresh turmeric and peppercorn curry with prawns and asparagus"
+    page: 169
+    ingredients: ["coconut milk", "coconut cream", "palm sugar", "fish sauce", "asparagus", "prawns", "rice vinegar", "caster sugar", "cucumbers", "fresh ginger", "red chillies", "coriander leaves", "limes", "dried red chillies", "white peppercorns", "coriander seeds", "shallots", "coriander stems", "fresh turmeric"]
+  - title: "Lemongrass and galangal tuna curry"
+    page: 170
+    ingredients: ["coconut milk", "baby bok choy", "jarred tuna", "lemongrass", "banana shallots", "fresh ginger", "galangal", "turmeric", "lime leaves", "palm sugar", "red chillies", "coriander leaves", "lime juice", "peanut oil"]
+  - title: "Chicken and lime leaf curry with noodles"
+    page: 174
+    ingredients: ["Malaysian curry powder", "paprika", "chilli powder", "sunflower oil", "onions", "fresh ginger", "coriander stems", "belacan powder", "boneless skinless chicken thighs", "lime leaves", "coconut milk", "jaggery", "Hokkien noodles", "fine green beans", "beansprouts", "fried shallots"]
+  - title: "Chicken, meatballs, potatoes and lemon"
+    page: 176
+    ingredients: ["spring onions", "mint", "coriander", "minced chicken", "eggs", "Desiree potatoes", "ground cumin", "breadcrumbs", "onions", "celery", "lemons", "garlic", "turmeric", "cumin seeds", "ground cinnamon", "chicken stock", "caster sugar"]
+  - title: "Yoghurt sauce"
+    page: 176
+    ingredients: ["Greek yoghurt", "mint", "coriander"]
+  - title: "Braised lamb with butter beans and yoghurt"
+    page: 179
+    ingredients: ["coriander seeds", "cumin seeds", "lamb neck", "onions", "bay leaves", "lemons", "garlic", "anchovies", "thyme", "rosemary", "cherry tomatoes", "chicken stock", "jarred butter beans", "Greek yoghurt", "parsley"]
+  - title: "Sausage and lentils with mustard and crème fraîche"
+    page: 181
+    ingredients: ["Puy lentils", "smoked sausages", "onions", "celery", "green peppers", "thyme", "bay leaves", "Swiss chard", "tomato paste", "ground cumin", "chicken stock", "parsley", "crème fraîche", "Dijon mustard", "whole grain mustard"]
+  - title: "Green tea noodles with avocado and radish"
+    page: 184
+    ingredients: ["wakame", "green tea noodles", "sesame oil", "avocados", "spring onions", "basil", "sesame seeds", "radishes", "rice vinegar", "caster sugar", "sake", "lemon juice", "light soy sauce", "mirin", "fresh ginger"]
+  - title: "Nasi goreng with prawns and green beans"
+    page: 187
+    ingredients: ["peanut oil", "fine green beans", "caster sugar", "banana shallots", "cooked long-grain rice", "Thai basil", "eggs", "fried shallots", "lime juice", "fish sauce", "dark soy sauce", "bird's eye chillies", "long red chillies", "shallots", "anchovies", "lime leaves", "prawns"]
+  - title: "Quick ramen noodles with mushrooms"
+    page: 188
+    ingredients: ["chestnut mushrooms", "peanut oil", "Shaoxing rice wine", "instant ramen noodles", "nori", "spring onions", "fresh ginger", "shichimi togarashi", "dark soy sauce", "runny honey", "fish sauce", "lime juice"]
+  - title: "Gingery fish and rice"
+    page: 191
+    ingredients: ["sea bass", "sesame oil", "spring onions", "fresh ginger", "jasmine rice", "chicken stock", "sunflower oil", "red chillies", "caster sugar", "lime juice", "Shaoxing rice wine", "oyster sauce", "light soy sauce", "white pepper"]
+  - title: "Chilled tofu with spiced sesame dressing"
+    page: 192
+    ingredients: ["sesame seeds", "caster sugar", "light soy sauce", "toasted sesame oil", "Chinkiang black rice vinegar", "shichimi togarashi", "spring onions", "soft tofu"]
+  - title: "Poached chicken congee"
+    page: 194
+    ingredients: ["whole chicken", "fresh ginger", "black peppercorns", "banana shallots", "garlic", "coriander", "jasmine rice", "toasted sesame oil", "bay leaves", "chicken stock", "fish sauce"]
+  - title: "Mushroom and kimchi mapo tofu"
+    page: 196
+    ingredients: ["mixed mushrooms", "peanut oil", "spring onions", "fresh ginger", "Shaoxing rice wine", "doubanjiang", "light soy sauce", "dark soy sauce", "vegetable stock", "potato flour", "kimchi", "soft tofu", "toasted sesame oil", "Sichuan peppercorns"]
+  - title: "Pesto pasta with charred beans and potatoes"
+    page: 201
+    ingredients: ["basil", "pine nuts", "Parmesan cheese", "fine green beans", "lemons", "trofie pasta", "new potatoes"]
+  - title: "Caramelised onion orecchiette with hazelnuts and crispy sage"
+    page: 202
+    ingredients: ["sage", "onions", "orecchiette pasta", "hazelnuts"]
+  - title: "Linguine with miso butter, shiitake and spinach"
+    page: 205
+    ingredients: ["linguine pasta", "unsalted butter", "banana shallots", "shiitake mushrooms", "white miso", "light soy sauce", "Chinkiang black rice vinegar", "baby spinach"]
+  - title: "Rigatoni al ragù bianco"
+    page: 206
+    ingredients: ["dried wild mushrooms", "onions", "carrots", "celery", "minced beef", "minced pork", "chicken stock", "rigatoni pasta", "Maris Piper potatoes", "sage", "rosemary", "anchovies"]
+  - title: "Helen's Bolognese"
+    page: 207
+    ingredients: ["peanut oil", "onions", "carrots", "celery", "whole star anise", "cinnamon sticks", "bay leaves", "Sichuan peppercorns", "fennel seeds", "minced pork", "fresh ginger", "Shaoxing rice wine", "doubanjiang", "light soy sauce", "spring onions", "pappardelle pasta", "cucumbers", "rice vinegar", "runny honey", "sesame oil"]
+  - title: "Stroganoff meatballs"
+    page: 210
+    ingredients: ["tagliatelle", "poppy seeds", "stale white bread", "onions", "minced beef", "eggs", "dill", "lemon zest", "banana shallots", "chestnut mushrooms", "Cognac", "hot smoked paprika", "tomato paste", "Worcestershire sauce", "beef stock", "soured cream"]
+  - title: "One-pot chicken with orzo and porcini"
+    page: 213
+    ingredients: ["dried cascabel chiles", "cinnamon sticks", "dried porcini mushrooms", "whole chicken", "lemons", "celery", "onions", "garlic", "thyme", "orzo pasta", "parsley"]
+  - title: "Courgette and fennel lasagne"
+    page: 214
+    ingredients: ["courgettes", "fennel", "spring onions", "olive oil", "capers", "fennel seeds", "dill", "parsley", "lemons", "runny honey", "pumpkin seeds", "fresh lasagne pasta", "ricotta cheese", "pecorino Romano cheese", "buffalo mozzarella cheese", "double cream"]
+  - title: "Sausage ragù lasagne for one"
+    page: 215
+    ingredients: ["sausages", "carrots", "shallots", "thyme", "oregano", "fennel seeds", "tinned crushed tomatoes", "lasagne sheets", "buffalo mozzarella cheese"]
+  - title: "Tomato and aubergine one-pot baked pasta"
+    page: 218
+    ingredients: ["aubergines", "cherry tomatoes", "tinned chopped tomatoes", "dried oregano", "basil", "garlic", "red chillies", "tomato paste", "caster sugar", "fusilloni pasta", "parsley", "Parmesan cheese"]
+  - title: "Turkey rags-to-riches"
+    page: 220
+    ingredients: ["boneless skinless turkey breast", "sage", "dry white wine", "bay leaves", "capers", "lemons", "parsley", "quick-cooking polenta", "Parmesan cheese"]
+  - title: "Baked polenta with courgette and green harissa"
+    page: 223
+    ingredients: ["courgettes", "lemons", "chicken stock", "milk", "quick-cooking polenta", "Parmesan cheese", "Taleggio", "chives", "green peppers", "spring onions", "green chillies", "parsley", "cilantro", "cumin seeds", "coriander seeds", "maple syrup"]
+  - title: "Verena's potato salad"
+    page: 224
+    ingredients: ["waxy potatoes", "chicken stock", "apple cider vinegar", "black peppercorns", "chives", "smoked pancetta", "paprika", "cucumbers"]
+  - title: "Indonesian 'home fries'"
+    page: 227
+    ingredients: ["banana shallots", "garlic", "lemongrass", "bird's eye chillies", "red chillies", "tomato ketchup", "lime juice", "peanut oil", "palm sugar", "mayonnaise", "roasting potatoes", "coriander leaves"]
+  - title: "Crispy roast potatoes with rosemary and za'tar"
+    page: 228
+    ingredients: ["floury potatoes", "rosemary", "sunflower oil", "rice flour", "za'atar"]
+  - title: "Garlicky aligot potato with leeks and thyme"
+    page: 231
+    ingredients: ["leeks", "banana shallots", "garlic", "spring onions", "thyme", "double cream", "rosemary", "floury potatoes", "Comté cheese", "cheddar cheese", "panko breadcrumbs"]
+  - title: "Potato, fennel and smoked salmon bake"
+    page: 232
+    ingredients: ["milk", "double cream", "anchovies", "lemons", "fennel seeds", "Yukon Gold potatoes", "fennel", "egg yolks", "dill", "chives", "parsley", "smoked salmon"]
+  - title: "Lemon butter sauce"
+    page: 232
+    ingredients: ["unsalted butter", "capers", "lemon juice"]
+  - title: "Jacket potatoes with aubergine and green tahini"
+    page: 234
+    ingredients: ["baking potatoes", "caster sugar", "black peppercorns", "red cabbage", "aubergines", "ground cumin", "turmeric", "mint", "parsley", "green chillies", "tahini"]
+  - title: "Breakfast boureka with spinach"
+    page: 238
+    ingredients: ["filo pastry", "sesame seeds", "nigella seeds", "onions", "frozen leaf spinach", "spring onions", "dill", "dried mint", "pine nuts", "eggs", "feta cheese", "ricotta cheese"]
+  - title: "Tahini sauce 2"
+    page: 238
+    ingredients: ["tahini", "ground cumin"]
+  - title: "Tomato and harissa sauce"
+    page: 238
+    ingredients: ["tomatoes", "rose harissa"]
+  - title: "Cheese and onion butteries"
+    page: 242
+    ingredients: ["caster sugar", "fast-action dried yeast", "strong bread flour", "mature cheddar cheese", "unsalted butter", "spring onions", "poppy seeds"]
+  - title: "German-style sausage rolls with honey mustard"
+    page: 246
+    ingredients: ["white peppercorns", "black peppercorns", "coriander seeds", "caraway seeds", "dried marjoram", "thyme", "ground ginger", "mace", "English mustard powder", "salted pretzels", "eggs", "onions", "pork sausage meat", "chives", "puff pastry", "yellow mustard", "mayonnaise", "runny honey"]
+  - title: "Potato, cheese and chermoula hand pies"
+    page: 249
+    ingredients: ["floury potatoes", "onions", "ground cumin", "green olives", "chermoula", "mature cheddar cheese", "coriander", "spring onions", "crème fraîche", "eggs", "nigella seeds", "plain flour", "Parmesan cheese", "unsalted butter", "cream cheese"]
+  - title: "Beef, black garlic and baharat pie"
+    page: 252
+    ingredients: ["onions", "celery", "carrots", "floury potatoes", "turnips", "minced beef", "baharat spice mix", "tomatoes", "tomato paste", "black garlic", "bay leaves", "beef stock", "green onions", "shortcrust pastry", "puff pastry", "eggs"]
+  - title: "Leek, cheese and za'atar rugelach"
+    page: 254
+    ingredients: ["plain flour", "Parmesan cheese", "unsalted butter", "cream cheese", "eggs", "leeks", "lemon zest", "feta cheese", "za'atar", "cheddar cheese"]
+  - title: "Tomato galette with cheese and Marmite"
+    page: 256
+    ingredients: ["garlic", "cream cheese", "Marmite", "maple syrup", "robiola cheese", "eggs", "plain flour", "wholemeal flour", "unsalted butter", "tomatoes", "red onions", "thyme", "caraway seeds"]
+  - title: "Bohemian fish pie"
+    page: 260
+    ingredients: ["onions", "fennel", "cherry tomatoes", "tomato paste", "coriander seeds", "paprika", "thyme", "orange zest", "dry white wine", "fish stock", "Tabasco sauce", "mixed seafood", "celeriac", "tinned cannellini beans", "double cream"]
+  - title: "Spinach and asparagus loaf"
+    page: 263
+    ingredients: ["leeks", "watercress", "asparagus", "thyme", "frozen leaf spinach", "Parmesan cheese", "walnuts", "plain flour", "eggs", "soured cream", "za'atar"]
+  - title: "Carrot and vadouvan quick-bread"
+    page: 264
+    ingredients: ["plain flour", "caster sugar", "vadouvan spice", "coriander seeds", "eggs", "Greek yoghurt", "carrots", "spring onions", "fresh ginger"]
+  - title: "Bread rolls"
+    page: 266
+    ingredients: ["baking potatoes", "strong bread flour", "fast-action dried yeast", "caster sugar", "eggs", "sour cream"]
+  - title: "Cinnamon baked oatmeal with bananas and strawberries"
+    page: 273
+    ingredients: ["steel-cut oats", "jumbo rolled oats", "flaked almonds", "ground cinnamon", "bananas", "strawberries", "eggs", "maple syrup", "almond milk"]
+  - title: "GF caramelised white chocolate and macadamia cookies"
+    page: 274
+    ingredients: ["unsalted butter", "dark brown sugar", "caster sugar", "vanilla bean paste", "eggs", "egg yolks", "cassava flour", "jumbo oats", "macadamia nuts", "caramelised white chocolate"]
+  - title: "Baked custard affogato"
+    page: 277
+    ingredients: ["double cream", "milk", "light brown sugar", "vanilla pods", "eggs", "egg yolks", "blanched hazelnuts", "apple cider vinegar", "desiccated coconut", "espresso"]
+  - title: "Lemon and blueberry meringue kataifi mess"
+    page: 280
+    ingredients: ["kataifi pastry", "ground cinnamon", "blueberries", "meringues", "lemons", "cinnamon sticks", "vanilla pods", "double cream", "Greek yoghurt"]
+  - title: "Chocolate ripple fridge cake"
+    page: 282
+    ingredients: ["espresso", "double cream", "crème fraîche", "ground cinnamon", "plain flour", "cocoa powder", "caster sugar", "golden syrup", "eggs", "strawberries", "orange zest"]
+  - title: "Chocolate mousse with orange caramel"
+    page: 286
+    ingredients: ["dark chocolate", "eggs", "caster sugar", "whipping cream", "soured cream", "blanched hazelnuts", "oranges"]
+  - title: "Apple, blackberry and ginger crumble cake"
+    page: 289
+    ingredients: ["plain flour", "Granny Smith apples", "fresh ginger", "lemons", "unsalted butter", "caster sugar", "eggs", "egg whites", "blackberries", "Demerara sugar", "ground ginger", "ground cinnamon", "flaked almonds"]
+  - title: "Dutch apple cake"
+    page: 290
+    ingredients: ["unsalted butter", "caster sugar", "lemons", "vanilla pods", "eggs", "egg yolks", "plain flour", "ground almonds", "flaked almonds", "raisins", "dark rum", "Bramley apples", "Pink Lady apples", "black treacle", "ground cinnamon", "nutmeg", "panko breadcrumbs"]
+  - title: "Verena's back-to-childhood marble cake"
+    page: 295
+    ingredients: ["unsalted butter", "plain flour", "caster sugar", "vanilla pods", "eggs", "egg yolks", "kefir", "dark chocolate", "cocoa powder"]
+  - title: "Chocolate ganache glaze"
+    page: 295
+    ingredients: ["chocolate", "double cream"]
+  - title: "Bottomless cheesecake with plum compote"
+    page: 296
+    ingredients: ["unsalted butter", "golden caster sugar", "vanilla pods", "lemons", "eggs", "egg yolks", "fine semolina", "custard powder", "Greek yoghurt", "double cream", "plums", "oranges", "whole star anise"]
+  - title: "Plum compote"
+    page: 296
+    ingredients: ["plums", "caster sugar", "oranges", "whole star anise"]
+  - title: "Vegan Texas traybake"
+    page: 298
+    ingredients: ["soya milk", "apple cider vinegar", "caster sugar", "plain flour", "cocoa powder", "instant espresso powder", "maple syrup", "coconut oil", "vegan dark chocolate", "icing sugar"]
+  - title: "Kaiserschmarrn"
+    page: 300
+    ingredients: ["raisins", "rum", "caster sugar", "eggs", "soured cream", "vanilla pods", "ground cinnamon", "ground star anise"]
+  - title: "Brownie cookies with tahini cream and halva"
+    page: 302
+    ingredients: ["cocoa powder", "caster sugar", "eggs", "malted milk powder", "milk chocolate", "dark chocolate", "sesame seeds", "double cream", "mascarpone cheese", "tahini", "halva"]
+  - title: "Malty figgy pudding"
+    page: 305
+    ingredients: ["cocoa powder", "malted milk powder", "ground almonds", "unsalted butter", "crème fraîche", "maple syrup", "eggs", "dried figs", "dark chocolate", "double cream"]
