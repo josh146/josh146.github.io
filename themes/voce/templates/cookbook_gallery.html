@@ -13,14 +13,7 @@
 
 /* Layout when Pane is Active */
 .library-layout.pane-open {
-    grid-template-columns: 1fr 420px; /* Splits the grid */
-}
-
-/* --- THE MASTER GRID --- */
-.cookbook-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 20px;
+    grid-template-columns: 1fr 515px; /* Splits the grid */
 }
 
 .recipe-gallery {
@@ -240,6 +233,15 @@
         top: 0;
         height: auto;
         max-height: 80vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .recipe-gallery {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .cookbook-cover {
+        height: 200px;
     }
 }
 </style>

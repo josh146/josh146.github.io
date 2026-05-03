@@ -103,6 +103,8 @@ def get_physical_cookbooks(content_path):
             except Exception as e:
                 print(f"Error parsing cookbook {filepath}: {e}")
 
+    all_cookbooks.sort(key=lambda x: x.get('book', '').lower())
+
     return all_cookbooks
 
 
