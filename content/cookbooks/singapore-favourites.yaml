@@ -1,0 +1,100 @@
+book: "Singapore Favourites"
+author: "Wendy Hutton"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/singapore-favourites-periplus-mini-cookbooks-162645l2.jpg"
+recipes:
+  - title: "Spicy fruit and vegetable salad (Singapore rojak)"
+    page: 6
+    ingredients: ["cucumbers", "kangkung", "firm tofu", "bean sprouts", "pineapple", "green mangoes", "yu tiao", "wild ginger buds", "red chillies", "palm sugar", "belachan", "tamarind pulp", "peanuts", "jicama", "hae ko sauce"]
+  - title: "Fresh spring rolls (Popiah)"
+    page: 8
+    ingredients: ["chilli flakes", "garlic", "kecap manis", "lettuce", "cucumbers", "beansprouts", "pressed tofu", "lap cheong sausages", "onions", "pork loin", "prawns", "bamboo shoots", "soy sauce", "plain flour", "jicama", "soy bean paste"]
+  - title: "Crsipy fried ikan bilis and peanuts"
+    page: 10
+    ingredients: ["ikan bilis", "peanuts", "shallots", "turmeric", "chilli powder"]
+  - title: "Pork bones soup with spices (Bak kut teh)"
+    page: 11
+    ingredients: ["pork ribs", "cinnamon sticks", "whole cloves", "whole star anise", "red chillies", "dark soy sauce"]
+  - title: "Salted vegetable and duck soup"
+    page: 12
+    ingredients: ["whole duck", "kiam chye", "tamarind pulp", "tomatoes", "fresh ginger", "black soy sauce", "red chillies"]
+  - title: "Deep fried tofu with peanut sauce"
+    page: 15
+    ingredients: ["tau kwa", "cucumbers", "beansprouts", "shallots", "palm sugar", "peanut butter", "black soy sauce", "tamarind juice"]
+  - title: "Stir fried bean sprouts with salted fish"
+    page: 16
+    ingredients: ["salted fish", "bean sprouts", "spring onions"]
+  - title: "Malay style sambal prawns"
+    page: 17
+    ingredients: ["prawns", "tamarind juice", "tomatoes", "dried red chillies", "shallots", "fresh ginger", "belachan"]
+  - title: "Singapore chilli crab"
+    page: 19
+    ingredients: ["mud crabs", "shallots", "garlic", "fresh ginger", "red chillies", "chicken stock", "sweet chilli sauce", "tomato ketchup", "Shaoxing rice wine", "rice vinegar", "soy bean paste"]
+  - title: "Teochew oyster omelette (Orr chien)"
+    page: 20
+    ingredients: ["eggs", "oysters", "bean sprouts", "soy sauce", "spring onions", "coriander leaves", "Thai chilli garlic sauce", "rice vinegar", "rice flour"]
+  - title: "Teochew style steamed fish"
+    page: 22
+    ingredients: ["whole fish", "soy sauce", "Shaoxing rice wine", "fresh ginger", "dried shitake mushrooms", "spring onions", "sesame oil", "sour plums"]
+  - title: "Fried fish with spicy sweet sour sauce"
+    page: 25
+    ingredients: ["white fish fillets", "red chillies", "garlic", "fresh ginger", "tomatoes", "tomato ketchup", "rice vinegar", "soy sauce"]
+  - title: "Classic fish head curry"
+    page: 26
+    ingredients: ["fish heads", "brown mustard seeds", "curry leaves", "coconut milk", "tamarind juice", "onions", "tomatoes", "okra", "dried red chillies", "shallots", "fresh ginger", "coriander seeds", "cumin seeds", "fennel seeds", "turmeric", "fenugreek seeds"]
+  - title: "Indian style fried noodles (Indian mee goreng)"
+    page: 29
+    ingredients: ["Hokkien noodles", "tau kwa", "curry leaves", "tomatoes", "sweet chilli sauce", "tomato ketchup", "soy sauce", "potatoes", "red chillies"]
+  - title: "Rice vermicelli in sweet Thai gravy (Mee siam)"
+    page: 31
+    ingredients: ["dried prawns", "tamarind pulp", "bean sprouts", "spring onions", "prawns", "beehoon noodles", "tau kwa", "limes", "dried chillies", "shallots", "candlenuts", "soy bean paste"]
+  - title: "Singapore laksa"
+    page: 32
+    ingredients: ["fresh laksa noodles", "bean sprouts", "dried chillies", "red chillies", "shallots", "garlic", "galangal", "fresh ginger", "fresh turmeric", "belachan", "lemongrass", "coriander seeds", "dried prawns", "Vietnamese mint", "coconut milk", "prawns", "fish balls", "tau pok"]
+  - title: "Mixed braised noodles (Singapore Hokkien mee)"
+    page: 35
+    ingredients: ["Hokkien noodles", "beehoon noodles", "pork fillets", "prawns", "garlic", "bean sprouts", "spring onions", "limes", "chillies", "belachan"]
+  - title: "Vegetarian beehoon"
+    page: 37
+    ingredients: ["dried shitake mushrooms", "red chillies", "carrots", "red capsicums", "tau kwa", "bean sprouts", "beehoon noodles", "spring onions", "limes"]
+  - title: "Indian pancake with meat filling (Murtabak)"
+    page: 39
+    ingredients: ["onions", "turmeric", "fresh ginger", "chilli powder", "lamb mince", "garam masala"]
+  - title: "Classic chicken rice with ginger chilli sauce"
+    page: 40
+    ingredients: ["Shaoxing rice wine", "soy sauce", "whole chicken", "fresh ginger", "spring onions", "sesame oil", "long grain rice", "chicken stock", "red chillies", "garlic"]
+  - title: "Diced chicken with dried red chillies"
+    page: 42
+    ingredients: ["chicken breasts", "soy sauce", "Chinese black vinegar", "Shaoxing rice wine", "dried chillies", "Szechuan pepper", "fresh ginger", "spring onions", "sesame oil"]
+  - title: "Chicken in spicy coconut milk (Gulai ayam)"
+    page: 44
+    ingredients: ["whole chicken", "coconut milk", "lemongrass", "cumin seeds", "fennel seeds", "coriander seeds", "cinnamon sticks", "candlenuts", "shallots", "dried chillies", "fresh ginger", "turmeric", "nutmeg"]
+  - title: "Chicken satay with peanut sauce"
+    page: 47
+    ingredients: ["chicken", "lemongrass", "cucumbers", "red onions", "shallots", "dried chillies", "galangal", "tamarind pulp", "peanuts", "coconut milk", "cumin seeds", "coriander seeds", "fennel seeds", "turmeric", "fresh ginger"]
+  - title: "Teochew braised soy duck"
+    page: 48
+    ingredients: ["whole duck", "five spice powder", "dark soy sauce", "soy sauce", "garlic", "cinnamon sticks", "galangal", "Chinese black vinegar"]
+  - title: "Malay lamb stew (Gulai kambing)"
+    page: 50
+    ingredients: ["shallots", "fresh ginger", "dried chillies", "lamb", "coconut cream", "tamarind pulp", "coriander seeds", "cumin seeds", "fennel seeds", "cinnamon sticks", "nutmeg", "turmeric"]
+  - title: "Pork braised in black sauce (Tau yu bak)"
+    page: 53
+    ingredients: ["pork belly", "dark soy sauce", "soy sauce", "shallots", "garlic", "dried shitake mushrooms", "bamboo shoots", "soy bean paste"]
+  - title: "Chinese beef steak"
+    page: 54
+    ingredients: ["beef steaks", "baking soda", "soy sauce", "steak sauce", "Shaoxing rice wine", "sesame oil", "Worcestershire sauce", "tomato ketchup", "oyster sauce"]
+  - title: "Soy braised pork leg"
+    page: 56
+    ingredients: ["pork legs", "dried tofu sticks", "soy bean paste", "fresh ginger", "dried shitake mushrooms", "fermented tofu", "soy sauce", "dark soy sauce"]
+  - title: "Crispy barbeque pork ribs"
+    page: 59
+    ingredients: ["pork ribs", "honey", "soy sauce", "dark soy sauce", "Shaoxing rice wine", "Chinese black vinegar", "five spice powder", "sesame oil", "chicken stock"]
+  - title: "Sweet mung bean soup"
+    page: 60
+    ingredients: ["dried mung beans", "pandanus", "water chestnut flour", "yu tiao"]
+  - title: "Deep fried bananas (Goreng pisang)"
+    page: 62
+    ingredients: ["rice flour", "bananas"]
+  - title: "Sweet white fungus and lotus seeds"
+    page: 63
+    ingredients: ["dried white fungus mushrooms", "lotus seeds", "Chinese rock sugar"]

@@ -1,0 +1,163 @@
+book: "Tarts Anon"
+author: "Gareth Whitton and Catherine Way"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/tarts-anon-sweet-and-savoury-248431l3.jpg"
+recipes:
+  - title: Shortcrust pastry (Pate brisee)
+    page: 23
+    ingredients: ["plain flour", "unsalted butter"]
+  - title: "Vanilla custard tart"
+    page: 47
+    ingredients: ["pouring cream", "double cream", "cream cheese", "vanilla paste", "coffee beans", "egg yolks", "shortcrust pastry", "whole nutmeg"]
+  - title: "Plain old lemon tart"
+    page: 48
+    ingredients: ["lemons", "pouring cream", "double cream", "caster sugar", "eggs", "egg yolks", "dulce de leche", "shortcrust pastry"]
+  - title: "Lemon and rhubarb tart"
+    page: 48
+    ingredients: ["lemons", "pouring cream", "double cream", "caster sugar", "eggs", "egg yolks", "shortcrust pastry", "rhubarb"]
+  - title: "Fig and honey tart"
+    page: 51
+    ingredients: ["shortcrust pastry", "figs", "caster sugar", "pectin jaune", "citric acid", "almond meal", "eggs", "leatherwood honey", "brown butter"]
+  - title: "Chocolate and hazelnut tart"
+    page: 55
+    ingredients: ["shortcrust pastry", "dulce de leche", "hazelnuts", "pouring cream", "egg yolks", "dark chocolate callets"]
+  - title: "Chocolate and caramel tart"
+    page: 56
+    ingredients: ["shortcrust pastry", "cocoa powder", "dulce de leche", "pouring cream", "egg yolks", "dark chocolate callets"]
+  - title: "Cherry and almond tart"
+    page: 59
+    ingredients: ["shortcrust pastry shells", "jarred sour cherries", "citric acid", "almond meal", "eggs", "brown butter"]
+  - title: "Carrot cake tart"
+    page: 61
+    ingredients: ["shortcrust pastry shells", "pectin X58", "cream cheese", "oranges", "carrots", "almond meal", "walnut meal", "soft brown sugar", "eggs", "brown butter"]
+  - title: "Smoked pecan and butterscotch tart"
+    page: 65
+    ingredients: ["shortcrust pastry shells", "pecans", "pouring cream", "caster sugar", "butter", "dulce de leche", "pectin NH", "smoke powder", "maple syrup", "citric acid", "almond meal", "golden caster sugar", "eggs", "brown butter", "soft brown sugar"]
+  - title: "Rhubarb bakewell tart"
+    page: 67
+    ingredients: ["shortcrust pastry shells", "almonds", "rhubarb", "caster sugar", "pectin jaune", "citric acid", "almond meal", "eggs", "brown butter"]
+  - title: "Signature pear tart"
+    page: 71
+    ingredients: ["shortcrust pastry shells", "Packham pears", "almond meal", "eggs", "brown butter"]
+  - title: "Blackberry and orange cheesecake tart"
+    page: 75
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "blackberries", "pectin NH", "citric acid", "cream cheese", "pouring cream", "oranges", "caster sugar", "egg yolks"]
+  - title: "Raspberry and jasmine cheesecake tart"
+    page: 76
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "raspberries", "pectin NH", "citric acid", "cream cheese", "pouring cream", "jasmine tea", "caster sugar", "egg yolks"]
+  - title: "Mango and macadamia tart"
+    page: 79
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "macadamia nuts", "milk", "cream", "pectin X58", "mangoes", "pouring cream", "double cream", "caster sugar", "citric acid", "eggs", "egg yolks"]
+  - title: "Lamington tart"
+    page: 81
+    ingredients: ["shortcrust pastry shells", "shredded coconut", "raspberries", "caster sugar", "pectin jaune", "citric acid", "coconut milk", "vanilla paste", "eggs", "pectin X58", "pouring cream", "coconut cream", "cocoa powder"]
+  - title: "Espresso caramel chocolate tart"
+    page: 85
+    ingredients: ["shortcrust pastry shells", "espresso", "caster sugar", "butter", "dulce de leche", "pouring cream", "pectin X58", "almond meal", "cocoa powder", "eggs", "brown butter"]
+  - title: "Coconut pandan tart"
+    page: 87
+    ingredients: ["shortcrust pastry shells", "pandan leaves", "coconut cream", "pouring cream", "pectin X58", "caster sugar", "butter", "dulce de leche", "almond meal", "desiccated coconut", "eggs", "brown butter"]
+  - title: "Matcha, strawberry and rice cream tart"
+    page: 91
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "strawberries", "pectin NH", "citric acid", "short-grain rice", "gold gelatin leaves", "pouring cream", "double cream", "matcha powder", "caster sugar", "white chocolate callets", "egg yolks"]
+  - title: "Chocolate malt tart"
+    page: 93
+    ingredients: ["shortcrust pastry shells", "milk", "pearl barley", "pouring cream", "butter", "malt extract", "dulce de leche", "cream", "pectin X58", "milk chocolate callets", "almond meal", "brown butter", "malt powder", "cocoa powder", "caster sugar", "eggs"]
+  - title: "Caramelised apple crumble tart"
+    page: 97
+    ingredients: ["shortcrust pastry shells", "ground cinnamon", "Jazz apples", "caster sugar", "butter", "verjuice", "apple juice", "pectin jaune", "citric acid", "almond meal", "eggs", "brown butter", "plain flour", "feuilletine"]
+  - title: "Black Forest tart"
+    page: 99
+    ingredients: ["shortcrust pastry shells", "jarred sour cherries", "citric acid", "pectin jaune", "pectin NH", "kirsch", "almond meal", "cocoa powder", "caster sugar", "eggs", "brown butter"]
+  - title: "Tiramisu tart"
+    page: 103
+    ingredients: ["shortcrust pastry shells", "cocoa powder", "hazelnuts", "hazelnut meal", "golden caster sugar", "eggs", "brown butter", "Marsala", "espresso", "pouring cream", "coffee beans", "mascarpone cheese", "egg yolks"]
+  - title: "Apricot and desert lime tart"
+    page: 105
+    ingredients: ["shortcrust pastry shells", "apricots", "dulce de leche", "native desert limes", "pectin NH", "citric acid", "pouring cream", "double cream", "caster sugar", "egg yolks", "eggs"]
+  - title: "Honey and almond shortbread tart"
+    page: 109
+    ingredients: ["slivered almonds", "shortcrust pastry shells", "dulce de leche", "roasted almonds", "eggs", "cream", "cream cheese", "sour cream", "honey", "egg yolks"]
+  - title: "Banana and brown butter tart"
+    page: 111
+    ingredients: ["shortcrust pastry shells", "unsalted butter", "bananas", "eggs", "almond meal", "ground cinnamon", "milk", "pectin X58"]
+  - title: "Mango and yuzu tart"
+    page: 114
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "mangoes", "pectin NH", "citric acid", "cream", "cream cheese", "yuzu juice", "egg yolks"]
+  - title: "Anzac biscuit tart"
+    page: 117
+    ingredients: ["shortcrust pastry shells", "coconut cream", "caster sugar", "butter", "dulce de leche", "golden syrup", "quick oats", "desiccated coconut", "almond meal", "eggs", "brown butter"]
+  - title: "White peach and ume tart"
+    page: 119
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "white peaches", "caster sugar", "lemon thyme", "pectin NH", "citric acid", "pouring cream", "cream cheese", "umeshu", "egg yolks"]
+  - title: Rice pudding brûlée tart
+    page: 123
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "cooked short grain rice", "cream", "soft brown sugar", "ground cinnamon", "lemons", "vanilla paste", "egg yolks"]
+  - title: "Passionfruit and ginger tart"
+    page: 124
+    ingredients: ["shortcrust pastry shells", "crystallised ginger", "passionfruit juice", "citric acid", "pectin jaune", "pouring cream", "double cream", "caster sugar", "eggs", "egg yolks"]
+  - title: "Pistachio and date tart"
+    page: 127
+    ingredients: ["shortcrust pastry shells", "pistachio meal", "pistachios", "dates", "pouring cream", "egg yolks"]
+  - title: "Ube and coconut tart"
+    page: 129
+    ingredients: ["shortcrust pastry shells", "purple sweet potatoes", "orange sweet potatoes", "pectin X58", "pouring cream", "ube extract", "almond meal", "desiccated coconut", "eggs", "brown butter"]
+  - title: "Vanilla and rhubarb tart"
+    page: 133
+    ingredients: ["shortcrust pastry shells", "rhubarb", "pectin NH", "citric acid", "pouring cream", "double cream", "cream cheese", "vanilla paste", "egg yolks"]
+  - title: "Earl Grey chocolate and caraway tart"
+    page: 134
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "cocoa powder", "caraway seeds", "pouring cream", "golden caster sugar", "Earl Grey tea leaves", "egg yolks", "milk chocolate callets", "dark chocolate callets"]
+  - title: "Dulce de leche"
+    page: 139
+    ingredients: ["canned condensed milk"]
+  - title: "Hot cross bun tart"
+    page: 143
+    ingredients: ["shortcrust pastry shells", "raisins", "orange juice", "brandy", "mixed spice (UK)", "almond meal", "candied orange peel", "candied lemon peel", "eggs", "brown butter", "milk", "pectin X58", "milk powder"]
+  - title: "Mulled wine pear and gingerbread tart"
+    page: 145
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "Packham pears", "oranges", "cinnamon sticks", "whole star anise", "cardamom pods", "whole cloves", "caster sugar", "vanilla paste", "dry red wine", "pectin NH", "citric acid", "double cream", "pouring cream", "mixed spice (UK)", "ground ginger", "egg yolks", "white chocolate callets"]
+  - title: "Chocolate and chestnut tart"
+    page: 149
+    ingredients: ["shortcrust pastry shells", "roasted chestnuts", "redcurrant juice", "caster sugar", "citric acid powder", "chestnuts", "pouring cream", "milk", "pectin X58", "almond meal", "cocoa powder", "eggs", "brown butter", "pectin jaune"]
+  - title: "Passionfruit, rhubarb and strawberry Pavlova tart"
+    page: 151
+    ingredients: ["shortcrust pastry shells", "strawberry powder", "freeze-dried passionfruit powder", "strawberries", "pectin jaune", "citric acid", "rhubarb", "eggs", "Nougasec", "caster sugar", "passionfruit juice", "pouring cream", "double cream"]
+  - title: "Eggnog and fruit mince tart"
+    page: 155
+    ingredients: ["shortcrust pastry shells", "whole nutmeg", "butter", "Pink Lady apples", "raisins", "soft brown sugar", "candied orange zest", "orange juice", "lemons", "brandy", "mixed spice (UK)", "pouring cream", "double cream", "vanilla paste", "egg yolks"]
+  - title: "Pineapple tart"
+    page: 157
+    ingredients: ["shortcrust pastry shells", "pineapple", "apple juice", "pectin NH", "citric acid", "almond meal", "caster sugar", "eggs", "brown butter"]
+  - title: "White chocolate, raspberry and pistachio tart"
+    page: 159
+    ingredients: ["shortcrust pastry shells", "pistachios", "raspberries", "pectin jaune", "citric acid", "pouring cream", "pectin X58", "white chocolate callets", "almond meal", "golden caster sugar", "eggs", "brown butter"]
+  - title: "Chocolate, orange and whiskied pecan tart"
+    page: 163
+    ingredients: ["shortcrust pastry shells", "dulce de leche", "oranges", "pecans", "whisky", "almond meal", "golden caster sugar", "eggs", "brown butter", "milk chocolate callets", "feuilletine"]
+  - title: "Brillat-Savarin and quince tart"
+    page: 165
+    ingredients: ["shortcrust pastry shells", "blanched hazelnuts", "pectin jaune", "quinces", "citric acid", "almond meal", "eggs", "honey", "brown butter", "Brillat-Savarin cheese", "egg yolks", "pouring cream"]
+  - title: "Pumpkin and spiced caramel tart"
+    page: 168
+    ingredients: ["shortcrust pastry shells", "grey pumpkins", "ground cinnamon", "ground nutmeg", "ground cloves", "ground ginger", "dulce de leche", "brown butter", "pouring cream", "golden caster sugar", "egg yolks"]
+  - title: "St Honoré tart"
+    page: 171
+    ingredients: ["shortcrust pastry shells", "hazelnuts", "dulce de leche", "eggs", "vanilla paste", "egg yolks", "caster sugar", "pouring cream", "double cream", "cream cheese", "coffee beans"]
+  - title: "Cheese and bacon tart"
+    page: 177
+    ingredients: ["shortcrust pastry shells", "chives", "leeks", "smoked speck", "maple syrup", "almond meal", "eggs", "brown butter", "Gruyère cheese", "egg yolks", "pouring cream"]
+  - title: Corn and jalapeño tart
+    page: 179
+    ingredients: ["shortcrust pastry shells", "Parmesan cheese", "limes", "leeks", "corn kernels", "almond meal", "pickled jalapeños", "eggs", "brown butter", "pouring cream", "cream cheese", "egg yolks"]
+  - title: "Mushroom and Parmesan tart"
+    page: 183
+    ingredients: ["shortcrust pastry shells", "Parmesan cheese", "chives", "button mushrooms", "sherry vinegar", "pouring cream", "onions", "almond meal", "eggs", "brown butter", "egg yolks"]
+  - title: Sweet potato, spinach and goat’s cheese tart
+    page: 185
+    ingredients: ["shortcrust pastry shells", "sherry vinegar", "onions", "sweet potatoes", "leeks", "almond meal", "eggs", "brown butter", "panko breadcrumbs", "roasted almonds", "dukkah", "shallots", "spinach", "pouring cream", "goat cheese", "egg yolks"]
+  - title: "Smoked potato and chorizo tart"
+    page: 189
+    ingredients: ["shortcrust pastry shells", "blue potatoes", "pouring cream", "panko breadcrumbs", "parsley", "sherry vinegar", "white onions", "canned crushed tomatoes", "dried oregano", "leeks", "chorizo", "almond meal", "eggs", "brown butter", "smoke powder", "egg yolks"]
+  - title: "Potato and raclette tart"
+    page: 191
+    ingredients: ["shortcrust pastry shells", "onions", "sherry vinegar", "blue potatoes", "rosemary", "thyme", "frozen French fries", "chives", "egg yolks", "pouring cream", "smoked raclette cheese"]

@@ -1,0 +1,292 @@
+book: "Homemade Ramen"
+author: "Sho Spaeth"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/homemade-ramen-265769l1.jpg"
+recipes:
+  - title: "Kombu dashi"
+    page: 70
+    ingredients: ["kombu"]
+  - title: "Kombu shiitake dashi"
+    page: 71
+    ingredients: ["kombu", "dried shiitake mushrooms"]
+  - title: "Katsuobushi dashi"
+    page: 73
+    ingredients: ["kombu", "katsuobushi"]
+  - title: "Niboshi dashi"
+    page: 73
+    ingredients: ["kombu", "niboshi"]
+  - title: "Tsukemen soup"
+    page: 167
+    ingredients: ["brothy soup", "tare", "fat of your choice", "sweet vinegar", "salt", "vinegar"]
+  - title: "Classic shoyu"
+    page: 179
+    ingredients: ["rice vinegar", "white pepper", "poached chicken breasts", "chashu", "scallions", "kosher salt", "sugar", "boneless pork shoulder", "whole chicken", "kombu", "ground pork", "garlic cloves", "ginger", "soy sauce", "mirin", "fish sauce", "onion", "napa cabbage", "bread flour", "tapioca starch", "egg white powder", "sodium carbonate", "salt", "potassium carbonate", "koikuchi soy sauce", "dried shiitake mushrooms", "sake", "katsuobushi", "rendered lard"]
+  - title: "Pork and chicken chintan"
+    page: 182
+    ingredients: ["kosher salt", "sugar", "boneless pork shoulder", "whole chicken", "kombu", "ground pork", "garlic cloves", "ginger", "soy sauce", "mirin", "fish sauce", "onion", "napa cabbage"]
+  - title: "Shoyu tare"
+    page: 184
+    ingredients: ["koikuchi soy sauce", "kombu", "dried shiitake mushrooms", "katsuobushi", "fish sauce", "mirin", "kosher salt", "junmai sake"]
+  - title: "40%-hydration tapioca/egg white noodles 1"
+    page: 185
+    ingredients: ["bread flour", "tapioca starch", "egg white powder", "sodium carbonate", "salt", "potassium carbonate"]
+  - title: "Pork, chicken, and niboshi shoyu"
+    page: 187
+    ingredients: ["kosher salt", "white pepper", "toasted sesame oil", "scallions", "niboshi", "kombu", "whole chicken", "pigs feet", "ginger", "garlic", "onion", "napa cabbage", "bread flour", "tapioca starch", "potassium carbonate", "salt", "sodium carbonate", "ground pork", "koikuchi soy sauce", "mirin", "sugar", "wonton wrappers", "cornstarch", "dried shiitake mushroom", "sake", "katsuobushi", "fish sauce", "oyster sauce", "rendered lard", "neutral oil"]
+  - title: "Tontorinibo stock"
+    page: 189
+    ingredients: ["niboshi", "kombu", "whole chicken", "pigs feet", "ginger", "garlic", "onion", "scallions", "napa cabbage"]
+  - title: "Nibo tare"
+    page: 190
+    ingredients: ["koikuchi soy sauce", "niboshi", "kombu", "dried shiitake mushroom", "sake", "katsuobushi", "mirin", "fish sauce", "kosher salt", "oyster sauce", "sugar"]
+  - title: "Nibo oil"
+    page: 191
+    ingredients: ["neutral oil", "niboshi", "scallions"]
+  - title: "35%-hydration tapioca noodles"
+    page: 192
+    ingredients: ["bread flour", "tapioca starch", "potassium carbonate", "salt", "sodium carbonate"]
+  - title: "Duck shoyu"
+    page: 193
+    ingredients: ["white pepper", "scallions", "kombu", "dried shiitake mushrooms", "Pekin duck", "fresh ginger", "garlic", "kosher salt", "sugar", "cornstarch", "wonton skins", "soy sauce", "whole star anise", "black cardamom pods", "dried Szechuan er jing tiao chiles", "Sichuan peppercorns", "white peppercorns", "black peppercorns", "sake", "bay leaves", "Chinkiang black rice vinegar", "katsuobushi", "mirin", "oyster sauce", "fish sauce", "bread flour", "whole wheat flour", "tapioca starch", "egg white powder", "potassium carbonate", "sodium carbonate"]
+  - title: "Duck stock"
+    page: 196
+    ingredients: ["kombu", "dried shiitake mushrooms", "Pekin duck", "ginger", "garlic cloves", "scallions"]
+  - title: "Duck wontons"
+    page: 197
+    ingredients: ["boneless skinless duck thighs", "scallions", "kosher salt", "sugar", "white pepper", "cornstarch", "wonton skins", "soy sauce", "dried shiitake mushroom", "kombu", "star anise pod", "black cardamom pod", "dried chili", "Sichuan peppercorns", "white peppercorns", "black peppercorns", "sake", "garlic cloves", "ginger", "bay leaf", "Chinkiang vinegar", "katsuobushi", "mirin", "oyster sauce", "fish sauce"]
+  - title: "Duck tare"
+    page: 198
+    ingredients: ["soy sauce", "dried shiitake mushroom", "kombu", "star anise pod", "black cardamom pod", "Sichuan peppercorns", "white peppercorns", "black peppercorns", "sake", "garlic cloves", "ginger", "bay leaf", "Chinkiang vinegar", "katsuobushi", "mirin", "oyster sauce", "fish sauce", "kosher salt", "sugar", "dried chiles"]
+  - title: "Duck fat"
+    page: 199
+    ingredients: ["duck fat", "duck skin"]
+  - title: "Sous-vide duck breasts"
+    page: 200
+    ingredients: ["salt", "Pekin duck breasts"]
+  - title: "Marjoram oil"
+    page: 201
+    ingredients: ["neutral oil", "marjoram"]
+  - title: "Thyme oil"
+    page: 201
+    ingredients: ["neutral oil", "thyme"]
+  - title: "Duck fat cracklings"
+    page: 202
+    ingredients: ["neutral oil", "duck skin", "salt"]
+  - title: "40%-hydration tapioca/egg white noodles 2"
+    page: 203
+    ingredients: ["bread flour", "whole wheat flour", "tapioca starch", "egg white powder", "salt", "potassium carbonate", "sodium carbonate"]
+  - title: "Fresh fish shoyu"
+    page: 205
+    ingredients: ["white pepper", "scallions", "kombu", "ginger", "garlic clove", "bread flour", "tapioca starch", "salt", "sodium carbonate", "potassium carbonate", "koikuchi soy sauce", "usukuchi soy sauce", "dried shiitake mushroom", "sake", "katsuobushi", "mirin", "fish sauce", "kosher salt", "rendered lard", "neutral oil", "dried wakame", "refined coconut oil", "whole black sea bass"]
+  - title: "Fresh fish stock"
+    page: 206
+    ingredients: ["kombu", "fish carcasses", "scallions", "ginger", "garlic clove"]
+  - title: "Usukuchi shoyu tare"
+    page: 207
+    ingredients: ["koikuchi soy sauce", "usukuchi soy sauce", "dried shiitake mushroom", "kombu", "sake", "katsuobushi", "mirin", "fish sauce", "kosher salt"]
+  - title: "Ginger-scallion oil"
+    page: 208
+    ingredients: ["refined coconut oil", "ginger", "scallions"]
+  - title: "Seared salt-cured fish fillets"
+    page: 209
+    ingredients: ["black sea bass fillets", "kosher salt", "neutral oil"]
+  - title: "Fish tail meatballs"
+    page: 210
+    ingredients: ["fish tails", "kosher salt", "scallions", "garlic clove", "koikuchi soy sauce", "fish stock"]
+  - title: "38%-hydration tapioca noodles"
+    page: 211
+    ingredients: ["bread flour", "tapioca starch", "salt", "sodium carbonate", "potassium carbonate"]
+  - title: "Roasted chicken shoyu"
+    page: 213
+    ingredients: ["white pepper", "black pepper", "scallions", "neutral oil", "dry white wine", "turkey wings", "garlic", "koikuchi soy sauce", "tamari", "mirin", "Chinese dark soy sauce", "fish sauce", "kosher salt", "rendered chicken fat", "white onion", "rice vinegar", "light-brown sugar", "ginger", "sugar", "lacinato kale", "lemon", "whole chicken", "semolina flour", "salt", "potassium carbonate", "sodium carbonate"]
+  - title: "Roasted chicken stock"
+    page: 215
+    ingredients: ["chicken carcass", "neutral oil", "dry white wine", "turkey wings", "garlic"]
+  - title: "Blended shoyu tare"
+    page: 216
+    ingredients: ["koikuchi soy sauce", "tamari", "mirin", "Chinese dark soy sauce", "fish sauce", "kosher salt"]
+  - title: "Pan-roasted chicken breasts"
+    page: 217
+    ingredients: ["kosher salt", "neutral oil", "skin-on boneless chicken breasts"]
+  - title: "Pan-roasted chicken thighs"
+    page: 218
+    ingredients: ["chicken thighs", "kosher salt", "neutral oil"]
+  - title: "Chicken meatballs"
+    page: 219
+    ingredients: ["chicken drumsticks", "scallions", "ginger", "garlic clove", "kosher salt", "sugar", "white pepper", "koikuchi soy sauce", "tamari", "mirin", "Chinese dark soy sauce", "fish sauce", "roasted chicken stock"]
+  - title: "Aromatic chicken fat"
+    page: 220
+    ingredients: ["rendered chicken fat", "white onion", "garlic"]
+  - title: "Stir-fried lacinato kale"
+    page: 221
+    ingredients: ["neutral oil", "lacinato kale", "garlic clove", "fish sauce", "black pepper", "lemon"]
+  - title: "Semolina ramen"
+    page: 222
+    ingredients: ["semolina flour", "salt", "potassium carbonate", "sodium carbonate"]
+  - title: "Tori paitan"
+    page: 224
+    ingredients: ["shoyu tare", "white pepper", "scallions", "kombu", "whole chicken", "garlic", "ginger", "russet potato", "carrot", "white onion", "leeks", "rendered chicken fat", "rice vinegar", "light-brown sugar", "bread flour", "tapioca starch", "potassium carbonate", "sodium carbonate"]
+  - title: "Tori paitan stock"
+    page: 226
+    ingredients: ["kombu", "whole chicken", "garlic", "ginger", "russet potato", "carrot", "white onion", "leeks", "scallions"]
+  - title: "Shio tanmen"
+    page: 228
+    ingredients: ["white pepper", "scallion", "rice vinegar", "kombu", "niboshi", "dried scallops", "dried shiitake mushrooms", "sake", "garlic cloves", "ginger", "katsuobushi", "kosher salt", "sugar", "black salt", "mirin", "shiro shoyu", "olive oil", "toasted sesame oil", "usukuchi soy sauce", "littleneck clams", "neutral oil", "dried clams", "pork shanks", "pig feet", "ground pork", "white onions", "leeks", "carrots", "napa cabbage", "lard", "mung bean sprouts", "bread flour", "whole wheat flour", "tapioca starch", "sodium carbonate", "potassium carbonate"]
+  - title: "Roasted pork and dried clam stock"
+    page: 230
+    ingredients: ["kombu", "dried clams", "dried scallops", "dried shiitake mushrooms", "pork shanks", "neutral oil", "sake", "pigs feet", "ground pork", "garlic", "white onion", "ginger", "bay leaf", "leeks", "carrot", "napa cabbage"]
+  - title: "Shio tare"
+    page: 232
+    ingredients: ["kombu", "niboshi", "dried scallops", "dried shiitake mushrooms", "sake", "garlic cloves", "ginger", "katsuobushi", "kosher salt", "sugar", "black salt", "mirin", "shiro shoyu"]
+  - title: "Marinated clams"
+    page: 233
+    ingredients: ["garlic cloves", "scallion", "rice vinegar", "olive oil", "toasted sesame oil", "usukuchi soy sauce", "sugar", "littleneck clams", "neutral oil", "ginger", "sake"]
+  - title: "Stir-fried cabbage, bean sprouts, and wood ear mushrooms"
+    page: 234
+    ingredients: ["dried wood ear mushrooms", "napa cabbage", "garlic cloves", "soy sauce", "black pepper", "mung bean sprouts", "salt", "neutral oil"]
+  - title: "Thick 45%-hydration noodles for temomi"
+    page: 235
+    ingredients: ["bread flour", "whole-wheat flour", "tapioca starch", "sodium carbonate", "salt", "potassium carbonate"]
+  - title: "Negi shoyu with seabura"
+    page: 237
+    ingredients: ["scallions", "white pepper", "boneless pork shoulder", "kosher salt", "sugar", "whole milk", "sake", "white onion", "ginger", "garlic cloves", "bay leaf", "kombu", "dried clams", "dried scallops", "dried shiitake mushrooms", "pork shanks", "neutral oil", "pigs feet", "ground pork", "leeks", "carrot", "napa cabbage", "bread flour", "whole-wheat flour", "tapioca starch", "sodium carbonate", "salt", "potassium carbonate", "koikuchi soy sauce", "mirin", "saishikomi shoyu", "pork back fat"]
+  - title: "Saishikomi shoyu tare"
+    page: 238
+    ingredients: ["koikuchi soy sauce", "kombu", "sake", "mirin", "saishikomi shoyu"]
+  - title: "Milk-braised chashu"
+    page: 239
+    ingredients: ["boneless pork shoulder", "kosher salt", "sugar", "whole milk", "sake", "white onion", "ginger", "garlic cloves", "bay leaf"]
+  - title: "Boiled and chopped pork backfat (Seabura)"
+    page: 241
+    ingredients: ["pork back fat"]
+  - title: Miso ramen"
+    page: 243
+    ingredients: ["rendered lard", "scallions", "garlic clove", "white pepper", "sake", "ginger", "red miso", "white miso", "mirin", "shoyu tare", "fermented black beans", "sugar", "sesame paste", "bread flour", "whole-wheat flour", "tapioca starch", "sodium carbonate", "salt", "potassium carbonate", "kombu", "dried clams", "dried scallops", "dried shiitake mushrooms", "pork shanks", "pig feet", "ground pork", "white onions", "bay leaves", "leeks", "carrots", "napa cabbage"]
+  - title: "Miso tare"
+    page: 244
+    ingredients: ["sake", "garlic cloves", "ginger", "red miso", "white miso", "mirin", "shoyu tare", "fermented black beans", "sugar", "sesame paste"]
+  - title: "Tantanmen"
+    page: 245
+    ingredients: ["shoyu tare", "rendered lard", "doubanjiang", "sesame paste", "rice vinegar", "scallions", "bread flour", "whole-wheat flour", "tapioca starch", "sodium carbonate", "salt", "potassium carbonate", "sansho peppercorns", "white peppercorns", "neutral oil", "ground pork", "garlic cloves", "ginger", "nira", "sake", "soy sauce", "mirin", "toasted sesame oil", "erjingtiao chilies", "Sichuan peppercorns", "star anise pods", "whole cloves", "shallots", "kombu", "dried clams", "dried scallops", "dried shiitake mushrooms", "pork", "pig feet", "white onions", "bay leaves", "leeks", "carrots", "napa cabbage", "zha cai"]
+  - title: "Chili oil"
+    page: 248
+    ingredients: ["erjingtiao chilies", "Sichuan peppercorns", "star anise pods", "whole cloves", "neutral oil", "scallions", "shallots", "garlic cloves", "ginger"]
+  - title: "Spicy soboro"
+    page: 249
+    ingredients: ["sansho peppercorns", "white peppercorns", "neutral oil", "ground pork", "garlic cloves", "ginger", "doubanjiang", "pickled mustard stems", "nira", "scallions", "sake", "soy sauce", "mirin", "toasted sesame oil"]
+  - title: "Vegan chickpea shoyu"
+    page: 251
+    ingredients: ["white pepper", "scallions", "toasted sesame oil", "kombu", "dried shiitake mushrooms", "morita chiles", "dried chickpeas", "kosher salt", "garlic heads", "white onions", "ginger", "carrot", "celery ribs", "black cardamom pods", "bay leaf", "tomato paste", "neutral oil", "button mushrooms", "koikuchi soy sauce", "dried morita chiles", "sun-dried tomatoes", "sake", "tamari", "mirin", "bread flour", "tapioca starch", "salt", "sodium carbonate", "potassium carbonate", "shimeji mushrooms", "rice vinegar", "naga negi onions"]
+  - title: "Chickpea broth"
+    page: 253
+    ingredients: ["kombu", "dried shiitake mushrooms", "morita chiles", "dried chickpeas", "kosher salt", "garlic heads", "white onions", "ginger", "carrot", "celery ribs", "black cardamom pods", "bay leaf", "tomato paste", "neutral oil", "button mushrooms"]
+  - title: "Vegan shoyu tare"
+    page: 255
+    ingredients: ["koikuchi soy sauce", "dried morita chiles", "sun-dried tomatoes", "kombu", "dried shiitake mushrooms", "white onion", "garlic clove", "ginger", "sake", "tamari", "mirin", "kosher salt", "scallions", "neutral oil"]
+  - title: "Stir-fried shimeji mushrooms"
+    page: 256
+    ingredients: ["koikuchi soy sauce", "tamari", "mirin", "neutral oil", "shimeji mushrooms", "kosher salt", "garlic cloves", "rice vinegar"]
+  - title: "38%-hydration noodles"
+    page: 257
+    ingredients: ["bread flour", "tapioca starch", "salt", "sodium carbonate", "potassium carbonate"]
+  - title: "Pork rib tonkotsu gyokai tsukemen"
+    page: 259
+    ingredients: ["shoyu tare", "white pepper", "scallions", "limes", "pork ribs", "white onion", "russet potato", "garlic", "ginger", "fish sauce", "katsuobushi", "niboshi", "bread flour", "tapioca starch", "egg white powder", "sodium carbonate", "salt", "potassium carbonate", "rice vinegar", "light-brown sugar", "choy sum", "dashi", "soy sauce", "mirin", "kizami beni shoga"]
+  - title: "Pork rib paitan stock"
+    page: 261
+    ingredients: ["pork ribs", "white onion", "russet potato", "garlic", "ginger", "fish sauce", "katsuobushi", "niboshi"]
+  - title: "Ohitashi choy sum"
+    page: 262
+    ingredients: ["choy sum", "dashi", "soy sauce", "mirin"]
+  - title: "Dirty mazemen"
+    page: 265
+    ingredients: ["rice vinegar", "yu choy", "naga negi onions", "rendered lard", "garlic", "ginger", "eggs", "white pepper", "noodles of your choice", "scallions"]
+  - title: "Ichiban dashi"
+    page: 269
+    ingredients: ["kombu", "katsuobushi"]
+  - title: "Niban dashi"
+    page: 269
+    ingredients: ["katsuobushi", "kombu"]
+  - title: "Tonkotsu chintan"
+    page: 270
+    ingredients: ["kombu", "pork bones", "ginger", "garlic cloves"]
+  - title: "Basic chicken stock"
+    page: 271
+    ingredients: ["chicken carcass", "garlic", "ginger", "white onion"]
+  - title: "Leftover roasted pork shoulder tonkotsu gyokai"
+    page: 272
+    ingredients: ["white onion", "russet potato", "garlic", "ginger", "katsuobushi", "niboshi", "salt", "roast pork shoulder"]
+  - title: "Aromatic lard"
+    page: 274
+    ingredients: ["rendered lard", "garlic", "ginger"]
+  - title: "Rendered chicken fat"
+    page: 275
+    ingredients: ["chicken fat", "chicken skin"]
+  - title: "Chicken cracklings"
+    page: 276
+    ingredients: ["vegetable oil", "salt", "chicken fat", "chicken skin"]
+  - title: "Braised belly chashu"
+    page: 277
+    ingredients: ["kosher salt", "sugar", "pork belly", "soy sauce", "mirin", "sake", "white onion", "garlic cloves", "ginger", "scallions", "black peppercorns"]
+  - title: "Roasted fennel pollen belly chashu"
+    page: 279
+    ingredients: ["kosher salt", "sugar", "fennel pollen", "pork belly"]
+  - title: "Slow-roasted pork shoulder"
+    page: 281
+    ingredients: ["salt", "boneless skin-on pork shoulder"]
+  - title: "Sous-vide pork shoulder chashu"
+    page: 282
+    ingredients: ["boneless pork shoulder", "garlic clove", "kosher salt", "sugar", "soy sauce", "mirin"]
+  - title: "Sous-vide chicken breast"
+    page: 283
+    ingredients: ["boneless chicken breasts", "kosher salt", "black pepper"]
+  - title: "Super simple ajitama"
+    page: 284
+    ingredients: ["soy sauce", "mirin", "fish sauce", "eggs"]
+  - title: "Onsen egg"
+    page: 285
+    ingredients: ["eggs"]
+  - title: "Naga negi oil, with fried naga negi"
+    page: 286
+    ingredients: ["neutral oil", "naga negi onions"]
+  - title: "Dirty paste"
+    page: 287
+    ingredients: ["neutral oil", "naga negi onions", "scallions"]
+  - title: "Pork wontons"
+    page: 288
+    ingredients: ["ground pork", "scallions", "ginger", "garlic cloves", "koikuchi soy sauce", "mirin", "sugar", "kosher salt", "wonton wrappers", "cornstarch"]
+  - title: "Blanched spinach"
+    page: 290
+    ingredients: ["salt", "spinach"]
+  - title: "Charred scallion whites"
+    page: 291
+    ingredients: ["scallions", "neutral oil"]
+  - title: "Pig's foot terrine"
+    page: 292
+    ingredients: ["pigs feet", "shallots", "parsley", "garlic cloves", "lemons", "kosher salt", "black pepper"]
+  - title: "Fried pig's foot terrine"
+    page: 294
+    ingredients: ["all purpose flour", "eggs", "panko breadcrumbs", "salt", "neutral oil", "flaky salt", "pork terrine"]
+  - title: "Duck hearts and livers on toast"
+    page: 295
+    ingredients: ["duck hearts", "duck livers", "salt", "all purpose flour", "butter", "sherry vinegar", "bread", "flaky salt"]
+  - title: "Wakame"
+    page: 296
+    ingredients: ["dried wakame"]
+  - title: "Braised fish (Sakana no nitsuke)"
+    page: 297
+    ingredients: ["sake", "koikuchi soy sauce", "mirin", "sugar", "black sea bass fillets", "fresh ginger"]
+  - title: "Amazu"
+    page: 298
+    ingredients: ["rice vinegar", "light-brown sugar"]
+  - title: "Gyofun"
+    page: 299
+    ingredients: ["katsuobushi", "niboshi"]
+  - title: "Gyoza"
+    page: 300
+    ingredients: ["napa cabbage", "kosher salt", "ground pork", "carrot", "scallions", "ginger", "garlic cloves", "soy sauce", "mirin", "fish sauce", "toasted sesame oil", "white pepper", "sugar", "gyoza skins", "neutral oil"]
+  - title: "Gyoza dipping sauce"
+    page: 302
+    ingredients: ["soy sauce", "rice vinegar", "toasted sesame oil"]
+  - title: "Baked baking soda (sodium carbonate)"
+    page: 303
+    ingredients: ["baking soda"]
