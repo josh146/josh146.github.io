@@ -293,6 +293,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 const ingString = item.ingredients && item.ingredients.length > 0
                                   ? item.ingredients.join(', ')
                                   : '';
+
+                const params = new URLSearchParams({
+                        recipe: item.title,
+                        book: item.book,
+                        tags: searchIngredients ? 'show' : 'hide'
+                    });
+
                 return {
                     id: `physical-${index}`,
                     title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
@@ -300,9 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     icon: `📖&nbsp;`,
                     // Use the global state variable
                     keywords: searchIngredients ? ingString : "",
-                    handler: () => {
-                      alert(`Go grab "${item.book}" and turn to page ${item.page}!`);
-                    }
+                    handler: () => { window.location.href = `/cookbooks?${params.toString()}`; }
                 };
             }
 
