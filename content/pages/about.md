@@ -1,5 +1,5 @@
 Title: About me.
-Slug: about-me
+Slug: about
 save_as: about.html
 Description: I'm a computational quantum physicist, former software developer, and product developer working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
 Hero: /images/heroes/hero11.jpg

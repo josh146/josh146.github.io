@@ -1120,6 +1120,205 @@ p img{
   margin-bottom: 20px;
 }
 
+/* --- CUSTOM FULL PAGE SEARCH --- */
+
+.custom-search-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* The Search Input Area */
+.search-header {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* --- INTEGRATED SEARCH BAR --- */
+
+.search-header {
+    margin-bottom: 30px;
+}
+
+/* The wrapper becomes the visual search bar */
+.search-bar-integrated {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #eaeaea;
+    border-radius: 12px;
+    padding: 0 0 0 20px; /* Padding around the inside */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* When the user clicks the invisible input, make the WHOLE wrapper glow */
+.search-bar-integrated:focus-within {
+    border-color: rgb(226, 127, 0); /* Update to your theme color */
+    box-shadow: 0 4px 20px rgba(226, 127, 0, 0.15);
+}
+
+/* The actual input field becomes invisible and fills the remaining space */
+#custom-search-input {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 12px 0;
+    outline: none; /* Removes the default browser glow */
+    width: 100%; /* Ensures it behaves nicely in flexbox */
+}
+
+/* --- THE HIDDEN CHECKBOX --- */
+.toggle-hidden-input {
+    display: none; /* Completely hide the browser's default checkbox */
+}
+
+/* --- INACTIVE STATE (Grey) --- */
+.integrated-toggle {
+    display: inline-block;
+    background: #f1f3f5;
+    border: 1px solid #dee2e6;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6c757d;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    white-space: nowrap;
+    margin: 0;
+    margin-right: 12px;
+}
+
+.integrated-toggle:hover {
+    background: rgb(226, 127, 0) !important;
+    color: #ffffff;
+}
+
+/* --- ACTIVE STATE (Blue) --- */
+/* When the hidden input is checked, style the adjacent label */
+.toggle-hidden-input:checked + .integrated-toggle {
+    background: rgb(226, 127, 0);
+    border-color: rgb(226, 127, 0);
+    color: #ffffff;
+}
+
+.toggle-hidden-input:checked + .integrated-toggle:hover {
+    background: rgb(226, 127, 0); /* A slightly darker blue on hover */
+    border-color: rgb(226, 127, 0);
+}
+
+/* Mobile Responsiveness Updates */
+@media (max-width: 600px) {
+    .integrated-toggle {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+        margin-right: 0;
+    }
+
+    .custom-search-page {
+      padding: unset;
+    }
+
+    .search-bar-integrated {
+        padding: 5px 10px 5px 15px;
+    }
+
+    #custom-search-input {
+        font-size: 1rem;
+    }
+}
+
+
+.search-empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+    font-size: 1.1rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border: 1px dashed #ddd;
+    display: none;
+}
+
+/* --- COMPACT GROUPED SEARCH RESULTS --- */
+
+.custom-search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    /*border: 1px solid #eaeaea;*/
+}
+
+/* The Category/Book Headers */
+.search-group-header {
+    background: #f8f9fa;
+    color: rgb(226, 127, 0);
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px 20px;
+    /*border-bottom: 1px solid #eaeaea;*/
+    /*border-top: 1px solid #eaeaea;*/
+}
+
+/* Prevent double-borders on the very first header */
+.custom-search-results .search-group-header:first-child {
+    border-top: none;
+}
+
+/* The Individual Result Rows */
+.search-group-item {
+    /*border-bottom: 1px solid #f1f3f5;*/
+}
+
+.search-group-item:last-child {
+    border-bottom: none;
+}
+
+.search-compact-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.15s;
+}
+
+.search-compact-link:hover {
+    /*background-color: #f0f7ff;*/
+    color: rgb(226, 127, 0)!important;
+}
+
+.compact-title {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.compact-meta {
+    font-size: 0.85rem;
+    color: #888;
+    font-variant-numeric: tabular-nums;
+}
+
+/* The Truncation Message */
+.search-truncated-msg {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #6c757d;
+    background: #f8f9fa;
+    border-top: 1px dashed #dee2e6;
+    font-style: italic;
+}
+
 ninja-keys {
     --ninja-accent-color: #d35400; /* Your recipe theme orange */
     --ninja-font-family: 'Syne Mono', sans-serif;

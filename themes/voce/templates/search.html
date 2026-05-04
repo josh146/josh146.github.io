@@ -1,0 +1,175 @@
+{% extends "page.html" %}
+
+{% block content %}
+<style>
+.site-content{
+    min-height: calc( 100vh - 320px );
+}
+</style>
+<div class="custom-search-page">
+
+    <div class="search-header">
+        <div class="search-bar-integrated">
+
+            <input type="text" id="custom-search-input" placeholder="Search library..." autocomplete="off" autofocus>
+
+            <input type="checkbox" id="custom-ingredient-toggle" class="toggle-hidden-input" checked>
+            <label for="custom-ingredient-toggle" class="integrated-toggle" title="Toggle searching by ingredients">
+                Ingredients
+            </label>
+
+        </div>
+    </div>
+
+    <ul id="custom-search-results" class="custom-search-results">
+        <li class="search-empty-state">Start typing to search your library...</li>
+    </ul>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const inputEl = document.getElementById('custom-search-input');
+    const toggleEl = document.getElementById('custom-ingredient-toggle');
+    const resultsContainer = document.getElementById('custom-search-results');
+
+    let libraryData = [];
+
+    // --- 1. READ STATE FROM THE URL ON LOAD ---
+    const params = new URLSearchParams(window.location.search);
+    const urlQuery = params.get('q') || '';
+    const urlIngredients = params.get('ingredients');
+
+    // If 'ingredients' is explicitly in the URL, use it. Otherwise, default to true.
+    let searchIngredients = urlIngredients !== null ? urlIngredients === 'true' : true;
+
+    // Restore the UI elements to match the URL state
+    inputEl.value = urlQuery;
+    toggleEl.checked = searchIngredients;
+
+    // --- 2. HELPER TO SILENTLY UPDATE URL ---
+    function updateURL(query, isIngredientsOn) {
+        const currentUrl = new URL(window.location);
+
+        // Add or remove the 'q' parameter
+        if (query.trim() !== '') {
+            currentUrl.searchParams.set('q', query);
+        } else {
+            currentUrl.searchParams.delete('q'); // Keep the URL clean if the box is empty
+        }
+
+        // Always track the ingredient toggle state
+        currentUrl.searchParams.set('ingredients', isIngredientsOn);
+
+        // Update the browser address bar without refreshing the page
+        window.history.replaceState({}, '', currentUrl);
+    }
+
+    // --- 3. FETCH DATA & INITIALIZE ---
+    fetch('/search.json')
+        .then(response => response.json())
+        .then(data => {
+            libraryData = data;
+            // Automatically run the search using the word we grabbed from the URL!
+            renderResults(urlQuery);
+        });
+
+    // --- 4. EVENT LISTENERS ---
+    inputEl.addEventListener('input', (e) => {
+        const query = e.target.value;
+        updateURL(query, searchIngredients);
+        renderResults(query);
+    });
+
+    toggleEl.addEventListener('change', (e) => {
+        searchIngredients = e.target.checked;
+        updateURL(inputEl.value, searchIngredients);
+        renderResults(inputEl.value);
+    });
+
+    // --- 5. THE SEARCH ENGINE ---
+    function renderResults(query) {
+        const q = query.toLowerCase().trim();
+
+        if (!q) {
+            resultsContainer.innerHTML = '<li class="search-empty-state">Start typing to search your library...</li>';
+            return;
+        }
+
+        const filtered = libraryData.filter(item => {
+            const matchTitle = item.title && String(item.title).toLowerCase().includes(q);
+            const matchBook = item.book && String(item.book).toLowerCase().includes(q);
+
+            let matchKeywords = false;
+            if (searchIngredients) {
+                const targetData = item.type === 'Physical' ? item.ingredients : item.keywords;
+                if (targetData) {
+                    const safeArray = Array.isArray(targetData) ? targetData : [targetData];
+                    matchKeywords = safeArray.some(term => String(term).toLowerCase().includes(q));
+                }
+            }
+
+            return matchTitle || matchBook || matchKeywords;
+        });
+
+        if (filtered.length === 0) {
+            resultsContainer.innerHTML = '<li class="search-empty-state">No results found.</li>';
+            return;
+        }
+
+        // const MAX_RESULTS = 50;
+        // const cappedResults = filtered.slice(0, MAX_RESULTS);
+
+        const groups = {};
+        filtered.forEach(item => {
+            let groupName = item.type || 'General';
+            if (item.type === 'Physical') {
+                groupName = `📚 Cookbook: ${item.book}`;
+            } else {
+                groupName = `📂 ${groupName}`;
+            }
+            if (!groups[groupName]) {
+                groups[groupName] = [];
+            }
+            groups[groupName].push(item);
+        });
+
+        let html = '';
+
+        for (const [groupName, items] of Object.entries(groups)) {
+            html += `<li class="search-group-header">${groupName}</li>`;
+
+            items.forEach(item => {
+                let href = item.url;
+
+                if (item.type === 'Physical') {
+                    const rawTags = item.ingredients ? (Array.isArray(item.ingredients) ? item.ingredients.join(', ') : String(item.ingredients)) : '';
+                    const params = new URLSearchParams({
+                        recipe: item.title,
+                        book: item.book,
+                        tags: searchIngredients ? 'show' : 'hide'
+                    });
+                    href = `/cookbooks?${params.toString()}`;
+                }
+
+                html += `
+                    <li class="search-group-item">
+                        <a href="${href}" class="search-compact-link">
+                            <span class="compact-title">${item.title}</span>
+                            ${item.type === 'Physical' ? `<span class="compact-meta">pg. ${item.page}</span>` : ''}
+                        </a>
+                    </li>
+                `;
+            });
+        }
+
+        // if (filtered.length > MAX_RESULTS) {
+        //     const hiddenCount = filtered.length - MAX_RESULTS;
+        //     html += `<li class="search-truncated-msg">+ ${hiddenCount} more results. Keep typing to narrow your search.</li>`;
+        // }
+
+        resultsContainer.innerHTML = html;
+    }
+});
+</script>
+{% endblock %}
