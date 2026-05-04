@@ -97,6 +97,7 @@ LINKS = (
     ("About", "/about"),
     ("CV", "/cv"),
     ("recipes", "/recipes"),
+    ("cookbooks", "/cookbooks"),
     ("posts", "/posts")
 )
 

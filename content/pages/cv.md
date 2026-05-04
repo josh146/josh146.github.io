@@ -2,7 +2,7 @@ Title: cv.
 Slug: cv
 save_as: cv.html
 Description: I'm a computational quantum physicist, former software developer, and product developer working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
-Hero: /images/hero6.jpg
+Hero: /images/heroes/hero13.jpg
 
 <p class="text-center">
 Note: for a full, up to date list of my publications, please refer to
