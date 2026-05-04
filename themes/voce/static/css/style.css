@@ -1319,6 +1319,74 @@ p img{
     font-style: italic;
 }
 
+.star-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ccc; /* Empty star color */
+    padding: 0 10px 0 0;
+    line-height: 1;
+    transition: color 0.2s, transform 0.1s;
+    user-select: none;
+}
+
+.star-btn:hover {
+    color: #f1c40f; /* Yellow on hover */
+    transform: scale(1.1);
+}
+
+.star-btn.is-starred {
+    color: #f1c40f; /* Filled star color */
+}
+
+/* The View Stars Button above the grid */
+.view-stars-btn {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #495057;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.2s;
+}
+
+.view-stars-btn:hover {
+    background: #f8f9fa;
+    border-color: #ced4da;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transform: translateY(-1px);
+}
+
+/* --- SHARE LIST BUTTON --- */
+.share-list-btn {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.share-list-btn:hover {
+    background: #e9ecef;
+    border-color: #ced4da;
+    color: #212529;
+}
+
+.share-list-btn.copy-success {
+    background: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
 ninja-keys {
     --ninja-accent-color: #d35400; /* Your recipe theme orange */
     --ninja-font-family: 'Syne Mono', sans-serif;

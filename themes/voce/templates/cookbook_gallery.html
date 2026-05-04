@@ -327,52 +327,13 @@
     border-color: #adb5bd;
 }
 
+.pane-recipe-header {
+  display: flex;
+}
+
 /* THE MAGIC: Instantly collapse all tags when this class is applied to the parent */
 .tags-hidden .pane-tags-container {
     display: none;
-}
-
-/* --- STAR BUTTON STYLES --- */
-.star-btn {
-    background: transparent;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: #ccc; /* Empty star color */
-    padding: 0 5px 0 0;
-    line-height: 1;
-    transition: color 0.2s, transform 0.1s;
-    user-select: none;
-}
-
-.star-btn:hover {
-    color: #f1c40f; /* Yellow on hover */
-    transform: scale(1.1);
-}
-
-.star-btn.is-starred {
-    color: #f1c40f; /* Filled star color */
-}
-
-/* The View Stars Button above the grid */
-.view-stars-btn {
-    background: #fff;
-    border: 1px solid #dee2e6;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 0.95rem;
-    font-weight: bold;
-    color: #495057;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: all 0.2s;
-}
-
-.view-stars-btn:hover {
-    background: #f8f9fa;
-    border-color: #ced4da;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    transform: translateY(-1px);
 }
 
 </style>
@@ -381,15 +342,14 @@
     <div class="view-controls">
         <p style="margin: 0;">{{ page.description }}</p>
     </div>
+    <div class="gallery-controls" style="margin-bottom: 20px; display: flex; justify-content: flex-end;">
+        <button class="view-stars-btn" onclick="loadStarredPane()">
+            Starred
+        </button>
+    </div>
 </div>
 
 <div class="cookbook-library">
-
-        <div class="gallery-controls" style="margin-bottom: 20px; display: flex; justify-content: flex-end;">
-            <button class="view-stars-btn" onclick="loadStarredPane()">
-                ⭐ View Starred Recipes
-            </button>
-        </div>
     <div class="library-layout" id="library-layout">
         <div class="recipe-gallery">
             {% for book in COOKBOOKS %}
@@ -503,12 +463,18 @@
 
                         <div class="pane-tags-container">${tagsHtml}</div>
                     </div>
-                    <span class="pane-recipe-page">pg. ${recipe.page}</span>
+            `;
+
+
+            if ( 'page' in recipe ) {
+                recipesHtml += `
+                    <span class="pane-recipe-page">${recipe.page}</span>
+                `
+            }
+            recipesHtml += `
                 </li>
             `;
         });
-
-        // ... (the rest of loadPane remains the same)
 
         // Ensure we remove the 'viewing-stars' class if we are opening a normal book
         layout.classList.remove('viewing-stars');
@@ -673,6 +639,25 @@ function loadRecipeLocation() {
 
     // --- DEEP LINKING LOGIC ---
     document.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+
+        // --- NEW: Check for Shared Stars ---
+        const sharedStarsParam = params.get('shared_stars');
+        if (sharedStarsParam) {
+            try {
+                // Reverse the encoding process: Base64 -> URI Component -> JSON Object
+                const decodedJson = decodeURIComponent(atob(sharedStarsParam));
+                const sharedData = JSON.parse(decodedJson);
+
+                if (Array.isArray(sharedData)) {
+                    // Open the pane using the data from the URL!
+                    loadStarredPane(sharedData);
+                }
+            } catch (error) {
+                console.error("Failed to parse shared stars link.", error);
+                alert("This share link appears to be broken or invalid.");
+            }
+        }
         loadRecipeLocation();
     });
     // --- STARRED RECIPES LOGIC ---
@@ -716,10 +701,13 @@ function loadRecipeLocation() {
             loadStarredPane();
         }
     }
-    function loadStarredPane() {
+    function loadStarredPane(sharedData = null) {
         const pane = document.getElementById('index-pane');
         const layout = document.getElementById('library-layout');
-        const stars = getStarredRecipes();
+
+
+        const isSharedView = sharedData !== null;
+        const stars = isSharedView ? sharedData : getStarredRecipes();
 
         let recipesHtml = '';
 
@@ -733,14 +721,19 @@ function loadRecipeLocation() {
                 const safeBookHTML = escapeHTML(star.book);
                 const safeRecipeHTML = escapeHTML(star.recipe);
 
+                // If viewing a shared list, we hide the star button so they don't accidentally
+                // try to un-star someone else's list (which would just error out).
+                const starBtnHtml = isSharedView ? '' : `
+                    <button class="star-btn is-starred"
+                            onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                            title="Unstar this recipe">★</button>
+                `;
+
                 recipesHtml += `
                     <li class="pane-recipe-item" data-recipe-title="${safeRecipeHTML}">
                         <div class="pane-recipe-info">
                             <div class="pane-recipe-header">
-                                <button class="star-btn is-starred"
-                                        onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
-                                        title="Unstar this recipe">★</button>
-
+                                ${starBtnHtml}
                                 <span class="pane-recipe-name clickable-title"
                                       data-book="${safeBookHTML}"
                                       data-recipe="${safeRecipeHTML}"
@@ -758,12 +751,24 @@ function loadRecipeLocation() {
             });
         }
 
+        // Dynamically change the header based on the view
+        const headerTitle = isSharedView ? "📬 Shared Recipes" : "⭐ Starred Recipes";
+
+        // Only show the share button if it's your own personal list
+        const shareBtnHtml = (!isSharedView && stars.length > 0) ? `
+            <button class="share-list-btn" onclick="copyShareListLink(this, event)">
+                🔗 Share
+            </button>
+        ` : '';
+
         pane.innerHTML = `
             <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
             <div class="pane-header" style="padding-bottom: 0;">
-                <div>
-                    <h2>⭐ Starred Recipes</h2>
-                    <span class="pane-author">Your saved favorites</span>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;">
+                    <div>
+                        <h3>${headerTitle}</h3>
+                    </div>
+                    ${shareBtnHtml}
                 </div>
             </div>
             <div class="pane-content">
@@ -776,6 +781,27 @@ function loadRecipeLocation() {
         // Add a special class so our toggle function knows to auto-refresh this list
         layout.classList.add('viewing-stars');
         layout.classList.add('pane-open');
+    }
+
+    function copyShareListLink(btnElement, event) {
+        event.stopPropagation();
+
+        const stars = getStarredRecipes();
+        if (stars.length === 0) return;
+
+        // 1. Serialize and Encode the data
+        const jsonString = JSON.stringify(stars);
+        // We use encodeURIComponent first to prevent btoa from crashing on special characters
+        const base64Data = btoa(encodeURIComponent(jsonString));
+
+        // 2. Build the URL
+        const url = new URL(window.location.origin + window.location.pathname);
+        url.searchParams.set('shared_stars', base64Data);
+
+        // 3. Copy to clipboard
+        navigator.clipboard.writeText(url.toString()).then(() => {
+            const originalText = btnElement.innerText;
+        });
     }
 </script>
 {% endblock %}

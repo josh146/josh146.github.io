@@ -29,6 +29,39 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
+    function getStarredRecipes() {
+        const stored = localStorage.getItem('starredRecipes');
+        return stored ? JSON.parse(stored) : [];
+    }
+
+    function saveStarredRecipes(stars) {
+        localStorage.setItem('starredRecipes', JSON.stringify(stars));
+    }
+
+    // We attach this to `window` so the inline HTML button can easily find it.
+    window.toggleSearchStar = function(bookTitle, recipeTitle, btnElement, event) {
+        // CRITICAL: Prevent the click from opening the link!
+        event.preventDefault();
+        event.stopPropagation();
+
+        let stars = getStarredRecipes();
+        const existingIndex = stars.findIndex(s => s.book === bookTitle && s.recipe === recipeTitle);
+
+        if (existingIndex >= 0) {
+            stars.splice(existingIndex, 1);
+            btnElement.classList.remove('is-starred');
+            btnElement.innerText = '☆';
+            btnElement.title = "Star this recipe";
+        } else {
+            stars.push({ book: bookTitle, recipe: recipeTitle });
+            btnElement.classList.add('is-starred');
+            btnElement.innerText = '★';
+            btnElement.title = "Unstar this recipe";
+        }
+
+        saveStarredRecipes(stars);
+    };
+
     const inputEl = document.getElementById('custom-search-input');
     const toggleEl = document.getElementById('custom-ingredient-toggle');
     const resultsContainer = document.getElementById('custom-search-results');
@@ -134,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
             groups[groupName].push(item);
         });
 
+        const currentStars = getStarredRecipes();
         let html = '';
 
         for (const [groupName, items] of Object.entries(groups)) {
@@ -141,6 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             items.forEach(item => {
                 let href = item.url;
+
+                const bookIdentifier = item.book || item.type;
 
                 if (item.type === 'Physical') {
                     const rawTags = item.ingredients ? (Array.isArray(item.ingredients) ? item.ingredients.join(', ') : String(item.ingredients)) : '';
@@ -152,10 +188,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     href = `/cookbooks?${params.toString()}`;
                 }
 
+                // Check if this specific item is starred
+                const isStarred = currentStars.some(s => s.book === bookIdentifier && s.recipe === item.title);
+
+                // Escape quotes for the inline JavaScript function
+                const safeBookJS = bookIdentifier.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                const safeRecipeJS = item.title.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
                 html += `
                     <li class="search-group-item">
                         <a href="${href}" class="search-compact-link">
-                            <span class="compact-title">${item.title}</span>
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <button class="star-btn ${isStarred ? 'is-starred' : ''}"
+                                        onclick="window.toggleSearchStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                                        title="${isStarred ? 'Unstar this recipe' : 'Star this recipe'}">
+                                    ${isStarred ? '★' : '☆'}
+                                </button>
+                                <span class="compact-title">${item.title}</span>
+                            </div>
                             ${item.type === 'Physical' ? `<span class="compact-meta">pg. ${item.page}</span>` : ''}
                         </a>
                     </li>
