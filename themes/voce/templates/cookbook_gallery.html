@@ -332,6 +332,49 @@
     display: none;
 }
 
+/* --- STAR BUTTON STYLES --- */
+.star-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ccc; /* Empty star color */
+    padding: 0 5px 0 0;
+    line-height: 1;
+    transition: color 0.2s, transform 0.1s;
+    user-select: none;
+}
+
+.star-btn:hover {
+    color: #f1c40f; /* Yellow on hover */
+    transform: scale(1.1);
+}
+
+.star-btn.is-starred {
+    color: #f1c40f; /* Filled star color */
+}
+
+/* The View Stars Button above the grid */
+.view-stars-btn {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #495057;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.2s;
+}
+
+.view-stars-btn:hover {
+    background: #f8f9fa;
+    border-color: #ced4da;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transform: translateY(-1px);
+}
+
 </style>
 
 <div class="recipe-toolbar">
@@ -342,8 +385,12 @@
 
 <div class="cookbook-library">
 
+        <div class="gallery-controls" style="margin-bottom: 20px; display: flex; justify-content: flex-end;">
+            <button class="view-stars-btn" onclick="loadStarredPane()">
+                ⭐ View Starred Recipes
+            </button>
+        </div>
     <div class="library-layout" id="library-layout">
-
         <div class="recipe-gallery">
             {% for book in COOKBOOKS %}
             <div class="recipe-card" onclick="loadPane({{ loop.index0 }})">
@@ -414,6 +461,58 @@
         });
 
         let recipesHtml = '';
+
+
+        // Grab the stars once so we can check against them in the loop
+        const currentStars = getStarredRecipes();
+
+        sortedRecipes.forEach(recipe => {
+            let tagsHtml = '';
+            if (recipe.ingredients && recipe.ingredients.length > 0) {
+                recipe.ingredients.forEach(ing => {
+                    tagsHtml += `<span class="pane-tag">${escapeHTML(ing)}</span>`;
+                });
+            }
+
+            const safeRecipeHTML = escapeHTML(recipe.title);
+            const safeRecipeJS = recipe.title.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+            const safeBookJS = book.book.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+            // NEW: Check if this specific recipe is starred
+            const isStarred = currentStars.some(s => s.book === book.book && s.recipe === recipe.title);
+
+            recipesHtml += `
+                <li class="pane-recipe-item" data-recipe-title="${safeRecipeHTML}">
+                    <div class="pane-recipe-info">
+
+                        <div class="pane-recipe-header">
+                            <button class="star-btn ${isStarred ? 'is-starred' : ''}"
+                                    onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                                    title="${isStarred ? 'Unstar this recipe' : 'Star this recipe'}">
+                                ${isStarred ? '★' : '☆'}
+                            </button>
+
+                            <span class="pane-recipe-name clickable-title"
+                                  data-book="${safeBook}"
+                                  data-recipe="${safeRecipeHTML}"
+                                  onclick="handleTitleClick(this, event)"
+                                  title="Click to copy recipe link">
+                                ${escapeHTML(recipe.title)}
+                            </span>
+                        </div>
+
+                        <div class="pane-tags-container">${tagsHtml}</div>
+                    </div>
+                    <span class="pane-recipe-page">pg. ${recipe.page}</span>
+                </li>
+            `;
+        });
+
+        // ... (the rest of loadPane remains the same)
+
+        // Ensure we remove the 'viewing-stars' class if we are opening a normal book
+        layout.classList.remove('viewing-stars');
+        layout.classList.add('pane-open');
 
         sortedRecipes.forEach(recipe => {
             let tagsHtml = '';
@@ -505,6 +604,11 @@
         copyLink(bookTitle, recipeTitle, element, event);
     }
 
+    function loadRecipe(element, event) {
+        handleTitleClick(element, event);
+        loadRecipeLocation();
+    }
+
     // Helper: Copies the deep link to the clipboard
     function copyLink(bookTitle, recipeTitle, element, event) {
         event.stopPropagation();
@@ -531,41 +635,147 @@
         window.history.pushState(null, '', url.toString());
     }
 
-    // --- DEEP LINKING LOGIC ---
-    document.addEventListener('DOMContentLoaded', () => {
-        const params = new URLSearchParams(window.location.search);
-        const urlBook = params.get('book');
-        const urlRecipe = params.get('recipe');
-        const urlTags = params.get('tags');
+function loadRecipeLocation() {
+    const params = new URLSearchParams(window.location.search);
+    const urlBook = params.get('book');
+    const urlRecipe = params.get('recipe');
+    const urlTags = params.get('tags');
 
-        if (urlBook) {
-            // Find the index of the book in our JSON data (case-insensitive)
-            const bookIndex = libraryData.findIndex(b => b.book.toLowerCase() === urlBook.toLowerCase());
+    if (urlBook) {
+        // Find the index of the book in our JSON data (case-insensitive)
+        const bookIndex = libraryData.findIndex(b => b.book.toLowerCase() === urlBook.toLowerCase());
 
-            if (bookIndex !== -1) {
-                if (urlTags === 'show') {
-                    areTagsVisible = true;
-                }
+        if (bookIndex !== -1) {
+            if (urlTags === 'show') {
+                areTagsVisible = true;
+            }
 
-                // 1. Open the pane for this book
-                loadPane(bookIndex);
+            // 1. Open the pane for this book
+            loadPane(bookIndex);
 
-                // 2. Scroll the specific recipe into view
-                if (urlRecipe) {
-                    // Wait a tiny bit for the HTML to render in the DOM
-                    setTimeout(() => {
-                        // Find the recipe element using the data attribute we added
-                        const safeRecipeQuery = urlRecipe.replace(/"/g, '\\"');
-                        const recipeEl = document.querySelector(`.pane-recipe-item[data-recipe-title="${safeRecipeQuery}"]`);
+            // 2. Scroll the specific recipe into view
+            if (urlRecipe) {
+                // Wait a tiny bit for the HTML to render in the DOM
+                setTimeout(() => {
+                    // Find the recipe element using the data attribute we added
+                    const safeRecipeQuery = urlRecipe.replace(/"/g, '\\"');
+                    const recipeEl = document.querySelector(`.pane-recipe-item[data-recipe-title="${safeRecipeQuery}"]`);
 
-                        if (recipeEl) {
-                            recipeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                            recipeEl.classList.add('highlighted-recipe');
-                        }
-                    }, 100);
-                }
+                    if (recipeEl) {
+                        recipeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        recipeEl.classList.add('highlighted-recipe');
+                    }
+                }, 100);
             }
         }
+    }
+}
+
+    // --- DEEP LINKING LOGIC ---
+    document.addEventListener('DOMContentLoaded', () => {
+        loadRecipeLocation();
     });
+    // --- STARRED RECIPES LOGIC ---
+
+    // 1. Get the current list of stars from the browser
+    function getStarredRecipes() {
+        const stored = localStorage.getItem('starredRecipes');
+        return stored ? JSON.parse(stored) : [];
+    }
+
+    // 2. Save the list back to the browser
+    function saveStarredRecipes(stars) {
+        localStorage.setItem('starredRecipes', JSON.stringify(stars));
+    }
+
+    // 3. Handle clicking a star
+    function toggleStar(bookTitle, recipeTitle, btnElement, event) {
+        event.stopPropagation(); // Stop the click from copying the link
+
+        let stars = getStarredRecipes();
+        const existingIndex = stars.findIndex(s => s.book === bookTitle && s.recipe === recipeTitle);
+
+        if (existingIndex >= 0) {
+            // It's already starred, so remove it
+            stars.splice(existingIndex, 1);
+            btnElement.classList.remove('is-starred');
+            btnElement.innerText = '☆';
+            btnElement.title = "Star this recipe";
+        } else {
+            // It's not starred, so add it
+            stars.push({ book: bookTitle, recipe: recipeTitle });
+            btnElement.classList.add('is-starred');
+            btnElement.innerText = '★';
+            btnElement.title = "Unstar this recipe";
+        }
+
+        saveStarredRecipes(stars);
+
+        // Optional: If you are currently viewing the "Starred" pane, refresh it instantly
+        if (document.getElementById('library-layout').classList.contains('viewing-stars')) {
+            loadStarredPane();
+        }
+    }
+    function loadStarredPane() {
+        const pane = document.getElementById('index-pane');
+        const layout = document.getElementById('library-layout');
+        const stars = getStarredRecipes();
+
+        let recipesHtml = '';
+
+        if (stars.length === 0) {
+            recipesHtml = '<li class="search-empty-state" style="margin-top: 20px;">You haven\'t starred any recipes yet!</li>';
+        } else {
+            // Loop through saved stars and build the HTML
+            stars.forEach(star => {
+                const safeBookJS = star.book.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                const safeRecipeJS = star.recipe.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+                const safeBookHTML = escapeHTML(star.book);
+                const safeRecipeHTML = escapeHTML(star.recipe);
+
+                recipesHtml += `
+                    <li class="pane-recipe-item" data-recipe-title="${safeRecipeHTML}">
+                        <div class="pane-recipe-info">
+                            <div class="pane-recipe-header">
+                                <button class="star-btn is-starred"
+                                        onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                                        title="Unstar this recipe">★</button>
+
+                                <span class="pane-recipe-name clickable-title"
+                                      data-book="${safeBookHTML}"
+                                      data-recipe="${safeRecipeHTML}"
+                                      onclick="loadRecipe(this, event)"
+                                      title="Click to copy link">
+                                    ${safeRecipeHTML}
+                                </span>
+                            </div>
+                            <div class="pane-tags-container">
+                                <span class="pane-tag" style="background:#e9ecef;">📚 ${safeBookHTML}</span>
+                            </div>
+                        </div>
+                    </li>
+                `;
+            });
+        }
+
+        pane.innerHTML = `
+            <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
+            <div class="pane-header" style="padding-bottom: 0;">
+                <div>
+                    <h2>⭐ Starred Recipes</h2>
+                    <span class="pane-author">Your saved favorites</span>
+                </div>
+            </div>
+            <div class="pane-content">
+                <ul class="pane-recipe-list" style="margin-top: 20px;">
+                    ${recipesHtml}
+                </ul>
+            </div>
+        `;
+
+        // Add a special class so our toggle function knows to auto-refresh this list
+        layout.classList.add('viewing-stars');
+        layout.classList.add('pane-open');
+    }
 </script>
 {% endblock %}
