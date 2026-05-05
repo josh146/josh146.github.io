@@ -480,42 +480,6 @@
         layout.classList.remove('viewing-stars');
         layout.classList.add('pane-open');
 
-        sortedRecipes.forEach(recipe => {
-            let tagsHtml = '';
-            if (recipe.ingredients && recipe.ingredients.length > 0) {
-                recipe.ingredients.forEach(ing => {
-                    tagsHtml += `<span class="pane-tag">${ing}</span>`;
-                });
-            }
-
-            // Clean title for data attribute to prevent HTML breakage
-            const safeTitle = escapeHTML(recipe.title);
-
-            recipesHtml += `
-                <li class="pane-recipe-item" data-recipe-title="${safeTitle}">
-                    <div class="pane-recipe-info">
-                        <span class="pane-recipe-name clickable-title"
-                              data-book="${safeBook}"
-                              data-recipe="${safeTitle}"
-                              onclick="handleTitleClick(this, event)"
-                              title="Click to copy recipe link">
-                            ${escapeHTML(recipe.title)}
-                        </span>
-                        <div class="pane-tags-container">${tagsHtml}</div>
-                    </div>
-                `
-
-            if ( 'page' in recipe ) {
-                recipesHtml += `
-                    <span class="pane-recipe-page">${recipe.page}</span>
-                `
-            }
-
-            recipesHtml += `
-                </li>
-            `;
-        });
-
         pane.innerHTML = `
             <button class="close-pane-btn" onclick="closePane()" aria-label="Close pane">×</button>
             <div class="pane-header">
@@ -743,7 +707,7 @@ function loadRecipeLocation() {
                                 </span>
                             </div>
                             <div class="pane-tags-container">
-                                <span class="pane-tag" style="background:#e9ecef;">📚 ${safeBookHTML} (${star.page})</span>
+                                <span class="pane-tag" style="background:#e9ecef;">${safeBookHTML} (${star.page})</span>
                             </div>
                         </div>
                     </li>
@@ -752,7 +716,7 @@ function loadRecipeLocation() {
         }
 
         // Dynamically change the header based on the view
-        const headerTitle = isSharedView ? "📬 Shared Recipes" : "⭐ Starred Recipes";
+        const headerTitle = isSharedView ? "📬 Shared Recipes" : "Starred Recipes";
 
         // Only show the share button if it's your own personal list
         const shareBtnHtml = (!isSharedView && stars.length > 0) ? `

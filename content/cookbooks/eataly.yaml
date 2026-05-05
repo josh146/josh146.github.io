@@ -1,0 +1,856 @@
+book: "Eataly"
+author: "Eataly"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/eataly-contemporary-italian-cooking-176492l1.jpg"
+recipes:
+  - title: "Carpaccio of amberjack with ginger, lime, and pomegranate"
+    page: 12
+    ingredients: ["fresh ginger", "limes", "amberjack", "pomegranates", "chicory", "green-skinned apples", "radicchio", "wild fennel"]
+  - title: "Apple, radicchio, and herbed soft cheese salad"
+    page: 14
+    ingredients: ["green-skinned apples", "nutmeg", "baguette bread", "acacia honey", "balsamic vinegar", "radicchio", "chicory", "soft cheese with herbs", "almonds"]
+  - title: "Fried polenta with lardo and truffle"
+    page: 15
+    ingredients: ["cornmeal", "lardo", "black truffles"]
+  - title: "Octopus salad with potato and olive purée"
+    page: 16
+    ingredients: ["octopus", "potatoes", "black olives", "basil", "salad leaves", "vegetables of your choice", "shrimp"]
+  - title: "Olivier salad"
+    page: 18
+    ingredients: ["potatoes", "carrots", "peas", "canned tuna", "wild fennel"]
+  - title: "Crostini with sausage and soft cheese"
+    page: 19
+    ingredients: ["soft cheese", "Tuscan sausages", "rustic bread", "sage"]
+  - title: "Corn salad, strawberries, and fresh goat cheese"
+    page: 22
+    ingredients: ["soft goat cheese", "basil", "flatbread", "corn salad", "strawberries", "balsamic vinegar", "honey", "white pepper"]
+  - title: "Mini cocottes with radicchio and ricotta cheese"
+    page: 24
+    ingredients: ["radicchio", "shallots", "pine nuts", "ricotta cheese", "Parmesan cheese"]
+  - title: "Crostini with salami, goat cheese, and walnuts"
+    page: 25
+    ingredients: ["soft goat cheese", "walnuts", "thyme", "baguette bread", "salami"]
+  - title: "Classic Caprese salad"
+    page: 26
+    ingredients: ["buffalo mozzarella cheese", "tomatoes", "dried oregano", "basil"]
+  - title: "Salt cod balls"
+    page: 28
+    ingredients: ["salt cod", "breadcrumbs", "almonds", "ground cinnamon", "egg whites", "thyme", "marjoram", "lemons"]
+  - title: "Cornmeal cakes with pancetta"
+    page: 30
+    ingredients: ["red onions", "cane sugar", "balsamic vinegar", "cornmeal", "00 white flour", "smoked pancetta", "chives"]
+  - title: "Potato and saffron bake with poached eggs"
+    page: 32
+    ingredients: ["potatoes", "whipping cream", "eggs", "saffron powder", "nutmeg", "Parmesan cheese", "herbs of your choice", "baby salad leaves"]
+  - title: "Polenta gratin with speck ham and Parmesan cheese sauce"
+    page: 34
+    ingredients: ["polenta", "speck ham (Italian)", "mint", "whipping cream", "nutmeg", "Parmesan cheese"]
+  - title: "Muffins with mortadella, cheese sauce, and balsamic vinegar cubes"
+    page: 35
+    ingredients: ["whole wheat flour", "brewer's yeast", "mortadella", "whipping cream", "Parmesan cheese", "gelatin sheets", "balsamic vinegar", "Italian 0 flour"]
+  - title: "Pancetta, chicken, and sausage rolls"
+    page: 36
+    ingredients: ["chicken breasts", "thyme", "sausages", "pancetta", "zucchini", "sage", "salad leaves"]
+  - title: "Langoustines with pancetta and panzanella bread salad"
+    page: 40
+    ingredients: ["sunflower oil", "basil", "pancetta", "langoustines", "white bread", "onions", "tomatoes"]
+  - title: "Soft cheese, salumi, and semi-dried cherry tomato pizza"
+    page: 41
+    ingredients: ["whole wheat flour", "brewer's yeast", "soft cheese", "salumi", "semi-dried cherry tomatoes", "basil", "Italian 0 flour"]
+  - title: "Cheese with speck ham and grilled vegetables"
+    page: 42
+    ingredients: ["zucchini", "eggplants", "red bell peppers", "speck ham (Italian)", "soft cheese"]
+  - title: "Potato and speck ham salad"
+    page: 43
+    ingredients: ["potatoes", "speck ham (Italian)", "baby salad leaves", "cashew nuts", "red onions", "yogurt", "horseradish sauce"]
+  - title: "Speck ham, walnut, and champignon mushroom salad"
+    page: 44
+    ingredients: ["speck ham (Italian)", "walnuts", "champignon mushrooms", "salad greens", "white pepper"]
+  - title: "Sole and speck ham rolls"
+    page: 46
+    ingredients: ["speck ham (Italian)", "sole fillets", "scallions", "balsamic vinegar"]
+  - title: "Mortadella mousse"
+    page: 47
+    ingredients: ["mortadella", "ricotta cheese", "baguette bread", "pistachio nuts"]
+  - title: "Fresh pea soup with smoked ham"
+    page: 50
+    ingredients: ["potatoes", "shallots", "vegetable broth", "peas", "smoked ham"]
+  - title: "Vegetable minestrone"
+    page: 52
+    ingredients: ["onions", "celery", "carrots", "zucchini", "potatoes", "broccoli", "cauliflower", "green beans"]
+  - title: "Pasta and bean soup"
+    page: 53
+    ingredients: ["cranberry beans", "onions", "fatback", "potatoes", "vegetable broth", "short pasta", "rosemary"]
+  - title: "Pumpkin soup with saffron croutons"
+    page: 54
+    ingredients: ["onions", "pumpkins", "thyme", "vegetable broth", "saffron", "stale bread"]
+  - title: "Ginger potato soup with bean salad"
+    page: 58
+    ingredients: ["cranberry beans", "bay leaves", "vegetable broth", "potatoes", "fresh ginger", "fresh fava beans in pods", "peas", "celery", "carrots", "fennel fronds"]
+  - title: "Fennel soup with croutons"
+    page: 60
+    ingredients: ["shallots", "potatoes", "fennel", "vegetable broth", "light cream", "dill", "rustic bread", "nutmeg"]
+  - title: "Chickpea soup with carrots, grains, and cavolo nero"
+    page: 61
+    ingredients: ["dried chickpeas", "carrots", "red onions", "rosemary", "thyme", "vegetable broth", "sorghum", "cavolo nero"]
+  - title: "Acquacotta"
+    page: 62
+    ingredients: ["onions", "carrots", "celery", "potatoes", "red chiles", "canned tomatoes", "rustic bread", "Swiss chard"]
+  - title: "Spicy black bean and pumpkin soup"
+    page: 64
+    ingredients: ["black beans", "yellow onions", "pumpkins", "vegetable broth", "red chiles", "parsley", "yogurt"]
+  - title: "Spinach noodles in broth"
+    page: 66
+    ingredients: ["spinach", "Parmesan cheese", "nutmeg", "breadcrumbs", "lemons", "vegetable broth"]
+  - title: "Mushroom, potato, and monkfish soup"
+    page: 67
+    ingredients: ["potatoes", "bay leaves", "mixed mushrooms", "vegetable broth", "monkfish", "marjoram"]
+  - title: "Oat and chickpea soup"
+    page: 68
+    ingredients: ["whole oats", "chickpeas", "white onions", "carrots", "sage", "vegetable broth"]
+  - title: "Spelt soup with potatoes and onions"
+    page: 70
+    ingredients: ["spelt", "white onions", "celery", "tomatoes", "vegetable broth", "potatoes", "dried chiles"]
+  - title: "Pumpkin, chestnut, and prosciutto soup"
+    page: 72
+    ingredients: ["shallots", "rosemary", "bay leaves", "pumpkins", "potatoes", "chestnuts", "meat broth", "prosciutto", "sage", "ham rind"]
+  - title: "Seafood soup"
+    page: 74
+    ingredients: ["carpet shell clams", "clams", "mussels", "parsley", "cherry tomatoes", "canned tomatoes"]
+  - title: "Zucchini soup with croutons"
+    page: 76
+    ingredients: ["yellow onions", "zucchini", "stale bread", "thyme"]
+  - title: "White cannellini bean soup with Romanesco broccoli"
+    page: 77
+    ingredients: ["dried cannellini beans", "celery", "shallots", "parsley", "bay leaves", "Romanesco broccoli", "thyme", "rosemary oil", "goat blue cheese"]
+  - title: "Rice, pea, and pumpkin soup"
+    page: 78
+    ingredients: ["sage", "risotto rice", "pumpkins", "peas", "vegetable broth", "Parmesan cheese"]
+  - title: "Millet and cauliflower soup"
+    page: 80
+    ingredients: ["millet", "vegetable broth", "cauliflower", "parsley"]
+  - title: "Bean soup with wild fennel, octopus, and onion"
+    page: 81
+    ingredients: ["cicerchia", "red onions", "oranges", "black peppercorns", "whole cloves", "octopus", "carrots", "kohlrabi", "fresh ginger", "mint", "wild fennel", "kombu", "thyme", "lemons"]
+  - title: "Onion soup with pecorino cheese toasts"
+    page: 82
+    ingredients: ["yellow onions", "vegetable broth", "thyme", "rustic bread", "pecorino cheese"]
+  - title: "Barley and cavolo nero soup"
+    page: 86
+    ingredients: ["pearl barley", "vegetable broth", "white onions", "salami", "cavolo nero"]
+  - title: "Pumpkin soup with balsamic vinegar"
+    page: 88
+    ingredients: ["shallots", "pumpkins", "carbonated water", "Italian 00 flour", "sage", "balsamic vinegar", "goat milk yogurt"]
+  - title: "Vegetable soup with homemade tagliatelle pasta squares"
+    page: 90
+    ingredients: ["red potatoes", "yellow onions", "white celery", "carrots", "pancetta", "canned tomatoes", "vegetable broth", "Italian 00 flour", "Parmesan cheese", "parsley"]
+  - title: "Tortellini in broth"
+    page: 91
+    ingredients: ["stewing beef", "marrow bones", "carrots", "chicken", "celery", "yellow onions", "lean pork", "mortadella", "Parma ham", "Parmesan cheese", "eggs", "nutmeg", "Italian 00 flour"]
+  - title: "Tagliatelle pasta with runner beans and shrimp"
+    page: 94
+    ingredients: ["shrimp", "runner beans", "carrots", "celery", "scallions", "cherry tomatoes", "tomato purée", "egg tagliatelle pasta", "lemons"]
+  - title: "Maltagliati pasta with octopus sauce"
+    page: 98
+    ingredients: ["octopus", "celery", "carrots", "onions", "anchovies", "oil-packed capers", "tomatoes", "basil", "Italian 00 flour"]
+  - title: "Pappardelle pasta with rabbit"
+    page: 99
+    ingredients: ["Italian 00 flour", "celery", "carrots", "parsley", "rabbit", "pecorino cheese"]
+  - title: "Gnocchi with broccoli rabe, mussels, and clams"
+    page: 102
+    ingredients: ["clams", "broccoli rabe", "red chiles", "mussels", "parsley", "floury potatoes", "Italian 00 flour", "nutmeg"]
+  - title: "Plin pasta with borage and blue cheese fondue"
+    page: 106
+    ingredients: ["borage", "ricotta cheese", "Italian 00 flour", "egg yolks", "blue cheese", "milk"]
+  - title: "Lidia's agnolotti pasta"
+    page: 108
+    ingredients: ["veal shoulder", "rosemary", "carrots", "onions", "pork sausagemeat", "rabbit", "chicory", "spinach", "eggs", "Parmesan cheese", "Italian 00 flour"]
+  - title: "Canederli with speck ham"
+    page: 110
+    ingredients: ["nutmeg", "stale bread", "onions", "speck ham (Italian)", "parsley", "chives", "meat broth"]
+  - title: "Garganelli pasta with sausage and zucchini"
+    page: 112
+    ingredients: ["pork sausages", "white wine", "red onions", "garganelli pasta", "zucchini"]
+  - title: "Mezzi paccheri pasta with cheese sauce and artichokes"
+    page: 116
+    ingredients: ["artichokes", "whipping cream", "pecorino di fossa cheese", "mezzi paccheri pasta"]
+  - title: "Fusilli pasta with summer vegetables, 'nduja, and salted ricotta cheese"
+    page: 118
+    ingredients: ["asparagus", "onions", "cherry tomatoes", "yellow bell peppers", "carrots", "eggplants", "zucchini", "fusilli pasta", "'nduja sausage", "basil", "salted ricotta cheese"]
+  - title: "Sedani pasta with rabbit and mushrooms"
+    page: 119
+    ingredients: ["rabbit", "bay leaves", "celery", "carrots", "shallots", "pioppino mushrooms", "sedani rigati pasta", "parsley"]
+  - title: "Pappardelle pasta with cheese, pancetta, and fava beans"
+    page: 120
+    ingredients: ["fava beans", "pappardelle pasta", "pecorino cheese", "Parmesan cheese", "pancetta", "pine nuts", "thyme"]
+  - title: "Caserecce pasta with sage and pancetta"
+    page: 122
+    ingredients: ["sage", "hazelnuts", "pecorino cheese", "pancetta", "caserecce pasta", "white pepper"]
+  - title: "Reginette pasta with meat ragu"
+    page: 124
+    ingredients: ["celery", "carrots", "ground meat", "canned tomatoes", "bay leaves", "reginette pasta"]
+  - title: "Ridged penne pasta with tomato, tuna, and olive sauce"
+    page: 126
+    ingredients: ["anchovies", "green olives", "black olives", "salt-packed capers", "canned tuna in oil", "canned tomatoes", "oregano", "penne pasta", "pecorino cheese"]
+  - title: "Calamarata pasta with swordfish and peas"
+    page: 127
+    ingredients: ["tomatoes", "swordfish fillets", "peas", "mint", "chili powder", "calamarata pasta", "salted ricotta cheese"]
+  - title: "Saffron tagliolini pasta with zucchini and prosciutto"
+    page: 130
+    ingredients: ["zucchini", "leeks", "prosciutto", "saffron tagliolini pasta"]
+  - title: "Spaghetti pasta with mussels, clams, jumbo shrimp, and bell pepper purée"
+    page: 132
+    ingredients: ["clams", "red bell peppers", "onions", "mussels", "cherry tomatoes", "spaghetti pasta", "shrimp", "mint"]
+  - title: "Bucatini pasta Amatriciana"
+    page: 134
+    ingredients: ["pancetta", "canned tomatoes", "bucatini pasta", "pecorino cheese"]
+  - title: "Cold fusilli pasta with tuna, eggplant, and cheese"
+    page: 136
+    ingredients: ["eggplants", "chiles", "mint", "basil", "tuna fillets", "soy sauce", "lemons", "fusilli pasta", "sheep cheese", "white pepper", "cherry tomatoes", "herbs of your choice"]
+  - title: "Rigatoni pasta with tuna carbonara"
+    page: 138
+    ingredients: ["tuna fillets", "chives", "rigatoni pasta", "eggs", "lemons", "red onions"]
+  - title: "Bavette pasta with smoked pancetta and caramelized red onions"
+    page: 140
+    ingredients: ["smoked pancetta", "red onions", "parsley", "bavette pasta", "Parmesan cheese"]
+  - title: "Farfelle pasta with pesto and zucchini"
+    page: 142
+    ingredients: ["zucchini flowers", "white onions", "zucchini", "basil", "pine nuts", "Parmesan cheese", "farfalle pasta"]
+  - title: "Ziti pasta with cheese, crisp pancetta, and asparagus"
+    page: 143
+    ingredients: ["asparagus", "whipping cream", "Taleggio cheese", "pancetta", "ziti pasta"]
+  - title: "Trofie pasta with tuna bottarga and pistachios"
+    page: 146
+    ingredients: ["cherry tomatoes", "pesto of your choice", "tuna bottarga", "trofie pasta", "pistachio nuts"]
+  - title: "Paccheri pasta with ricotta cheese, radicchio, and pecorino cheese"
+    page: 147
+    ingredients: ["paccheri pasta", "milk", "shallots", "radicchio", "ricotta cheese", "Parmesan cheese", "pecorino cheese"]
+  - title: "Spaghetti pasta with fennel salami"
+    page: 148
+    ingredients: ["spaghetti pasta", "red onions", "fennel salami", "sun-dried tomatoes", "fennel seeds", "chili powder", "Parmesan cheese", "dried tomato pâté"]
+  - title: "Macaroni pasta in onion sauce"
+    page: 149
+    ingredients: ["white onions", "red onions", "fresh sardines", "macaroni pasta", "thyme"]
+  - title: "Pasta with cavolo nero pesto and clams"
+    page: 150
+    ingredients: ["clams", "grissini", "chiles", "parsley", "linguine pasta", "cavolo nero", "pistachio nuts", "pecorino cheese"]
+  - title: "Mixed pasta with octopus, ricotta cheese, and citrus fruits"
+    page: 152
+    ingredients: ["octopus", "celery", "carrots", "white onions", "chiles", "sweet paprika", "parsley", "lemons", "ricotta cheese", "dill", "oranges", "limes", "mixed pasta shapes"]
+  - title: "Whole wheat tagliatelle pasta with four types of tomato"
+    page: 153
+    ingredients: ["onions", "dried chiles", "cherry tomatoes", "yellow tomatoes", "tomatoes", "sun-dried tomatoes", "whole wheat tagliatelle pasta", "basil"]
+  - title: "Rice salad"
+    page: 156
+    ingredients: ["superfino rice", "zucchini", "carrots", "red bell peppers", "eggs", "canned corn", "basil", "almonds"]
+  - title: "Mussel and saffron risotto"
+    page: 158
+    ingredients: ["mussels", "fish broth", "saffron", "shallots", "carnaroli rice", "parsley", "Parmesan cheese"]
+  - title: "Stuffed rice balls"
+    page: 159
+    ingredients: ["carnaroli rice", "saffron powder", "pecorino cheese", "sliced ham", "caciocavallo cheese", "mozzarella cheese", "Italian 00 flour", "breadcrumbs", "sunflower oil", "ground pork", "tomato purée", "peas"]
+  - title: "Asparagus and cheese risotto"
+    page: 160
+    ingredients: ["asparagus", "vegetable broth", "shallots", "carnaroli rice", "stracciatella cheese", "Parmesan cheese"]
+  - title: "Caper, anchovy, and oven-baked tomato risotto"
+    page: 162
+    ingredients: ["breadcrumbs", "parsley", "chiles", "salt-packed anchovies", "vine tomatoes", "vegetable broth", "carnaroli rice", "salt-packed capers", "basil", "anchovies", "marjoram"]
+  - title: "Artichoke, pecorino cheese, and lemon risotto"
+    page: 163
+    ingredients: ["Vialone Nano rice", "artichokes", "vegetable broth", "pecorino cheese", "lemons", "thyme"]
+  - title: "Nettle risotto"
+    page: 166
+    ingredients: ["white onions", "lardo", "parsley", "nettles", "vegetable broth", "Vialone Nano rice", "Parmesan cheese"]
+  - title: "Rice and ham croquettes"
+    page: 167
+    ingredients: ["carnaroli rice", "parsley", "ham", "Gruyère cheese", "breadcrumbs"]
+  - title: "Black rice salad with julienne vegetables"
+    page: 168
+    ingredients: ["black rice", "fennel", "carrots", "zucchini", "walnuts", "whipping cream"]
+  - title: "Black rice with cheese and broccoli"
+    page: 170
+    ingredients: ["shallots", "black rice", "broccoli", "vegetable broth", "Taleggio cheese"]
+  - title: "Red wine risotto"
+    page: 172
+    ingredients: ["vegetable broth", "sausages", "carnaroli rice", "red wine", "Parmesan cheese", "nutmeg"]
+  - title: "Black rice with vegetables, fried basil, and pea pods"
+    page: 173
+    ingredients: ["black rice", "peas", "green beans", "cherry tomatoes", "celery", "basil", "parsley", "black olives", "lemons"]
+  - title: "Plum tomato risotto with basil purée"
+    page: 174
+    ingredients: ["tomatoes", "basil", "risotto rice", "Parmesan cheese"]
+  - title: "Risotto with black salsify and parsley butter"
+    page: 176
+    ingredients: ["butter", "parsley", "lemons", "black salsify", "vegetable broth", "leeks", "Vialone Nano rice", "Parmesan cheese"]
+  - title: "Rice gnocchi"
+    page: 178
+    ingredients: ["superfino rice", "Italian 00 flour", "Parmesan cheese", "breadcrumbs"]
+  - title: "Granny Smith apple and speck ham whole grain risotto"
+    page: 179
+    ingredients: ["vegetable broth", "shallots", "speck ham (Italian)", "green-skinned apples", "whole grain rice", "brandy", "Parmesan cheese", "thyme"]
+  - title: "Rice and herb flan"
+    page: 180
+    ingredients: ["Vialone Nano rice", "turmeric", "scallions", "chard", "spinach", "pecorino cheese", "eggs"]
+  - title: "Risotto alla Milanese"
+    page: 182
+    ingredients: ["vegetable broth", "yellow onions", "bone marrow", "risotto rice", "saffron", "Parmesan cheese"]
+  - title: "Sausage and cranberry bean risotto"
+    page: 183
+    ingredients: ["white onions", "bay leaves", "sausages", "meat broth", "Vialone Nano rice", "cranberry beans", "white pepper"]
+  - title: "Langoustine risotto"
+    page: 184
+    ingredients: ["white onions", "tomato purée", "langoustines", "lemons", "risotto rice", "parsley"]
+  - title: "Pea risotto"
+    page: 186
+    ingredients: ["vegetable broth", "pancetta", "onions", "peas", "Vialone Nano rice", "parsley", "Parmesan cheese"]
+  - title: "Wild rice with cranberry beans and mint"
+    page: 187
+    ingredients: ["leeks", "celery root", "carrots", "rosemary", "basil", "wild fennel", "cranberry beans", "vegetable broth", "mint", "oranges", "wild rice"]
+  - title: "Summer rice salad with crawfish"
+    page: 188
+    ingredients: ["vegetable broth", "fresh ginger", "long-grain rice", "soy sauce", "raspberry vinegar", "honey", "crawfish", "chives", "zucchini", "herbs of your choice"]
+  - title: "Shortcrust pie with vegetable whirls"
+    page: 192
+    ingredients: ["Italian 00 flour", "carrots", "zucchini", "eggplants", "saffron", "Parmesan cheese", "light cream", "cherry tomatoes"]
+  - title: "Pumpkin, broccoli, zucchini, and asparagus tart"
+    page: 194
+    ingredients: ["Italian 00 flour", "asparagus", "pumpkins", "zucchini", "broccoli", "ricotta cheese", "light cream", "Parmesan cheese", "eggs"]
+  - title: "Zucchini and ham pie"
+    page: 195
+    ingredients: ["zucchini", "ricotta cheese", "mozzarella cheese", "oat flakes", "all-purpose flour", "whole wheat flour", "ham"]
+  - title: "Piecrust pastry"
+    page: 196
+    ingredients: ["all-purpose flour", "store-cupboard ingredients"]
+  - title: "Pizza dough"
+    page: 196
+    ingredients: ["all-purpose flour", "brewer's yeast"]
+  - title: "Puff pastry"
+    page: 197
+    ingredients: ["all-purpose flour", "butter"]
+  - title: "Phyllo pastry"
+    page: 197
+    ingredients: ["all-purpose flour"]
+  - title: "Pesto and cherry tomato pie"
+    page: 198
+    ingredients: ["Italian 00 flour", "basil", "Parmesan cheese", "hazelnuts", "cherry tomatoes", "breadcrumbs"]
+  - title: "Mediterranean stuffed pastry roll"
+    page: 200
+    ingredients: ["eggplants", "sunflower oil", "egg yolks", "basil", "mozzarella cheese", "semi-dried cherry tomatoes", "Parmesan cheese", "all-purpose flour", "butter"]
+  - title: "Artichoke and mint pie"
+    page: 202
+    ingredients: ["artichokes", "parsley", "ricotta cheese", "Parmesan cheese", "mint", "all-purpose flour"]
+  - title: "Easter pie"
+    page: 204
+    ingredients: ["Italian 00 flour", "greens of your choice", "Parmesan cheese", "marjoram", "rolls", "eggs", "ricotta cheese"]
+  - title: "Cheese puff pastry pie"
+    page: 205
+    ingredients: ["asparagus", "pecorino cheese", "ricotta cheese", "parsley", "white pepper", "all-purpose flour", "butter"]
+  - title: "Radicchio, walnut, and smoked cheese strudel"
+    page: 206
+    ingredients: ["all-purpose flour", "radicchio", "acacia honey", "smoked scamorza cheese", "walnuts", "butter"]
+  - title: "Egg and pancetta tartlets"
+    page: 210
+    ingredients: ["smoked pancetta", "eggs", "Parmesan cheese", "whipping cream", "thyme", "all-purpose flour"]
+  - title: "Zucchini and Gorgonzola cheese tart"
+    page: 212
+    ingredients: ["zucchini", "nutmeg", "light cream", "all-purpose flour", "butter", "Gorgonzola cheese"]
+  - title: "Sweet bell pepper, smoked cheese, and herb flan"
+    page: 213
+    ingredients: ["red bell peppers", "yellow bell peppers", "milk", "herbs of your choice", "nutmeg", "all-purpose flour", "smoked scamorza cheese"]
+  - title: "Savoy cabbage strudels with cheese cream"
+    page: 214
+    ingredients: ["pancetta", "dried dill", "Savoy cabbage", "all-purpose flour", "butter", "whipping cream", "Taleggio cheese", "parsley"]
+  - title: "Zucchini, speck ham, and cheese pastry wheels"
+    page: 216
+    ingredients: ["Italian 00 flour", "zucchini", "speck ham (Italian)", "Fontina cheese"]
+  - title: "Romanesco broccoli, onion, and cheese tart"
+    page: 217
+    ingredients: ["Italian 00 flour", "butter", "Romanesco broccoli", "yellow onions", "chili powder", "heavy cream", "pecorino cheese"]
+  - title: "Pumpkin, leek, and sausage tart"
+    page: 218
+    ingredients: ["Italian 00 flour", "butter", "heavy cream", "Parmesan cheese", "pumpkins", "thyme", "marjoram", "leeks", "sausagemeat"]
+  - title: "Baked sea bass with vegetables and parsley mayonnaise"
+    page: 222
+    ingredients: ["potatoes", "sea bass fillets", "zucchini", "thyme", "egg yolks", "olive oil", "lemons", "parsley"]
+  - title: "Fish soup with fregola pasta"
+    page: 224
+    ingredients: ["octopus", "mussels", "clams", "shrimp", "rockfish", "onions", "celery", "white wine", "tomato paste", "fregola pasta", "parsley", "cherry tomatoes"]
+  - title: "Octopus and cranberry bean salad"
+    page: 226
+    ingredients: ["cranberry beans", "octopus", "parsley", "tomatoes"]
+  - title: "Monkfish with rosemary"
+    page: 228
+    ingredients: ["monkfish", "red chiles", "rosemary"]
+  - title: "Fried salt cod fish balls"
+    page: 230
+    ingredients: ["potatoes", "salt cod", "milk", "parsley", "bread", "breadcrumbs", "sunflower oil"]
+  - title: "Grilled salmon with milk mayonnaise"
+    page: 232
+    ingredients: ["lemons", "salmon steaks", "sunflower oil", "wild fennel"]
+  - title: "Parsley-scented mussels and clams"
+    page: 234
+    ingredients: ["mussels", "clams", "parsley"]
+  - title: "Hake steaks with aromatic herbs"
+    page: 236
+    ingredients: ["breadcrumbs", "herbs of your choice", "stale bread", "hake fillets"]
+  - title: "Baked red mullet with thyme and olives"
+    page: 240
+    ingredients: ["red mullet", "lemons", "black olives", "capers", "thyme"]
+  - title: "Trout with thyme"
+    page: 242
+    ingredients: ["breadcrumbs", "rosemary", "parsley", "thyme", "rainbow trout", "lemons"]
+  - title: "Striped mullet with fresh herbs"
+    page: 244
+    ingredients: ["striped mullet", "oregano", "parsley", "lemons"]
+  - title: "Spicy mackerel with baked potatoes"
+    page: 246
+    ingredients: ["potatoes", "mackerel", "wild fennel", "red chiles", "thyme"]
+  - title: "Fish tartare"
+    page: 248
+    ingredients: ["celery", "cucumbers", "green-skinned apples", "oranges", "kiwifruits", "fresh ginger", "grapefruits", "pink salt", "umbrine"]
+  - title: "Salmon tartare with peas and cucumber"
+    page: 249
+    ingredients: ["salmon fillets", "cucumbers", "scallions", "peas", "limes", "salad leaves"]
+  - title: "Chickpea soup with red mullet"
+    page: 250
+    ingredients: ["red mullet", "cherry tomatoes", "lemons", "oranges", "thyme", "shallots", "dried chickpeas", "bay leaves", "rosemary"]
+  - title: "Cuttlefish stuffed with Pigna bean purée"
+    page: 252
+    ingredients: ["Pigna beans", "cuttlefish", "baguette bread", "parsley", "ricotta cheese"]
+  - title: "Sea bream, artichoke, and sun-dried cherry tomato strudel"
+    page: 253
+    ingredients: ["Italian 00 flour", "artichokes", "sea bream fillets", "sun-dried cherry tomatoes", "thyme", "rosemary"]
+  - title: "Succulent hamburgers"
+    page: 256
+    ingredients: ["ground beef", "potatoes", "milk", "whipping cream"]
+  - title: "Asparagus, ham, chicken, and cheese roll"
+    page: 258
+    ingredients: ["asparagus", "chicken breasts", "ham", "scamorza cheese", "sage", "rosemary", "carrots"]
+  - title: "Suckling pig shoulder with fava beans and saffron"
+    page: 259
+    ingredients: ["saffron", "red onions", "fresh ginger", "lemongrass", "mint", "fava beans", "vegetable broth", "suckling pig shoulder", "rosemary"]
+  - title: "Sirloin steak with herbs"
+    page: 260
+    ingredients: ["pearl onions", "balsamic vinegar", "caster sugar", "potatoes", "mint", "basil", "marjoram", "thyme", "beef sirloin steaks"]
+  - title: "Osso buco"
+    page: 262
+    ingredients: ["beef shanks", "onions", "Italian 00 flour", "celery", "carrots", "lemons", "parsley", "potatoes", "milk", "whipping cream"]
+  - title: "Pork with sauerkraut and prunes"
+    page: 263
+    ingredients: ["pork loin", "Italian 00 flour", "sunflower oil", "sauerkraut", "prunes", "parsley"]
+  - title: "Chicken with grapes"
+    page: 266
+    ingredients: ["whole chicken", "rosemary", "sage", "juniper berries", "green grapes", "red grapes"]
+  - title: "Beef and potato gratin"
+    page: 268
+    ingredients: ["carrots", "celery", "ground beef", "canned tomatoes", "potatoes", "nutmeg", "Emmental cheese"]
+  - title: "Veal medallions with endive and pumpkin purée"
+    page: 270
+    ingredients: ["pumpkins", "Belgian endive", "rosemary", "veal fillets"]
+  - title: "Guinea fowl with white grapes and pancetta"
+    page: 271
+    ingredients: ["white grapes", "smoked pancetta", "white onions", "guinea fowl legs", "sage"]
+  - title: "Five-spice beef with onion and orange and fennel sauce"
+    page: 272
+    ingredients: ["beef tenderloin", "five-spice powder", "soy sauce", "fennel", "scallions", "oranges", "caster sugar", "red onions"]
+  - title: "Stuffed veal rolls"
+    page: 276
+    ingredients: ["rolls", "dried mushrooms", "ground veal", "parsley", "marjoram", "pine nuts", "Parmesan cheese", "veal", "tomato purée", "crudités of your choice", "baby leaves"]
+  - title: "Chicken with lager"
+    page: 278
+    ingredients: ["onions", "pancetta", "lager beer", "whole chicken", "rosemary"]
+  - title: "Baked chicken rolls"
+    page: 280
+    ingredients: ["chicken breasts", "rosemary", "sage", "bay leaves", "thyme", "pancetta", "onions", "salad leaves", "pickled onions"]
+  - title: "Rabbits with grapes and porcini mushrooms"
+    page: 282
+    ingredients: ["rabbit", "pancetta", "sage", "bay leaves", "porcini mushrooms", "parsley", "green grapes", "red grapes"]
+  - title: "Meatballs with tomato sauce"
+    page: 284
+    ingredients: ["breadcrumbs", "milk", "ground meat", "parsley", "pecorino cheese", "Parmesan cheese", "canned tomatoes"]
+  - title: "Fillet of beef with pistachios"
+    page: 286
+    ingredients: ["red wine", "chestnut honey", "smoked pancetta", "beef fillets", "pistachio nuts"]
+  - title: "Pork shank with cavolo nero and potatoes"
+    page: 288
+    ingredients: ["rosemary", "sage", "bay leaves", "pork shanks", "cavolo nero", "potatoes", "yellow onions"]
+  - title: "Chicken breasts with red bell pepper sauce and poached eggs"
+    page: 290
+    ingredients: ["red bell peppers", "marjoram", "capers", "eggs", "chicken breasts", "breadcrumbs", "chile flakes", "chicken carcass", "celery", "carrots", "onions", "thyme"]
+  - title: "Panzanella salad"
+    page: 294
+    ingredients: ["rustic bread", "cucumbers", "tomatoes", "red onions", "basil", "vegetable oil", "Italian 00 flour"]
+  - title: "Omelet with asparagus, saffron, and pecorino cheese cream sauce"
+    page: 296
+    ingredients: ["asparagus", "eggs", "saffron", "Parmesan cheese", "light cream", "pecorino cheese", "salad greens"]
+  - title: "Vegetable couscous with roasted red bell pepper sauce"
+    page: 298
+    ingredients: ["couscous", "red bell peppers", "scallions", "carrots", "zucchini", "eggplants", "red chiles", "canned chickpeas", "basil"]
+  - title: "Tomato with salt cod"
+    page: 302
+    ingredients: ["salt cod", "olive oil", "lemons", "black peppercorns", "bay leaves", "anchovies", "mixed tomatoes", "basil", "salad leaves"]
+  - title: "Artichoke parcels"
+    page: 304
+    ingredients: ["artichokes", "chiles", "mozzarella cheese", "crescenza cheese", "Parmesan cheese", "light cream", "Italian 00 flour", "puff pastry"]
+  - title: "Eggplant caponata"
+    page: 306
+    ingredients: ["eggplants", "green olives", "capers", "celery salt", "vine tomatoes"]
+  - title: "Zucchini and ham salad"
+    page: 307
+    ingredients: ["lettuce", "zucchini", "whole wheat bread", "cooked ham", "apple cider vinegar", "yogurt", "mild mustard"]
+  - title: "Puff pastry cake with tomatoes, cheese, and olives"
+    page: 308
+    ingredients: ["tomatoes", "all-purpose flour", "butter", "Italian 00 flour", "pecorino cheese", "black olives", "thyme", "basil"]
+  - title: "Deep-fried zucchini flowers filled with mozzarella and anchovies"
+    page: 312
+    ingredients: ["zucchini", "Italian 00 flour", "brewer's yeast", "mozzarella cheese", "anchovies", "vegetable oil"]
+  - title: "Winter vegetable salad"
+    page: 314
+    ingredients: ["potatoes", "spinach", "broccoli", "Parmesan cheese", "artichokes", "carrots", "cooked beetroots", "lemons", "pomegranates"]
+  - title: "Beef carpaccio with artichokes"
+    page: 315
+    ingredients: ["beef carpaccio", "soy sauce", "artichokes", "carrots", "oranges", "limes", "baby leaves"]
+  - title: "Mixed mushroom salad with vegetables"
+    page: 316
+    ingredients: ["button mushrooms", "parsley", "pioppino mushrooms", "carrots", "celery", "baby leaves", "pecorino cheese"]
+  - title: "Polenta with Brussels sprouts"
+    page: 318
+    ingredients: ["coarse cornmeal", "Brussels sprouts", "pecorino cheese", "anchovies"]
+  - title: "Pumpkin, sausage, and radicchio pie"
+    page: 319
+    ingredients: ["pumpkins", "whipping cream", "Parmesan cheese", "nutmeg", "sausages", "radicchio", "breadcrumbs"]
+  - title: "Egg-free spinach and carrot frittata"
+    page: 322
+    ingredients: ["fine cornmeal", "soy milk", "carrots", "baby spinach"]
+  - title: "Salsify and fennel crumble"
+    page: 324
+    ingredients: ["salsify", "fennel", "soft cheese", "pumpkin seeds", "all-purpose flour", "Parmesan cheese", "butter", "thyme"]
+  - title: "Brussels sprouts with sesame seeds"
+    page: 326
+    ingredients: ["Brussels sprouts", "oranges", "sesame seeds"]
+  - title: "Polenta with cheese, baked radicchio, and leek"
+    page: 328
+    ingredients: ["coarse cornmeal", "whipping cream", "Taleggio cheese", "radicchio", "leeks"]
+  - title: "Apple and celery root salad"
+    page: 330
+    ingredients: ["celery root", "apples", "soy cream", "lecithin", "rice milk", "corn oil", "mustard", "walnuts", "almonds"]
+  - title: "Fried cauliflower with mixed salad"
+    page: 331
+    ingredients: ["breadcrumbs", "cauliflower", "vegetable oil", "baby leaves", "cabbage", "parsley", "chives"]
+  - title: "Fennel au gratin"
+    page: 332
+    ingredients: ["fennel", "sunflower seeds", "whole wheat breadcrumbs"]
+  - title: "Cabbage millefeuille with potatoes, pesto, and cheese"
+    page: 334
+    ingredients: ["cabbage", "yellow-fleshed potatoes", "milk", "butter", "stracciatella cheese", "pesto of your choice", "Parmesan cheese"]
+  - title: "Chickpea salad"
+    page: 336
+    ingredients: ["canned chickpeas", "arugula", "cucumbers", "scallions", "yogurt", "mint", "oregano", "sun-dried tomatoes in oil"]
+  - title: "Potato, green bean, and pesto bake"
+    page: 337
+    ingredients: ["potatoes", "green beans", "basil", "walnuts", "pine nuts", "cashew nuts"]
+  - title: "Cannellini bean and pecorino cheese salad with balsamic vinegar"
+    page: 338
+    ingredients: ["dried cannellini beans", "pecorino cheese", "balsamic vinegar", "baby leaves", "ricotta cheese"]
+  - title: "Fava bean salad with anchovies and semi-dried cherry tomatoes"
+    page: 340
+    ingredients: ["fava beans", "semi-dried cherry tomatoes", "anchovies", "basil", "herbs of your choice"]
+  - title: "Barley with chickpeas and crispy pancetta"
+    page: 341
+    ingredients: ["dried chickpeas", "pearled barley", "vegetable broth", "Parmesan cheese", "pancetta", "parsley"]
+  - title: "Beet and Gorgonzola cheese pearled barley with cream sauce"
+    page: 344
+    ingredients: ["pearled barley", "cooked beets", "vegetable broth", "Gorgonzola cheese", "whipping cream", "Parmesan cheese"]
+  - title: "Millet gnocchi with arugula pesto"
+    page: 346
+    ingredients: ["millet", "arugula", "Parmesan cheese"]
+  - title: "Quinoa with red beets"
+    page: 348
+    ingredients: ["beets", "quinoa", "chives", "goat cheese", "lemons"]
+  - title: "Einkorn wheat salad with radicchio, chard, and caramelized hazelnuts"
+    page: 349
+    ingredients: ["whole einkorn wheat grains", "raspberry vinegar", "hazelnuts", "superfine sugar", "Swiss chard", "radicchio", "celery"]
+  - title: "Asparagus, shrimp, and pearled barley salad"
+    page: 350
+    ingredients: ["pearled barley", "asparagus", "shrimp", "zucchini", "mayonnaise", "lemons", "parsley", "basil"]
+  - title: "Fregola pasta salad with chickpeas, red onion, and cherry tomatoes"
+    page: 352
+    ingredients: ["fregola pasta", "cherry tomatoes", "red onions", "canned chickpeas", "black olives", "lemons", "parsley", "basil"]
+  - title: "Bulgur wheat with green soybean and eggplant sauce"
+    page: 356
+    ingredients: ["vegetable broth", "turmeric", "bulgur", "dried oregano", "eggplants", "canned tomatoes", "soybeans"]
+  - title: "Pearled barley with Trapanese pesto"
+    page: 357
+    ingredients: ["pearled barley", "ground almonds", "tomatoes", "basil", "almonds", "pecorino cheese"]
+  - title: "Rich bulgur wheat salad"
+    page: 358
+    ingredients: ["bulgur", "red bell peppers", "eggplants", "dried oregano", "chilli powder", "canned chickpeas", "paprika", "zucchini", "mint"]
+  - title: "Pearled barley and spinach croquettes"
+    page: 360
+    ingredients: ["pearled barley", "onions", "baby spinach", "carrots", "breadcrumbs"]
+  - title: "Green pea einkhorn risotto with vegetables and bagna cauda"
+    page: 361
+    ingredients: ["frozen peas", "white onions", "sage", "whole einkorn wheat grains", "Grana Padano cheese", "vegetables of your choice", "anchovies"]
+  - title: "Whole wheat cereal salad"
+    page: 362
+    ingredients: ["wheat berries", "hulled barley", "oat groats", "whole buckwheat", "tomatoes", "red bell peppers", "yellow bell peppers", "cucumbers", "parsley"]
+  - title: "Buckwheat with spinach"
+    page: 363
+    ingredients: ["whole buckwheat", "onions", "chili powder", "spinach", "soy sauce"]
+  - title: "Pizzoccheri pasta with cheese"
+    page: 364
+    ingredients: ["potatoes", "Savoy cabbage", "pizzoccheri pasta", "butter", "Parmesan cheese", "Valtellina casera cheese"]
+  - title: "Spelt with meatballs and carpione sauce"
+    page: 366
+    ingredients: ["rosemary", "white onions", "spelt", "stale bread", "ground veal", "Parmesan cheese", "red onions", "thyme", "sage", "bay leaves"]
+  - title: "Pizza with mozzarella cheese, Gorgonzola cheese, walnuts and pears"
+    page: 370
+    ingredients: ["all-purpose flour", "whole wheat flour", "brewer's yeast", "pears", "fior di latte mozzarella cheese", "Gorgonzola cheese", "walnuts", "thyme"]
+  - title: "Muffins with green olive pâté and ham"
+    page: 374
+    ingredients: ["brewer's yeast", "all-purpose flour", "lard", "cooked ham", "green olive pâté"]
+  - title: "Seasoned soft dough knots"
+    page: 375
+    ingredients: ["brewer's yeast", "honey", "plain white bread flour", "lard"]
+  - title: "Rice and cheese fritters"
+    page: 376
+    ingredients: ["Arborio rice", "semi-firm cheese", "Parmesan cheese", "marjoram", "sage", "vegetable oil"]
+  - title: "Walnut bread"
+    page: 378
+    ingredients: ["all-purpose flour", "buratto flour", "brewer's yeast", "walnuts"]
+  - title: "Olive bread"
+    page: 379
+    ingredients: ["all-purpose flour", "buratto flour", "brewer's yeast", "olives"]
+  - title: "Fried pizzas with tomatoes, mozzarella cheese, and basil"
+    page: 384
+    ingredients: ["sunflower oil", "fior di latte mozzarella cheese", "basil", "tomato purée", "oregano", "all-purpose flour", "whole wheat flour", "brewer's yeast", "malt powder"]
+  - title: "Fried pizzas with cheese and anchovies"
+    page: 386
+    ingredients: ["sunflower oil", "stracciatella cheese", "anchovies", "all-purpose flour", "whole wheat flour", "brewer's yeast", "malt powder", "Manitoba flour"]
+  - title: "Bread rolls with sun-dried tomatoes and scallions"
+    page: 387
+    ingredients: ["sun-dried tomatoes", "honey", "brewer's yeast", "strong white bread flour", "scallions", "durum wheat flour"]
+  - title: "Babà rustico"
+    page: 388
+    ingredients: ["yeast", "superfine sugar", "Italian 00 flour", "salami", "cooked ham", "stretched curd cheese"]
+  - title: "Focaccia with balsamic vinegar and pecorino cheese"
+    page: 392
+    ingredients: ["brewer's yeast", "superfine sugar", "plain white bread flour", "starter yeast"]
+  - title: "Potato focaccia with mozzarella cheese and porcini mushrooms"
+    page: 393
+    ingredients: ["potatoes", "brewer's yeast", "all-purpose flour", "buffalo mozzarella cheese", "porcini mushrooms"]
+  - title: "Baker's pizza"
+    page: 394
+    ingredients: ["brewer's yeast", "superfine sugar", "all-purpose flour", "canned tomatoes", "mozzarella cheese", "oregano"]
+  - title: "Whole wheat pizza with red onions and cheese"
+    page: 395
+    ingredients: ["red onions", "balsamic vinegar", "superfine sugar", "durum wheat flour", "fior di latte mozzarella cheese", "provolone cheese", "whole wheat flour", "brewer's yeast"]
+  - title: "Whole wheat focaccia with ratatouille, mint, and goat cheese"
+    page: 396
+    ingredients: ["potatoes", "carrots", "celery", "eggplants", "zucchini", "mint", "durum wheat flour", "goat cheese", "whole wheat flour", "brewer's yeast"]
+  - title: "Vegetable and shrimp tempura"
+    page: 400
+    ingredients: ["olive oil", "shrimp", "squid", "carrots", "zucchini", "asparagus", "red bell peppers", "eggplants", "carbonated water", "rice flour", "paprika"]
+  - title: "Small fried pizzas with Parmesan cheese cream, asparagus, and prosciutto"
+    page: 402
+    ingredients: ["purple asparagus", "prosciutto", "all-purpose flour", "whole wheat flour", "brewer's yeast", "malt powder", "whipping cream", "nutmeg", "Parmesan cheese"]
+  - title: "Fried mozzarella cheese sandwiches"
+    page: 403
+    ingredients: ["bread", "buffalo mozzarella cheese", "pecorino cheese", "eggs", "breadcrumbs", "sunflower oil", "whipping cream", "mozzarella cheese"]
+  - title: "Potato cakes with black olives, zucchini, and carrots"
+    page: 404
+    ingredients: ["potatoes", "carrots", "zucchini", "Parmesan cheese", "basil", "chives", "black olives", "breadcrumbs"]
+  - title: "Spiced shrimp and swordfish skewers with chips"
+    page: 406
+    ingredients: ["potatoes", "olive oil", "durum wheat semolina flour", "paprika", "curry powder", "chili powder", "shrimp", "swordfish", "scallions", "salad greens"]
+  - title: "Chicken with Provençal herbs fritters"
+    page: 408
+    ingredients: ["carrots", "celery", "chicken breasts", "breadcrumbs", "herbes de Provence", "sunflower oil"]
+  - title: "Tuna, potato, and chive cakes"
+    page: 410
+    ingredients: ["potatoes", "canned tuna in oil", "chives", "Parmesan cheese", "nutmeg", "fine cornmeal", "peanut oil"]
+  - title: "Fried polenta Gorgonzola cheese fondue"
+    page: 411
+    ingredients: ["yellow cornmeal", "Gorgonzola cheese", "whipping cream"]
+  - title: "Fried sage"
+    page: 412
+    ingredients: ["sunflower oil", "sage"]
+  - title: "Stuffed paccheri pasta"
+    page: 413
+    ingredients: ["canned tomatoes", "basil", "paccheri pasta", "ricotta cheese", "pecorino cheese", "Parmesan cheese", "eggs", "breadcrumbs", "sunflower oil"]
+  - title: "Supplì"
+    page: 414
+    ingredients: ["vegetable broth", "celery", "carrots", "ground pork", "ground beef", "chicken gizzards", "canned tomatoes", "basil", "carnaroli rice", "Parmesan cheese", "mozzarella cheese", "breadcrumbs", "sunflower oil"]
+  - title: "Broccoli roulade with cheese"
+    page: 418
+    ingredients: ["broccoli", "cream cheese", "cooked ham"]
+  - title: "Ricotta cheese and semi-dried tomato cheeecake"
+    page: 420
+    ingredients: ["stale bread", "thyme", "mint", "semi-dried tomatoes", "basil", "ricotta cheese", "Parmesan cheese", "whipping cream", "black olives", "anchovies", "white pepper"]
+  - title: "Crepes with Gorgonzola cheese and pancetta"
+    page: 421
+    ingredients: ["Gorgonzola cheese", "smoked pancetta", "all-purpose flour", "milk", "shallot jelly"]
+  - title: "Flatbread millefeuilles with mozzarella, tomatoes, and pesto"
+    page: 424
+    ingredients: ["pane carasau", "tomatoes", "buffalo mozzarella cheese", "basil", "Parmesan cheese", "pecorino cheese", "pine nuts"]
+  - title: "Chestnut polenta with cheese"
+    page: 426
+    ingredients: ["chestnut flour", "goat cheese", "spinach", "chives"]
+  - title: "Baked ricottinas with aromatic herbs"
+    page: 427
+    ingredients: ["dried oregano", "chili powder", "thyme", "riccotina cheese"]
+  - title: "Pecorino cheese with grapes, dried figs and walnuts"
+    page: 430
+    ingredients: ["lime blossom honey", "radicchio", "pecorino cheese", "dried figs", "walnuts", "white grapes"]
+  - title: "Polenta gnocchi with Parmesan cheese and porcini mushroom fondue"
+    page: 432
+    ingredients: ["dried porcini mushrooms", "whipping cream", "bay leaves", "nutmeg", "Parmesan cheese", "cooked polenta", "ricotta cheese", "sage"]
+  - title: "Chocolate mousse with hazelnut brittle"
+    page: 436
+    ingredients: ["gelatin sheets", "whipping cream", "dark chocolate", "vanilla beans", "superfine sugar", "hazelnuts"]
+  - title: "Strawberry fruit salad with Chantilly cream"
+    page: 440
+    ingredients: ["whipping cream", "milk", "vanilla beans", "eggs", "superfine sugar", "strawberries", "grappa", "lemons", "unsalted pistachio nuts", "pie dough cookies"]
+  - title: "Fruit crisps with ginger"
+    page: 442
+    ingredients: ["soft fruit of your choice", "cane sugar", "mint", "cornflakes", "fresh ginger", "Italian 00 flour", "yogurt"]
+  - title: "Coeur de crème with strawberries"
+    page: 443
+    ingredients: ["egg whites", "whipping cream", "superfine sugar", "strawberries", "almonds"]
+  - title: "Citrus fruit panna cotta"
+    page: 444
+    ingredients: ["oranges", "limes", "lemons", "whipping cream", "vanilla beans", "gelatin sheets", "superfine sugar", "cane sugar", "mint"]
+  - title: "Meringue wafers"
+    page: 445
+    ingredients: ["egg whites", "confectioner's sugar", "unsalted pistachio nuts", "pistachio ice cream"]
+  - title: "Cherry and soft fruit pudding"
+    page: 446
+    ingredients: ["raspberry juice", "cane sugar", "ground cardamom", "cherries", "soft fruit of your choice", "mint"]
+  - title: "Apple crisp with cinnamon and pine nuts"
+    page: 448
+    ingredients: ["apples", "superfine sugar", "Italian 00 flour", "butter", "pine nuts", "ground cinnamon"]
+  - title: "Cherries with almond-flavored ice"
+    page: 450
+    ingredients: ["cherries", "cane sugar", "Maraschino liqueur", "marzipan"]
+  - title: "Sweet couscous"
+    page: 452
+    ingredients: ["apple juice", "couscous", "brown rice syrup", "candied fruits of your choice", "dark chocolate", "oranges"]
+  - title: "Vanilla cream with strawberries and Port"
+    page: 453
+    ingredients: ["eggs", "superfine sugar", "milk", "vanilla beans", "lemons", "cane sugar", "Port wine", "strawberries"]
+  - title: "Fruity mascarpone mousse with coffee caramel sauce"
+    page: 454
+    ingredients: ["mascarpone cheese", "ricotta cheese", "egg yolks", "superfine sugar", "coffee", "coffee liqueur", "chocolate cookies", "berries of your choice", "coffee beans"]
+  - title: "Summer fruit cups with Grand Marnier"
+    page: 456
+    ingredients: ["peaches", "plums", "apricots", "melons", "superfine sugar", "Grand Marnier", "vanilla ice cream", "pistachio ice cream", "unsalted pistachio nuts"]
+  - title: "Creme brulee with ginger"
+    page: 457
+    ingredients: ["whipping cream", "fresh ginger", "egg yolks", "superfine sugar", "cane sugar"]
+  - title: "Tiramisu with spiced two-color cream"
+    page: 458
+    ingredients: ["cane sugar", "rice flour", "rice milk", "ground cinnamon", "cocoa powder", "vanilla beans", "Melba toasts", "coffee", "hazelnuts"]
+  - title: "Watermelon and mint granita"
+    page: 462
+    ingredients: ["watermelons", "mint"]
+  - title: "Amaretto ice cream with chocolate sauce and peaches in syrup"
+    page: 463
+    ingredients: ["milk", "whipping cream", "Amaretto", "amaretti cookies", "egg yolks", "superfine sugar", "peaches", "dark chocolate"]
+  - title: "Ginger ice cream with cocoa and orange crumble"
+    page: 464
+    ingredients: ["milk", "whipping cream", "vanilla beans", "fresh ginger", "egg yolks", "superfine sugar", "Italian 00 flour", "cane sugar", "cocoa powder", "oranges", "mint"]
+  - title: "Sweet crepes"
+    page: 466
+    ingredients: ["milk", "Italian 00 flour", "superfine sugar", "vanilla beans", "chocolate spread", "mint"]
+  - title: "Lemon custard in chocolate cups"
+    page: 467
+    ingredients: ["eggs", "lemons", "icing sugar", "butter", "dark chocolate", "berries of your choice", "kiwifruits"]
+  - title: "Chocolate puddings with caramelized oranges and amaretti cookies"
+    page: 468
+    ingredients: ["milk", "superfine sugar", "Italian 00 flour", "cocoa powder", "amaretti cookies", "Grand Marnier", "oranges"]
+  - title: "Stuffed peaches"
+    page: 469
+    ingredients: ["peaches", "superfine sugar", "cocoa powder", "amaretti cookies"]
+  - title: "Butterscotch and chocolate cups"
+    page: 470
+    ingredients: ["dark chocolate", "milk chocolate", "superfine sugar", "whipping cream", "poppy seeds"]
+  - title: "Chocolate yogurt mousse"
+    page: 472
+    ingredients: ["coconut milk", "dried figs", "cocoa powder", "soy yogurt", "redcurrants"]
+  - title: "Chocolate almond Umbertini cookies"
+    page: 473
+    ingredients: ["almond flour", "superfine sugar", "cocoa powder", "egg whites", "icing sugar"]
+  - title: "Chocolate galettes with mascarpone cheese"
+    page: 474
+    ingredients: ["dark chocolate", "whipping cream", "hazelnuts", "white chocolate", "mascarpone cheese", "brandy"]
+  - title: "White chocolate puddings"
+    page: 476
+    ingredients: ["milk", "white chocolate", "Italian 00 flour", "vanilla sugar", "liqueur of your choice", "dark chocolate", "whipping cream", "chocolate sprinkles", "mint"]
+  - title: "Piedmontese bonet"
+    page: 478
+    ingredients: ["superfine sugar", "milk", "cocoa powder", "amaretti cookies", "instant coffee powder"]
+  - title: "Hazelnut ice cream with dark chocolate sauce"
+    page: 480
+    ingredients: ["milk", "whipping cream", "hazelnut paste", "hazelnuts", "egg yolks", "superfine sugar", "dark chocolate", "cane sugar"]
+  - title: "Raspberry cake"
+    page: 484
+    ingredients: ["eggs", "superfine sugar", "Italian 00 flour", "butter", "lemons", "raspberries"]
+  - title: "Buckwheat cake"
+    page: 486
+    ingredients: ["butter", "sugar", "eggs", "buckwheat flour", "blueberry jelly"]
+  - title: "Alassio's kisses"
+    page: 488
+    ingredients: ["hazelnuts", "superfine sugar", "honey", "cocoa powder", "egg whites", "dark chocolate"]
+  - title: "Mini Easter cakes"
+    page: 489
+    ingredients: ["Italian 00 flour", "superfine sugar", "lard", "grano cotto", "lemons", "ricotta cheese", "vanilla beans", "orange flower water", "ground cinnamon", "candied fruits of your choice"]
+  - title: "Rice flour and cocoa powder cookies"
+    page: 490
+    ingredients: ["butter", "superfine sugar", "rice flour", "potato flour", "cocoa powder", "hazelnuts"]
+  - title: "Ugly but tasty cookies"
+    page: 491
+    ingredients: ["egg whites", "superfine sugar", "hazelnuts"]
+  - title: "Amaretto and peach pastry cake"
+    page: 492
+    ingredients: ["Italian 00 flour", "Marsala wine", "coffee", "amaretti cookies", "canned peaches"]
+  - title: "Ricotta cheese, honey, and apple tarts with apple brandy"
+    page: 494
+    ingredients: ["Italian 00 flour", "ricotta cheese", "acacia honey", "red-skinned apples", "superfine sugar", "apple brandy"]
+  - title: "Honey and nut cake"
+    page: 495
+    ingredients: ["Italian 00 flour", "butter", "superfine sugar", "egg yolks", "acacia honey", "walnuts", "almonds", "breadcrumbs", "pine nuts", "raisins", "whole cloves", "ground cinnamon", "nutmeg"]
+  - title: "Chocolate layer cake"
+    page: 496
+    ingredients: ["Italian 00 flour", "potato flour", "cocoa powder", "eggs", "superfine sugar", "milk", "butter", "dark couverture chocolate", "whipping cream", "dark chocolate"]
+  - title: "Fresh fruit tartlets"
+    page: 498
+    ingredients: ["butter", "vanilla beans", "Italian 00 flour", "eggs", "superfine sugar", "milk", "blueberries", "red currants", "strawberries", "apricot jelly"]
+  - title: "Apricot jelly palmiers"
+    page: 500
+    ingredients: ["puff pastry", "apricot jelly", "superfine sugar"]
+  - title: "Chocolate tart"
+    page: 502
+    ingredients: ["Italian 00 flour", "butter", "superfine sugar", "lemons", "egg yolks", "chocolate spread", "heavy cream"]
+  - title: "Apple and yogurt cake"
+    page: 504
+    ingredients: ["apples", "lemons", "Italian 00 flour", "yogurt", "butter", "cane sugar"]
+  - title: "Piedmontese chocolate pastries"
+    page: 505
+    ingredients: ["Italian 00 flour", "eggs", "milk", "cocoa powder", "whipping cream"]
+  - title: "Almond and pistachio cookies"
+    page: 506
+    ingredients: ["superfine sugar", "Italian 00 flour", "almonds", "pistachio nuts"]
+  - title: "Sablé cookie cake with chocolate cream"
+    page: 508
+    ingredients: ["butter", "instant coffee powder", "superfine sugar", "Italian 00 flour", "gelatin leaves", "dark chocolate", "heavy cream", "mandarin orange marmalade"]
+  - title: "Wine and raisin cookies"
+    page: 510
+    ingredients: ["raisins", "dessert wine", "Italian 00 flour"]
+  - title: "Chocolate meringues with mascarpone cheese filling"
+    page: 512
+    ingredients: ["egg whites", "sugar", "cocoa powder", "mascarpone cheese", "oranges"]
+  - title: "Cinnamon rolls"
+    page: 514
+    ingredients: ["Italian 00 flour", "brewer's yeast", "oranges", "superfine sugar", "butter", "ground cinnamon"]
+  - title: "Castagnole fritters"
+    page: 516
+    ingredients: ["all-purpose flour", "superfine sugar", "vanilla beans", "rum", "sunflower oil"]
