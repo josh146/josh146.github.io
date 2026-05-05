@@ -447,7 +447,7 @@
 
                         <div class="pane-recipe-header">
                             <button class="star-btn ${isStarred ? 'is-starred' : ''}"
-                                    onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                                    onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', '${recipe.page}', this, event)"
                                     title="${isStarred ? 'Unstar this recipe' : 'Star this recipe'}">
                                 ${isStarred ? '★' : '☆'}
                             </button>
@@ -674,7 +674,7 @@ function loadRecipeLocation() {
     }
 
     // 3. Handle clicking a star
-    function toggleStar(bookTitle, recipeTitle, btnElement, event) {
+    function toggleStar(bookTitle, recipeTitle, recipePage, btnElement, event) {
         event.stopPropagation(); // Stop the click from copying the link
 
         let stars = getStarredRecipes();
@@ -688,7 +688,7 @@ function loadRecipeLocation() {
             btnElement.title = "Star this recipe";
         } else {
             // It's not starred, so add it
-            stars.push({ book: bookTitle, recipe: recipeTitle });
+            stars.push({ book: bookTitle, recipe: recipeTitle, page: recipePage});
             btnElement.classList.add('is-starred');
             btnElement.innerText = '★';
             btnElement.title = "Unstar this recipe";
@@ -725,7 +725,7 @@ function loadRecipeLocation() {
                 // try to un-star someone else's list (which would just error out).
                 const starBtnHtml = isSharedView ? '' : `
                     <button class="star-btn is-starred"
-                            onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                            onclick="toggleStar('${safeBookJS}', '${safeRecipeJS}', null, this, event)"
                             title="Unstar this recipe">★</button>
                 `;
 
@@ -743,7 +743,7 @@ function loadRecipeLocation() {
                                 </span>
                             </div>
                             <div class="pane-tags-container">
-                                <span class="pane-tag" style="background:#e9ecef;">📚 ${safeBookHTML}</span>
+                                <span class="pane-tag" style="background:#e9ecef;">📚 ${safeBookHTML} (${star.page})</span>
                             </div>
                         </div>
                     </li>
