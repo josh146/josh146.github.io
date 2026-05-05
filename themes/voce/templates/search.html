@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // We attach this to `window` so the inline HTML button can easily find it.
-    window.toggleSearchStar = function(bookTitle, recipeTitle, btnElement, event) {
+    window.toggleSearchStar = function(bookTitle, recipeTitle, recipePage, btnElement, event) {
         // CRITICAL: Prevent the click from opening the link!
         event.preventDefault();
         event.stopPropagation();
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnElement.innerText = '☆';
             btnElement.title = "Star this recipe";
         } else {
-            stars.push({ book: bookTitle, recipe: recipeTitle });
+            stars.push({ book: bookTitle, recipe: recipeTitle, page: recipePage });
             btnElement.classList.add('is-starred');
             btnElement.innerText = '★';
             btnElement.title = "Unstar this recipe";
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <a href="${href}" class="search-compact-link">
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <button class="star-btn ${isStarred ? 'is-starred' : ''}"
-                                        onclick="window.toggleSearchStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
+                                        onclick="window.toggleSearchStar('${safeBookJS}', '${safeRecipeJS}', '${item.page}', this, event)"
                                         title="${isStarred ? 'Unstar this recipe' : 'Star this recipe'}">
                                     ${isStarred ? '★' : '☆'}
                                 </button>
