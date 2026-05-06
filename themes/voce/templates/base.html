@@ -158,7 +158,8 @@
                {% for name, link in SOCIAL %}
                 {{ display_link(name, link, "") }}
                {% endfor %}
-               <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a>
+               <!-- <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a> -->
+               <a href="/search"><i class="fas fa-search"></i></a>
               </div>
             </div>
           </div>
@@ -240,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ninja = document.querySelector('ninja-keys');
 
     let rawSearchData = [];
-    let searchIngredients = true;
+    let searchIngredients = false;
 
     // Helper to pierce the Shadow DOM (Works on all Ninja Keys versions)
     const getNinjaInput = () => {
@@ -303,8 +304,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return {
                     id: `physical-${index}`,
                     title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
-                    section: item.wishlist ? `🛒 Wishlist: ${item.book}` : `📚 Cookbook: ${item.book}`,
-                    icon: item.wishlist ? `🛒 pg ${item.page} - ` : `📖 pg ${item.page} - `,
+                    section: item.wishlist ? `📚 Wishlist: ${item.book}` : `📚 Cookbook: ${item.book}`,
+                    icon: item.wishlist ? `🛒&nbsp;` : `📖&nbsp;`,
                     // Use the global state variable
                     keywords: searchIngredients ? ingString : "",
                     handler: () => { window.location.href = `/cookbooks?${params.toString()}`; }

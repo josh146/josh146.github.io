@@ -151,6 +151,7 @@ def generate_search_index(generators):
                 "title": fix_string(recipe.title),
                 "url": f"/{recipe.url}",
                 "type": "Recipes",
+                "ingredients": [fix_string(i) for i in recipe.ingredients_list],
                 "keywords": f"{recipe.category}" + " ".join([t.name for t in getattr(recipe, "tags", [])]),
             }
         )

@@ -10,14 +10,21 @@
 
     <div class="search-header">
         <div class="search-bar-integrated">
-
             <input type="text" id="custom-search-input" placeholder="Search library..." autocomplete="off" autofocus>
-
             <input type="checkbox" id="custom-ingredient-toggle" class="toggle-hidden-input" checked>
             <label for="custom-ingredient-toggle" class="integrated-toggle" title="Toggle searching by ingredients">
                 Ingredients
             </label>
+        </div>
 
+        <div class="search-hints">
+            <span>💡 <b>Tips:</b></span>
+            <span><code>"exact phrase"</code></span>
+            <span><code>lamb OR beef</code></span>
+            <span><code>-fried</code> (excludes)</span>
+            <span><code>title:soup</code></span>
+            <span><code>book:"food lab"</code></span>
+            <span><code>ing:salt</code></span>
         </div>
     </div>
 
@@ -130,19 +137,81 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const filtered = libraryData.filter(item => {
-            const matchTitle = item.title && String(item.title).toLowerCase().includes(q);
-            const matchBook = item.book && String(item.book).toLowerCase().includes(q);
+            // 1. Build the Global Haystack (for generic searches without prefixes)
+            let haystack = [item.title, item.book].filter(Boolean).join(' ').toLowerCase();
 
-            let matchKeywords = false;
             if (searchIngredients) {
-                const targetData = item.type === 'Physical' ? item.ingredients : item.keywords;
+                const targetData = (item.type === 'Physical') || (item.type === 'Recipes') ? item.ingredients : item.keywords;
                 if (targetData) {
                     const safeArray = Array.isArray(targetData) ? targetData : [targetData];
-                    matchKeywords = safeArray.some(term => String(term).toLowerCase().includes(q));
+                    haystack += ' ' + safeArray.join(' ').toLowerCase();
                 }
             }
 
-            return matchTitle || matchBook || matchKeywords;
+            // 2. Split top-level ORs
+            const orGroups = q.split(/\s+or\s+/);
+
+            return orGroups.some(group => {
+
+                // A smarter Regex that captures optional prefixes (like book: or ing:)
+                // even if they are attached to quoted strings!
+                const tokens = group.match(/(?:[^\s"]+|"[^"]*")+/g) || [];
+
+                return tokens.every(token => {
+                    let isExclude = false;
+                    let term = token;
+
+                    // Handle NOT operator
+                    if (term.startsWith('-')) {
+                        isExclude = true;
+                        term = term.substring(1);
+                    }
+
+                    // Check if this token targets a specific field
+                    let field = null;
+                    const fieldMatch = term.match(/^(title|book|ingredient|ing):(.*)$/);
+                    if (fieldMatch) {
+                        field = fieldMatch[1]; // e.g., 'ing'
+                        term = fieldMatch[2];  // e.g., '"beef mince","ground beef"'
+                        if (field === 'ing') field = 'ingredient';
+                    }
+
+                    // 1. Split by comma, but safely ignore commas INSIDE quotes!
+                    // This regex matches either a fully quoted string, or a chunk of text without commas.
+                    const subTermsRaw = term.match(/(?:"[^"]+"|[^,]+)/g) || [term];
+
+                    // 2. Clean up the individual sub-terms
+                    const subTerms = subTermsRaw.map(sub => {
+                        let cleanSub = sub;
+                        // Strip the quotes off the individual alias if it has them
+                        if (cleanSub.startsWith('"') && cleanSub.endsWith('"')) {
+                            cleanSub = cleanSub.substring(1, cleanSub.length - 1);
+                        }
+                        return cleanSub;
+                    });
+
+                    // 3. Evaluate the sub-terms
+                    let hasTerm = subTerms.some(subTerm => {
+                        if (field === 'title') {
+                            return item.title && String(item.title).toLowerCase().includes(subTerm);
+                        } else if (field === 'book') {
+                            return item.book && String(item.book).toLowerCase().includes(subTerm);
+                        } else if (field === 'ingredient') {
+                            const targetData = item.ingredients || item.keywords;
+                            if (targetData) {
+                                const safeArray = Array.isArray(targetData) ? targetData : [targetData];
+                                return safeArray.some(t => String(t).toLowerCase().includes(subTerm));
+                            }
+                            return false;
+                        } else {
+                            // Global haystack search
+                            return haystack.includes(subTerm);
+                        }
+                    });
+
+                    return isExclude ? !hasTerm : hasTerm;
+                });
+            });
         });
 
         if (filtered.length === 0) {

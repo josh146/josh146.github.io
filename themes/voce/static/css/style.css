@@ -1319,6 +1319,25 @@ p img{
     font-style: italic;
 }
 
+/* --- SEARCH HINTS --- */
+.search-hints {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: -10px; /* Pull it slightly closer to the search bar */
+    padding: 0 5px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.search-hints code {
+    background: #f1f3f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #495057;
+}
+
 .star-btn {
     background: transparent;
     border: none;
