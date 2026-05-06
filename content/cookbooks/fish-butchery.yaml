@@ -1,0 +1,207 @@
+book: "Fish Butchery"
+author: "Josh Niland"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/fish-butchery-mastering-the-catch-231598l3.jpg"
+wishlist: true
+recipes:
+  - title: "Scaling [fish]"
+    page: 50
+    ingredients: ["whole fish"]
+  - title: "Knife-scaling (Sukibiki) [fish]"
+    page: 52
+    ingredients: ["whole fish"]
+  - title: "Gutting [fish]"
+    page: 54
+    ingredients: ["whole fish"]
+  - title: "Basic filleting [fish]"
+    page: 80
+    ingredients: ["whole fish"]
+  - title: "Filleting (head and tail on) [fish]"
+    page: 84
+    ingredients: ["whole fish"]
+  - title: "Collar and belly 'supreme' [fish]"
+    page: 88
+    ingredients: ["whole fish"]
+  - title: "Butterfly (head on) [fish]"
+    page: 92
+    ingredients: ["whole fish"]
+  - title: "Reverse butterfly (head on) [fish]"
+    page: 96
+    ingredients: ["whole fish"]
+  - title: "Short rib of tuna"
+    page: 100
+    ingredients: ["tuna collars"]
+  - title: "Frenched cutlets (rib bone in, spine out) [fish]"
+    page: 104
+    ingredients: ["whole fish"]
+  - title: "Yellowfin tuna rib eye"
+    page: 108
+    ingredients: ["yellowfin tuna"]
+  - title: "Butterflied belly [fish]"
+    page: 112
+    ingredients: ["whole fish"]
+  - title: "Portioning a fish fillet for battered fish"
+    page: 116
+    ingredients: ["fish fillets"]
+  - title: "Fish portions for grilled fish"
+    page: 119
+    ingredients: ["whole fish"]
+  - title: "Saddle chops (bone in, ribs and pins out) [fish]"
+    page: 120
+    ingredients: ["whole fish"]
+  - title: "Stuffed boneless saddle [fish]"
+    page: 124
+    ingredients: ["whole fish", "nori seaweed", "fish sausage"]
+  - title: "Fish crown stuffed under skin"
+    page: 130
+    ingredients: ["whole fish", "flavored butter of your choice"]
+  - title: "Double saddle or Barnsley (ribs on, pins out) [fish]"
+    page: 134
+    ingredients: ["whole fish"]
+  - title: "Bone in forequarter (pins out and ribs off) [fish]"
+    page: 138
+    ingredients: ["whole fish"]
+  - title: "Whole rotisserie fish"
+    page: 142
+    ingredients: ["whole fish"]
+  - title: "Tuna tail rounds"
+    page: 146
+    ingredients: ["tuna tail", "wine", "aromatics of your choice", "plain flour", "fish stock"]
+  - title: "Fresh chorizo"
+    page: 154
+    ingredients: ["Murray cod", "salmon", "garlic", "Insta cure #1", "quinoa flakes", "table salt", "white vinegar", "chilli flakes", "grated nutmeg", "dried oregano", "ground cumin", "garlic powder", "smoked paprika", "sweet paprika", "ox casings", "black peppercorns", "fennel seeds", "caster sugar", "rosemary", "fish fat"]
+  - title: "Tuna chorizo Castellano"
+    page: 157
+    ingredients: ["tuna trimmings", "cold-smoked salmon", "table salt", "Insta cure #2", "garlic powder", "onion powder", "ground white pepper", "dried oregano", "ground nutmeg", "paprika", "black peppercorns", "fennel seeds", "caster sugar", "rosemary", "fish fat", "sodium erythorbate", "ox casings"]
+  - title: "Mortadella"
+    page: 158
+    ingredients: ["table salt", "black peppercorns", "fennel seeds", "caster sugar", "rosemary", "fish fat", "fish sauce", "white fish trimmings", "smoked salmon trimmings", "egg whites", "plastic casings"]
+  - title: "Tuna pistachio salami"
+    page: 161
+    ingredients: ["table salt", "black peppercorns", "fennel seeds", "caster sugar", "rosemary", "fish fat", "tuna trimmings", "cold-smoked salmon", "Insta cure #2", "onion powder", "garlic", "sodium erythorbate", "raw pistachio nuts", "ox casings"]
+  - title: "Cold-smoked fish ham"
+    page: 162
+    ingredients: ["table salt", "Insta cure #1", "kingfish"]
+  - title: "Marlin 'nduja"
+    page: 165
+    ingredients: ["rendered fish fat", "Insta cure #1", "smoked paprika", "sweet paprika", "table salt", "ground nutmeg", "chilli flakes", "ground coriander", "ground cumin", "Vegeta", "ground sumac", "marlin trimmings"]
+  - title: "Tuna salami piccante"
+    page: 166
+    ingredients: ["tuna trimmings", "cold-smoked salmon", "table salt", "Insta cure #2", "onion powder", "garlic powder", "black peppercorns", "smoked paprika", "ground coriander", "ground fennel seeds", "ground chilli", "sodium erythorbate", "ox casings", "fennel seeds", "caster sugar", "rosemary", "fish fat"]
+  - title: "Tuna in the style of saucisson sec"
+    page: 169
+    ingredients: ["table salt", "black peppercorns", "fennel seeds", "caster sugar", "rosemary", "fish fat", "tuna trimmings", "Insta cure #2", "garlic", "ground nutmeg", "ground cumin", "sodium erythorbate", "ox casings", "cold-smoked tuna belly"]
+  - title: "Tuna bresaola"
+    page: 170
+    ingredients: ["yellowfin tuna loin", "fresh bay leaves", "cinnamon sticks", "black pepper", "ground fennel seeds", "table salt", "caster sugar", "Insta cure #2", "collagen sheeting"]
+  - title: "Fish bacon"
+    page: 174
+    ingredients: ["fish fillets", "caster sugar", "table salt", "ground star anise", "ground cumin", "Insta cure #1", "ground black pepper", "ground coriander", "ground fennel seeds"]
+  - title: "Sujuk"
+    page: 177
+    ingredients: ["tuna trimmings", "table salt", "Insta cure #1", "ground cumin", "ground allspice", "roasted red pepper purée", "garlic", "plastic casings"]
+  - title: "Basic sausage"
+    page: 178
+    ingredients: ["salmon trimmings", "white fish trimmings", "quinoa flakes", "table salt", "ground fennel seeds", "Insta cure #1", "hog casings", "fish fat", "caster sugar", "rosemary", "black peppercorns", "fennel seeds"]
+  - title: "Chipolatas"
+    page: 181
+    ingredients: ["table salt", "fish fat", "caster sugar", "rosemary", "black peppercorns", "fennel seeds", "salmon trimmings", "white fish trimmings", "quinoa flakes", "smoked paprika", "sweet paprika", "sumac", "Vegeta", "ground coriander", "ground cumin", "grated nutmeg", "Insta cure #1", "lamb casings"]
+  - title: "Cold-smoked tuna tail ham on the bone"
+    page: 182
+    ingredients: ["tuna tail", "collagen casings", "garlic", "rosemary", "fresh bay leaves", "fennel seeds", "black peppercorns", "table salt", "caster sugar", "Insta cure #1"]
+  - title: "Frankfurts"
+    page: 185
+    ingredients: ["scallops with roe", "prawns", "salmon belly", "rendered fish fat", "egg whites", "red collagen casings"]
+  - title: "Pate de Campagne"
+    page: 186
+    ingredients: ["white fish trimmings", "fish bacon", "fish livers", "brown onions", "garlic", "thyme", "rosemary", "fish fat", "table salt", "caster sugar", "fennel seeds", "ground white pepper", "Insta cure #1", "black peppercorns", "brandy"]
+  - title: "Brawn"
+    page: 189
+    ingredients: ["French shallots", "salted capers", "Dijon mustard", "lemon zest", "tarragon", "cooked fish head meat"]
+  - title: "Rillette"
+    page: 190
+    ingredients: ["ghee", "juniper berries", "garlic", "thyme sprigs", "rosemary sprigs", "fresh bay leaves", "French shallots", "brandy", "rendered fish fat", "fish ham"]
+  - title: "Liver pâté"
+    page: 193
+    ingredients: ["fish livers", "Insta cure #1", "butter", "French shallots", "Port wine", "thyme", "fresh bay leaves", "ghee"]
+  - title: "Tuna, pistachio and fig terrine"
+    page: 194
+    ingredients: ["tuna trimmings", "table salt", "caster sugar", "rosemary", "fennel seeds", "fish fat", "black peppercorns", "brown onions", "garlic", "pistachio nuts", "dried figs", "thyme", "ground white pepper", "Insta cure #1", "brandy", "tuna lateral swimming muscle"]
+  - title: "Tuna mincemeat pie"
+    page: 199
+    ingredients: ["tuna trimmings", "salted butter", "brown onions", "garlic", "thyme", "black peppercorns", "white peppercorns", "nutmeg", "ground star anise", "plain flour", "egg yolks", "fish gravy", "sour cream pastry dough"]
+  - title: "Individual fish pie"
+    page: 200
+    ingredients: ["white fish trimmings", "unsalted butter", "plain flour", "grated nutmeg", "corn cobs", "baby spinach", "sour cream pastry dough", "egg yolks", "brown fish stock"]
+  - title: "Empanadas"
+    page: 203
+    ingredients: ["butter", "plain flour", "grapeseed oil", "red capsicums", "brown onions", "dried currants", "fish stock", "dried oregano", "sweet paprika", "ground cumin", "chilli flakes", "swordfish"]
+  - title: "Hot-smoked fish pie"
+    page: 204
+    ingredients: ["white fish trimmings", "fish bones", "fresh bay leaves", "thyme", "black peppercorns", "whole cloves", "full-cream milk", "unsalted butter", "plain flour", "ground cayenne pepper", "grated nutmeg", "leeks", "brown onions", "green peas", "tarragon", "parsley", "puff pastry", "egg yolks", "white fish stock"]
+  - title: "Pâté en croûte [Rebecca Lara]"
+    page: 208
+    ingredients: ["white fish trimmings", "brown onions", "garlic", "thyme", "rosemary", "white pepper", "brandy", "toasted pine nuts", "Insta cure #1", "plain flour", "unsalted butter", "egg yolks", "Port wine", "thyme sprigs", "rosemary sprigs", "white peppercorns", "titanium-strength gelatine leaves", "fish bacon", "fish fat"]
+  - title: "Tuna Wellington"
+    page: 212
+    ingredients: ["tuna loin", "egg yolks", "portobello mushrooms", "ghee", "brown onions", "garlic", "thyme", "buckwheat flour", "eggs", "hoppy ale", "plain flour", "butter", "sour cream"]
+  - title: "Schnitzels"
+    page: 217
+    ingredients: ["fish fillets", "eggs", "Parmesan cheese", "dried oregano", "dried chilli flakes", "panko breadcrumbs", "plain flour", "smoked paprika", "ghee"]
+  - title: "Fish fingers"
+    page: 218
+    ingredients: ["ground fennel seeds", "plain flour", "eggs", "panko breadcrumbs", "fish heads", "fish collars"]
+  - title: "Fishcakes"
+    page: 221
+    ingredients: ["potatoes", "brown onions", "flat-leaf parsley", "dill", "chives", "lemon zest", "ground fennel seeds", "plain flour", "eggs", "panko breadcrumbs", "fish heads", "fish collars"]
+  - title: "Tuna patties"
+    page: 222
+    ingredients: ["tuna trimmings", "ground fennel seeds", "parsley"]
+  - title: "Roe to caviar"
+    page: 227
+    ingredients: ["fish roe"]
+  - title: "Cured roe"
+    page: 228
+    ingredients: ["roe sacs of your choice", "Insta cure #2"]
+  - title: "Maw crackling"
+    page: 231
+    ingredients: ["fish maws", "grapeseed oil"]
+  - title: "Smoked milt"
+    page: 233
+    ingredients: ["caster sugar", "table salt", "ground cumin", "Insta cure #1", "ground coriander", "ground fennel seeds", "milt sacs"]
+  - title: "Salt and vinegar fish"
+    page: 234
+    ingredients: ["blue mackerel fillets", "sea salt flakes", "Champagne vinegar"]
+  - title: "Olive oil-cooked tuna"
+    page: 237
+    ingredients: ["tuna", "lemon zest", "dried red chillies", "fresh bay leaves", "rosemary", "extra virgin olive oil"]
+  - title: "Garfish sticks"
+    page: 238
+    ingredients: ["garfish", "grapeseed oil", "skewers", "achiote paste", "unsalted butter", "sherry vinegar", "mushroom soy sauce"]
+  - title: "Tuna Bolognese (Ragu)"
+    page: 241
+    ingredients: ["tuna trimmings", "brown onions", "carrots", "celery", "garlic", "grapeseed oil", "white wine", "tomato paste", "tinned crushed tomatoes", "fresh bay leaves", "grated nutmeg"]
+  - title: "Fish consommé"
+    page: 242
+    ingredients: ["fish frames", "fish heads", "fish collars", "salted butter", "French shallots", "celery", "garlic", "thyme", "rosemary", "Champagne vinegar", "dashi", "dried shiitake mushrooms", "dried fish roe", "corn cobs", "mussels", "oysters", "dried kombu", "white fish", "carrots", "brown onions", "egg whites"]
+  - title: "Fish jus"
+    page: 245
+    ingredients: ["white fish bones and trimmings", "French shallots", "garlic", "white wine", "white wine vinegar", "fresh bay leaves", "juniper berries", "black peppercorns", "white peppercorns", "thyme", "dark soy sauce", "brown fish stock"]
+  - title: "Rendered fish fat"
+    page: 246
+    ingredients: ["fish fat"]
+  - title: "Fish gravy"
+    page: 249
+    ingredients: ["fish frames", "ghee", "brown onions", "garlic", "fresh bay leaves", "thyme", "fish skin", "white wine", "sherry vinegar", "Vegemite", "dark soy sauce", "brown fish stock"]
+  - title: "Cured fish fat"
+    page: 250
+    ingredients: ["black peppercorns", "fennel seeds", "table salt", "caster sugar", "rosemary", "fish fat"]
+  - title: "Fish-eye ice cream"
+    page: 253
+    ingredients: ["fish eyes", "full-cream milk", "tapioca flour", "natural yoghurt", "dextrose", "caster sugar", "overcooked white rice"]
+  - title: "Christmas pudding"
+    page: 254
+    ingredients: ["sultanas", "raisins", "prunes", "dried currants", "mixed peel", "brandy", "rum", "Guinness", "caster sugar", "table salt", "rosemary", "fennel seeds", "black peppercorns", "fish fat", "self-raising flour", "dark brown sugar", "fine breadcrumbs", "mixed spice", "grated nutmeg", "ground cinnamon", "orange zest", "lemons", "green apples", "toasted flaked almonds", "toasted walnuts", "treacle", "eggs"]
+  - title: "Fish-fat cocktails [Matt Whiley]"
+    page: 258
+
+
