@@ -1,0 +1,80 @@
+book: "Lucky Dragon Supper Club"
+author: "Stephanie Feher"
+cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/lucky-dragon-supper-club-asian-269126l2.jpg"
+wishlist: true
+recipes:
+  - title: "Oysters with coriander mignonette"
+    page: 21
+    ingredients: ["caster sugar", "Chardonnay vinegar", "French shallot", "coriander stems", "ground white pepper", "oysters", "chives", "limes"]
+  - title: "Prawn toast with chilli crisp mayo"
+    page: 22
+    ingredients: ["Kewpie mayonnaise", "crispy chilli oil", "raw prawns", "caster sugar", "ground white pepper", "salt", "sesame oil", "Shaoxing rice wine", "cornflour", "egg white", "brioche", "neutral oil"]
+  - title: "Scallop wonton tostadas"
+    page: 24
+    ingredients: ["avocado", "lime", "coriander stems", "Greek-style yoghurt", "fish sauce", "salt", "neutral oil", "wonton wrappers", "scallops", "French shallot", "coriander leaves", "mint leaves", "garlic cloves", "green bird's eye chillies", "long green chillies", "lemongrass stalks", "palm sugar", "lime juice"]
+  - title: "The ultimate stuffed peppers"
+    page: 26
+    ingredients: ["raw prawns", "garlic cloves", "carrot", "salt", "cornflour", "sesame oil", "caster sugar", "jalapeños", "plain flour", "potato starch", "sparkling water", "tempura batter mix", "neutral oil", "light soy sauce", "lemon juice", "ponzu sauce", "roasted seaweed"]
+  - title: "Whipped mortadella toast"
+    page: 29
+    ingredients: ["mortadella", "ricotta", "Parmigiano-Reggiano", "thickened cream", "freshly grated nutmeg", "pistachios", "ciabatta rolls", "olive oil", "chives"]
+  - title: "Classic Shanghai spring rolls"
+    page: 31
+    ingredients: ["pork fillets", "Shaoxing rice wine", "light soy sauce", "sesame oil", "salt", "ground white pepper", "cornflour", "neutral oil", "wombok", "carrot", "dried shiitake mushrooms", "potato starch", "spring roll wrappers", "Chinese black vinegar"]
+  - title: "Lucky Dragon anchovy toast"
+    page: 33
+    ingredients: ["corn cobs", "crème fraîche", "salt", "baguette", "canned anchovies", "chives", "lemon zest"]
+  - title: "Cheat's umami popcorn"
+    page: 34
+    ingredients: ["microwave popcorn", "unsalted butter", "instant miso soup", "furikake"]
+  - title: "Fried peanuts"
+    page: 35
+    ingredients: ["raw red-skinned peanuts", "neutral oil", "salt", "caster sugar", "roasted seaweed"]
+  - title: "Stunning pearl meatballs"
+    page: 36
+    ingredients: ["fatty pork", "salt", "neutral oil", "water chestnuts", "fresh ginger", "spring onions", "oyster sauce", "Shaoxing rice wine", "cornflour", "caster sugar", "sesame oil", "ground white pepper", "glutinous rice"]
+  - title: "Potato mochi, cheese and nori"
+    page: 39
+    ingredients: ["Japanese soy sauce", "caster sugar", "mirin", "cooking sake", "Yukon Gold potatoes", "potato starch", "salt", "full-cream milk", "mozzarella", "unsalted butter", "nori sheets"]
+  - title: "Prawn and pomelo salad with prawn crackers"
+    page: 40
+    ingredients: ["neutral oil", "prawn crackers", "pomelo", "cooked prawns", "Lebanese cucumber", "mint leaves", "Thai basil leaves", "coriander leaves", "caster sugar", "white vinegar", "fish sauce", "garlic cloves", "bird's eye chillies"]
+  - title: "Fish katsu baos"
+    page: 42
+    ingredients: ["Kewpie mayonnaise", "Greek-style yoghurt", "French shallot", "cornichons", "capers", "dill", "flatleaf parsley", "lemon juice", "caster sugar", "salt", "bao buns", "neutral oil", "plain flour", "eggs", "panko breadcrumbs", "white fish fillets", "flaky sea salt", "smoked cheddar", "dill sprigs"]
+  - title: "Steak tartare with hash browns"
+    page: 44
+    ingredients: ["beef fillet", "neutral oil", "cornichons", "anchovy fillet", "French shallot", "capers", "flatleaf parsley", "Dijon mustard", "Worcestershire sauce", "tomato sauce", "Tabasco", "egg yolk", "salt", "freshly ground black pepper", "frozen hash browns", "chives"]
+  - title: "Oolong highball"
+    page: 46
+    ingredients: ["oolong tea", "umeshu", "Japanese whisky", "soda water", "lemon"]
+  - title: "Yuzu negroni"
+    page: 46
+    ingredients: ["gin", "Campari", "sweet vermouth", "yuzu juice", "orange wedges"]
+  - title: "Grapefruit margarita"
+    page: 47
+    ingredients: ["lime", "salt", "tequila blanco", "grapefruit juice", "lime juice", "Triple Sec", "agave syrup"]
+  - title: "Grape soju and Yakult punch"
+    page: 47
+    ingredients: ["seedless grapes", "soju", "Yakult", "Sprite"]
+  - title: "Sashimi plate with house ponzu"
+    page: 53
+    ingredients: ["sashimi grade fish", "chives", "unseasoned rice vinegar", "hon mirin", "kombu", "bonito flakes", "koikuchi soy sauce", "orange juice", "lime juice"]
+  - title: "Fried bocconcini with 'strange flavour' sauce"
+    page: 54
+    ingredients: ["Chinese sesame paste", "crispy chilli oil", "light soy sauce", "Chinese black vinegar", "sesame oil", "caster sugar", "ground Sichuan pepper", "salt", "bocconcini", "plain flour", "egg", "panko breadcrumbs", "neutral oil", "flaky sea salt", "black sesame seeds", "coriander leaves"]
+  - title: "Wok-fried cherry tomatoes"
+    page: 56
+    ingredients: ["feta", "Greek-style yoghurt", "garlic clove", "salt", "neutral oil", "cherry tomatoes", "spring onion", "sugar", "Chinese black vinegar"]
+  - title: "White miso hummus with crispy peas"
+    page: 57
+    ingredients: ["frozen peas", "olive oil", "garlic powder", "salt", "dried chickpeas", "bicarbonate of soda", "tahini", "white miso paste", "lemon juice", "furikake", "crudités of your choice"]
+  - title: "Hot butter king prawns"
+    page: 59
+    ingredients: ["king prawns", "Shaoxing rice wine", "salt", "ground white pepper", "bicarbonate of soda", "egg white", "neutral oil", "potato starch", "unsalted butter", "spring onions", "dried chillies", "garlic cloves", "coriander leaves", "lemons"]
+  - title: "Roasted wings with caramelised fish sauce"
+    page: 60
+    ingredients: ["chicken wings", "cornflour", "baking powder", "chicken stock powder", "garlic powder", "Chinese five-spice powder", "ground white pepper", "freshly ground black pepper", "salt", "neutral oil", "soft brown sugar", "French shallots", "garlic cloves", "fish sauce", "lime juice", "spring onion"]
+  - title: "Cold silken tofu with sesame oyster sauce"
+    page: 62
+    ingredients: ["neutral oil", "garlic cloves", "red chilli", "spring onion", "oyster sauce", "caster sugar", "sesame oil", "silken tofu", "coriander sprigs", "fried shallots"]

@@ -94,18 +94,31 @@ def get_physical_cookbooks(content_path):
 
     yaml_files = glob.glob(search_pattern) + glob.glob(alt_pattern)
 
+    all_cookbooks = []
+    wishlist_cookbooks = []
+
     for filepath in yaml_files:
         with open(filepath, 'r', encoding='utf-8') as f:
             try:
                 book_data = yaml.safe_load(f)
-                if book_data:
-                    all_cookbooks.append(book_data)
+
+                if isinstance(book_data, dict):
+                    if book_data.get('wishlist', False):
+                        wishlist_cookbooks.append(book_data)
+                    else:
+                        all_cookbooks.append(book_data)
+                elif book_data is not None:
+                    # Print a helpful warning so you know exactly which file to fix!
+                    print(f"⚠️ Warning: Skipping {filepath} because it is formatted as a list instead of a dictionary.")
+
             except Exception as e:
                 print(f"Error parsing cookbook {filepath}: {e}")
 
+    # Sort both lists alphabetically
     all_cookbooks.sort(key=lambda x: x.get('book', '').lower())
+    wishlist_cookbooks.sort(key=lambda x: x.get('book', '').lower())
 
-    return all_cookbooks
+    return all_cookbooks, wishlist_cookbooks
 
 
 def generate_search_index(generators):
@@ -157,9 +170,9 @@ def generate_search_index(generators):
 
     # Find the cookbooks.yaml file in your content folder
     content_path = article_generator.settings.get('PATH', 'content')
-    cookbooks = get_physical_cookbooks(content_path)
+    cookbooks, wishlist_cookbooks = get_physical_cookbooks(content_path)
 
-    for book in cookbooks:
+    for book in cookbooks + wishlist_cookbooks:
             book_title = book.get('book', 'Unknown Book')
 
             for recipe in book.get('recipes', []):
@@ -180,6 +193,7 @@ def generate_search_index(generators):
                     'url': '#',
                     'type': 'Physical',
                     'book': book_title,
+                    'wishlist': book.get('wishlist', False),
                     'page': recipe.get('page', ''),
                     'ingredients': ingredients_list,
                 })
@@ -195,9 +209,10 @@ def expose_cookbooks_to_jinja(generator):
     content_path = generator.settings.get('PATH', 'content')
 
     # Use the same helper function here!
-    cookbooks_data = get_physical_cookbooks(content_path)
+    cookbooks_data, wishlist_data = get_physical_cookbooks(content_path)
 
     generator.context['COOKBOOKS'] = cookbooks_data
+    generator.context['WISHLIST_COOKBOOKS'] = wishlist_data
 
 
 def get_generators(pelican_object):

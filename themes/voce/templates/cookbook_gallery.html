@@ -336,6 +336,46 @@
     display: none;
 }
 
+
+/* --- WISHLIST SECTION --- */
+
+.gallery-divider {
+    border: 0;
+    border-top: 2px dashed #eaeaea;
+    margin: 50px 0 30px 0;
+}
+
+.wishlist-header {
+    margin-bottom: 20px;
+}
+
+.wishlist-header h2 {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.wishlist-header p {
+    color: #888;
+    font-size: 0.95rem;
+    margin-top: 0;
+}
+
+
+/* Subtly fade out the covers */
+.wishlist-card img {
+    filter: grayscale(60%) opacity(0.85);
+    transition: filter 0.3s ease;
+}
+
+/* Bring the color back if they hover over it, just for fun */
+.wishlist-card:hover img {
+    filter: grayscale(0%) opacity(1);
+}
+
+/* Prevent the card from floating up like the owned books do */
+.wishlist-card:hover {
+    transform: none;
+}
 </style>
 
 <div class="recipe-toolbar">
@@ -351,16 +391,41 @@
 
 <div class="cookbook-library">
     <div class="library-layout" id="library-layout">
-        <div class="recipe-gallery">
-            {% for book in COOKBOOKS %}
-            <div class="recipe-card" onclick="loadPane({{ loop.index0 }})">
-                <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');"></div>
-                <div class="card-details">
-                    <h3>{{ book.book }}</h3>
-                    <span class="author">By {{ book.author }}</span>
+        <div>
+            <div class="recipe-gallery">
+                {% for book in COOKBOOKS %}
+                <div class="recipe-card" onclick="loadPane({{ loop.index0 }})">
+                    <div class="cookbook-cover" style="background-image: url('{{ book.cover }}');"></div>
+                    <div class="card-details">
+                        <h3>{{ book.book }}</h3>
+                        <span class="author">By {{ book.author }}</span>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
+
+            {% if WISHLIST_COOKBOOKS %}
+            <hr class="gallery-divider">
+
+            <div class="wishlist-header">
+                <h2>Cookbook Wishlist</h2>
+                <p>Books that have caught my eye.</p>
+            </div>
+
+            <div class="recipe-gallery">
+            {% for book in WISHLIST_COOKBOOKS %}
+                <div class="recipe-card wishlist-card" onclick="loadPane({{ loop.index0 + COOKBOOKS|length }})">
+                    <div class="cover-wrapper">
+                        <img src="{{ book.cover if book.cover else '/images/default-cover.jpg' }}" alt="{{ book.book }}">
+                    </div>
+                    <div class="cookbook-info">
+                        <h3>{{ book.book }}</h3>
+                        <span class="cookbook-author">By {{ book.author }}</span>
+                    </div>
+                </div>
             {% endfor %}
+            </div>
+            {% endif %}
         </div>
 
         <aside class="cookbook-pane" id="index-pane"></aside>
@@ -379,7 +444,7 @@
                 .replace(/'/g, "&#39;");
         }
 
-    const libraryData = {{ COOKBOOKS | tojson | safe }};
+    const libraryData = {{ (COOKBOOKS + WISHLIST_COOKBOOKS) | tojson | safe }};
 
     // Global state to remember your preference across clicks
     let areTagsVisible = false;

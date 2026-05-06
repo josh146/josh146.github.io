@@ -157,7 +157,11 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(item => {
             let groupName = item.type || 'General';
             if (item.type === 'Physical') {
-                groupName = `📚 Cookbook: ${item.book}`;
+                if (item.wishlist) {
+                    groupName = `🛒 Wishlist: ${item.book}`;
+                } else {
+                    groupName = `📚 Cookbook: ${item.book}`;
+                }
             } else {
                 groupName = `📂 ${groupName}`;
             }
@@ -200,13 +204,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         <a href="${href}" class="search-compact-link">
                             <div style="display: flex; align-items: center; gap: 8px;">
                                 <button class="star-btn ${isStarred ? 'is-starred' : ''}"
-                                        onclick="window.toggleSearchStar('${safeBookJS}', '${safeRecipeJS}', '${item.page}', this, event)"
+                                        onclick="window.toggleSearchStar('${safeBookJS}', '${safeRecipeJS}', this, event)"
                                         title="${isStarred ? 'Unstar this recipe' : 'Star this recipe'}">
                                     ${isStarred ? '★' : '☆'}
                                 </button>
                                 <span class="compact-title">${item.title}</span>
                             </div>
-                            ${item.type === 'Physical' ? `<span class="compact-meta">pg. ${item.page}</span>` : ''}
+                            ${item.type === 'Physical' ? `<span class="compact-meta">${item.wishlist ? '🛒 ' : ''}pg. ${item.page}</span>` : ''}
                         </a>
                     </li>
                 `;

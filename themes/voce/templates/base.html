@@ -303,8 +303,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return {
                     id: `physical-${index}`,
                     title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
-                    section: `📚 Cookbook: ${item.book}`,
-                    icon: `📖&nbsp;`,
+                    section: item.wishlist ? `🛒 Wishlist: ${item.book}` : `📚 Cookbook: ${item.book}`,
+                    icon: item.wishlist ? `🛒 pg ${item.page} - ` : `📖 pg ${item.page} - `,
                     // Use the global state variable
                     keywords: searchIngredients ? ingString : "",
                     handler: () => { window.location.href = `/cookbooks?${params.toString()}`; }
