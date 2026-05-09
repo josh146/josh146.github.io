@@ -64,3 +64,5 @@ bowl. Allow to cool, and then transfer into 2 cup portions and freeze.
 It is normal for the paitan to separate while freezing. To bring it back together, simply bring it
 to a rapid boil. To help bring back the emulsion faster, you can also use an immersion blender.
 
+This recipe is inspired by the [Tori Paitan stock from Homemade Ramen](/cookbooks?recipe=Tori+paitan+stock&book=Homemade+Ramen&tags=hide), as well as the [Peking duck ramen from the Art of Escapism Cooking](/cookbooks?recipe=Peking+duck+ramen&book=The+Art+of+Escapism+Cooking&tags=hide). The former adds carrots, onions, leeks, and scallions at the end for a short simmer (as well as adding 120ml of cold kombu dashi), while the latter roasts the duck bones with a glaze, and uses daikon instead of potato.
+
