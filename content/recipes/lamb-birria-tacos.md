@@ -2,7 +2,7 @@ Title: Lamb birria tacos
 Date: 2026-05-09
 Category: Mexican
 Slug: lamb-birria-tacos
-Time: 3 hours
+Time: 4 hours
 Servings: 12-16 tacos
 Image: /images/recipes/lamb-birria-tacos.jpg
 
