@@ -6,6 +6,9 @@ Time: 3 hours
 Servings: 1kg croissant dough (approximately 10-12 croissants)
 Image: /images/recipes/croissant1.jpg
 Sticky: true
+Timeline: Mix Ingredients | 15m | Active; Roll dough | 15m | Active; Make beurrage | 15m | Active; Rest | 11h 15m | Wait; First fold | 30m | Active; Rest | 30m | Wait; Second fold | 30m | Active; Rest | 22h | Wait; Shape | 30m | Active; Proof | 2h | Wait; Bake | 30m | Wait
+Timeline_Start: 21:00
+
 
 A leavened [[Pâte feuilletée (puff pastry)]], this dough is ideal for making croissants, danishes, and other viennoiserie.
 
