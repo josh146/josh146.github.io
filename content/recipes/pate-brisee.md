@@ -7,6 +7,7 @@ Time: 30 minutes
 Servings: 900g, enough for two and a half 9 inch (23cm) tart pans.
 Sticky: true
 Image: /images/recipes/pate-sablee.jpg
+Tags: shortcrust
 
 A crumbly, delicate, savoury pastry --- the savoury version of [[Pâte sablée]]. Pâte brisée is also based on the concept of
 sablage --- coating the flour with a fat, butter --- which results in a very short texture.
@@ -25,6 +26,8 @@ To scale this recipe up and down, simply remember the ratio 10:5:2:2 --- 10 part
 * 2 egg yolks (optional)
 
 ## Steps
+
+### Shortcrust
 
 1. **Sablage:** Using an electric mixer fitted with the paddle attachment, combine the flour, salt, pepper and butter on low speed for 2-3 minutes, until the
 clumbs of butter are evenly dispersed and the mixture resembles bread crumbs.

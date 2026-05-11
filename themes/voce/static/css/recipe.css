@@ -160,7 +160,7 @@ ol.dynamic-sublist {
   content: counter(step-counter) ". ";
   position: absolute;
   left: 0;
-  padding-left: 10px;
+  padding-left: 4px;
 }
 
 .recipe-notes {
