@@ -33,3 +33,9 @@ Hidden: true
 
 * The used kombu and katsuobushi can be stored in the refrigerator for a week or in the freezer for
   up to a month.
+
+* If you have the time, soaking your kombu in cold water for one hour (or potentially overnight and
+  up to 24 hours) produces a strong, flavourful dashi without the need to bring the kombu up to a
+  simmer (which can add distracting flavour). Simply remove the kombu after soaking, bring the
+  water to a simmer and then remove from the heat and add the dried fish or shiitake mushrooms for
+  steeping.
