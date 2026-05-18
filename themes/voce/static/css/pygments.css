@@ -2,11 +2,11 @@
 .highlight  { background: #272822; color: #f8f8f2 }
 .highlight .c { color: #75715e }
 .highlight .err { color: #960050; background-color: #1e0010 }
-.highlight .k { color: #66d9ef } 
-.highlight .l { color: #ae81ff } 
-.highlight .n { color: #f8f8f2 } 
-.highlight .o { color: #f92672 } 
-.highlight .p { color: #f8f8f2 } 
+.highlight .k { color: #66d9ef }
+.highlight .l { color: #ae81ff }
+.highlight .n { color: #f8f8f2 }
+.highlight .o { color: #f92672 }
+.highlight .p { color: #f8f8f2 }
 .highlight .ch { color: #75715e }
 .highlight .cm { color: #75715e }
 .highlight .cp { color: #75715e }
@@ -138,3 +138,36 @@
 .highlight .vi { color: #c82829  !important}
 .highlight .il { color: #d27014  !important}
 */
+
+
+/* --- PYGMENTS MARKDOWN FIXES (Monokai-flavored) --- */
+
+/* Headings (e.g., # Title) */
+.highlight .gh {
+    color: #f92672 !important; /* Monokai Pink */
+    font-weight: bold !important;
+}
+
+/* Subheadings (e.g., ## Ingredients) */
+.highlight .gu {
+    color: #a6e22e !important; /* Monokai Green */
+    font-weight: bold !important;
+}
+
+/* Bold text (**text**) */
+.highlight .gs {
+    font-weight: bold !important;
+    color: #66d9ef !important; /* Monokai Blue */
+}
+
+/* Italic text (*text*) */
+.highlight .ge {
+    font-style: italic !important;
+    color: #fd971f !important; /* Monokai Orange */
+}
+
+/* Blockquotes (> quote) */
+.highlight .gt {
+    color: #e6db74 !important; /* Monokai Yellow */
+    font-style: italic !important;
+}

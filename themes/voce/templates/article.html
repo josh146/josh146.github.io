@@ -65,4 +65,32 @@
 {% if FUZZY_DATES %}
 <script type="text/javascript">window.addEventListener("load", lw_timeago);</script>
 {% endif %}
+
+<script>
+    // --- CUSTOM HIGHLIGHTING FIXES FOR CODE BLOCKS ---
+    document.addEventListener("DOMContentLoaded", function() {
+        const codeBlocks = document.querySelectorAll('.highlight pre');
+
+        codeBlocks.forEach(block => {
+            let html = block.innerHTML;
+
+            // 1. Highlight Pelican / YAML Frontmatter (e.g., Title: My Recipe)
+            // This regex looks for the start of a line (^), a word, a colon, and the rest of the line
+            const frontmatterRegex = /^((?:<[^>]+>)*\s*)([A-Za-z0-9_-]+):([ \t]+)(.*)$/gm;
+            html = html.replace(frontmatterRegex,
+                '$1<span class="nt">$2:</span>$3<span class="s">$4</span>'
+            );
+
+            // 2. Highlight [[Components]]
+            const wikiRegex = /\[\[(.*?)\]\]/g;
+            html = html.replace(wikiRegex,
+                '<span class="custom-wikilink"><span class="brackets">[[</span>$1<span class="brackets">]]</span></span>'
+            );
+
+            // Apply the new HTML back to the block
+            block.innerHTML = html;
+        });
+    });
+</script>
+
 {% endblock %}
