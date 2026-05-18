@@ -74,7 +74,7 @@
 /* Ingredients Section */
 .recipe-ingredients {
     padding-right: 20px;
-    border-right: 2px solid #e9ecef;
+    /*border-right: 2px solid #e9ecef;*/
     height: auto;
 }
 
