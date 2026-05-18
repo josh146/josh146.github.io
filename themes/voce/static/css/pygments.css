@@ -1,4 +1,4 @@
-/*.highlight .hll { background-color: #49483e }
+.highlight .hll { background-color: #49483e }
 .highlight  { background: #272822; color: #f8f8f2 }
 .highlight .c { color: #75715e }
 .highlight .err { color: #960050; background-color: #1e0010 }
@@ -70,7 +70,7 @@
 .highlight .vi { color: #f8f8f2 }
 .highlight .vm { color: #f8f8f2 }
 .highlight .il { color: #ae81ff }
-*/
+/*
 
 .highlight .hll { background-color: #d6d6d6  !important}
 .highlight .c { color: #8e908c  !important}
@@ -137,3 +137,4 @@
 .highlight .vg { color: #c82829  !important}
 .highlight .vi { color: #c82829  !important}
 .highlight .il { color: #d27014  !important}
+*/

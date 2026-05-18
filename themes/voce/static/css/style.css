@@ -947,7 +947,7 @@ letter-spacing: 1px;
   font-family: "DM Mono", monospace;
 }
 .entry-content pre {
-  background-color: #f7f7f7;
+  background-color: #272822;
   font-size: 14px;
   font-family: "DM Mono", monospace;
   line-height: 1.5em;
@@ -956,6 +956,8 @@ letter-spacing: 1px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px!important;
+  color: #f8f8f2;
+  border-radius: 8px;
 }
 .entry-content div.highlight pre {
   padding-left: 10px;
@@ -1403,6 +1405,59 @@ p img{
     background: #d4edda;
     border-color: #c3e6cb;
     color: #155724;
+}
+
+/* --- CARBON-STYLE MAC OS CODE BLOCKS --- */
+
+.highlight {
+    position: relative;
+    background: #1e1e1e; /* Classic dark editor background */
+    border-radius: 8px;
+    /* Soft, elevated drop shadow to make it float off the page */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    margin: 2em 0;
+    /* 45px top padding creates the "title bar" area for our buttons */
+    padding: 45px 0 0 0;
+    overflow: hidden; /* Keeps the rounded corners sharp */
+}
+
+/* The macOS Window Buttons */
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff5f56; /* macOS Red */
+
+    /* We use box-shadow to stamp two identical dots to the right! */
+    box-shadow:
+        20px 0 0 #ffbd2e, /* macOS Yellow (20px to the right) */
+        40px 0 0 #27c93f; /* macOS Green (40px to the right) */
+}
+
+/* The actual text container */
+.highlight pre {
+    background: transparent !important; /* Strip default Pygments background */
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    overflow-x: auto; /* Allows horizontal scrolling for long code lines */
+
+    /* A good monospace font stack is crucial for the Carbon look */
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #f8f8f2;
+}
+
+/* Reset any inline code styling inside the pre block */
+.highlight code {
+    background: transparent !important;
+    padding: 0;
+    color: inherit;
+    border: none;
 }
 
 ninja-keys {

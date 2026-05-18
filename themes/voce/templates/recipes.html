@@ -23,7 +23,7 @@
     <div id="gallery-buttons">
         <!-- <label for="vibe-select" class="vibe-label">Sort by</label> -->
         <div class="sort-buttons">
-          <button id="sort-date" class="vibe-btn" onclick="sortCards('date', true)">Date</button><button id="sort-title" class="vibe-btn" onclick="sortCards('title', false)">Title</button><button id="sort-category" class="vibe-btn active" onclick="sortCards('category')">Category</button>
+          <button id="sort-date" class="vibe-btn active" onclick="sortCards('date', true)">Date</button><button id="sort-title" class="vibe-btn" onclick="sortCards('title', false)">Title</button><button id="sort-category" class="vibe-btn" onclick="sortCards('category')">Category</button>
         </div>
 
         <!-- <label for="vibe-select" class="vibe-label">View</label> -->
@@ -205,6 +205,7 @@ function setSelectedOptionFromUrl() {
     toggleView(viewValue);
 }
 setSelectedOptionFromUrl();
+sortCards("date", true);
 
 document.addEventListener("DOMContentLoaded", setSelectedOptionFromUrl);
 

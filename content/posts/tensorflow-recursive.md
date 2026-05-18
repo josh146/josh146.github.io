@@ -1,4 +1,5 @@
 Title: Recursive custom gradients in TensorFlow
+Slug: recursive-custom-gradients-in-tensorflow
 Date: 2020-12-31 16:00
 Tags: tensorflow, gradients
 Category: autodifferentiation
@@ -202,7 +203,7 @@ print("Hessian:\n", grad2)
 ```
 
 <p style="font-italic">Out:</p>
-<pre class="ml-5" style="margin-top:-80px; color: grey;">
+<pre class="ml-5" style="margin-top:-80px;">
 Result: tf.Tensor([0.39061818 0.21824193 0.6536093 ], shape=(3,), dtype=float32)
 Gradient: tf.Tensor([3.0731294 1.0189977 2.1603184], shape=(3,), dtype=float32)
 Hessian:
