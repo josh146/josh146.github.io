@@ -1,7 +1,7 @@
 Title: Duck paitan
 Date: 2026-05-09
 Category: Stocks, soups, and sauces
-Slug: paitan
+Slug: duck-paitan
 Time: 4 hours
 Servings: About 2L of stock
 Image: /images/recipes/duck-paitan.jpg

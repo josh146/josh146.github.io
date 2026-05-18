@@ -1,10 +1,9 @@
-Title: Soy sauce eggs
+Title: Soy sauce eggs (ajitama)
 Date: 2025-12-30
 Category: Japanese
 Slug: soy-sauce-eggs
 Time: 1 day
 Servings: 4 eggs
-Hidden: true
 
 ## Ingredients
 

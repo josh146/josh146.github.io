@@ -29,7 +29,7 @@ chicken donburi.
 * 80-100g sugar
 * 2 tsp minced ginger
 
-[[Component: soy sauce eggs]]
+[[Component: soy sauce eggs (ajitama)]]
 
 [[Component: crispy fried shallots]]
 
@@ -41,7 +41,7 @@ chicken donburi.
 
 ## Instructions
 
-[[Component: soy sauce eggs]]
+[[Component: soy sauce eggs (ajitama)]]
 
 [[Component: crispy fried shallots]]
 
