@@ -1,5 +1,5 @@
 Title: Duck paitan ramen
-Date: 2026-05-09
+Date: 2026-05-17
 Category: Japanese
 Slug: duck-paitan-ramen
 Time: 3 hours
