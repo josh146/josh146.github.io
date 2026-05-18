@@ -68,7 +68,7 @@
     <div class="recipe-gallery">
     {% for recipe in recipes %}
         {% if not recipe.hidden %}
-        <div class="recipe-card" data-category="{{ recipe.category }}" data-tags="{{ recipe.tags | join(' ') }}" data-date="{{ recipe.date }}" data-title="{{ recipe.title }}">
+        <div class="recipe-card vintage-recipe-card" data-category="{{ recipe.category }}" data-tags="{{ recipe.tags | join(' ') }}" data-date="{{ recipe.date }}" data-title="{{ recipe.title }}">
             <a href="{{ recipe.url }}">
                 <div class="card-image-wrapper">
                     {% if recipe.image %}

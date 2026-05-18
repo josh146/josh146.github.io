@@ -269,3 +269,80 @@ h1 {
     font-size: 0.85em;
     color: #555;
 }
+
+/* --- ROLODEX GALLERY CARDS --- */
+
+.vintage-recipe-card {
+    position: relative;
+    overflow: visible !important;
+    font-family: 'Syne Mono', monospace;
+    padding: 20px 20px 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fffaf0;
+    color: #352a22;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(180, 120, 50, 0.15);
+    background-image: repeating-linear-gradient( transparent, transparent 31px, rgba(100, 150, 200, 0.15) 31px, rgba(100, 150, 200, 0.15) 32px );
+    background-position: 0 45px;
+    mask-image:
+        radial-gradient(circle at 50% 100%, transparent 12px, black 13px),
+        radial-gradient(circle at 50% 100%, transparent 12px, black 13px);
+    mask-size: 50% 200%;
+    mask-position: left bottom, right bottom;
+    mask-repeat: no-repeat;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.12));
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.vintage-recipe-card:hover {
+    transform: translateY(-5px);
+    filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.15));
+}
+
+.vintage-recipe-card .card-image-wrapper img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background-color: #fdfaf5;
+    border: 6px solid #fdfaf5;
+    border-bottom-width: 18px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.15);
+    transform: rotate(-2deg);
+    transition: transform 0.2s ease;
+}
+
+.vintage-recipe-card .card-image-wrapper img {
+    transform: rotate(1deg); /* Slight positive offset as base */
+    transition: transform 0.2s ease;
+}
+
+.vintage-recipe-card:nth-child(2n+1) .card-image-wrapper img {
+    transform: rotate(-3deg);
+}
+
+.vintage-recipe-card:nth-child(3n) .card-image-wrapper img {
+    transform: rotate(4deg);
+}
+
+.vintage-recipe-card:nth-child(5n) .card-image-wrapper img {
+    transform: rotate(-5deg);
+}
+
+.vintage-recipe-card:nth-child(7n) .card-image-wrapper img {
+    transform: rotate(2.5deg);
+}
+
+.vintage-recipe-card:hover .card-image-wrapper img {
+    transform: rotate(0.5deg) scale(1.02) !important;
+}
+
+.vintage-recipe-card:hover .card-image-wrapper img {
+    transform: rotate(1deg) scale(1.02);
+}
+
+
+.card-image-wrapper {
+    background: unset;
+}
+

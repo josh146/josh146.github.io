@@ -168,7 +168,7 @@
     </div>
     {% endif %}
 
-    <div class="recipe-grid">
+    <div class="recipe-grid vintage-index-card">
         <section class="recipe-ingredients">
             <h2>INGREDIENTS</h2>
             {{ page.ingredients_html }}
@@ -203,7 +203,7 @@
         <div id="recipe-gallery" class="recipe-gallery">
         {% for recipe in page.related %}
             {% if not recipe.hidden %}
-            <div class="recipe-card">
+            <div class="recipe-card vintage-recipe-card">
                 <a href="/{{ recipe.url }}">
                     <div class="card-image-wrapper">
                         {% if recipe.image %}

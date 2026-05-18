@@ -11,8 +11,7 @@ While waiting for my PhD examination to be complete, I was essentially doing thr
 at my university, going slightly crazy, and hyperfixated on making the perfect xiao long bao at
 home.
 
-This is the recipe I ended up with; it is a hybrid adaptation of the [Bon Appetit recipe]
-(https://youtu.be/iMYRjp4h0y0) and the [Chef Steps recipe](https://youtu.be/bAaAf_T-ygY), modified
+This is the recipe I ended up with; it is a hybrid adaptation of the [Bon Appetit recipe](https://youtu.be/iMYRjp4h0y0) and the [Chef Steps recipe](https://youtu.be/bAaAf_T-ygY), modified
 to use chicken rather than pork.
 
 I've included two variations on the gelatinous soup stock; a traditional version and an easier
