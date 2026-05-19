@@ -281,7 +281,7 @@ h1 {
     cursor: pointer;
     /*background-color: #fffaf0;*/
     color: #352a22;
-    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(180, 120, 50, 0.15);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(126, 91, 49, 0.15);
     background-image: repeating-linear-gradient( transparent, transparent 31px, rgba(100, 150, 200, 0.15) 31px, rgba(100, 150, 200, 0.15) 32px );
     background-position: 0 45px;
     mask-image:
@@ -297,7 +297,7 @@ h1 {
 .vintage-recipe-card:hover {
     transform: translateY(-5px);
     filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.15));
-    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(180, 120, 50, 0.15);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(126, 91, 49, 0.15);
 }
 
 .vintage-recipe-card .card-image-wrapper img {
@@ -305,8 +305,8 @@ h1 {
     height: 180px;
     object-fit: cover;
     background-color: #fdfaf5;
-    border: 6px solid #fdfaf5;
-    border-bottom-width: 18px;
+    border: 4px solid #fdfaf5;
+    border-bottom-width: 10px;
     border-radius: 2px;
     box-shadow: 1px 2px 5px rgba(0,0,0,0.15);
     transform: rotate(-2deg);
