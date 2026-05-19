@@ -2,4 +2,371 @@ book: "Konbini"
 author: "Brendan Liew and Caryn Ng"
 cover: "https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/konbini-cult-recipes-stories-and-259200l1.jpg"
 wishlist: true
-recipes: []
+recipes:
+  - title: "Onigiri / omusubi"
+    page: 20
+    ingredients: ["sushi rice", "nori sheets", "filling of your choice"]
+  - title: "Shio salmon"
+    page: 24
+    ingredients: ["salt", "sake", "salmon fillet"]
+  - title: "Shio salmon onigiri filling"
+    page: 25
+    ingredients: ["salt", "sake", "salmon fillet"]
+  - title: "Okaka (bonito flakes) onigiri filling"
+    page: 25
+    ingredients: ["katsuobushi", "mentsuyu", "mirin", "sugar", "soy sauce", "kombu"]
+  - title: "Okaka (bonito flakes)"
+    page: 25
+    ingredients: ["katsuobushi", "mentsuyu", "mirin", "sugar", "soy sauce", "kombu"]
+  - title: "Torimeshi onigiri filling"
+    page: 26
+    ingredients: ["boneless chicken thighs", "salt", "neutral-flavoured oil", "soy sauce", "mirin", "sake", "sugar", "potato starch"]
+  - title: "Tuna mayo onigiri filling"
+    page: 26
+    ingredients: ["canned tuna in brine", "mayonnaise", "soy sauce"]
+  - title: "Torimeshi"
+    page: 26
+    ingredients: ["boneless chicken thighs", "salt", "neutral-flavoured oil", "soy sauce", "mirin", "sake", "sugar", "potato starch"]
+  - title: "Tuna mayo"
+    page: 26
+    ingredients: ["canned tuna in brine", "mayonnaise", "soy sauce"]
+  - title: "Umeboshi (pickled plum)"
+    page: 28
+    ingredients: ["umeboshi plums"]
+  - title: "Ikura/marinated salmon roe"
+    page: 28
+    ingredients: ["sake", "mirin", "usukuchi soy sauce", "salmon roe"]
+  - title: "Awase miso"
+    page: 29
+    ingredients: ["white miso", "hatcho miso", "saikyo miso", "mirin"]
+  - title: "Gochujang chicken"
+    page: 29
+    ingredients: ["roasted sesame seeds", "gochujang", "ketchup", "oyster sauce", "shiso leaves", "boneless chicken thighs", "neutral-flavoured oil", "potato starch", "flour", "lemons", "mayonnaise", "soy sauce", "sake", "fresh ginger", "sugar", "salt", "roasted sesame oil"]
+  - title: "Makizushi"
+    page: 34
+    ingredients: ["rice vinegar", "sugar", "salt", "cooked sushi rice", "nori sheets"]
+  - title: "Negitoro"
+    page: 38
+    ingredients: ["mirin", "soy sauce", "sashimi grade tuna", "mayonnaise", "instant dashi powder", "spring onion"]
+  - title: "Kanimayo"
+    page: 38
+    ingredients: ["cooked crabmeat", "mayonnaise", "roasted sesame seeds"]
+  - title: "Tamago"
+    page: 39
+    ingredients: ["eggs", "mirin", "soy sauce", "salt", "potato starch", "neutral-flavoured oil", "filtered water", "kombu", "katsuobushi"]
+  - title: "Chu-kaman"
+    page: 46
+    ingredients: ["dried yeast", "sugar", "flour", "milk", "pork lard"]
+  - title: "Chūkaman"
+    page: 46
+    ingredients: ["dried yeast", "sugar", "flour", "milk", "pork lard"]
+  - title: "Nikuman"
+    page: 50
+    ingredients: ["dried shiitake mushrooms", "onion", "fresh ginger", "garlic clove", "minced pork", "lard", "soy sauce", "oyster sauce", "Shaoxing rice wine", "sesame oil", "salt", "ground white pepper", "dried yeast", "sugar", "flour", "milk"]
+  - title: "Pizzaman"
+    page: 52
+    ingredients: ["olive oil", "onion", "bacon", "garlic clove", "pizza sauce", "melting cheese", "dried yeast", "sugar", "flour", "milk", "pork lard"]
+  - title: "Gomaanman"
+    page: 54
+    ingredients: ["sweet red bean paste", "black sesame paste", "dried yeast", "sugar", "flour", "milk", "pork lard"]
+  - title: "Potato & beef croquettes"
+    page: 61
+    ingredients: ["potatoes", "salt", "neutral-flavoured oil", "minced beef", "onion", "sugar", "sake", "soy sauce", "flour", "egg", "panko breadcrumbs", "shredded cabbage", "mayonnaise"]
+  - title: "Crab croquettes"
+    page: 62
+    ingredients: ["butter", "flour", "milk", "olive oil", "onion", "white wine", "cooked crabmeat", "cream", "egg", "parsley", "neutral-flavoured oil", "panko breadcrumbs"]
+  - title: "Prawn croquettes"
+    page: 64
+    ingredients: ["sake", "salt", "raw prawns", "mayonnaise", "potato starch", "white pepper", "leek", "neutral-flavoured oil", "flour", "panko breadcrumbs", "eggs", "milk"]
+  - title: "Ham & cheese croquettes"
+    page: 66
+    ingredients: ["potatoes", "salt", "flour", "egg", "curry powder", "ham", "cheese", "neutral-flavoured oil", "panko breadcrumbs", "shredded cabbage", "mayonnaise"]
+  - title: "Fried chicken"
+    page: 70
+    ingredients: ["boneless chicken thighs", "neutral-flavoured oil", "fresh ginger", "garlic clove", "soy sauce", "sake", "salt", "chicken stock powder", "ground allspice", "ground nutmeg", "eggs", "flour", "ground black pepper", "potato starch"]
+  - title: Fried chicken (フライドチキン)
+    page: 70
+    ingredients: ["boneless chicken thighs", "neutral-flavoured oil", "fresh ginger", "garlic", "soy sauce", "sake", "salt", "chicken stock powder", "ground allspice", "ground nutmeg", "eggs", "flour", "ground black pepper", "potato starch"]
+  - title: "Spicy fried chicken"
+    page: 72
+    ingredients: ["boneless chicken thighs", "neutral-flavoured oil", "fresh ginger", "garlic clove", "soy sauce", "sake", "salt", "chicken stock powder", "ground allspice", "ground nutmeg", "ichimi togarashi", "eggs", "flour", "ground black pepper", "tobanjan", "potato starch"]
+  - title: "Tartar sauce"
+    page: 72
+    ingredients: ["onion", "egg", "cornichons", "mayonnaise", "lemon juice", "rice vinegar", "salt", "pepper"]
+  - title: Spicy fried chicken (スパイシーフライドチキン)
+    page: 72
+    ingredients: ["boneless chicken thighs", "neutral-flavoured oil", "fresh ginger", "garlic", "soy sauce", "sake", "salt", "chicken stock powder", "ground allspice", "ground nutmeg", "ichimi togarashi", "eggs", "flour", "ground black pepper", "tobanjan", "potato starch"]
+  - title: "Cheese fried chicken (チーズ)"
+    page: 72
+    ingredients: ["Parmesan powder", "boneless chicken thighs", "neutral-flavoured oil", "fresh ginger", "garlic clove", "soy sauce", "sake", "salt", "chicken stock powder", "ground allspice", "ground nutmeg", "eggs", "flour", "ground black pepper", "potato starch"]
+  - title: "Tartar sauce (タルタルソース)"
+    page: 72
+    ingredients: ["onion", "egg", "cornichons", "mayonnaise", "lemon juice", "rice vinegar", "salt", "pepper"]
+  - title: "Fried chicken bites"
+    page: 74
+    ingredients: ["tofu", "minced chicken", "potato starch", "chicken stock powder", "garlic", "salt", "white pepper", "egg yolk", "neutral-flavoured oil", "cake flour", "baking powder", "egg white", "sugar"]
+  - title: "Fried chicken bites (チキンナゲット)"
+    page: 74
+    ingredients: ["tofu", "minced chicken", "potato starch", "chicken stock powder", "garlic", "salt", "white pepper", "egg yolk", "neutral-flavoured oil", "cake flour", "baking powder", "egg white", "sugar"]
+  - title: "Karaage (唐揚げ)"
+    page: 76
+    ingredients: ["boneless chicken thighs", "neutral-flavoured oil", "potato starch", "flour", "lemons", "mayonnaise", "soy sauce", "sake", "fresh ginger", "sugar", "salt", "roasted sesame oil"]
+  - title: "Roast chicken (ローストチキン)"
+    page: 78
+    ingredients: ["chicken leg quarters", "sake", "mirin", "soy sauce", "sugar", "black pepper", "garlic", "fresh ginger"]
+  - title: "Honey yuzu roast chicken"
+    page: 78
+    ingredients: ["chicken leg quarters", "sake", "mirin", "soy sauce", "sugar", "honey", "yuzu juice", "fresh ginger"]
+  - title: "Rice buns with shigureni (ライスバーガー)"
+    page: 80
+    ingredients: ["cooked sushi rice", "potato starch", "neutral oil", "onions", "sake", "mirin", "sugar", "tamari", "soy sauce", "fresh ginger", "beef", "mayonnaise", "lettuce", "American cheese", "tomatoes", "pickled ginger"]
+  - title: "Roll pizza (ロールピザ)"
+    page: 82
+    ingredients: ["dried yeast", "sugar", "salt", "olive oil", "tipo 00 flour"]
+  - title: "Black vinegar braised pork belly (黒酢豚角煮)"
+    page: 86
+    ingredients: ["boneless pork belly", "potato starch", "neutral oil", "sake", "mirin", "apple cider vinegar", "dashi", "spring onions", "garlic", "sugar", "soy sauce", "black vinegar", "oyster sauce", "eggs", "fresh ginger"]
+  - title: "Ebi chilli (海老チリ)"
+    page: 88
+    ingredients: ["neutral-flavoured oil", "garlic", "fresh ginger", "tobanjan", "spring onions", "sugar", "salt", "chicken stock powder", "ketchup", "potato starch", "rice vinegar", "prawns"]
+  - title: "Ume shiso chicken (梅しそささみ)"
+    page: 90
+    ingredients: ["chicken breasts", "potato starch", "red shiso leaves", "ume paste", "mentaiko", "cheddar", "neutral-flavoured oil"]
+  - title: "Sanma kabayaki (さんまの蒲焼)"
+    page: 92
+    ingredients: ["sanma", "sake", "mirin", "soy sauce", "sugar", "daikon"]
+  - title: "Sho-ga-yaki (生姜焼き)"
+    page: 94
+    ingredients: ["pork loin", "neutral-flavoured oil", "onion", "flour", "cabbage", "cooked rice", "fresh ginger", "soy sauce", "sugar", "sake", "roasted sesame oil", "pepper"]
+  - title: "Shōga-yaki"
+    page: 94
+    ingredients: ["pork loin", "neutral-flavoured oil", "onion", "flour", "shredded cabbage", "cooked rice", "fresh ginger", "soy sauce", "sugar", "sake", "roasted sesame oil", "pepper"]
+  - title: "Hokkaido white stew (北海道クリームシチュー)"
+    page: 98
+    ingredients: ["boneless chicken thighs", "flour", "butter", "onion", "celery", "carrot", "potato", "white wine", "fish stock", "thyme sprigs", "cream", "scallops", "white pepper", "lemon"]
+  - title: "Hokkaido white stew"
+    page: 98
+    ingredients: ["boneless chicken thighs", "flour", "butter", "onion", "celery stalk", "carrot", "potato", "white wine", "fish stock", "thyme sprigs", "cream", "scallops", "white pepper", "lemon"]
+  - title: "Hamburg steaks"
+    page: 100
+    ingredients: ["butter", "onion", "egg", "milk", "panko breadcrumbs", "minced beef", "ketchup", "ground nutmeg", "salt", "pepper", "neutral-flavoured oil", "red wine", "demi-glace", "oyster sauce", "cream"]
+  - title: "Menchi katsu"
+    page: 100
+    ingredients: ["butter", "onion", "egg", "milk", "panko breadcrumbs", "minced beef", "ketchup", "ground nutmeg", "salt", "pepper", "flour", "neutral-flavoured oil", "lemons"]
+  - title: "Meatballs"
+    page: 102
+    ingredients: ["neutral-flavoured oil", "minced beef", "onion", "panko breadcrumbs", "milk", "mayonnaise", "chicken stock powder", "salt", "pepper", "garlic clove", "sugar", "ketchup", "soy sauce", "rice vinegar"]
+  - title: "Hashed beef"
+    page: 104
+    ingredients: ["beef", "flour", "olive oil", "onion", "carrot", "shiitake mushrooms", "garlic cloves", "tomato paste", "red wine", "canned crushed tomatoes", "beef demiglace", "beef stock", "ketchup", "oyster sauce", "Worcestershire sauce", "bay leaf", "peas", "butter", "cooked rice", "cream", "parsley"]
+  - title: "Kalbi-don"
+    page: 108
+    ingredients: ["beef short-ribs", "neutral-flavoured oil", "eggs", "cooked rice", "lettuce leaves", "kimchi", "roasted sesame seeds", "spring onions", "Asian pear", "fresh ginger", "garlic cloves", "soy sauce", "sugar", "sake", "roasted sesame oil", "tobanjan"]
+  - title: "Kashmir curry"
+    page: 111
+    ingredients: ["cashews", "raisins", "ghee", "onions", "carrot", "fresh ginger", "garlic cloves", "canned crushed tomatoes", "chicken stock", "soy sauce", "cardamom pods", "star anise", "bay leaf", "shallot", "makrut lime leaves", "boneless chicken thighs", "cayenne pepper", "garam masala", "ground turmeric", "curry powder", "caraway seeds", "fennel seeds", "fenugreek seeds", "ground cloves", "ground coriander", "ground cumin", "ground cinnamon", "ground nutmeg"]
+  - title: "Keema curry"
+    page: 112
+    ingredients: ["ghee", "minced beef", "onion", "carrot", "tomato", "green capsicum", "garlic clove", "fresh ginger", "tomato paste", "chicken stock", "bay leaf", "Japanese curry powder", "cumin seeds", "ground coriander", "ground cumin", "ground cardamom", "ground cinnamon", "aka miso", "sesame oil", "honey", "soy sauce", "eggs"]
+  - title: "Curry buns (Kāre pan)"
+    page: 114
+    ingredients: ["panko breadcrumbs", "neutral oil", "curry of your choice", "soft-boiled eggs", "instant yeast", "all-purpose flour", "butter"]
+  - title: "Pork vindaloo"
+    page: 116
+    ingredients: ["pork Scotch fillet", "ghee", "bay leaf", "cinnamon stick", "cardamom pods", "dried red chillies", "onions", "tomatoes", "tomato paste", "chicken stock", "soy sauce", "lotus root", "green chilli", "garlic", "fresh ginger", "coconut cream", "rice vinegar", "ground cumin", "garam masala", "salt", "ground coriander", "paprika", "cayenne pepper", "ground turmeric", "black pepper"]
+  - title: "Soy milk & pork nabe"
+    page: 118
+    ingredients: ["lettuce leaves", "kombu", "pork belly", "thin vegetables of your choice", "sake", "soy milk", "soy sauce", "sesame oil", "sugar", "garlic", "fresh ginger", "roasted sesame seeds", "spring onions", "cooked rice"]
+  - title: "Goya chanpuru"
+    page: 121
+    ingredients: ["firm tofu", "bitter melons", "salt", "sugar", "sesame oil", "neutral-flavoured oil", "pork loin", "eggs", "soy sauce", "katsuobushi"]
+  - title: "Potato salad"
+    page: 123
+    ingredients: ["potatoes", "ham", "cooked corn kernels", "mayonnaise", "neutral-flavoured oil", "Dijon mustard", "rice vinegar", "sesame paste", "soy sauce", "Japanese cucumbers", "salt"]
+  - title: "Blanched greens with miso sesame dressing"
+    page: 124
+    ingredients: ["leafy greens of your choice", "mirin", "sake", "shiro miso", "sugar", "sesame paste", "rice vinegar", "roasted sesame seeds", "filtered water", "kombu", "katsuobushi"]
+  - title: "Kiriboshi daikon"
+    page: 124
+    ingredients: ["kiriboshi daikon", "neutral-flavoured oil", "carrot", "fried tofu sheets", "soy sauce", "sugar", "mirin", "dashi powder"]
+  - title: "Onion dressing"
+    page: 126
+    ingredients: ["onions", "garlic", "katsuobushi", "soy sauce", "olive oil", "mirin", "sugar", "rice vinegar", "lemons"]
+  - title: "Sweet vinegar pickles"
+    page: 126
+    ingredients: ["carrots", "daikon radishes", "red onions", "sugar", "rice vinegar"]
+  - title: "Chicken over rice"
+    page: 134
+    ingredients: ["boneless chicken thighs", "olive oil", "lettuce", "tomatoes", "Greek-style yoghurt", "garlic cloves", "lemon juice", "oregano", "ground coriander", "paprika", "ground cumin", "mayonnaise", "parsley", "rice vinegar", "sugar", "salt", "pepper", "basmati rice", "chicken stock", "butter", "ground turmeric"]
+  - title: "Hiyashi chu-ka"
+    page: 136
+    ingredients: ["tomato", "ramen noodles", "ham", "Japanese cucumbers", "carrot", "rice vinegar", "soy sauce", "soy milk", "sugar", "sesame paste", "roasted sesame seeds", "mustard", "eggs", "sake", "salt", "neutral-flavoured oil"]
+  - title: "Ketchup rice"
+    page: 138
+    ingredients: ["olive oil", "onion", "capsicum", "button mushrooms", "ham", "cooked rice", "ketchup", "soy sauce"]
+  - title: "Spaghetti napolitan"
+    page: 138
+    ingredients: ["olive oil", "onion", "capsicum", "button mushrooms", "ham", "spaghetti", "ketchup", "soy sauce"]
+  - title: "Lemon cream pasta"
+    page: 140
+    ingredients: ["asparagus spears", "Broccolini", "peas", "lemon", "spaghetti", "butter", "garlic clove", "white wine", "cream", "milk", "thyme"]
+  - title: "Mentai okonomiyaki"
+    page: 142
+    ingredients: ["mentaiko", "mayonnaise", "ketchup", "tempura flour", "cabbage", "cheese", "dried mochi", "neutral-flavoured oil", "pork belly", "okonomiyaki sauce", "aonori", "katsuobushi", "beni shoga"]
+  - title: "Morioka reimen"
+    page: 144
+    ingredients: ["cabbage kimchi", "eggs", "naengmyeon noodles", "oxtail", "chicken bones", "beef shin", "onion", "spring onion", "fresh ginger", "salt", "mirin", "light soy sauce", "sugar", "gochujang", "Lebanese cucumber", "chashu", "watermelon"]
+  - title: "Omu-yakisoba"
+    page: 146
+    ingredients: ["ramen noodles", "neutral-flavoured oil", "onion", "carrot", "cabbage", "green capsicum", "garlic cloves", "ham", "okonomiyaki sauce", "oyster sauce", "eggs", "mayonnaise", "aonori", "beni shoga"]
+  - title: "Pasta with yamaimo & tarako"
+    page: 148
+    ingredients: ["spaghetti", "tarako", "yamaimo", "butter", "mentsuyu", "mayonnaise", "egg yolk", "instant dashi powder", "kizami nori", "shiso leaves", "daikon sprouts"]
+  - title: "Sardine peperoncino"
+    page: 150
+    ingredients: ["Japanese aubergines", "spaghetti", "canned sardines in oil", "dried chillies", "bay leaf", "garlic cloves", "cherry tomatoes", "parsley"]
+  - title: "Seafood gratin"
+    page: 152
+    ingredients: ["salt", "raw prawns", "scallops", "white-fleshed fish", "sake", "potatoes", "macaroni", "spinach leaves", "butter", "onion", "button mushrooms", "white wine", "flour", "milk", "Parmesan", "chicken stock powder", "nutmeg", "white pepper", "egg yolk", "panko breadcrumbs", "parsley"]
+  - title: "Tonkatsu"
+    page: 156
+    ingredients: ["pork loin fillets", "flour", "salt", "pepper", "egg", "panko breadcrumbs", "neutral-flavoured oil", "sugar", "black peppercorns"]
+  - title: "Tonkatsu sauce"
+    page: 157
+    ingredients: ["oyster sauce", "ketchup", "roasted sesame seeds", "soy sauce", "mayonnaise", "sake", "sugar", "Dijon mustard"]
+  - title: "Negi shio"
+    page: 157
+    ingredients: ["spring onion", "garlic cloves", "sake", "salt"]
+  - title: "Miso katsu"
+    page: 157
+    ingredients: ["sake", "mirin", "dashi", "hatcho miso", "roasted sesame seeds", "sugar"]
+  - title: "Katsudon"
+    page: 160
+    ingredients: ["neutral-flavoured oil", "onion", "dashi", "sugar", "soy sauce", "mirin", "eggs", "cooked rice", "spring onion", "pork loin fillets", "flour", "salt", "pepper", "panko breadcrumbs", "black peppercorns"]
+  - title: "Katsu sando"
+    page: 160
+    ingredients: ["shokupan", "tonkatsu sauce", "pork loin fillets", "flour", "salt", "pepper", "egg", "panko breadcrumbs", "neutral-flavoured oil", "sugar", "black peppercorns"]
+  - title: "Hotcake mix"
+    page: 166
+    ingredients: ["glutinous rice flour", "cake flour", "sugar", "baking powder", "salt"]
+  - title: "Hotcakes"
+    page: 168
+    ingredients: ["egg yolk", "vanilla paste", "neutral-flavoured oil", "lemon juice", "egg whites", "sugar", "pancake mix", "butter", "maple syrup", "fruit"]
+  - title: "Mochi donuts"
+    page: 170
+    ingredients: ["shiratamako flour", "silken tofu", "plain yoghurt", "pancake mix", "neutral oil", "ground cinnamon", "granulated sugar", "chocolate", "icing sugar", "butter", "lemons", "vanilla paste"]
+  - title: "Old-fashioned donuts"
+    page: 172
+    ingredients: ["pancake mix", "egg", "sugar", "neutral-flavoured oil"]
+  - title: "Pound cake"
+    page: 174
+    ingredients: ["lemon", "butter", "milk", "egg", "sugar", "pancake mix", "icing sugar"]
+  - title: "Corn dog"
+    page: 176
+    ingredients: ["neutral-flavoured oil", "frankfurters", "ketchup", "mustard", "pancake mix", "cornmeal", "milk", "egg"]
+  - title: "Maritozzo"
+    page: 178
+    ingredients: ["eggs", "milk", "bread flour", "bread improver", "instant yeast", "sugar", "butter", "cream", "mascarpone cheese", "vanilla paste", "fruits of your choice"]
+  - title: "Roll cake"
+    page: 182
+    ingredients: ["eggs", "sugar", "neutral-flavoured oil", "cake flour", "baking powder", "cream"]
+  - title: "Shokupan"
+    page: 184
+    ingredients: ["flour", "milk", "sugar", "salt", "dried yeast", "butter"]
+  - title: "Tamago sando"
+    page: 187
+    ingredients: ["eggs", "butter", "Japanese mustard paste", "mayonnaise", "rice vinegar", "salt", "black pepper", "shokupan"]
+  - title: "Steamed egg omelette sando"
+    page: 188
+    ingredients: ["mayonnaise", "mustard", "shokupan", "eggs", "milk", "mirin", "usukuchi soy sauce", "sugar", "salt", "dashi powder", "potato starch"]
+  - title: "Wanpaku sando"
+    page: 190
+    ingredients: ["egg", "tomato", "salt", "pepper", "mayonnaise", "mustard", "shokupan", "cheese", "lettuce leaves", "carrot", "avocado", "boneless chicken breasts", "neutral-flavoured oil", "fresh ginger", "spring onions"]
+  - title: "Fruit sando"
+    page: 192
+    ingredients: ["strawberries", "mascarpone", "cream", "sugar", "shokupan"]
+  - title: "Satsuma imo pies"
+    page: 197
+    ingredients: ["raisins", "rum", "purple sweet potato", "egg", "butter", "sugar", "honey", "ground cinnamon", "ground nutmeg", "salt", "frozen puff pastry", "milk"]
+  - title: "Daigaku imo"
+    page: 198
+    ingredients: ["purple sweet potato", "neutral-flavoured oil", "sugar", "soy sauce", "roasted black sesame seeds"]
+  - title: "Pizza toast"
+    page: 204
+    ingredients: ["shokupan", "ketchup", "onion", "capsicum", "ham", "mozzarella cheese", "mayonnaise"]
+  - title: "Okonomiyaki toast"
+    page: 206
+    ingredients: ["shokupan", "cabbage leaves", "ham", "eggs", "mozzarella cheese", "mayonnaise", "okonomiyaki sauce", "katsuobushi", "aonori", "beni shoga"]
+  - title: "Japanese French toast"
+    page: 208
+    ingredients: ["eggs", "milk", "sugar", "vanilla paste", "shokupan", "butter", "fruit", "maple syrup"]
+  - title: "Ham & cheese French toast"
+    page: 208
+    ingredients: ["eggs", "milk", "sugar", "shokupan", "butter", "Comté cheese", "ham"]
+  - title: "Coppe pan"
+    page: 210
+    ingredients: ["milk", "instant yeast", "bread flour", "sugar", "salt", "butter"]
+  - title: "Mochipan"
+    page: 210
+    ingredients: ["milk", "instant yeast", "bread flour", "tapioca starch", "sugar", "salt", "butter"]
+  - title: "Uzumaki pan"
+    page: 211
+    ingredients: ["bread flour", "cocoa powder", "milk", "sugar", "egg", "chocolate", "instant yeast", "salt", "butter"]
+  - title: "Banana boats (Banana boto)"
+    page: 220
+    ingredients: ["banana", "lemon juice", "cream", "sugar", "eggs", "neutral-flavoured oil", "flour", "rum"]
+  - title: "Black sugar steamed cakes (Kurosato mushi pan)"
+    page: 222
+    ingredients: ["brown sugar", "milk", "salt", "neutral-flavoured oil", "egg", "cake flour", "baking powder"]
+  - title: "Choux cream puffs (Shu kurimu)"
+    page: 224
+    ingredients: ["cream", "butter", "light-brown sugar", "cake flour", "salt", "ground cinnamon", "milk", "sugar", "eggs", "egg yolks", "cornflour", "natural vanilla extract", "white chocolate"]
+  - title: "Coffee jelly parfait (Kohi zeri pafe)"
+    page: 226
+    ingredients: ["cream", "sugar", "natural vanilla extract", "cornflakes", "vanilla ice cream", "mint sprigs", "black coffee", "gelatine powder"]
+  - title: "Daifuku"
+    page: 228
+    ingredients: ["sweet red bean paste", "potato starch", "soy milk", "glutinous rice flour", "sugar"]
+  - title: "Black sesame daifuku (Kurogoma daifuku)"
+    page: 229
+    ingredients: ["black sesame paste", "sweet red bean paste", "potato starch", "roasted soybean flour", "glutinous rice flour", "sugar"]
+  - title: "Dorayaki"
+    page: 230
+    ingredients: ["eggs", "honey", "vegetable oil", "granulated sugar", "cake flour", "bicarbonate of soda", "neutral-flavoured oil", "sweet red bean paste"]
+  - title: "Purin"
+    page: 232
+    ingredients: ["sugar", "milk", "cream", "eggs", "vanilla paste"]
+  - title: "Yaki-purin"
+    page: 234
+    ingredients: ["sugar", "milk", "cream", "eggs", "vanilla paste"]
+  - title: "Taiyaki"
+    page: 236
+    ingredients: ["neutral-flavoured oil", "milk", "glutinous rice flour", "sugar", "egg", "honey", "white sesame oil", "cake flour", "baking powder", "filling of your choice"]
+  - title: "White taiyaki (Shiroi taiyaki)"
+    page: 237
+    ingredients: ["cake flour", "tapioca starch", "sugar", "skim milk powder", "baking powder", "salt", "egg white", "filling of your choice"]
+  - title: "Custard cream (Kasutado kurimu)"
+    page: 237
+    ingredients: ["milk", "cream", "egg yolks", "sugar", "cornflour", "natural vanilla extract", "white chocolate"]
+  - title: "Croissant taiyaki (Kurowassan taiyaki)"
+    page: 237
+    ingredients: ["neutral-flavoured oil", "frozen puff pastry", "sugar", "filling of your choice"]
+  - title: "Onsen eggs (Onsen tamago)"
+    page: 244
+    ingredients: ["eggs"]
+  - title: "Salad chicken (Sarada chikin)"
+    page: 244
+    ingredients: ["boneless chicken breasts", "neutral-flavoured oil", "salt", "black pepper", "fresh ginger", "spring onions"]
+  - title: "Dashi"
+    page: 245
+    ingredients: ["filtered water", "kombu", "katsuobushi"]
+  - title: "Quick dashi"
+    page: 245
+    ingredients: ["instant dashi bag"]
+  - title: "Instant dashi"
+    page: 245
+    ingredients: ["hon dashi powder"]
+
+
+
+
