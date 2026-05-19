@@ -279,7 +279,7 @@ h1 {
     padding: 20px 20px 0 20px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #fffaf0;
+    /*background-color: #fffaf0;*/
     color: #352a22;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(180, 120, 50, 0.15);
     background-image: repeating-linear-gradient( transparent, transparent 31px, rgba(100, 150, 200, 0.15) 31px, rgba(100, 150, 200, 0.15) 32px );
@@ -297,6 +297,7 @@ h1 {
 .vintage-recipe-card:hover {
     transform: translateY(-5px);
     filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.15));
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.08), inset 0 0 60px rgba(180, 120, 50, 0.15);
 }
 
 .vintage-recipe-card .card-image-wrapper img {
