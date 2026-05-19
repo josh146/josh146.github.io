@@ -29,9 +29,9 @@
     margin-bottom: 20px;
 }
 .recipe-header {
-    /*margin-bottom: 40px;*/
+    margin-bottom: 40px;
     padding-bottom: 20px;
-    /*border-bottom: 2px solid #eee;*/
+    border-bottom: 2px solid #eee;
 }
 .hero-image {
     height: 300px;
@@ -74,7 +74,7 @@
 /* Ingredients Section */
 .recipe-ingredients {
     padding-right: 20px;
-    /*border-right: 2px solid #e9ecef;*/
+    border-right: 2px solid #e9ecef;
     height: auto;
 }
 
@@ -164,7 +164,7 @@ ol.dynamic-sublist {
 }
 
 .recipe-notes {
-    /*border-top: 2px solid #e9ecef;*/
+    border-top: 2px solid #e9ecef;
     margin-bottom: 30px;
 }
 
