@@ -1,0 +1,1578 @@
+book: 'Ramen Obsession'
+author: Naomi Imatome-Yun, Robin Donovan
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/ramen-obsession-the-ultimate-bible-194661l1.jpg
+wishlist: true
+recipes:
+- title: Clear chicken broth (Tori chintan)
+  page: 17
+  ingredients:
+  - chicken feet
+  - chicken wings
+  - chicken bones
+- title: '"Creamy" chicken broth (Tori paitan)'
+  page: 19
+  ingredients:
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+- title: Pork bone broth (Tonkotsu)
+  page: 21
+  ingredients:
+  - pork bones
+  - pig feet
+  - onion
+  - filtered water
+- title: Pork and chicken broth
+  page: 23
+  ingredients:
+  - chicken carcass
+  - pork bones
+  - kombu
+  - pork belly
+  - dried shiitake mushrooms
+  - fresh ginger
+  - bonito flakes
+- title: Awase dashi
+  page: 25
+  ingredients:
+  - kombu
+  - bonito flakes
+- title: Shiitake dashi
+  page: 26
+  ingredients:
+  - dried shiitake mushrooms
+- title: Miso tare
+  page: 30
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+- title: Spicy miso tare
+  page: 31
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - fresh ginger
+- title: Shoyu tare
+  page: 32
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+- title: Shio tare
+  page: 33
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+- title: Rendered chicken fat
+  page: 36
+  ingredients:
+  - chicken fat
+  - chicken skin
+- title: Rendered pork fat
+  page: 37
+  ingredients:
+  - pork leaf fat
+- title: Black garlic oil (Mayu)
+  page: 38
+  ingredients:
+  - garlic
+  - sesame oil
+  - vegetable oil
+- title: Chili oil (Rayu)
+  page: 39
+  ingredients:
+  - sesame oil
+  - fresh ginger
+  - scallion
+  - shichimi togarashi
+- title: Scallion oil
+  page: 40
+  ingredients:
+  - vegetable oil
+  - scallions
+- title: Basic ramen noodles
+  page: 43
+  ingredients:
+  - kansui powder
+  - bread flour
+  - 00 flour
+- title: Gluten-free rice noodles
+  page: 45
+  ingredients:
+  - rice flour
+  - store-cupboard ingredients
+- title: Chashu pork belly
+  page: 49
+  ingredients:
+  - skinless pork belly
+  - mirin
+  - sake
+  - soy sauce
+  - fresh ginger
+- title: Ginger pork
+  page: 50
+  ingredients:
+  - ground pork
+  - fresh ginger
+  - soy sauce
+- title: Pork katsu
+  page: 52
+  ingredients:
+  - pork cutlets
+  - vegetable oil
+  - egg
+  - panko bread crumbs
+- title: Chicken chashu
+  page: 53
+  ingredients:
+  - soy sauce
+  - sake
+  - fresh ginger
+  - boneless chicken thighs
+- title: Chicken karaage
+  page: 54
+  ingredients:
+  - boneless chicken thighs
+  - soy sauce
+  - sake
+  - sesame oil
+  - fresh ginger
+  - vegetable oil
+  - potato starch
+- title: Soft-bailed eggs
+  page: 55
+  ingredients:
+  - eggs
+- title: Soy sauce eggs
+  page: 56
+  ingredients:
+  - shoyu
+  - sake
+  - mirin
+  - fresh ginger
+  - eggs
+- title: Seasoned bamboo shoots (Menma)
+  page: 57
+  ingredients:
+  - dashi
+  - sesame oil
+  - soy sauce
+  - sake
+  - bamboo shoots
+- title: Red pickled ginger (Beni shoga)
+  page: 58
+  ingredients:
+  - umeboshi vinegar
+  - mirin
+  - fresh ginger
+- title: Pickled daikon radish (Takuan)
+  page: 59
+  ingredients:
+  - daikon radish
+  - rice wine vinegar
+  - ground turmeric
+- title: Roasted kabocha squash
+  page: 60
+  ingredients:
+  - white miso
+  - soy sauce
+  - kabocha squash
+- title: Roasted tomatoes
+  page: 61
+  ingredients:
+  - plum tomatoes
+- title: Sapporo ramen
+  page: 68
+  ingredients:
+  - miso soup paste
+  - pork bone broth
+  - skinless pork belly
+  - mirin
+  - sake
+  - soy sauce
+  - fresh ginger
+  - corn kernels
+  - ramen noodles
+  - dashi
+  - sesame oil
+  - bamboo shoots
+- title: Hakodate ramen
+  page: 69
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - skinless pork belly
+  - soy sauce
+  - fresh ginger
+  - ramen noodles
+  - scallions
+  - bean sprouts
+  - nori sheets
+  - eggs
+- title: Asahikawa ramen
+  page: 70
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - pork bone broth
+  - kombu
+  - bonito flakes
+  - dried wood ear mushrooms
+  - skinless pork belly
+  - ramen noodles
+  - bamboo shoots
+  - sesame oil
+- title: Kitakata ramen
+  page: 71
+  ingredients:
+  - niboshi
+  - kombu
+  - bonito flakes
+  - sake
+  - mirin
+  - dried shiitake mushrooms
+  - pork bone broth
+  - skinless pork belly
+  - ramen noodles
+  - bamboo shoots
+  - scallions
+  - eggs
+  - rendered chicken fat
+- title: Hakata ramen
+  page: 73
+  ingredients:
+  - mustard greens
+  - sesame oil
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - skinless pork belly
+  - ramen noodles
+  - red pickled ginger
+- title: Tokyo ramen
+  page: 75
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - kombu
+  - bonito flakes
+  - skinless pork belly
+  - ramen noodles
+  - kamaboko
+  - bean sprouts
+  - scallions
+  - eggs
+- title: Wakayama chuka soba
+  page: 76
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - pork bone broth
+  - skinless pork belly
+  - ramen noodles
+  - bamboo shoots
+  - sesame oil
+  - dashi
+  - bean sprouts
+  - scallions
+- title: Kyoto ramen
+  page: 77
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken carcass
+  - pork bones
+  - kombu
+  - pork belly
+  - dried shiitake mushrooms
+  - bonito flakes
+  - ramen noodles
+  - pork leaf fat
+  - bamboo shoots
+  - sesame oil
+  - dashi
+  - scallions
+  - nori sheets
+- title: Takayama ramen
+  page: 78
+  ingredients:
+  - sesame oil
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - kombu
+  - bonito flakes
+  - leeks
+  - soy sauce
+  - sake
+  - skinless pork belly
+  - ramen noodles
+  - bamboo shoots
+  - dashi
+  - nori sheets
+- title: Onomichi ramen
+  page: 79
+  ingredients:
+  - chicken carcass
+  - pork bones
+  - kombu
+  - pork belly
+  - dried shiitake mushrooms
+  - fresh ginger
+  - bonito flakes
+  - niboshi
+  - ramen noodles
+  - shoyu
+  - sake
+  - mirin
+  - eggs
+  - dashi
+  - sesame oil
+  - bamboo shoots
+  - scallions
+  - pork leaf fat
+- title: Classic tonkotsu ramen with chashu pork and soy sauce eggs
+  page: 82
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - ramen noodles
+  - eggs
+  - shoyu
+  - fresh ginger
+  - scallions
+  - black garlic oil
+  - red pickled ginger
+  - skinless pork belly
+- title: Hakata-style mountain of scallions ramen
+  page: 83
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - soy sauce
+  - ramen noodles
+  - scallions
+  - skinless pork belly
+- title: 'Shoyu tonkotsu with chashu pork, ginger, and kikurage mushrooms '
+  page: 84
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - pork bone broth
+  - skinless pork belly
+  - ramen noodles
+  - wood ear mushrooms
+- title: Spicy tonkotsu ramen with grilled pork tenderloin, peanuts, and cilantro
+  page: 85
+  ingredients:
+  - mirin
+  - soy sauce
+  - sesame oil
+  - shichimi togarashi
+  - pork tenderloin
+  - sake
+  - fresh ginger
+  - pork bone broth
+  - ramen noodles
+  - roasted unsalted peanuts
+  - cilantro
+- title: Shio tonkotsu ramen with black garlic oil
+  page: 87
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - soy sauce
+  - skinless pork belly
+  - ramen noodles
+  - shoyu
+  - eggs
+  - scallions
+  - black garlic oil
+- title: 'Spicy miso tonkotsu ramen with ginger pork '
+  page: 88
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - fresh ginger
+  - pork bone broth
+  - ramen noodles
+  - ground pork
+  - soy sauce
+  - eggs
+  - scallions
+- title: Shoyu tonkotsu with shrimp and mushrooms
+  page: 89
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - pork bone broth
+  - shrimp
+  - button mushrooms
+  - sambal oelek
+  - sesame oil
+  - ramen noodles
+  - eggs
+  - scallions
+  - bean sprouts
+- title: Tonkotsu ramen with kimchi, fried eggs, and Spam
+  page: 90
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - Spam
+  - eggs
+  - ramen noodles
+  - kimchi
+- title: Tantanmen with minced pork and baby bok choy
+  page: 91
+  ingredients:
+  - doubanjiang
+  - Japanese sesame paste
+  - Sichuan peppercorns
+  - ground white pepper
+  - pork bone broth
+  - baby bok choy
+  - ground pork
+  - fresh ginger
+  - scallions
+  - ramen noodles
+  - chili oil
+  - sesame oil
+  - sesame seeds
+- title: Tonkotsu ramen with mentaiko and shiitake mushrooms
+  page: 92
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - shiitake mushrooms
+  - ramen noodles
+  - scallions
+  - nori sheets
+  - mentaiko
+- title: Tonkotsu ramen with chicken chashu, mushrooms, corn, and black garlic oil
+  page: 93
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - shiitake mushrooms
+  - corn kernels
+  - soy sauce
+  - fresh ginger
+  - boneless skinless chicken thighs
+  - ramen noodles
+  - black garlic oil
+- title: Shoyu ramen with ginger-braised pork and kimchi
+  page: 96
+  ingredients:
+  - sesame oil
+  - fresh ginger
+  - pork shoulder
+  - white miso
+  - shoyu
+  - mirin
+  - soy sauce
+  - sake
+  - rendered chicken fat
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - eggs
+  - kimchi
+  - scallions
+- title: Shoyu ramen with seared steak, scallions, and sesame oil
+  page: 98
+  ingredients:
+  - soy sauce
+  - sake
+  - beef New York strip steaks
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - scallions
+  - sesame oil
+- title: Shoyu ramen with chicken katsu, broccoli rabe, and scallions
+  page: 100
+  ingredients:
+  - boneless skinless chicken breasts
+  - vegetable oil
+  - eggs
+  - panko bread crumbs
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - broccoli rabe
+  - ramen noodles
+  - scallions
+  - katsu sauce
+- title: Shoyu ramen with pork katsu, spinach, and chili oil
+  page: 102
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - spinach
+  - ramen noodles
+  - dashi
+  - sesame oil
+  - bamboo shoots
+  - scallions
+  - chili oil
+  - pork cutlets
+  - vegetable oil
+  - egg
+  - panko bread crumbs
+  - katsu sauce
+- title: Shoyu ramen with shrimp-and-pork wontons and baby bok choy
+  page: 103
+  ingredients:
+  - shrimp
+  - ground pork
+  - sesame oil
+  - wonton wrappers
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - baby bok choy
+  - ramen noodles
+  - scallions
+  - chili oil
+- title: Shoyu ramen with spicy ground lamb, spinach, and scallions
+  page: 105
+  ingredients:
+  - ground lamb
+  - fresh ginger
+  - red pepper flakes
+  - soy sauce
+  - sake
+  - mirin
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - spinach
+  - ramen noodles
+  - scallions
+- title: Creamy paitan shoyu ramen with ginger pork and tender greens
+  page: 106
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - garlic
+  - spinach
+  - ramen noodles
+  - ground pork
+  - eggs
+- title: Creamy paitan shoyu ramen with soft-shell crab and tender greens
+  page: 107
+  ingredients:
+  - club soda
+  - vegetable oil
+  - soft-shell crabs
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - garlic
+  - spinach
+  - ramen noodles
+- title: Vegan shoyu ramen with shiitake mushrooms, nori, and scallion oil
+  page: 109
+  ingredients:
+  - shiitake mushrooms
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - dried shiitake mushrooms
+  - ramen noodles
+  - nori sheets
+  - scallions
+  - scallion oil
+- title: Shoyu wild mushroom ramen with meyer lemon and kabocha squash
+  page: 110
+  ingredients:
+  - Meyer lemon
+  - matsutake mushrooms
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - dried shiitake mushrooms
+  - ramen noodles
+  - white miso
+  - kabocha squash
+  - scallions
+- title: Spicy shoyu ramen with corn, silken tofu, and bean sprouts
+  page: 112
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - kombu
+  - bonito flakes
+  - ramen noodles
+  - corn kernels
+  - silken tofu
+  - bean sprouts
+  - scallions
+  - chili oil
+- title: Asahikawa double broth ramen with scallops, mushrooms, and scallions oil
+  page: 113
+  ingredients:
+  - dried wood ear mushrooms
+  - sea scallops
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - kombu
+  - bonito flakes
+  - pork bone broth
+  - ramen noodles
+  - scallions
+  - scallion oil
+- title: Cheesy ramen with chili oil, soy sauce eggs, and corn
+  page: 114
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - pork bone broth
+  - ramen noodles
+  - aged Gouda cheese
+  - shoyu
+  - eggs
+  - corn kernels
+  - scallions
+  - chili oil
+- title: Shoyu ramen with chicken livers and garlic chives
+  page: 115
+  ingredients:
+  - chicken livers
+  - soy sauce
+  - mirin
+  - sake
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - garlic
+  - ramen noodles
+  - garlic chives
+- title: Shoyu ramen with littleneck clams, scallions, and butter
+  page: 116
+  ingredients:
+  - littleneck clams
+  - soy sauce
+  - mirin
+  - sake
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - garlic
+  - ramen noodles
+  - butter
+- title: Shio ramen with grilled five-spice beef short ribs, corn, and arugula
+  page: 120
+  ingredients:
+  - Chinese five spice powder
+  - ground white pepper
+  - beef short ribs
+  - onion
+  - mirin
+  - soy sauce
+  - rice wine vinegar
+  - sesame oil
+  - chili paste
+  - fresh ginger
+  - sake
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - corn kernels
+  - arugula
+- title: Shio ramen with crispy fried squid, squid ink, and salmon roe
+  page: 122
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - squid ink
+  - ramen noodles
+  - vegetable oil
+  - potato starch
+  - egg
+  - squid rings
+  - squid tentacles
+  - shichimi togarashi
+  - salmon roe
+  - arugula
+- title: Shio ramen with chashu pork belly, clams, and black truffle oil
+  page: 123
+  ingredients:
+  - littleneck clams
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - skinless pork belly
+  - ramen noodles
+  - black truffle oil
+  - microgreens
+- title: Shiitake shio ramen with crab, corn, and pickled daikon radish
+  page: 124
+  ingredients:
+  - shiitake mushrooms
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - bonito flakes
+  - ramen noodles
+  - Dungeness crab meat
+  - corn kernels
+  - pickled daikon radishes
+- title: Shio ramen with ginger chicken, soy sauce eggs, and yuzu
+  page: 125
+  ingredients:
+  - soy sauce
+  - sake
+  - honey
+  - fresh ginger
+  - boneless chicken thighs
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - yuzu juice
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - eggs
+  - shoyu
+  - scallions
+- title: Shiitake shio ramen with silken tofu, mushrooms, and crispy shallots
+  page: 127
+  ingredients:
+  - shiitake mushrooms
+  - shallot
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - ramen noodles
+  - silken tofu
+- title: Shio ramen with corn, roasted tomatoes, and basil
+  page: 129
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - scallion oil
+  - bonito flakes
+  - ramen noodles
+  - plum tomatoes
+  - corn kernels
+  - basil
+- title: Spring shio ramen with baby bok choy, peas, and soft-boiled eggs
+  page: 130
+  ingredients:
+  - sesame oil
+  - fresh ginger
+  - scallions
+  - baby bok choy
+  - peas
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - scallion oil
+  - ramen noodles
+  - eggs
+  - pea shoots
+- title: Hakodate shio ramen with spicy ground chicken
+  page: 131
+  ingredients:
+  - ground chicken
+  - soy sauce
+  - chili oil
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - bonito flakes
+  - ramen noodles
+  - scallions
+- title: Shio ramen with grilled flank steak and chimichurri
+  page: 132
+  ingredients:
+  - flat-leaf parsley
+  - red chile
+  - flank steak
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+- title: Shio ramen with duck, soy sauce eggs, and bean sprouts
+  page: 134
+  ingredients:
+  - duck breasts
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - scallions
+  - bean sprouts
+  - shoyu
+  - fresh ginger
+  - eggs
+- title: Shio ramen with salt cod croquettes and soft-boiled eggs
+  page: 135
+  ingredients:
+  - salt cod
+  - potatoes
+  - egg
+  - cilantro
+  - vegetable oil
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - scallions
+- title: Shio ramen with chicken chashu, cilantro, lime, chiles, and bean sprouts
+  page: 137
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+  - soy sauce
+  - boneless chicken thighs
+  - ramen noodles
+  - cilantro
+  - "jalape\xF1o pepper"
+  - bean sprouts
+  - lime
+- title: Italian ramen with chicken, soft-boiled eggs, basil, and pecorino
+  page: 138
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+  - ramen noodles
+  - cooked shredded chicken
+  - eggs
+  - basil
+  - pecorino cheese
+- title: Miso pumpkin ramen with pan-fried tofu and bok choy
+  page: 142
+  ingredients:
+  - dried shiitake mushrooms
+  - fresh ginger
+  - firm tofu
+  - ramen noodles
+  - baby bok choy
+  - white miso
+  - shoyu
+  - scallion
+  - corn kernels
+  - kabocha squash
+  - soy sauce
+  - toasted sesame oil
+- title: Miso ramen with crispy pork katsu and black garlic oil
+  page: 144
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - black garlic oil
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - pork cutlets
+  - vegetable oil
+  - egg
+  - panko bread crumbs
+- title: Creamy miso chicken ramen with chashu pork belly and maitake mushrooms
+  page: 145
+  ingredients:
+  - maitake mushrooms
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+  - skinless pork belly
+  - ramen noodles
+  - eggs
+- title: Miso ramen with ginger pork and roasted vegetables
+  page: 146
+  ingredients:
+  - white miso
+  - soy sauce
+  - kabocha squash
+  - broccoli rabe
+  - Japanese eggplants
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ground pork
+- title: Spicy miso ramen with chicken karaage and Swiss chard
+  page: 148
+  ingredients:
+  - sesame oil
+  - Swiss chard
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - rice wine vinegar
+  - fresh ginger
+  - rendered chicken fat
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - boneless skinless chicken thighs
+  - soy sauce
+  - sake
+  - vegetable oil
+  - potato starch
+  - eggs
+  - enoki mushrooms
+- title: Miso ramen with spicy garlic paste, chicken, and cilantro
+  page: 149
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - ramen noodles
+  - cooked shredded chicken
+  - eggs
+  - cilantro
+  - chile garlic paste
+- title: Miso-ginger ramen with spinach and seared salmon
+  page: 150
+  ingredients:
+  - sesame oil
+  - salmon fillets
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - rice wine vinegar
+  - fresh ginger
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - spinach
+  - ramen noodles
+  - scallions
+- title: Creamy miso ramen with broiled cod, scallions, and kikurage mushrooms
+  page: 151
+  ingredients:
+  - sake
+  - mirin
+  - white miso paste
+  - cod fillets
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+  - ramen noodles
+  - dried kikurage mushrooms
+- title: Spicy miso ramen with Brussels sprouts, shiitake mushrooms, and bacon
+  page: 153
+  ingredients:
+  - Brussels sprouts
+  - bacon
+  - shiitake mushrooms
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - fresh ginger
+  - pork bone broth
+  - ramen noodles
+- title: Miso ramen with roasted tomato, bacon, and egg
+  page: 154
+  ingredients:
+  - bacon
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - carrot
+  - scallions
+  - fresh ginger
+  - garlic
+  - ramen noodles
+  - plum tomatoes
+  - eggs
+- title: Miso ramen with shaved asparagus, scallions, and lemon zest
+  page: 155
+  ingredients:
+  - asparagus
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - dried shiitake mushrooms
+  - ramen noodles
+  - scallions
+  - lemon
+- title: Miso ramen with kimchi, shiitake mushrooms, and soy sauce eggs
+  page: 156
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - dried shiitake mushrooms
+  - shiitake mushrooms
+  - ramen noodles
+  - kimchi
+  - shoyu
+  - sake
+  - mirin
+  - fresh ginger
+  - eggs
+  - scallions
+- title: Spicy miso ramen with corn, butter, spinach, and soy sauce eggs
+  page: 157
+  ingredients:
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - fresh ginger
+  - kombu
+  - bonito flakes
+  - spinach
+  - butter
+  - corn kernels
+  - ramen noodles
+  - shoyu
+  - sake
+  - mirin
+  - eggs
+  - scallions
+- title: Miso ramen with smoky eggplant, ginger, and spinach
+  page: 158
+  ingredients:
+  - eggplant
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - dried shiitake mushrooms
+  - spinach
+  - ramen noodles
+  - shoyu
+  - sake
+  - mirin
+  - fresh ginger
+  - eggs
+- title: Soy milk miso ramen with yuba, shiitake mushrooms, and pickled ginger
+  page: 159
+  ingredients:
+  - dried shiitake mushrooms
+  - soy milk
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - shiitake mushrooms
+  - ramen noodles
+  - fresh yuba
+  - red pickled ginger
+- title: Miso ramen with pan-fried tofu, kabocha squash, and baby bok choy
+  page: 160
+  ingredients:
+  - dried shiitake mushrooms
+  - baby bok choy
+  - firm tofu
+  - white miso
+  - red miso
+  - Japanese sesame paste
+  - sesame oil
+  - rice wine vinegar
+  - ramen noodles
+  - soy sauce
+  - kabocha squash
+  - scallions
+  - toasted sesame oil
+- title: Tokyo-style tsukemen
+  page: 164
+  ingredients:
+  - ramen noodles
+  - fresh ginger
+  - shallots
+  - pork bone broth
+  - soy sauce
+  - sake
+  - mirin
+  - garlic
+  - skinless pork belly
+  - scallions
+  - sesame seeds
+  - enoki mushrooms
+  - eggs
+- title: Hiroshima-style tsukemen
+  page: 165
+  ingredients:
+  - chicken carcass
+  - pork bones
+  - kombu
+  - pork belly
+  - dried shiitake mushrooms
+  - fresh ginger
+  - bonito flakes
+  - skinless pork belly
+  - soy sauce
+  - sake
+  - mirin
+  - chili oil
+  - ramen noodles
+  - eggs
+  - cucumber
+  - shredded cabbage
+  - scallions
+  - red chili flakes
+- title: Vegetarian curry ramen with carrots, peas, and soft-boiled eggs
+  page: 166
+  ingredients:
+  - fresh ginger
+  - shallot
+  - curry powder
+  - ground coriander
+  - ground turmeric
+  - hot chili garlic paste
+  - dried shiitake mushrooms
+  - soy sauce
+  - carrots
+  - peas
+  - ramen noodles
+  - eggs
+  - nori sheets
+  - radishes
+  - cilantro
+- title: Thai-style green curry ramen with grilled steak, squash, and greens
+  page: 167
+  ingredients:
+  - fresh ginger
+  - Thai green curry paste
+  - chicken feet
+  - chicken wings
+  - chicken bones
+  - spinach
+  - canned coconut milk
+  - fish sauce
+  - beef top sirloin steaks
+  - kabocha squash
+  - ramen noodles
+  - cilantro
+  - lime
+- title: Spicy laksa ramen with red curry, fried tofu puffs, and green beans
+  page: 169
+  ingredients:
+  - fresh ginger
+  - lemongrass stalks
+  - red curry paste
+  - dried shiitake mushrooms
+  - canned coconut milk
+  - soy sauce
+  - ramen noodles
+  - deep-fried tofu puffs
+  - green beans
+  - bean sprouts
+  - cilantro
+  - lime
+- title: Ramen salad (Hiyashi chuka)
+  page: 170
+  ingredients:
+  - ramen noodles
+  - rice wine vinegar
+  - soy sauce
+  - Japanese hot mustard
+  - toasted sesame oil
+  - eggs
+  - Kirby cucumber
+  - thick-cut ham
+  - grape tomatoes
+  - sesame seeds
+  - scallions
+- title: Hiroshima-style tantanmen
+  page: 171
+  ingredients:
+  - sesame oil
+  - doubanjiang
+  - fresh ginger
+  - scallion
+  - ground pork
+  - soy sauce
+  - sake
+  - white miso paste
+  - Japanese sesame paste
+  - chili oil
+  - ramen noodles
+- title: Pineapple ramen with ham, nori, chile threads, and pineapple-cured eggs
+  page: 172
+  ingredients:
+  - eggs
+  - pineapple juice
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - pork bone broth
+  - cooked ham
+  - ramen noodles
+  - pineapple
+  - nori sheets
+  - chile threads
+- title: Spicy red tonkotsu ramen with chicken, cabbage, and wakame
+  page: 174
+  ingredients:
+  - sake
+  - mirin
+  - kombu
+  - dried shiitake mushrooms
+  - doubanjiang
+  - pork bone broth
+  - ramen noodles
+  - cooked shredded chicken
+  - shoyu
+  - fresh ginger
+  - eggs
+  - chili oil
+  - shredded cabbage
+  - wakame
+- title: Spicy stir-fried garlic ramen (Yakisoba)
+  page: 175
+  ingredients:
+  - ramen noodles
+  - sesame oil
+  - soy sauce
+  - sesame seeds
+  - scallion
+  - garlic
+- title: Spicy peanut ramen
+  page: 176
+  ingredients:
+  - fresh ginger
+  - chili paste
+  - dried shiitake mushrooms
+  - canned coconut milk
+  - smooth peanut butter
+  - ramen noodles
+  - soy sauce
+  - limes
+  - silken tofu
+  - cilantro
+  - roasted unsalted peanuts
+  - scallions
+- title: Chilled dashi ramen with shrimp, soy sauce eggs, and shiso leaves
+  page: 177
+  ingredients:
+  - white miso
+  - kombu
+  - bonito flakes
+  - ramen noodles
+  - cooked shrimp
+  - shoyu
+  - sake
+  - mirin
+  - fresh ginger
+  - eggs
+  - scallions
+  - shiso leaves
+- title: Spicy pork mazemen with mustard greens, poached eggs, and garlic
+  page: 178
+  ingredients:
+  - ground pork
+  - fresh ginger
+  - pork bone broth
+  - hot chili garlic paste
+  - soy sauce
+  - eggs
+  - ramen noodles
+  - garlic
+  - mustard greens
+  - scallions
+- title: Chilled vegan mazemen with spicy tofu and cucumber in yuzu vinaigrette
+  page: 179
+  ingredients:
+  - yuzu juice
+  - soy sauce
+  - mirin
+  - chili paste
+  - fresh ginger
+  - hoisin sauce
+  - firm tofu
+  - ramen noodles
+  - Japanese cucumbers
+  - scallions
+- title: Quick-pickled cucumbers
+  page: 184
+  ingredients:
+  - Japanese cucumbers
+  - sesame seeds
+  - kombu
+- title: Fried shishito peppers
+  page: 185
+  ingredients:
+  - shishito peppers
+- title: Spicy bean sprout salad
+  page: 186
+  ingredients:
+  - bean sprouts
+  - sesame oil
+  - soy sauce
+  - shichimi togarashi
+  - sesame seeds
+- title: Spinach gomaae
+  page: 187
+  ingredients:
+  - spinach
+  - white sesame seeds
+  - soy sauce
+- title: Smashed cucumber salad (Tataki kyuri)
+  page: 188
+  ingredients:
+  - Persian cucumbers
+  - soy sauce
+  - sesame oil
+  - rice wine vinegar
+  - sesame seeds
+- title: Stir-fried eggplant, mushrooms, and peppers with miso
+  page: 189
+  ingredients:
+  - white miso paste
+  - mirin
+  - soy sauce
+  - sesame oil
+  - Japanese eggplants
+  - black trumpet mushrooms
+  - red bell pepper
+- title: Shrimp tempura
+  page: 190
+  ingredients:
+  - vegetable oil
+  - all-purpose flour
+  - white pepper
+  - shrimp
+  - kombu
+  - bonito flakes
+  - soy sauce
+  - mirin
+- title: Crispy fried squid (Ika furai)
+  page: 191
+  ingredients:
+  - vegetable oil
+  - potato starch
+  - egg
+  - squid rings
+  - squid tentacles
+  - shichimi togarashi
+- title: Savory cabbage pancake (Okonomiyaki)
+  page: 192
+  ingredients:
+  - all-purpose flour
+  - kombu
+  - bonito flakes
+  - Japanese yams
+  - eggs
+  - cabbage
+  - sesame oil
+  - pork belly
+  - Worcestershire sauce
+  - ketchup
+  - oyster sauce
+- title: Octopus dumplings (Takoyaki)
+  page: 194
+  ingredients:
+  - kombu
+  - bonito flakes
+  - eggs
+  - Japanese yams
+  - cooked octopus
+  - scallions
+  - red pickled ginger
+  - Worcestershire sauce
+  - ketchup
+- title: Pork gyoza
+  page: 196
+  ingredients:
+  - ground pork
+  - shredded cabbage
+  - fresh ginger
+  - soy sauce
+  - sesame oil
+  - scallion
+  - white pepper
+  - gyoza wrappers

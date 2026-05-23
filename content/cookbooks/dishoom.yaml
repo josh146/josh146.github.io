@@ -1,0 +1,1592 @@
+book: 'Dishoom'
+author: Shamil Thakrar, Kavi Thakrar, Naved Nasir
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/dishoom-from-bombay-with-love-194256l2.jpg
+wishlist: true
+recipes:
+- title: Akuri
+  page: 36
+  ingredients:
+  - tomatoes
+  - green chillies
+  - cilantro
+  - red onions
+  - turmeric
+  - deghi mirch
+  - eggs
+  - bread
+- title: Parsi omelette
+  page: 38
+  ingredients:
+  - eggs
+  - red onions
+  - tomatoes
+  - chillies
+  - coriander leaves
+  - ketchup
+  - bread
+- title: Kejriwal
+  page: 41
+  ingredients:
+  - mature cheddar cheese
+  - white bread
+  - spring onions
+  - green chillies
+  - eggs
+  - ketchup
+- title: Keema per eedu
+  page: 42
+  ingredients:
+  - chicken mince
+  - garlic paste
+  - ginger paste
+  - deggi mirch
+  - ground cumin
+  - garam masala
+  - Greek yoghurt
+  - turmeric
+  - onions
+  - bay leaves
+  - green cardamom pods
+  - cinnamon sticks
+  - fenugreek leaves
+  - coriander leaves
+  - chicken livers
+  - buns
+  - eggs
+- title: Chicken livers on toast
+  page: 44
+  ingredients:
+  - chicken livers
+  - garlic paste
+  - ginger paste
+  - ground cumin
+  - turmeric
+  - deggi mirch
+  - garam masala
+  - Greek yoghurt
+  - limes
+  - coriander leaves
+  - sourdough bread
+- title: Bacon naan roll
+  page: 47
+  ingredients:
+  - naan dough
+  - bacon
+  - cream cheese
+  - coriander leaves
+  - green chilli flakes
+  - tomato chilli jam
+- title: Fire toast
+  page: 48
+  ingredients:
+  - sourdough bread
+- title: Masala beans
+  page: 48
+  ingredients:
+  - baked beans
+  - garam masala
+  - green chillies
+  - coriander leaves
+  - onions
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - "tomato pur\xE9e"
+  - tinned chopped tomatoes
+- title: Banana & date porridge
+  page: 51
+  ingredients:
+  - Medjool dates
+  - bananas
+  - steel-cut oats
+- title: Granola
+  page: 52
+  ingredients:
+  - rolled oats
+  - almonds
+  - cashew nuts
+  - pistachio nuts
+  - desiccated coconut
+  - sunflower seeds
+  - pumpkin seeds
+  - sesame seeds
+  - acacia honey
+  - ground cinnamon
+- title: Vanilla yoghurt
+  page: 54
+  ingredients:
+  - Greek yogurt
+  - vanilla pods
+- title: Breakfast lassi
+  page: 56
+  ingredients:
+  - bananas
+  - coconut milk
+  - Greek yoghurt
+  - "canned mango pur\xE9e"
+  - steel-cut oats
+  - runny honey
+  - cumin seeds
+- title: Orange and star anise marmalade
+  page: 58
+  ingredients:
+  - oranges
+  - star anise pods
+  - preserving sugar
+- title: Pineapple & pink peppercorn jam
+  page: 59
+  ingredients:
+  - pineapple
+  - pink peppercorns
+  - powdered citric acid
+  - jam sugar
+  - lemons
+- title: Tomato-chilli jam
+  page: 59
+  ingredients:
+  - tomatoes
+  - ginger root
+  - garlic
+  - green chillies
+  - rice vinegar
+  - sugar
+- title: Bun (& brun) maska
+  page: 74
+  ingredients:
+  - brioche rolls
+  - butter
+- title: Keema puffs
+  page: 76
+  ingredients:
+  - puff pastry
+  - eggs
+  - minced lamb
+  - fresh ginger
+  - garlic
+  - spring onions
+  - coriander leaves
+  - mint
+  - green chillies
+  - onions
+  - ground coriander
+  - Greek yoghurt
+  - bay leaves
+  - frozen peas
+- title: Cheese & masala sticks
+  page: 79
+  ingredients:
+  - puff pastry
+  - eggs
+  - chaat masala
+  - aged cheddar cheese
+  - coriander leaves
+- title: Khari
+  page: 81
+  ingredients:
+  - puff pastry
+  - eggs
+  - fennel seeds
+  - cumin seeds
+- title: Jeera biscuits
+  page: 82
+  ingredients:
+  - store-cupboard ingredients
+  - cumin seeds
+- title: Nankhatai
+  page: 84
+  ingredients:
+  - gram flour
+  - fine semolina
+  - nuts or seeds of your choice
+- title: Masala chai
+  page: 86
+  ingredients:
+  - Assam tea
+  - fresh ginger
+  - black peppercorns
+  - cardamom pods
+  - cinnamon sticks
+  - whole cloves
+  - milk
+- title: Chole bhature
+  page: 100
+  ingredients:
+  - tinned chickpeas
+  - English breakfast tea bags
+  - potatoes
+  - "tomato pur\xE9e"
+  - chana masala
+  - ground cumin
+  - black cardamom pods
+  - bay leaves
+  - cinnamon sticks
+  - garam masala
+  - tamarind paste
+  - limes
+  - green chillies
+  - red onions
+  - coriander leaves
+  - fresh ginger
+  - onions
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - tinned chopped tomatoes
+  - maida flour
+  - atta flour
+  - coarse semolina
+  - yoghurt
+- title: Rajma
+  page: 102
+  ingredients:
+  - fresh ginger
+  - garlic paste
+  - black cardamom pods
+  - bay leaves
+  - cinnamon sticks
+  - ground cumin
+  - deggi mirch
+  - "tomato pur\xE9e"
+  - tinned kidney beans
+  - garam masala
+  - tomatoes
+  - coriander leaves
+  - ginger paste
+  - red onions
+  - limes
+  - onions
+  - tinned chopped tomatoes
+- title: Aloo sabzi
+  page: 105
+  ingredients:
+  - potatoes
+  - ground coriander
+  - deggi mirch
+  - turmeric
+  - cumin seeds
+  - asafoetida powder
+  - fresh ginger
+  - green chillies
+  - tinned chickpeas
+  - garam masala
+  - dried fenugreek leaves
+  - amchur
+  - coriander leaves
+  - paneer
+  - limes
+  - red onions
+  - Greek yoghurt
+- title: Mattar paneer
+  page: 106
+  ingredients:
+  - "tomato pur\xE9e"
+  - garam masala
+  - ground cumin
+  - frozen peas
+  - paneer
+  - double cream
+  - coriander leaves
+  - onions
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - tinned chopped tomatoes
+- title: Keema pau
+  page: 109
+  ingredients:
+  - fresh ginger
+  - garlic
+  - spring onions
+  - coriander leaves
+  - mint
+  - green chillies
+  - onions
+  - ground coriander
+  - yoghurt
+  - lamb mince
+  - bay leaves
+  - frozen peas
+  - soft white rolls
+  - red onions
+  - limes
+- title: Salli botti
+  page: 110
+  ingredients:
+  - cinnamon sticks
+  - bay leaves
+  - red onions
+  - garlic paste
+  - leg of lamb
+  - ginger paste
+  - deggi mirch
+  - turmeric
+  - tinned chopped tomatoes
+  - distilled white vinegar
+  - jaggery
+  - garam masala
+- title: Chana chaat salad
+  page: 112
+  ingredients:
+  - couscous
+  - sprouted grains
+  - pumpkin seeds
+  - sesame seeds
+  - tinned chickpeas
+  - tomatoes
+  - raisins
+  - pomegranate seeds
+  - coriander leaves
+  - avocados
+  - cumin seeds
+  - mint
+  - limes
+  - "pickled jalape\xF1o chiles"
+  - turmeric
+- title: Chilli pomelo salad
+  page: 115
+  ingredients:
+  - pistachio nuts
+  - pumpkin seeds
+  - pomelos
+  - kale
+  - spring onions
+  - red chillies
+  - Medjool dates
+  - mint
+  - coriander leaves
+  - sherry vinegar
+  - jaggery
+  - deggi mirch
+  - chilli flakes
+  - limes
+  - dark brown sugar
+  - coriander seeds
+  - tamarind paste
+  - cumin seeds
+  - ground ginger
+- title: Paneer & mango salad
+  page: 116
+  ingredients:
+  - paneer
+  - mangos
+  - bitter salad leaves
+  - limes
+  - green chillies
+  - rice vinegar
+  - mint
+  - crisp-fried onions
+- title: Slaw
+  page: 118
+  ingredients:
+  - red onions
+  - red cabbage
+  - white cabbage
+  - red peppers
+  - pomegranate seeds
+  - mint
+  - coriander leaves
+  - mayonnaise
+  - tomatoes
+  - fresh ginger
+  - green chillies
+  - rice vinegar
+- title: Kachumber
+  page: 121
+  ingredients:
+  - red onions
+  - tomatoes
+  - cucumbers
+  - coriander leaves
+  - limes
+- title: Bowl of greens
+  page: 123
+  ingredients:
+  - broccoli
+  - mangetout
+  - baby spinach
+  - limes
+  - ginger paste
+  - green chillies
+  - rice vinegar
+  - mint
+  - dried fenugreek leaves
+  - chaat masala
+  - deggi mirch
+  - garam masala
+- title: Raita
+  page: 124
+  ingredients:
+  - Greek yoghurt
+  - red onions
+  - cucumbers
+  - tomatoes
+  - coriander leaves
+  - mint
+  - cumin seeds
+- title: Fresh lime soda
+  page: 138
+  ingredients:
+  - limes
+  - soda water
+- title: Salted lassi
+  page: 140
+  ingredients:
+  - Greek yoghurt
+  - cumin seeds
+  - mint
+  - salt
+- title: Sweet lassi
+  page: 140
+  ingredients:
+  - yoghurt
+  - sugar syrup
+- title: Mango lassi
+  page: 140
+  ingredients:
+  - yoghurt
+  - "mango pur\xE9e"
+  - sugar syrup
+- title: Rose & cardamom lassi
+  page: 140
+  ingredients:
+  - yoghurt
+  - rose syrup
+  - green cardamom pods
+- title: Colaba colada
+  page: 143
+  ingredients:
+  - pineapple juice
+  - coconut cream
+  - limes
+  - coriander leaves
+  - coconut flakes
+  - chai syrup
+- title: Chai syrup
+  page: 143
+  ingredients:
+  - cardamom pods
+  - cinnamon sticks
+  - whole cloves
+  - fresh ginger
+  - vanilla bean paste
+- title: Watermelon sharbats
+  page: 145
+  ingredients:
+  - limes
+  - watermelons
+  - mint
+  - soda water
+- title: Falooda
+  page: 146
+  ingredients:
+  - basil seeds
+  - condensed milk
+  - evaporated milk
+  - rose water
+  - double cream
+  - ground cardamom
+  - pistachio nuts
+  - white falooda noodles
+- title: Pau bhaji
+  page: 160
+  ingredients:
+  - potatoes
+  - white onions
+  - tinned tomatoes
+  - deghi mirch
+  - "tomato pur\xE9e"
+  - ground cumin
+  - turmeric
+  - pav bhaji masala
+  - cauliflower
+  - green peppers
+  - green beans
+  - carrots
+  - frozen peas
+  - soft white rolls
+  - coriander leaves
+  - red onions
+  - limes
+  - sherry vinegar
+  - jaggery
+  - dried chilli flakes
+  - dark brown sugar
+  - coriander seeds
+  - tamarind chutney
+  - cumin seeds
+  - mint
+  - green chillies
+  - garlic
+  - desiccated coconut
+- title: Bhel
+  page: 163
+  ingredients:
+  - green chillies
+  - coriander leaves
+  - fresh ginger
+  - red onions
+  - pomegranate seeds
+  - Bombay mix
+  - sev mamra
+  - tamarind chutney
+  - limes
+  - fine sev
+  - cumin seeds
+  - mint
+- title: Butter-bhutta
+  page: 165
+  ingredients:
+  - corn on the cob
+  - deggi mirch
+  - limes
+  - butter
+- title: Lamb samosas
+  page: 166
+  ingredients:
+  - spring roll wrappers
+  - frozen peas
+  - cumin seeds
+  - garlic paste
+  - ginger paste
+  - green chillies
+  - ground cumin
+  - turmeric
+  - lamb mince
+  - limes
+  - coriander leaves
+  - garam masala
+  - ground cinnamon
+- title: Vegetable samosas
+  page: 172
+  ingredients:
+  - spring roll wrappers
+  - potatoes
+  - carrots
+  - frozen peas
+  - cumin seeds
+  - red onions
+  - garlic paste
+  - ginger paste
+  - green chillies
+  - deghi mirch
+  - ground cumin
+  - turmeric
+  - amchur
+  - limes
+  - ground cinnamon
+  - garam masala
+  - coriander leaves
+- title: Salli
+  page: 173
+  ingredients:
+  - potatoes
+- title: Vada pau
+  page: 174
+  ingredients:
+  - potatoes
+  - fresh ginger
+  - curry leaves
+  - black mustard seeds
+  - turmeric
+  - chaat masala
+  - coriander leaves
+  - gram flour
+  - deggi mirch
+  - green chillies
+  - soft white rolls
+  - tamarind chutney
+  - sherry vinegar
+  - jaggery
+  - dried chilli flakes
+  - limes
+  - dark brown sugar
+  - coriander seeds
+  - cumin seeds
+  - mint
+  - garlic
+  - desiccated coconut
+- title: Okra fries
+  page: 179
+  ingredients:
+  - okra
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - gram flour
+  - amchur
+- title: Dahi bhalla chaat
+  page: 180
+  ingredients:
+  - urad dal
+  - coriander leaves
+  - fresh ginger
+  - Greek yoghurt
+  - tamarind chutney
+  - deghi mirch
+  - cumin seeds
+  - raisins
+  - pomegranate seeds
+  - sherry vinegar
+  - jaggery
+  - dried chilli flakes
+  - limes
+  - dark brown sugar
+  - coriander seeds
+  - fine sev
+  - mint
+  - green chillies
+- title: Aloo tikki chaat
+  page: 183
+  ingredients:
+  - potatoes
+  - strong white bread flour
+  - deghi mirch
+  - tinned chickpeas
+  - Greek yoghurt
+  - coriander leaves
+  - pomegranate seeds
+  - tamarind chutney
+  - sherry vinegar
+  - jaggery
+  - dried chilli flakes
+  - limes
+  - dark brown sugar
+  - coriander seeds
+  - cumin seeds
+  - mint
+  - green chillies
+- title: Chilli cheese toast
+  page: 184
+  ingredients:
+  - mature cheddar cheese
+  - white bread
+  - spring onions
+  - green chillies
+- title: Butter garlic crab
+  page: 198
+  ingredients:
+  - garlic
+  - fresh ginger
+  - green chillies
+  - spring onions
+  - crab meat
+  - dill
+  - coriander leaves
+  - limes
+  - lemons
+  - soft white rolls
+  - butter
+- title: Prawn koliwada
+  page: 201
+  ingredients:
+  - rice flour
+  - gram flour
+  - deghi mirch
+  - garam masala
+  - ground cumin
+  - turmeric
+  - ginger paste
+  - garlic paste
+  - curry leaves
+  - limes
+  - king prawns
+- title: Soft-shell crab masala
+  page: 202
+  ingredients:
+  - garlic paste
+  - ginger paste
+  - limes
+  - turmeric
+  - soft-shell crabs
+  - white onions
+  - curry leaves
+  - garlic
+  - fresh ginger
+  - deghi mirch
+  - ground coriander
+  - tomatoes
+  - green chillies
+  - coconut milk
+  - tamarind chutney
+  - garam masala
+- title: Prawn moilee
+  page: 205
+  ingredients:
+  - green chillies
+  - mustard seeds
+  - curry leaves
+  - garlic paste
+  - ginger paste
+  - Spanish onions
+  - turmeric
+  - fresh ginger
+  - coconut milk
+  - coconut cream
+  - prawns
+  - tomatoes
+  - lemons
+- title: Mutton pepper fry
+  page: 206
+  ingredients:
+  - mutton legs
+  - ginger paste
+  - garlic paste
+  - turmeric
+  - dried red chillies
+  - cinnamon sticks
+  - coriander seeds
+  - fennel seeds
+  - whole cloves
+  - curry leaves
+  - mustard seeds
+  - red onions
+  - deghi mirch
+  - tomatoes
+  - coriander leaves
+  - lemons
+  - long pepper powder
+- title: Chicken Ruby
+  page: 209
+  ingredients:
+  - chicken thighs
+  - garlic
+  - fresh ginger
+  - tomatoes
+  - bay leaves
+  - green cardamom pods
+  - black cardamom pods
+  - cinnamon sticks
+  - deghi mirch
+  - garam masala
+  - runny honey
+  - ground cumin
+  - dried fenugreek leaves
+  - dill
+  - double cream
+  - limes
+  - Greek yogurt
+  - coriander leaves
+  - pomegranate seeds
+- title: Phaldari kofta
+  page: 210
+  ingredients:
+  - potatoes
+  - green beans
+  - cauliflower
+  - carrots
+  - paneer
+  - breadcrumbs
+  - strong white bread flour
+  - ground cumin
+  - garam masala
+  - cashew nuts
+  - saffron
+  - fresh ginger
+  - mature cheddar cheese
+  - dried fruit of your choice
+  - green chillies
+  - limes
+  - pomegranate seeds
+  - coriander leaves
+  - garlic
+  - tomatoes
+  - bay leaves
+  - green cardamom pods
+  - black cardamom pods
+  - cinnamon sticks
+  - deghi mirch
+  - runny honey
+  - dried fenugreek leaves
+  - dill
+  - double cream
+- title: House black daal
+  page: 214
+  ingredients:
+  - urad dal
+  - garlic paste
+  - ginger paste
+  - "tomato pur\xE9e"
+  - deghi mirch
+  - garam masala
+  - double cream
+  - chapatis
+- title: Chicken berry Britannia
+  page: 232
+  ingredients:
+  - basmati rice
+  - limes
+  - chicken thighs
+  - ginger paste
+  - garlic paste
+  - deghi mirch
+  - ground cumin
+  - garam masala
+  - Greek yoghurt
+  - green chillies
+  - fresh ginger
+  - crisp-fried onions
+  - mint
+  - coriander leaves
+  - double cream
+  - saffron
+  - dried cranberries
+- title: Awadhi lamb biryani
+  page: 234
+  ingredients:
+  - red onions
+  - cardamom pods
+  - bay leaves
+  - cinnamon sticks
+  - lamb legs
+  - ginger paste
+  - garlic paste
+  - yellow chilli powder
+  - turmeric
+  - garam masala
+  - Greek yoghurt
+  - lamb stock
+  - ground cardamom
+  - mace
+  - fresh ginger
+  - limes
+  - rosewater
+  - kewda water
+  - double cream
+  - green chillies
+  - mint
+  - coriander leaves
+  - crisp-fried onions
+  - basmati rice
+  - saffron
+- title: Jackfruit biryani
+  page: 238
+  ingredients:
+  - basmati rice
+  - limes
+  - canned jackfruit in brine
+  - ginger paste
+  - garlic paste
+  - turmeric
+  - deghi mirch
+  - baby new potatoes
+  - crisp-fried onions
+  - ground cumin
+  - garam masala
+  - Greek yogurt
+  - green chillies
+  - fresh ginger
+  - mint
+  - coriander leaves
+  - sultanas
+  - double cream
+  - saffron
+- title: Nihari
+  page: 240
+  ingredients:
+  - mustard oil
+  - white onions
+  - lamb shanks
+  - lamb legs
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - turmeric
+  - Greek yogurt
+  - lamb stock
+  - saffron
+  - limes
+  - rosewater
+  - kewda water
+  - garam masala
+  - ground cardamom
+  - mace
+  - gram flour
+  - dried rose petals
+  - black peppercorns
+  - whole cloves
+  - bay leaves
+  - green cardamom pods
+  - cinnamon sticks
+  - fennel seeds
+  - mint
+  - coriander leaves
+  - fresh ginger
+  - green chillies
+  - crisp-fried onions
+- title: Paya
+  page: 244
+  ingredients:
+  - lamb trotters
+  - cinnamon sticks
+  - fennel seeds
+  - coriander seeds
+  - bay leaves
+  - garlic
+  - white onions
+  - whole cloves
+  - black peppercorns
+  - cumin seeds
+  - green cardamom pods
+  - red onions
+  - fresh ginger
+  - garlic paste
+  - lamb shanks
+  - deghi mirch
+  - ground coriander
+  - turmeric
+  - Greek yoghurt
+  - limes
+  - garam masala
+  - mint
+  - coriander leaves
+  - green chillies
+  - crisp-fried onions
+- title: Haleem
+  page: 246
+  ingredients:
+  - urad dal
+  - bulgur wheat
+  - pearl barley
+  - white rice
+  - lamb legs
+  - milk
+  - garlic paste
+  - ginger paste
+  - green chillies
+  - coriander leaves
+  - mint
+  - double cream
+  - ground cardamom
+  - mace
+  - dried rose petals
+  - black peppercorns
+  - whole cloves
+  - bay leaves
+  - cinnamon sticks
+  - green cardamom pods
+  - fennel seeds
+  - saffron
+  - crisp-fried onions
+  - fresh ginger
+  - lemons
+- title: Lamb sheekh kebab
+  page: 263
+  ingredients:
+  - coriander seeds
+  - cumin seeds
+  - coriander stems
+  - green chillies
+  - red onions
+  - lamb mince
+  - garlic paste
+  - ginger paste
+  - garam masala
+  - mint
+  - limes
+- title: Lamb boti kebab
+  page: 264
+  ingredients:
+  - lamb leg steaks
+  - Greek yoghurt
+  - papaya paste
+  - ginger paste
+  - garlic paste
+  - deghi mirch
+  - limes
+  - garam masala
+  - caraway seeds
+  - ground cumin
+  - mint
+  - dried fenugreek leaves
+  - chaat masala
+- title: Spicy lamb chops
+  page: 267
+  ingredients:
+  - lamb cutlets
+  - garlic paste
+  - ginger paste
+  - malt vinegar
+  - cumin seeds
+  - coriander seeds
+  - whole cloves
+  - HP sauce
+  - coriander stalks
+  - garam masala
+  - black peppercorns
+  - jaggery
+  - limes
+  - red chillies
+  - green chillies
+  - mint
+- title: Lamb raan
+  page: 268
+  ingredients:
+  - leg of lamb
+  - deghi mirch
+  - garlic
+  - fresh ginger
+  - bay leaves
+  - whole cloves
+  - black peppercorns
+  - cinnamon sticks
+  - green cardamom pods
+  - black cardamom pods
+  - malt vinegar
+  - limes
+  - dried fenugreek leaves
+  - chaat masala
+  - garam masala
+- title: Chicken tikka
+  page: 270
+  ingredients:
+  - chicken thighs
+  - fresh ginger
+  - garlic
+  - green chillies
+  - rice vinegar
+  - deghi mirch
+  - turmeric
+  - limes
+- title: Murgh malai
+  page: 273
+  ingredients:
+  - chicken thighs
+  - garlic paste
+  - ginger paste
+  - malt vinegar
+  - mature cheddar cheese
+  - Greek yoghurt
+  - double cream
+  - coriander stalks
+  - green chiles
+  - limes
+  - coriander leaves
+  - eggs
+  - dried fenugreek leaves
+  - chaat masala
+  - garam masala
+- title: Masala prawns
+  page: 274
+  ingredients:
+  - king prawns
+  - gram flour
+  - coriander stalks
+  - garlic paste
+  - fresh ginger
+  - green chillies
+  - limes
+  - red onions
+  - spring onions
+  - tomatoes
+  - coriander leaves
+- title: Macchi tikka
+  page: 277
+  ingredients:
+  - firm white fish fillets
+  - garlic paste
+  - ginger paste
+  - limes
+  - garlic
+  - gram flour
+  - Greek yoghurt
+  - turmeric
+  - deghi mirch
+  - garam masala
+  - coriander leaves
+  - red onions
+- title: Paneer tikka achari
+  page: 278
+  ingredients:
+  - paneer
+  - yellow peppers
+  - red peppers
+  - deghi mirch
+  - turmeric
+  - dried fenugreek leaves
+  - limes
+  - gram flour
+  - mustard oil
+  - Greek yogurt
+  - chaat masala
+  - garam masala
+  - Indian mixed pickle
+- title: Paneer tikka chapati roll
+  page: 280
+  ingredients:
+  - atta flour
+  - paneer
+  - deghi mirch
+  - turmeric
+  - dried fenugreek leaves
+  - limes
+  - gram flour
+  - mustard oil
+  - Greek yoghurt
+  - green peppers
+  - green chillies
+  - tomatoes
+  - bay leaves
+  - green cardamom pods
+  - black cardamom pods
+  - cinnamon sticks
+  - garam masala
+  - runny honey
+  - ground cumin
+  - dill
+  - double cream
+  - baby spinach
+  - coriander leaves
+  - cumin seeds
+  - mint
+  - chaat masala
+  - Indian mixed pickle
+- title: Chicken tikka chapati roll
+  page: 280
+  ingredients:
+  - chicken thighs
+  - fresh ginger
+  - green chillies
+  - rice vinegar
+  - deghi mirch
+  - turmeric
+  - atta flour
+  - tomato chilli jam
+  - baby spinach
+  - cole slaw
+- title: Gunpowder potatoes
+  page: 283
+  ingredients:
+  - baby new potatoes
+  - cumin seeds
+  - coriander seeds
+  - fennel seeds
+  - spring onions
+  - coriander leaves
+  - green chillies
+  - limes
+  - dried fenugreek leaves
+  - chaat masala
+  - deghi mirch
+  - garam masala
+- title: Basmati kheer
+  page: 297
+  ingredients:
+  - basmati rice
+  - milk
+  - cardamom pods
+  - vanilla pods
+  - blueberries
+  - double cream
+- title: Memsahib's mess
+  page: 299
+  ingredients:
+  - strawberries
+  - gulkand
+  - rose syrup
+  - double cream
+  - meringue nests
+- title: Bun maska pudding
+  page: 300
+  ingredients:
+  - milk
+  - ground cardamom
+  - nutmeg
+  - charoli nuts
+  - brioche loaf
+  - sultanas
+  - eggs
+  - condensed milk
+- title: Gulab jamun
+  page: 302
+  ingredients:
+  - semolina
+  - milk powder
+  - ghee
+  - mascarpone cheese
+  - pistachio nuts
+  - granulated sugar
+- title: Malai kulfi
+  page: 304
+  ingredients:
+  - evaporated milk
+  - double cream
+  - ground cardamom
+- title: Mango kulfi
+  page: 304
+  ingredients:
+  - evaporated milk
+  - double cream
+  - ground cardamom
+  - Alphonso mango puree
+- title: Pistachio kulfi
+  page: 304
+  ingredients:
+  - evaporated milk
+  - double cream
+  - ground cardamom
+  - pistachio nuts
+- title: Gadbad mitha
+  page: 306
+  ingredients:
+  - sponge cake
+  - vanilla custard
+  - fruit of your choice
+  - Alphonso mango puree
+  - double cream
+  - vanilla ice cream
+- title: Chocolate mousse
+  page: 309
+  ingredients:
+  - caster sugar
+  - eggs
+  - cocoa powder
+  - chilli powder
+  - dark chocolate
+  - whipping cream
+- title: Berry shrikhand
+  page: 311
+  ingredients:
+  - Greek yoghurt
+  - icing sugar
+  - blackberries
+  - blueberries
+  - raspberries
+- title: Pineapple & black pepper crumble
+  page: 312
+  ingredients:
+  - pineapple
+  - vanilla pods
+  - rolled oats
+  - store-cupboard ingredients
+  - black peppercorns
+- title: East India gimlet
+  page: 326
+  ingredients:
+  - limes
+  - dill
+  - lime cordial
+  - celery bitters
+  - London dry gin
+- title: Monsoon martini
+  page: 328
+  ingredients:
+  - set honey
+  - espresso
+  - vodka
+  - Ancho Reyes ancho chile liqueur
+  - black walnut bitters
+  - cocoa powder
+- title: Kohinoor fizz
+  page: 331
+  ingredients:
+  - gooseberry jam
+  - limes
+  - London dry gin
+  - Aperol
+  - eggs
+  - sparkling wine
+- title: Bollybellini
+  page: 332
+  ingredients:
+  - green cardamom pods
+  - rose syrup
+  - sugar syrup
+  - "raspberry pur\xE9e"
+  - lychee juice
+  - Prosecco wine
+- title: The Dhoble
+  page: 333
+  ingredients:
+  - vodka
+  - lemons
+  - jaggery
+  - orange bitters
+  - orange juice
+- title: Chai paanch
+  page: 334
+  ingredients:
+  - lemons
+  - masala chai tea
+  - dark rum
+  - whisky
+  - Ceylon arrack
+  - ginger liqueur
+  - Mozart dry chocolate spirit
+  - nutmeg
+- title: Taj ballroom toddy
+  page: 336
+  ingredients:
+  - hard apple cider
+  - apple juice
+  - fresh ginger
+  - cinnamon sticks
+  - green cardamom pods
+  - whole cloves
+  - agave syrup
+  - whisky
+  - oranges
+- title: The commander
+  page: 337
+  ingredients:
+  - black peppercorns
+  - navy-strength gin
+  - absinthe
+  - Kamm & Sons ginseng spirit
+- title: Bombay presidency punch
+  page: 339
+  ingredients:
+  - bay leaves
+  - Ceylon arrack
+  - jaggery
+  - limes
+  - nutmeg
+  - Darjeeling green tea
+- title: Cyrus Irani
+  page: 340
+  ingredients:
+  - limes
+  - turmeric
+  - reposado tequila
+  - set honey
+  - ground cayenne pepper
+  - Greek yoghurt
+- title: Bloody Mary
+  page: 341
+  ingredients:
+  - tomato juice
+  - "tomato pur\xE9e"
+  - Tabasco sauce
+  - Worcester sauce
+  - lemons
+  - distilled white vinegar
+  - Himalayan pink salt
+  - jaggery
+  - smoked paprika
+  - vodka
+  - celery
+  - pickled silverskin onions
+- title: Viceroy's old-fashioned
+  page: 342
+  ingredients:
+  - green tea bags
+  - dark brown sugar
+  - bay leaves
+  - whisky
+  - Angostura orange bitters
+- title: Ginger & garlic pastes
+  page: 353
+  ingredients:
+  - garlic
+  - fresh ginger
+- title: Onion-tomato masala
+  page: 354
+  ingredients:
+  - vegetable oil
+  - garlic paste
+  - ginger paste
+  - deghi mirch
+  - "tomato pur\xE9e"
+  - tomatoes
+- title: Garam masala
+  page: 356
+  ingredients:
+  - black cardamom pods
+  - whole cloves
+  - black peppercorns
+  - cinnamon sticks
+  - coriander seeds
+  - cumin seeds
+  - fennel seeds
+  - star anise pods
+  - bay leaves
+  - blade mace
+  - poppy seeds
+  - dried rose petals
+- title: '''Magic'' masala'
+  page: 357
+  ingredients:
+  - amchur
+  - deghi mirch
+- title: Ghati masala
+  page: 357
+  ingredients:
+  - garlic
+  - desiccated coconut
+  - deghi mirch
+- title: Kabab masala
+  page: 358
+  ingredients:
+  - dried fenugreek leaves
+  - chaat masala
+  - deghi mirch
+  - garam masala
+- title: Chilli drizzle
+  page: 358
+  ingredients:
+  - sherry vinegar
+  - jaggery
+  - deghi mirch
+  - limes
+  - dark brown sugar
+  - coriander seeds
+- title: Tamarind drizzle
+  page: 358
+  ingredients:
+  - sherry vinegar
+  - jaggery
+  - deghi mirch
+  - limes
+  - dark brown sugar
+  - coriander seeds
+  - tamarind paste
+  - Medjool dates
+  - cumin seeds
+  - ground ginger
+- title: Lamb stock
+  page: 359
+  ingredients:
+  - lamb bones
+  - garlic
+- title: Makhani sauce
+  page: 360
+  ingredients:
+  - garlic
+  - fresh ginger
+  - tomatoes
+  - bay leaves
+  - green cardamom pods
+  - black cardamom pods
+  - cinnamon sticks
+  - deghi mirch
+  - garam masala
+  - runny honey
+  - ground cumin
+  - dried fenugreek leaves
+  - dill
+  - double cream
+- title: Rice
+  page: 361
+  ingredients:
+  - basmati rice
+  - limes
+- title: Puri
+  page: 363
+  ingredients:
+  - atta flour
+  - semolina
+- title: Naan
+  page: 364
+  ingredients:
+  - maida flour
+  - eggs
+- title: Crispy sesame & onion seed naan
+  page: 365
+  ingredients:
+  - maida flour
+  - eggs
+  - black sesame seeds
+  - black onion seeds
+- title: Garlic naan
+  page: 365
+  ingredients:
+  - garlic
+  - coriander leaves
+  - maida flour
+  - eggs
+- title: Cheese naan
+  page: 365
+  ingredients:
+  - maida flour
+  - eggs
+  - cheddar cheese
+  - spring onions
+  - green chillies
+- title: Chapati
+  page: 368
+  ingredients:
+  - atta flour
+  - eggs
+  - store-cupboard ingredients
+- title: Bhature
+  page: 369
+  ingredients:
+  - maida flour
+  - atta flour
+  - Greek yoghurt
+  - store-cupboard ingredients
+  - coarse semolina
+- title: Bedmi puri
+  page: 370
+  ingredients:
+  - atta flour
+  - semolina
+  - urad dal
+  - fennel seeds
+  - ground coriander
+  - deghi mirch
+  - garam masala
+  - asafoetida powder
+- title: Malabar paratha
+  page: 372
+  ingredients:
+  - strong white bread flour
+  - store-cupboard ingredients
+- title: Tamarind chutney
+  page: 377
+  ingredients:
+  - Medjool dates
+  - cumin seeds
+  - jaggery
+  - deghi mirch
+  - ground ginger
+  - tamarind paste
+- title: Coriander-mint chutney
+  page: 378
+  ingredients:
+  - cumin seeds
+  - coriander leaves
+  - coriander stems
+  - mint
+  - green chillies
+  - limes
+- title: Coriander-mint dressing
+  page: 378
+  ingredients:
+  - cumin seeds
+  - coriander leaves
+  - coriander stems
+  - mint
+  - limes
+  - "pickled jalape\xF1o chillies"
+  - sunflower seeds
+  - turmeric
+- title: Chilli chutney
+  page: 378
+  ingredients:
+  - dried red chillies
+  - coriander seeds
+  - cumin seeds
+  - garlic
+  - malt vinegar
+  - limes
+  - jaggery
+- title: Carrot & green chilli pickle
+  page: 379
+  ingredients:
+  - carrots
+  - mustard oil
+  - mustard seeds
+  - onion seeds
+  - fennel seeds
+  - green chillies
+  - turmeric
+  - deghi mirch
+  - rice vinegar
+- title: Lime & chilli dressing
+  page: 379
+  ingredients:
+  - limes
+  - ginger paste
+  - green chillies
+  - rice vinegar
+  - mint

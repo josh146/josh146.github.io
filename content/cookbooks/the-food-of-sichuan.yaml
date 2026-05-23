@@ -1,0 +1,2979 @@
+book: 'The Food of Sichuan'
+author: Fuchsia Dunlop
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-food-of-sichuan-a-191724l2.jpg
+recipes:
+- title: Poached chicken for cold dishes
+  page: 66
+  ingredients:
+  - fresh ginger
+  - whole chicken
+  - scallions
+- title: Cold dressed chicken (Liangban ji)
+  page: 68
+  ingredients:
+  - fresh ginger
+  - whole chicken
+  - scallions
+  - superfine sugar
+  - Chinkiang vinegar
+  - light soy sauce
+  - Sichuan pepper
+  - chile oil
+  - sesame oil
+- title: '"Strange-flavor"  bang bang chicken (Bang bang ji)'
+  page: 70
+  ingredients:
+  - scallions
+  - sesame oil
+  - chile oil
+  - cooked chicken meat
+  - light soy sauce
+  - Chinkiang vinegar
+  - dry-roasted peanuts
+  - sesame seeds
+  - sesame paste
+  - Sichuan pepper
+  - superfine sugar
+- title: Chicken in Sichuan pepper and scallion sauce (Jiaoma jipian)
+  page: 71
+  ingredients:
+  - scallions
+  - sesame oil
+  - light soy sauce
+  - cooked chicken meat
+  - Sichuan peppercorns
+- title: Fish-fragrant cold chicken (Yuxiang jisi)
+  page: 72
+  ingredients:
+  - scallions
+  - fresh ginger
+  - chile oil
+  - sesame oil
+  - cooked chicken meat
+  - garlic
+  - light soy sauce
+  - Chinkiang vinegar
+  - superfine sugar
+  - sambal oelek
+- title: '"Red oil" sauce 1'
+  page: 72
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - chile oil
+  - sesame oil
+- title: Numbing and hot sauce 1 (Mala wei)
+  page: 74
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - Sichuan pepper
+- title: Chongqing sauce with bird's eye chiles and green Sichuan pepper oil 1 (Tengjiao
+    ji)
+  page: 74
+  ingredients:
+  - light soy sauce
+  - Sichuan pepper oil
+  - red bird's eye chiles
+  - green bird's eye chiles
+  - rapeseed oil
+  - sesame oil
+- title: 'Spicy dips (Zhanshui): fresh chile'
+  page: 74
+  ingredients:
+  - red bird's eye chiles
+  - light soy sauce
+  - fresh ginger
+  - Sichuan pepper
+  - rapeseed oil
+- title: 'Spicy dips (Zhanshui): chile oil dip'
+  page: 74
+  ingredients:
+  - light soy sauce
+  - fresh ginger
+  - Sichuan pepper
+  - rapeseed oil
+  - scallions
+  - chile oil
+- title: Cold chicken with fragrant rice wine (Xiangzao jitiao)
+  page: 75
+  ingredients:
+  - cooked chicken meat
+  - glutinous rice wine
+  - white pepper
+- title: Broccoli with sesame oil (Xiangyou xilanhua)
+  page: 76
+  ingredients:
+  - sesame oil
+  - broccoli
+- title: Green soybeans in a simple stock sauce (Yanshui qingdou)
+  page: 77
+  ingredients:
+  - soybeans
+  - sesame oil
+  - Sichuan pickled chiles
+  - chicken stock
+- title: Spinach in sour-and-hot dressing (Suanla bocai)
+  page: 79
+  ingredients:
+  - spinach
+  - light soy sauce
+  - Chinkiang vinegar
+  - superfine sugar
+  - chile oil
+- title: Preserved eggs with green bell peppers (Qingjiao pidan)
+  page: 80
+  ingredients:
+  - green bell peppers
+  - preserved duck eggs
+  - light soy sauce
+  - superfine sugar
+  - chile oil
+  - sesame oil
+- title: Coral-like snow lotus (Shanhu xuelian)
+  page: 81
+  ingredients:
+  - lotus root
+  - fresh ginger
+  - rice vinegar
+  - superfine sugar
+- title: Green beans in ginger sauce (Jiangzhi jiangdou)
+  page: 82
+  ingredients:
+  - fresh ginger
+  - sesame oil
+  - Chinkiang vinegar
+  - green beans
+- title: '"White" pork in garlicky sauce (Suanni bairou)'
+  page: 85
+  ingredients:
+  - scallions
+  - chile oil
+  - sesame oil
+  - fresh ginger
+  - garlic
+  - pork rump
+  - cucumbers
+  - fennel seeds
+  - whole star anise
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Quick "garlic paste" sauce
+  page: 85
+  ingredients:
+  - light soy sauce
+  - garlic
+  - chile oil
+  - sesame oil
+- title: Steamed eggplants with scorched green Turkish peppers (Shaojiao ban qiezi)
+  page: 86
+  ingredients:
+  - eggplants
+  - long green Turkish peppers
+  - rapeseed oil
+- title: Spicy steamed eggplant salad (Liangban qiezi)
+  page: 88
+  ingredients:
+  - eggplants
+  - scallions
+  - light soy sauce
+  - Chinkiang vinegar
+  - superfine sugar
+  - chile oil
+  - sesame oil
+- title: Sour-and-hot wood ear salad (Liangban mu'er)
+  page: 89
+  ingredients:
+  - dried woodear mushrooms
+  - red chiles
+  - rice vinegar
+  - cilantro
+  - sesame oil
+- title: Cold fish in spicy sauce  (Liangban xianyu)
+  page: 91
+  ingredients:
+  - sea bream
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - salted chiles
+  - light soy sauce
+  - Sichuan pepper oil
+- title: Three sliver salad with various dressings (Liangban sansi)
+  page: 92
+  ingredients:
+  - bean thread noodles
+  - carrots
+  - kohlrabi
+  - scallions
+  - superfine sugar
+  - rice vinegar
+- title: Dry-tossed three sliver salad (Ganban sansi)
+  page: 92
+  ingredients:
+  - bean thread noodles
+  - carrots
+  - kohlrabi
+  - scallions
+  - superfine sugar
+  - ground Sichuan pepper
+  - sesame oil
+  - ground chiles
+- title: Mustardy dressing (Jiemo wei)
+  page: 93
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - chile oil
+  - mustard oil
+- title: Sour-and-hot dressing (Suanla wei)
+  page: 93
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - chile oil
+- title: '"Old Arabian" cold beef with a spicy dressing (Tianfang ban niurou)'
+  page: 94
+  ingredients:
+  - beef shins
+  - Sichuan pepper
+  - Shaoxing rice wine
+  - fresh ginger
+  - scallions
+  - black cardamom pods
+  - whole star anise
+  - white peppercorns
+  - bay leaves
+  - licorice root
+  - kencur
+  - stock of your choice
+  - dark soy sauce
+  - cucumbers
+  - Chinkiang vinegar
+  - superfine sugar
+  - chile oil
+  - sesame oil
+  - garlic
+  - dry-roasted peanuts
+  - cilantro
+  - ground Sichuan pepper
+- title: '"Man-and-wife" offal slices (Fuqi feipian)'
+  page: 97
+  ingredients:
+  - fresh ginger
+  - scallions
+  - fennel seeds
+  - whole star anise
+  - celery
+  - chile oil
+  - cassia bark
+  - roasted unsalted peanuts
+  - beef shins
+  - honeycomb tripe
+  - stock of your choice
+  - black cardamom pods
+  - Sichuan pepper
+  - white peppercorns
+  - sand ginger
+  - Shaoxing rice wine
+  - sesame seeds
+  - ground Sichuan pepper
+- title: Spiced chicken hearts (Lu jixin)
+  page: 100
+  ingredients:
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - chicken hearts
+  - ground chiles
+  - chicken stock
+  - black cardamom pods
+  - whole star anise
+  - Sichuan peppercorns
+  - cassia bark
+  - licorice root
+  - fennel seeds
+  - dark soy sauce
+  - ground Sichuan pepper
+- title: Dry-tossed beef (Ganban niurou)
+  page: 101
+  ingredients:
+  - scallions
+  - superfine sugar
+  - Sichuan pepper
+  - ground chiles
+  - beef shins
+  - Shaoxing rice wine
+  - fresh ginger
+  - black cardamom pods
+  - whole star anise
+  - white peppercorns
+  - bay leaves
+  - sand ginger
+  - licorice root
+  - stock
+  - dark soy sauce
+- title: '"Phoenix tails" in sesame sauce (Majian fengwei)'
+  page: 102
+  ingredients:
+  - sesame seeds
+  - light soy sauce
+  - superfine sugar
+  - sesame paste
+  - sesame oil
+  - Indian lettuce
+- title: '"Lettuce captured alive" (Huozhuo wosum)'
+  page: 102
+  ingredients:
+  - sesame oil
+  - light soy sauce
+  - superfine sugar
+  - sesame paste
+  - Chinkiang vinegar
+  - chile oil
+  - ground Sichuan pepper
+  - Indian lettuce
+- title: Rabbit with peanuts in hot bean sauce (Huaren ban tuding)
+  page: 104
+  ingredients:
+  - fresh ginger
+  - scallions
+  - fermented black beans
+  - sesame oil
+  - roasted unsalted peanuts
+  - Sichuan chile bean paste
+  - light soy sauce
+  - rabbit
+  - chile oil
+  - superfine sugar
+- title: Smacked cucumber in garlicky sauce (Liangban huangua)
+  page: 106
+  ingredients:
+  - cucumbers
+  - chile oil
+  - sesame oil
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+  - garlic
+- title: Fava beans in garlicky sauce (Suanni huduo)
+  page: 106
+  ingredients:
+  - fava beans
+  - chile oil
+  - sesame oil
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+  - garlic
+- title: '"Tragically hot" water spinach salad (Shangxin ban kongxincai)'
+  page: 107
+  ingredients:
+  - water spinach
+  - long green Turkish peppers
+  - light soy sauce
+  - superfine sugar
+  - Chinkiang vinegar
+  - red bird's eye chiles
+  - green bird's eye chiles
+  - garlic
+- title: Spiced cucumber salad (Qiang huanggua)
+  page: 108
+  ingredients:
+  - cucumbers
+  - sesame oil
+  - dried chiles
+  - Sichuan peppercorns
+- title: Spiced potato sliver salad (Qiangban tudousi)
+  page: 108
+  ingredients:
+  - potatoes
+  - sesame oil
+  - rice vinegar
+  - dried chiles
+  - Sichuan pepper
+- title: North Sichuan cool starch jelly (Chuanbei liangfen)
+  page: 110
+  ingredients:
+  - mung bean starch
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - chile oil
+  - scallions
+  - powdered alum
+  - ground Sichuan pepper
+- title: Cool starch jelly with spicy black bean sauce
+  page: 110
+  ingredients:
+  - fermented black beans
+  - Sichuan chile bean paste
+  - chile oil
+  - toasted sesame seeds
+  - scallions
+  - mung bean starch
+  - powdered alum
+  - ground Sichuan pepper
+- title: '"Lamp-shadow" sweet potato chips (Dengying shaopian)'
+  page: 112
+  ingredients:
+  - sweet potatoes
+  - chile oil
+  - sesame oil
+  - superfine sugar
+  - frying oil of your choice
+- title: Firm tofu with celery and peanuts (Liangban doufugan)
+  page: 113
+  ingredients:
+  - celery
+  - dry-roasted peanuts
+  - chile oil
+  - superfine sugar
+  - firm smoked tofu
+- title: Slivered pig's ears in chile oil sauce (Hongyou er si)
+  page: 114
+  ingredients:
+  - pig ears
+  - fresh ginger
+  - scallions
+  - Sichuan peppercorns
+  - celery
+  - superfine sugar
+  - garlic
+  - chile oil
+  - cilantro
+  - dry-roasted peanuts
+  - toasted sesame seeds
+  - red chiles
+  - ground Sichuan pepper
+- title: '"Rabbit eaten cold" (Leng chi tu)'
+  page: 116
+  ingredients:
+  - fresh ginger
+  - scallions
+  - rabbit
+  - Shaoxing rice wine
+  - dried chiles
+  - frying oil of your choice
+  - Sichuan peppercorns
+  - stock
+  - dark soy sauce
+  - light soy sauce
+  - superfine sugar
+  - Chinkiang vinegar
+  - sesame oil
+  - sesame seeds
+- title: Tea-smoked duck (Zhang cha yazi)
+  page: 118
+  ingredients:
+  - Shaoxing rice wine
+  - whole duck
+  - jasmine tea
+  - fresh ginger
+  - scallions
+  - sesame oil
+  - frying oil of your choice
+  - Sichuan peppercorns
+  - white peppercorns
+  - almond shells
+  - roasted salted peanut shells
+  - cypress leaves
+  - salt
+  - glutinous rice wine
+- title: Numbing-and-hot dried beef (Mala niurou gan)
+  page: 120
+  ingredients:
+  - whole star anise
+  - fresh ginger
+  - scallions
+  - chile oil
+  - sesame oil
+  - sesame seeds
+  - Shaoxing rice wine
+  - black cardamom pods
+  - lean beef
+  - frying oil of your choice
+  - superfine sugar
+  - ground chiles
+  - ground Sichuan pepper
+- title: Fragrant deep-fried peanuts (Yousu huaren)
+  page: 122
+  ingredients:
+  - raw peanuts
+  - frying oil of your choice
+  - ground Sichuan pepper
+- title: '"Strange flavor" peanuts (Guaiwei huaren)'
+  page: 123
+  ingredients:
+  - raw peanuts
+  - ground chiles
+  - superfine sugar
+  - ground Sichuan pepper
+- title: Twice-cooked pork (Hui guo rou)
+  page: 132
+  ingredients:
+  - chile bean paste
+  - fermented black beans
+  - dark soy sauce
+  - fresh ginger
+  - scallions
+  - pork rump
+  - green garlic
+  - lard
+  - sweet flour sauce
+- title: Pork slivers with yellow chives (Jiuhuang rousi)
+  page: 134
+  ingredients:
+  - Chinese yellow chives
+  - Shaoxing rice wine
+  - Chinkiang vinegar
+  - light soy sauce
+  - pork legs
+  - potato starch
+- title: Bowl-steamed pork in ricemeal with peas (Fenzheng rou)
+  page: 135
+  ingredients:
+  - pork belly
+  - dark soy sauce
+  - peas
+  - rice meal
+  - Sichuan chile bean paste
+  - fermented tofu
+  - Shaoxing rice wine
+  - fresh ginger
+  - superfine sugar
+  - white peppercorns
+  - scallions
+- title: Bowl-steamed pork belly with preserved vegetable (Han shaobai)
+  page: 137
+  ingredients:
+  - pork belly
+  - dark soy sauce
+  - fermented black beans
+  - Tianjin preserved vegetables
+- title: '"Dragon-eye" steamed pork with preserved vegetable (Longyan han shaobai)'
+  page: 138
+  ingredients:
+  - pork belly
+  - dark soy sauce
+  - fermented black beans
+  - Tianjin preserved vegetables
+  - pickled red chiles
+- title: Pork in "lychee" sauce with crispy rice (Guoba roupian)
+  page: 139
+  ingredients:
+  - pork loin
+  - scallions
+  - sesame oil
+  - Chinkiang vinegar
+  - Shaoxing rice wine
+  - light soy sauce
+  - bamboo shoots
+  - Sichuan pickled chiles
+  - leafy greens of your choice
+  - garlic
+  - fresh ginger
+  - dried shiitake mushrooms
+  - dried wood ear mushrooms
+  - stock
+  - potato starch
+  - jasmine rice
+  - frying oil of your choice
+  - superfine sugar
+- title: Stir-fried pork slivers with sweet flour sauce (Jingjiang rousi)
+  page: 142
+  ingredients:
+  - pork loin
+  - scallions
+  - Shaoxing rice wine
+  - light soy sauce
+  - sweet flour sauce
+  - potato starch
+  - superfine sugar
+  - dark soy sauce
+- title: Red-braised pork (Hongshao rou)
+  page: 143
+  ingredients:
+  - pork belly
+  - fresh ginger
+  - scallions
+  - whole star anise
+  - stock
+  - dark soy sauce
+  - Shaoxing rice wine
+  - rock sugar
+- title: Fish-fragrant pork slivers (Yuxiang rousi)
+  page: 145
+  ingredients:
+  - pickled chile paste
+  - pork loin
+  - fresh ginger
+  - scallions
+  - light soy sauce
+  - Shaoxing rice wine
+  - Chinkiang vinegar
+  - dried wood ear mushrooms
+  - celery
+  - garlic
+  - potato starch
+  - superfine sugar
+- title: Sweet-and-sour pork (Tangcu liji)
+  page: 146
+  ingredients:
+  - pork loin
+  - scallions
+  - fresh ginger
+  - eggs
+  - Shaoxing rice wine
+  - Chinkiang vinegar
+  - light soy sauce
+  - potato starch
+  - frying oil of your choice
+  - garlic
+  - superfine sugar
+- title: Deep-fried pork with salt and Sichuan pepper (Jiaoyan liji)
+  page: 147
+  ingredients:
+  - pork loin
+  - scallions
+  - fresh ginger
+  - eggs
+  - Shaoxing rice wine
+  - potato starch
+  - frying oil of your choice
+  - garlic
+  - salt
+  - ground Sichuan pepper
+- title: Deep-fried pork with fish-fragrant sauce (Yuxiang liji)
+  page: 147
+  ingredients:
+  - pork loin
+  - scallions
+  - fresh ginger
+  - eggs
+  - Shaoxing rice wine
+  - potato starch
+  - frying oil of your choice
+  - garlic
+  - Chinkiang vinegar
+  - light soy sauce
+- title: Li Zhuang "head bowl" meatloaf stew (Li Zhuang touwan)
+  page: 148
+  ingredients:
+  - dried daylily flowers
+  - dried wood ear mushrooms
+  - bok choy
+  - yellow peas
+  - stock
+  - white peppercorns
+  - ground pork
+  - eggs
+  - potato starch
+  - fresh ginger
+  - ground Sichuan pepper
+- title: Pork slivers with preserved mustard tuber (Zhacai rousi)
+  page: 151
+  ingredients:
+  - pork loin
+  - scallions
+  - Sichuan preserved mustard tuber
+  - Shaoxing rice wine
+  - light soy sauce
+  - lard
+  - potato starch
+  - superfine sugar
+- title: Stir-fried ground pork with preserved mustard tuber (Zhacai rousi)
+  page: 151
+  ingredients:
+  - scallions
+  - Sichuan preserved mustard tuber
+  - lard
+  - superfine sugar
+  - ground pork
+- title: Sichuanese stir-fried bacon (Huiguo larou)
+  page: 152
+  ingredients:
+  - long green Turkish peppers
+  - Sichuan peppercorns
+  - pork rump
+  - baijiu
+  - five spice powder
+  - curing salt
+  - almond shells
+  - cypress leaves
+  - dried tangerine peel
+  - peanut shells
+- title: Salt-fried pork (Shengbao yanjian rou)
+  page: 154
+  ingredients:
+  - fermented black beans
+  - Sichuan chile bean paste
+  - light soy sauce
+  - pork rump
+  - green bell peppers
+  - lard
+  - dark soy sauce
+  - salt
+- title: Stir-fried pig's liver (Baiyou ganpian)
+  page: 155
+  ingredients:
+  - pig livers
+  - scallions
+  - fresh ginger
+  - sesame oil
+  - Sichuan pickled chiles
+  - Shaoxing rice wine
+  - white pepper
+  - light soy sauce
+  - dried wood ear mushrooms
+  - celery
+  - potato starch
+  - superfine sugar
+- title: Fire-exploded kidney "flowers" (Huobao yaohua)
+  page: 157
+  ingredients:
+  - pig kidneys
+  - celery
+  - scallions
+  - white peppercorns
+  - Sichuan pickled chiles
+  - fresh ginger
+  - Shaoxing rice wine
+  - light soy sauce
+  - potato starch
+  - white pepper
+- title: Stewed pork with carrots (Huluobo shao rou)
+  page: 159
+  ingredients:
+  - pork belly
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - whole star anise
+  - cassia bark
+  - stock
+  - superfine sugar
+  - dark soy sauce
+  - carrots
+  - white pepper
+- title: Pork slices with black wood ear mushrooms (Mu'er roupian)
+  page: 160
+  ingredients:
+  - celery
+  - scallions
+  - fresh ginger
+  - Sichuan pickled chiles
+  - Shaoxing rice wine
+  - dried wood ear mushrooms
+  - pork tenderloin
+  - potato starch
+  - white pepper
+- title: Boiled beef slices in a fiery sauce (Shuizhu niurou)
+  page: 161
+  ingredients:
+  - celery
+  - scallions
+  - dried chiles
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - stock
+  - dark soy sauce
+  - beef tenderloin
+  - napa cabbage
+  - Sichuan peppercorns
+  - potato starch
+  - ground chiles
+  - fresh ginger
+  - garlic
+  - cilantro
+- title: Spicy steamed beef with ricemeal (Xiaolong fenzheng niurou)
+  page: 165
+  ingredients:
+  - fresh ginger
+  - scallions
+  - sesame oil
+  - dark soy sauce
+  - Shaoxing rice wine
+  - beef tenderloin
+  - garlic
+  - ground chiles
+  - fermented black beans
+  - fermented tofu
+  - rice meal
+  - cilantro
+  - ground Sichuan pepper
+- title: Dry-fried beef slivers (Ganbian niurou si)
+  page: 166
+  ingredients:
+  - beef tenderloin
+  - celery
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - dark soy sauce
+  - sesame oil
+- title: Red-braised beef with daikon (Hongshao niurou)
+  page: 168
+  ingredients:
+  - fresh ginger
+  - scallions
+  - whole star anise
+  - daikon radishes
+  - cilantro
+  - Sichuan chile bean paste
+  - beef stock
+  - Shaoxing rice wine
+  - dark soy sauce
+  - beef brisket
+  - black cardamom pods
+- title: Spicy blood stew (Mao xue wang)
+  page: 170
+  ingredients:
+  - dried tofu sticks
+  - lotus root
+  - dried chiles
+  - scallions
+  - Sichuan chile bean paste
+  - fermented black beans
+  - Spam
+  - bean sprouts
+  - fresh ginger
+  - garlic
+  - stock
+  - Shaoxing rice wine
+  - white pepper
+  - Sichuan peppercorns
+  - shallots
+  - rapeseed oil
+  - whole star anise
+  - cassia bark
+  - green cardamom pods
+  - bay leaves
+  - fennel seeds
+  - ground chiles
+  - jellied pig blood
+- title: Scalded kidneys with fresh chile (Xianjiao yaopian)
+  page: 172
+  ingredients:
+  - pig kidneys
+  - red chiles
+  - green chiles
+  - garlic
+  - light soy sauce
+  - Sichuan pepper oil
+  - white peppercorns
+  - Shaoxing rice wine
+  - potato starch
+- title: Dry-braised beef tendons (Ganshao niujin)
+  page: 173
+  ingredients:
+  - scallions
+  - Sichuan pickled chiles
+  - ground pork
+  - dark soy sauce
+  - Sichuan chile bean paste
+  - garlic
+  - fresh ginger
+  - Tianjin preserved vegetables
+  - sesame oil
+  - beef tendons
+  - stock
+  - Shaoxing rice wine
+  - cassia bark
+  - whole star anise
+  - Sichuan peppercorns
+- title: Gong bao chicken with peanuts (Gongbao jiding)
+  page: 182
+  ingredients:
+  - chicken breasts
+  - fresh ginger
+  - scallions
+  - dried chiles
+  - sesame oil
+  - Shaoxing rice wine
+  - light soy sauce
+  - dark soy sauce
+  - Chinkiang vinegar
+  - roasted unsalted peanuts
+  - Sichuan peppercorns
+  - potato starch
+  - superfine sugar
+- title: Zigong "small-fried" chicken (Zigong xiaojian ji)
+  page: 184
+  ingredients:
+  - chicken thighs
+  - red chiles
+  - long green Turkish peppers
+  - celery
+  - red bell peppers
+  - Sichuan peppercorns
+  - salted chiles
+  - fresh ginger
+  - garlic
+  - Chinkiang vinegar
+  - Shaoxing rice wine
+  - potato starch
+  - superfine sugar
+  - dark soy sauce
+  - light soy sauce
+- title: Taibai chicken (Taibai ji)
+  page: 185
+  ingredients:
+  - chicken thighs
+  - dried chiles
+  - scallions
+  - sesame oil
+  - Shaoxing rice wine
+  - Sichuan pickled chiles
+  - dark soy sauce
+  - white pepper
+  - Sichuan peppercorns
+  - superfine sugar
+- title: Dry-fried chicken (Ganbian ji)
+  page: 186
+  ingredients:
+  - scallions
+  - dried chiles
+  - dark soy sauce
+  - Sichuan chile bean paste
+  - chicken thighs
+  - long green Turkish peppers
+  - Sichuan peppercorns
+  - fresh ginger
+  - chile oil
+  - superfine sugar
+- title: Braised chicken with chestnuts (Banli shaoji)
+  page: 188
+  ingredients:
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - dark soy sauce
+  - chicken thighs
+  - chicken stock
+  - cooked chestnuts
+  - superfine sugar
+- title: Chicken in a delicate vinegar sauce (Culiu ji)
+  page: 189
+  ingredients:
+  - pickled chile paste
+  - chicken breasts
+  - celery
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - Chinkiang vinegar
+  - egg whites
+  - potato starch
+  - frying oil of your choice
+  - garlic
+  - superfine sugar
+- title: Stir-fried chicken with preserved vegetable (Jimi yacai)
+  page: 193
+  ingredients:
+  - chicken thighs
+  - Shaoxing rice wine
+  - potato starch
+  - red chiles
+  - long green Turkish peppers
+  - fresh ginger
+  - Sichuan ya cai
+- title: Braised chicken with baby taro (Yu'er shao ji)
+  page: 194
+  ingredients:
+  - chicken thighs
+  - dark soy sauce
+  - Shaoxing rice wine
+  - baby taro root
+  - dried chiles
+  - scallions
+  - black cardamom pods
+  - chicken stock
+  - Sichuan chile bean paste
+  - whole star anise
+  - cassia bark
+  - garlic
+  - fresh ginger
+  - ground chiles
+  - Sichuan peppercorns
+  - cilantro
+- title: Chongqing chicken with chiles (Lazi ji)
+  page: 196
+  ingredients:
+  - dried chiles
+  - scallions
+  - sesame oil
+  - Shaoxing rice wine
+  - light soy sauce
+  - dark soy sauce
+  - fresh ginger
+  - whole chicken
+  - frying oil of your choice
+  - Sichuan chile bean paste
+  - Sichuan peppercorns
+  - superfine sugar
+- title: Stir-fried chicken hodgepodge (Chao jiza)
+  page: 199
+  ingredients:
+  - celery
+  - chicken livers
+  - Sichuan pickled chiles
+  - pickled ginger
+  - Shaoxing rice wine
+  - white pepper
+  - scallions
+  - potato starch
+  - chile oil
+  - superfine sugar
+- title: Fish-fragrant fried chicken (Yuxiang bakuai ji)
+  page: 200
+  ingredients:
+  - chicken thighs
+  - Shaoxing rice wine
+  - potato starch
+  - egg whites
+  - frying oil of your choice
+  - Sichuan chile bean paste
+  - garlic
+  - fresh ginger
+  - scallions
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+- title: Chicken "tofu" (Ji douhua)
+  page: 203
+  ingredients:
+  - fresh ginger
+  - scallions
+  - chicken breasts
+  - baby choy sum
+  - egg whites
+  - Shaoxing rice wine
+  - potato starch
+  - chicken stock
+  - goji berries
+  - white pepper
+- title: '"One tender bite" from Quiatou, Zigong'
+  page: 204
+  ingredients:
+  - chicken thighs
+  - Sichuan peppercorns
+  - potato starch
+  - scallions
+  - fresh ginger
+  - Sichuan chile bean paste
+  - salted chiles
+  - ground chiles
+  - lard
+  - rapeseed oil
+- title: Fragrant and crispy duck (Xiangsu quan ya)
+  page: 205
+  ingredients:
+  - sand ginger
+  - whole duck
+  - whole star anise
+  - fennel seeds
+  - fresh ginger
+  - scallions
+  - sesame oil
+  - Shaoxing rice wine
+  - cassia bark
+  - whole cloves
+  - frying oil of your choice
+  - Sichuan peppercorns
+  - black cardamom pods
+- title: Duck braised with konnyaku "tofu" (Moyu shaoya)
+  page: 208
+  ingredients:
+  - konnyaku yam jelly
+  - scallions
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - pickled ginger
+  - dark soy sauce
+  - duck legs
+  - duck breasts
+  - fresh ginger
+  - potato starch
+  - white pepper
+- title: Steamed egg custard with ground pork topping (Saozi zheng dan)
+  page: 211
+  ingredients:
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+  - stock
+  - ground pork
+  - sweet flour sauce
+- title: Fish braised in chili bean sauce (Douban xianyu)
+  page: 218
+  ingredients:
+  - fresh ginger
+  - scallions
+  - Chinkiang vinegar
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - garlic
+  - stock
+  - light soy sauce
+  - sea bass
+  - potato starch
+  - sesame oil
+- title: Fish stew with pickled mustard greens (Suancai yu)
+  page: 221
+  ingredients:
+  - scallions
+  - fresh ginger
+  - Sichuan pickled chiles
+  - Shaoxing rice wine
+  - pickled mustard greens
+  - egg whites
+  - potato starch
+  - grass carp
+  - green Sichuan peppercorns
+  - red chiles
+  - green chiles
+  - white pepper
+- title: Boiled fish in a seething sea of chiles (Shuizhu yu)
+  page: 223
+  ingredients:
+  - sea bream
+  - dried chiles
+  - Sichuan peppercorns
+  - bean sprouts
+  - white peppercorns
+  - Shaoxing rice wine
+  - egg whites
+  - potato starch
+  - scallions
+  - fresh ginger
+  - onions
+  - oil
+  - whole star anise
+  - cilantro stems
+- title: Dry-braised fish with pork in spicy sauce (Ganshao xianyu)
+  page: 226
+  ingredients:
+  - Shaoxing rice wine
+  - scallions
+  - fresh ginger
+  - sesame oil
+  - dark soy sauce
+  - stock
+  - Sichuan fermented rice wine
+  - rainbow trout
+  - red bell peppers
+  - potato starch
+  - Sichuan chile bean paste
+  - garlic
+  - preserved mustard tuber
+  - superfine sugar
+  - ground pork belly
+- title: Dry-braised shrimp (Ganshao gia)
+  page: 229
+  ingredients:
+  - tiger shrimp
+  - scallions
+  - Szechuan pickled chiles
+  - ya cai
+  - frying oil of your choice
+  - Sichuan chile bean paste
+  - fresh ginger
+  - superfine sugar
+  - light soy sauce
+  - dark soy sauce
+  - Shaoxing rice wine
+- title: Sweet-and-sour crispy fish (Tangcu cui piyu)
+  page: 231
+  ingredients:
+  - scallions
+  - fresh ginger
+  - Shaoxing rice wine
+  - Chinkiang vinegar
+  - light soy sauce
+  - stock
+  - sesame oil
+  - Sichuan pickled chiles
+  - sea bass
+  - frying oil of your choice
+  - potato starch
+  - superfine sugar
+- title: Numbing-and-hot tiny fish (Mala ziyu)
+  page: 233
+  ingredients:
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - frozen baby whitebait
+  - Sichuan chile powder
+  - frying oil of your choice
+  - ground chiles
+  - ground Sichuan pepper
+- title: Gong bao shrimp with cashews (Gongbao xiaqiu)
+  page: 234
+  ingredients:
+  - shrimp
+  - dried chillies
+  - scallions
+  - celery
+  - frying oil of your choice
+  - Sichuan peppercorns
+  - fresh ginger
+  - roasted unsalted cashew nuts
+  - Shaoxing rice wine
+  - potato starch
+  - egg whites
+  - light soy sauce
+  - Chinkiang vinegar
+- title: Fish with fresh chile and green Sichuan pepper (Tengjiao yu)
+  page: 236
+  ingredients:
+  - fresh ginger
+  - scallions
+  - Shaoxing rice wine
+  - garlic
+  - sea bream
+  - red chiles
+  - green chiles
+  - green Sichuan peppercorns
+  - bean sprouts
+  - white pepper
+  - egg whites
+  - potato starch
+  - stock
+  - light soy sauce
+  - onions
+  - oil
+  - whole star anise
+  - cilantro stems
+- title: Mapo tofu (Mapo doufu)
+  page: 245
+  ingredients:
+  - tofu
+  - Chinese garlic stems
+  - ground beef
+  - Sichuan chile bean paste
+  - fermented black beans
+  - ground chiles
+  - garlic
+  - fresh ginger
+  - white pepper
+  - potato starch
+  - ground Sichuan pepper
+- title: Home made nigari "flower" tofu (Huoshui douhua)
+  page: 247
+  ingredients:
+  - dried yellow soybeans
+  - nigari
+  - dip of your choice
+- title: Chile bean paste dip 1
+  page: 248
+  ingredients:
+  - Sichuan chile bean paste
+  - fermented black beans
+  - ground Sichuan pepper
+- title: Chile oil dip 1
+  page: 248
+  ingredients:
+  - rapeseed oil
+  - chile oil
+  - light soy sauce
+  - scallions
+- title: Pounded ciba chile dip 1
+  page: 248
+  ingredients:
+  - dried chiles
+  - Sichuan peppercorns
+  - light soy sauce
+  - spearmint
+- title: Ground chile dip 1
+  page: 248
+  ingredients:
+  - ground chiles
+  - scallions
+  - light soy sauce
+  - rapeseed oil
+  - ground Sichuan pepper
+- title: Home-style tofu
+  page: 250
+  ingredients:
+  - tofu
+  - baby leeks
+  - chile bean paste
+  - fresh ginger
+  - stock
+  - superfine sugar
+  - light soy sauce
+  - potato starch
+- title: Tofu with ground meat in fermented sauce (Jiang shao dou fu)
+  page: 252
+  ingredients:
+  - tofu
+  - scallions
+  - fermented black beans
+  - ground beef
+  - dark soy sauce
+  - sweet flour sauce
+  - light soy sauce
+  - potato starch
+- title: Leshan "bear's paw" tofu (Xiongzhang doufu)
+  page: 253
+  ingredients:
+  - tofu
+  - potato starch
+  - frying oil of your choice
+  - Sichuan chile bean paste
+  - pickled chile paste
+  - fresh ginger
+  - stock
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - scallions
+- title: Mount Emie spicy silken tofu (Emei doufu nao)
+  page: 255
+  ingredients:
+  - silken tofu
+  - potato starch
+  - light soy sauce
+  - chile oil
+  - celery
+  - cilantro
+  - scallions
+  - Sichuan preserved mustard tuber
+  - Bombay mix
+  - dry-roasted peanuts
+  - ground Sichuan pepper
+- title: Sour-and-hot "flower" tofu (Suanla douhua)
+  page: 256
+  ingredients:
+  - chile oil
+  - scallions
+  - light soy sauce
+  - preserved mustard tuber
+  - Chinkiang vinegar
+  - silken tofu
+  - sesame oil
+  - Bombay mix
+- title: Xiba tofu (Xiba doufu)
+  page: 257
+  ingredients:
+  - cooked chicken meat
+  - cooked ham
+  - tomatoes
+  - lard
+  - ground pork
+  - tofu
+  - potato starch
+  - scallions
+  - white pepper
+  - whole chicken
+  - duck legs
+  - pork ribs
+  - fresh ginger
+  - pork knuckles
+- title: Fish-fragrant eggplants (Yuxiang qiezi)
+  page: 266
+  ingredients:
+  - eggplants
+  - fresh ginger
+  - scallions
+  - Chinkiang vinegar
+  - Sichuan chile bean paste
+  - light soy sauce
+  - frying oil of your choice
+  - garlic
+  - superfine sugar
+  - potato starch
+- title: Dry-fried eggplants (Ganbian qiezi)
+  page: 268
+  ingredients:
+  - eggplants
+  - peanut oil
+  - sesame oil
+  - long green Turkish peppers
+- title: Stuffed eggplant fritters with Sichuan pepper dip (Jiaoyan qiebing)
+  page: 269
+  ingredients:
+  - ground pork
+  - soy sauce
+  - Shaoxing rice wine
+  - eggs
+  - Chinese eggplants
+  - frying oil of your choice
+  - potato starch
+  - salt
+  - Sichuan peppercorns
+- title: Stir-fried water spinach with chiles and Sichuan pepper (Qiang kongzincai)
+  page: 271
+  ingredients:
+  - water spinach
+  - dried chiles
+  - sesame oil
+  - Sichuan peppercorns
+- title: Stir-fried mashed fava beans with scallions (Huiguo hudou)
+  page: 272
+  ingredients:
+  - fava beans
+  - scallions
+  - lard
+- title: Pickled yard-long beans with ground pork (Pao jiangdou chao ruomo)
+  page: 273
+  ingredients:
+  - yard long beans
+  - ground pork
+  - Shaoxing rice wine
+  - dried chiles
+  - Sichuan peppercorns
+  - fresh ginger
+  - rock salt
+  - rock sugar
+  - long red chiles
+  - baijiu
+- title: Dry-fried green beans (Ganbian sijidou)
+  page: 274
+  ingredients:
+  - ground pork
+  - sesame oil
+  - haricots verts
+  - Shaoxing rice wine
+  - frying oil of your choice
+  - Tianjin preserved vegetables
+  - light soy sauce
+- title: Vegetarian dry-fried green beans  (Ganbian sijidou)
+  page: 274
+  ingredients:
+  - scallions
+  - fresh ginger
+  - haricots verts
+  - garlic
+  - dried chiles
+  - Sichuan peppercorns
+  - Sichuan preserved vegetables
+  - sesame oil
+  - frying oil of your choice
+- title: Stir-fried lotus root with chiles and Sichuan pepper (Qiangchao oukuai)
+  page: 276
+  ingredients:
+  - lotus root
+  - dried chiles
+  - Sichuan peppercorns
+  - sesame oil
+- title: Tender boiled vegetables with a spicy dip (Papa cai)
+  page: 277
+  ingredients:
+  - vegetables of your choice
+  - ground chiles
+  - ground Sichuan pepper
+  - scallions
+- title: Dry-fried "eels" [shiitake mushrooms] (Ganbian shanyu)
+  page: 279
+  ingredients:
+  - dried shiitake mushrooms
+  - potato starch
+  - dried chiles
+  - long green Turkish peppers
+  - Sichuan peppercorns
+  - frying oil of your choice
+  - Sichuan chile bean paste
+  - fresh ginger
+  - sesame oil
+  - superfine sugar
+  - light soy sauce
+  - dark soy sauce
+- title: Stir-fried cabbage with chile (Qiang lianhuabai)
+  page: 280
+  ingredients:
+  - sweetheart cabbage
+  - dried chiles
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - Sichuan peppercorns
+- title: Stir-fried cabbage with pork cracklings (Youzha lianbai)
+  page: 282
+  ingredients:
+  - sweetheart cabbage
+  - dried chiles
+  - light soy sauce
+  - Chinkiang vinegar
+  - pork back fat
+- title: Cauliflower with smoked bacon (Larou shao huacai)
+  page: 283
+  ingredients:
+  - cauliflower
+  - stock
+  - smoked bacon
+  - lard
+  - potato starch
+  - white pepper
+- title: Stir-fried garlic stems with smoked bacon (Larou chao suantai)
+  page: 284
+  ingredients:
+  - smoked bacon
+  - garlic stems
+  - sesame oil
+- title: Stir-fried flowering chives with smoked bacon (Larou chao jiucaihua)
+  page: 284
+  ingredients:
+  - flowering chives
+  - sesame oil
+  - smoked bacon
+- title: Dry-fried bitter melon (Ganbian kugua)
+  page: 286
+  ingredients:
+  - bitter melons
+  - dried chiles
+  - Sichuan peppercorns
+  - garlic
+  - preserved vegetables
+  - sesame oil
+- title: Dry-fried bitter melon with ground pork
+  page: 286
+  ingredients:
+  - bitter melons
+  - dried chiles
+  - Sichuan peppercorns
+  - garlic
+  - preserved vegetables
+  - sesame oil
+  - ground pork
+  - soy sauce
+- title: 'Classic dry-fried bitter melon '
+  page: 286
+  ingredients:
+  - bitter melons
+  - green peppers
+- title: Stir-fried potato slivers with chiles and Sichuan pepper (Qiang tuduosi)
+  page: 287
+  ingredients:
+  - potatoes
+  - dried chiles
+  - Sichuan peppercorns
+  - sesame oil
+- title: Stir-fried potato slivers with green bell pepper (Qingjiao tudousi)
+  page: 287
+  ingredients:
+  - potatoes
+  - sesame oil
+  - green bell peppers
+  - scallions
+- title: Stir-fried potato slivers with vinegar (Culiu tudousi)
+  page: 287
+  ingredients:
+  - potatoes
+  - green bell peppers
+  - light soy sauce
+  - Chinkiang vinegar
+- title: '"Crossing the river" choy sum (Guojiang caicxin)'
+  page: 289
+  ingredients:
+  - choy sum
+  - light soy sauce
+  - Chinkiang vinegar
+  - garlic
+  - ground chiles
+  - ground Sichuan pepper
+- title: Green soy beans with "golden hooks" (Jingou qingdou)
+  page: 291
+  ingredients:
+  - dried shrimp
+  - Shaoxing rice wine
+  - fresh ginger
+  - scallions
+  - lard
+  - stock
+  - edamame beans
+  - potato starch
+  - sesame oil
+  - white pepper
+- title: '"Ants climbing a tree" [bean thread noodles with ground pork] (Mayi shangshu)'
+  page: 292
+  ingredients:
+  - chile bean paste
+  - bean thread noodles
+  - ground pork
+  - scallions
+  - Shaoxing rice wine
+  - dark soy sauce
+  - stock
+  - Sichuan chile bean paste
+  - fresh ginger
+  - garlic
+- title: Sweetcorn kernels with green peppers (Qingjiao yumi)
+  page: 293
+  ingredients:
+  - peanut oil
+  - corn ears
+  - long green Turkish peppers
+- title: Stir-fried amaranth leaves with garlic (Chao hancai)
+  page: 294
+  ingredients:
+  - garlic
+  - amaranth leaves
+- title: Stir-fried mixed mushrooms (Shanzhen hui)
+  page: 297
+  ingredients:
+  - mixed mushrooms
+  - scallions
+  - lard
+  - potato starch
+- title: Stewed baby taro with greens (Yu'er baicai)
+  page: 298
+  ingredients:
+  - taro root
+  - bok choy
+  - white pepper
+  - stock of your choice
+- title: Tiger-skin green peppers (Fupi qingjiao)
+  page: 299
+  ingredients:
+  - Chinkiang vinegar
+  - long green Turkish peppers
+  - light soy sauce
+  - frying oil of your choice
+- title: Stir-fried celery with ground pork (Lanrou xiqin)
+  page: 300
+  ingredients:
+  - celery
+  - ground pork
+  - Sichuan chile bean paste
+  - fresh ginger
+  - light soy sauce
+  - Chinkiang vinegar
+  - ground Sichuan pepper
+  - chile oil
+- title: Fried egg and tomato soup (Fanqie jiandan tang)
+  page: 308
+  ingredients:
+  - eggs
+  - tomatoes
+  - stock
+  - lard
+  - spinach
+  - white pepper
+- title: Tomato and egg flower soup (Fanqie danhua tang)
+  page: 308
+  ingredients:
+  - eggs
+  - tomatoes
+  - potato starch
+  - lard
+  - fresh ginger
+  - stock
+- title: Simple tofu soup (Doufu tang)
+  page: 310
+  ingredients:
+  - tomatoes
+  - tofu
+  - choy sum
+  - white pepper
+  - stock of your choice
+- title: Thick split pea soup (Pa wandou tang)
+  page: 311
+  ingredients:
+  - yellow split peas
+  - fresh ginger
+  - scallions
+  - bok choy
+  - lard
+  - Sichuan peppercorns
+  - white pepper
+  - stock of your choice
+- title: Split pea soup with dough wriggles and greens (Doutang shishu miangeda)
+  page: 311
+  ingredients:
+  - yellow split peas
+  - fresh ginger
+  - scallions
+  - bok choy
+  - lard
+  - Sichuan peppercorns
+  - stock
+  - white pepper
+  - all-purpose flour
+- title: Clear simmered oxtail soup (Qingdun niuwei tang)
+  page: 313
+  ingredients:
+  - chicken legs
+  - oxtail
+  - fresh ginger
+  - sesame oil
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - dark soy sauce
+  - Sichuan peppercorns
+  - goji berries
+  - cilantro
+- title: Clear simmered beef soup (Qingdun niurou tang)
+  page: 314
+  ingredients:
+  - chicken legs
+  - fresh ginger
+  - sesame oil
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - dark soy sauce
+  - Sichuan peppercorns
+  - goji berries
+  - daikon radishes
+  - beef brisket
+- title: Boiled pumpkin "soup" (Shuizhu nangua)
+  page: 315
+  ingredients:
+  - pumpkins
+- title: Simple choy sum "soup" (Xiaocai tang)
+  page: 317
+  ingredients:
+  - baby choy sum
+  - chile oil
+  - light soy sauce
+- title: Chicken balls in clear soup (Qingtang jiyuan)
+  page: 318
+  ingredients:
+  - chicken breasts
+  - chicken stock
+  - egg whites
+  - white pepper
+  - potato starch
+  - choy sum
+- title: Chicken soup with pickled mustard greens (Suancai jisi tang)
+  page: 320
+  ingredients:
+  - chicken breasts
+  - Shaoxing rice wine
+  - egg whites
+  - Sichuan pickled mustard greens
+  - chicken stock
+  - potato starch
+- title: Tofu soup with pickled mustard greens (Suancai doufou tang)
+  page: 320
+  ingredients:
+  - Sichuan pickled mustard greens
+  - tofu
+  - stock
+  - scallions
+- title: Meatball and vegetable soup (Jiachang wanzi tang)
+  page: 322
+  ingredients:
+  - white pepper
+  - eggs
+  - fresh ginger
+  - stock
+  - light soy sauce
+  - tomatoes
+  - little gem lettuce
+  - scallions
+  - pork belly
+  - dried shiitake mushrooms
+  - potato starch
+- title: '"Along with the pot" pork and daikon soup (Lianguotang)'
+  page: 323
+  ingredients:
+  - fresh ginger
+  - scallions
+  - daikon radishes
+  - pork
+  - Sichuan chile bean paste
+  - light soy sauce
+  - white pepper
+  - Sichuan peppercorns
+  - sesame oil
+  - dried chiles
+- title: Sour-and-hot "flower" tofu soup (Suanla douhua tang)
+  page: 324
+  ingredients:
+  - scallions
+  - sesame oil
+  - lard
+  - stock
+  - Chinkiang vinegar
+  - light soy sauce
+  - white pepper
+  - silken tofu
+  - potato starch
+  - preserved mustard tuber
+  - chile oil
+  - ground Sichuan pepper
+  - Bombay mix
+- title: Chicken with ginkgo nuts (Baiguo dun ji)
+  page: 326
+  ingredients:
+  - fresh ginger
+  - scallions
+  - gingko nuts
+  - whole chicken
+  - chicken stock
+  - Shaoxing rice wine
+  - white pepper
+- title: '"Rice broth" with vegetables (Mitang zhu qincai)'
+  page: 327
+  ingredients:
+  - rice
+  - vegetables of your choice
+  - stock of your choice
+- title: Plain white rice (Bai mifan)
+  page: 335
+  ingredients:
+  - jasmine rice
+- title: Smothered glutinous rice with peas and cured pork (Wandou larou menfan)
+  page: 336
+  ingredients:
+  - long grain glutinous rice
+  - cured pork
+  - peas
+  - ground Sichuan pepper
+- title: Thin rice porridge (Xifan)
+  page: 337
+  ingredients:
+  - jasmine rice
+- title: Mung bean thin rice porridge (Loudou xifan)
+  page: 337
+  ingredients:
+  - jasmine rice
+  - mung beans
+- title: Lotus-leaf thin rice porridge (Heye xifan)
+  page: 337
+  ingredients:
+  - jasmine rice
+  - lotus leaves
+- title: Eight-treasure black rice porridge (Babao heimi zhou)
+  page: 338
+  ingredients:
+  - Chinese black glutinous rice
+  - Chinese white glutinous rice
+  - lotus seeds
+  - azuki beans
+  - mung beans
+  - walnuts
+  - raw peanuts
+  - dried Chinese dates
+  - daylily bulbs
+  - jasmine rice
+  - goji berries
+- title: Traditional dandan noodles (Dandan mian)
+  page: 346
+  ingredients:
+  - Szechuanese ya cai
+  - scallions
+  - chile oil
+  - lard
+  - ground pork
+  - dark soy sauce
+  - Chinkiang vinegar
+  - peanut oil
+  - Shaoxing rice wine
+  - light soy sauce
+  - sesame paste
+  - ground Sichuan pepper
+  - Chinese wheat flour noodles
+  - leafy greens of your choice
+  - fresh ginger
+  - sweet flour sauce
+- title: Chongqing "small" noodles (Chongqing xiaomian)
+  page: 349
+  ingredients:
+  - Chinese wheat flour noodles
+  - choy sum
+  - scallions
+  - sesame paste
+  - Tianjin preserved vegetables
+  - ground Sichuan pepper
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - dry-roasted peanuts
+  - stock of your choice
+- title: Chongqing "small" noodles with yellow peas (Wandou xiaomian)
+  page: 349
+  ingredients:
+  - Chinese wheat flour noodles
+  - choy sum
+  - scallions
+  - sesame paste
+  - Tianjin preserved vegetables
+  - ground Sichuan pepper
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - dry-roasted peanuts
+  - yellow peas
+  - stock of your choice
+- title: Chongqing "small" noodles with ground pork topping (Cuishao mian)
+  page: 350
+  ingredients:
+  - Chinese wheat flour noodles
+  - choy sum
+  - stock
+  - scallions
+  - sesame paste
+  - Tianjin preserved vegetables
+  - ground Sichuan pepper
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - dry-roasted peanuts
+  - ground pork
+  - fresh ginger
+  - Shaoxing rice wine
+  - sweet flour sauce
+  - dark soy sauce
+- title: Chongqing "small" noodles with ground pork and yellow peas (Wanza mian)
+  page: 350
+  ingredients:
+  - Chinese wheat flour noodles
+  - choy sum
+  - stock
+  - scallions
+  - sesame paste
+  - Tianjin preserved vegetables
+  - ground Sichuan pepper
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - dry-roasted peanuts
+  - ground pork
+  - fresh ginger
+  - Shaoxing rice wine
+  - sweet flour sauce
+  - dark soy sauce
+  - yellow peas
+- title: Dry-tossed Chongqing noodles (Ganban xiaomian)
+  page: 350
+  ingredients:
+  - Chinese wheat flour noodles
+  - choy sum
+  - scallions
+  - sesame paste
+  - Tianjin preserved vegetables
+  - ground Sichuan pepper
+  - light soy sauce
+  - chile oil
+  - sesame oil
+  - dry-roasted peanuts
+  - ground pork
+  - fresh ginger
+  - Shaoxing rice wine
+  - sweet flour sauce
+  - dark soy sauce
+  - yellow peas
+- title: Mr. Xie's dandan noodles (Niurou dandan mian)
+  page: 351
+  ingredients:
+  - sesame paste
+  - Szechuanese ya cai
+  - peanut oil
+  - ground beef
+  - chile oil
+  - dried Sichuan chiles
+  - Sichuan peppercorns
+  - light soy sauce
+  - dark soy sauce
+  - sesame oil
+  - ground Sichuan pepper
+  - Chinese wheat flour noodles
+  - dried chiles
+- title: Spicy noodles with silken tofu (Douhua mian)
+  page: 352
+  ingredients:
+  - chile oil
+  - scallions
+  - Chinese sesame paste
+  - light soy sauce
+  - roasted unsalted peanuts
+  - silken tofu
+  - Chinese wheat flour noodles
+  - ground Sichuan pepper
+  - preserved mustard tuber
+  - Bombay mix
+- title: Soup noodles with shredded pork and pickled greens (Suancai rousi mian)
+  page: 353
+  ingredients:
+  - pork loin
+  - pickled mustard greens
+  - fresh ginger
+  - stock
+  - scallions
+  - sesame oil
+  - Chinese wheat flour noodles
+  - white pepper
+  - Shaoxing rice wine
+  - potato starch
+- title: Sichuan soup noodles with ground pork topping (Qingtang zajian mian)
+  page: 354
+  ingredients:
+  - ya cai
+  - lard
+  - light soy sauce
+  - sesame oil
+  - scallions
+  - stock
+  - Chinese wheat flour noodles
+  - leafy greens of your choice
+  - white pepper
+  - fresh ginger
+  - ground pork
+  - Shaoxing rice wine
+  - sweet flour sauce
+  - dark soy sauce
+- title: Hand-made sweet water noodles (Tianshui mian)
+  page: 356
+  ingredients:
+  - chile oil
+  - sweet soy sauce
+  - dry-roasted peanuts
+  - all-purpose flour
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Sesame flavored sweet water noodles
+  page: 357
+  ingredients:
+  - chile oil
+  - sweet soy sauce
+  - dry-roasted peanuts
+  - all-purpose flour
+  - sesame paste
+  - sesame oil
+  - toasted sesame seeds
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Mr. Xie's "sea-flavor" noodles (Haiwei mian)
+  page: 358
+  ingredients:
+  - button mushrooms
+  - canned bamboo shoots
+  - dried shrimp
+  - Shaoxing rice wine
+  - stock
+  - dried shiitake mushrooms
+  - pork belly
+  - fresh ginger
+  - scallions
+  - white pepper
+  - Chinese wheat flour noodles
+- title: Copper Well Lane vegetarian noodles (Tongjing xiang sumian)
+  page: 359
+  ingredients:
+  - sesame paste
+  - light soy sauce
+  - Chinkiang vinegar
+  - chile oil
+  - sesame oil
+  - ground Sichuan pepper
+  - scallions
+  - Chinese wheat flour noodles
+  - leafy greens of your choice
+  - dried shiitake mushrooms
+  - dried chiles
+  - Sichuan peppercorns
+  - Tianjin preserved vegetables
+  - dark soy sauce
+- title: Spicy cold noodles with chicken slivers (Jisi liangmian)
+  page: 360
+  ingredients:
+  - sesame paste
+  - bean sprouts
+  - chile oil
+  - sesame oil
+  - cooked chicken breast meat
+  - Chinkiang vinegar
+  - Chinese wheat flour noodles
+  - sesame seeds
+  - superfine sugar
+  - ground Sichuan pepper
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - cassia bark
+- title: 'Spicy peanut butter noodles '
+  page: 360
+  ingredients:
+  - bean sprouts
+  - chile oil
+  - sesame oil
+  - cooked chicken breast meat
+  - Chinkiang vinegar
+  - Chinese wheat flour noodles
+  - ground Sichuan pepper
+  - peanut butter
+  - light soy sauce
+  - dark soy sauce
+  - toasted sesame seeds
+  - scallions
+- title: Yibin "kindling" noodles (Yibin ranmian)
+  page: 362
+  ingredients:
+  - walnuts
+  - sesame seeds
+  - scallions
+  - sesame oil
+  - roasted unsalted peanuts
+  - light soy sauce
+  - frying oil of your choice
+  - Tianjin preserved vegetables
+  - Chinese wheat flour noodles
+  - ground chiles
+  - fresh ginger
+  - rapeseed oil
+  - Sichuan peppercorns
+- title: Cold buckwheat noodles (Liang qiaomian)
+  page: 365
+  ingredients:
+  - buckwheat noodles
+  - celery
+  - scallions
+  - toasted sesame seeds
+  - light soy sauce
+  - Chinkiang vinegar
+  - superfine sugar
+  - chile oil
+- title: Sour-and-hot sweet potato noodles (Suanla fen)
+  page: 366
+  ingredients:
+  - sweet potato noodles
+  - bean sprouts
+  - scallions
+  - preserved mustard tuber
+  - celery
+  - deep-fried soybeans
+  - garlic
+  - ground Sichuan pepper
+  - Chinkiang vinegar
+  - light soy sauce
+  - dark soy sauce
+  - chile oil
+  - stock of your choice
+- title: '"Zhong" crescent dumplings (Zhong shuijiao)'
+  page: 375
+  ingredients:
+  - fresh ginger
+  - ground pork
+  - chile oil
+  - sesame oil
+  - eggs
+  - garlic
+  - toasted sesame seeds
+  - bread flour
+  - ground Sichuan pepper
+  - white pepper
+  - fennel seeds
+  - whole star anise
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Dragon wontons (Long chaoshou)
+  page: 377
+  ingredients:
+  - wonton wrappers
+  - white pepper
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - scallions
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+- title: To make your own wonton wrappers
+  page: 378
+  ingredients:
+  - all-purpose flour
+  - eggs
+- title: Chengdu wontons with dried chile sauce (Ganban chaoshou)
+  page: 379
+  ingredients:
+  - light soy sauce
+  - chile oil
+  - ground Sichuan pepper
+  - ground chiles
+  - toasted sesame seeds
+  - dry-roasted peanuts
+  - scallions
+  - wonton wrappers
+  - white pepper
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+- title: Dry-chile wontons (Ganhaijiao chaoshou)
+  page: 379
+  ingredients:
+  - light soy sauce
+  - chile oil
+  - ground Sichuan pepper
+  - ground chiles
+  - toasted sesame seeds
+  - dry-roasted peanuts
+  - scallions
+  - chicken stock
+  - wonton wrappers
+  - white pepper
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+- title: Cold-tossed wontons (Liangban chaoshou)
+  page: 379
+  ingredients:
+  - superfine sugar
+  - Chinkiang vinegar
+  - light soy sauce
+  - chile oil
+  - ground Sichuan pepper
+  - dry-roasted peanuts
+  - toasted sesame seeds
+  - scallions
+  - wonton wrappers
+  - white pepper
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+- title: Wontons in chile oil sauce (Hongyou chaoshou)
+  page: 379
+  ingredients:
+  - chile oil
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+  - wonton wrappers
+  - white pepper
+  - pig trotters
+  - chicken wings
+  - scallions
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+  - sesame oil
+- title: Wontons in sour-and-hot soup (Suanla chaoshou)
+  page: 380
+  ingredients:
+  - light soy sauce
+  - Chinkiang vinegar
+  - lard
+  - sesame oil
+  - scallions
+  - stock
+  - white pepper
+  - wonton wrappers
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+- title: Wontons in clear stock (Qingtang chaoshou)
+  page: 380
+  ingredients:
+  - sesame oil
+  - stock
+  - pork lard
+  - scallions
+  - light soy sauce
+  - Tianjin preserved vegetables
+  - white pepper
+  - wonton wrappers
+  - pig trotters
+  - chicken wings
+  - fresh ginger
+  - ground pork
+  - eggs
+  - Shaoxing rice wine
+- title: 'Wontons in "sea-flavour" soup (Haiwei chaoshou) '
+  page: 380
+  ingredients:
+  - wontons
+  - scallions
+  - lard
+  - white pepper
+  - button mushrooms
+  - canned bamboo shoots
+  - dried shrimp
+  - Shaoxing rice wine
+  - stock
+  - dried shiitake mushrooms
+  - pork belly
+  - fresh ginger
+  - wonton wrappers
+  - pig trotters
+  - chicken wings
+  - ground pork
+  - eggs
+  - sesame oil
+- title: Wontons with ground pork topping (Saozi chaoshou)
+  page: 380
+  ingredients:
+  - leafy greens of your choice
+  - Tianjin preserved vegetables
+  - scallions
+  - sesame oil
+  - light soy sauce
+  - stock
+  - white pepper
+  - lard
+  - fresh ginger
+  - ground pork
+  - Shaoxing rice wine
+  - sweet flour sauce
+  - dark soy sauce
+  - wonton wrappers
+  - pig trotters
+  - chicken wings
+  - eggs
+- title: Pot-sticker dumplings with chicken stock (Jizhi guotie)
+  page: 382
+  ingredients:
+  - lard
+  - fresh ginger
+  - scallions
+  - ground pork
+  - sesame oil
+  - all-purpose flour
+  - chicken stock
+  - Shaoxing rice wine
+  - bread flour
+  - superfine sugar
+  - white pepper
+- title: Steamed pork and pumpkin dumplings (Nangua zhengjiao)
+  page: 385
+  ingredients:
+  - pumpkins
+  - lard
+  - fresh ginger
+  - ground pork
+  - scallions
+  - sesame oil
+  - all-purpose flour
+  - light soy sauce
+  - dark soy sauce
+  - Shaoxing rice wine
+- title: Leaf-wrapped glutinous rice dumplings (Ye'er ba)
+  page: 387
+  ingredients:
+  - glutinous rice flour
+  - banana leaves
+  - spinach
+  - rice flour
+  - lard
+  - ground pork
+  - scallions
+  - sesame oil
+  - sesame seeds
+  - light soy sauce
+  - dark soy sauce
+  - Shaoxing rice wine
+  - Sichuan ya cai
+- title: Sweet leaf-wrapped dumpling
+  page: 388
+  ingredients:
+  - all-purpose flour
+  - dry-roasted peanuts
+  - superfine sugar
+  - lard
+  - cochineal
+  - banana leaves
+  - spinach
+  - glutinous rice flour
+  - rice flour
+- title: Steamed buns with spicy bean sprout stuffing (Douya baozi)
+  page: 391
+  ingredients:
+  - bean sprouts
+  - ground pork
+  - lard
+  - all-purpose flour
+  - peanut oil
+  - light soy sauce
+  - dark soy sauce
+  - Shaoxing rice wine
+  - Sichuan chile bean paste
+  - active dry yeast
+  - superfine sugar
+  - scallions
+  - white pepper
+  - sesame oil
+- title: Vegetarian steamed buns
+  page: 392
+  ingredients:
+  - dried shiitake mushrooms
+  - sweetheart cabbage
+  - carrots
+  - sesame oil
+  - all-purpose flour
+  - active dry yeast
+- title: Lotus-leaf buns (Heyebing)
+  page: 392
+  ingredients:
+  - lotus leaves
+  - all-purpose flour
+  - active dry yeast
+  - lard
+  - superfine sugar
+- title: Juntun guokui pastries (Juntun guokui)
+  page: 393
+  ingredients:
+  - sesame seeds
+  - frying oil of your choice
+  - all-purpose flour
+  - active dry yeast
+  - rapeseed oil
+  - ground pork
+  - scallions
+  - ground Sichuan pepper
+  - white pepper
+  - five-spice powder
+- title: Stuffed eggy pancakes (Dan hong gao)
+  page: 397
+  ingredients:
+  - all-purpose flour
+  - active dry yeast
+  - eggs
+  - lard
+  - Shaoxing rice wine
+  - ground pork
+  - light soy sauce
+  - Sichuan ya cai
+  - sesame oil
+- title: Sweet stuffing
+  page: 397
+  ingredients:
+  - all-purpose flour
+  - active dry yeast
+  - eggs
+  - dry-roasted peanuts
+  - sesame seeds
+  - superfine sugar
+- title: Spiced "oil-tea" with crunchy toppings (Wuxiang youcha)
+  page: 398
+  ingredients:
+  - brown rice flour
+  - fresh ginger
+  - scallions
+  - dark soy sauce
+  - five spice powder
+  - chile oil
+  - ground Sichuan pepper
+  - preserved mustard tuber
+  - toasted sesame seeds
+  - Bombay mix
+- title: Rice paste
+  page: 398
+  ingredients:
+  - glutinous rice
+  - rice
+- title: Numbing-and-hot hotpot (Mala huoguo)
+  page: 407
+  ingredients:
+  - dried chiles
+  - frying oil of your choice
+  - fermented black beans
+  - Shaoxing rice wine
+  - fresh ginger
+  - beef tallow
+  - Sichuan chile bean paste
+  - rock sugar
+  - whole star anise
+  - ground Sichuan pepper
+  - beef bones
+  - pork ribs
+  - scallions
+  - dipping items of your choice
+  - sesame oil
+  - garlic
+- title: Mild hotpot broth (Bai tang lu)
+  page: 412
+  ingredients:
+  - scallions
+  - stock
+  - beefsteak tomatoes
+- title: Sichuanese pickled vegetables (Sichuan paocai)
+  page: 420
+  ingredients:
+  - fresh ginger
+  - rock salt
+  - rock sugar
+  - long red chiles
+  - baijiu
+  - Sichuan peppercorns
+  - vegetables of your choice
+- title: A "small dish" of radish slivers (Xiaocao)
+  page: 423
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - chile oil
+  - scallions
+  - Asian long pink radish
+- title: Home-made bacon with Sichuanese flavorings (Larou)
+  page: 424
+  ingredients:
+  - Sichuan peppercorns
+  - pork rump
+  - baijiu
+  - five spice powder
+  - curing salt
+  - almond shells
+  - cypress leaves
+  - dried tangerine peel
+  - peanut shells
+- title: Cured pork with sweet flour sauce (Jiangrou)
+  page: 427
+  ingredients:
+  - Shaoxing rice wine
+  - pork belly
+  - Sichuan peppercorns
+  - baijiu
+  - curing salt
+  - five spice powder
+  - sweet flour sauce
+- title: Salted duck eggs (Xian dan)
+  page: 428
+  ingredients:
+  - duck eggs
+  - salt
+  - Sichuan peppercorns
+- title: Pixian chile bean paste
+  page: 430
+  ingredients:
+  - fava beans
+  - all-purpose flour
+  - brine of your choice
+  - red chiles
+  - sweet wine
+- title: Fermented soy bean and sweet potato balls (Tuotuo douchi)
+  page: 431
+  ingredients:
+  - fermented soya beans
+  - sweet potatoes
+  - fresh ginger
+  - ground chiles
+  - ground Sichuan pepper
+- title: Boozy preserved eggs (Zaodan)
+  page: 431
+  ingredients:
+  - duck eggs
+  - baijiu
+  - glutinous rice wine
+  - spices of your choice
+- title: '"Sweet cooked white" rice pudding with pork fat (Tian shaobai)'
+  page: 438
+  ingredients:
+  - glutinous rice
+  - pork belly
+  - dark soy sauce
+  - sweet red bean paste
+  - superfine sugar
+  - lard
+- title: Mr. Lai's glutinous rice balls with sesame stuffing (Lai tangyuan)
+  page: 440
+  ingredients:
+  - sesame paste
+  - glutinous rice flour
+  - black sesame seeds
+  - superfine sugar
+  - lard
+- title: '"Three big bangs" (San dapao)'
+  page: 442
+  ingredients:
+  - soybean flour
+  - glutinous rice
+- title: Pearly rice balls (Zhenzhu yuanzi)
+  page: 444
+  ingredients:
+  - glutinous rice flour
+  - glutinous rice
+  - rice flour
+  - sweet red bean paste
+  - potato starch
+  - "glac\xE9 cherries"
+- title: Sweet potato cakes (Hongshao bing)
+  page: 447
+  ingredients:
+  - glutinous rice flour
+  - sweet potatoes
+  - frying oil of your choice
+  - potato starch
+- title: Silver ear fungus in crystal sugar soup (Yin'er geng)
+  page: 449
+  ingredients:
+  - rock sugar
+  - dried silver tree ear fungus mushrooms
+  - goji berries
+- title: Iced mung bean soup (Ludou sha)
+  page: 450
+  ingredients:
+  - dried mung beans
+  - rock sugar
+- title: Eight-treasure wok pudding (Babao guozheng)
+  page: 451
+  ingredients:
+  - walnuts
+  - mixed candied fruit
+  - all-purpose flour
+  - frying oil of your choice
+  - lard
+  - superfine sugar
+- title: Ground chiles (Haijiao mian)
+  page: 454
+  ingredients:
+  - dried chiles
+- title: Ricemeal (Mifen)
+  page: 454
+  ingredients:
+  - jasmine rice
+  - whole star anise
+  - cassia bark
+- title: Chile oil (Hong you)
+  page: 455
+  ingredients:
+  - oil
+  - ground chiles
+  - sesame seeds
+- title: Sichuanese chile oil
+  page: 455
+  ingredients:
+  - rapeseed oil
+  - scallions
+  - ground chiles
+- title: Ground roasted Sichuan pepper (Huajiao mian)
+  page: 456
+  ingredients:
+  - Sichuan peppercorns
+- title: Salt-and-pepper dip (Jiaoyan)
+  page: 456
+  ingredients:
+  - salt
+  - Sichuan peppercorns
+- title: Toasted sesame seeds (Shu zhima)
+  page: 457
+  ingredients:
+  - sesame seeds
+- title: Sesame paste (Zhima jiang)
+  page: 457
+  ingredients:
+  - sesame seeds
+  - rapeseed oil
+- title: Deep-fried peanuts (Yousou huaren)
+  page: 458
+  ingredients:
+  - raw peanuts
+  - frying oil of your choice
+- title: Caramel coloring (Tangse)
+  page: 458
+  ingredients:
+  - rock sugar
+  - superfine sugar
+- title: Sweet, aromatic soy sauce (Fuzhi jiangyou)
+  page: 459
+  ingredients:
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Fermented glutinous rice wine (Laozao)
+  page: 460
+  ingredients:
+  - wine yeast ball
+  - long grain glutinous rice
+- title: Red spicy infused oil (Fuzhi tiaohe laoyou 1)
+  page: 461
+  ingredients:
+  - fresh ginger
+  - scallions
+  - shallots
+  - rapeseed oil
+  - whole star anise
+  - cassia bark
+  - green cardamom pods
+  - bay leaves
+  - fennel seeds
+  - Sichuan chile bean paste
+  - ground chiles
+- title: Clear spicy infused oil (Fuzhi tiaohe laoyou 2)
+  page: 461
+  ingredients:
+  - scallions
+  - fresh ginger
+  - onions
+  - oil
+  - whole star anise
+  - cilantro stems
+- title: Lard (Zhuyou)
+  page: 462
+  ingredients:
+  - ground pork fat
+- title: Chicken oil (Jiyou)
+  page: 462
+  ingredients:
+  - chicken fat
+- title: Everyday stock (Xiantang)
+  page: 463
+  ingredients:
+  - pork bones
+  - fresh ginger
+  - scallions
+  - chicken carcass
+- title: Chicken stock
+  page: 436
+  ingredients:
+  - fresh ginger
+  - scallions
+  - chicken carcass
+- title: Vegetable stock
+  page: 436
+  ingredients:
+  - dried mushrooms
+  - mushrooms
+  - bamboo shoots
+  - soy bean sprouts
+- title: Clear superior stock (Gaotang)
+  page: 464
+  ingredients:
+  - whole chicken
+  - duck legs
+  - pork ribs
+  - cured ham
+  - fresh ginger
+  - scallions
+- title: Milky stock (Naitang)
+  page: 465
+  ingredients:
+  - whole chicken
+  - duck legs
+  - pork ribs
+  - fresh ginger
+  - scallions
+  - pork knuckles
+- title: Quick milky stock
+  page: 465
+  ingredients:
+  - chicken carcass
+  - pork ribs
+- title: '"Red oil" sauce 2'
+  page: 468
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - sesame oil
+  - chile oil
+- title: Numbing and hot sauce 2
+  page: 468
+  ingredients:
+  - superfine sugar
+  - light soy sauce
+  - sesame oil
+  - chile oil
+  - ground Sichuan pepper
+- title: Garlicky sauce
+  page: 468
+  ingredients:
+  - garlic
+  - sesame oil
+  - chile oil
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Quick "garlic paste" sauce
+  page: 468
+  ingredients:
+  - light soy sauce
+  - garlic
+  - sesame oil
+  - chile oil
+  - superfine sugar
+- title: Pounded ciba chile dip 2
+  page: 468
+  ingredients:
+  - dried chiles
+  - garlic
+  - fennel seeds
+  - whole star anise
+  - fresh ginger
+  - black cardamom pods
+  - licorice root
+  - sand ginger
+  - bay leaves
+  - Sichuan peppercorns
+  - light soy sauce
+  - superfine sugar
+  - cassia bark
+- title: Ciba chile dip with hot oil
+  page: 468
+  ingredients:
+  - dried chiles
+  - Sichuan peppercorns
+  - light soy sauce
+  - spearmint
+  - oil
+- title: Chile bean paste and black bean sauce
+  page: 468
+  ingredients:
+  - fermented black beans
+  - Sichuan chile bean paste
+  - ground Sichuan pepper
+  - chile oil
+- title: Chile bean paste dip 2
+  page: 468
+  ingredients:
+  - Sichuan chile bean paste
+  - dark soy sauce
+  - sesame oil
+- title: Chile oil dip 2
+  page: 469
+  ingredients:
+  - chile oil
+  - light soy sauce
+  - scallions
+- title: Ground chile dip 2
+  page: 469
+  ingredients:
+  - ground chiles
+  - ground Sichuan pepper
+  - scallions
+  - light soy sauce
+  - rapeseed oil
+- title: '"Strange flavor" sauce'
+  page: 469
+  ingredients:
+  - sesame paste
+  - superfine sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - ground Sichuan pepper
+  - sesame oil
+  - chile oil
+- title: Fish-fragrant sauce for cold dishes
+  page: 469
+  ingredients:
+  - superfine sugar
+  - Chinkiang vinegar
+  - light soy sauce
+  - sambal oelek
+  - fresh ginger
+  - garlic
+  - scallions
+  - sesame oil
+- title: Sichuan pepper and scallion sauce
+  page: 469
+  ingredients:
+  - Sichuan peppercorns
+  - scallions
+  - light soy sauce
+  - sesame oil
+- title: Chongqing sauce with bird's eye chiles and Sichuan pepper oil 2
+  page: 469
+  ingredients:
+  - light soy sauce
+  - bird's eye chiles
+  - Sichuan pepper oil
+  - rapeseed oil
+  - sesame oil
+- title: Fresh chile dip
+  page: 469
+  ingredients:
+  - light soy sauce
+  - red bird's eye chiles
+  - garlic
+  - fresh ginger
+  - rapeseed oil
+  - ground Sichuan pepper
+- title: Scorched green pepper sauce
+  page: 469
+  ingredients:
+  - long green Turkish peppers
+  - rapeseed oil
+- title: Ginger sauce
+  page: 469
+  ingredients:
+  - fresh ginger
+  - Chinkiang vinegar
+  - sesame oil
+wishlist: true

@@ -1,0 +1,866 @@
+book: 'JapanEasy'
+author: Tim Anderson
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/japaneasy-classic-and-modern-japanese-179738l1.jpg
+wishlist: true
+recipes:
+- title: How to cook Japanese rice
+  page: 19
+  ingredients:
+  - rice
+- title: How to serve a Japanese meal
+  page: 20
+  ingredients:
+  - frozen edamame
+  - sesame seeds
+- title: The best edamame
+  page: 27
+  ingredients:
+  - miso
+  - dashi
+  - mirin
+  - spring onions
+  - wakame
+  - silken tofu
+  - roasted sesame seeds
+  - vegetables of your choice
+  - protein of your choice
+- title: The best miso soup
+  page: 29
+  ingredients:
+  - kombu
+  - caster sugar
+  - rice vinegar
+  - dried chilli flakes
+  - vegetables of your choice
+- title: Japanese quick pickles (Asazuke)
+  page: 30
+  ingredients:
+  - green vegetables of your choice
+  - dashi
+  - sesame seeds
+  - tahini
+  - mirin
+  - sesame oil
+  - caster sugar
+  - soy sauce
+  - hot mustard
+  - garlic powder
+  - white pepper
+- title: Simmered green vegetables with sesame dressing
+  page: 32
+  ingredients:
+  - sweet onions
+  - fresh ginger
+  - soy sauce
+  - rice vinegar
+  - caster sugar
+  - mixed lettuces
+  - tomatoes
+  - cucumbers
+  - salad vegetables of your choice
+  - sesame seeds
+- title: Mixed salad with sweet onion and ginger dressing
+  page: 36
+  ingredients:
+  - cucumbers
+  - carrots
+  - potatoes
+  - quail eggs
+  - cornichons
+  - ham
+  - mayonnaise
+  - dashi powder
+  - mustard
+  - chives
+- title: Japanese potato salad
+  page: 39
+  ingredients:
+  - mirin
+  - caster sugar
+  - fresh ginger
+  - soy sauce
+  - dashi
+  - cabbage
+  - roasted sesame seeds
+  - Worcestershire sauce
+  - dates
+  - green-skinned apples
+  - hot mustard
+  - garlic powder
+  - white pepper
+  - tomato ketchup
+- title: Cabbage with sweet ginger vinegar
+  page: 42
+  ingredients:
+  - sweet potatoes
+  - golden syrup
+  - soy sauce
+  - limes
+  - black sesame seeds
+- title: Candied sweet potato wedges (Daigaku imo)
+  page: 43
+  ingredients:
+  - soy sauce
+  - lemons or limes
+  - caster sugar
+  - vinegar
+  - hot chilli sauce
+  - sesame oil
+  - tomatoes
+  - chives
+  - sesame seeds
+- title: Tomato salad with spicy ponzu
+  page: 44
+  ingredients:
+  - Japanese rice
+  - freekeh
+  - quinoa
+  - whole buckwheat
+  - bulgur
+  - rolled oats
+  - linseeds
+  - toasted sesame seeds
+- title: Multigrain rice (Zakkoku-0mai)
+  page: 47
+  ingredients:
+  - mushrooms
+  - butter
+  - garlic
+  - soy sauce
+- title: Pan-roasted mushrooms with soy-garlic butter
+  page: 48
+  ingredients:
+  - turnips
+  - dashi
+  - miso
+  - mirin
+  - caster sugar
+  - vinegar
+- title: Simmered turnips with sweet miso sauce
+  page: 51
+  ingredients:
+  - aubergines
+  - miso
+  - mirin
+  - caster sugar
+  - vinegar
+- title: Sweet miso-glazed aubergine (Nasu dengaku)
+  page: 52
+  ingredients:
+  - soy sauce
+  - vinegar
+  - chilli oil
+  - plain flour
+  - minced pork
+  - leeks
+  - fresh ginger
+  - garlic
+- title: Gyoza
+  page: 57
+  ingredients:
+  - chicken thighs
+  - oil
+  - sake
+  - mirin
+  - limes
+  - Sriracha sauce
+  - soy sauce
+  - sesame oil
+  - garlic
+  - shallots
+  - fresh ginger
+- title: Japanese fried chicken (Chicken karaage)
+  page: 61
+  ingredients:
+  - squid
+  - soy sauce
+  - sake
+  - caster sugar
+  - chilli oil
+- title: Griddled squid (Ika-yaki)
+  page: 62
+  ingredients:
+  - tiger prawns
+  - panko breadcrumbs
+  - oil
+  - mayonnaise
+  - little gem lettuce
+  - chilli powder
+  - seaweed flakes
+  - Szechuan pepper
+  - toasted sesame seeds
+  - ground ginger
+  - white pepper
+  - poppy seeds
+- title: Fried prawns with shichimi mayo (Ebi-furai)
+  page: 64
+  ingredients:
+  - onions
+  - milk
+  - "cr\xE8me fra\xEEche"
+  - crab meat
+  - chilli powder
+  - panko breadcrumbs
+  - oil
+  - chives
+  - sauce or gravy of your choice
+  - eggs
+- title: Crab cream croquettes (Kani kurimu korokke)
+  page: 67
+  ingredients:
+  - sweet potatoes
+  - sesame seeds
+  - black sesame seeds
+  - panko breadcrumbs
+  - oil
+  - sauce or gravy of your choice
+- title: Sweet potato and sesame croquettes (Satsuma-imo kurogoma korokke)
+  page: 68
+  ingredients:
+  - chicken thighs
+  - spring onions
+  - soy sauce
+  - mirin
+  - sake
+  - garlic
+  - fresh ginger
+  - sesame seeds
+- title: Chicken thigh and spring onion yakitori
+  page: 72
+  ingredients:
+  - chicken thighs
+  - fresh ginger
+  - garlic
+  - spring onions
+  - shiitake mushrooms
+  - soy sauce
+  - mirin
+  - sake
+  - sesame seeds
+- title: Chicken patty yakitori (Tsukune)
+  page: 73
+  ingredients:
+  - asparagus
+  - smoked streaky bacon
+- title: Bacon-wrapped asparagus skewers
+  page: 74
+  ingredients:
+  - pork belly
+  - sake
+- title: Grilled mackerel, kabayaki style
+  page: 78
+  ingredients:
+  - mackerel
+  - spring onions
+  - sweet soy sauce
+- title: Chilled tofu with soy sauce, ginger and katsuobushi (Hiyayakko)
+  page: 81
+  ingredients:
+  - firm silky tofu
+  - soy sauce
+  - fresh ginger
+  - spring onions
+  - katsuo-bushi
+  - toasted sesame seeds
+- title: Beef tataki
+  page: 82
+  ingredients:
+  - sake
+  - caster sugar
+  - soy sauce
+  - beef steaks
+  - chives
+  - toasted sesame seeds
+  - rocket
+  - shallots
+- title: Salmon tataki with ponzu and green chillies
+  page: 84
+  ingredients:
+  - sesame oil
+  - salmon
+  - green chillies
+  - toasted sesame seeds
+  - chilli oil
+  - soy sauce
+  - lemons or limes
+  - caster sugar
+  - vinegar
+- title: Sushi rice
+  page: 89
+  ingredients:
+  - Japanese rice
+  - rice vinegar
+  - caster sugar
+- title: Spicy tuna roll
+  page: 94
+  ingredients:
+  - tuna
+  - spring onions
+  - mayonnaise
+  - Sriracha sauce
+  - toasted sesame seeds
+  - nori
+  - Japanese rice
+  - rice vinegar
+  - caster sugar
+- title: Salmon, avocado and cucumber roll
+  page: 95
+  ingredients:
+  - nori
+  - Japanese rice
+  - rice vinegar
+  - caster sugar
+  - salmon
+  - avocados
+  - cucumbers
+  - wasabi
+- title: Cured mackerel pressed sushi (Shimesaba oshizushi)
+  page: 96
+  ingredients:
+  - Japanese rice
+  - rice vinegar
+  - caster sugar
+  - mackerel fillets
+  - vinegar
+  - kombu
+  - wasabi
+  - soy sauce
+- title: Tempura
+  page: 100
+  ingredients:
+  - oil
+  - broccoli
+  - onions
+  - oyster mushrooms
+  - courgettes
+  - king prawns
+  - cod
+  - sparkling water
+  - plain flour
+  - cornflour
+- title: Whole grilled fish with tsuyu and grated radish
+  page: 104
+  ingredients:
+  - whole fish
+  - daikon radishes
+  - soy sauce
+  - mirin
+  - dashi
+- title: Sweet miso-grilled cod
+  page: 107
+  ingredients:
+  - cod fillets
+  - miso
+  - mirin
+  - caster sugar
+  - vinegar
+- title: Sukiyaki party!!!
+  page: 110
+  ingredients:
+  - leeks
+  - turnips
+  - carrots
+  - hispi cabbage
+  - rocket
+  - mixed mushrooms
+  - beef bavette steaks
+  - dipping sauce of your choice
+  - noodles
+  - sake
+  - soy sauce
+  - kombu
+- title: Sumo hotpot (Chanko nabe)
+  page: 111
+  ingredients:
+  - chicken stock
+  - sake
+  - mirin
+  - soy sauce
+  - cooked rice
+  - Chinese leaves
+  - firm tofu
+  - mushrooms
+  - bok choi
+  - daikon radishes
+  - chicken thighs
+  - king prawns
+- title: Japanese beef and potato stew (Nikujaga)
+  page: 113
+  ingredients:
+  - beef steaks
+  - carrots
+  - baking potatoes
+  - onions
+  - leeks
+  - mangetout
+  - dashi
+  - mirin
+  - soy sauce
+  - Worcestershire sauce
+  - sake
+  - caster sugar
+  - cooked rice
+- title: Stir-fried pork with ginger sauce (Buta shogayaki)
+  page: 114
+  ingredients:
+  - pork belly
+  - fresh ginger
+  - soy sauce
+  - mirin
+  - sake
+  - tomato ketchup
+  - sesame oil
+  - pointed cabbage
+  - bean sprouts
+  - spring onions
+  - toasted sesame seeds
+- title: Sweet soy and stout-braised pork belly (Buta kakuni)
+  page: 118
+  ingredients:
+  - pork belly
+  - onions
+  - garlic
+  - stout
+  - dashi
+  - mirin
+  - soy sauce
+  - whole star anise
+  - cinnamon sticks
+- title: Japanese pork cutlet (Tonkatsu)
+  page: 120
+  ingredients:
+  - pork chops
+  - panko breadcrumbs
+  - oil
+  - hispi cabbage
+  - Worcestershire sauce
+  - soy sauce
+  - mirin
+  - vinegar
+  - dates
+  - green-skinned apples
+  - hot mustard
+  - garlic powder
+  - white pepper
+  - tomato ketchup
+- title: "Japanese steak hach\xE9 (Hambagu)"
+  page: 123
+  ingredients:
+  - breadcrumbs
+  - parsley
+  - onions
+  - beef mince
+  - dashi
+  - tomato ketchup
+  - Worcestershire sauce
+  - eggs
+  - "Gruy\xE8re cheese"
+  - crisp-fried onions
+  - soy sauce
+  - mirin
+  - sake
+- title: Japanese carbonara
+  page: 126
+  ingredients:
+  - onions
+  - oyster mushrooms
+  - garlic
+  - sake
+  - miso
+  - dashi
+  - spaghetti pasta
+  - sesame seeds
+  - nori
+  - Parmesan cheese
+  - spring onions
+- title: Curry rice (Kare raisu)
+  page: 128
+  ingredients:
+  - onions
+  - carrots
+  - floury potatoes
+  - cauliflower
+  - cooked rice
+  - fresh ginger
+  - green chillies
+  - tomatoes
+  - green-skinned apples
+  - bananas
+  - Madras curry powder
+  - garam masala
+  - chicken stock
+  - tomato ketchup
+  - soy sauce
+- title: Katsu curry (Katsu kare)
+  page: 130
+  ingredients:
+  - onions
+  - carrots
+  - floury potatoes
+  - cauliflower
+  - cooked rice
+  - fresh ginger
+  - green chillies
+  - tomatoes
+  - green-skinned apples
+  - bananas
+  - Madras curry powder
+  - garam masala
+  - chicken stock
+  - tomato ketchup
+  - soy sauce
+  - chicken breasts
+  - panko breadcrumbs
+- title: Chicken and egg rice bowl (Oyakodon)
+  page: 134
+  ingredients:
+  - onions
+  - chicken thighs
+  - shiitake mushrooms
+  - dashi
+  - soy sauce
+  - mirin
+  - caster sugar
+  - eggs
+  - cooked rice
+  - spring onions
+- title: Beef, onion and sweet soy rice bowl (Gyudon)
+  page: 135
+  ingredients:
+  - beef steaks
+  - onions
+  - fresh ginger
+  - dashi
+  - cooked rice
+  - red pickled ginger
+  - toasted sesame seeds
+  - soy sauce
+  - mirin
+  - sake
+- title: Fried rice (Chahan)
+  page: 136
+  ingredients:
+  - smoked streaky bacon
+  - onions
+  - shiitake mushrooms
+  - carrots
+  - eggs
+  - garlic
+  - spring onions
+  - cooked rice
+  - soy sauce
+  - sesame oil
+  - mirin
+  - dashi powder
+  - red pickled ginger
+  - toasted sesame seeds
+- title: Japanese-style mushroom pilaf (Kinoko takikomi gohan)
+  page: 139
+  ingredients:
+  - rice
+  - dashi
+  - soy sauce
+  - mirin
+  - sake
+  - kombu
+  - carrots
+  - turnips
+  - mushrooms
+  - toasted sesame seeds
+- title: Soy-braised turkey mince rice (Shichimencho kashiwa meshi)
+  page: 140
+  ingredients:
+  - eggs
+  - mirin
+  - fresh ginger
+  - minced turkey
+  - soy sauce
+  - sake
+  - caster sugar
+  - toasted sesame seeds
+  - cooked rice
+  - nori
+- title: Japanese rice gratin of shellfish (Kairui no doria)
+  page: 142
+  ingredients:
+  - onions
+  - milk
+  - double cream
+  - miso
+  - crab meat
+  - king prawns
+  - scallops
+  - chives
+  - Parmesan cheese
+  - mature cheddar cheese
+  - "Gruy\xE8re cheese"
+  - panko breadcrumbs
+  - cooked rice
+- title: Hot udon or soba
+  page: 146
+  ingredients:
+  - firm tofu
+  - dashi
+  - soy sauce
+  - udon noodles
+  - spring onions
+  - toasted sesame seeds
+- title: Curry udon (Kare udon)
+  page: 147
+  ingredients:
+  - onions
+  - green chillies
+  - red peppers
+  - Madras curry powder
+  - garam masala
+  - chicken stock
+  - soy sauce
+  - tomato ketchup
+  - sweetcorn
+  - udon noodles
+  - spring onions
+  - eggs
+  - toasted sesame seeds
+- title: Cold udon or soba with hot dipping sauce
+  page: 150
+  ingredients:
+  - dashi
+  - mirin
+  - soy sauce
+  - fresh ginger
+  - udon noodles
+  - spring onions
+  - nori
+  - toasted sesame seeds
+- title: 'Pan-roasted duck breast '
+  page: 152
+  ingredients:
+  - duck breasts
+  - soy sauce
+  - sake
+  - mirin
+- title: Stir-fried chicken thigh
+  page: 152
+  ingredients:
+  - chicken thighs
+  - fresh ginger
+  - soy sauce
+  - mirin
+  - sake
+  - caster sugar
+  - toasted sesame seeds
+- title: Tempura fritters (Kakiage)
+  page: 154
+  ingredients:
+  - carrots
+  - leeks
+  - sweetcorn
+  - green beans
+  - oil
+  - sparkling water
+  - plain flour
+- title: Yakisoba/yakiudon
+  page: 156
+  ingredients:
+  - streaky bacon
+  - onions
+  - carrots
+  - cabbage
+  - bean sprouts
+  - shiitake mushrooms
+  - sesame oil
+  - dashi powder
+  - soy sauce
+  - mirin
+  - sake
+  - egg noodles
+  - red pickled ginger
+  - toasted sesame seeds
+  - nori
+  - Worcestershire sauce
+  - vinegar
+  - dates
+  - green-skinned apples
+  - hot mustard
+  - garlic powder
+  - white pepper
+  - tomato ketchup
+- title: Surprisingly awesome one-hour spicy miso ramen
+  page: 158
+  ingredients:
+  - chicken broth
+  - miso
+  - bok choi
+  - bean sprouts
+  - sesame oil
+  - ramen noodles
+  - leeks
+  - tomatoes
+  - garlic
+  - red chillies
+  - chilli flakes
+  - fresh ginger
+  - toasted sesame seeds
+  - pork mince
+  - eggs
+  - soy sauce
+  - mirin
+- title: Ramen with scallops, bacon and eggs
+  page: 163
+  ingredients:
+  - leeks
+  - streaky bacon
+  - scallops
+  - chicken stock
+  - mirin
+  - dashi powder
+  - ramen noodles
+  - eggs
+  - toasted sesame seeds
+  - pea shoots
+- title: Ramen salad with sesame dressing (Hiyashi chuka)
+  page: 164
+  ingredients:
+  - salad greens
+  - cucumbers
+  - cherry tomatoes
+  - radishes
+  - ramen noodles
+  - eggs
+  - toasted sesame seeds
+  - tahini
+  - mirin
+  - vinegar
+  - sesame oil
+  - caster sugar
+  - soy sauce
+  - hot mustard
+  - garlic powder
+  - white pepper
+- title: Soy-marinated eggs (Ajitsuke tamago)
+  page: 166
+  ingredients:
+  - eggs
+  - soy sauce
+  - mirin
+- title: Dashi from scratch
+  page: 170
+  ingredients:
+  - kombu
+  - katsuo-bushi
+- title: Sweet soy sauce
+  page: 173
+  ingredients:
+  - soy sauce
+  - mirin
+  - sake
+- title: Sweet miso sauce
+  page: 175
+  ingredients:
+  - miso
+  - mirin
+  - caster sugar
+  - vinegar
+- title: Tsuyu
+  page: 176
+  ingredients:
+  - soy sauce
+  - mirin
+  - dashi
+- title: Ponzu
+  page: 176
+  ingredients:
+  - soy sauce
+  - lemons or limes
+  - caster sugar
+  - vinegar
+- title: Ramen shop chilli oil
+  page: 178
+  ingredients:
+  - vegetable oil
+  - garlic
+  - shallots
+  - fresh ginger
+  - whole star anise
+  - chilli flakes
+- title: Shichimi togarashi
+  page: 180
+  ingredients:
+  - chilli powder
+  - seaweed flakes
+  - Szechuan pepper
+  - toasted sesame seeds
+  - ground ginger
+  - white pepper
+  - poppy seeds
+- title: Tonkatsu sauce
+  page: 182
+  ingredients:
+  - Worcestershire sauce
+  - soy sauce
+  - mirin
+  - vinegar
+  - dates
+  - green-skinned apples
+  - hot mustard
+  - garlic powder
+  - white pepper
+  - tomato ketchup
+- title: Sesame sauce
+  page: 183
+  ingredients:
+  - toasted sesame seeds
+  - tahini
+  - mirin
+  - vinegar
+  - sesame oil
+  - caster sugar
+  - soy sauce
+  - hot mustard
+  - garlic powder
+  - white pepper
+- title: Furikake
+  page: 184
+  ingredients:
+  - toasted sesame seeds
+  - caster sugar
+  - nori
+- title: Castella
+  page: 189
+  ingredients:
+  - eggs
+  - golden caster sugar
+  - honey
+  - oranges
+  - strong white flour
+- title: Matcha mascarpone pots
+  page: 190
+  ingredients:
+  - matcha
+  - mascarpone cheese
+  - "cr\xE8me fra\xEEche"
+  - caster sugar
+- title: Miso butterscotch banana split
+  page: 193
+  ingredients:
+  - miso
+  - double cream
+  - bananas
+  - ice cream
+  - walnuts
+  - peanuts
+- title: Sweet azuki bean pancake sandwiches (Dorayaki)
+  page: 196
+  ingredients:
+  - sweet red bean paste
+  - golden caster sugar
+  - honey
+  - plain flour
+- title: Okinawa-style doughnuts with brown sugar syrup (Sata andagi)
+  page: 198
+  ingredients:
+  - caster sugar
+  - honey
+  - plain flour
+  - oil
+  - dark muscovado sugar

@@ -1,0 +1,1862 @@
+book: 'Salt, Fat, Acid, Heat'
+author: Samin Nosrat
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/salt-fat-acid-heat-mastering-178848l1.jpg
+recipes:
+- title: Caesar salad or, an exercise in the art of layering salt
+  page: 48
+  ingredients:
+  - Parmesan cheese
+  - anchovies
+  - salt
+  - Worcestershire sauce
+  - lettuce
+  - croutons
+  - egg yolks
+- title: To make a mayonnaise and to fix a broken mayonnaise
+  page: 86
+  ingredients:
+  - egg yolks
+  - oil
+- title: Pasta alle vongole (a lesson in layering acids)
+  page: 120
+  ingredients:
+  - parsley
+  - white wine
+  - pasta of your choice
+  - onions
+  - dried red pepper flakes
+  - Parmesan cheese
+  - sourdough breadcrumbs
+  - cherrystone clams
+  - littleneck clams
+- title: Braise
+  page: 166
+  ingredients:
+  - meat of your choice
+  - aromatics of your choice
+  - herbs of your choice
+- title: How to prepare an onion for slicing and dicing
+  page: 208
+  ingredients:
+  - onions
+- title: How to slice an onion
+  page: 209
+  ingredients:
+  - onions
+- title: How to dice an onion
+  page: 209
+  ingredients:
+  - onions
+- title: How to turn garlic into a smooth paste
+  page: 210
+  ingredients:
+  - garlic
+  - salt
+- title: How to chop parsley
+  page: 211
+  ingredients:
+  - parsley
+- title: The wedge salad
+  page: 216
+  ingredients:
+  - bacon
+  - blue cheese
+  - iceberg lettuce
+- title: The Caesar salad
+  page: 216
+  ingredients:
+  - anchovies
+  - Parmesan cheese
+  - Worcestershire sauce
+  - romaine lettuce
+  - croutons
+- title: The Cobb salad
+  page: 216
+  ingredients:
+  - bacon
+  - blue cheese
+  - avocados
+  - mustard
+  - romaine lettuce
+  - watercress
+  - tomatoes
+  - chicken
+  - eggs
+- title: The Greek salad
+  page: 216
+  ingredients:
+  - feta cheese
+  - olives
+  - tomatoes
+  - cucumbers
+- title: Avocado, beet, and citrus salad
+  page: 223
+  ingredients:
+  - citrus fruit of your choice
+  - beets
+  - red onions
+  - avocados
+  - greens of your choice
+- title: Bright cabbage slaw
+  page: 224
+  ingredients:
+  - red onions
+  - cabbage
+  - lemons
+  - parsley
+- title: Alterna-slaw
+  page: 225
+  ingredients:
+  - red onions
+  - lemons
+  - parsley
+  - kale
+- title: Mexi-slaw
+  page: 225
+  ingredients:
+  - limes
+  - cilantro
+  - "jalape\xF1o chiles"
+  - cabbage
+  - red onions
+- title: Asian slaw
+  page: 225
+  ingredients:
+  - cabbage
+  - soy sauce
+  - limes
+  - scallions
+  - fresh ginger
+  - peanuts
+  - seasoned rice vinegar
+  - red onions
+- title: Classic Southern slaw
+  page: 225
+  ingredients:
+  - carrots
+  - cabbage
+  - tart apples
+  - apple cider vinegar
+  - mustard powder
+  - egg yolks
+- title: Vietnamese cucumber salad
+  page: 226
+  ingredients:
+  - Persian cucumbers
+  - "jalape\xF1o chiles"
+  - scallions
+  - cilantro
+  - mint
+  - peanuts
+  - limes
+  - seasoned rice vinegar
+  - fish sauce
+- title: Shaved carrot salad with ginger and lime
+  page: 227
+  ingredients:
+  - golden raisins
+  - cumin seeds
+  - carrots
+  - fresh ginger
+  - "jalape\xF1o chiles"
+  - cilantro
+  - limes
+- title: Shaved fennel and radishes
+  page: 228
+  ingredients:
+  - fennel
+  - radishes
+  - parsley
+  - lemons
+- title: Summer tomato and herb salad
+  page: 229
+  ingredients:
+  - mixed heirloom tomatoes
+  - cherry tomatoes
+  - herbs of your choice
+  - shallots
+  - aged balsamic vinegar
+  - basil
+- title: Caprese salad
+  page: 229
+  ingredients:
+  - mixed heirloom tomatoes
+  - cherry tomatoes
+  - shallots
+  - aged balsamic vinegar
+  - basil
+  - mozzarella cheese
+- title: Ricotta and tomato salad toasts
+  page: 230
+  ingredients:
+  - mixed heirloom tomatoes
+  - cherry tomatoes
+  - shallots
+  - basil
+  - ricotta cheese
+  - crusty bread
+  - herbs of your choice
+- title: Persian Shirazi salad
+  page: 230
+  ingredients:
+  - red onions
+  - Persian cucumbers
+  - cherry tomatoes
+  - limes
+  - dill
+  - cilantro
+  - parsley
+  - mint
+- title: Greek salad
+  page: 230
+  ingredients:
+  - red onions
+  - Persian cucumbers
+  - cherry tomatoes
+  - black olives
+  - feta cheese
+  - shallots
+- title: Summer panzanella (tomato, basil, and cucumber)
+  page: 231
+  ingredients:
+  - red onions
+  - cherry tomatoes
+  - heirloom tomatoes
+  - Persian cucumbers
+  - basil
+  - country bread
+  - shallots
+  - aged balsamic vinegar
+  - tomatoes
+- title: Fattoush
+  page: 232
+  ingredients:
+  - red onions
+  - cherry tomatoes
+  - heirloom tomatoes
+  - Persian cucumbers
+  - pita bread
+  - parsley
+  - shallots
+- title: Grain salad
+  page: 232
+  ingredients:
+  - red onions
+  - cherry tomatoes
+  - heirloom tomatoes
+  - Persian cucumbers
+  - parsley
+  - shallots
+  - cooked grain of your choice
+- title: Bean salad
+  page: 232
+  ingredients:
+  - beans of your choice
+  - basil
+  - red onions
+  - heirloom tomatoes
+  - Persian cucumbers
+  - parsley
+  - cherry tomatoes
+  - shallots
+- title: Autumn panzanella (roasted squash, sage, and hazelnut)
+  page: 232
+  ingredients:
+  - lacinato kale
+  - butternut squash
+  - red onions
+  - country bread
+  - oil
+  - sage
+  - hazelnuts
+  - shallots
+  - aged balsamic vinegar
+  - brown butter
+- title: Winter panzanella (roasted radicchio and Roquefort)
+  page: 234
+  ingredients:
+  - radicchio
+  - yellow onions
+  - country bread
+  - aged balsamic vinegar
+  - brown butter
+  - parsley
+  - toasted walnuts
+  - Roquefort cheese
+  - shallots
+- title: Spring panzanella (asparagus and feta with mint)
+  page: 235
+  ingredients:
+  - red onions
+  - asparagus
+  - country bread
+  - mint
+  - feta cheese
+  - shallots
+- title: Torn croutons
+  page: 236
+  ingredients:
+  - country bread
+- title: Classic torn croutons
+  page: 237
+  ingredients:
+  - country bread
+  - dried oregano
+  - dried red pepper flakes
+- title: Cheesy torn croutons
+  page: 237
+  ingredients:
+  - country bread
+  - Parmesan cheese
+- title: Sprinkling crumbs
+  page: 237
+  ingredients:
+  - country bread
+- title: Red wine vinaigrette
+  page: 240
+  ingredients:
+  - shallots
+  - red wine vinegar
+  - olive oil
+- title: Honey-mustard vinaigrette
+  page: 240
+  ingredients:
+  - Dijon mustard
+  - honey
+  - shallots
+  - red wine vinegar
+- title: Balsamic vinaigrette
+  page: 241
+  ingredients:
+  - shallots
+  - aged balsamic vinegar
+- title: Parmesan vinaigrette
+  page: 241
+  ingredients:
+  - Parmesan cheese
+  - shallots
+  - aged balsamic vinegar
+- title: Brown butter vinaigrette
+  page: 241
+  ingredients:
+  - shallots
+  - aged balsamic vinegar
+  - brown butter
+- title: Lemon vinaigrette
+  page: 242
+  ingredients:
+  - lemons
+  - white wine vinegar
+- title: Lemon-anchovy vinaigrette
+  page: 242
+  ingredients:
+  - lemons
+  - salt-packed anchovies
+  - white wine vinegar
+- title: Lime vinaigrette
+  page: 243
+  ingredients:
+  - limes
+  - store-cupboard ingredients
+- title: Any-other-citrus vinaigrette
+  page: 244
+  ingredients:
+  - shallots
+  - citrus fruit of your choice
+  - white wine vinegar
+- title: Kumquat vinaigrette
+  page: 244
+  ingredients:
+  - shallots
+  - white wine vinegar
+  - kumquats
+- title: Tomato vinaigrette
+  page: 245
+  ingredients:
+  - shallots
+  - aged balsamic vinegar
+  - tomatoes
+  - basil
+- title: Rice wine vinaigrette
+  page: 246
+  ingredients:
+  - seasoned rice vinegar
+  - store-cupboard ingredients
+- title: Caesar dressing
+  page: 247
+  ingredients:
+  - salt-packed anchovies
+  - egg yolks
+  - lemons
+  - Parmesan cheese
+  - Worcestershire sauce
+- title: Creamy herb dressing
+  page: 248
+  ingredients:
+  - shallots
+  - "cr\xE8me fra\xEEche"
+  - scallions
+  - soft herbs of your choice
+- title: Blue cheese dressing
+  page: 249
+  ingredients:
+  - Roquefort cheese
+  - "cr\xE8me fra\xEEche"
+- title: Green goddess dressing
+  page: 250
+  ingredients:
+  - salt-packed anchovies
+  - avocados
+  - parsley
+  - cilantro
+  - chives
+  - chervil
+  - tarragon
+  - egg yolks
+- title: Tahini dressing
+  page: 251
+  ingredients:
+  - cumin seeds
+  - tahini
+  - lemons
+  - ground cayenne pepper
+- title: Japanese sesame seed dressing (Goma-ae)
+  page: 251
+  ingredients:
+  - seasoned rice vinegar
+  - soy sauce
+  - toasted sesame oil
+  - mirin
+  - tahini
+- title: Miso-mustard dressing
+  page: 252
+  ingredients:
+  - white miso
+  - honey
+  - Dijon mustard
+  - rice vinegar
+  - fresh ginger
+- title: Peanut-lime dressing
+  page: 253
+  ingredients:
+  - limes
+  - fish sauce
+  - rice vinegar
+  - soy sauce
+  - fresh ginger
+  - peanut butter
+  - "jalape\xF1o chiles"
+- title: Cherry tomato confit
+  page: 256
+  ingredients:
+  - cherry tomatoes
+  - basil
+  - garlic
+  - olive oil
+- title: Artichoke confit
+  page: 257
+  ingredients:
+  - baby artichokes
+  - lemons
+  - garlic
+  - olive oil
+- title: 'Blanch: greens'
+  page: 258
+  ingredients:
+  - greens of your choice
+- title: "Saut\xE9: snap peas with chilies and mint"
+  page: 260
+  ingredients:
+  - sugar snap peas
+  - mint
+  - lemons
+  - dried red pepper flakes
+- title: "Steamy saut\xE9: garlicky green beans"
+  page: 261
+  ingredients:
+  - green beans
+  - garlic
+- title: "Steamy saut\xE9: French green beans"
+  page: 261
+  ingredients:
+  - green beans
+  - tarragon
+- title: "Steamy saut\xE9: Indian green beans"
+  page: 261
+  ingredients:
+  - green beans
+  - ghee
+  - fresh ginger
+- title: 'Roast: butternut squash and Brussels sprouts in agrodolce'
+  page: 262
+  ingredients:
+  - butternut squash
+  - Brussels sprouts
+  - red onions
+  - dried red pepper flakes
+  - mint
+- title: 'Long-cook: spicy broccoli rabe and ricotta salata'
+  page: 264
+  ingredients:
+  - broccoli rabe
+  - yellow onions
+  - dried red pepper flakes
+  - lemons
+  - ricotta salata cheese
+- title: 'Grill: artichokes'
+  page: 266
+  ingredients:
+  - artichokes
+- title: How to get to the heart of an artichoke
+  page: 267
+  ingredients:
+  - artichokes
+- title: Chicken stock
+  page: 271
+  ingredients:
+  - chicken bones
+  - onions
+  - carrots
+  - celery
+  - black peppercorns
+  - bay leaves
+  - thyme
+  - parsley
+- title: Beef stock
+  page: 271
+  ingredients:
+  - onions
+  - carrots
+  - celery
+  - black peppercorns
+  - bay leaves
+  - thyme
+  - parsley
+  - beef bones
+  - beef marrow bones
+  - tomato paste
+  - dry red wine
+- title: Super-rich beef stock
+  page: 272
+  ingredients:
+  - chicken stock
+  - beef bones
+  - beef marrow bones
+  - tomato paste
+  - dry red wine
+  - onions
+  - carrots
+  - celery
+  - black peppercorns
+  - bay leaves
+  - thyme
+  - parsley
+- title: 'Brothy: Roman egg drop soup (Stracciatella)'
+  page: 273
+  ingredients:
+  - chicken stock
+  - eggs
+  - Parmesan cheese
+  - parsley
+- title: Classic egg drop soup
+  page: 274
+  ingredients:
+  - chicken stock
+  - eggs
+  - soy sauce
+  - fresh ginger
+  - cilantro
+  - black peppercorns
+  - scallions
+- title: 'Chunky: Tuscan bean and kale soup'
+  page: 274
+  ingredients:
+  - yellow onions
+  - celery
+  - carrots
+  - bay leaves
+  - canned crushed tomatoes
+  - Parmesan cheese
+  - chicken stock
+  - kale
+  - green cabbage
+  - cooked beans
+- title: Tuscan pasta and bean soup (Pasta e fagioli)
+  page: 275
+  ingredients:
+  - yellow onions
+  - celery
+  - carrots
+  - bay leaves
+  - canned crushed tomatoes
+  - Parmesan cheese
+  - chicken stock
+  - kale
+  - green cabbage
+  - ditalini pasta
+  - cooked beans
+- title: Tuscan bread, bean, and kale soup (Ribollita)
+  page: 275
+  ingredients:
+  - yellow onions
+  - celery
+  - carrots
+  - bay leaves
+  - canned crushed tomatoes
+  - Parmesan cheese
+  - chicken stock
+  - kale
+  - green cabbage
+  - country bread
+  - cooked beans
+- title: 'Smooth: silky sweet corn soup'
+  page: 276
+  ingredients:
+  - corn
+  - butter
+  - yellow onions
+- title: Chilled cucumber and yogurt soup
+  page: 277
+  ingredients:
+  - cucumbers
+  - yogurt
+- title: Persian-ish rice
+  page: 285
+  ingredients:
+  - basmati rice
+  - yogurt
+- title: Bread tahdig
+  page: 287
+  ingredients:
+  - basmati rice
+  - yogurt
+  - lavash bread
+- title: Saffron rice
+  page: 287
+  ingredients:
+  - saffron
+  - rice
+  - yogurt
+- title: Herbed rice
+  page: 287
+  ingredients:
+  - parsley
+  - cilantro
+  - dill
+  - cooked rice
+  - yogurt
+- title: Fava bean and dill rice
+  page: 287
+  ingredients:
+  - dill
+  - fava beans
+  - cooked rice
+- title: 'Cheese: pasta cacio e pepe'
+  page: 290
+  ingredients:
+  - spaghetti pasta
+  - black peppercorns
+  - pecorino Romano cheese
+- title: Pasta Alfredo
+  page: 291
+  ingredients:
+  - heavy cream
+  - fettuccine pasta
+  - Parmesan cheese
+- title: Creamy asparagus and mint pasta
+  page: 291
+  ingredients:
+  - yellow onions
+  - heavy cream
+  - asparagus
+  - fettuccine pasta
+  - Parmesan cheese
+  - mint
+- title: 'Tomato: pasta alla pomarola'
+  page: 292
+  ingredients:
+  - red onions
+  - garlic
+  - tomatoes
+  - basil
+  - spaghetti pasta
+  - Parmesan cheese
+- title: Pasta alla puttanesca
+  page: 294
+  ingredients:
+  - anchovies
+  - oil-cured black olives
+  - salt-packed capers
+  - dried red pepper flakes
+  - spaghetti pasta
+  - red onions
+  - garlic
+  - tomatoes
+  - basil
+  - parsley
+- title: Pasta all'amatriciana
+  page: 294
+  ingredients:
+  - yellow onions
+  - guanciale
+  - red onions
+  - garlic
+  - tomatoes
+  - basil
+  - spaghetti pasta
+  - pecorino Romano cheese
+  - dried red pepper flakes
+- title: 'Vegetable: pasta with broccoli and bread crumbs'
+  page: 295
+  ingredients:
+  - broccoli
+  - yellow onions
+  - dried red pepper flakes
+  - orecchiette pasta
+  - country bread
+  - Parmesan cheese
+- title: Pasta with beans and broccoli
+  page: 296
+  ingredients:
+  - broccoli
+  - yellow onions
+  - dried red pepper flakes
+  - orecchiette pasta
+  - country bread
+  - Parmesan cheese
+  - cooked beans
+- title: Pasta with sausage and broccoli
+  page: 296
+  ingredients:
+  - broccoli
+  - yellow onions
+  - dried red pepper flakes
+  - orecchiette pasta
+  - country bread
+  - Parmesan cheese
+  - Italian sausages
+- title: "Meat: pasta al rag\xF9"
+  page: 297
+  ingredients:
+  - ground beef chuck
+  - ground pork shoulder
+  - yellow onions
+  - carrots
+  - celery
+  - dry red wine
+  - chicken stock
+  - milk
+  - bay leaves
+  - lemons
+  - oranges
+  - cinnamon sticks
+  - tomato paste
+  - nutmeg
+  - tagliatelle pasta
+- title: "Poultry rag\xF9"
+  page: 299
+  ingredients:
+  - yellow onions
+  - carrots
+  - celery
+  - chicken stock
+  - bay leaves
+  - lemons
+  - tomato paste
+  - tagliatelle pasta
+  - chicken legs
+  - garlic
+  - dry white wine
+  - rosemary
+  - juniper berries
+  - dried porcini mushrooms
+- title: "Sausage rag\xF9"
+  page: 299
+  ingredients:
+  - Italian sausages
+  - garlic
+  - dry white wine
+  - canned tomatoes
+  - bay leaves
+  - lemons
+  - yellow onions
+  - carrots
+  - celery
+  - chicken stock
+  - tagliatelle pasta
+  - dried oregano
+  - dried red pepper flakes
+- title: '(Shell)fish: pasta with clams (Pasta alle vongole)'
+  page: 300
+  ingredients:
+  - yellow onions
+  - parsley
+  - littleneck clams
+  - dry white wine
+  - dried red pepper flakes
+  - linguine pasta
+  - Manila clams
+  - lemons
+  - Parmesan cheese
+- title: Pasta with mussels
+  page: 301
+  ingredients:
+  - yellow onions
+  - parsley
+  - dry white wine
+  - dried red pepper flakes
+  - linguine pasta
+  - lemons
+  - mussels
+  - saffron
+- title: Pasta with clams and sausage
+  page: 301
+  ingredients:
+  - yellow onions
+  - parsley
+  - dry white wine
+  - dried red pepper flakes
+  - linguine pasta
+  - Manila clams
+  - lemons
+  - Italian sausages
+  - littleneck clams
+- title: Pasta with white clam sauce
+  page: 302
+  ingredients:
+  - yellow onions
+  - parsley
+  - dry white wine
+  - dried red pepper flakes
+  - linguine pasta
+  - Manila clams
+  - lemons
+  - cream
+  - littleneck clams
+- title: Pasta with red clam sauce
+  page: 302
+  ingredients:
+  - yellow onions
+  - parsley
+  - dry white wine
+  - dried red pepper flakes
+  - linguine pasta
+  - Manila clams
+  - lemons
+  - tomatoes
+  - littleneck clams
+- title: Persian herb and greens frittata (Kuku sabzi)
+  page: 306
+  ingredients:
+  - Swiss chard
+  - leeks
+  - cilantro
+  - dill
+  - eggs
+- title: Frittata
+  page: 309
+  ingredients:
+  - eggs
+  - vegetables of your choice
+- title: Slow-roasted salmon
+  page: 310
+  ingredients:
+  - parsley or cilantro
+  - salmon fillets
+- title: Soy-glazed salmon
+  page: 311
+  ingredients:
+  - soy sauce
+  - toasted sesame seeds
+  - ground cayenne pepper
+  - fresh ginger
+  - salmon fillets
+- title: Citrus salmon
+  page: 311
+  ingredients:
+  - salmon fillets
+  - blood oranges
+- title: Indian-spiced salmon
+  page: 311
+  ingredients:
+  - cumin seeds
+  - coriander seeds
+  - fennel seeds
+  - whole cloves
+  - ground cayenne pepper
+  - turmeric
+  - ghee
+  - salmon fillets
+- title: Beer-battered fish
+  page: 312
+  ingredients:
+  - all-purpose flour
+  - ground cayenne pepper
+  - white fish of your choice
+  - grapeseed oil
+  - vodka
+  - lager beer
+- title: Fritto misto
+  page: 313
+  ingredients:
+  - all-purpose flour
+  - ground cayenne pepper
+  - grapeseed oil
+  - vodka
+  - lager beer
+  - fish of your choice
+  - shellfish
+  - vegetables of your choice
+- title: Gluten-free batter
+  page: 313
+  ingredients:
+  - rice flour
+  - potato starch
+  - ground cayenne pepper
+  - vodka
+  - soda water
+- title: Tuna confit
+  page: 314
+  ingredients:
+  - albacore tuna
+  - olive oil
+  - garlic
+  - dried red chiles
+  - bay leaves
+  - lemons
+  - black peppercorns
+- title: Crispiest spatchcocked chicken
+  page: 316
+  ingredients:
+  - whole chicken
+- title: How to breakdown a whole darn chicken in a few simple steps
+  page: 318
+  ingredients:
+  - whole chicken
+- title: Spicy fried chicken
+  page: 320
+  ingredients:
+  - whole chicken
+  - buttermilk
+  - hot sauce
+  - all-purpose flour
+  - grapeseed oil
+  - ground cayenne pepper
+  - smoked paprika
+  - cumin seeds
+- title: Classic fried chicken
+  page: 321
+  ingredients:
+  - whole chicken
+  - buttermilk
+  - all-purpose flour
+  - grapeseed oil
+  - ground cayenne pepper
+  - paprika
+- title: Indian-spiced fried chicken
+  page: 321
+  ingredients:
+  - whole chicken
+  - buttermilk
+  - all-purpose flour
+  - grapeseed oil
+  - ground cayenne pepper
+  - paprika
+  - curry powder
+  - ground cumin
+  - mango chutney
+- title: Chicken pot pie
+  page: 322
+  ingredients:
+  - whole chicken
+  - yellow onions
+  - carrots
+  - celery
+  - cremini mushrooms
+  - bay leaves
+  - thyme
+  - dry white wine
+  - cream
+  - chicken stock
+  - peas
+  - parsley
+  - all-purpose flour
+  - butter
+  - white vinegar
+- title: Conveyor belt chicken
+  page: 325
+  ingredients:
+  - chicken thighs
+- title: Chicken confit
+  page: 326
+  ingredients:
+  - chicken legs
+  - thyme
+  - whole cloves
+  - bay leaves
+  - duck fat
+- title: Duck confit
+  page: 327
+  ingredients:
+  - thyme
+  - whole cloves
+  - bay leaves
+  - duck fat
+  - duck legs
+- title: Turkey confit
+  page: 327
+  ingredients:
+  - thyme
+  - whole cloves
+  - bay leaves
+  - duck fat
+  - turkey legs
+- title: Pork confit
+  page: 327
+  ingredients:
+  - thyme
+  - whole cloves
+  - bay leaves
+  - pork shoulder
+  - lard
+- title: Finger-lickin' pan-fried chicken
+  page: 328
+  ingredients:
+  - chicken breasts
+  - white bread
+  - Parmesan cheese
+  - all-purpose flour
+  - ground cayenne pepper
+  - clarified butter
+- title: Pork schnitzel
+  page: 329
+  ingredients:
+  - white bread
+  - Parmesan cheese
+  - all-purpose flour
+  - ground cayenne pepper
+  - clarified butter
+  - pork cutlets
+- title: Breaded fish
+  page: 329
+  ingredients:
+  - white bread
+  - all-purpose flour
+  - ground cayenne pepper
+  - clarified butter
+  - white fish of your choice
+- title: Breaded shrimp
+  page: 329
+  ingredients:
+  - white bread
+  - all-purpose flour
+  - ground cayenne pepper
+  - clarified butter
+  - shrimp
+- title: Fritto misto 2
+  page: 329
+  ingredients:
+  - white bread
+  - all-purpose flour
+  - ground cayenne pepper
+  - clarified butter
+  - olives
+- title: Sage- and honey-smoked chicken
+  page: 330
+  ingredients:
+  - honey
+  - sage
+  - garlic
+  - black peppercorns
+  - whole chicken
+  - applewood chips
+- title: Chicken and garlic soup
+  page: 332
+  ingredients:
+  - whole chicken
+  - yellow onions
+  - carrots
+  - celery
+  - bay leaves
+  - chicken stock
+  - garlic
+- title: Spring garlic soup
+  page: 333
+  ingredients:
+  - whole chicken
+  - yellow onions
+  - carrots
+  - celery
+  - bay leaves
+  - chicken stock
+  - green garlic
+- title: "Vietnamese chicken soup (Pho g\xE0)"
+  page: 333
+  ingredients:
+  - whole chicken
+  - chicken stock
+  - yellow onions
+  - fresh ginger
+  - fish sauce
+  - whole star anise
+  - rice noodles
+  - basil
+  - bean sprouts
+- title: Chicken with lentil rice (Adas polo o morgh)
+  page: 334
+  ingredients:
+  - whole chicken
+  - ground cumin
+  - yellow onions
+  - bay leaves
+  - saffron
+  - basmati rice
+  - raisins
+  - Medjool dates
+  - chicken stock
+  - cooked lentils
+- title: Chicken with vinegar (Poulet au vinaigre)
+  page: 336
+  ingredients:
+  - whole chicken
+  - yellow onions
+  - dry white wine
+  - tarragon
+  - heavy cream
+  - white wine vinegar
+- title: Glazed five-spice chicken
+  page: 338
+  ingredients:
+  - whole chicken
+  - soy sauce
+  - mirin
+  - toasted sesame oil
+  - fresh ginger
+  - garlic
+  - Chinese five-spice powder
+  - ground cayenne pepper
+  - cilantro
+  - scallions
+- title: Buttermilk-marinated roast chicken
+  page: 340
+  ingredients:
+  - whole chicken
+  - buttermilk
+- title: Persian roast chicken
+  page: 341
+  ingredients:
+  - whole chicken
+  - saffron
+  - yogurt
+  - lemons
+- title: Sicilian chicken salad
+  page: 342
+  ingredients:
+  - red onions
+  - dried currants
+  - cooked chicken meat
+  - lemons
+  - parsley
+  - pine nuts
+  - celery
+  - fennel
+  - ground fennel
+  - egg yolks
+- title: Curried chicken salad
+  page: 343
+  ingredients:
+  - red onions
+  - dried currants
+  - cooked chicken meat
+  - celery
+  - egg yolks
+  - cilantro
+  - yellow curry powder
+  - ground cayenne pepper
+  - sliced almonds
+  - tart apples
+- title: Spicy brined turkey breast
+  page: 346
+  ingredients:
+  - garlic
+  - black peppercorns
+  - dried red pepper flakes
+  - ground cayenne pepper
+  - lemons
+  - bay leaves
+  - turkey breast half
+- title: Spicy brined pork loin
+  page: 347
+  ingredients:
+  - garlic
+  - black peppercorns
+  - dried red pepper flakes
+  - ground cayenne pepper
+  - lemons
+  - bay leaves
+  - pork loin
+- title: Spatchcocked Thanksgiving turkey
+  page: 347
+  ingredients:
+  - garlic
+  - black peppercorns
+  - dried red pepper flakes
+  - lemons
+  - bay leaves
+  - thyme
+  - rosemary
+  - sage
+  - yellow onions
+  - carrots
+  - celery
+  - whole turkey
+- title: Pork braised with chilies
+  page: 348
+  ingredients:
+  - pork shoulder
+  - garlic
+  - yellow onions
+  - tomatoes
+  - cumin seeds
+  - bay leaves
+  - dried guajillo chiles
+  - lager beer
+- title: Kufte kebabs
+  page: 356
+  ingredients:
+  - saffron
+  - yellow onions
+  - turmeric
+  - parsley
+  - mint
+  - cilantro
+  - ground lamb shoulder
+- title: Moroccan kofta
+  page: 357
+  ingredients:
+  - yellow onions
+  - ground lamb
+  - turmeric
+  - cilantro
+  - ground cumin
+  - dried red pepper flakes
+  - fresh ginger
+  - ground cinnamon
+- title: "Turkish k\xF6fte"
+  page: 357
+  ingredients:
+  - ground beef
+  - yellow onions
+  - Marash pepper
+  - parsley
+  - mint
+- title: Basic salsa verde
+  page: 360
+  ingredients:
+  - shallots
+  - parsley
+- title: Bread crumb salsa
+  page: 360
+  ingredients:
+  - shallots
+  - parsley
+  - country bread
+- title: Classic Italian salsa verde
+  page: 361
+  ingredients:
+  - shallots
+  - parsley
+  - anchovies
+  - capers
+- title: Mint salsa verde
+  page: 361
+  ingredients:
+  - shallots
+  - parsley
+  - mint
+- title: Fried sage salsa verde
+  page: 361
+  ingredients:
+  - shallots
+  - parsley
+  - sage
+  - oil
+- title: Classic French herb salsa
+  page: 362
+  ingredients:
+  - shallots
+  - parsley
+  - chervil
+  - chives
+  - basil
+  - tarragon
+- title: Mexican-ish herb salsa
+  page: 363
+  ingredients:
+  - shallots
+  - limes
+  - cilantro
+  - "jalape\xF1o chiles"
+  - scallions
+- title: Pumpkin seed salsa
+  page: 363
+  ingredients:
+  - shallots
+  - limes
+  - cilantro
+  - "jalape\xF1o chiles"
+  - scallions
+  - pumpkin seeds
+- title: Southeast Asian-ish herb salsa
+  page: 364
+  ingredients:
+  - shallots
+  - limes
+  - cilantro
+  - "jalape\xF1o chiles"
+  - scallions
+  - fresh ginger
+- title: Japanese-ish herb salsa
+  page: 365
+  ingredients:
+  - parsley
+  - cilantro
+  - scallions
+  - fresh ginger
+  - soy sauce
+  - seasoned rice vinegar
+- title: Meyer lemon salsa
+  page: 366
+  ingredients:
+  - Meyer lemons
+  - shallots
+  - parsley
+- title: Meyer lemon and olive relish
+  page: 366
+  ingredients:
+  - Meyer lemons
+  - shallots
+  - parsley
+  - picholine olives
+- title: Meyer lemon and feta relish
+  page: 366
+  ingredients:
+  - Meyer lemons
+  - shallots
+  - parsley
+  - feta cheese
+- title: North African charmoula
+  page: 367
+  ingredients:
+  - cumin seeds
+  - cilantro
+  - fresh ginger
+  - "jalape\xF1o chiles"
+  - limes
+- title: Indian coconut-cilantro chutney
+  page: 368
+  ingredients:
+  - cumin seeds
+  - limes
+  - coconut
+  - cilantro
+  - mint
+  - "jalape\xF1o chiles"
+- title: Sicilian oregano sauce (Salmoriglio)
+  page: 369
+  ingredients:
+  - parsley
+  - oregano
+- title: Argentinian chimichurri
+  page: 369
+  ingredients:
+  - parsley
+  - oregano
+  - dried red pepper flakes
+- title: Herbed yogurt
+  page: 370
+  ingredients:
+  - yogurt
+  - parsley
+  - cilantro
+  - mint
+- title: Indian carrot raita
+  page: 370
+  ingredients:
+  - yogurt
+  - parsley
+  - cilantro
+  - mint
+  - carrots
+  - fresh ginger
+  - ghee
+  - cumin seeds
+  - black mustard seeds
+  - coriander seeds
+- title: Persian herb and cucumber yogurt
+  page: 371
+  ingredients:
+  - raisins
+  - yogurt
+  - Persian cucumbers
+  - mint
+  - dill
+  - parsley
+  - cilantro
+  - toasted walnuts
+- title: Persian spinach yogurt (Borani esfenaj)
+  page: 372
+  ingredients:
+  - spinach
+  - cilantro
+  - yogurt
+- title: Persian beet yogurt (Mast-o-laboo)
+  page: 373
+  ingredients:
+  - beets
+  - yogurt
+  - mint
+- title: Basic mayonnaise
+  page: 375
+  ingredients:
+  - egg yolks
+  - oil
+- title: Classic sandwich mayo
+  page: 375
+  ingredients:
+  - apple cider vinegar
+  - mustard powder
+  - egg yolks
+- title: "Garlic mayonnaise (A\xEFoli)"
+  page: 376
+  ingredients:
+  - egg yolks
+  - store-cupboard ingredients
+  - garlic
+- title: Herb mayonnaise
+  page: 376
+  ingredients:
+  - egg yolks
+  - parsley
+  - chives
+  - chervil
+  - basil
+  - tarragon
+- title: Pepper mayonnaise (Rouille)
+  page: 377
+  ingredients:
+  - egg yolks
+  - dried guajillo chiles
+  - olive oil
+- title: Chipotle mayonnaise
+  page: 377
+  ingredients:
+  - egg yolks
+  - canned chipotle chiles
+- title: Tartar sauce
+  page: 378
+  ingredients:
+  - egg yolks
+  - shallots
+  - cornichons
+  - salted capers
+  - parsley
+  - chervil
+  - chives
+  - tarragon
+- title: Basic pepper paste
+  page: 379
+  ingredients:
+  - dried guajillo chiles
+  - olive oil
+- title: North African pepper sauce (Harissa)
+  page: 380
+  ingredients:
+  - cumin seeds
+  - coriander seeds
+  - caraway seeds
+  - sun-dried tomatoes
+  - dried guajillo chiles
+- title: Catalan pepper sauce (Romesco)
+  page: 380
+  ingredients:
+  - sun-dried tomatoes
+  - dried guajillo chiles
+  - toasted almonds
+  - toasted hazelnuts
+  - country bread
+- title: Lebanese pepper and walnut spread (Muhammara)
+  page: 381
+  ingredients:
+  - cumin seeds
+  - walnuts
+  - dried guajillo chiles
+  - country bread
+  - pomegranate molasses
+- title: Basic pesto
+  page: 383
+  ingredients:
+  - basil
+  - pine nuts
+  - Parmesan cheese
+- title: All-butter pie dough
+  page: 386
+  ingredients:
+  - all-purpose flour
+  - butter
+  - white vinegar
+- title: Classic apple pie
+  page: 388
+  ingredients:
+  - all-purpose flour
+  - butter
+  - white vinegar
+  - tart apples
+  - ground cinnamon
+  - ground allspice
+  - apple cider vinegar
+  - heavy cream
+- title: Classic pumpkin pie
+  page: 390
+  ingredients:
+  - all-purpose flour
+  - butter
+  - white vinegar
+  - heavy cream
+  - "canned pumpkin pur\xE9e"
+  - ground cinnamon
+  - ground ginger
+  - ground cloves
+- title: Chocolate pudding pie
+  page: 391
+  ingredients:
+  - all-purpose flour
+  - butter
+  - white vinegar
+  - dark chocolate
+  - half and half cream
+  - cocoa powder
+- title: Light and flaky buttermilk biscuits
+  page: 392
+  ingredients:
+  - all-purpose flour
+  - butter
+  - buttermilk
+  - heavy cream
+- title: Shortcakes
+  page: 393
+  ingredients:
+  - all-purpose flour
+  - butter
+  - buttermilk
+  - heavy cream
+  - vanilla beans
+  - strawberries
+  - sugar
+- title: Fruit cobbler
+  page: 393
+  ingredients:
+  - all-purpose flour
+  - butter
+  - buttermilk
+  - heavy cream
+  - fruit of your choice
+  - lemons
+- title: Aaron's tart dough
+  page: 395
+  ingredients:
+  - all-purpose flour
+  - butter
+  - "cr\xE8me fra\xEEche"
+- title: Apple and frangipane tart
+  page: 397
+  ingredients:
+  - all-purpose flour
+  - butter
+  - "cr\xE8me fra\xEEche"
+  - almonds
+  - almond paste
+  - almond extract
+  - tart apples
+  - heavy cream
+- title: Magic dust
+  page: 399
+  ingredients:
+  - toasted almonds
+  - store-cupboard ingredients
+- title: Nekisia's olive oil and sea salt granola
+  page: 402
+  ingredients:
+  - old-fashioned oats
+  - coconut chips
+  - pecans
+  - maple syrup
+  - olive oil
+  - sel gris
+  - pumpkin seeds
+  - sunflower seeds
+- title: Orange granita
+  page: 405
+  ingredients:
+  - oranges
+- title: Coffee granita
+  page: 405
+  ingredients:
+  - coffee
+  - sugar
+- title: Poach fruit in wine
+  page: 405
+  ingredients:
+  - fruits of your choice
+  - wine
+  - sugar
+  - lemons
+  - vanilla beans
+- title: Roast fruit on a bed of fig leaves
+  page: 406
+  ingredients:
+  - fruits of your choice
+  - fig leaves
+- title: Make compote
+  page: 407
+  ingredients:
+  - fruits of your choice
+  - sugar
+- title: Peach and vanilla bean compote
+  page: 407
+  ingredients:
+  - peaches
+  - vanilla beans
+  - sugar
+- title: Apricot and almond compote
+  page: 407
+  ingredients:
+  - almond extract
+  - apricots
+  - sliced almonds
+  - sugar
+- title: Rose-scented berries
+  page: 407
+  ingredients:
+  - rosewater
+  - berries of your choice
+  - sugar
+- title: Lori's chocolate midnight cake
+  page: 410
+  ingredients:
+  - Dutch-process cocoa powder
+  - sugar
+  - all-purpose flour
+  - vanilla beans
+  - heavy cream
+- title: Fresh ginger and molasses cake
+  page: 412
+  ingredients:
+  - fresh ginger
+  - sugar
+  - oil
+  - molasses
+  - all-purpose flour
+  - ground cinnamon
+  - ground cloves
+  - ground ginger
+  - vanilla beans
+  - heavy cream
+- title: Almond and cardamom tea cake
+  page: 414
+  ingredients:
+  - sliced almonds
+  - Maldon salt
+  - cake flour
+  - ground cardamom
+  - eggs
+  - almond paste
+  - sugar
+  - butter
+- title: Bittersweet chocolate pudding
+  page: 416
+  ingredients:
+  - dark chocolate
+  - half and half cream
+  - cocoa powder
+- title: Mexican chocolate pudding
+  page: 417
+  ingredients:
+  - dark chocolate
+  - half and half cream
+  - cocoa powder
+  - ground cinnamon
+- title: Chocolate-cardamom pudding
+  page: 417
+  ingredients:
+  - dark chocolate
+  - half and half cream
+  - cocoa powder
+  - ground cardamom
+- title: Buttermilk panna cotta
+  page: 418
+  ingredients:
+  - heavy cream
+  - gelatin powder
+  - vanilla beans
+  - buttermilk
+- title: Cardamom panna cotta
+  page: 419
+  ingredients:
+  - heavy cream
+  - gelatin powder
+  - vanilla beans
+  - ground cardamom
+  - buttermilk
+- title: Citrus panna cotta
+  page: 419
+  ingredients:
+  - heavy cream
+  - gelatin powder
+  - vanilla beans
+  - buttermilk
+  - lemons
+- title: Marshmallowy meringues
+  page: 420
+  ingredients:
+  - sugar
+  - egg whites
+- title: Pavlovas
+  page: 421
+  ingredients:
+  - sugar
+  - egg whites
+- title: Persian Pavlovas
+  page: 421
+  ingredients:
+  - sugar
+  - egg whites
+  - ground cardamom
+  - saffron
+- title: Meringue fool
+  page: 421
+  ingredients:
+  - egg whites
+  - sugar
+  - heavy cream
+  - vanilla beans
+  - berries of your choice
+- title: Chocolate-caramel meringue fool
+  page: 421
+  ingredients:
+  - egg whites
+  - sugar
+  - heavy cream
+  - dark chocolate
+  - chocolate ice cream
+- title: Scented cream
+  page: 422
+  ingredients:
+  - heavy cream
+  - flavoring of your choice
+- title: Spiced cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - ground cardamom
+- title: Vanilla cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - vanilla beans
+- title: Lemon cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - lemons
+- title: Orange cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - oranges
+- title: Rose cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - rosewater
+- title: Orange-flower cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - orange flower water
+- title: Boozy cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - alcohol of your choice
+- title: Almond cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - almond extract
+- title: Coffee cream
+  page: 423
+  ingredients:
+  - heavy cream
+  - espresso powder
+- title: Peach leaf cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - peach leaves
+- title: Earl Grey cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - Earl Grey tea
+- title: Bay leaf cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - bay leaves
+- title: Apricot kernel (noyau) cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - apricot kernels
+- title: Toasted almond cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - almonds
+- title: Toasted hazelnut cream
+  page: 424
+  ingredients:
+  - hazelnuts
+  - heavy cream
+- title: Toasted coconut cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - unsweetened shredded coconut
+- title: Chocolate cream
+  page: 424
+  ingredients:
+  - heavy cream
+  - dark chocolate
+- title: Caramel cream
+  page: 425
+  ingredients:
+  - heavy cream
+  - store-cupboard ingredients
+- title: Tangy whipped cream
+  page: 425
+  ingredients:
+  - heavy cream
+  - sour cream
+- title: Coconut cream
+  page: 425
+  ingredients:
+  - canned coconut milk
+- title: Salted caramel sauce
+  page: 426
+  ingredients:
+  - heavy cream
+  - salt
+  - store-cupboard ingredients
+wishlist: true

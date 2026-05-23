@@ -1,0 +1,1218 @@
+book: 'The Gaijin Cookbook'
+author: Ivan Orkin, Chris Ying
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/the-gaijin-cookbook-japanese-recipes-191146l1.jpg
+wishlist: true
+recipes:
+- title: How to cook a pot of Japanese rice
+  page: 25
+  ingredients:
+  - Japanese short-grain rice
+- title: Sushi rice
+  page: 26
+  ingredients:
+  - Japanese short-grain rice
+  - rice vinegar
+- title: Dashi
+  page: 28
+  ingredients:
+  - kombu
+  - katsuobushi
+- title: Katsuo dashi
+  page: 28
+  ingredients:
+  - katsuobushi
+- title: Vegetable dashi
+  page: 28
+  ingredients:
+  - dried shiitake mushrooms
+  - onions
+  - green cabbage
+  - scallions
+  - carrots
+  - potatoes
+  - garlic
+  - kombu
+- title: Hot-spring eggs (Onsen tamago)
+  page: 30
+  ingredients:
+  - eggs
+- title: Soy-marinated eggs (Ajitama)
+  page: 30
+  ingredients:
+  - eggs
+  - mirin
+  - sake
+  - soy sauce
+  - katsuobushi
+- title: Soy-marinated tuna (Maguro zuke)
+  page: 32
+  ingredients:
+  - tuna
+  - soy sauce
+  - sake
+  - mirin
+- title: Squid in butter-soy sauce (Ika butter yaki)
+  page: 33
+  ingredients:
+  - squid
+  - butter
+  - soy sauce
+- title: Cold udon with dipping broth (Bukkake udon)
+  page: 35
+  ingredients:
+  - udon noodles
+  - daikon radishes
+  - egg yolks
+  - scallions
+  - katsuobushi
+  - kombu
+  - sake
+  - mirin
+  - soy sauce
+- title: Dipping broth (Tsuketsuyu)
+  page: 35
+  ingredients:
+  - kombu
+  - katsuobushi
+  - sake
+  - mirin
+  - soy sauce
+- title: Miso-braised mackerel (Saba misoni)
+  page: 38
+  ingredients:
+  - mackerel fillets
+  - white miso
+  - soy sauce
+  - mirin
+  - sake
+  - fresh ginger
+- title: Panfried pork cutlets in ginger sauce (Shogayaki)
+  page: 39
+  ingredients:
+  - pork tenderloin
+  - fresh ginger
+  - soy sauce
+  - sake
+  - mirin
+  - onions
+- title: Teriyaki yellowtail (Buri no teriyaki)
+  page: 41
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - yellowtail kingfish fillets
+- title: Chicken and egg bowl (Oyakodon)
+  page: 42
+  ingredients:
+  - kombu
+  - katsuobushi
+  - mirin
+  - soy sauce
+  - chicken thighs
+  - scallions
+  - eggs
+- title: Fried pork cutlets (Tonkatsu)
+  page: 44
+  ingredients:
+  - pork tenderloin
+  - eggs
+  - panko breadcrumbs
+  - vegetable oil
+- title: Pork cutlets and eggs over rice (Katsudon)
+  page: 45
+  ingredients:
+  - onions
+  - kombu
+  - katsuobushi
+  - mirin
+  - soy sauce
+  - eggs
+  - pork tenderloin
+  - panko breadcrumbs
+  - vegetable oil
+  - Japanese short-grain rice
+- title: Miso soup
+  page: 46
+  ingredients:
+  - kombu
+  - katsuobushi
+  - white miso
+  - soft tofu
+  - dried wakame
+- title: Fermented soybeans with tuna and squid (Maguro natto)
+  page: 50
+  ingredients:
+  - natto
+  - eggs
+  - tuna
+  - squid
+  - cucumbers
+  - takuan
+  - shiso leaves
+  - scallions
+- title: Eggplant with fermented soybeans and cilantro (Nasu natto)
+  page: 52
+  ingredients:
+  - natto
+  - Japanese eggplants
+  - cilantro
+  - soy sauce
+- title: Stuffed tofu pouches (Inari sushi)
+  page: 55
+  ingredients:
+  - abura-age
+  - soy sauce
+  - mirin
+  - sesame seeds
+  - Japanese short-grain rice
+  - rice vinegar
+- title: Rice balls (Onigiri)
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - filling of your choice
+- title: Rice balls with broiled salmon
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - salmon fillets
+- title: Rice balls with miso-glazed salmon
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - salmon fillets
+  - white miso
+  - Kewpie mayonnaise
+  - sake
+  - mirin
+- title: Rice balls with tuna mayo
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - Kewpie mayonnaise
+  - cooked tuna
+- title: Rice balls with bonito flakes with soy sauce (Okara)
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - katsuobushi
+  - soy sauce
+- title: Rice balls with pickled plum (Umeboshi)
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - umeboshi plums
+- title: Rice balls with seasoned ground chicken (Tori soboro)
+  page: 56
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - ground chicken
+- title: Miso-glazed salmon (Sake misozuke)
+  page: 58
+  ingredients:
+  - white miso
+  - Kewpie mayonnaise
+  - sake
+  - mirin
+  - salmon fillets
+- title: Seasoned ground chicken (Tori soboro)
+  page: 59
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - ground chicken
+- title: Teriyaki 12.0
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+- title: Teriyaki beef
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+  - beef
+- title: Teriyaki pork
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+  - pork
+- title: Teriyaki chicken
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+  - chicken thighs
+- title: Teriyaki fish
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+  - firm fish fillets
+- title: Teriyaki pork ribs
+  page: 61
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - oyster sauce
+  - pork ribs
+- title: Stir-fried udon (Yaki udon)
+  page: 62
+  ingredients:
+  - frozen udon noodles
+  - cabbage
+  - carrots
+  - shimeiji mushrooms
+  - soy sauce
+  - sake
+  - mirin
+  - oyster sauce
+  - pork belly
+  - scallions
+  - red peppers
+  - toasted sesame oil
+  - katsuobushi
+- title: Okinawan stir-fry (Chanpuru)
+  page: 63
+  ingredients:
+  - pork belly
+  - button mushrooms
+  - zucchini
+  - bean sprouts
+  - firm tofu
+  - soy sauce
+  - toasted sesame oil
+  - katsuobushi
+- title: Temaki party
+  page: 64
+  ingredients:
+  - Japanese short-grain rice
+  - nori
+  - protein of your choice
+  - cooked protein of your choice
+  - herbs of your choice
+  - vegetables of your choice
+  - avocados
+  - cucumbers
+  - shiso leaves
+  - shoyu
+  - wasabi
+  - sushi grade fish
+- title: Kimchi pork belly (Buta kimchi)
+  page: 74
+  ingredients:
+  - soy sauce
+  - mirin
+  - sake
+  - oyster sauce
+  - toasted sesame oil
+  - pork belly
+  - garlic chives
+  - kimchi
+  - bean sprouts
+- title: Spaghetti Napolitan
+  page: 77
+  ingredients:
+  - bacon
+  - red peppers
+  - button mushrooms
+  - tomato ketchup
+  - spaghetti pasta
+- title: Mentaiko spaghetti
+  page: 78
+  ingredients:
+  - spaghetti pasta
+  - heavy cream
+  - soy sauce
+  - mentaiko
+  - nori
+  - shiso leaves
+- title: Stuffed cabbage (Roru kyabetsu)
+  page: 81
+  ingredients:
+  - green cabbage
+  - ground beef
+  - eggs
+  - panko breadcrumbs
+  - tomato ketchup
+  - soy sauce
+  - kombu
+  - katsuobushi
+  - canned crushed tomatoes
+- title: Stuffed peppers (Piiman no nikuzume)
+  page: 82
+  ingredients:
+  - ground beef
+  - eggs
+  - tomato ketchup
+  - panko breadcrumbs
+  - green peppers
+- title: Pork curry from the box
+  page: 84
+  ingredients:
+  - carrots
+  - potatoes
+  - onions
+  - Japanese curry sauce mix
+  - pork shoulder
+  - katsuobushi
+  - kombu
+- title: Braised pork
+  page: 85
+  ingredients:
+  - pork shoulder
+  - kombu
+  - katsuobushi
+- title: Pork curry from scratch
+  page: 86
+  ingredients:
+  - pork shoulder
+  - onions
+  - fresh ginger
+  - potatoes
+  - carrots
+  - Japanese curry powder
+  - chicken stock
+  - tomato ketchup
+  - tonkatsu sauce
+  - soy sauce
+- title: Chicken cream stew (Kurimu shichu)
+  page: 87
+  ingredients:
+  - chicken breasts
+  - onions
+  - carrots
+  - potatoes
+  - milk
+  - white miso
+- title: Hayashi rice
+  page: 89
+  ingredients:
+  - beef chuck roast
+  - onions
+  - dry red wine
+  - tomato paste
+  - tomatoes
+  - tomato ketchup
+  - tonkatsu sauce
+  - honey
+  - Japanese short-grain rice
+- title: Tofu Coney Island
+  page: 90
+  ingredients:
+  - firm tofu
+  - potato starch
+  - vegetable oil
+  - button mushrooms
+  - onions
+  - fresh ginger
+  - tomato ketchup
+  - red miso
+  - sake
+  - mirin
+  - shimeji mushrooms
+  - garlic
+  - soy sauce
+  - white vinegar
+- title: Miso mushroom chili
+  page: 92
+  ingredients:
+  - button mushrooms
+  - onions
+  - fresh ginger
+  - tomato ketchup
+  - red miso
+  - sake
+  - mirin
+  - shimeji mushrooms
+  - garlic
+  - soy sauce
+  - white vinegar
+- title: Miso-buttered corn
+  page: 93
+  ingredients:
+  - corn on the cob
+  - sake
+  - mirin
+  - white miso
+  - rice vinegar
+  - butter
+- title: Pork and tofu meatballs with buttermilk sauce
+  page: 94
+  ingredients:
+  - garlic
+  - fresh ginger
+  - soy sauce
+  - eggs
+  - ground pork
+  - soft tofu
+  - panko breadcrumbs
+  - vegetable oil
+  - sour cream
+  - Kewpie mayonnaise
+  - buttermilk
+  - white miso
+  - aonori
+  - wasabi paste
+- title: Buttermilk sauce
+  page: 95
+  ingredients:
+  - sour cream
+  - Kewpie mayonnaise
+  - buttermilk
+  - white miso
+  - aonori
+  - wasabi paste
+- title: Smoked fish donburi
+  page: 97
+  ingredients:
+  - Japanese short-grain rice
+  - furikake
+  - smoked whitefish
+  - scallions
+  - soy sauce
+  - mirin
+  - sake
+  - honey
+  - kombu
+  - katsuobushi
+- title: Seasoning sauce (sweet tare)
+  page: 97
+  ingredients:
+  - soy sauce
+  - mirin
+  - sake
+  - honey
+  - kombu
+  - katsuobushi
+- title: Bagels with Japanese-ish fixings
+  page: 98
+  ingredients:
+  - bagels
+  - red onions
+  - shiso leaves
+  - furikake
+  - cream cheese
+  - aonori
+  - salmon fillets
+- title: Aonori cream cheese
+  page: 98
+  ingredients:
+  - cream cheese
+  - aonori
+- title: Shiso gravlax
+  page: 98
+  ingredients:
+  - salmon fillets
+  - shiso leaves
+  - store-cupboard ingredients
+- title: Sushi-ginger pizza bites
+  page: 101
+  ingredients:
+  - gyoza wrappers
+  - Kewpie mayonnaise
+  - shichimi togarashi
+  - katsuobushi
+  - pickled ginger
+  - mozzarella cheese
+- title: Egg salad sandwich
+  page: 104
+  ingredients:
+  - eggs
+  - Kewpie mayonnaise
+  - Japanese milk bread
+- title: Scrambled egg sandwich
+  page: 104
+  ingredients:
+  - eggs
+  - Japanese milk bread
+  - Kewpie mayonnaise
+- title: Chicken cutlet sandwich (Tori katsu)
+  page: 105
+  ingredients:
+  - chicken breasts
+  - eggs
+  - panko breadcrumbs
+  - Japanese milk bread
+  - Kewpie mayonnaise
+  - tonkatsu sauce
+- title: Beef croquette sandwich (Menchi katsu)
+  page: 105
+  ingredients:
+  - Japanese milk bread
+  - Kewpie mayonnaise
+  - tonkatsu sauce
+  - green cabbage
+  - ground beef
+  - onions
+  - eggs
+  - oyster sauce
+  - tomato ketchup
+  - panko breadcrumbs
+  - vegetable oil
+- title: Rice with tea (Ochazuke 1)
+  page: 113
+  ingredients:
+  - Japanese short-grain rice
+  - Japanese green tea
+  - topping of your choice
+- title: Rice with broth (Ochazuke 2)
+  page: 113
+  ingredients:
+  - Japanese short-grain rice
+  - topping of your choice
+  - kombu
+  - katsuobushi
+- title: Broiled salmon
+  page: 113
+  ingredients:
+  - salmon fillets
+- title: Rice porridge (Ojiya)
+  page: 114
+  ingredients:
+  - Japanese short-grain rice
+  - katsuobushi
+  - soy sauce
+  - eggs
+  - kombu
+- title: Shimeji mushroom rice (Kinoko no takikomi gohan)
+  page: 116
+  ingredients:
+  - Japanese short-grain rice
+  - soy sauce
+  - mirin
+  - sake
+  - shimeji mushrooms
+- title: Chicken and vegetable rice (Tori no takikomi gohan)
+  page: 118
+  ingredients:
+  - Japanese short-grain rice
+  - soy sauce
+  - mirin
+  - sake
+  - katsuobushi
+  - burdock root
+  - carrots
+  - chicken thighs
+  - shimeji mushrooms
+- title: Pork and miso-ginger stew (Tonjiru)
+  page: 119
+  ingredients:
+  - daikon radishes
+  - Japanese sweet potatoes
+  - carrots
+  - pork belly
+  - toasted sesame oil
+  - kombu
+  - katsuobushi
+  - white miso
+  - fresh ginger
+  - tofu
+- title: Pork and root vegetable stew with shirataki noodles (Niku jaga)
+  page: 121
+  ingredients:
+  - shirataki noodles
+  - soy sauce
+  - mirin
+  - sake
+  - pork belly
+  - onions
+  - potatoes
+  - carrots
+- title: Okinawa-style soba with pork belly and katsuobushi (Soki soba)
+  page: 122
+  ingredients:
+  - pork belly
+  - scallions
+  - fresh ginger
+  - soy sauce
+  - sake
+  - katsuobushi
+  - udon noodles
+- title: Beef and onion rice bowl (Gyudon)
+  page: 125
+  ingredients:
+  - onions
+  - sake
+  - soy sauce
+  - mirin
+  - beef chuck
+  - fresh ginger
+  - Japanese short-grain rice
+- title: Stewed beef shank (Gyu suji nikomi)
+  page: 126
+  ingredients:
+  - beef shanks
+  - sake
+  - mirin
+  - soy sauce
+  - daikon radishes
+  - burdock root
+  - katsuobushi
+  - fresh ginger
+  - carrots
+- title: Every-night hot pot (Jouya nabe)
+  page: 132
+  ingredients:
+  - kombu
+  - pork belly
+  - napa cabbage
+  - enoki mushrooms
+- title: Chicken hot pot (Mizutaki)
+  page: 133
+  ingredients:
+  - chicken drumsticks
+  - napa cabbage
+  - carrots
+  - shiitake mushrooms
+  - firm tofu
+  - ground chicken
+  - fresh ginger
+  - panko breadcrumbs
+  - egg whites
+  - potato starch
+- title: Salmon and miso hot pot (Ishikari nabe)
+  page: 135
+  ingredients:
+  - kombu
+  - salmon fillets
+  - carrots
+  - red potatoes
+  - napa cabbage
+  - shiitake mushrooms
+  - pork belly
+  - soft tofu
+  - white miso
+  - soy sauce
+  - sake
+  - mirin
+- title: Oyster and cabbage hot pot (Kaki nabe)
+  page: 136
+  ingredients:
+  - kombu
+  - napa cabbage
+  - shiitake mushrooms
+  - soft tofu
+  - oysters
+- title: Beef hot pot (Sukiyaki)
+  page: 139
+  ingredients:
+  - shirataki noodles
+  - soy sauce
+  - sake
+  - mirin
+  - scallions
+  - napa cabbage
+  - enoki mushrooms
+  - tofu
+  - chrysanthemum greens
+  - beef rib-eye steaks
+- title: Oden party
+  page: 146
+  ingredients:
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - sake
+  - mirin
+  - daikon radishes
+  - eggs
+  - shirataki noodles
+  - chikuwa
+  - satsuma age
+  - abura-age
+- title: Chicken dan dan noodles
+  page: 150
+  ingredients:
+  - whole chicken
+  - chicken feet
+  - Sichuan peppercorns
+  - dried red pepper flakes
+  - toasted sesame oil
+  - chicken fat
+  - scallions
+  - white soy sauce
+  - brown rice vinegar
+  - fresh ginger
+  - sesame seeds
+  - ground chicken
+  - fresh ramen noodles
+- title: Gyoza
+  page: 153
+  ingredients:
+  - green cabbage
+  - ground pork
+  - fresh ginger
+  - garlic chives
+  - soy sauce
+  - toasted sesame oil
+  - gyoza wrappers
+- title: Gyoza dipping sauce
+  page: 155
+  ingredients:
+  - soy sauce
+  - rice vinegar
+  - rayu oil
+- title: Tempura party
+  page: 158
+  ingredients:
+  - vegetables of your choice
+  - seafood of your choice
+  - vegetable oil
+  - egg yolks
+  - cake flour
+- title: Tempura batter
+  page: 161
+  ingredients:
+  - egg yolks
+  - cake flour
+- title: Tempura dipping sauce
+  page: 161
+  ingredients:
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+  - daikon radishes
+- title: Ten don sauce
+  page: 161
+  ingredients:
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+- title: Shrimp-vegetable fritter rice bowl (Kakiage don)
+  page: 162
+  ingredients:
+  - vegetable oil
+  - shrimp
+  - carrots
+  - onions
+  - asparagus
+  - corn
+  - egg yolks
+  - cake flour
+- title: Chicken-fried steak with wasabi-joyu (Gyukatsu)
+  page: 165
+  ingredients:
+  - beef rib-eye steaks
+  - eggs
+  - panko breadcrumbs
+  - vegetable oil
+  - wasabi paste
+  - soy sauce
+  - cabbage
+- title: Beef croquettes (Menchi katsu)
+  page: 166
+  ingredients:
+  - green cabbage
+  - ground beef
+  - onions
+  - eggs
+  - oyster sauce
+  - tomato ketchup
+  - tonkatsu sauce
+  - panko breadcrumbs
+  - vegetable oil
+- title: Fried shrimp (Ebi fry)
+  page: 169
+  ingredients:
+  - shrimp
+  - vegetable oil
+  - eggs
+  - panko breadcrumbs
+- title: Daikon-pickled plum salad (Daikon sarada)
+  page: 175
+  ingredients:
+  - daikon radishes
+  - umeboshi plums
+  - rice vinegar
+  - honey
+  - shiso leaves
+  - sesame seeds
+- title: Daikon and cucumber "sandwiches" with shiso and pickled plums
+  page: 176
+  ingredients:
+  - daikon radishes
+  - cucumbers
+  - umeboshi plums
+  - honey
+  - rice vinegar
+  - shichimi togarashi
+  - shiso leaves
+- title: Potato salad (Potato sarada)
+  page: 178
+  ingredients:
+  - potatoes
+  - carrots
+  - onions
+  - Kewpie mayonnaise
+  - rice vinegar
+- title: "Saut\xE9ed chicken livers with garlic chives (Reba nira)"
+  page: 179
+  ingredients:
+  - chicken livers
+  - milk
+  - toasted sesame oil
+  - sake
+  - soy sauce
+  - oyster sauce
+  - potato starch
+  - garlic chives
+  - bean sprouts
+  - fresh ginger
+- title: Grilled peppers with ginger-onion shio tare
+  page: 181
+  ingredients:
+  - garlic
+  - fresh ginger
+  - peppers
+  - onions
+- title: Ginger-onion shio tare
+  page: 181
+  ingredients:
+  - garlic
+  - fresh ginger
+  - store-cupboard ingredients
+  - onions
+- title: Chicken meatballs (Tsukune)
+  page: 182
+  ingredients:
+  - ground chicken
+  - fresh ginger
+  - panko breadcrumbs
+  - potato starch
+  - egg whites
+  - soy sauce
+  - sake
+  - mirin
+- title: Savory pancakes (Okonomiyaki)
+  page: 185
+  ingredients:
+  - all-purpose flour
+  - eggs
+  - green cabbage
+  - pork belly
+- title: Grilled rice balls (Yaki onigiri)
+  page: 186
+  ingredients:
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+  - Japanese short-grain rice
+  - nori sheets
+- title: Mentaiko mayo
+  page: 186
+  ingredients:
+  - mentaiko
+  - Kewpie mayonnaise
+- title: Spicy somen with poached chicken
+  page: 189
+  ingredients:
+  - chicken breasts
+  - somen noodles
+  - soy sauce
+  - rice vinegar
+  - scallions
+  - cucumbers
+  - neutral oil of your choice
+  - roasted almonds
+  - roasted sesame seeds
+  - canned fried onions
+  - dried red chiles
+  - crisp-fried garlic
+- title: Instant ramen party
+  page: 190
+  ingredients:
+  - kombu
+  - katsuobushi
+  - chicken stock
+  - seasoning of your choice
+  - instant ramen noodles
+  - topping of your choice
+- title: Slow-roasted tomatoes
+  page: 193
+  ingredients:
+  - tomatoes
+- title: Seasoned ground pork
+  page: 193
+  ingredients:
+  - ground pork
+  - sake
+  - mirin
+  - soy sauce
+- title: Simmered bamboo tips
+  page: 193
+  ingredients:
+  - canned bamboo shoots
+  - sake
+  - soy sauce
+  - katsuobushi
+  - mirin
+- title: Fire-roasted sweet potatoes (Yaki imo)
+  page: 195
+  ingredients:
+  - Japanese sweet potatoes
+- title: Family-style chirashi
+  page: 197
+  ingredients:
+  - Japanese short-grain rice
+  - cucumbers
+  - cured ikura
+  - sake
+  - shrimp
+  - tuna
+  - soy sauce
+  - mirin
+  - eggs
+  - dried shiitake mushrooms
+  - lotus root
+  - rice vinegar
+  - fresh ginger
+- title: Sake-steamed shrimp (Ebi no sakamushi)
+  page: 197
+  ingredients:
+  - shrimp
+  - sake
+- title: Sweet egg noodles (Kinshi tamago)
+  page: 199
+  ingredients:
+  - eggs
+- title: Seasoned shiitake mushrooms (Shiitake no amakara ni)
+  page: 199
+  ingredients:
+  - dried shiitake mushrooms
+  - sake
+  - mirin
+  - soy sauce
+- title: Lotus root pickles (Renkon no tsukemono)
+  page: 199
+  ingredients:
+  - lotus root
+  - rice vinegar
+  - fresh ginger
+- title: Giant sushi (Futomaki)
+  page: 200
+  ingredients:
+  - sushi nori
+  - Japanese short-grain rice
+  - rice vinegar
+  - roasted sesame seeds
+  - eggs
+  - katsuobushi
+  - kombu
+  - mirin
+  - soy sauce
+  - vegetables of your choice
+  - protein of your choice
+- title: Seasoned omelet (Tamagoyaki)
+  page: 202
+  ingredients:
+  - eggs
+  - kombu
+  - katsuobushi
+  - mirin
+  - soy sauce
+- title: Seasoned spinach (Ohitashi)
+  page: 204
+  ingredients:
+  - spinach
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+- title: Teriyaki beef
+  page: 204
+  ingredients:
+  - soy sauce
+  - mirin
+  - sake
+  - beef rib-eye steaks
+- title: Simmered chicken and vegetables (Nimono)
+  page: 210
+  ingredients:
+  - dried shiitake mushrooms
+  - chicken thighs
+  - carrots
+  - baby taro root
+  - lotus root
+  - burdock root
+  - kombu
+  - katsuobushi
+  - mirin
+  - soy sauce
+  - sake
+- title: Whole fish cooked in rice (Tai meshi)
+  page: 213
+  ingredients:
+  - Japanese short-grain rice
+  - kombu
+  - sea bream
+  - soy sauce
+  - sake
+  - mirin
+  - roasted sesame seeds
+  - Tokyo negi onions
+- title: Duck soba (Kamo soba)
+  page: 214
+  ingredients:
+  - Pekin duck breasts
+  - scallions
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - spinach
+- title: Chicken stuffed with burdock root and carrots (Toriniku no yasai maki)
+  page: 216
+  ingredients:
+  - kombu
+  - katsuobushi
+  - soy sauce
+  - mirin
+  - burdock root
+  - carrots
+  - chicken breasts
+  - sake
+  - honey
+- title: Rice cakes (Mochi)
+  page: 219
+  ingredients:
+  - kiri mochi
+- title: Mochi filled with sweet red bean paste
+  page: 219
+  ingredients:
+  - kiri mochi
+  - anko
+- title: Mochi dusted with kinako (toasted soy flour)
+  page: 220
+  ingredients:
+  - kiri mochi
+  - kinako flour
+- title: Mochi wrapped in nori and dipped in soy sauce
+  page: 220
+  ingredients:
+  - kiri mochi
+  - soy sauce
+  - mirin
+  - nori
+- title: Sweet dashi-poached prawns (Ebi no umani)
+  page: 223
+  ingredients:
+  - kombu
+  - prawns
+  - soy sauce
+  - mirin
+  - sake
+  - katsuobushi
+- title: Mashed sweet potatoes with candied chestnuts (Kuri kinton)
+  page: 224
+  ingredients:
+  - Japanese sweet potatoes
+  - mirin
+  - chestnuts in syrup
+- title: Sweet black soybeans (Kuromame)
+  page: 225
+  ingredients:
+  - sugar
+  - soy sauce
+  - dried black soybeans
+- title: Sweet rolled omelet with fish cake (Datemaki)
+  page: 226
+  ingredients:
+  - hanpen
+  - eggs
+  - mirin
+  - sake
+- title: Candied sardines (Tazukuri)
+  page: 228
+  ingredients:
+  - dried baby sardines
+  - sake
+  - mirin
+  - soy sauce
+- title: Pickled garlic
+  page: 232
+  ingredients:
+  - garlic
+  - soy sauce
+  - white vinegar
+- title: Satsuma vinegar
+  page: 233
+  ingredients:
+  - satsuma oranges
+  - rice vinegar
+  - Japanese rock sugar
+- title: Satsuma liqueur
+  page: 233
+  ingredients:
+  - satsuma oranges
+  - shochu
+  - Japanese rock sugar
+- title: Chunky chili oil (Taberu rayu)
+  page: 234
+  ingredients:
+  - neutral oil of your choice
+  - dried red chiles
+  - roasted almonds
+  - roasted sesame seeds
+  - canned fried onions
+  - crisp-fried garlic
+  - soy sauce
+- title: Seasoning sauce (Tare)
+  page: 235
+  ingredients:
+  - soy sauce
+  - kombu
+  - katsuobushi
+  - mirin
+  - sake
+  - honey
+- title: Simplified tare
+  page: 235
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+- title: Rice topping (Sesame furikake)
+  page: 236
+  ingredients:
+  - dried onion flakes
+  - aonori
+  - sesame seeds
+  - black sesame seeds
+- title: Katsuobushi furikake
+  page: 237
+  ingredients:
+  - katsuobushi
+  - sesame seeds
+  - black sesame seeds
+  - shichimi togarashi

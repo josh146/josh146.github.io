@@ -1,0 +1,1404 @@
+book: 'Oaxaca'
+author: Bricia Lopez, Javier Cabral
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/oaxaca-home-cooking-from-the-191911l3.jpg
+wishlist: true
+recipes:
+- title: Preparing chiles
+  page: 29
+  ingredients:
+  - dried chiles
+- title: Using a tortilla press
+  page: 30
+  ingredients:
+  - masa
+- title: Skimming meat broth
+  page: 32
+  ingredients:
+  - meat of your choice
+- title: Curing and using a molcajete
+  page: 32
+  ingredients:
+  - green chiles
+  - store-cupboard ingredients
+- title: Using a molinillo
+  page: 32
+  ingredients:
+  - hot chocolate
+- title: Using a strainer
+  page: 32
+  ingredients:
+  - sauce of your choice
+- title: Masa
+  page: 62
+  ingredients:
+  - pickling lime
+  - white corn
+- title: Masa quebrajada
+  page: 62
+  ingredients:
+  - pickling lime
+  - white corn
+- title: Beans cooked in a pot (Frijoles de la olla)
+  page: 64
+  ingredients:
+  - black beans
+  - garlic
+  - white onions
+  - epazote
+- title: Fried omelet cake in black beans (Huevo en frijol)
+  page: 66
+  ingredients:
+  - black beans
+  - garlic
+  - white onions
+  - epazote
+  - eggs
+- title: "Crackling pork skin in black beans (Chicharr\xF3n en frijol)"
+  page: 68
+  ingredients:
+  - black beans
+  - garlic
+  - white onions
+  - epazote
+  - chicharron
+- title: Black bean paste (Pasta de frijol negro)
+  page: 70
+  ingredients:
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+- title: Refried black beans (Frijoles refritos)
+  page: 72
+  ingredients:
+  - chiles de arbol
+  - avocado leaves
+  - white onions
+  - black beans
+  - garlic
+  - epazote
+- title: Pork rind paste (Aciento)
+  page: 74
+  ingredients:
+  - chicharron
+- title: Vegan aciento
+  page: 76
+  ingredients:
+  - garlic
+  - non-hydrogenated vegetable shortening
+  - pumpkin seeds
+  - sunflower seeds
+  - raw peanuts
+- title: Oaxacan adobo paste (Oaxacan adobo)
+  page: 78
+  ingredients:
+  - guajillo chiles
+  - dried thyme
+  - dried oregano
+  - whole cloves
+  - black peppercorns
+  - allspice berries
+  - cumin seeds
+  - garlic
+  - bay leaves
+  - cinnamon sticks
+  - white onions
+- title: "White rice with banana (Arroz blanco con pl\xE1tano)"
+  page: 80
+  ingredients:
+  - tomatillos
+  - jasmine rice
+  - parsley
+  - bananas
+  - white onions
+- title: Chilaquiles
+  page: 84
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - protein of your choice
+- title: Chilaquiles in rustic Oaxacan tomato sauce (Chilaquiles rojos)
+  page: 86
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - tomatoes
+  - serrano chiles
+  - protein of your choice
+- title: Chilaquiles in spicy tomatillo salsa (Chilaquiles verdes)
+  page: 86
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - serrano chiles
+  - tomatillos
+  - protein of your choice
+- title: Chilaquiles in black mole sauce (Chilaquiles en mole negro)
+  page: 86
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - serrano chiles
+  - vegetable oil
+  - chilhuacle negro chiles
+  - pasilla chiles
+  - sesame seeds
+  - dried thyme
+  - dried oregano
+  - whole cloves
+  - black peppercorns
+  - allspice berries
+  - cinnamon sticks
+  - onions
+  - almonds
+  - Maria cookies
+  - plantains
+  - apples
+  - pineapple
+  - raisins
+  - tomatoes
+  - Oaxacan chocolate
+  - chicken stock
+  - protein of your choice
+  - mulato chiles
+- title: Chilaquiles in pasilla chile sauce (Chilaquiles en salsa de pasilla)
+  page: 86
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - pasilla chiles
+  - epazote
+  - protein of your choice
+- title: Chilaquiles in spicy guajillo salsa (Chilaquiles en salsa de guajillo)
+  page: 87
+  ingredients:
+  - corn tortillas
+  - peanut oil
+  - Mexican crema
+  - cilantro
+  - white onions
+  - queso fresco
+  - tomatoes
+  - guajillo chiles
+- title: Chicken-tomatillo soup with whipped eggs (Higaditos)
+  page: 88
+  ingredients:
+  - tomatillos
+  - guajillo chiles
+  - chiles de arbol
+  - whole chicken
+  - garlic
+  - white onions
+  - eggs
+  - cumin seeds
+  - saffron
+  - corn tortillas
+- title: Black bean toast (Molletes)
+  page: 92
+  ingredients:
+  - bolillos
+  - queso Oaxaca
+  - fried eggs
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+- title: Pan-fried tortillas in a spicy black bean sauce (Enfrijoladas)
+  page: 94
+  ingredients:
+  - chiles de arbol
+  - avocado leaves
+  - black beans
+  - garlic
+  - white onions
+  - epazote
+  - corn tortillas
+  - parsley
+  - queso fresco
+- title: Dry-toasted egg (Huevos al comal)
+  page: 96
+  ingredients:
+  - eggs
+- title: Scrambled eggs with green beans and chorizo (Huevos con ejotes y chorizo)
+  page: 98
+  ingredients:
+  - green beans
+  - chorizo sausages
+  - white onions
+  - tomatoes
+  - eggs
+  - corn tortillas
+- title: Scrambled eggs with tender cactus (Huevos con nopalitos)
+  page: 100
+  ingredients:
+  - nopales
+  - white onions
+  - eggs
+  - onions
+  - tomatoes
+  - epazote
+- title: Mole enchiladas (Enmoladas)
+  page: 102
+  ingredients:
+  - corn tortillas
+  - queso fresco
+  - vegetable oil
+  - mulato chiles
+  - chilhuacle chiles
+  - pasilla chiles
+  - sesame seeds
+  - dried thyme
+  - dried oregano
+  - whole cloves
+  - allspice berries
+  - black peppercorns
+  - cinnamon sticks
+  - onions
+  - garlic
+  - almonds
+  - Maria cookies
+  - plantains
+  - apples
+  - pineapple
+  - raisins
+  - tomatoes
+  - avocado leaves
+  - Oaxacan chocolate
+  - chicken stock
+- title: Fried eggs over crispy tortillas in rustic Oaxacan sauce (Huevos rancheros)
+  page: 104
+  ingredients:
+  - corn tortillas
+  - eggs
+  - chiles de arbol
+  - avocado leaves
+  - white onions
+  - black beans
+  - garlic
+  - epazote
+  - tomatoes
+  - serrano chiles
+- title: Puffy omelet in rustic Oaxacan sauce (Salsa de huevo)
+  page: 105
+  ingredients:
+  - eggs
+  - cilantro
+  - corn tortillas
+  - tomatoes
+  - serrano chiles
+- title: Rustic tomato salsa enchiladas (Entomatadas)
+  page: 105
+  ingredients:
+  - corn tortillas
+  - tomatoes
+  - serrano chiles
+  - queso fresco
+  - parsley
+- title: "Crackling pork in rustic Oaxacan sauce (Salsa de chicharr\xF3n)"
+  page: 106
+  ingredients:
+  - tomatoes
+  - serrano chiles
+  - epazote
+  - chicharron
+  - corn tortillas
+- title: Griddled, crispy cheese in rustic Oaxacan sauce (Salsa de queso)
+  page: 106
+  ingredients:
+  - tomatoes
+  - serrano chiles
+  - epazote
+  - corn tortillas
+  - queso fresco
+- title: Grilled chorizo in rustic Oaxacan sauce (Salsa de chorizo)
+  page: 107
+  ingredients:
+  - chorizo sausages
+  - corn tortillas
+  - tomatoes
+  - serrano chiles
+- title: Tamales filled with chicken in black mole (Tamales de mole negro)
+  page: 110
+  ingredients:
+  - pickling lime
+  - white corn
+  - lard
+  - banana leaves
+  - cooked shredded chicken
+  - corn husks
+  - vegetable oil
+  - mulato chiles
+  - chilhuacle negro chiles
+  - pasilla chiles
+  - sesame seeds
+  - dried thyme
+  - dried oregano
+  - whole cloves
+  - cinnamon sticks
+  - allspice berries
+  - black peppercorns
+  - onions
+  - garlic
+  - almonds
+  - Maria cookies
+  - plantains
+  - apples
+  - pineapple
+  - raisins
+  - tomatoes
+  - avocado leaves
+  - Oaxacan chocolate
+  - chicken stock
+- title: Tamales filled with black bean paste and avocado leaves (Tamales de frijol)
+  page: 114
+  ingredients:
+  - pickling lime
+  - white corn
+  - avocado leaves
+  - corn husks
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+- title: "Tamales filled with chicken and sliced jalape\xF1o (Tamales de rajas)"
+  page: 116
+  ingredients:
+  - pickling lime
+  - white corn
+  - lard
+  - onions
+  - "jalape\xF1o chiles"
+  - cooked chicken breast meat
+  - tomatoes
+  - dried oregano
+  - epazote
+  - corn husks
+- title: Sweet tamales (Tamales de dulce)
+  page: 118
+  ingredients:
+  - pickling lime
+  - white corn
+  - lard
+  - sugar
+  - cinnamon sticks
+  - anise seeds
+  - shredded coconut
+  - raisins
+  - canned pineapple chunks in heavy syrup
+  - corn husks
+  - carmine powder
+- title: "Isthmus-style crispy thin masa cakes with finely ground beef and pickled\
+    \ cabbage (Garnachas Istme\xF1as)"
+  page: 122
+  ingredients:
+  - shredded cabbage
+  - shredded carrots
+  - pasilla chiles
+  - apple cider vinegar
+  - white onions
+  - garlic
+  - tomatoes
+  - guacamole
+  - Mexican crema
+  - queso fresco
+  - "aguay\xF3n"
+- title: Crispy masa rolls filled with potatoes and chorizo (Molotes de masa con papas
+    y chorizo)
+  page: 126
+  ingredients:
+  - potatoes
+  - chorizo sausages
+  - pickling lime
+  - white corn
+  - vegetable oil
+  - guacamole
+  - salsa
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+- title: Pickled pork feet (Patitas de puerco en escabeche)
+  page: 129
+  ingredients:
+  - white onions
+  - garlic
+  - carrots
+  - "jalape\xF1o chiles"
+  - bay leaves
+  - dried oregano
+  - dried thyme
+  - apple cider vinegar
+  - pig feet
+  - whole cloves
+  - allspice berries
+- title: Vegetables in guajillo sauce (Chileajo)
+  page: 130
+  ingredients:
+  - bay leaves
+  - green beans
+  - carrots
+  - potatoes
+  - peas
+  - guajillo chiles
+  - garlic
+  - apple cider vinegar
+  - ground cumin
+  - shredded cabbage
+  - queso fresco
+  - guacamole
+- title: "Saut\xE9ed grasshoppers with pork crackling tacos (Tacos de chapulin and\
+    \ chicharr\xF3n)"
+  page: 132
+  ingredients:
+  - "jalape\xF1o chiles"
+  - tomatoes
+  - chicharron
+  - corn tortillas
+  - avocados
+  - dried chapulines
+- title: Memelas
+  page: 134
+  ingredients:
+  - pickling lime
+  - white corn
+  - queso fresco
+  - salsa
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+  - chicharron
+- title: Crispy quesadillas with epazote (Quesadillas fritas con epazote)
+  page: 136
+  ingredients:
+  - pickling lime
+  - white corn
+  - quesillo Oaxaca
+  - epazote
+  - vegetable oil
+  - guacamole
+  - salsa
+  - queso fresco
+  - black beans
+  - garlic
+  - white onions
+  - chiles de arbol
+  - dried avocado leaves
+- title: Tender cactus and guajillo chile salad (Ensalada de nopalitos con chile guajillo)
+  page: 138
+  ingredients:
+  - nopales
+  - white onions
+  - guajillo chiles
+  - chiles de arbol
+  - oregano
+  - ground cumin
+- title: "Crispy plantain rolls stuffed with black beans (Molotes de pl\xE1tano)"
+  page: 140
+  ingredients:
+  - plantains
+  - breadcrumbs
+  - Mexican crema
+  - cotija cheese
+  - black beans
+  - garlic
+  - white onions
+  - dried avocado leaves
+  - chiles de arbol
+- title: White beans with battered salted cod (Frijol blanco con bacalao capeado)
+  page: 144
+  ingredients:
+  - salted cod fillets
+  - dried navy beans
+  - white onions
+  - garlic
+  - tomatoes
+  - whole cloves
+  - allspice berries
+  - cumin seeds
+  - cilantro
+  - epazote
+  - all-purpose flour
+  - eggs
+  - egg whites
+  - corn tortillas
+- title: Pork feet in black beans (Patitas de puerco en frijol negro)
+  page: 148
+  ingredients:
+  - pig feet
+  - white vinegar
+  - black beans
+  - onions
+  - garlic
+  - epazote
+  - "pickled jalape\xF1o chiles"
+  - limes
+- title: Oaxacan chicken soup (Caldo de fandango del valle)
+  page: 150
+  ingredients:
+  - whole chicken
+  - white onions
+  - white bread
+  - cumin seeds
+  - black peppercorns
+  - whole cloves
+  - dried oregano
+  - tomatoes
+  - serrano chiles
+  - limes
+  - tortillas
+  - garlic
+  - jasmine rice
+  - parsley
+- title: Chicken in green salsa with potatoes and cactus (Pollo en salsa verde con
+    papas y nopales)
+  page: 152
+  ingredients:
+  - whole chicken
+  - baby potatoes
+  - tomatillos
+  - white onions
+  - serrano chiles
+  - cilantro
+  - nopales
+  - chicken broth
+  - corn tortillas
+- title: Cow foot soup (Caldo de pata)
+  page: 154
+  ingredients:
+  - cow feet
+  - white onions
+  - guajillo chiles
+  - garlic
+  - tomatillos
+  - whole cloves
+  - cumin seeds
+  - corn tortillas
+  - cilantro
+  - limes
+- title: Squash vine in a green mole soup with crispy masa dumplings (Guias en mole
+    verde y chochoyotes)
+  page: 156
+  ingredients:
+  - pickling lime
+  - white corn
+  - guias
+  - summer squash
+  - cumin seeds
+  - white onions
+  - garlic
+  - serrano chiles
+  - tomatillos
+  - green tomatoes
+- title: Beef soup with guajillo chile (Caldo de res con guajillo chile)
+  page: 160
+  ingredients:
+  - beef short-ribs
+  - beef shanks
+  - carrots
+  - potatoes
+  - chayotes
+  - green beans
+  - cabbage
+  - guajillo chiles
+  - white onions
+  - ground cumin
+  - whole cloves
+  - tomatillos
+  - cilantro
+  - mint
+  - serrano chiles
+  - limes
+- title: Pozole Mixteco
+  page: 162
+  ingredients:
+  - vegetable oil
+  - ancho chiles
+  - pasilla chiles
+  - guajillo chiles
+  - mulato chiles
+  - chiles de arbol
+  - "coste\xF1o chiles"
+  - raw almonds
+  - white onions
+  - garlic
+  - plantains
+  - tomatoes
+  - tomatillos
+  - apples
+  - seedless raisins
+  - dried oregano
+  - cinnamon sticks
+  - cooked hominy
+  - pork knuckles
+  - pork legs
+  - hoja santa
+  - limes
+  - pork spines
+- title: Black mole (Mole negro)
+  page: 170
+  ingredients:
+  - vegetable oil
+  - mulato chiles
+  - chilhuacle negro chiles
+  - pasilla chiles
+  - sesame seeds
+  - dried thyme
+  - dried oregano
+  - whole cloves
+  - allspice berries
+  - black peppercorns
+  - cinnamon sticks
+  - onions
+  - almonds
+  - Maria cookies
+  - plantains
+  - apples
+  - pineapple
+  - raisins
+  - tomatoes
+  - dried avocado leaves
+  - Oaxacan chocolate
+  - chicken stock
+- title: Red mole (Mole rojo)
+  page: 172
+  ingredients:
+  - ancho chiles
+  - red chilhuacle chiles
+  - guajillo chiles
+  - sesame seeds
+  - raw almonds
+  - dry-roasted peanuts
+  - thyme
+  - dried oregano
+  - whole cloves
+  - allspice berries
+  - black peppercorns
+  - cinnamon sticks
+  - onions
+  - garlic
+  - plantains
+  - apples
+  - raisins
+  - tomatoes
+  - tomatillos
+  - bay leaves
+  - Oaxacan chocolate
+  - chicken stock
+  - pan de yema
+- title: Chicken in yellow mole (Amarillo de pollo)
+  page: 174
+  ingredients:
+  - whole chicken
+  - hoja santa
+  - guajillo chiles
+  - ancho chiles
+  - cumin seeds
+  - black peppercorns
+  - whole cloves
+  - onions
+  - garlic
+  - chayotes
+  - green beans
+  - fingerling potatoes
+  - pickling lime
+  - white corn
+  - tomatoes
+  - tomatillos
+  - Key limes
+  - "jalape\xF1o chiles"
+- title: White beans, nopales, and dried shrimp in yellow mole (Mole amarillo de frijol
+    blanco con nopal y camarones secos)
+  page: 178
+  ingredients:
+  - dried navy beans
+  - nopales
+  - pickling lime
+  - white corn
+  - guajillo chiles
+  - white onions
+  - garlic
+  - whole cloves
+  - black peppercorns
+  - cumin seeds
+  - dried oregano
+  - tomatoes
+  - dried shrimp
+  - avocado leaves
+- title: Coloradito
+  page: 180
+  ingredients:
+  - dried guajillo chiles
+  - tomatoes
+  - sesame seeds
+  - ground cinnamon
+  - breadcrumbs
+  - dried oregano
+  - dried thyme
+  - black peppercorns
+  - whole cloves
+  - raisins
+  - raw almonds
+  - white onions
+  - garlic
+  - Mexican chocolate
+  - chicken stock
+  - bay leaves
+  - hoja santa
+- title: Chichilo
+  page: 181
+  ingredients:
+  - ancho chiles
+  - dried oregano
+  - cumin seeds
+  - whole cloves
+  - allspice berries
+  - dried thyme
+  - sesame seeds
+  - chicken stock
+  - cinnamon sticks
+  - garlic
+  - onions
+  - hoja santa
+  - pickling lime
+  - white corn
+- title: Green mole with pork (Mole verde con puerco)
+  page: 182
+  ingredients:
+  - dried navy beans
+  - white onions
+  - green tomatoes
+  - tomatillos
+  - serrano chiles
+  - garlic
+  - ground cumin
+  - pickling lime
+  - white corn
+  - hoja santa
+  - parsley
+  - epazote
+  - pork spines
+- title: Chicken in mole estofado (Estofado de pollo)
+  page: 184
+  ingredients:
+  - whole chicken
+  - white onions
+  - almonds
+  - sesame seeds
+  - raisins
+  - dried oregano
+  - dried thyme
+  - parsley
+  - black peppercorns
+  - whole cloves
+  - cinnamon sticks
+  - tomatoes
+  - tomatillos
+  - pitted green olives
+  - "jalape\xF1o chiles en escabeche"
+- title: Coarse heirloom corn mole (Segueza)
+  page: 187
+  ingredients:
+  - dried field corn
+  - garlic
+  - guajillo chiles
+  - chiles de arbol
+  - black peppercorns
+  - ground cloves
+  - ground cumin
+  - hoja santa
+  - white onions
+  - dried oregano
+  - dried thyme
+  - tomatoes
+  - pork spines
+- title: Chicken in creamy chipotle sauce (Pollo enchipotlado)
+  page: 190
+  ingredients:
+  - whole chicken
+  - tomatoes
+  - garlic
+  - canned chipotle chiles in adobo sauce
+  - bay leaves
+  - Mexican crema
+- title: Oregano fried chicken (Pollo al oregano)
+  page: 192
+  ingredients:
+  - whole chicken
+  - garlic
+  - limes
+  - black peppercorns
+  - dried oregano
+  - cumin seeds
+  - potatoes
+- title: Shredded chicken in a savory, sweet tomato sauce (Picadillo de pollo)
+  page: 194
+  ingredients:
+  - chicken breasts
+  - garlic
+  - white onions
+  - tomatoes
+  - tomatillos
+  - dried oregano
+  - dried thyme
+  - black peppercorns
+  - whole cloves
+  - cinnamon sticks
+  - blanched almonds
+  - raisins
+  - olives
+  - parsley
+  - apple cider vinegar
+- title: Chicken picadillo crispy tacos (Taquitos de picadillo de pollo)
+  page: 196
+  ingredients:
+  - corn tortillas
+  - chicken breasts
+  - garlic
+  - white onions
+  - tomatoes
+  - tomatillos
+  - dried oregano
+  - dried thyme
+  - black peppercorns
+  - whole cloves
+  - cinnamon sticks
+  - blanched almonds
+  - raisins
+  - olives
+  - parsley
+  - apple cider vinegar
+  - vegetable oil
+  - cotija cheese
+  - Mexican crema
+  - cabbage
+  - limes
+  - cilantro
+  - serrano chiles
+  - avocados
+- title: Oaxacan-style chiles rellenos (Chiles rellenos de picadillo)
+  page: 98
+  ingredients:
+  - chicken breasts
+  - garlic
+  - white onions
+  - tomatoes
+  - tomatillos
+  - dried oregano
+  - dried thyme
+  - black peppercorns
+  - whole cloves
+  - cinnamon sticks
+  - blanched almonds
+  - raisins
+  - olives
+  - parsley
+  - apple cider vinegar
+  - chiles de agua
+  - eggs
+  - egg whites
+  - all-purpose flour
+  - vegetable oil
+- title: Potato fritters in broth (Tortitas de papa en caldillo)
+  page: 202
+  ingredients:
+  - potatoes
+  - eggs
+  - panko breadcrumbs
+  - queso fresco
+  - tomatoes
+  - parsley
+- title: Spaghetti in poblano salsa
+  page: 204
+  ingredients:
+  - poblano chiles
+  - white onions
+  - parsley
+  - milk
+  - Mexican crema
+  - bucatini pasta
+  - bay leaves
+  - cotija cheese
+- title: Goat barbacoa in broth (Tacos de barbacoa de chivo)
+  page: 206
+  ingredients:
+  - avocado leaves
+  - goat neck
+  - green beans
+  - carrots
+  - garbanzo beans
+  - allspice berries
+  - whole cloves
+  - black peppercorns
+  - cumin seeds
+  - guajillo chiles
+  - garlic
+  - onions
+  - tomatillos
+  - corn tortillas
+  - serrano chiles
+  - limes
+- title: Lamb barbacoa (Barbacoa de borrego)
+  page: 208
+  ingredients:
+  - guajillo chiles
+  - garlic
+  - white onions
+  - ground cumin
+  - dried oregano
+  - dried thyme
+  - cinnamon sticks
+  - whole cloves
+  - black peppercorns
+  - bay leaves
+  - lamb shoulder
+  - avocado leaves
+- title: Chicken barbacoa (Barbacoa de pollo)
+  page: 210
+  ingredients:
+  - guajillo chiles
+  - garlic
+  - white onions
+  - black peppercorns
+  - whole cloves
+  - cinnamon sticks
+  - dried oregano
+  - tomatoes
+  - tomatillos
+  - whole chicken
+  - avocado leaves
+- title: Chiles rellenos de queso fresco con epazote
+  page: 212
+  ingredients:
+  - Anaheim chiles
+  - queso fresco
+  - epazote
+  - egg whites
+  - eggs
+  - vegetable oil
+- title: Masa empanadas stuffed with squash blossoms (Empanadas de flor de calabaza)
+  page: 216
+  ingredients:
+  - pickling lime
+  - white corn
+  - queso Oaxaca
+  - squash blossoms
+  - epazote
+- title: Griddled crispy empanadas stuffed with yellow mole and chicken (Empanadas
+    de San Antonio)
+  page: 218
+  ingredients:
+  - guajillo chiles
+  - onions
+  - garlic
+  - cumin seeds
+  - whole cloves
+  - black peppercorns
+  - cinnamon sticks
+  - dried oregano
+  - bay leaves
+  - dried thyme
+  - pickling lime
+  - white corn
+  - lard
+  - cooked chicken breast meat
+  - cilantro
+  - limes
+  - pickled onions
+  - "jalape\xF1o chiles"
+  - serrano chiles
+- title: Crispy pork in a morita salsa (Salsa de carne frita)
+  page: 222
+  ingredients:
+  - pork spare ribs
+  - white onions
+  - garlic
+  - tomatoes
+  - tomatillos
+  - morita chiles
+- title: "Baked, Isthmus-style mashed potatoes (Papa Istme\xF1a)"
+  page: 224
+  ingredients:
+  - potatoes
+  - carrots
+  - peas
+  - mayonnaise
+  - Mexican crema
+  - yellow mustard
+  - white onions
+  - parsley
+  - eggs
+  - nutmeg
+- title: Pork ribs with purslane (Costillas con verdolaga)
+  page: 226
+  ingredients:
+  - pork spare ribs
+  - garlic
+  - tomatoes
+  - tomatillos
+  - morita chiles
+  - purslane
+- title: "Roasted plantains (Pl\xE1tanos al horno)"
+  page: 230
+  ingredients:
+  - plantains
+  - pineapple peel
+  - Mexican crema
+  - condensed milk
+- title: Toasted corn pudding (Nicuatole)
+  page: 232
+  ingredients:
+  - dried corn
+  - sugar
+  - milk
+  - ground cinnamon
+  - carmine powder
+- title: Layered chocolate and flan cake (Chocoflan)
+  page: 234
+  ingredients:
+  - condensed milk
+  - evaporated milk
+  - cream cheese
+  - eggs
+  - sugar
+  - cocoa powder
+- title: Custard-filled sugar cones (Barquillos rellenos de lechecilla)
+  page: 236
+  ingredients:
+  - all-purpose flour
+  - active dry yeast
+  - milk
+  - cornstarch
+  - egg yolks
+  - sugar
+  - cinnamon sticks
+- title: Rice pudding with candied garbanzos (Arroz con leche con dulce de garbanzos)
+  page: 238
+  ingredients:
+  - piloncillo sugar
+  - cinnamon sticks
+  - whole star anise
+  - sugar
+  - canned garbanzo beans
+  - jasmine rice
+  - evaporated milk
+  - limes
+- title: Tres leches and sherry gelatin dessert (Gelatine de tres leches con Jerez)
+  page: 240
+  ingredients:
+  - gelatin
+  - condensed milk
+  - evaporated milk
+  - cinnamon sticks
+  - half and half cream
+  - Tres Coronas sherry
+- title: Piloncillo-candied squash (Dulce de calabaza)
+  page: 242
+  ingredients:
+  - kabocha squash
+  - piloncillo sugar
+  - whole cloves
+  - whole star anise
+  - sugar cane
+  - cinnamon sticks
+- title: Grasshopper salsa (Salsa de chapulines)
+  page: 246
+  ingredients:
+  - tomatillos
+  - white onions
+  - morita chiles
+  - limes
+  - dried grasshoppers
+- title: Fresh salsa (Salsa de molcajete)
+  page: 247
+  ingredients:
+  - tomatoes
+  - "jalape\xF1o chiles"
+- title: Creamy serrano salsa (Guacachile)
+  page: 248
+  ingredients:
+  - serrano chiles
+  - white onions
+  - limes
+- title: Raw green salsa (Salsa verde cruda)
+  page: 248
+  ingredients:
+  - tomatillos
+  - cilantro
+  - serrano chiles
+- title: Green salsa (Salsa de tomatillo)
+  page: 250
+  ingredients:
+  - tomatillos
+  - serrano chiles
+  - white onions
+  - cilantro
+- title: "Rustic Oaxacan tomato sauce (Salsa roja b\xE1sica)"
+  page: 250
+  ingredients:
+  - tomatoes
+  - white onions
+  - serrano chiles
+- title: Savory cinnamon salsa (Salsa de canela botanera)
+  page: 251
+  ingredients:
+  - chiles de arbol
+  - tomatoes
+  - cinnamon sticks
+  - white onions
+  - cilantro
+- title: Seared fresh chiles (Chiles toreados)
+  page: 251
+  ingredients:
+  - "jalape\xF1o chiles"
+  - limes
+  - onions
+- title: Guacamole
+  page: 252
+  ingredients:
+  - limes
+  - cilantro
+  - dried oregano
+  - avocados
+  - serrano chiles
+- title: Oaxacan-style snacking peanuts (Cacahuates botaneros)
+  page: 254
+  ingredients:
+  - garlic
+  - raw peanuts
+  - chiles de arbol
+  - Mexican limes
+- title: Mezcal salsa (Salsa borracha)
+  page: 255
+  ingredients:
+  - tomatillos
+  - morita chiles
+  - apple cider vinegar
+  - mezcal
+  - bay leaves
+- title: Dried shrimp salsa paste (Chintextle)
+  page: 256
+  ingredients:
+  - guajillo chiles
+  - morita chiles
+  - garlic
+  - avocado leaves
+  - dried shrimp
+  - "chiles pasilla Oaxaque\xF1os"
+- title: Smoky morita salsa (Salsa roja de morita)
+  page: 256
+  ingredients:
+  - morita chiles
+  - guajillo chiles
+  - garlic
+  - tomatillos
+- title: Peanut and olive oil salsa (Salsa macha)
+  page: 257
+  ingredients:
+  - olive oil
+  - vegetable oil
+  - raw peanuts
+  - morita chiles
+  - sesame seeds
+- title: Michelada de pasilla
+  page: 260
+  ingredients:
+  - pasilla chiles
+  - tomato juice
+  - oranges
+  - limes
+  - Worcestershire sauce
+  - Tajin seasoning
+- title: La santa
+  page: 262
+  ingredients:
+  - hoja santa
+  - green-shouldered tomatoes
+  - limes
+  - pineapple juice
+  - Licor 43
+  - mezcal
+- title: Dried chile salt (Sal de chile)
+  page: 262
+  ingredients:
+  - puya chiles
+  - guajillo chiles
+  - salt
+- title: Garra de tigre
+  page: 263
+  ingredients:
+  - simple syrup
+  - limes
+  - mezcal
+  - chile powder
+- title: "Flor de pi\xF1a"
+  page: 263
+  ingredients:
+  - pineapple juice
+  - honey
+  - mezcal
+  - coconut water
+  - "B\xE9n\xE9dictine"
+- title: Margarita guelaguetza
+  page: 264
+  ingredients:
+  - cucumbers
+  - melon liqueur
+  - Triple Sec
+  - mezcal reposado
+  - limes
+  - simple syrup
+  - puya chiles
+  - guajillo chiles
+- title: Donaji
+  page: 264
+  ingredients:
+  - mezcal reposado
+  - oranges
+  - grenadine syrup
+  - puya chiles
+  - guajillo chiles
+- title: "Pasi\xF3n de Oaxaca"
+  page: 265
+  ingredients:
+  - grapefruit juice
+  - "mango pur\xE9e"
+  - simple syrup
+  - Triple Sec
+  - mezcal
+  - tequila
+  - Tajin seasoning
+  - passionfruit concentrate
+- title: Toasted rice water (Horchata de Oaxaca)
+  page: 267
+  ingredients:
+  - jasmine rice
+  - cinnamon sticks
+  - cane sugar
+  - cantaloupes
+  - pecans
+- title: "Limeade with chia seeds (Agua de lim\xF3n con chia)"
+  page: 268
+  ingredients:
+  - limes
+  - chia seeds
+- title: "Lime leaf water with pineapple (Agua de hierba de lim\xF3n con pi\xF1a)"
+  page: 268
+  ingredients:
+  - limes
+  - pineapple
+- title: Candied squash water (Agua de chilacayota)
+  page: 269
+  ingredients:
+  - chilacayota
+  - Key limes
+  - piloncillo sugar
+  - cinnamon sticks
+- title: Hibiscus water (Agua de jamaica)
+  page: 270
+  ingredients:
+  - dried hibiscus
+  - confectioner's sugar
+  - fresh ginger
+- title: Tamarind water (Agua de tamarindo)
+  page: 270
+  ingredients:
+  - tamarind paste
+  - piloncillo sugar
+- title: Cucumber water (Agua de pepino)
+  page: 271
+  ingredients:
+  - cucumbers
+  - mint
+  - limes
+- title: Sparkling limeade (Sparkling limonada)
+  page: 272
+  ingredients:
+  - limes
+  - sparkling water
+- title: Watermelon water (Agua de sandia)
+  page: 274
+  ingredients:
+  - watermelons
+- title: "Cantaloupe water (Agua de mel\xF3n)"
+  page: 274
+  ingredients:
+  - cantaloupes
+- title: Oaxacan-style drinking chocolate (Chocolate de agua)
+  page: 275
+  ingredients:
+  - Mexican chocolate
+- title: Hot chocolate masa drink (Champurrado)
+  page: 278
+  ingredients:
+  - dried corn
+  - Mexican chocolate
+- title: Hot strawberry masa drink (Atole de fresa)
+  page: 277
+  ingredients:
+  - dried corn
+  - strawberries
+  - sugar
+  - cinnamon sticks
+  - evaporated milk
+- title: "Caf\xE9 de olla"
+  page: 279
+  ingredients:
+  - cinnamon sticks
+  - piloncillo sugar
+  - ground dark roast coffee
+- title: Hot rice drink (Atole de arroz)
+  page: 280
+  ingredients:
+  - white rice
+  - evaporated milk
+  - cinnamon sticks
+- title: Unsweetened masa drink (Atole blanco)
+  page: 280
+  ingredients:
+  - white corn
+- title: Hot coconut masa drink (Atole de coco)
+  page: 281
+  ingredients:
+  - dried corn
+  - sweetened coconut flakes
+  - evaporated milk
+- title: "Hot Christmas punch (Ponche Navide\xF1o)"
+  page: 282
+  ingredients:
+  - piloncillo sugar
+  - dried hibiscus flowers
+  - cinnamon sticks
+  - tamarind
+  - apples
+  - quinces
+  - tejocotes
+  - raisins
+  - prunes
+  - sugarcane
+  - guavas

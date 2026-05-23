@@ -1,0 +1,969 @@
+book: 'Asma''s Indian Kitchen'
+author: Asma Khan
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/asmas-indian-kitchen-home-cooked-188229l5.jpg
+recipes:
+- title: Garam masala
+  page: 14
+  ingredients:
+  - cassia bark
+  - whole cloves
+  - green cardamom pods
+  - black peppercorns
+  - whole nutmeg
+  - mace
+  - Indian bay-leaves
+- title: Spicy potato mash, raw version (Aloo bharta 1)
+  page: 20
+  ingredients:
+  - baking potatoes
+  - mustard oil
+  - green chillies
+  - shallots
+  - coriander leaves
+- title: Spicy potato mash, cooked version (Aloo bharta 2)
+  page: 20
+  ingredients:
+  - baking potatoes
+  - mustard oil
+  - dried red chillies
+  - garlic
+  - shallots
+  - coriander leaves
+- title: Potatoes with cumin (Zeera aloo)
+  page: 21
+  ingredients:
+  - potatoes
+  - cumin seeds
+  - dried red chillies
+- title: Courgette sabzi
+  page: 22
+  ingredients:
+  - dried red chillies
+  - nigella seeds
+  - courgettes
+  - turmeric
+- title: Vegetable pulao (Tehri)
+  page: 25
+  ingredients:
+  - basmati rice
+  - cassia bark
+  - green cardamom pods
+  - white onions
+  - garlic paste
+  - ginger paste
+  - turmeric
+  - chilli powder
+  - potatoes
+  - carrots
+- title: Chicken drumstick kabab (Tengri kabab)
+  page: 26
+  ingredients:
+  - chicken drumsticks
+  - light soy sauce
+  - ground coriander
+  - lemons
+  - chilli powder
+  - ginger paste
+  - garlic paste
+- title: Ghee-fried prawns (Chingri bhaaja)
+  page: 28
+  ingredients:
+  - tiger prawns
+  - turmeric
+  - ghee
+  - onions
+  - fresh ginger
+  - garlic
+  - dried red chillies
+- title: Home-made Indian cheese (Paneer)
+  page: 30
+  ingredients:
+  - milk
+  - lemons
+- title: Stir-fried Indian cheese (Karai paneer)
+  page: 31
+  ingredients:
+  - onions
+  - bell peppers
+  - tomatoes
+  - ginger paste
+  - chilli powder
+  - turmeric
+  - ground coriander
+  - yogurt
+  - paneer
+  - coriander leaves
+- title: Spinach with Indian cheese (Saag paneer)
+  page: 34
+  ingredients:
+  - spinach
+  - ghee
+  - shallots
+  - ginger paste
+  - tomatoes
+  - green chillies
+  - turmeric
+  - chilli powder
+  - paneer
+  - double cream
+- title: Broccoli with nigella seeds and egg (Hari phoolgobi)
+  page: 35
+  ingredients:
+  - broccoli
+  - nigella seeds
+  - dried red chillies
+  - turmeric
+  - eggs
+- title: Hard-boiled eggs in gravy (Anda curry)
+  page: 36
+  ingredients:
+  - eggs
+  - green cardamom pods
+  - whole cloves
+  - Indian bay-leaves
+  - cumin seeds
+  - onions
+  - garlic paste
+  - ginger paste
+  - turmeric
+  - ground coriander
+  - chilli powder
+  - yogurt
+  - soft herbs of your choice
+- title: Red lentils (Masoor dal)
+  page: 39
+  ingredients:
+  - masoor dal
+  - ghee
+  - dried red chillies
+  - onions
+  - garlic
+  - turmeric
+  - cumin seeds
+  - curry leaves
+- title: Smoky mashed tomatoes (Tamatar bharta)
+  page: 40
+  ingredients:
+  - tomatoes
+  - limes
+  - mustard oil
+  - green chillies
+- title: Aubergine with potatoes (Baingan aloo)
+  page: 41
+  ingredients:
+  - aubergines
+  - potatoes
+  - turmeric
+  - fresh ginger
+  - green chillies
+  - tomatoes
+  - coriander leaves
+- title: Masala omelette
+  page: 42
+  ingredients:
+  - eggs
+  - green chillies
+  - spring onions
+  - tomatoes
+- title: Meat with spinach (Palak gosht)
+  page: 46
+  ingredients:
+  - cassia bark
+  - whole cloves
+  - green cardamom pods
+  - Indian bay-leaves
+  - dried red chillies
+  - onions
+  - garlic
+  - ginger paste
+  - meat of your choice
+  - turmeric
+  - ground coriander
+  - ground cumin
+  - tomatoes
+  - yogurt
+  - spinach
+- title: Shredded chicken with eggs in gravy (Chicken bharta)
+  page: 47
+  ingredients:
+  - chicken thighs
+  - Indian bay-leaves
+  - dried red chillies
+  - kasuri methi
+  - whole cloves
+  - cassia bark
+  - onions
+  - tomatoes
+  - ginger paste
+  - garlic paste
+  - green chillies
+  - turmeric
+  - garam masala
+  - cashew nut paste
+  - charmagaz
+  - yogurt
+  - hard-boiled eggs
+  - double cream
+- title: "Saute\u0301ed okra with garlic (Sukhi bhindi)"
+  page: 48
+  ingredients:
+  - okra
+  - garlic
+  - turmeric
+  - chilli powder
+- title: Fish in coconut milk (Macher malaikari)
+  page: 51
+  ingredients:
+  - halibut fillets
+  - turmeric
+  - white onions
+  - garlic paste
+  - ginger paste
+  - chilli powder
+  - "tomato pur\xE9e"
+  - tinned coconut milk
+  - green chillies
+  - coriander leaves
+- title: Green beans with cumin seeds (Phali ki sabzi)
+  page: 53
+  ingredients:
+  - green beans
+  - ghee
+  - cumin seeds
+  - dried red chillies
+  - turmeric
+- title: Enriched unleavened bread (Rogni roti)
+  page: 56
+  ingredients:
+  - wholemeal flour
+  - milk
+  - ghee
+- title: Spiced Himalayan tea
+  page: 57
+  ingredients:
+  - fresh ginger
+  - cassia bark
+  - green cardamom pods
+  - whole cloves
+  - Indian bay-leaves
+  - black peppercorns
+  - Darjeeling tea
+  - milk
+- title: Fruit chaat
+  page: 58
+  ingredients:
+  - strawberries
+  - kiwifruits
+  - grapes
+  - oranges
+  - pineapple
+  - limes
+  - kala namak
+- title: Lemon rice with cashew nuts (Peela pulao)
+  page: 64
+  ingredients:
+  - basmati rice
+  - green cardamom pods
+  - cassia bark
+  - whole cloves
+  - Indian bay-leaves
+  - white onions
+  - black mustard seeds
+  - cashew nuts
+  - curry leaves
+  - turmeric
+  - lemons
+- title: Aromatic chicken stew (Murgh rezala)
+  page: 66
+  ingredients:
+  - Indian bay-leaves
+  - cassia bark
+  - green cardamom pods
+  - whole cloves
+  - onions
+  - chicken legs
+  - garlic paste
+  - ginger paste
+  - ground coriander
+  - Turkish yogurt
+  - green chillies
+  - lemons
+  - mint
+- title: Mince with dill pulao (Keema sua pulao)
+  page: 69
+  ingredients:
+  - green cardamom pods
+  - cassia bark
+  - Indian bay-leaves
+  - onions
+  - garlic paste
+  - ginger paste
+  - ground meat of your choice
+  - basmati rice
+  - whole cloves
+  - white onions
+  - dill
+- title: Beetroot raita (Chukander raita)
+  page: 70
+  ingredients:
+  - cumin seeds
+  - beetroots
+  - Turkish yogurt
+- title: Spiced aubergine in garlic raita (Dahi baingan)
+  page: 72
+  ingredients:
+  - aubergines
+  - turmeric
+  - chilli powder
+  - Turkish yogurt
+  - garlic
+  - curry leaves
+  - dried red chillies
+- title: Spicy fried aubergine slices (Begun bhaja)
+  page: 73
+  ingredients:
+  - aubergines
+  - coriander sprigs
+  - turmeric
+  - ground coriander
+  - chilli powder
+  - limes
+- title: Indian cheese korma (Malai korma)
+  page: 74
+  ingredients:
+  - onions
+  - garlic paste
+  - ginger paste
+  - ground coriander
+  - chilli powder
+  - "tomato pur\xE9e"
+  - paneer
+  - coconut milk
+  - ground almonds
+- title: Lamb meatballs in a rich gravy (Shahi kofta)
+  page: 77
+  ingredients:
+  - white bread
+  - minced lamb
+  - onions
+  - green chillies
+  - whole cloves
+  - cassia bark
+  - coriander leaves
+  - vegetable oil
+  - ghee
+  - dried red chillies
+  - Indian bay-leaves
+  - green cardamom pods
+  - garlic paste
+  - ginger paste
+  - ground coriander
+  - turmeric
+  - "tomato pur\xE9e"
+  - ground almonds
+- title: Butternut squash with curry leaves (Kari patta ka kaddu)
+  page: 78
+  ingredients:
+  - butternut squash
+  - turmeric
+  - cumin seeds
+  - mustard seeds
+  - curry leaves
+  - dried chillies
+  - garlic
+- title: Rice with peas (Mattar pulao)
+  page: 79
+  ingredients:
+  - basmati rice
+  - cardamom pods
+  - cassia bark
+  - whole cloves
+  - Indian bay-leaves
+  - white onions
+  - frozen peas
+- title: Eggs in tomato gravy (Hyderabadi tamatar ka cutt)
+  page: 80
+  ingredients:
+  - whole plant coriander
+  - tomato passata
+  - coriander seeds
+  - cumin seeds
+  - curry leaves
+  - dried red chillies
+  - garlic
+  - fresh ginger
+  - "tomato pur\xE9e"
+  - nigella seeds
+  - hard-boiled eggs
+- title: "Pure\u0301ed aubergine (Baingan bharta)"
+  page: 83
+  ingredients:
+  - aubergines
+  - onions
+  - fresh ginger
+  - tomatoes
+  - green chillies
+  - chilli powder
+  - mint
+- title: Spiced chickpeas (Channa masala)
+  page: 84
+  ingredients:
+  - dried chickpeas
+  - cumin seeds
+  - anardana
+  - chilli powder
+  - vegetable oil
+  - onions
+  - fresh ginger
+  - green chillies
+  - amchur
+  - garam masala
+  - lemons
+- title: Peas with Indian cheese (Mattar paneer)
+  page: 85
+  ingredients:
+  - paneer
+  - cumin seeds
+  - dried red chillies
+  - onions
+  - garlic
+  - turmeric
+  - frozen peas
+  - "tomato pur\xE9e"
+  - garam masala
+- title: Bengali fish in mustard sauce (Sorshe maach)
+  page: 90
+  ingredients:
+  - cod fillets
+  - turmeric
+  - black mustard seeds
+  - green chillies
+  - ground coriander
+  - ground cumin
+  - chilli powder
+  - coriander leaves
+- title: Spinach with garlic (Bihari saag)
+  page: 91
+  ingredients:
+  - ghee
+  - dried red chillies
+  - garlic
+  - spinach
+- title: Wholemeal bread (Attae ka paratha)
+  page: 92
+  ingredients:
+  - wholemeal flour
+  - butter
+- title: Spicy beef roast (Dum gosht)
+  page: 94
+  ingredients:
+  - dried red chillies
+  - desiccated coconut
+  - poppy seeds
+  - cumin seeds
+  - coriander seeds
+  - ghee
+  - onions
+  - yogurt
+  - garlic paste
+  - ginger paste
+  - fennel seeds
+  - beef topside
+- title: Egg halwa (Unday ka halwa)
+  page: 95
+  ingredients:
+  - milk
+  - saffron
+  - eggs
+  - sugar
+  - butter
+  - almonds
+  - pistachio nuts
+- title: Rice pudding with brown sugar (Boora chenni ki kheer)
+  page: 96
+  ingredients:
+  - basmati rice
+  - milk
+  - cardamom pods
+  - Indian bay-leaves
+  - brown sugar
+- title: Saffron chicken korma (Zafran murgh korma)
+  page: 102
+  ingredients:
+  - Turkish yogurt
+  - garlic paste
+  - ginger paste
+  - chicken thighs
+  - saffron
+  - white onions
+  - Indian bay-leaves
+  - cassia bark
+  - green cardamom pods
+  - whole cloves
+  - ground coriander
+  - chilli powder
+  - ground almonds
+  - flaked almonds
+- title: Spicy potatoes (Aloo dum)
+  page: 104
+  ingredients:
+  - potatoes
+  - garlic
+  - "tomato pur\xE9e"
+  - chilli powder
+  - panch poran
+  - coriander leaves
+- title: Anglo-Indian coconut rice
+  page: 106
+  ingredients:
+  - basmati rice
+  - white onions
+  - green cardamom pods
+  - whole cloves
+  - cassia bark
+  - Indian bay-leaves
+  - turmeric
+  - coconut milk
+- title: Anglo-Indian ball curry
+  page: 108
+  ingredients:
+  - ground beef
+  - parsley
+  - green chillies
+  - garlic paste
+  - onions
+  - ginger paste
+  - ground coriander
+  - chilli powder
+  - "tomato pur\xE9e"
+  - coconut milk
+  - garam masala
+- title: Himalayan spicy potato salad (Newari salad)
+  page: 109
+  ingredients:
+  - waxy potatoes
+  - cucumbers
+  - sesame seeds
+  - dried red chillies
+  - sesame oil
+  - lemons
+  - fenugreek seeds
+- title: Split yellow channa lentils (Channa dal)
+  page: 110
+  ingredients:
+  - channa dal
+  - garlic paste
+  - turmeric
+  - chilli powder
+  - ghee
+  - dried red chillies
+  - cumin seeds
+  - onions
+  - green chillies
+  - coriander leaves
+  - fresh ginger
+- title: Tomato raita (Tamatar raita)
+  page: 111
+  ingredients:
+  - cumin seeds
+  - Turkish yogurt
+  - tomatoes
+  - red onions
+  - green chillies
+  - mint
+- title: Potatoes with cashew nuts (Kaju aloo)
+  page: 113
+  ingredients:
+  - potatoes
+  - green chillies
+  - black mustard seeds
+  - curry leaves
+  - cashew nuts
+  - onions
+  - turmeric
+- title: Deep-fried bread (Puri)
+  page: 114
+  ingredients:
+  - plain flour
+  - ghee
+  - vegetable oil
+- title: Baked saffron bread (Sheermal)
+  page: 117
+  ingredients:
+  - saffron
+  - instant yeast
+  - store-cupboard ingredients
+- title: Fish balls with coconut and mint chutney (Machi kabab)
+  page: 120
+  ingredients:
+  - white bread
+  - monkfish tails
+  - white pepper
+  - white onions
+  - coriander leaves
+  - vegetable oil
+  - green chillies
+  - fresh ginger
+  - mint
+  - coconut
+- title: Spiced rice and lentils (Khichree)
+  page: 121
+  ingredients:
+  - basmati rice
+  - masoor dal
+  - butter
+  - cumin seeds
+  - black peppercorns
+  - Indian bay-leaves
+  - green cardamom pods
+  - whole cloves
+  - cassia bark
+  - fresh ginger
+  - green chillies
+- title: Spiced whole cauliflower (Gobi musallam)
+  page: 122
+  ingredients:
+  - saffron
+  - ghee
+  - cauliflower
+  - garlic paste
+  - ginger paste
+  - yogurt
+  - garam masala
+  - ground coriander
+  - chilli powder
+  - almonds
+- title: Stuffed bell peppers 1 (Bharwa simla mirch 1)
+  page: 125
+  ingredients:
+  - bell peppers
+  - lemons
+  - potatoes
+  - garlic
+  - "tomato pur\xE9e"
+  - chilli powder
+  - panch phoron
+- title: Stuffed bell peppers 2 (Bharwa simla mirch 2)
+  page: 125
+  ingredients:
+  - bell peppers
+  - lemons
+  - green cardamom pods
+  - cassia bark
+  - Indian bay-leaves
+  - onions
+  - garlic paste
+  - ginger paste
+  - ground meat of your choice
+- title: Royal morsel (Shahi tukra)
+  page: 126
+  ingredients:
+  - milk
+  - saffron
+  - green cardamom pods
+  - granulated sugar
+  - white bread
+  - clotted cream
+  - slivered almonds
+  - slivered pistachio nuts
+- title: Indian lemonade (Nimbu pani)
+  page: 128
+  ingredients:
+  - lemons
+  - mint
+- title: Green chilli and mint yogurt drink (Burhani)
+  page: 130
+  ingredients:
+  - yogurt
+  - green chillies
+  - mint
+  - white peppercorns
+  - cumin seeds
+  - coriander seeds
+  - yellow mustard seeds
+- title: Rose yogurt drink (Gulab lassi)
+  page: 131
+  ingredients:
+  - yogurt
+  - rose essence
+- title: Chicken chaap
+  page: 136
+  ingredients:
+  - saffron
+  - onions
+  - Turkish yogurt
+  - garlic
+  - fresh ginger
+  - chicken thighs
+  - ground coriander
+  - chilli powder
+  - flaked almonds
+  - whole cloves
+  - black cardamom pods
+  - whole nutmeg
+  - mace
+  - Indian bay-leaves
+- title: Rice cooked in chicken stock (Yakhni pulao)
+  page: 138
+  ingredients:
+  - basmati rice
+  - onions
+  - chicken thighs
+  - garlic
+  - fresh ginger
+  - green cardamom pods
+  - whole cloves
+  - cassia bark
+  - black cardamom pods
+  - Indian bay-leaves
+  - fennel seeds
+  - coriander seeds
+- title: Saffron roast chicken with apricots (Zafrani murgh)
+  page: 141
+  ingredients:
+  - whole chicken
+  - butter
+  - saffron
+  - oranges
+  - lemons
+  - green raisins
+  - semi-dried apricots (UK)
+  - dried red chillies
+  - garlic
+  - onions
+- title: Meatball pulao (Kofta pulao)
+  page: 142
+  ingredients:
+  - bread
+  - minced turkey
+  - ground coriander
+  - ground cumin
+  - Kashmiri chilli powder
+  - garam masala
+  - white pepper
+  - oil
+  - basmati rice
+  - ghee
+  - onions
+  - ground cassia
+  - green cardamom pods
+  - Indian bay-leaves
+  - cranberries
+  - slivered pistachio nuts
+- title: Lamb in tomato gravy (Tamatar gosht)
+  page: 143
+  ingredients:
+  - garlic
+  - fresh ginger
+  - dried red chillies
+  - onions
+  - turmeric
+  - ground coriander
+  - ground cumin
+  - lamb
+  - tinned tomatoes
+  - green chillies
+  - coriander leaves
+- title: Whole leg of lamb (Raan)
+  page: 144
+  ingredients:
+  - ghee
+  - onions
+  - yogurt
+  - chilli powder
+  - ground coriander
+  - garam masala
+  - white pepper
+  - gram flour
+  - ground almonds
+  - poppy seeds
+  - ground cardamom
+  - mace
+  - green papayas
+  - saffron
+  - clotted cream
+  - kewra water
+  - lamb legs
+- title: Tangy meat with lentils (Hyderabadi dalcha)
+  page: 146
+  ingredients:
+  - masoor dal
+  - turmeric
+  - salt
+  - ghee
+  - Indian bay-leaves
+  - cassia bark
+  - green cardamom pods
+  - onions
+  - lamb shoulder
+  - garlic
+  - ground ginger
+  - chilli powder
+  - "tomato pur\xE9e"
+  - tamarind pulp
+  - cumin seeds
+  - dried red chillies
+  - curry leaves
+- title: Tray-baked beef kabab (Kache keeme ka kabab)
+  page: 147
+  ingredients:
+  - ground beef
+  - onions
+  - ginger paste
+  - garlic paste
+  - green chillies
+  - black peppercorns
+  - butter
+  - coriander leaves
+  - lemons
+- title: Barbecued beef strips (Bihari kabab)
+  page: 148
+  ingredients:
+  - beef
+  - green papayas
+  - garlic paste
+  - onions
+  - poppy seeds
+  - black peppercorns
+  - chilli powder
+  - mustard oil
+  - yogurt
+- title: Orange korma (Narangi korma)
+  page: 152
+  ingredients:
+  - oranges
+  - ghee
+  - lotus seeds
+  - garlic paste
+  - ginger paste
+  - ground coriander
+  - chilli powder
+  - cashew nuts
+  - almonds
+  - yogurt
+  - garam masala
+  - turmeric
+  - chicken thighs
+  - Indian bay-leaves
+- title: Whole baked fish in spiced yogurt (Dum ki machli)
+  page: 154
+  ingredients:
+  - butter
+  - onions
+  - garlic
+  - turmeric
+  - coriander leaves
+  - green chillies
+  - yogurt
+  - whole fish
+  - lemons
+- title: Bengali fish curry (Macher Jhol)
+  page: 156
+  ingredients:
+  - fish fillets
+  - turmeric
+  - white onions
+  - garlic
+  - fresh ginger
+  - ground coriander
+  - ground cumin
+  - chilli powder
+  - "tomato pur\xE9e"
+  - tomatoes
+  - green chillies
+  - coriander leaves
+- title: Black lentils (Kali dal)
+  page: 158
+  ingredients:
+  - urad dal
+  - red kidney beans
+  - garlic
+  - fresh ginger
+  - tomatoes
+  - butter
+  - double cream
+  - red onions
+  - cumin seeds
+  - chilli powder
+  - coriander leaves
+- title: Spiced kidney beans in gravy (Rajma)
+  page: 159
+  ingredients:
+  - red kidney beans
+  - turmeric
+  - chilli powder
+  - ghee
+  - onions
+  - fresh ginger
+  - green chillies
+  - tinned chopped tomatoes
+  - garam masala
+- title: Tomato chutney with prunes and apricots (Tamatar ki chutney)
+  page: 160
+  ingredients:
+  - dried red chillies
+  - panch phoron
+  - garlic
+  - fresh ginger
+  - tinned chopped tomatoes
+  - prunes
+  - dried apricots
+  - green chillies
+- title: Pulao rice with nine jewels (Navratan pulao)
+  page: 162
+  ingredients:
+  - basmati rice
+  - saffron
+  - almonds
+  - pistachio nuts
+  - green raisins
+  - sultanas
+  - dried cranberries
+  - oranges
+  - ghee
+  - carrots
+  - cashew nuts
+  - Indian bay-leaves
+  - cassia bark
+  - green cardamom pods
+  - dried rose petals
+- title: Lemon and chilli-infused salad (Kachumber)
+  page: 166
+  ingredients:
+  - cucumbers
+  - tomatoes
+  - red onions
+  - pomegranate seeds
+  - green chillies
+  - limes
+  - mint
+- title: Layered ghee flatbreads (Lachedar parathas)
+  page: 167
+  ingredients:
+  - unbleached white flour
+  - ghee
+  - butter
+- title: Carrot halwa (Gajjar ka halwa)
+  page: 170
+  ingredients:
+  - milk
+  - carrots
+  - green cardamom pods
+  - Indian bay-leaves
+  - ghee
+  - granulated sugar
+  - double cream
+- title: Semolina halwa balls (Sooji halwa ladoo)
+  page: 173
+  ingredients:
+  - saffron
+  - cassia bark
+  - whole cloves
+  - granulated sugar
+  - ghee
+  - raisins
+  - fine semolina
+  - whole nutmeg
+  - cardamom seeds
+  - cashew nuts
+wishlist: true

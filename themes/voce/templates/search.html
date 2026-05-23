@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // Check if this token targets a specific field
                     let field = null;
-                    const fieldMatch = term.match(/^(title|book|ingredient|ing):(.*)$/);
+                    const fieldMatch = term.match(/^(title|book|ingredient|ing|wishlist):(.*)$/);
                     if (fieldMatch) {
                         field = fieldMatch[1]; // e.g., 'ing'
                         term = fieldMatch[2];  // e.g., '"beef mince","ground beef"'
@@ -203,6 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                 return safeArray.some(t => String(t).toLowerCase().includes(subTerm));
                             }
                             return false;
+                        } else if (field === 'wishlist') {
+                            const wantsWishlist = (subTerm === 'true' || subTerm === 'yes');
+                            const isWishlist = Boolean(item.wishlist);
+                            return wantsWishlist === isWishlist;
                         } else {
                             // Global haystack search
                             return haystack.includes(subTerm);
@@ -227,6 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let groupName = item.type || 'General';
             if (item.type === 'Physical') {
                 if (item.wishlist) {
+                    // what do I do here?
                     groupName = `🛒 Wishlist: ${item.book}`;
                 } else {
                     groupName = `📚 Cookbook: ${item.book}`;

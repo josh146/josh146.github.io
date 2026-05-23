@@ -1,0 +1,1896 @@
+book: 'Every Grain of Rice'
+author: Fuchsia Dunlop
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/every-grain-of-rice-simple-104054l3.jpg
+recipes:
+- title: Smacked cucumber in garlicky sauce (Suan ni pai huang gua)
+  page: 34
+  ingredients:
+  - cucumbers
+  - caster sugar
+  - light soy sauce
+  - Chinkiang vinegar
+  - chilli oil
+  - garlic
+- title: Smacked cucumber with sweet-and-sour sauce
+  page: 34
+  ingredients:
+  - cucumbers
+  - caster sugar
+  - Chinkiang vinegar
+  - light soy sauce
+  - garlic
+- title: Smacked cucumber with sesame and preserved mustard greens
+  page: 34
+  ingredients:
+  - cucumbers
+  - preserved mustard greens
+  - sesame paste
+  - sesame oil
+  - clear rice vinegar
+  - garlic
+- title: Sichuanese spiced cucumber salad (Qiang huang gua)
+  page: 36
+  ingredients:
+  - cucumbers
+  - dried chillies
+  - Sichuan peppercorns
+  - sesame oil
+- title: Spiced potato sliver salad
+  page: 36
+  ingredients:
+  - potatoes
+  - dried chillies
+  - Sichuan peppercorns
+  - sesame oil
+  - clear rice vinegar
+- title: Sichuanese green soy bean salad (Xiang you qing dou)
+  page: 38
+  ingredients:
+  - soy beans
+  - Sichuan preserved vegetables
+  - carrots
+  - red peppers
+  - sesame oil
+- title: Sichuanese broad bean salad (Liang ban hu dou)
+  page: 40
+  ingredients:
+  - broad beans
+  - cucumbers
+  - baby spinach
+  - light soy sauce
+  - caster sugar
+  - Chinkiang vinegar
+  - chilli oil
+- title: Silken tofu with soy sauce (Xiao cong ban dou fu)
+  page: 41
+  ingredients:
+  - silken tofu
+  - spring onions
+  - light soy sauce
+  - sesame oil
+- title: Silken tofu with preserved duck eggs
+  page: 41
+  ingredients:
+  - silken tofu
+  - spring onions
+  - light soy sauce
+  - sesame oil
+  - preserved duck eggs
+- title: Silken tofu with avocado (E'li dou fu)
+  page: 42
+  ingredients:
+  - silken tofu
+  - light soy sauce
+  - sesame oil
+  - avocados
+- title: Smoked tofu with celery and peanuts (Liang ban dou fu gan)
+  page: 44
+  ingredients:
+  - celery
+  - peanuts
+  - chilli oil
+  - caster sugar
+  - smoked tofu
+- title: Simple firm tofu salad
+  page: 44
+  ingredients:
+  - sesame seeds
+  - spiced tofu
+  - spring onions
+  - caster sugar
+  - chilli oil
+  - sesame oil
+- title: Tofu 'bamboo' with spring onion-flavoured oil (Cong you fu zhu)
+  page: 46
+  ingredients:
+  - dried tofu sticks
+  - spring onions
+  - Sichuan pickled chiles
+  - fresh ginger
+  - sesame oil
+  - garlic
+- title: Cold chicken with a spicy Sichuanese sauce (Liang ban ji)
+  page: 48
+  ingredients:
+  - chicken meat
+  - spring onions
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+  - Sichuan peppercorns
+- title: Another sauce for cold chicken
+  page: 48
+  ingredients:
+  - light soy sauce
+  - chilli oil
+  - Sichuan peppercorns
+  - sesame oil
+- title: Cold chicken with ginger and spring onion (You lin ji)
+  page: 50
+  ingredients:
+  - cooked chicken thigh meat
+  - fresh ginger
+  - spring onions
+  - light soy sauce
+- title: Poached chicken for Chinese cold dishes
+  page: 50
+  ingredients:
+  - whole chicken
+  - fresh ginger
+  - spring onions
+- title: Vegetarian clay bowl 'chicken' (Bo bo fu zhu)
+  page: 51
+  ingredients:
+  - dried tofu sticks
+  - sesame seeds
+  - peanuts
+  - spring onions
+  - coriander leaves
+  - light soy sauce
+  - caster sugar
+  - sesame paste
+  - Sichuan peppercorns
+  - chilli oil
+  - sesame oil
+- title: Clay bowl chicken (Bo bo ji)
+  page: 52
+  ingredients:
+  - sesame seeds
+  - cooked chicken meat
+  - peanuts
+  - spring onions
+  - coriander leaves
+  - light soy sauce
+  - caster sugar
+  - sesame paste
+  - Sichuan peppercorns
+  - chilli oil
+  - sesame oil
+- title: Preserved duck eggs (Liang ban pi dan)
+  page: 54
+  ingredients:
+  - preserved duck eggs
+  - green peppers
+  - light soy sauce
+  - Chinkiang vinegar
+  - chilli oil
+- title: Sour-and-hot preserved duck eggs (Liang ban pi dan)
+  page: 54
+  ingredients:
+  - Chinkiang vinegar
+  - light soy sauce
+  - chilli oil
+  - pickled green chillies
+  - preserved duck eggs
+- title: Sichuanese numbing-and-hot beef (Ma la niu rou)
+  page: 56
+  ingredients:
+  - beef shins
+  - fresh ginger
+  - spring onions
+  - whole star anise
+  - cassia bark
+  - Sichuan peppercorns
+  - whole cloves
+  - Shaoxing rice wine
+  - light soy sauce
+  - chilli oil
+  - sesame oil
+  - coriander seeds
+  - peanuts
+- title: Sweet-and-sour spare ribs (Tang cu pai gu)
+  page: 58
+  ingredients:
+  - pork spareribs
+  - fresh ginger
+  - spring onions
+  - Shaoxing rice wine
+  - dark soy sauce
+  - caster sugar
+  - Chinkiang vinegar
+  - sesame oil
+- title: Slippery wood ear salad with coriander (Xiang cai mu er)
+  page: 60
+  ingredients:
+  - dried wood ear mushrooms
+  - coriander leaves
+  - red chillies
+  - sesame oil
+  - rice vinegar
+- title: Kohlrabi salad with sesame oil (Xiang you pie lan)
+  page: 62
+  ingredients:
+  - kohlrabi
+  - spring onions
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - sesame oil
+- title: Kohlrabi salad with sour-and-hot dressing
+  page: 62
+  ingredients:
+  - kohlrabi
+  - spring onions
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - sesame oil
+  - chilli oil
+- title: Asian white radish with sesame oil
+  page: 62
+  ingredients:
+  - Asian radishes
+  - sesame oil
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+- title: Asian white radish with sour-and-hot dressing
+  page: 62
+  ingredients:
+  - Asian radishes
+  - sesame oil
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+- title: Smoky aubergines with garlic (Huo shao qie zi)
+  page: 63
+  ingredients:
+  - aubergines
+  - light soy sauce
+  - Chinkiang vinegar
+  - chilli oil
+  - sesame seeds
+  - spring onions
+  - garlic
+- title: Spinach in ginger sauce (Jiang zhi bo cai)
+  page: 64
+  ingredients:
+  - spinach
+  - fresh ginger
+  - Chinkiang vinegar
+  - light soy sauce
+  - sesame oil
+- title: Tiger salad (Lao hu cai)
+  page: 66
+  ingredients:
+  - cucumbers
+  - coriander leaves
+  - tinned green chillies
+  - caster sugar
+  - Chinkiang vinegar
+  - sesame oil
+  - white pepper
+- title: Spinach with sesame sauce (Ma jiang bo cai)
+  page: 67
+  ingredients:
+  - spinach
+  - sesame oil
+  - sesame paste
+  - caster sugar
+- title: Sour-and-hot spinach
+  page: 67
+  ingredients:
+  - spinach
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+- title: Radishes in chilli oil sauce (Qiang luo bo)
+  page: 68
+  ingredients:
+  - radishes
+  - caster sugar
+  - light soy sauce
+  - chilli oil
+  - sesame oil
+- title: Delectable lotus root salad (Mei wei ou pian)
+  page: 70
+  ingredients:
+  - dried wood ear mushrooms
+  - lotus root
+  - fresh ginger
+  - rice vinegar
+  - caster sugar
+  - red chillies
+  - spring onions
+  - sesame oil
+- title: Green soy beans served in the pod (Mao dou)
+  page: 72
+  ingredients:
+  - fresh ginger
+  - Sichuan peppercorns
+  - soy beans
+- title: Pock-marked old woman's tofu [Vegetarian] (Ma po dou fu)
+  page: 76
+  ingredients:
+  - tofu
+  - baby leeks
+  - chilli bean paste
+  - fermented black beans
+  - fresh ginger
+  - white pepper
+  - potato flour
+  - Sichuan pepper
+- title: Pipa tofu (Pi pa dou fu)
+  page: 78
+  ingredients:
+  - dried shiitake mushrooms
+  - tofu
+  - carrots
+  - coriander leaves
+  - egg whites
+  - potato flour
+  - white pepper
+  - oil
+  - spring onions
+  - fresh ginger
+  - red chillies
+  - stock
+  - Shaoxing rice wine
+  - light soy sauce
+  - dark soy sauce
+  - sesame oil
+- title: Tofu puffs with salt and Sichuan pepper
+  page: 78
+  ingredients:
+  - dried shiitake mushrooms
+  - tofu
+  - carrots
+  - coriander leaves
+  - egg whites
+  - potato flour
+  - white pepper
+  - oil
+  - Sichuan peppercorns
+  - salt
+- title: Bear's paw tofu (Xiong zhang dou fu)
+  page: 80
+  ingredients:
+  - tofu
+  - chilli bean paste
+  - fresh ginger
+  - baby leeks
+  - caster sugar
+  - light soy sauce
+  - potato flour
+- title: Spicy firm tofu with garlic stems (Suan tai chao xiang gan)
+  page: 82
+  ingredients:
+  - garlic scapes
+  - smoked tofu
+  - chilli bean paste
+  - fermented black beans
+  - caster sugar
+- title: Suzhou breakfast tofu (Su zhou dou ha)
+  page: 83
+  ingredients:
+  - silken tofu
+  - Szechuan preserved vegetable
+  - dried shrimp
+  - laver seaweed
+  - spring onions
+  - light soy sauce
+  - sesame oil
+- title: Firm tofu with green pepper (Qing jiao dou fu gan)
+  page: 84
+  ingredients:
+  - tofu
+  - green peppers
+  - light soy sauce
+- title: Stir-fried tofu with black bean and chilli (Xiang la dou fu gan)
+  page: 86
+  ingredients:
+  - smoked tofu
+  - fresh ginger
+  - dried chillies
+  - red onions
+  - red peppers
+  - green peppers
+  - celery
+  - spring onions
+  - black bean sauce
+  - caster sugar
+  - white pepper
+  - light soy sauce
+  - sesame oil
+- title: Twice-cooked pork with black bean and chilli
+  page: 86
+  ingredients:
+  - pork belly
+  - black bean sauce
+  - dried chillies
+  - Sichuan peppercorns
+  - caster sugar
+  - white pepper
+  - light soy sauce
+  - sesame oil
+  - fresh ginger
+  - red onions
+  - red peppers
+  - green peppers
+  - celery
+  - spring onions
+  - Shaoxing rice wine
+- title: Silken tofu with pickled mustard greens (Suan cai dou ha)
+  page: 88
+  ingredients:
+  - pickled mustard greens
+  - chicken stock
+  - white pepper
+  - silken tofu
+  - potato flour
+  - spring onions
+- title: Silken tofu with chicken slivers and pickled mustard greens
+  page: 88
+  ingredients:
+  - pickled mustard greens
+  - chicken breasts
+  - Shaoxing rice wine
+  - potato flour
+  - spring onions
+  - chicken stock
+- title: Sour-and-hot silken tofu (Suan la dou hua)
+  page: 90
+  ingredients:
+  - silken tofu
+  - Chinkiang vinegar
+  - light soy sauce
+  - chicken stock
+  - chilli oil
+  - sesame oil
+  - spring onions
+  - Sichuan preserved vegetables
+  - Bombay mix
+- title: Red-braised pork (Hong shao rou)
+  page: 94
+  ingredients:
+  - pork belly
+  - fresh ginger
+  - spring onions
+  - Shaoxing rice wine
+  - stock
+  - whole star anise
+  - cassia bark
+  - dark soy sauce
+  - caster sugar
+- title: Twice-cooked pork (Hui guo rou)
+  page: 96
+  ingredients:
+  - pork belly
+  - baby leeks
+  - chilli bean paste
+  - sweet fermented sauce
+  - fermented black beans
+  - dark soy sauce
+  - caster sugar
+  - red chillies
+- title: Salt-fried pork with garlic stems (Yan jian rou)
+  page: 98
+  ingredients:
+  - pork belly
+  - garlic scapes
+  - salt
+  - chilli bean paste
+  - fermented black beans
+- title: Braised pork with potatoes (Tu dou shao rou)
+  page: 100
+  ingredients:
+  - pork shoulder
+  - spring onions
+  - chilli bean paste
+  - fresh ginger
+  - stock
+  - Shaoxing rice wine
+  - potatoes
+- title: Stir-fried beef with black bean and chilli (Jia chang niu rou)
+  page: 101
+  ingredients:
+  - beef steaks
+  - red peppers
+  - green peppers
+  - coriander leaves
+  - black bean sauce
+  - sesame oil
+  - dark soy sauce
+  - light soy sauce
+  - Shaoxing rice wine
+  - potato flour
+- title: Tuzi's slow-cooked ribs with red fermented tofu (Nan ru pai gu)
+  page: 102
+  ingredients:
+  - pork spareribs
+  - Shaoxing rice wine
+  - red fermented tofu
+  - fresh ginger
+  - spring onions
+  - caster sugar
+- title: Bowl-steamed pork in rice meal (Fen zheng rou)
+  page: 104
+  ingredients:
+  - peas
+  - Thai fragrant rice
+  - whole star anise
+  - cassia bark
+  - pork belly
+  - spring onions
+  - chilli bean paste
+  - red fermented tofu
+  - Shaoxing rice wine
+  - fresh ginger
+  - white pepper
+  - dark soy sauce
+- title: Beef with cumin (Zi ran niu rou)
+  page: 106
+  ingredients:
+  - beef steaks
+  - red peppers
+  - green peppers
+  - fresh ginger
+  - ground cumin
+  - dried chilli flakes
+  - spring onions
+  - sesame oil
+  - Shaoxing rice wine
+  - light soy sauce
+  - dark soy sauce
+  - potato flour
+- title: Red-braised beef with tofu 'bamboo' (Fu zhu shao niu rou)
+  page: 108
+  ingredients:
+  - stewing beef
+  - chilli bean paste
+  - fresh ginger
+  - spring onions
+  - whole star anise
+  - sweet fermented sauce
+  - stock
+  - Shaoxing rice wine
+  - dried tofu sticks
+- title: Slow-cooked beef brisket with berries (Qing dun niu rou)
+  page: 110
+  ingredients:
+  - beef brisket
+  - fresh ginger
+  - chicken stock
+  - Shaoxing rice wine
+  - Sichuan peppercorns
+  - goji berries
+  - chilli bean paste
+  - sesame oil
+- title: Steamed chicken with Chinese sausage and shiitake mushrooms (He ye zheng
+    ji)
+  page: 114
+  ingredients:
+  - dried shiitake mushrooms
+  - chicken thighs
+  - dried Chinese sausages
+  - fresh ginger
+  - caster sugar
+  - Shaoxing rice wine
+  - potato flour
+- title: Black bean chicken (Dou chi ji ding)
+  page: 116
+  ingredients:
+  - chicken thighs
+  - green peppers
+  - fresh ginger
+  - fermented black beans
+  - ground chillies
+  - spring onions
+  - sesame oil
+  - Shaoxing rice wine
+  - potato flour
+  - light soy sauce
+  - dark soy sauce
+- title: Gong bao chicken with peanuts (Gong bao ji ding)
+  page: 118
+  ingredients:
+  - chicken breasts
+  - fresh ginger
+  - spring onions
+  - dried chillies
+  - Sichuan peppercorns
+  - peanuts
+  - light soy sauce
+  - Shaoxing rice wine
+  - potato flour
+  - caster sugar
+  - dark soy sauce
+  - Chinkiang vinegar
+  - sesame oil
+- title: Everyday stir-fried chicken (Xiao jian ji)
+  page: 120
+  ingredients:
+  - chicken thighs
+  - cucumbers
+  - celery
+  - fresh ginger
+  - spring onions
+  - red chillies
+  - potato flour
+  - Shaoxing rice wine
+  - light soy sauce
+  - caster sugar
+  - Chinkiang vinegar
+- title: Braised chicken with dried shiitake mushrooms (Xiang gu shao ji)
+  page: 121
+  ingredients:
+  - dried shiitake mushrooms
+  - chicken thighs
+  - spring onions
+  - fresh ginger
+  - Shaoxing rice wine
+  - caster sugar
+  - dark soy sauce
+  - sesame oil
+- title: General Tso's chicken (Zuo zong tang)
+  page: 122
+  ingredients:
+  - chicken thighs
+  - dried red chillies
+  - oil
+  - fresh ginger
+  - sesame oil
+  - light soy sauce
+  - dark soy sauce
+  - egg yolks
+  - potato flour
+  - tomato paste
+  - rice vinegar
+- title: Braised chicken with chestnuts (Ban li shao ji)
+  page: 124
+  ingredients:
+  - chicken thighs
+  - fresh ginger
+  - spring onions
+  - Shaoxing rice wine
+  - chicken stock
+  - dark soy sauce
+  - chestnuts
+- title: Chicken livers with Chinese chives (Jiu cai chao ji gan)
+  page: 126
+  ingredients:
+  - chicken livers
+  - Chinese chives
+  - light soy sauce
+  - Shaoxing rice wine
+- title: Stir-fried eggs with tomatoes (Fan qie chao dan)
+  page: 128
+  ingredients:
+  - tomatoes
+  - eggs
+  - caster sugar
+- title: Steamed eggs (Zheng shui dan)
+  page: 130
+  ingredients:
+  - dried shiitake mushrooms
+  - eggs
+  - Shaoxing rice wine
+  - spring onions
+  - light soy sauce
+- title: Fresh oyster omelette (Dan jian sheng hao)
+  page: 132
+  ingredients:
+  - oysters
+  - eggs
+  - potato flour
+  - white pepper
+  - spring onions
+- title: Steamed sea bass with ginger and spring onion (Qing zheng lu yu)
+  page: 136
+  ingredients:
+  - spring onions
+  - fresh ginger
+  - sea bass
+  - Shaoxing rice wine
+  - light soy sauce
+- title: Sea bream in fish-fragrant sauce (Ji li jia xiang yu)
+  page: 138
+  ingredients:
+  - stock
+  - sea bream
+  - chilli bean paste
+  - fresh ginger
+  - caster sugar
+  - potato flour
+  - Chinkiang vinegar
+  - spring onions
+- title: Dry-braised fish with black bean and chilli (Dou la gan shao yu)
+  page: 139
+  ingredients:
+  - sea bass
+  - Shaoxing rice wine
+  - chilli bean paste
+  - fresh ginger
+  - fermented black beans
+  - chilli flakes
+  - spring onions
+  - red peppers
+  - sesame oil
+- title: Braised trout in chilli bean sauce (Dou ban yu)
+  page: 140
+  ingredients:
+  - rainbow trout
+  - Shaoxing rice wine
+  - chilli bean paste
+  - fresh ginger
+  - light soy sauce
+  - potato flour
+  - spring onions
+  - sesame oil
+- title: Sweet-and-sour fish 'tiles' (Tang cu wa kuai yu)
+  page: 142
+  ingredients:
+  - white fish fillets
+  - spring onions
+  - red chillies
+  - oil
+  - fresh ginger
+  - Shaoxing rice wine
+  - potato flour
+  - caster sugar
+  - light soy sauce
+  - Chinkiang vinegar
+- title: Salt and pepper squid (Jiao yan you yu)
+  page: 144
+  ingredients:
+  - squid
+  - Shaoxing rice wine
+  - potato flour
+  - oil
+  - spring onions
+  - red chillies
+  - Sichuan peppercorns
+- title: Clams in black bean sauce (Chi zhi chao xian)
+  page: 146
+  ingredients:
+  - clams
+  - fermented black beans
+  - fresh ginger
+  - red chillies
+  - green peppers
+  - Shaoxing rice wine
+  - dark soy sauce
+  - light soy sauce
+  - potato flour
+  - spring onions
+- title: Sichuanese 'dry-fried' green beans [Vegetarian version] (Gan ban si ji dou
+    [Su])
+  page: 150
+  ingredients:
+  - French beans (haricots verts)
+  - dried chillies
+  - spring onions
+  - fresh ginger
+  - Sichuan peppercorns
+  - sesame oil
+- title: Stir-fried green beans with 'olive vegetable'
+  page: 150
+  ingredients:
+  - French beans (haricots verts)
+  - spring onions
+  - sesame oil
+  - Chinese olive vegetable
+- title: Stir-fried peas with chilli and Sichuan pepper (Qiang qing wan dou)
+  page: 152
+  ingredients:
+  - dried chillies
+  - peas
+  - Sichuan peppercorns
+- title: Peas with fried shrimps (Hui jin gou qing wan)
+  page: 153
+  ingredients:
+  - dried shrimp
+  - spring onions
+  - fresh ginger
+  - peas
+  - white pepper
+  - potato flour
+  - sesame oil
+- title: Runner beans with black bean and chilli (Jia chang dao dou)
+  page: 154
+  ingredients:
+  - runner beans
+  - fresh ginger
+  - red chillies
+  - fermented black beans
+  - ground chillies
+  - light soy sauce
+- title: Mangetout with Chinese wind-dried sausage (Xiang chang chao he lan dou)
+  page: 156
+  ingredients:
+  - mangetout
+  - fresh ginger
+  - caster sugar
+  - Shaoxing rice wine
+  - Chinese wind-dried sausages
+- title: Hangzhou broad beans with ham (Huo tui can dou)
+  page: 158
+  ingredients:
+  - broad beans
+  - Chinese ham
+  - caster sugar
+- title: Steamed broad beans with ham
+  page: 158
+  ingredients:
+  - broad beans
+  - Shaoxing rice wine
+  - Chinese ham
+- title: Mashed broad beans with 'snow vegetable' (Dou ban su)
+  page: 160
+  ingredients:
+  - broad beans
+  - spring onions
+  - Chinese snow vegetable
+- title: Mashed broad beans with cured ham
+  page: 160
+  ingredients:
+  - broad beans
+  - Chinese ham
+  - spring onions
+- title: Broad beans with preserved mustard greens (Ya cai chao can dou)
+  page: 161
+  ingredients:
+  - broad beans
+  - Sichuan preserved vegetables
+- title: Broad beans with spring onion
+  page: 161
+  ingredients:
+  - broad beans
+  - spring onions
+  - caster sugar
+- title: Broad beans with spring onion, Sichuan-style
+  page: 161
+  ingredients:
+  - broad beans
+  - spring onions
+  - Sichuan peppercorns
+- title: Stir-fried green soy beans with snow vegetable (Xue cai mao dou)
+  page: 162
+  ingredients:
+  - soy beans
+  - sesame oil
+  - Chinese snow vegetable
+- title: 'Stir-fried green soy beans '
+  page: 162
+  ingredients:
+  - soy beans
+  - red peppers
+  - sesame oil
+- title: Stir-fried beansprouts with Chinese chives (Jiu cai yin ya)
+  page: 164
+  ingredients:
+  - Chinese chives
+  - beansprouts
+  - Chinkiang vinegar
+- title: Beansprouts with chilli and Sichuan pepper
+  page: 164
+  ingredients:
+  - beansprouts
+  - Sichuan chiles
+  - Sichuan peppercorns
+- title: Blanched choy sum with sizzling oil (You lin cai xin)
+  page: 168
+  ingredients:
+  - choy sum
+  - spring onions
+  - fresh ginger
+  - light soy sauce
+- title: Purple-sprouting broccoli with sizzling oil
+  page: 168
+  ingredients:
+  - purple sprouting broccoli
+  - fresh ginger
+  - caster sugar
+  - oil
+  - light soy sauce
+- title: Spinach with chilli and fermented tofu (Jiao si fu ru chao bo cai)
+  page: 170
+  ingredients:
+  - spinach
+  - caster sugar
+  - white fermented tofu
+  - red chillies
+  - rapeseed oil
+  - garlic
+- title: Water spinach with fermented tofu
+  page: 170
+  ingredients:
+  - water spinach
+  - caster sugar
+  - white fermented tofu
+  - red chillies
+  - rapeseed oil
+  - garlic
+- title: Spinach with red fermented tofu and ginger
+  page: 170
+  ingredients:
+  - spinach
+  - red fermented tofu
+  - fresh ginger
+  - caster sugar
+- title: Simple stir-fried spinach
+  page: 170
+  ingredients:
+  - spinach
+- title: Stir-fried greens with dried shrimps (Bao xin cai chao xia pi)
+  page: 172
+  ingredients:
+  - spring greens
+  - spring onions
+  - dried shrimp
+  - light soy sauce
+- title: Stir-fried broccoli with chilli and Sichuan pepper (Qiang xi nan hua cai)
+  page: 174
+  ingredients:
+  - broccoli
+  - dried chillies
+  - Sichuan peppercorns
+  - sesame oil
+- title: Stir-fried broccoli with garlic
+  page: 174
+  ingredients:
+  - broccoli
+  - garlic
+- title: Baby pak choy in superior stock (Shang tang bai cai miao)
+  page: 176
+  ingredients:
+  - baby pak choy
+  - stock
+  - white pepper
+- title: Baby pak choy in superior stock, restaurant style
+  page: 176
+  ingredients:
+  - baby pak choy
+  - duck eggs
+  - stock
+- title: Stir-fried choy sum with ginger and garlic (Chao cai xin)
+  page: 177
+  ingredients:
+  - choy sum
+  - garlic
+  - fresh ginger
+  - caster sugar
+- title: Stir-fried chopped choy sum (Bo bo cai xin)
+  page: 178
+  ingredients:
+  - choy sum
+  - red chillies
+  - fresh ginger
+  - sesame oil
+- title: Pak choy with fresh shiitake (Xiang gu xiao bai cai)
+  page: 180
+  ingredients:
+  - pak choy
+  - shiitake mushrooms
+  - caster sugar
+  - potato flour
+  - fresh ginger
+- title: Chinese broccoli in ginger sauce (Jiang zhi jie lan)
+  page: 182
+  ingredients:
+  - Chinese broccoli
+  - fresh ginger
+  - Shaoxing rice wine
+  - caster sugar
+- title: Chinese cabbage with vinegar (Cu liu bai cai)
+  page: 184
+  ingredients:
+  - Chinese cabbage
+  - caster sugar
+  - Chinkiang vinegar
+- title: Stir-fried romaine lettuce (Qing chao sheng cai)
+  page: 185
+  ingredients:
+  - romaine lettuce
+- title: Twice-cooked Swiss chard (Hui guo niu pi cai)
+  page: 186
+  ingredients:
+  - Swiss chard
+  - fresh ginger
+  - chilli bean paste
+  - fermented black beans
+  - celery
+  - coriander leaves
+  - spring onions
+- title: Smothered rainbow chard with garlic (Men cai hong cai)
+  page: 188
+  ingredients:
+  - rainbow chard
+  - garlic
+- title: Purple amaranth with red fermented tofu (Nan ru xian cai)
+  page: 190
+  ingredients:
+  - red fermented tofu
+  - caster sugar
+  - purple amaranth greens
+- title: Purple amaranth with garlic
+  page: 190
+  ingredients:
+  - garlic
+  - purple amaranth greens
+- title: Tender boiled vegetables with a spicy dip (Pa pa cai)
+  page: 192
+  ingredients:
+  - vegetables of your choice
+  - ground chillies
+  - Sichuan peppercorns
+  - spring onions
+- title: Sichuanese 'send-the-rice-down' chopped celery with minced beef (Jia chang
+    rou mo qin cai)
+  page: 194
+  ingredients:
+  - celery
+  - minced beef
+  - chilli bean paste
+  - fresh ginger
+  - Chinkiang vinegar
+- title: Stir-fried celery with beef
+  page: 194
+  ingredients:
+  - beef steaks
+  - soy sauce
+  - Shaoxing rice wine
+  - potato flour
+  - celery
+  - fresh ginger
+  - Chinkiang vinegar
+- title: Stir-fried celery with lily bulb and macadamia nuts (Xian bai he chao su)
+  page: 196
+  ingredients:
+  - celery
+  - lily bulbs
+  - macadamia nuts
+  - caster sugar
+  - garlic
+- title: Stir-fried Chinese chives with pork slivers (Jiu cai rou si)
+  page: 200
+  ingredients:
+  - lean pork
+  - Chinese chives
+  - light soy sauce
+  - Shaoxing rice wine
+  - potato flour
+- title: Flowering chives with pork slivers
+  page: 200
+  ingredients:
+  - flowering chives
+  - leafy romaine salad blend
+  - light soy sauce
+  - Shaoxing rice wine
+  - potato flour
+- title: Chinese chives with smoked tofu (Jiu cai chao xiang gan)
+  page: 201
+  ingredients:
+  - smoked tofu
+  - Chinese chives
+  - sesame oil
+- title: Flowering chives with smoked tofu
+  page: 201
+  ingredients:
+  - smoked tofu
+  - sesame oil
+  - flowering chives
+- title: Stir-fried yellow chives with venison slivers (Jiu huang lu rou si)
+  page: 202
+  ingredients:
+  - venison steaks
+  - yellow chives
+  - red chillies
+  - fresh ginger
+  - Shaoxing rice wine
+  - potato flour
+  - dark soy sauce
+  - Chinkiang vinegar
+  - light soy sauce
+- title: Golden Chinese chive omelette (Jiu cai chao dan)
+  page: 204
+  ingredients:
+  - eggs
+  - Chinese chives
+- title: Stir-fried eggs with yellow chives (Jiu hunag chao ji dan)
+  page: 205
+  ingredients:
+  - eggs
+  - potato flour
+  - white pepper
+  - yellow chives
+- title: Stir-fried garlic stems with bacon (La rou chao suan tai)
+  page: 206
+  ingredients:
+  - garlic scapes
+  - streaky bacon
+  - sesame oil
+- title: Stir-fried garlic stems with mushrooms
+  page: 206
+  ingredients:
+  - garlic scapes
+  - button mushrooms
+- title: Fish-fragrant aubergines (Yu xiang qie zi)
+  page: 210
+  ingredients:
+  - aubergines
+  - oil
+  - chilli bean paste
+  - fresh ginger
+  - caster sugar
+  - potato flour
+  - Chinkiang vinegar
+  - spring onions
+- title: Hangzhou aubergines (Rou mo qie zi)
+  page: 212
+  ingredients:
+  - aubergines
+  - oil
+  - minced pork
+  - fresh ginger
+  - sweet fermented sauce
+  - Shaoxing rice wine
+  - light soy sauce
+  - dark soy sauce
+  - caster sugar
+  - potato flour
+  - spring onions
+- title: Shanghai home-style aubergines (Jia chiang qie zi)
+  page: 214
+  ingredients:
+  - aubergines
+  - oil
+  - light soy sauce
+  - dark soy sauce
+  - caster sugar
+  - fresh ginger
+  - spring onions
+- title: Stir-fried green pepper with pork slivers (Qing jiao rou si)
+  page: 215
+  ingredients:
+  - lean pork
+  - green peppers
+  - sweet fermented sauce
+  - light soy sauce
+  - Shaoxing rice wine
+  - potato flour
+  - egg whites
+- title: Stir-fried green pepper with tofu
+  page: 215
+  ingredients:
+  - tofu
+  - green peppers
+  - light soy sauce
+- title: Stir-fried cucumber with wood ear (Huang gua mu'er)
+  page: 216
+  ingredients:
+  - dried wood ear mushrooms
+  - cucumbers
+  - spring onions
+  - Sichuan pickled chiles
+  - fresh ginger
+  - light soy sauce
+  - potato flour
+- title: Stir-fried cucumber with pork and wood ear
+  page: 216
+  ingredients:
+  - dried wood ear mushrooms
+  - cucumbers
+  - spring onions
+  - Sichuan pickled chiles
+  - fresh ginger
+  - light soy sauce
+  - potato flour
+  - lean pork
+  - Shaoxing rice wine
+- title: Sweet and sour courgettes (Tang cu yi da li gua)
+  page: 218
+  ingredients:
+  - courgettes
+  - caster sugar
+  - Chinkiang vinegar
+- title: Courgette slivers with garlic
+  page: 218
+  ingredients:
+  - courgettes
+  - garlic
+- title: Steamed marrow with minced pork stuffing (Qing zheng nan gua)
+  page: 219
+  ingredients:
+  - fresh ginger
+  - dried shiitake mushrooms
+  - minced pork
+  - spring onions
+  - sesame oil
+  - potato flour
+  - white pepper
+  - vegetable marrow
+- title: Silk gourd with green soy beans (Qing dou si gua)
+  page: 220
+  ingredients:
+  - silk gourds
+  - Chinese ham
+  - soy beans
+  - Shaoxing rice wine
+- title: Silk gourd with garlic
+  page: 220
+  ingredients:
+  - garlic
+  - silk gourds
+- title: Rustic steamed squash with spicy black bean sauce (Xiang cun nan gua)
+  page: 222
+  ingredients:
+  - chilli bean paste
+  - fresh ginger
+  - fermented black beans
+  - caster sugar
+  - butternut squash
+  - spring onions
+- title: Stir-fried potato slivers with chilli and Sichuan pepper (Qiang tu dou si)
+  page: 226
+  ingredients:
+  - dried chillies
+  - potatoes
+  - Sichuan peppercorns
+- title: Stir-fried potato slivers with spring onions
+  page: 226
+  ingredients:
+  - potatoes
+  - spring onions
+  - sesame oil
+- title: Stir-fried potato slivers with green pepper
+  page: 226
+  ingredients:
+  - potatoes
+  - dried chillies
+  - green peppers
+  - spring onions
+- title: Stir-fried potato slivers with vinegar
+  page: 226
+  ingredients:
+  - potatoes
+  - green peppers
+  - light soy sauce
+  - Chinkiang vinegar
+- title: Stir-fried mashed potato with preserved mustard greens (Suan cai chao tu
+    dou ni)
+  page: 228
+  ingredients:
+  - cooked potatoes
+  - ya cai
+  - white pepper
+  - spring onions
+- title: Peng Rui's potato sliver bing (Peng Rui tu dou bing)
+  page: 229
+  ingredients:
+  - potatoes
+  - spring onions
+  - Sichuan peppercorns
+- title: Stir-fried oyster and shiitake mushrooms with garlic (Su chao shuang gu)
+  page: 232
+  ingredients:
+  - oyster mushrooms
+  - shiitake mushrooms
+  - garlic
+  - spring onions
+- title: Stir-fried oyster mushrooms with chicken (Ping gu ji pian)
+  page: 234
+  ingredients:
+  - chicken breasts
+  - spring onions
+  - oyster mushrooms
+  - fresh ginger
+  - white pepper
+  - Shaoxing rice wine
+  - potato flour
+- title: Vegetarian 'gong bao chicken' (Gong bao di jing [Su])
+  page: 236
+  ingredients:
+  - portobello mushrooms
+  - Sichuan chiles
+  - fresh ginger
+  - spring onions
+  - Sichuan peppercorns
+  - peanuts
+  - potato flour
+  - caster sugar
+  - dark soy sauce
+  - light soy sauce
+  - Chinkiang vinegar
+- title: Soup of salted duck eggs, sliced pork and mustard greens (Xian dan rou pian
+    tang)
+  page: 240
+  ingredients:
+  - pork tenderloin
+  - preserved mustard greens
+  - fresh ginger
+  - stock
+  - Shaoxing rice wine
+  - potato flour
+  - salted duck eggs
+- title: Winter melon and salted duck egg soup
+  page: 240
+  ingredients:
+  - winter melon gourds
+  - fresh ginger
+  - stock
+  - salted duck eggs
+- title: Sour and hot mushroom soup (Suan la shan zhen tang)
+  page: 242
+  ingredients:
+  - dried shiitake mushrooms
+  - stock
+  - fresh ginger
+  - shiitake mushrooms
+  - oyster mushrooms
+  - enoki mushrooms
+  - tofu
+  - light soy sauce
+  - dark soy sauce
+  - Chinkiang vinegar
+  - white pepper
+  - sesame oil
+  - spring onions
+- title: Broad bean and snow vegetable soup (Dou ban xue cai tang)
+  page: 244
+  ingredients:
+  - broad beans
+  - chicken stock
+  - tomatoes
+  - Chinese snow vegetable
+- title: Fried egg and tomato soup (Fan qie jian dan tang)
+  page: 246
+  ingredients:
+  - eggs
+  - tomatoes
+  - pak choy
+  - stock
+  - spring onions
+  - white pepper
+- title: Dai Shuang's yellow split pea soup (Dai Shuang pa wan dou tang)
+  page: 247
+  ingredients:
+  - yellow split peas
+  - fresh ginger
+  - spring onions
+  - lard
+  - Sichuan peppercorns
+  - stock
+  - pea shoots
+  - peanuts
+- title: Soup with vegetables and meatballs (Yuan zi tang)
+  page: 248
+  ingredients:
+  - dried shiitake mushrooms
+  - fresh ginger
+  - minced pork
+  - spring onions
+  - sesame oil
+  - potato flour
+  - white pepper
+  - stock
+  - winter melon gourds
+- title: Taro and rocket soup (You tou wa wa cai)
+  page: 250
+  ingredients:
+  - taro root
+  - chicken stock
+  - rocket
+  - white pepper
+  - spring onions
+- title: Simple chicken soup (Qing dun quan ji)
+  page: 251
+  ingredients:
+  - whole chicken
+  - fresh ginger
+  - spring onions
+  - Shaoxing rice wine
+- title: Plain white rice (Bai mi fan)
+  page: 254
+  ingredients:
+  - Thai fragrant rice
+- title: Traditional steamer rice (Zeng zi fan)
+  page: 254
+  ingredients:
+  - Thai fragrant rice
+- title: Pot-sticker rice served with rice 'soup'
+  page: 254
+  ingredients:
+  - Thai fragrant rice
+  - root vegetables of your choice
+- title: Plain brown rice (Cao mi fan)
+  page: 256
+  ingredients:
+  - short grain brown rice
+- title: Egg-fried rice (Dan chao fan)
+  page: 257
+  ingredients:
+  - eggs
+  - cooked rice
+  - light soy sauce
+  - spring onions
+  - sesame oil
+- title: Green fried rice
+  page: 257
+  ingredients:
+  - eggs
+  - cooked rice
+  - spinach
+- title: Soy sauce-fried rice
+  page: 257
+  ingredients:
+  - cooked rice
+  - tamari
+- title: Yangzhou fried rice (Yang zhou chao fan)
+  page: 258
+  ingredients:
+  - pork fillets
+  - ham
+  - cooked chicken meat
+  - dried shiitake mushrooms
+  - spring onions
+  - white pepper
+  - prawns
+  - peas
+  - Shaoxing rice wine
+  - cooked rice
+  - eggs
+- title: Shanghainese rice with salt pork and pak choy (Xian rou cai fan)
+  page: 260
+  ingredients:
+  - salt pork
+  - pak choy
+  - Thai fragrant rice
+- title: Soupy rice with pork and beans (Shang hai pao fan)
+  page: 262
+  ingredients:
+  - dried shiitake mushrooms
+  - streaky bacon
+  - fresh ginger
+  - cooked rice
+  - stock
+  - white pepper
+- title: Congee (Zhou)
+  page: 263
+  ingredients:
+  - Thai fragrant rice
+- title: Congee with pork ribs, preserved duck eggs and ginger
+  page: 263
+  ingredients:
+  - Thai fragrant rice
+  - pork spareribs
+  - preserved duck eggs
+  - fresh ginger
+  - white pepper
+  - spring onions
+- title: Dandelion leaf congee
+  page: 263
+  ingredients:
+  - Thai fragrant rice
+  - dandelion leaves
+- title: Congee with chicken and shiitake mushrooms
+  page: 263
+  ingredients:
+  - Thai fragrant rice
+  - dried shiitake mushrooms
+  - chicken
+  - soy sauce
+  - fresh ginger
+  - potato flour
+  - spring onions
+  - sesame oil
+- title: Rice-cooked vegetables and rice-cooked pork (Fan wu cai)
+  page: 264
+  ingredients:
+  - Thai fragrant rice
+  - Chinese aubergines
+  - soy sauce
+  - pork belly
+- title: Spicy buckwheat noodles (Suan la qiao mian)
+  page: 268
+  ingredients:
+  - buckwheat noodles
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+  - spring onions
+  - red chillies
+- title: Spicy buckwheat noodles with chicken (Suan la qiao mian)
+  page: 268
+  ingredients:
+  - buckwheat noodles
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+  - spring onions
+  - red chillies
+  - cooked chicken meat
+- title: Mrs Yu's sweet and spicy cold noodles (Yu lao shi lang mian)
+  page: 270
+  ingredients:
+  - beansprouts
+  - noodles
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - Sichuan peppercorns
+  - spring onions
+  - chilli oil
+  - sesame oil
+- title: Ho fun rice noodles with mushrooms (Gan chao su he)
+  page: 272
+  ingredients:
+  - dried shiitake mushrooms
+  - white mushrooms
+  - spring onions
+  - rice noodles
+  - light soy sauce
+  - dark soy sauce
+  - beansprouts
+  - white pepper
+- title: Ho fun rice noodles with beef
+  page: 272
+  ingredients:
+  - spring onions
+  - rice noodles
+  - light soy sauce
+  - dark soy sauce
+  - beansprouts
+  - white pepper
+  - beef steaks
+  - potato flour
+- title: Shanghai noodles with dried shrimp and spring onion oil (Kai yang cong you
+    mian)
+  page: 274
+  ingredients:
+  - dried shrimp
+  - Shaoxing rice wine
+  - noodles
+  - spring onions
+  - light soy sauce
+- title: Zhajiang noodles (Zha jiang mian)
+  page: 276
+  ingredients:
+  - Sichuan peppercorns
+  - whole star anise
+  - pork belly
+  - fresh ginger
+  - Shaoxing rice wine
+  - sweet fermented sauce
+  - Chinese wheat flour noodles
+  - cucumbers
+  - celery
+  - carrots
+  - Chinese cabbage
+  - Chinese radishes
+  - beansprouts
+  - soy beans
+- title: Hangzhou breakfast noodles (Cong you ban mian)
+  page: 278
+  ingredients:
+  - spring onions
+  - noodles
+  - light soy sauce
+- title: Xie laoban's dan dan noodles (Niu rou dan dan mian)
+  page: 279
+  ingredients:
+  - dried chillies
+  - Sichuan peppercorns
+  - Sichuan ya cai
+  - minced beef
+  - light soy sauce
+  - Chinese wheat flour noodles
+  - sesame paste
+  - dark soy sauce
+  - chilli oil
+- title: 'Vegetarian dan dan noodles '
+  page: 279
+  ingredients:
+  - dried shiitake mushrooms
+  - dried chillies
+  - Sichuan peppercorns
+  - Sichuan ya cai
+  - light soy sauce
+  - dark soy sauce
+- title: Classic dan dan noodles (Dan dan mian)
+  page: 280
+  ingredients:
+  - minced pork
+  - Shaoxing rice wine
+  - sweet fermented sauce
+  - light soy sauce
+  - Chinese wheat flour noodles
+  - Chinkiang vinegar
+  - chilli oil
+  - spring onions
+  - Sichuan ya cai
+- title: Chef Chen Dailu's spicy sesame noodles (Hong you su mian)
+  page: 282
+  ingredients:
+  - sesame paste
+  - light soy sauce
+  - dark soy sauce
+  - Chinkiang vinegar
+  - Sichuan peppercorns
+  - chilli oil
+  - buckwheat noodles
+  - spring onions
+- title: Basic noodle soup (Qing tang mian)
+  page: 283
+  ingredients:
+  - noodles
+  - stock
+  - white pepper
+  - lard
+  - sesame oil
+  - spring onions
+  - greens of your choice
+- title: Minced pork noodle soup
+  page: 283
+  ingredients:
+  - minced pork
+  - Shaoxing rice wine
+  - noodles
+  - stock
+  - white pepper
+  - lard
+  - sesame oil
+  - spring onions
+- title: Mushroom noodle soup
+  page: 283
+  ingredients:
+  - Shaoxing rice wine
+  - noodles
+  - stock
+  - white pepper
+  - sesame oil
+  - mushrooms
+- title: Fried egg and tomato noodles (Fan qie jian dan mian)
+  page: 284
+  ingredients:
+  - Shaoxing rice wine
+  - noodles
+  - stock
+  - white pepper
+  - sesame oil
+  - eggs
+  - tomatoes
+- title: Noodles with mixed mushrooms
+  page: 284
+  ingredients:
+  - noodles
+  - stock
+  - white pepper
+  - sesame oil
+  - spring onions
+  - mushrooms
+- title: Stewed chicken noodles
+  page: 284
+  ingredients:
+  - noodles
+  - stock
+  - white pepper
+  - sesame oil
+  - spring onions
+  - cooked chicken meat
+- title: Buckwheat noodles with red-braised beef (Niu tou qiao mian)
+  page: 286
+  ingredients:
+  - stewing beef
+  - chilli bean paste
+  - fresh ginger
+  - spring onions
+  - whole star anise
+  - sweet fermented sauce
+  - stock
+  - Shaoxing rice wine
+  - light soy sauce
+  - chilli oil
+  - wholewheat noodles
+  - celery
+- title: Fuchsia's emergency midnight noodles (Fu xia fang bian mian)
+  page: 288
+  ingredients:
+  - wheat noodles
+  - spring onions
+  - tamari
+  - Chinkiang vinegar
+  - chilli oil
+  - sesame oil
+- title: Sichuanese wontons in chilli oil sauce (Hong you chao shou)
+  page: 292
+  ingredients:
+  - fresh ginger
+  - minced pork
+  - Shaoxing rice wine
+  - sesame oil
+  - white pepper
+  - spring onions
+  - wonton wrappers
+  - light soy sauce
+  - cinnamon sticks
+  - fennel seeds
+  - whole star anise
+  - Sichuan peppercorns
+  - chilli oil
+  - garlic
+  - eggs
+- title: Hangzhou wontons in soup
+  page: 296
+  ingredients:
+  - fresh ginger
+  - minced pork
+  - Shaoxing rice wine
+  - sesame oil
+  - white pepper
+  - spring onions
+  - wonton wrappers
+  - stock
+  - dried shrimp
+  - laver seaweed
+  - eggs
+- title: Northern-style boiled dumplings (Shui jiao)
+  page: 298
+  ingredients:
+  - fresh ginger
+  - minced pork
+  - Shaoxing rice wine
+  - sesame oil
+  - Chinese chives
+  - dumpling wrappers
+  - Chinkiang vinegar
+  - light soy sauce
+  - eggs
+- title: 'Filling for dumplings: Chinese cabbage and minced pork'
+  page: 300
+  ingredients:
+  - fresh ginger
+  - minced pork
+  - Shaoxing rice wine
+  - sesame oil
+  - dumpling wrappers
+  - eggs
+  - Chinese cabbage
+- title: 'Filling for dumplings: Fennel tops and minced pork'
+  page: 300
+  ingredients:
+  - fresh ginger
+  - minced pork
+  - Shaoxing rice wine
+  - sesame oil
+  - dumpling wrappers
+  - eggs
+  - fennel tops
+- title: 'Filling for dumplings: Scrambled eggs and chives'
+  page: 300
+  ingredients:
+  - Chinese chives
+  - eggs
+- title: Fresh spring rolls (Chun juan)
+  page: 304
+  ingredients:
+  - strong white flour
+  - carrots
+  - Asian radishes
+  - celery
+  - red peppers
+  - beansprouts
+  - spring onions
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - chilli oil
+  - sesame oil
+- title: Slivered vegetables with a mustardy dressing
+  page: 307
+  ingredients:
+  - carrots
+  - Asian radishes
+  - celery
+  - red peppers
+  - beansprouts
+  - spring onions
+  - light soy sauce
+  - Chinkiang vinegar
+  - caster sugar
+  - mustard oil
+- title: Xi'an pot-sticker dumplings (Xi'an guo tie)
+  page: 308
+  ingredients:
+  - strong white bread flour
+  - minced beef
+  - fresh ginger
+  - spring onions
+  - sesame oil
+  - light soy sauce
+  - Shaoxing rice wine
+  - yellow chives
+  - Chinkiang vinegar
+- title: Mr Lai's glutinous rice balls with black sesame stuffing (Lai tang yuan)
+  page: 312
+  ingredients:
+  - black sesame seeds
+  - caster sugar
+  - lard
+  - glutinous rice flour
+  - sesame paste
+- title: Lotus leaf buns (He ye bing)
+  page: 315
+  ingredients:
+  - dried yeast
+  - strong white flour
+  - caster sugar
+- title: Everyday stock (Xian tang)
+  page: 318
+  ingredients:
+  - chicken carcass
+  - pork ribs
+  - fresh ginger
+  - spring onions
+- title: Chicken stock
+  page: 318
+  ingredients:
+  - chicken carcass
+  - fresh ginger
+  - spring onions
+- title: Quick vegetarian stock
+  page: 319
+  ingredients:
+  - light soy sauce
+  - sesame oil
+- title: Black bean stock
+  page: 319
+  ingredients:
+  - fermented black beans
+- title: Sprouted soy bean stock
+  page: 319
+  ingredients:
+  - bean sprouts
+- title: Chilli oil
+  page: 320
+  ingredients:
+  - oil
+  - Sichuan chiles
+  - sesame seeds
+  - fresh ginger
+- title: Ground roasted Sichuan pepper
+  page: 322
+  ingredients:
+  - Sichuan peppercorns
+- title: Sweet aromatic soy sauce
+  page: 322
+  ingredients:
+  - light soy sauce
+  - cinnamon sticks
+  - fennel seeds
+  - whole star anise
+  - Sichuan peppercorns
+  - fresh ginger
+- title: Lard (Zhu you)
+  page: 324
+  ingredients:
+  - pork back fat
+- title: Roasted and fried peanuts (You su hua ren)
+  page: 325
+  ingredients:
+  - peanuts
+wishlist: true

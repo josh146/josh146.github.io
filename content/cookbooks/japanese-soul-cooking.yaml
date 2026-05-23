@@ -1,0 +1,1268 @@
+book: 'Japanese Soul Cooking'
+author: Tadashi Ono, Harris Salat
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/japanese-soul-cooking-ramen-tonkatsu-126324l1.jpg
+recipes:
+- title: Ramen soup and chashu
+  ingredients:
+  - chicken bones
+  - chicken carcass
+  - pork shoulder
+  - scallions
+  - carrots
+- title: Soy sauce marinade
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - scallions
+  - fresh ginger
+- title: Soy sauce eggs
+  ingredients:
+  - eggs
+  - soy sauce
+  - sake
+  - mirin
+  - scallions
+  - fresh ginger
+- title: Shoyu ramen
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - fresh ginger
+  - scallions
+  - spinach
+  - pork shoulder
+  - ramen noodles
+  - eggs
+  - menma
+  - nori
+  - chicken bones
+  - chicken carcass
+  - carrots
+  - garlic
+- title: Miso ramen
+  ingredients:
+  - sake
+  - mirin
+  - fresh ginger
+  - red miso
+  - sesame oil
+  - ground pork
+  - scallions
+  - cabbage
+  - chicken bones
+  - chicken carcass
+  - pork shoulder
+  - carrots
+  - mung bean sprouts
+  - ramen noodles
+  - eggs
+  - soy sauce
+  - garlic
+  - sesame seeds
+- title: Shio ramen
+  ingredients:
+  - fresh ginger
+  - scallions
+  - sesame oil
+  - sake
+  - cabbage
+  - moyashi
+  - ramen noodles
+  - pork shoulder
+  - eggs
+  - nori
+  - chicken bones
+  - chicken carcass
+  - garlic
+  - carrots
+  - soy sauce
+  - mirin
+  - Japanese sea salt
+- title: Tan tan men
+  ingredients:
+  - sesame oil
+  - scallions
+  - fresh ginger
+  - ground pork
+  - tobanjan
+  - soy sauce
+  - Japanese sesame paste
+  - ramen noodles
+  - chicken stock
+- title: Nagasaki champon
+  ingredients:
+  - sesame oil
+  - pork
+  - squid
+  - scallops
+  - shrimp
+  - carrots
+  - shiitake mushrooms
+  - cabbage
+  - sake
+  - chicken bones
+  - chicken carcass
+  - pork shoulder
+  - scallions
+  - garlic
+  - soy sauce
+  - mirin
+  - milk
+  - ramen noodles
+  - sesame seeds
+- title: Hiyashi chukka
+  ingredients:
+  - soy sauce
+  - Japanese rice vinegar
+  - toasted sesame oil
+  - eggs
+  - ramen noodles
+  - ham
+  - Japanese cucumbers
+  - tomatoes
+  - scallions
+  - roasted sesame seeds
+  - karashi mustard
+  - chicken stock
+- title: Shrimp wonton men
+  ingredients:
+  - shrimp
+  - scallions
+  - fresh ginger
+  - sake
+  - soy sauce
+  - sesame oil
+  - katakuriko
+  - black peppercorns
+  - wonton skins
+  - ramen noodles
+  - chicken stock
+- title: Torigara stock
+  ingredients:
+  - chicken bones
+- title: Classic pork gyoza
+  ingredients:
+  - green cabbage
+  - fresh ginger
+  - ground pork
+  - soy sauce
+  - toasted sesame oil
+  - black peppercorns
+  - katakuriko
+  - gyoza wrappers
+  - Japanese rice vinegar
+  - nira
+- title: Miso dipping sauce
+  ingredients:
+  - red miso
+  - toasted sesame oil
+  - fresh ginger
+  - scallions
+  - tobanjan
+  - sake
+  - mirin
+  - vinegar
+- title: Homemade rayu
+  ingredients:
+  - fresh ginger
+  - scallions
+  - toasted sesame oil
+  - ichimi togarashi
+  - Chinese red pepper flakes
+- title: Shrimp shiso gyoza
+  ingredients:
+  - napa cabbage
+  - shrimp
+  - shiitake mushrooms
+  - shiso leaves
+  - scallions
+  - fresh ginger
+  - dried shrimp
+  - katakuriko
+  - toasted sesame oil
+  - gyoza wrappers
+  - soy sauce
+  - Japanese rice vinegar
+- title: Soup gyoza with chicken
+  ingredients:
+  - green cabbage
+  - scallions
+  - fresh ginger
+  - toasted sesame oil
+  - ground chicken
+  - katakuriko
+  - gyoza wrappers
+  - napa cabbage
+  - red miso
+  - garlic
+  - tobanjan
+  - mirin
+  - vinegar
+  - chicken stock
+- title: Vegetarian gyoza
+  ingredients:
+  - spinach
+  - firm tofu
+  - shiitake mushrooms
+  - fresh ginger
+  - scallions
+  - red miso
+  - pine nuts
+  - toasted sesame oil
+  - katakuriko
+  - gyoza wrappers
+  - garlic
+  - tobanjan
+  - sake
+  - mirin
+  - vinegar
+- title: Retro curry
+  ingredients:
+  - beef stew meat
+  - onions
+  - carrots
+  - fresh ginger
+  - apples
+  - beef stock
+  - curry powder
+  - garam masala
+  - potatoes
+  - cooked white rice
+- title: Battleship curry
+  ingredients:
+  - pork shoulder
+  - onions
+  - carrots
+  - chicken stock
+  - curry powder
+  - tonkatsu sauce
+  - ichimi togarashi
+  - honey
+  - tomato ketchup
+  - baking potatoes
+  - katakuriko
+  - Parmesan cheese
+  - cheddar cheese
+  - coffee
+  - cooked rice
+  - Japanese Worcestershire sauce
+- title: Tadashi's lamb curry
+  ingredients:
+  - lamb shoulder
+  - garam masala
+  - onions
+  - carrots
+  - celery
+  - garlic
+  - curry powder
+  - dry white wine
+  - thyme
+  - bay leaves
+  - tomatoes
+  - tomato paste
+  - fresh ginger
+  - soy sauce
+  - ichimi togarashi
+  - cooked rice
+- title: Wafu seafood curry
+  ingredients:
+  - sea scallops
+  - squid
+  - shrimp
+  - white pepper
+  - Spanish onions
+  - carrots
+  - curry powder
+  - sake
+  - mirin
+  - shiitake mushrooms
+  - dashi
+  - soy sauce
+  - katakuriko
+  - scallions
+  - cooked rice
+- title: Miso curry
+  ingredients:
+  - chicken stock
+  - hatcho miso
+  - red miso
+  - beef
+  - Spanish onions
+  - carrots
+  - daikon radishes
+  - burdock root
+  - curry powder
+  - red wine
+  - cooked rice
+- title: Sapporo soup curry
+  ingredients:
+  - Japanese eggplants
+  - zucchini
+  - red peppers
+  - Spanish onions
+  - carrots
+  - fresh ginger
+  - chicken legs
+  - curry powder
+  - chicken stock
+  - bay leaves
+  - takano tjume
+  - cooked rice
+- title: Homemade panko bread crumbs
+  ingredients:
+  - Japanese-style white bread
+- title: Homemade tonkatsu sauce
+  ingredients:
+  - onions
+  - apples
+  - tomatoes
+  - sake
+  - soy sauce
+  - vinegar
+  - tomato paste
+  - kombu
+  - bay leaves
+  - ground cayenne pepper
+  - white pepper
+  - ground cinnamon
+  - nutmeg
+  - ground allspice
+  - Worcestershire sauce
+- title: Miso tonkatsu dipping sauce
+  ingredients:
+  - sake
+  - mirin
+  - hatcho miso
+  - toasted sesame oil
+- title: Classic tonkatsu
+  ingredients:
+  - cabbage
+  - pork shoulder
+  - black peppercorns
+  - panko breadcrumbs
+  - vegetable oil
+  - karashi mustard
+  - tonkatsu sauce
+  - cooked rice
+- title: Ultra-crunchy cabbage
+  ingredients:
+  - green cabbage
+- title: Rolled katsu with yuzu kosho
+  ingredients:
+  - cabbage
+  - pork belly
+  - yuzu kosho
+  - panko breadcrumbs
+  - vegetable oil
+  - cooked rice
+- title: Waraji katsu
+  ingredients:
+  - cabbage
+  - black peppercorns
+  - pork shoulder
+  - panko breadcrumbs
+  - vegetable oil
+  - karashi mustard
+  - tonkatsu sauce
+  - cooked rice
+- title: Menchi katsu
+  ingredients:
+  - cabbage
+  - ground beef
+  - onions
+  - black peppercorns
+  - tomato ketchup
+  - soy sauce
+  - panko breadcrumbs
+  - vegetable oil
+  - karashi mustard
+  - tonkatsu sauce
+  - cooked rice
+- title: Iwashi furai
+  ingredients:
+  - fresh sardines
+  - all-purpose flour
+  - panko breadcrumbs
+  - vegetable oil
+- title: Kaki furai
+  ingredients:
+  - oysters
+  - black peppercorns
+  - all-purpose flour
+  - panko breadcrumbs
+  - vegetable oil
+- title: Japanese-style tartar sauce
+  ingredients:
+  - Kewpie mayonnaise
+  - cornichons
+  - capers
+  - parsley
+- title: Tomato salada
+  ingredients:
+  - onions
+  - fresh ginger
+  - toasted sesame oil
+  - soy sauce
+  - vinegar
+  - black peppercorns
+  - beefsteak tomatoes
+- title: Ebi furai
+  ingredients:
+  - all-purpose flour
+  - panko breadcrumbs
+  - shrimp
+  - vegetable oil
+- title: Potato korokke
+  ingredients:
+  - baking potatoes
+  - Spanish onions
+  - ground pork
+  - soy sauce
+  - black peppercorns
+  - heavy cream
+  - all-purpose flour
+  - panko breadcrumbs
+  - vegetable oil
+  - tonkatsu sauce
+- title: Curry rice horokke
+  ingredients:
+  - onions
+  - carrots
+  - ground beef
+  - curry powder
+  - sake
+  - soy sauce
+  - mirin
+  - Japanese short-grain rice
+  - black peppercorns
+  - all-purpose flour
+  - panko breadcrumbs
+  - vegetable oil
+- title: Kani cream korokke
+  ingredients:
+  - Spanish onions
+  - all-purpose flour
+  - milk
+  - crabmeat
+  - black peppercorns
+  - panko breadcrumbs
+  - vegetable oil
+- title: Tatsuta-age
+  ingredients:
+  - chicken legs
+  - fresh ginger
+  - sake
+  - mirin
+  - katakuriko
+  - vegetable oil
+  - cooked rice
+- title: Ika-age
+  ingredients:
+  - yuzu kosho
+  - soy sauce
+  - sake
+  - fresh ginger
+  - squid
+  - vegetable oil
+  - all-purpose flour
+  - scallions
+- title: Nagoya tebasaki
+  ingredients:
+  - chicken wings
+  - tobanjan
+  - red miso
+  - soy sauce
+  - sake
+  - mirin
+  - vegetable oil
+  - katakuriko
+  - sesame seeds
+- title: Sesame chicken
+  ingredients:
+  - chicken breasts
+  - fresh ginger
+  - sake
+  - soy sauce
+  - mirin
+  - sesame seeds
+  - vegetable oil
+  - cooked rice
+- title: Fish kara-age
+  ingredients:
+  - whole sea bass
+  - shichimi togarashi
+  - daikon radishes
+  - yuzu kosho
+  - vegetable oil
+  - katakuriko
+  - ponzu sauce
+  - lemons
+- title: Ponzu
+  ingredients:
+  - sake
+  - mirin
+  - soy sauce
+  - rice vinegar
+  - kombu
+  - katsuo-bushi
+  - citrus fruit of your choice
+- title: Tempura batter
+  ingredients:
+  - egg yolks
+  - cake flour
+- title: Tempura dipping sauce (Ten tsuyu)
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+- title: Vegetable tempura
+  ingredients:
+  - egg yolks
+  - cake flour
+  - vegetables of your choice
+  - vegetable oil
+  - toasted sesame oil
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+- title: Shrimp tempura
+  ingredients:
+  - shrimp
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - toasted sesame oil
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+- title: Lemon sole tempura
+  ingredients:
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - toasted sesame oil
+  - lemon sole fillets
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+- title: Shrimp-shiitake kaki-age
+  ingredients:
+  - egg yolks
+  - cake flour
+  - shrimp
+  - vegetable oil
+  - toasted sesame oil
+  - shiitake mushrooms
+  - scallions
+  - shiso leaves
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+- title: Onion kaki-age
+  ingredients:
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - toasted sesame oil
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+  - onions
+- title: Burdock-carrot kaki-age
+  ingredients:
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - toasted sesame oil
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+  - burdock root
+  - carrots
+- title: Asparagus kaki-age
+  ingredients:
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - toasted sesame oil
+  - dashi
+  - soy sauce
+  - mirin
+  - daikon radishes
+  - fresh ginger
+  - asparagus
+- title: Osaka-style okonomiyaki
+  ingredients:
+  - all-purpose flour
+  - dashi
+  - cabbage
+  - eggs
+  - toasted sesame oil
+  - pork belly
+  - okonomiyaki sauce
+  - Kewpie mayonnaise
+  - aonori
+  - katsuo-bushi
+- title: Hiroshima-style okonomiyaki
+  ingredients:
+  - all-purpose flour
+  - dashi
+  - mirin
+  - toasted sesame oil
+  - cabbage
+  - moyashi
+  - pork belly
+  - scallions
+  - yakisoba noodles
+  - okonomiyaki sauce
+  - aonori
+  - Japanese Worcestershire sauce
+- title: Takoyaki
+  ingredients:
+  - all-purpose flour
+  - nagaimo yams
+  - dashi
+  - toasted sesame oil
+  - octopus
+  - scallions
+  - okonomiyaki sauce
+  - aonori
+  - bonito
+- title: Yakisoba
+  ingredients:
+  - ramen noodles
+  - toasted sesame oil
+  - Spanish onions
+  - pork belly
+  - Savoy cabbage
+  - moyashi
+  - sake
+  - okonomiyaki sauce
+  - black peppercorns
+  - aonori
+  - Japanese Worcestershire sauce
+- title: Oyakodon
+  ingredients:
+  - onions
+  - chicken legs
+  - mirin
+  - soy sauce
+  - dashi
+  - eggs
+  - Japanese rice
+  - shichimi togarashi
+- title: Gyudon
+  ingredients:
+  - onions
+  - mirin
+  - soy sauce
+  - dashi
+  - Japanese rice
+  - shichimi togarashi
+  - sake
+  - beni shoga
+  - shaved beef steak
+- title: Katsudon
+  ingredients:
+  - mirin
+  - soy sauce
+  - dashi
+  - Japanese rice
+  - sake
+  - Spanish onions
+  - eggs
+  - mitsuba
+  - cabbage
+  - pork shoulder
+  - panko breadcrumbs
+  - vegetable oil
+  - karashi mustard
+  - tonkatsu sauce
+- title: Tendon
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - Japanese rice
+  - egg yolks
+  - cake flour
+  - vegetables of your choice
+  - vegetable oil
+  - toasted sesame oil
+  - shrimp
+  - lemon sole fillets
+  - tenkasu
+- title: Tekka don
+  ingredients:
+  - sashimi grade tuna
+  - soy sauce
+  - mirin
+  - dashi powder
+  - wasabi
+  - Japanese rice
+  - nori
+  - scallions
+  - shiso leaves
+- title: Hokkai-don
+  ingredients:
+  - sushi grade salmon
+  - soy sauce
+  - wasabi
+  - Japanese rice
+  - shiso leaves
+  - ikura
+  - sea urchins
+  - mitsuba
+  - sushi grade scallops
+- title: Tenshin don
+  ingredients:
+  - toasted sesame oil
+  - fresh ginger
+  - scallions
+  - bamboo shoots
+  - shiitake mushrooms
+  - canned crabmeat
+  - eggs
+  - white pepper
+  - chicken stock
+  - soy sauce
+  - Japanese rice vinegar
+  - sake
+  - katakuriko
+  - Japanese rice
+- title: Chuka don
+  ingredients:
+  - pork belly
+  - sake
+  - fresh ginger
+  - white pepper
+  - carrots
+  - chicken stock
+  - soy sauce
+  - toasted sesame oil
+  - bamboo shoots
+  - napa cabbage
+  - shiitake mushrooms
+  - katakuriko
+  - Japanese pepper
+  - Japanese rice
+- title: Mabo don
+  ingredients:
+  - firm tofu
+  - fresh ginger
+  - scallions
+  - chicken stock
+  - sake
+  - soy sauce
+  - red miso
+  - toasted sesame oil
+  - katakuriko
+  - Japanese rice vinegar
+  - ground pork
+  - tobanjan
+  - Japanese rice
+  - sansho powder
+- title: Dashi
+  ingredients:
+  - kombu
+  - bonito
+- title: Kaeshi
+  ingredients:
+  - soy sauce
+  - mirin
+- title: Mori soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - scallions
+- title: Zaru soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - scallions
+  - nori
+  - wasabi
+- title: Zaru soba with tempura
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - scallions
+  - nori
+  - wasabi
+  - egg yolks
+  - cake flour
+  - vegetable oil
+  - shrimp
+  - toasted sesame oil
+  - vegetables of your choice
+  - shichimi togarashi
+- title: Kake soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - Tokyo negi onions
+  - shichimi togarashi
+- title: Tempura soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - Tokyo negi onions
+  - shichimi togarashi
+  - egg yolks
+  - cake flour
+  - toasted sesame oil
+  - vegetables of your choice
+  - shrimp
+- title: Tsukumi soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - Tokyo negi onions
+  - shichimi togarashi
+  - eggs
+  - scallions
+- title: Tanuki soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - soba noodles
+  - Tokyo negi onions
+  - shichimi togarashi
+  - cake flour
+  - egg yolks
+  - toasted sesame oil
+- title: Natto soba
+  ingredients:
+  - dashi
+  - soy sauce
+  - mirin
+  - umeboshi plums
+  - natto
+  - soba noodles
+  - shiso leaves
+  - scallions
+  - nori
+- title: Kamo nanban soba
+  ingredients:
+  - dashi
+  - mirin
+  - soy sauce
+  - duck breasts
+  - Tokyo negi onions
+  - soba noodles
+  - wasabi
+  - shichimi togarashi
+- title: Udon tsuyu
+  ingredients:
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+- title: Kitsune udon
+  ingredients:
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+  - abura-age
+  - soy sauce
+  - udon noodles
+  - scallions
+- title: Niku udon
+  ingredients:
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+  - sake
+  - soy sauce
+  - shaved beef steak
+  - Tokyo negi onions
+  - shichimi togarashi
+  - udon noodles
+- title: Miso nikomi udon
+  ingredients:
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+  - udon noodles
+  - red miso
+  - pork shoulder
+  - kamaboko
+  - napa cabbage
+  - shiitake mushrooms
+  - enoki mushrooms
+  - Tokyo negi onions
+  - eggs
+- title: Nabeyaki udon
+  ingredients:
+  - udon noodles
+  - abura-age
+  - kamaboko
+  - chicken legs
+  - shiitake mushrooms
+  - Tokyo negi onions
+  - spinach
+  - eggs
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+- title: Udon-suki
+  ingredients:
+  - dashi
+  - mirin
+  - usukuchi soy sauce
+  - chicken legs
+  - udon noodles
+  - napa cabbage
+  - firm tofu
+  - littleneck clams
+  - shrimp
+  - sea scallops
+  - red snapper fillets
+  - Tokyo negi onions
+  - enoki mushrooms
+  - shimeji mushrooms
+  - carrots
+  - scallions
+  - shichimi togarashi
+- title: Curry udon
+  ingredients:
+  - udon noodles
+  - sesame oil
+  - pork belly
+  - Spanish onions
+  - curry powder
+  - dashi
+  - mirin
+  - soy sauce
+  - katakuriko
+  - scallions
+- title: Yaki udon
+  ingredients:
+  - udon noodles
+  - sesame oil
+  - Spanish onions
+  - pork belly
+  - napa cabbage
+  - shiitake mushrooms
+  - sake
+  - soy sauce
+  - black peppercorns
+  - bonito
+- title: Cold udon with fresh tomatoes
+  ingredients:
+  - udon noodles
+  - beefsteak tomatoes
+  - soy sauce
+  - shiso leaves
+- title: Saikoro steak
+  ingredients:
+  - sirloin steaks
+  - garlic
+  - scallions
+  - sake
+  - soy sauce
+- title: Ebi chili
+  ingredients:
+  - scallions
+  - fresh ginger
+  - chicken stock
+  - sake
+  - tomato ketchup
+  - white pepper
+  - shrimp
+  - toasted sesame oil
+  - katakuriko
+  - tobanjan
+  - vinegar
+  - iceberg lettuce
+  - cooked rice
+- title: Reba nira
+  ingredients:
+  - chicken livers
+  - fresh ginger
+  - sake
+  - soy sauce
+  - katakuriko
+  - toasted sesame oil
+  - tobanjan
+  - soybean sprouts
+  - oyster sauce
+  - cooked rice
+  - nira
+- title: Ton shoga-yaki
+  ingredients:
+  - soy sauce
+  - sake
+  - fresh ginger
+  - black peppercorns
+  - toasted sesame oil
+  - Spanish onions
+  - iceberg lettuce
+  - cooked rice
+  - shaved pork shoulder
+- title: Mottsu miso itame
+  ingredients:
+  - tripe
+  - red miso
+  - sake
+  - mirin
+  - tobanjan
+  - toasted sesame oil
+  - Spanish onions
+  - scallions
+- title: Japanese-style bulgogi
+  ingredients:
+  - soy sauce
+  - sake
+  - mirin
+  - tobanjan
+  - black peppercorns
+  - sesame oil
+  - shaved beef steak
+  - Spanish onions
+  - carrots
+  - green bell peppers
+  - shiitake mushrooms
+  - sesame seeds
+  - cooked rice
+- title: Genghis Khan
+  ingredients:
+  - apples
+  - Spanish onions
+  - fresh ginger
+  - sake
+  - soy sauce
+  - red miso
+  - lamb shoulder
+  - toasted sesame oil
+  - green cabbage
+  - soybean sprouts
+  - oyster sauce
+- title: Classic pork chahan
+  ingredients:
+  - sesame oil
+  - eggs
+  - pork belly
+  - cooked rice
+  - oyster sauce
+  - soy sauce
+- title: Crab fried rice (Hani ankake)
+  ingredients:
+  - toasted sesame oil
+  - eggs
+  - scallions
+  - cooked rice
+  - soy sauce
+  - black peppercorns
+  - crabmeat
+  - chicken stock
+  - iceberg lettuce
+  - fresh ginger
+  - katakuriko
+- title: Chicken curry chahan
+  ingredients:
+  - chicken legs
+  - Spanish onions
+  - carrots
+  - celery
+  - curry powder
+  - sake
+  - cooked rice
+  - soy sauce
+  - Worcestershire sauce
+  - black peppercorns
+  - parsley
+- title: Ebi pilaf
+  ingredients:
+  - Spanish onions
+  - carrots
+  - shrimp
+  - green bell peppers
+  - chicken stock
+  - cooked rice
+- title: White sauce
+  ingredients:
+  - milk
+  - store-cupboard ingredients
+- title: Ebi gratin
+  ingredients:
+  - elbow macaroni pasta
+  - Spanish onions
+  - shrimp
+  - milk
+  - "Gruy\xE8re cheese"
+  - Parmesan cheese
+- title: Potato salada
+  ingredients:
+  - baking potatoes
+  - cucumbers
+  - carrots
+  - Spanish onions
+  - vinegar
+  - Kewpie mayonnaise
+  - black peppercorns
+- title: Macaroni salada
+  ingredients:
+  - elbow macaroni pasta
+  - cucumbers
+  - carrots
+  - ham
+  - vinegar
+  - Kewpie mayonnaise
+  - black peppercorns
+- title: Lettuce with ginger-carrot dressing
+  ingredients:
+  - carrots
+  - Spanish onions
+  - fresh ginger
+  - Japanese rice vinegar
+  - soy sauce
+  - vegetable oil
+  - iceberg lettuce
+- title: Doria
+  ingredients:
+  - Spanish onions
+  - chicken breasts
+  - button mushrooms
+  - milk
+  - cooked rice
+  - "Gruy\xE8re cheese"
+  - Parmesan cheese
+- title: Omu rice
+  ingredients:
+  - chicken stock
+  - tomato ketchup
+  - chicken breasts
+  - Spanish onions
+  - carrots
+  - black peppercorns
+  - cooked rice
+  - peas
+  - eggs
+- title: Yoshoku steak
+  ingredients:
+  - sirloin steaks
+  - black peppercorns
+  - Spanish onions
+  - mirin
+  - soy sauce
+  - rice vinegar
+  - parsley
+- title: Hamburg
+  ingredients:
+  - Spanish onions
+  - panko breadcrumbs
+  - ground pork
+  - ground beef
+  - soy sauce
+  - sake
+  - tomato ketchup
+  - Worcester sauce
+  - cooked rice
+- title: "Pork saut\xE9"
+  ingredients:
+  - pork loin fillets
+  - black peppercorns
+  - sake
+  - lemons
+  - soy sauce
+- title: '"Napolitan" spaghetti'
+  ingredients:
+  - spaghetti pasta
+  - onions
+  - green peppers
+  - button mushrooms
+  - smoked sausages
+  - paprika
+  - sake
+  - tomato ketchup
+  - Parmesan cheese
+- title: Mantaiko spaghetti
+  ingredients:
+  - spaghetti pasta
+  - mentaiko
+  - soy sauce
+  - nori
+- title: Pasta with miso meat sauce
+  ingredients:
+  - chicken stock
+  - tobanjan
+  - mirin
+  - red miso
+  - hatcho miso
+  - Japanese rice vinegar
+  - spaghetti pasta
+  - toasted sesame oil
+  - fresh ginger
+  - scallions
+  - ground beef
+- title: Uni pasta
+  ingredients:
+  - shiitake mushrooms
+  - sake
+  - soy sauce
+  - uni
+  - spaghetti pasta
+  - scallions
+  - black peppercorns
+- title: Shiso pasta
+  ingredients:
+  - spaghetti pasta
+  - shiso leaves
+  - sake
+  - mirin
+  - soy sauce
+  - citrus fruit of your choice
+  - rice vinegar
+  - kombu
+  - bonito flakes
+  - black peppercorns
+- title: Mushroom wafu pasta
+  ingredients:
+  - spaghetti pasta
+  - dashi
+  - soy sauce
+  - mirin
+  - shiitake mushrooms
+  - shimeji mushrooms
+  - enoki mushrooms
+  - katakuriko
+  - scallions
+  - shichimi togarashi
+- title: Asari pasta
+  ingredients:
+  - spaghetti pasta
+  - littleneck clams
+  - sake
+  - yuzu kosho
+  - soy sauce
+  - mitsuba
+wishlist: true
