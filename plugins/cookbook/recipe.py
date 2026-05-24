@@ -625,7 +625,7 @@ class RecipePostProcessor:
         # (.*?)      Group 1: The 'Key' (Recipe Title) - non-greedy
         # (?:\|(.*?))? Group 2: Optional 'Display Text' (after |)
         # \]\]       Match closing ]]
-        pattern = re.compile(r"\[\[(.*?)(?:\|(.*?))?\]\]")
+        pattern = re.compile(r"\[\[(.*?)(?:\|(.*?))?\]\](?![^<]*>)")
 
         def replace_match(match):
             key = match.group(1).strip()
@@ -647,6 +647,7 @@ class RecipePostProcessor:
         recipe.method_html = pattern.sub(replace_match, recipe.method_html)
         recipe.intro_html = pattern.sub(replace_match, recipe.intro_html)
         recipe.notes_html = pattern.sub(replace_match, recipe.notes_html)
+        recipe.footnotes_html = pattern.sub(replace_match, recipe.footnotes_html)
 
     def related_recipes(self, recipe, limit=3):
         """
