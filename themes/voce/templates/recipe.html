@@ -209,10 +209,12 @@
                         {% if recipe.image %}
                         <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
                         {% else %}
-                            {% if recipe.category in ["Pastry and dessert", "ice cream"] %}
+                            {% if recipe.category in ["Ice cream"] %}
+                        <img src="/images/recipes/default_recipe_icecream.png" alt="{{ recipe.title }}">
+                            {% elif "dessert" in recipe.tags %}
                         <img src="/images/recipes/default_recipe_dessert.png" alt="{{ recipe.title }}">
                             {% else %}
-                        <img src="/images/recipes/default_recipe2.png" alt="{{ recipe.title }}">
+                        <img src="/images/recipes/default_recipe_savoury.png" alt="{{ recipe.title }}">
                             {% endif %}
                         {% endif %}
                     </div>

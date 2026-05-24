@@ -685,11 +685,15 @@ class RecipePostProcessor:
         # Stopwords specifically to ignore measurements and prep instructions
         prep_ignore = {'cup', 'cups', 'tbsp', 'tsp', 'teaspoon', 'tablespoon', 'chopped',
                        'diced', 'minced', 'sliced', 'peeled', 'fresh', 'ground', 'pinch',
-                       'ounce', 'gram', 'pound', 'taste', 'cloves', 'whole'}
+                       'ounce', 'gram', 'pound', 'taste', 'cloves', 'whole', 'salt', 'pepper',
+                       'water', 'finely', 'mince', 'black', 'grated', 'optional', 'also', 'small', 'toasted', 'use'}
 
         # Combine all ingredients into one string, then extract the core words
         raw_ingredients = " ".join(getattr(recipe, "ingredients_list", []))
         current_ing_words = self.extract_keywords(raw_ingredients, extra_ignore=prep_ignore)
+
+        links = set(getattr(recipe, "linked_recipes", []))
+        components = set(getattr(recipe, "components", []))
 
         scored_recipes = []
 
@@ -700,27 +704,36 @@ class RecipePostProcessor:
 
             score = 0
 
-            # CATEGORY MATCH (+1 points)
+            # CATEGORY MATCH
             if current_cat and r.category == current_cat:
                 score += 2
 
-            # TAG OVERLAP (+1 points per tag)
+            # TAG OVERLAP
             other_tags = set(getattr(r, "tags", []))
             score += len(current_tags.intersection(other_tags)) * 1
 
-            # TITLE OVERLAP (+3 points per word)
+            # TITLE OVERLAP
             other_title_words = self.extract_keywords(r.title)
             title_matches = len(current_title_words.intersection(other_title_words))
             score += (title_matches * 3)
 
-            # INGREDIENT OVERLAP (+1 point per word)
+            # link or component overlap
+            other_links = set(getattr(r, "linked_recipes", []))
+            if (recipe in other_links) or (r in links):
+                score += 4
+
+            other_components = set(getattr(r, "components", []))
+            if (recipe in other_components) or (r in components):
+                score += 4
+
+            # INGREDIENT OVERLAP (+0.4 point per word)
             other_raw_ingredients = " ".join(getattr(r, "ingredients_list", []))
             other_ing_words = self.extract_keywords(other_raw_ingredients, extra_ignore=prep_ignore)
             ing_matches = len(current_ing_words.intersection(other_ing_words))
-            score += (ing_matches * 0.4) # 0.3 point per shared ingredient keyword
+            score += (ing_matches * 0.5)
 
             # Require a minimum score to be considered "related" at all (e.g., > 2)
-            if score >= 4:
+            if score >= 3:
                 scored_recipes.append((score, r))
 
         # Sort primarily by score descending.

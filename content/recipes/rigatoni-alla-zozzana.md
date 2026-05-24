@@ -15,7 +15,7 @@ My version is a hybrid of the [Serious Eats](https://www.seriouseats.com/pasta-a
 * 3 large egg yolks
 * 60g Pecorino Romano (grated)
 * 1 tbsp black peppercorns (toasted and ground)
-* 500g beef or turkey sausage
+* 500g beef or [[turkey sausage]]
 * 1 small onion (finely diced)
 * Pinch red chilli flakes (optional)
 * 1 tbsp tomato paste (optional)

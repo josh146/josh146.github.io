@@ -63,7 +63,8 @@ save_as: recipe-graph.html
                 hover: true,
                 zoomView: true,
                 dragView: true,
-            }
+            },
+            // layout: { hierarchical: { direction: 'UD' } }
         };
 
         // 4. Initialize the graph

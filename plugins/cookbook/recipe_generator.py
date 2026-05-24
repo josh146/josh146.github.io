@@ -226,6 +226,36 @@ def generate_graph_json(generators):
             "url": f"/recipes/{recipe.slug}/"
         })
 
+        # 3. Add Explicit Edges (wikilink)
+        if hasattr(recipe, 'linked_recipes'):
+            for link in recipe.linked_recipes:
+                edge_sig = tuple(sorted([recipe.slug, link.slug]))
+                if edge_sig not in seen_edges:
+                    seen_edges.add(edge_sig)
+                    edges.append({
+                        "from": recipe.slug,
+                        "to": link.slug,
+                        "arrows": "to",          # Directional arrow pointing to the component
+                        "color": "#a6e22e",      # Monokai bright green
+                        "width": 2,              # Make component links visually thicker
+                        "title": "Component"
+                    })
+
+        # 3. Add Explicit Edges (Components)
+        if hasattr(recipe, 'components'):
+            for comp in recipe.components:
+                edge_sig = tuple(sorted([recipe.slug, comp.slug]))
+                if edge_sig not in seen_edges:
+                    seen_edges.add(edge_sig)
+                    edges.append({
+                        "from": recipe.slug,
+                        "to": comp.slug,
+                        "arrows": "to",          # Directional arrow pointing to the component
+                        "color": "#a6e22e",      # Monokai bright green
+                        "width": 2,              # Make component links visually thicker
+                        "title": "Component"
+                    })
+
         # 2. Add Implicit Edges (Related Recipes)
         if hasattr(recipe, 'related'):
             for rel in recipe.related:
@@ -240,30 +270,6 @@ def generate_graph_json(generators):
                         "color": "#75715e",      # Monokai muted grey
                         "title": "Related"       # Hover tooltip
                     })
-
-        # 3. Add Explicit Edges (wikilink)
-        if hasattr(recipe, 'linked_recipes'):
-            for link in recipe.linked_recipes:
-                edges.append({
-                    "from": recipe.slug,
-                    "to": link.slug,
-                    "arrows": "to",          # Directional arrow pointing to the component
-                    "color": "#a6e22e",      # Monokai bright green
-                    "width": 2,              # Make component links visually thicker
-                    "title": "Component"
-                })
-
-        # 3. Add Explicit Edges (Components)
-        if hasattr(recipe, 'components'):
-            for comp in recipe.components:
-                edges.append({
-                    "from": recipe.slug,
-                    "to": comp.slug,
-                    "arrows": "to",          # Directional arrow pointing to the component
-                    "color": "#a6e22e",      # Monokai bright green
-                    "width": 2,              # Make component links visually thicker
-                    "title": "Component"
-                })
 
     graph_data = {"nodes": nodes, "edges": edges}
 
