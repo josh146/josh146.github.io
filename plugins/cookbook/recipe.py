@@ -627,12 +627,15 @@ class RecipePostProcessor:
         # \]\]       Match closing ]]
         pattern = re.compile(r"\[\[(.*?)(?:\|(.*?))?\]\](?![^<]*>)")
 
+        recipe.linked_recipes = []
+
         def replace_match(match):
             key = match.group(1).strip()
             display_text = match.group(2).strip() if match.group(2) else key
 
             # Lookup URL using lowercase key
             linked_recipe = self.recipes_index.get(fix_string(key.lower()))
+            recipe.linked_recipes.append(linked_recipe)
 
             if linked_recipe is not None:
                 # Success: Return the styled link
@@ -649,16 +652,44 @@ class RecipePostProcessor:
         recipe.notes_html = pattern.sub(replace_match, recipe.notes_html)
         recipe.footnotes_html = pattern.sub(replace_match, recipe.footnotes_html)
 
+    def extract_keywords(self, text, extra_ignore=None):
+            """
+            Helper: Extracts meaningful lowercase words from a string.
+            Automatically ignores words under 3 characters (strips '1', 'a', 'of', 'to').
+            """
+            if not text:
+                return set()
+
+            # Base stopwords for titles and general text
+            ignore_words = {'the', 'and', 'with', 'recipe', 'how', 'make', 'easy', 'best', 'for', 'from'}
+            if extra_ignore:
+                ignore_words.update(extra_ignore)
+
+            # Extract words that are 3 letters or longer
+            words = set(re.findall(r'\b[a-z]{3,}\b', text.lower()))
+
+            return words - ignore_words
+
     def related_recipes(self, recipe, limit=3):
         """
-        Finds related recipes based on weighted scoring of Title, Category, and Tags.
-        Weights: Title Match (3), Category Match (2), Tag Match (1)
+        Finds related recipes based on weighted scoring of Title, Category, Tags, and Ingredients.
         """
+        # 1. Base Setup
         current_tags = set(getattr(recipe, "tags", []))
+        current_cat = getattr(recipe, "category", None)
 
-        # Title Keywords (Clean up common words)
-        ignore_words = {'the', 'a', 'an', 'and', 'with', 'recipe', 'how', 'to', 'make', 'easy', 'best'}
-        current_title_words = set(re.findall(r'\w+', recipe.title.lower())) - ignore_words
+        # 2. Extract Title Words
+        current_title_words = self.extract_keywords(recipe.title)
+
+        # 3. Extract Ingredient Words
+        # Stopwords specifically to ignore measurements and prep instructions
+        prep_ignore = {'cup', 'cups', 'tbsp', 'tsp', 'teaspoon', 'tablespoon', 'chopped',
+                       'diced', 'minced', 'sliced', 'peeled', 'fresh', 'ground', 'pinch',
+                       'ounce', 'gram', 'pound', 'taste', 'cloves', 'whole'}
+
+        # Combine all ingredients into one string, then extract the core words
+        raw_ingredients = " ".join(getattr(recipe, "ingredients_list", []))
+        current_ing_words = self.extract_keywords(raw_ingredients, extra_ignore=prep_ignore)
 
         scored_recipes = []
 
@@ -669,23 +700,31 @@ class RecipePostProcessor:
 
             score = 0
 
-            # category match (+2 points)
-            if r.category == recipe.category:
+            # CATEGORY MATCH (+1 points)
+            if current_cat and r.category == current_cat:
                 score += 2
 
-            # tag overlap (+1 point each)
+            # TAG OVERLAP (+1 points per tag)
             other_tags = set(getattr(r, "tags", []))
-            score += len(current_tags.intersection(other_tags))
+            score += len(current_tags.intersection(other_tags)) * 1
 
-            # title word overlap (+3 points each)
-            other_title_words = set(re.findall(r'\w+', r.title.lower())) - ignore_words
+            # TITLE OVERLAP (+3 points per word)
+            other_title_words = self.extract_keywords(r.title)
             title_matches = len(current_title_words.intersection(other_title_words))
             score += (title_matches * 3)
 
-            if score > 0:
+            # INGREDIENT OVERLAP (+1 point per word)
+            other_raw_ingredients = " ".join(getattr(r, "ingredients_list", []))
+            other_ing_words = self.extract_keywords(other_raw_ingredients, extra_ignore=prep_ignore)
+            ing_matches = len(current_ing_words.intersection(other_ing_words))
+            score += (ing_matches * 0.4) # 0.3 point per shared ingredient keyword
+
+            # Require a minimum score to be considered "related" at all (e.g., > 2)
+            if score >= 4:
                 scored_recipes.append((score, r))
 
-        # Sort by score descending
-        scored_recipes.sort(key=lambda x: x[0], reverse=True)
+        # Sort primarily by score descending.
+        # (Bonus: secondary sort by title alphabetically for consistent results on ties)
+        scored_recipes.sort(key=lambda x: (x[0], x[1].title), reverse=True)
 
         return [item[1] for item in scored_recipes[:limit]]

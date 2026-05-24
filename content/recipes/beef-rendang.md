@@ -5,6 +5,7 @@ Slug: beef-rendang
 Time: 1.5 hours (pressure cooker) or 3-4 hours (slow cooker)
 Servings: 3-4 servings
 Image: /images/recipes/rendang.jpg
+Tags: curry
 
 A traditional Singaporean rendang is cooked down until there is almost no sauce left -- i.e., it is a 'dry' curry or stew. Thickened with toasted coconut and flavoured with chilli, caramelized coconut milk, lemongrass, whole spices, and lime leaves, rendang is an explosion of flavour.
 

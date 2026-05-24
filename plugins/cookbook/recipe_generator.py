@@ -205,6 +205,73 @@ def generate_search_index(generators):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(search_data, f)
 
+def generate_graph_json(generators):
+    article_generator = next((g for g in generators if isinstance(g, ArticlesGenerator)), None)
+    recipe_generator = next((g for g in generators if isinstance(g, RecipeGenerator)), None)
+
+    nodes = []
+    edges = []
+
+    # We use a set to keep track of edges so we don't draw duplicates
+    # (e.g., if A is related to B, and B is related to A)
+    seen_edges = set()
+
+    for recipe in recipe_generator.recipes:
+        # 1. Add the Node
+        # We assign a 'group' (category) so Vis.js can auto-color them!
+        nodes.append({
+            "id": recipe.slug,
+            "label": recipe.title,
+            "group": str(getattr(recipe, 'category', 'Uncategorized')),
+            "url": f"/recipes/{recipe.slug}/"
+        })
+
+        # 2. Add Implicit Edges (Related Recipes)
+        if hasattr(recipe, 'related'):
+            for rel in recipe.related:
+                # Create a unique edge signature to prevent duplicates
+                edge_sig = tuple(sorted([recipe.slug, rel.slug]))
+                if edge_sig not in seen_edges:
+                    seen_edges.add(edge_sig)
+                    edges.append({
+                        "from": recipe.slug,
+                        "to": rel.slug,
+                        "dashes": True,          # Dashed lines for implicit 'related' links
+                        "color": "#75715e",      # Monokai muted grey
+                        "title": "Related"       # Hover tooltip
+                    })
+
+        # 3. Add Explicit Edges (wikilink)
+        if hasattr(recipe, 'linked_recipes'):
+            for link in recipe.linked_recipes:
+                edges.append({
+                    "from": recipe.slug,
+                    "to": link.slug,
+                    "arrows": "to",          # Directional arrow pointing to the component
+                    "color": "#a6e22e",      # Monokai bright green
+                    "width": 2,              # Make component links visually thicker
+                    "title": "Component"
+                })
+
+        # 3. Add Explicit Edges (Components)
+        if hasattr(recipe, 'components'):
+            for comp in recipe.components:
+                edges.append({
+                    "from": recipe.slug,
+                    "to": comp.slug,
+                    "arrows": "to",          # Directional arrow pointing to the component
+                    "color": "#a6e22e",      # Monokai bright green
+                    "width": 2,              # Make component links visually thicker
+                    "title": "Component"
+                })
+
+    graph_data = {"nodes": nodes, "edges": edges}
+
+    output_path = os.path.join(article_generator.output_path, "graph.json")
+    os.makedirs(article_generator.output_path, exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(graph_data, f)
+
 def expose_cookbooks_to_jinja(generator):
     """Exposes the combined cookbook data to Jinja templates."""
     content_path = generator.settings.get('PATH', 'content')
@@ -224,3 +291,4 @@ def register():
     signals.page_generator_init.connect(expose_cookbooks_to_jinja)
     signals.get_generators.connect(get_generators)
     signals.all_generators_finalized.connect(generate_search_index)
+    signals.all_generators_finalized.connect(generate_graph_json)

@@ -5,6 +5,7 @@ Slug: butter-chicken
 Time: 3 hours
 Servings: 6 servings
 Image: /images/recipes/butter-chicken.jpg
+Tags: curry
 
 This butter chicken is inspired by Goila's famous butter chicken (as seen on Season 10 of [MasterChef Australia](https://www.youtube.com/watch?v=vtmvlMHcKPY)) and Marion Gasby's simple (yet classic!) [butter chicken recipe](https://www.marionskitchen.com/classic-butter-chicken/).
 

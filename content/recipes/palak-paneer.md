@@ -5,7 +5,7 @@ Slug: palak-paneer
 Time: 3 hours
 Servings: 6 servings
 Image: /images/recipes/palak-paneer.jpg
-Tags: saag
+Tags: saag, curry
 
 A delicious, homemade, palak paneer based on the [recipe by Marion Gasby](https://www.marionskitchen.com/palak-paneer/). This recipe makes a lot of sauce compared to the amount of paneer --- I like to grill chicken using my [[butter chicken]] marinade, and allow it to cook through in the leftover sauce to make chicken saag.
 
