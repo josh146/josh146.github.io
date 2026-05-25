@@ -1,5 +1,5 @@
-Title: Wholewheat sourdough sandwich loaf
-Slug: wholewheat-sourdough-sandwich-loaf
+Title: Wholemeal sourdough sandwich loaf
+Slug: wholemeal-sourdough-sandwich-loaf
 Date: 2026-01-04
 Category: Bread
 Time: 8 hours
@@ -20,7 +20,7 @@ sourdough starter discard. This loaf produces bread perfect for toast, sandwiche
 
 * 190g tangzhong
 * 295g bread flour
-* 80g whole wheat flour
+* 80g wholemeal flour
 * 32g olive oil
 * 20g honey
 * 185g water
@@ -72,7 +72,7 @@ into a taut ball. Leave to relax for about 20-30 minutes.
 1. Turn the dough over, and fold the top down to the middle, followed by folding the left- and
 right-hand sides into the middle. You should have an upside-down open envelope. Start folding the
 bottom up repeatedly, gently rolling it into a long tube (making sure to generate lots of tension
-in the dough). Transfer to the pullman pan, seam side up.
+in the dough). Transfer to the pullman pan, seam side down.
 
 1. Cover the pan with plastic, and leave to proof in a warm spot for 2.5 hours. When using my
 proofing box, I like to set the bulk fermentation temperature to 25ºC.

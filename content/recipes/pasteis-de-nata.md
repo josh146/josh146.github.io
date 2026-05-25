@@ -13,11 +13,11 @@ Standard pastéis de nata are baked in large moulds at 400ºC --- by using small
 
 ### Dough
 
-For the dough, anything close to a 2:1:1 ratio of flour, water, and butter should work fine, as in a standard [[Pâte feuilletée (puff pastry)]] recipe.
+For the dough, anything close to a 2:1:1 ratio of flour, water, and butter should work fine, as in a standard [[Pâte feuilletée (puff pastry)]] recipe[ref][Leite's Culinaria](https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html) uses a higher hydration dough, 75% (in this recipe, about 200ml of cold water), with a higher percentage of butter, 80% (here about 225g).[/ref].
 
 * 270g plain flour
 * 1/4 tsp salt
-* 150ml cold water[ref][Leite's Culinaria](https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html) uses a higher hydration dough, 75% (in this recipe, about 200ml of cold water), with a higher percentage of butter, 80% (here about 225g).[/ref]
+* 150ml cold water
 * 150g unsalted butter (room temperature, stirred until smooth)
 
 ### Custard
