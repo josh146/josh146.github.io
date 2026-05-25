@@ -1,5 +1,5 @@
-Title: Pain de mie
-Slug: pain-de-mie
+Title: Sourdough pain de mie
+Slug: sourdough-pain-de-mie
 Date: 2026-05-24
 Category: Bread
 Time: 8 hours
