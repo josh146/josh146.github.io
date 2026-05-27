@@ -5,11 +5,11 @@ Category: Bread
 Time: 8 hours
 Servings: 1 loaf
 Sticky: true
-Timeline: Make tangzhong | 15m | Active; Mix | 15m | Active; Bulk fermentation | 3h 30m | Wait; Shape | 30m | Wait; Proof | 2h 30m | Wait; Bake | 1h | Active;
+Timeline: Make tangzhong | 45m | Active; Mix | 15m | Active; Bulk fermentation | 3h 30m | Wait; Shape | 30m | Active; Proof | 2h 30m | Wait; Bake | 1h | Active;
 Image: /images/recipes/sourdough-loaf3.jpg
 
 An easy sourdough sandwich loaf recipe that is minimally enriched, and doable in one day from
-sourdough starter discard. This loaf produces bread perfect for toast, sandwiches, and more.
+sourdough starter discard. This loaf produces bread perfect for toast, sandwiches, and more. Originally adapted (and modified over the years) from [The Perfect Loaf](https://www.theperfectloaf.com/sourdough-sandwich-bread-with-pre-cooked-flour/).
 
 <div class="recipe-image">
 <img src="/images/recipes/sourdough-loaf.jpg">

@@ -8,8 +8,8 @@ Sticky: true
 Timeline: Mix 1 | 10m | Active; Autolyse | 30m | Wait; Mix | 20m | Active; Bulk fermentation | 4h | Wait; Shape | 30m | Active; Proof | 3h | Wait; Bake | 1h | Active;
 Image: /images/recipes/pain-de-mie.jpg
 
-A delicious white sandwich loaf that is perfect for sandwiches and toast. Want to reduce the amount
-of enrichment? Try my [[Wholemeal sourdough sandwich loaf]], which uses tangzhong to get the same
+A delicious white sandwich loaf that is perfect for sandwiches and toast, originally adapted (and modified over the years) from [The Perfect Loaf](https://www.theperfectloaf.com/pain-de-mie/). Want to reduce the amount
+of enrichment? Bake a [[Wholemeal sourdough sandwich loaf]], which uses tangzhong to get the same
 level of fluffiness without the butter.
 
 <div class="recipe-image">
