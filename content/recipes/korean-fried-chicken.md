@@ -1,6 +1,6 @@
 Title: Korean (buttermilk) fried chicken sandwiches
 Date: 2026-05-11
-Category: Pastry
+Category: Korean
 Slug: korean-buttermilk-fried-chicken-sandwiches
 Time: 3 hours
 Servings: 4 servings
