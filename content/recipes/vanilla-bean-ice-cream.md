@@ -4,7 +4,7 @@ Category: Ice cream
 Slug: vanilla-bean-ice-cream
 Time: 1 hour
 Servings: 1L 
-Sticky: True
+Sticky: true
 Image: /images/recipes/vanilla-ice-cream.png
 
 A rich, custard-base vanilla ice cream. Feel free to swap out the vanilla pod for other aromatics or
