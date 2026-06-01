@@ -1,0 +1,2073 @@
+book: 'Cooking Meat'
+author: Peter Sanagan
+cover: https://f8383f377ae0dbf72580-915d22ed3472915dfddff20d58b567d0.ssl.cf1.rackcdn.com/cooking-meat-a-butchers-guide-195667l4.jpg
+recipes:
+- title: Trussing
+  page: 22
+  ingredients:
+  - whole chicken
+- title: Ten-cut
+  page: 23
+  ingredients:
+  - whole chicken
+- title: Spatchcocking
+  page: 24
+  ingredients:
+  - whole chicken
+- title: Deboning chicken legs
+  page: 25
+  ingredients:
+  - chicken legs
+- title: Carving whole poultry
+  page: 26
+  ingredients:
+  - cooked poultry of your choice
+- title: Tying a roast 101
+  page: 27
+  ingredients:
+  - meat of your choice
+- title: Braising
+  page: 36
+  ingredients:
+  - meat of your choice
+  - herbs of your choice
+  - wine
+  - aromatics of your choice
+- title: Using herbs and spices in braises
+  page: 36
+  ingredients:
+  - thyme
+  - parsley
+  - rosemary
+  - bay leaves
+- title: Grilling
+  page: 37
+  ingredients:
+  - meat of your choice
+  - oil
+- title: Pan-frying
+  page: 37
+  ingredients:
+  - meat of your choice
+  - oil
+  - wine
+  - butter
+- title: "Saut\xE9ing"
+  page: 38
+  ingredients:
+  - meat of your choice
+  - fat of your choice
+- title: Roasting
+  page: 38
+  ingredients:
+  - meat of your choice
+  - oil
+- title: Poaching
+  page: 38
+  ingredients:
+  - meat of your choice
+  - stock of your choice
+  - aromatics of your choice
+- title: Smoking
+  page: 39
+  ingredients:
+  - meat of your choice
+  - sugar
+  - salt
+  - wood chips
+- title: Pressure cooking
+  page: 39
+  ingredients:
+  - meat of your choice
+  - oil
+  - liquid of your choice
+- title: Sous vide
+  page: 40
+  ingredients:
+  - meat of your choice
+  - aromatics of your choice
+- title: Simple roast chicken
+  page: 58
+  ingredients:
+  - whole chicken
+  - lemon
+  - garlic
+  - bay leaves
+  - thyme
+  - butter
+- title: Buttery roast chicken
+  page: 59
+  ingredients:
+  - whole chicken
+  - lemon
+  - garlic
+  - bay leaves
+  - thyme
+  - butter
+  - shallots
+  - sage
+  - rosemary
+  - white wine
+  - all-purpose flour
+  - chicken stock
+- title: Lemon and oregano-roasted chicken
+  page: 61
+  ingredients:
+  - whole chicken
+  - lemon
+  - garlic
+  - olive oil
+  - nutmeg
+  - dried oregano
+  - chili flakes
+- title: Beer-roasted chicken
+  page: 82
+  ingredients:
+  - whole chicken
+  - vegetable oil
+  - beer
+  - sweet paprika
+  - onion powder
+  - garlic powder
+  - dried rosemary
+  - dried thyme
+  - kosher salt
+- title: Red wine-roasted chicken
+  page: 64
+  ingredients:
+  - whole chicken
+  - vegetable oil
+  - lemon
+  - butter
+  - garlic
+  - onion
+  - carrot
+  - celery
+  - thyme
+  - bay leaves
+  - dry red wine
+  - chicken stock
+- title: Simple poached chicken
+  page: 66
+  ingredients:
+  - whole chicken
+  - onions
+  - carrots
+  - turnips
+  - celery
+  - leek
+  - garlic
+  - peppercorns
+  - butter
+  - cabbage
+  - shiitake mushrooms
+  - stale French bread
+  - mayonnaise
+  - green onions
+  - lemon
+  - thyme
+  - Italian parsley
+  - rosemary
+  - bay leaves
+- title: Pan-roasted half chicken with Madeira, rosemary, and lemon
+  page: 69
+  ingredients:
+  - whole chicken
+  - olive oil
+  - rosemary
+  - Madeira wine
+  - lemon
+  - chicken stock
+  - butter
+- title: Fried chicken
+  page: 71
+  ingredients:
+  - buttermilk
+  - Frank's Red Hot Sauce
+  - whole chicken
+  - vegetable oil
+  - all-purpose flour
+  - baking powder
+  - paprika
+  - onion powder
+- title: Chicken Parmigiana
+  page: 72
+  ingredients:
+  - olive oil
+  - onion
+  - garlic
+  - passata
+  - basil
+  - boneless skinless chicken breasts
+  - all-purpose flour
+  - eggs
+  - bread crumbs
+  - dried oregano
+  - Parmigiano Reggiano cheese
+  - fresh mozzarella cheese
+- title: "Fake \u2018n\u2019 bake chicken fingers"
+  page: 74
+  ingredients:
+  - vegetable oil
+  - garlic
+  - boneless skinless chicken breasts
+  - bread crumbs
+  - green onions
+  - hot sauce
+- title: Chicken adobo
+  page: 75
+  ingredients:
+  - chicken legs
+  - garlic
+  - bay leaves
+  - white vinegar
+  - Japanese soy sauce
+  - cracked black pepper
+- title: Jerk chicken
+  page: 76
+  ingredients:
+  - garlic
+  - Scotch bonnet pepper
+  - ginger
+  - green onions
+  - soy sauce
+  - vegetable oil
+  - brown sugar
+  - ground allspice
+  - thyme
+  - dried thyme
+  - ground cinnamon
+  - ground nutmeg
+  - chicken legs
+- title: "\u201CKapow\u201D chicken legs"
+  page: 79
+  ingredients:
+  - chicken legs
+  - Japanese soy sauce
+  - Chinese red rice wine vinegar
+  - garlic
+  - green onions
+  - brown sugar
+  - bay leaves
+- title: Coq au vin
+  page: 80
+  ingredients:
+  - all-purpose flour
+  - chicken legs
+  - butter
+  - pearl onions
+  - button mushrooms
+  - slab bacon
+  - brandy
+  - red wine
+  - Italian parsley
+  - black peppercorns
+  - whole cloves
+  - thyme
+  - rosemary
+  - bay leaves
+- title: Crispy baked chicken wings
+  page: 83
+  ingredients:
+  - vegetable oil
+  - chicken wings
+  - baking powder
+  - butter
+  - Frank's Red Hot Sauce
+- title: Ballotines of chicken with apple and sage
+  page: 84
+  ingredients:
+  - chicken legs
+  - cranberry juice
+  - sage
+  - butter
+  - bacon
+  - onion
+  - Granny Smith apple
+  - bread crumbs
+  - Parmigiano Reggiano cheese
+  - dried cranberries
+  - thyme
+- title: Baked ham with ginger beurre blanc
+  page: 102
+  ingredients:
+  - smoked ham shanks
+  - whole cloves
+  - ginger ale
+  - white wine
+  - fresh ginger
+  - thyme
+  - bay leaves
+  - butter
+- title: Roasted fresh ham
+  page: 105
+  ingredients:
+  - salt
+  - brown sugar
+  - onions
+  - black peppercorns
+  - bay leaves
+  - whole cloves
+  - fresh ham
+- title: German smoked pork shoulder (Spiessbraten)
+  page: 106
+  ingredients:
+  - boneless pork shoulder butt roast
+  - garlic
+  - juniper berries
+  - Spanish onions
+  - wood chips
+  - Dijon mustard
+  - honey
+  - fancy molasses
+  - caraway seeds
+- title: Simple hot-smoked pork butt
+  page: 109
+  ingredients:
+  - pork butt
+  - brown sugar
+  - salt
+  - wood chips
+- title: Oven-roasted pork picnic shoulder with prunes
+  page: 111
+  ingredients:
+  - ground cinnamon
+  - ground allspice
+  - ground cloves
+  - pork picnic shoulder
+  - shallots
+  - garlic
+  - pitted prunes
+  - prune juice
+  - red wine
+  - beef stock
+  - thyme
+  - bay leaves
+  - butter
+  - lemon juice
+- title: Smoked pork chops with mustard sauce
+  page: 113
+  ingredients:
+  - vegetable oil
+  - smoked pork chops
+  - red onions
+  - red wine vinegar
+  - Dijon mustard
+  - brown sugar
+  - apple juice
+- title: Grilled pork chops with a cherry salsa
+  page: 114
+  ingredients:
+  - pork rib chops
+  - garlic
+  - thyme
+  - olive oil
+  - black cherries
+  - red onion
+  - celery
+  - basil
+  - chives
+  - balsamic vinegar
+- title: Maple smoke-roasted pork rack
+  page: 116
+  ingredients:
+  - salt
+  - sage
+  - rosemary
+  - whole cloves
+  - maple syrup
+  - pork rack
+  - wood chips
+- title: Walnut-crusted pork rack with sage pan sauce and apple chutney
+  page: 117
+  ingredients:
+  - pork rib roast
+  - walnuts
+  - bread crumbs
+  - honey
+  - Dijon mustard
+  - apple cider vinegar
+  - brown sugar
+  - tart apples
+  - lemon juice
+  - ginger
+  - garlic
+  - mustard seeds
+  - ground cinnamon
+  - onion
+  - sage
+  - apple cider
+  - chicken stock
+  - butter
+- title: Pork tenderloin stuffed with radicchio and Gorgonzola cheese
+  page: 120
+  ingredients:
+  - pork tenderloins
+  - olive oil
+  - soy sauce
+  - sherry vinegar
+  - radicchio
+  - red onions
+  - Gorgonzola cheese
+  - balsamic vinegar
+- title: Breaded cutlets
+  page: 122
+  ingredients:
+  - meat of your choice
+  - flour
+  - eggs
+  - fine breadcrumbs
+  - oil
+- title: Crispy roasted pork belly
+  page: 125
+  ingredients:
+  - pork belly
+  - baking soda
+  - cider vinegar
+  - Japanese soy sauce
+  - maple syrup
+  - garlic
+  - shallots
+  - ginger
+  - star anise
+  - bay leaves
+  - thyme
+  - sage
+  - black peppercorns
+- title: Grilled bone-in pork belly
+  page: 127
+  ingredients:
+  - pork belly rack
+  - garlic
+  - lemons
+  - Italian parsley
+  - fennel seeds
+  - rosemary
+  - chili flakes
+  - olive oil
+  - red pepper jelly
+- title: Memphis-style barbecued side ribs
+  page: 129
+  ingredients:
+  - pork spareribs
+  - brown sugar
+  - wood chips
+  - apple juice
+  - apple cider vinegar
+  - kosher salt
+  - sweet paprika
+  - garlic powder
+  - dried rosemary
+  - dried thyme
+- title: Baked saucy ribs
+  page: 130
+  ingredients:
+  - kosher salt
+  - sweet paprika
+  - garlic powder
+  - dried rosemary
+  - dried thyme
+  - pork back ribs
+  - vegetable oil
+  - white onions
+  - garlic
+  - tomato paste
+  - dark brown sugar
+  - chili flakes
+  - ketchup
+  - unseasoned rice vinegar
+  - fancy molasses
+  - Frank's Red Hot Sauce
+- title: Pork and walnut stew
+  page: 132
+  ingredients:
+  - olive oil
+  - pork shoulder
+  - onions
+  - carrots
+  - celery
+  - garlic
+  - walnuts
+  - white wine
+  - chicken stock
+  - thyme
+  - parsley
+  - bay leaves
+  - butternut squash
+- title: Choucroute garnie
+  page: 135
+  ingredients:
+  - butter
+  - bacon
+  - onions
+  - garlic
+  - smoked ham hocks
+  - Savoy cabbage
+  - juniper berries
+  - thyme
+  - bay leaves
+  - sauerkraut
+  - dry white wine
+  - smoked pork chops
+  - smoked pork sausages
+  - weisswurst sausages
+  - weiners
+  - mini potatoes
+  - chives
+- title: Porchetta
+  page: 135
+  ingredients:
+  - fennel seeds
+  - lemon zest
+  - garlic
+  - Italian parsley
+  - rosemary
+  - chili flakes
+  - olive oil
+  - boneless pork belly
+  - boneless pork shoulder butt roast
+- title: Slow-cooked lamb shoulder
+  page: 153
+  ingredients:
+  - boneless lamb shoulder
+  - Italian parsley
+  - chives
+  - lemon zest
+  - thyme
+  - rosemary
+  - anchovy paste
+  - garlic
+  - capers
+  - olive oil
+  - Dijon mustard
+  - red wine vinegar
+  - onion
+  - carrot
+  - turnips
+  - parsnip
+  - celery
+  - tomato paste
+  - red wine
+  - chicken stock
+  - bay leaves
+  - butter
+- title: Lamb shank tagine
+  page: 155
+  ingredients:
+  - harissa paste
+  - olive oil
+  - lamb shanks
+  - ground cumin
+  - ground coriander
+  - ground ginger
+  - ground cinnamon
+  - smoked paprika
+  - shallots
+  - garlic
+  - carrot
+  - potato
+  - fennel
+  - black olives
+  - dried apricots
+  - preserved lemon
+  - bay leaves
+  - chicken stock
+- title: Roasted leg of lamb with tzatziki
+  page: 159
+  ingredients:
+  - bone-in lamb leg
+  - English cucumber
+  - Greek-style yogurt
+  - mint
+  - garlic
+  - green onions
+  - lemons
+  - thyme
+  - olive oil
+  - ground coriander
+  - ground fennel seeds
+  - ground cumin
+  - ground cinnamon
+- title: Seven-hour roasted leg of lamb with lots of garlic
+  page: 160
+  ingredients:
+  - bone-in lamb leg
+  - garlic
+  - olive oil
+  - rosemary
+  - beef stock
+  - lemon juice
+- title: Balsamic-glazed rack of lamb with pistachio mint pesto
+  page: 162
+  ingredients:
+  - balsamic vinegar
+  - fancy molasses
+  - Frenched rack of lamb
+  - garlic
+  - rosemary
+  - olive oil
+  - pistachio nuts
+  - mint
+  - Italian parsley
+- title: "Lamb chop \u201Croyale\u201D"
+  page: 163
+  ingredients:
+  - Frenched rack of lamb
+  - olive oil
+  - dried cranberries
+  - red wine
+  - butter
+  - shallots
+  - garlic
+  - carrot
+  - thyme
+  - chives
+  - bread crumbs
+  - Parmigiano Reggiano cheese
+  - Savoy cabbage
+  - caul fat
+  - beef stock
+- title: Lamb T-bone chops with roasted onions
+  page: 167
+  ingredients:
+  - garlic
+  - Italian parsley
+  - olive oil
+  - lamb T-bone chops
+  - red onions
+  - sugar
+  - smoked paprika
+  - green onions
+  - red wine vinegar
+- title: Reverse-seared lamb sirloin
+  page: 168
+  ingredients:
+  - rosemary
+  - Italian parsley
+  - garlic
+  - lemon juice
+  - olive oil
+  - lamb sirloin
+- title: Simple pot roast
+  page: 194
+  ingredients:
+  - beef blade roast
+  - vegetable oil
+  - bacon
+  - onion
+  - garlic and cheese chicken sausages
+  - carrots
+  - celery
+  - rutabaga
+  - tomato paste
+  - red wine
+  - rosemary
+  - thyme
+  - bay leaves
+  - beef stock
+  - cornstarch
+- title: Paleron steak in red wine
+  page: 196
+  ingredients:
+  - all-purpose flour
+  - beef blade steaks
+  - butter
+  - onion
+  - garlic
+  - thyme
+  - parsley
+  - rosemary
+  - bay leaves
+  - red wine
+  - beef stock
+  - pearl onions
+  - carrots
+  - mushrooms
+  - chives
+- title: Short rib candy
+  page: 198
+  ingredients:
+  - boneless flanken-style beef short ribs
+  - olive oil
+  - onion
+  - garlic
+  - ginger
+  - carrot
+  - celery
+  - star anise
+  - ssamjang
+  - root beer
+  - chicken stock
+  - salted peanuts
+  - green onions
+- title: Flemish beef and beer stew (Carbonnade Flamande)
+  page: 201
+  ingredients:
+  - all-purpose flour
+  - vegetable oil
+  - butter
+  - beef blade roast
+  - bacon
+  - Spanish onions
+  - garlic
+  - thyme
+  - parsley
+  - bay leaves
+  - Belgian dark ale
+  - brown sugar
+  - apple cider vinegar
+  - beef stock
+- title: Tacos de suadero
+  page: 202
+  ingredients:
+  - rendered beef fat
+  - onion
+  - ground cumin
+  - ground allspice
+  - stewing beef
+  - red onion
+  - corn tortillas
+  - cilantro
+  - limes
+- title: Flat iron steak with bread sauce and roasted cipollini
+  page: 205
+  ingredients:
+  - garlic
+  - olive oil
+  - milk
+  - thyme
+  - bay leaves
+  - whole cloves
+  - black peppercorns
+  - nutmeg
+  - white sandwich bread
+  - butter
+  - cipollini onions
+  - chicken stock
+  - beef flatiron steaks
+  - Swiss chard
+- title: London broil with pickle gravy
+  page: 207
+  ingredients:
+  - beef flank
+  - butter
+  - onion
+  - garlic
+  - cremini mushrooms
+  - thyme
+  - brandy
+  - Italian parsley
+  - Worcestershire sauce
+  - English mustard
+  - vegetable oil
+  - shallots
+  - all-purpose flour
+  - red wine
+  - beef stock
+  - pickle
+- title: Reverse-seared sirloin cap steak with chimichurri sauce
+  page: 209
+  ingredients:
+  - garlic
+  - thyme
+  - red wine vinegar
+  - olive oil
+  - beef top sirloin cap steaks
+  - cilantro
+  - granulated sugar
+  - red onion
+  - limes
+- title: How to cook a steak
+  page: 210
+  ingredients:
+  - beef steaks
+- title: Flank steak stuffed with feta, sundried tomatoes, and olives
+  page: 215
+  ingredients:
+  - flank steak
+  - olive oil
+  - onion
+  - garlic
+  - green olives
+  - sun-dried tomatoes
+  - bread crumbs
+  - Italian parsley
+  - green onions
+  - feta cheese
+- title: Cabbage rolls
+  page: 217
+  ingredients:
+  - cabbage
+  - butter
+  - onion
+  - garlic
+  - carrots
+  - thyme
+  - ground allspice
+  - ground beef
+  - ground pork
+  - cooked long-grain rice
+  - chicken stock
+  - paprika
+  - olive oil
+  - Spanish onion
+  - canned plum tomatoes
+  - basil
+- title: Homemade hamburger helper
+  page: 220
+  ingredients:
+  - olive oil
+  - onion
+  - garlic
+  - pasta of your choice
+  - canned chopped tomatoes
+  - tomato paste
+  - sour cream
+  - cheddar cheese
+  - green onions
+- title: How to make a great hamburger
+  page: 221
+  ingredients:
+  - beef
+- title: "Sanagan\u2019s Meat Locker\u2019s dry-aged beef hamburgers"
+  page: 222
+  ingredients:
+  - brioche buns
+  - dry-aged beef trimmings
+  - whole boneless beef blade
+- title: Chili con carne
+  page: 224
+  ingredients:
+  - ground beef
+  - vegetable oil
+  - onion
+  - garlic
+  - celery
+  - red bell pepper
+  - chili powder
+  - Spanish paprika
+  - ground coriander
+  - ground cumin
+  - dried oregano
+  - tomato paste
+  - canned plum tomatoes
+  - chipotle in adobo
+  - canned red kidney beans
+  - beef stock
+  - canned black beans
+  - cilantro
+  - brown sugar
+  - lime juice
+- title: Bolognese sauce
+  page: 226
+  ingredients:
+  - butter
+  - onion
+  - pancetta
+  - dried porcini mushrooms
+  - garlic
+  - carrots
+  - celery
+  - ground pork
+  - ground veal
+  - ground beef
+  - Parmigiano Reggiano cheese rind
+  - milk
+  - canned plum tomatoes
+  - white wine
+  - beef stock
+  - nutmeg
+  - thyme
+  - rosemary
+  - sage
+- title: Meatballs
+  page: 228
+  ingredients:
+  - onion
+  - garlic
+  - ground pork
+  - ground beef
+  - canned plum tomatoes
+  - prosciutto
+  - Italian parsley
+  - dried oregano
+  - olive oil
+  - Spanish onions
+  - basil
+- title: Beef eye of round roast with mustard sauce
+  page: 230
+  ingredients:
+  - salt
+  - granulated sugar
+  - garlic
+  - black peppercorns
+  - bay leaves
+  - beef eye of round
+  - garlic salt
+  - sweet paprika
+  - vegetable oil
+  - Dijon mustard
+  - capers
+  - red onion
+  - prepared horseradish
+  - honey
+  - tarragon
+- title: House-smoked beef brisket
+  page: 231
+  ingredients:
+  - brown sugar
+  - sweet paprika
+  - onion powder
+  - beef brisket
+  - wood chips
+- title: Duck breast with cherries
+  page: 242
+  ingredients:
+  - duck breasts
+  - butter
+  - shallot
+  - garlic
+  - Swiss chard
+  - nutmeg
+  - cherries
+  - chicken stock
+  - honey vinegar
+  - chives
+- title: Whole roast duck with orange and ginger sauce
+  page: 244
+  ingredients:
+  - Muscovy duck
+  - clementines
+  - rosemary
+  - shallots
+  - orange
+  - star anise
+  - mirin
+  - beef stock
+  - cornstarch
+- title: Roast goose with prunes and chestnuts
+  page: 247
+  ingredients:
+  - whole goose
+  - orange
+  - dried prunes
+  - bay leaves
+  - honey
+  - shallots
+  - dry red wine
+  - Madeira wine
+  - prune juice
+  - beef stock
+  - all-purpose flour
+  - roasted chestnuts
+- title: Roasted pheasant stuffed with wild rice
+  page: 249
+  ingredients:
+  - orange zest
+  - star anise
+  - cinnamon sticks
+  - ginger
+  - black peppercorns
+  - maple syrup
+  - pheasant
+  - basmati rice
+  - wild rice
+  - butter
+  - shallots
+  - shiitake mushrooms
+  - dried cranberries
+  - hazelnuts
+  - Italian parsley
+  - chives
+  - vegetable oil
+  - chicken stock
+  - all-purpose flour
+  - white wine
+- title: Braised rabbit
+  page: 251
+  ingredients:
+  - olive oil
+  - rabbit
+  - onion
+  - garlic
+  - celery
+  - carrot
+  - thyme
+  - bay leaves
+  - white wine
+  - chicken stock
+  - plum tomatoes
+  - green olives
+  - Yukon Gold potatoes
+  - Italian parsley
+  - butter
+- title: Venison sauerbraten
+  page: 253
+  ingredients:
+  - onions
+  - garlic
+  - carrots
+  - parsnips
+  - leek
+  - celery
+  - juniper berries
+  - black peppercorns
+  - cloves
+  - bay leaves
+  - thyme
+  - rosemary
+  - brown sugar
+  - red wine
+  - red wine vinegar
+  - boneless venison shoulder
+  - butter
+  - bacon
+  - all-purpose flour
+  - honey
+  - ground ginger
+- title: "Wild boar rag\xF9"
+  page: 256
+  ingredients:
+  - olive oil
+  - wild boar shoulder
+  - garlic
+  - rosemary
+  - orange zest
+  - butter
+  - Spanish onions
+  - red wine
+  - chicken stock
+  - pappardelle pasta
+- title: Beef liver and onions
+  page: 266
+  ingredients:
+  - beef livers
+  - milk
+  - butter
+  - onions
+  - bacon
+  - all-purpose flour
+  - sage
+  - balsamic vinegar
+  - Worcestershire sauce
+- title: Deviled lamb kidneys on toast
+  page: 268
+  ingredients:
+  - lamb kidneys
+  - milk
+  - all-purpose flour
+  - butter
+  - shallots
+  - English mustard
+  - Worcestershire sauce
+  - tomato paste
+  - cayenne powder
+  - Italian parsley
+  - country bread
+  - sherry
+- title: Fried sweetbreads with Madeira
+  page: 269
+  ingredients:
+  - onion
+  - garlic
+  - carrot
+  - celery
+  - lemon
+  - peppercorns
+  - thyme
+  - bay leaves
+  - white wine
+  - veal sweetbreads
+  - all-purpose flour
+  - butter
+  - shiitake mushrooms
+  - Madeira wine
+  - beef stock
+- title: Grilled beef heart
+  page: 270
+  ingredients:
+  - beef hearts
+  - balsamic vinegar
+  - olive oil
+  - garlic
+  - chili flakes
+  - celery
+  - anchovy paste
+  - bread crumbs
+  - fennel
+  - arugula
+  - lemons
+  - Parmigiano Reggiano cheese
+- title: Oxtail stew and spinners
+  page: 273
+  ingredients:
+  - oxtail
+  - vegetable oil
+  - onions
+  - shallots
+  - garlic
+  - carrots
+  - celery
+  - green onions
+  - Scotch bonnet peppers
+  - thyme
+  - bay leaves
+  - red wine
+  - chicken stock
+  - ground allspice
+  - all-purpose flour
+  - oxtail seasoning
+- title: Pan-fried chicken liver salad
+  page: 275
+  ingredients:
+  - chicken livers
+  - milk
+  - white vinegar
+  - eggs
+  - bacon
+  - butter
+  - white bread
+  - all-purpose flour
+  - brandy
+  - chives
+  - "fris\xE9e lettuce"
+  - sherry vinegar
+  - olive oil
+  - shallots
+  - Dijon mustard
+  - thyme
+- title: Roasted bone marrow with salsa verde
+  page: 276
+  ingredients:
+  - beef marrow bones
+  - Italian parsley
+  - chives
+  - mint
+  - shallots
+  - lemon zest
+  - sherry vinegar
+  - Dijon mustard
+  - baguette
+- title: Making perfect sausages
+  page: 286
+  ingredients:
+  - pork shoulder
+  - pork belly
+  - seasoning of your choice
+  - natural casings
+- title: Mild Italian sausage
+  page: 289
+  ingredients:
+  - hog casings
+  - pork
+  - garlic
+  - fennel seeds
+- title: Breakfast sausage
+  page: 289
+  ingredients:
+  - hog casings
+  - pork
+  - onion powder
+  - garlic powder
+  - dried thyme
+  - dried sage
+- title: Lamb merguez
+  page: 289
+  ingredients:
+  - lamb casings
+  - lamb
+  - fennel seeds
+  - harissa paste
+- title: Bratwurst
+  page: 289
+  ingredients:
+  - pork
+  - ground coriander
+  - onion powder
+  - ground white pepper
+  - dried marjoram
+  - ground cloves
+  - ground cumin
+  - ground nutmeg
+  - ground cinnamon
+  - heavy cream
+  - hog casings
+- title: Honey garlic sausage
+  page: 290
+  ingredients:
+  - pork
+  - garlic
+  - garlic powder
+  - honey
+  - hog casings
+- title: Loukaniko sausage
+  page: 290
+  ingredients:
+  - pork
+  - garlic
+  - orange zest
+  - dried thyme
+  - dried oregano
+  - ground coriander
+  - white wine
+  - hog casings
+- title: Beef, bacon, and Sriracha sausage
+  page: 290
+  ingredients:
+  - pork
+  - hog casings
+  - beef
+  - bacon
+  - green onions
+  - lime zest
+  - Sriracha sauce
+- title: Maple five-spice sausage
+  page: 290
+  ingredients:
+  - pork
+  - hog casings
+  - Chinese five spice powder
+  - maple syrup
+- title: Pork taco sausage
+  page: 290
+  ingredients:
+  - pork
+  - hog casings
+  - chipotle in adobo
+  - cilantro
+  - green onions
+  - ground cumin
+  - paprika
+  - Mexican chili powder
+- title: Toulouse sausage
+  page: 290
+  ingredients:
+  - pork
+  - hog casings
+  - ground clove
+  - ground nutmeg
+  - white wine
+- title: Toad in the hole
+  page: 291
+  ingredients:
+  - all-purpose flour
+  - eggs
+  - milk
+  - butter
+  - breakfast sausages
+  - vegetable oil
+- title: Boudin blanc
+  page: 292
+  ingredients:
+  - celery
+  - leek
+  - onion
+  - garlic
+  - thyme
+  - bay leaf
+  - white pepper
+  - nutmeg
+  - milk
+  - heavy cream
+  - Port wine
+  - pork belly
+  - pork shoulder
+  - egg whites
+  - egg
+  - butter
+- title: Bacon
+  page: 294
+  ingredients:
+  - brown sugar
+  - pink curing salt
+  - pork belly
+  - wood chips
+- title: Chicken liver mousse
+  page: 296
+  ingredients:
+  - chicken livers
+  - milk
+  - vegetable oil
+  - butter
+  - shallots
+  - garlic
+  - thyme
+  - bay leaf
+  - Espelette pepper
+  - brandy
+  - rendered chicken fat
+- title: Chicken rillettes with tarragon
+  page: 289
+  ingredients:
+  - chicken drumsticks
+  - granulated sugar
+  - garlic
+  - bay leaves
+  - thyme
+  - rendered chicken fat
+  - shallots
+  - white wine
+  - tarragon
+  - chives
+  - Italian parsley
+  - powdered gelatin
+- title: Corned beef and parsley sauce
+  page: 301
+  ingredients:
+  - garlic
+  - salt
+  - granulated sugar
+  - curing salt
+  - pickling spice
+  - beef brisket
+  - onion
+  - carrot
+  - celery
+  - black peppercorns
+  - bay leaves
+  - milk
+  - whole cloves
+  - butter
+  - all-purpose flour
+  - curly parsley
+  - English mustard powder
+- title: Duck confit
+  page: 304
+  ingredients:
+  - salt
+  - granulated sugar
+  - garlic
+  - peppercorns
+  - thyme
+  - bay leaves
+  - duck legs
+  - rendered duck fat
+- title: Headcheese
+  page: 307
+  ingredients:
+  - pig head
+  - pig feet
+  - onions
+  - carrots
+  - celery
+  - garlic
+  - bay leaves
+  - white wine
+  - orange zest
+  - ground cinnamon
+  - ground coriander
+  - ground cloves
+  - ground nutmeg
+  - brandy
+- title: "P\xE2t\xE9 de campagne"
+  page: 308
+  ingredients:
+  - smoked bacon
+  - duck livers
+  - pitted prunes
+  - garlic
+  - brandy
+  - ground pork
+  - bread crumbs
+  - pistachio nuts
+  - eggs
+  - "quatre \xE9pices"
+  - smoked paprika
+  - curing salt
+- title: Wild board terrine with Armagnac and prunes
+  page: 310
+  ingredients:
+  - prunes
+  - prune juice
+  - red wine
+  - pork back fat
+  - wild boar livers
+  - wild boar shoulder
+  - pork shoulder
+  - oranges
+  - thyme
+  - curing salt
+  - cocoa powder
+  - ground nutmeg
+  - ground cinnamon
+  - butter
+  - shallots
+  - garlic
+  - bay leaf
+  - Armagnac
+- title: Pork and dried fruit terrine
+  page: 312
+  ingredients:
+  - smoked ham
+  - pork back fat
+  - ground pork
+  - dried apricots
+  - dried cranberries
+  - dried figs
+  - chives
+  - "quatre \xE9pices"
+  - egg
+  - heavy cream
+  - sherry
+- title: Savory pie dough
+  page: 313
+  ingredients:
+  - all-purpose flour
+  - granulated sugar
+  - butter
+  - rendered lard
+- title: "Tourti\xE8re"
+  page: 314
+  ingredients:
+  - all-purpose flour
+  - granulated sugar
+  - butter
+  - rendered lard
+  - bacon
+  - onion
+  - ground pork
+  - "quatre \xE9pices"
+  - milk
+  - bread crumbs
+  - thyme
+  - egg
+- title: Chicken, leek, and bacon pie
+  page: 316
+  ingredients:
+  - all-purpose flour
+  - granulated sugar
+  - butter
+  - rendered lard
+  - bacon
+  - milk
+  - thyme
+  - egg
+  - boneless skinless chicken breasts
+  - leek
+  - potatoes
+  - vegetable oil
+  - lemon juice
+- title: Steak and ale pie
+  page: 317
+  ingredients:
+  - all-purpose flour
+  - granulated sugar
+  - butter
+  - rendered lard
+  - egg
+  - leek
+  - vegetable oil
+  - stewing beef
+  - onion
+  - carrot
+  - celery
+  - garlic
+  - tomato paste
+  - dark ale
+  - bay leaf
+  - beef stock
+  - Worcestershire sauce
+  - potatoes
+  - thyme
+  - rosemary
+  - lemon juice
+- title: Cassoulet
+  page: 321
+  ingredients:
+  - boneless pork shoulder butt roast
+  - pork belly
+  - rendered duck fat
+  - onions
+  - carrots
+  - garlic
+  - parsley
+  - thyme
+  - bay leaves
+  - white wine
+  - dried navy beans
+  - slab bacon
+  - smoked ham hocks
+  - pork skin
+  - whole cloves
+  - Toulouse sausages
+  - duck confit
+  - white sandwich bread
+  - salt
+  - brown sugar
+  - cinnamon sticks
+  - mustard seeds
+  - peppercorns
+  - whole allspice
+  - ground ginger
+  - coriander seeds
+- title: Curried goat
+  page: 325
+  ingredients:
+  - garlic
+  - ginger
+  - green onions
+  - onions
+  - Scotch bonnet pepper
+  - Jamaican curry powder
+  - thyme
+  - ground cloves
+  - vegetable oil
+  - chicken stock
+  - potatoes
+  - butter
+  - bone-in goat shoulder
+- title: Lamb biryani
+  page: 327
+  ingredients:
+  - clarified butter
+  - onion
+  - bone-in lamb shoulder
+  - garlic
+  - ginger
+  - green chiles
+  - chili flakes
+  - mint
+  - cilantro
+  - plain yogurt
+  - lime juice
+  - cinnamon sticks
+  - whole cloves
+  - black cardamom pods
+  - black peppercorns
+  - basmati rice
+  - milk
+  - saffron
+- title: Prime rib roast
+  page: 329
+  ingredients:
+  - rosemary
+  - thyme
+  - sage
+  - bay leaves
+  - salt
+  - garlic
+  - olive oil
+  - butter
+  - beef trimmings
+  - shallots
+  - all-purpose flour
+  - red wine
+  - beef stock
+  - Frenched beef rib roast
+  - pepper
+- title: Sunday dinner marrow-stuffed beef shank pot roast
+  page: 332
+  ingredients:
+  - beef shanks
+  - canoe cut beef shank bones
+  - garlic
+  - butter
+  - onions
+  - carrots
+  - celery
+  - thyme
+  - bay leaves
+  - tomato paste
+  - red wine
+  - beef stock
+  - all-purpose flour
+- title: Carving a roast 101
+  page: 333
+  ingredients:
+  - roast of your choice
+- title: Roast turkey with stuffing
+  page: 335
+  ingredients:
+  - salt
+  - granulated sugar
+  - garlic
+  - thyme
+  - bay leaves
+  - whole turkey
+  - vegetable oil
+  - butter
+  - sage
+  - chives
+  - ground allspice
+  - Madeira wine
+  - onions
+  - celery
+  - carrot
+  - nutmeg
+  - turkey stock
+  - stale bread
+  - white wine
+  - shallots
+  - all-purpose flour
+- title: Whole roasted suckling pig
+  page: 338
+  ingredients:
+  - green onions
+  - garlic
+  - ginger
+  - soy sauce
+  - cider vinegar
+  - vegetable oil
+  - suckling pig
+- title: Creamy mashed potatoes
+  page: 342
+  ingredients:
+  - Yukon Gold potatoes
+  - garlic
+  - bay leaves
+  - heavy cream
+  - unsalted butter
+- title: Duck fat-roasted potatoes
+  page: 343
+  ingredients:
+  - baking potatoes
+  - garlic
+  - bay leaves
+  - rendered duck fat
+  - all-purpose flour
+- title: Gratin dauphinois
+  page: 344
+  ingredients:
+  - butter
+  - Spanish onions
+  - garlic
+  - heavy cream
+  - eggs
+  - nutmeg
+  - Yukon Gold potatoes
+  - "Gruy\xE8re cheese"
+- title: "R\xF6sti"
+  page: 345
+  ingredients:
+  - Yukon Gold potatoes
+  - clarified butter
+- title: "Saut\xE9ed potatoes"
+  page: 346
+  ingredients:
+  - potatoes
+  - butter
+  - garlic
+  - Italian parsley
+- title: Duck fat fried rice
+  page: 347
+  ingredients:
+  - short-grain rice
+  - rendered duck fat
+  - green onions
+  - garlic
+  - chicharron
+- title: Rice and peas
+  page: 348
+  ingredients:
+  - dried red kidney beans
+  - chicken stock
+  - coconut milk
+  - long-grain rice
+  - green onions
+  - garlic
+  - Scotch bonnet chiles
+  - thyme
+  - ground allspice
+- title: Simple herbed risotto
+  page: 349
+  ingredients:
+  - butter
+  - onion
+  - bay leaf
+  - chicken stock
+  - Arborio rice
+  - white wine
+  - chives
+  - Italian parsley
+  - chervil
+  - Parmigiano Reggiano cheese
+- title: Roasted cauliflower and cheddar risotto
+  page: 350
+  ingredients:
+  - onion
+  - chicken stock
+  - Arborio rice
+  - white wine
+  - cauliflower florets
+  - vegetable oil
+  - medium cheddar cheese
+- title: Orzo salad with peas, chili, mint, and feta
+  page: 351
+  ingredients:
+  - orzo
+  - olive oil
+  - lemons
+  - frozen peas
+  - feta cheese
+  - green peperoncino peppers
+  - green onions
+  - mint
+  - watercress
+  - Italian parsley
+- title: Grilled asparagus with Mediterranean flavors
+  page: 352
+  ingredients:
+  - green asparagus
+  - olive oil
+  - baguette
+  - eggs
+  - bomba Calabrese
+  - mayonnaise
+  - Parmigiano Reggiano cheese
+  - chives
+  - pitted black olives
+  - capers
+  - Italian parsley
+  - garlic
+  - gherkins
+  - white anchovies
+- title: Peas with pearl onions, lettuce, and mint
+  page: 353
+  ingredients:
+  - peas
+  - pearl onions
+  - butter
+  - thyme
+  - bay leaves
+  - chicken stock
+  - Bibb lettuce
+  - mint
+- title: Carrots in vinaigrette
+  page: 354
+  ingredients:
+  - baby carrots with tops
+  - chives
+  - Italian parsley
+  - sugar
+  - olive oil
+  - white wine vinegar
+- title: Roasted broccoli with soy butter
+  page: 354
+  ingredients:
+  - broccoli florets
+  - vegetable oil
+  - butter
+  - Japanese soy sauce
+- title: Sweet and sour baked beans
+  page: 355
+  ingredients:
+  - dried navy beans
+  - Spanish onions
+  - bacon rashers
+  - garlic
+  - celery
+  - green bell pepper
+  - Scotch bonnet chiles
+  - dried ginger
+  - tomato paste
+  - fancy molasses
+  - passata
+  - cider vinegar
+  - brown sugar
+  - chicken stock
+- title: Roasted cauliflower with hummus and halloumi
+  page: 356
+  ingredients:
+  - olive oil
+  - garlic
+  - white sesame seeds
+  - thyme
+  - paprika
+  - cauliflower
+  - canned chickpeas
+  - tahini
+  - lemon juice
+  - green onions
+  - capers
+  - gherkins
+  - Italian parsley
+  - mint
+  - basil
+  - anchovy paste
+  - sherry vinegar
+  - Dijon mustard
+  - halloumi cheese
+  - toasted pine nuts
+  - pomegranate arils
+- title: Chicken stock
+  page: 360
+  ingredients:
+  - chicken bones
+  - onions
+  - garlic
+  - carrots
+  - celery
+  - leek
+  - thyme
+  - bay leaves
+  - black peppercorns
+- title: Beef stock
+  page: 261
+  ingredients:
+  - onions
+  - garlic
+  - carrots
+  - celery
+  - leek
+  - thyme
+  - bay leaves
+  - black peppercorns
+  - tomato paste
+  - beef bones
+- title: Veal stock
+  page: 362
+  ingredients:
+  - onions
+  - carrots
+  - celery
+  - leek
+  - thyme
+  - bay leaves
+  - black peppercorns
+  - tomato paste
+  - veal bones
+- title: Bone broth
+  page: 363
+  ingredients:
+  - chicken bones
+  - beef knucklebones
+  - beef marrow bones
+  - Spanish onions
+  - garlic
+  - carrots
+  - celery
+  - parsnips
+  - tomato paste
+  - peppercorns
+  - thyme
+  - bay leaves
+- title: Veal demi-glace
+  page: 364
+  ingredients:
+  - veal stock
+- title: Red wine demi-glace
+  page: 384
+  ingredients:
+  - butter
+  - beef trimmings
+  - shallots
+  - red wine
+  - veal demiglace
+  - thyme
+  - bay leaves
+- title: How to thicken sauces
+  page: 365
+  ingredients:
+  - stock
+- title: Brandy peppercorn sauce
+  page: 366
+  ingredients:
+  - butter
+  - beef trimmings
+  - shallots
+  - cracked black pepper
+  - brandy
+  - bay leaves
+  - thyme
+  - veal demiglace
+  - heavy cream
+  - pickled green peppercorns
+- title: Basic tomato sauce
+  page: 367
+  ingredients:
+  - olive oil
+  - Spanish onion
+  - garlic
+  - canned plum tomatoes
+  - basil
+- title: Teriyaki sauce
+  page: 368
+  ingredients:
+  - green onions
+  - ginger
+  - shallots
+  - garlic
+  - soy sauce
+  - mirin
+  - honey
+  - brown sugar
+  - sesame oil
+  - cornstarch
+- title: "Dad\u2019s BBQ sauce"
+  page: 369
+  ingredients:
+  - vegetable oil
+  - white onions
+  - garlic
+  - tomato paste
+  - dark brown sugar
+  - chili flakes
+  - ketchup
+  - unseasoned rice vinegar
+- title: Tomato salsa
+  page: 370
+  ingredients:
+  - plum tomatoes
+  - seedless cucumber
+  - red onions
+  - lemon
+  - chives
+- title: Soy ginger vinaigrette
+  page: 370
+  ingredients:
+  - Japanese light soy sauce
+  - sherry vinegar
+  - vegetable oil
+  - green onions
+  - ginger
+- title: Chimichurri
+  page: 371
+  ingredients:
+  - Italian parsley
+  - cilantro
+  - oregano sprigs
+  - shallots
+  - garlic
+  - olive oil
+  - red wine vinegar
+- title: Herb pesto
+  page: 371
+  ingredients:
+  - Italian parsley
+  - basil
+  - tarragon
+  - green onions
+  - capers
+  - Dijon mustard
+  - lemon zest
+  - chili flakes
+  - olive oil
+- title: Bulgogi marinade
+  page: 372
+  ingredients:
+  - garlic
+  - green onions
+  - Spanish onions
+  - pears
+  - ginger
+  - brown sugar
+  - unseasoned rice vinegar
+  - Japanese soy sauce
+  - sesame oil
+- title: Herb and garlic marinade
+  page: 372
+  ingredients:
+  - green onions
+  - white onions
+  - garlic
+  - Italian parsley
+  - rosemary
+  - thyme
+  - lemons
+  - olive oil
+- title: Cuban marinade
+  page: 373
+  ingredients:
+  - cilantro
+  - Italian parsley
+  - lemons
+  - limes
+  - red onion
+  - green onions
+  - Spanish paprika
+  - olive oil
+- title: Honey mustard marinade
+  page: 373
+  ingredients:
+  - Dijon mustard
+  - grainy mustard
+  - honey
+  - prepared horseradish
+  - rosemary
+- title: Middle Eastern marinade
+  page: 374
+  ingredients:
+  - green onions
+  - garlic
+  - lemons
+  - thyme
+  - olive oil
+  - ground coriander
+  - ground fennel seeds
+  - ground cumin
+  - ground cinnamon
+- title: Souvlaki marinade
+  page: 374
+  ingredients:
+  - garlic
+  - dried oregano
+  - paprika
+  - olive oil
+  - lemon juice concentrate
+  - hot mustard
+- title: "Proven\xE7al marinade"
+  page: 375
+  ingredients:
+  - sun-dried tomatoes
+  - garlic
+  - pitted black olives
+  - capers
+  - lemons
+  - rosemary
+  - thyme
+  - dried marjoram
+  - olive oil
+- title: Shawarma marinade
+  page: 375
+  ingredients:
+  - garlic
+  - red onions
+  - Italian parsley
+  - ground cumin
+  - paprika
+  - ground turmeric
+  - chili flakes
+  - ground cinnamon
+- title: Herb salt
+  page: 376
+  ingredients:
+  - bay leaves
+  - rosemary
+  - thyme
+  - sage
+  - garlic
+  - kosher salt
+- title: BBQ dry rub
+  page: 376
+  ingredients:
+  - kosher salt
+  - sweet paprika
+  - onion powder
+  - garlic powder
+  - dried rosemary
+  - dried thyme
+- title: All-purpose brine
+  page: 377
+  ingredients:
+  - juniper berries
+  - star anise
+  - peppercorns
+  - garlic
+  - rosemary
+  - sugar
+  - bay leaf
+- title: Sweet pork brine
+  page: 377
+  ingredients:
+  - salt
+  - brown sugar
+  - garlic
+  - cinnamon stick
+  - mustard seeds
+  - peppercorns
+  - whole allspice
+  - ground ginger
+  - coriander seeds
+  - whole cloves
+  - bay leaf
+wishlist: true
