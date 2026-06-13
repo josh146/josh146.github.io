@@ -23,8 +23,8 @@ sourdough starter discard. This loaf produces bread perfect for toast, sandwiche
 * 80g wholemeal flour
 * 32g olive oil
 * 20g honey
-* 185g water
-* 20g salt
+* 175g water
+* 9g salt
 * 100g levain or mature starter
 
 ### Tangzhong

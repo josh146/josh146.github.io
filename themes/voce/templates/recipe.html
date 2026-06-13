@@ -577,6 +577,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         } else if (key.includes('step')) {
                             // step logic
                             value = `<ol class="dynamic-sublist"><li><strong>${value}</strong></li></ol>`;
+                        } else if (key.includes('image')) {
+                            // step logic
+                            value = `<img src='${value}' />`;
+
 
                         } else {
                             // Standard Single Item
@@ -594,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
             htmlToUpdate = htmlToUpdate.replace(pillRegex, (match, key) => {
                 const cleanName = key.replace(/_/g, ' ');
 
-                if (key.includes('list') || key.includes('step')) {
+                if (key.includes('list') || key.includes('step') || key.includes('image')) {
                     return `<span class="variable-pill variable-list">${cleanName}</span>`;
                 }
                 return `<span class="variable-pill">${cleanName}</span>`;
