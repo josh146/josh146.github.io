@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Building a vintage recipe rolodex with Python, Pelican, and Markdown. | josh iza.ac</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Josh Izaac">
+  <meta name="description" content="I enjoy cooking. Not only that, but I enjoy complicated cooking — which can sometimes be a bit of a curse. A simple weeknight meal? Not interested. A week-long project to nail the ultimate Xiao Long Bao, Croissants, or homemade ramen? Sign me up! I become somewhat obsessive,...
+">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Building a vintage recipe rolodex with Python, Pelican, and Markdown. | josh iza.ac">
+  <meta property="og:url" content=" posts/2026/05/pelican-cookbook-markdown-recipes/ ">
+  <meta property="og:description" content="I enjoy cooking. Not only that, but I enjoy complicated cooking — which can sometimes be a bit of a curse. A simple weeknight meal? Not interested. A week-long project to nail the ultimate Xiao Long Bao, Croissants, or homemade ramen? Sign me up! I become somewhat obsessive,...
+">
+  <meta property="og:image" content="https://iza.ac/images/header-small.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="../../../..">
+  <meta property="twitter:url" content=" posts/2026/05/pelican-cookbook-markdown-recipes/ ">
+  <meta name="twitter:title" content="Building a vintage recipe rolodex with Python, Pelican, and Markdown. | josh iza.ac">
+  <meta name="twitter:description" content="I enjoy cooking. Not only that, but I enjoy complicated cooking — which can sometimes be a bit of a curse. A simple weeknight meal? Not interested. A week-long project to nail the ultimate Xiao Long Bao, Croissants, or homemade ramen? Sign me up! I become somewhat obsessive,...
+">
+  <meta name="twitter:image" content="https://iza.ac/images/header-small.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../../theme/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../../../../theme/css/pygments.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ninja-keys?module"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../../../../theme/js/functions.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="http://iza.ac/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="josh iza.ac Full Atom Feed" />
+
+<meta name="keywords" content="keywords, python">
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-308113-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-default" role="navigation">
+        <div class="container">
+          <div class="row" style="width: 100%;">
+            <div class="site-navigation-inner col-sm-12">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="social fas fa-ellipsis-v"></i>
+              </button>
+
+              <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbarSupportedContent" style="float: left;">
+                <ul id="menu-all-pages" class="nav navbar-nav mr-auto" style="padding: 20px;">
+                  <li class="menu-item"><a href="/" >Home
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/about" >About
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/cv" >CV
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/recipes" >recipes
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/cookbooks" >cookbooks
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/posts" >posts
+
+<i class=" fa-lg" style=""></i></a></li>
+                </ul>
+              </div>
+              <div class="social">
+                <a href="https://scholar.google.com/citations?user=pEj09c4AAAAJ" title="Google Scholar" >
+
+<i class="ai ai-google-scholar fa-lg" style="font-size: 1.6rem;"></i></a>
+                <a href="http://github.com/josh146" title="GitHub" >
+
+<i class="fab fa-github fa-lg" style=""></i></a>
+                <a href="https://linkedin.com/pub/josh-izaac/104/9bb/6a2" title="LinkedIn" >
+
+<i class="fab fa-linkedin fa-lg" style=""></i></a>
+                <a data-email="ca.azi@hsoj:otliam" data-title="Email" title="You need javascript enabled to view this email" class="email">
+
+<i class="fas fa-envelope fa-lg" style=""></i></a>
+                <a href="/feeds/rss.xml" title="Feed" >
+
+<i class="fas fa-rss fa-lg" style=""></i></a>
+               <!-- <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a> -->
+               <a href="/search"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+
+<style>
+.page-header {
+  margin: 0!important;
+}
+.entry-title {
+  margin-bottom: 40px;
+}
+hr {
+    border: none;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+hr::before {
+    content: "»—~-~—~✂~—~-~—«";
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.25rem;
+    color: #75715e;
+    opacity: 0.7;
+    text-shadow: 2px 2px 3px rgba(117, 113, 94, 0.4);
+}
+</style>
+
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item"><time datetime="2026-05-18 16:00:00+08:00">May 18, 2026</time></span>
+        <h1 class="entry-title"><a href="../../../../posts/2026/05/pelican-cookbook-markdown-recipes/">Building a vintage recipe rolodex with Python, Pelican, and&nbsp;Markdown.</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="../../../../posts/2026/05/pelican-cookbook-markdown-recipes/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <p>I enjoy cooking. Not only that, but I enjoy <strong>complicated</strong> cooking &#8212; which can sometimes be a bit of a&nbsp;curse.</p>
+<p>A simple weeknight meal? Not interested. A week-long project to nail the ultimate <a href="/recipes/chicken-xiao-long-bao/">Xiao Long Bao</a>, <a href="/recipes/pate-a-croissant/">Croissants</a>, or <a href="/recipes/duck-paitan-ramen/">homemade ramen</a>?
+Sign me up! I become somewhat obsessive, reading cooking blogs,
+cookbooks, and YouTube videos to figure out not just the baseline techniques and ingredients, but
+the endless <em>variations</em> between them. And as I refine a recipe and my method, I make sure to write
+down what worked (and what&nbsp;didn&#8217;t!).</p>
+<p>In the beginning, my method was to use Microsoft Publisher and generate a <span class="caps">PDF</span> (to be fair, it was
+2004). As my physics career took off and I became surrounded by open-source tech and tooling, this
+transitioned to PDFs generated from simple Markdown files stored in&nbsp;Dropbox.</p>
+<p>But this setup had its flaws. PDFs don&#8217;t render well on mobile phones, and Dropbox isn&#8217;t exactly the
+ideal platform for seamlessly maintaining, updating, and sharing a repository of recipes. At the
+time, I had already created this website, which was built on <a href="https://getpelican.com/">Pelican</a> &#8212; a static-site generator for Python built on Markdown files. Since I
+already had an affinity for Markdown, I figured there must surely be a library that allows me to
+store and version my recipes using Markdown and Git, yet still render them for easy browsing and&nbsp;searching.</p>
+<p><img src="/images/recipes/recipe-card.jpg" style="max-width: 800px; width: 100%;" /></p>
+<p>From what I could find&#8230; not&nbsp;really.</p>
+<p>The two most promising options were <a href="https://github.com/clarklab/chowdown">Chowdown</a> (however, I wanted to avoid a Jekyll-based solution) and <a href="https://github.com/jeffThompson/recipes/">Jeff Thompson&#8217;s Recipe Website</a> (I loved the style, but wanted a static site generator). There were also a couple of cloud services and phone apps that store recipes in Markdown formats (such as <a href="https://tandoor.dev/">Tandoor</a> and <a href="https://apps.apple.com/us/app/grocery-smart-shopping-list/id1195676848">Grocery</a>), but I didn&#8217;t want to be tied down to one platform or depend on paid tiers just to get the most out of my Markdown&nbsp;files.</p>
+<p>So, armed with a researcher&#8217;s knowledge of Jinja, Python, JavaScript, and <span class="caps">CSS</span>, I thought: <em>why not build it&nbsp;myself?</em></p>
+<h2>The Pelican Cookbook&nbsp;plugin</h2>
+<p>I started this project with a few core&nbsp;goals:</p>
+<ol>
+<li>
+<p><strong>Plain text format</strong>: Recipes need to be stored as plain text and remain <strong>readable</strong>.</p>
+</li>
+<li>
+<p><strong>Can be rendered as <span class="caps">HTML</span></strong>: They should render nicely as static <span class="caps">HTML</span> with a minimalist theme,
+allowing readers to get right to the point: the ingredients list and the&nbsp;steps.</p>
+</li>
+<li>
+<p><strong>Cross-references and components:</strong> Recipes need to be able to cross-reference each other, and
+even embed each other as components (to avoid writing out the same sub-recipes over and&nbsp;over!).</p>
+</li>
+<li>
+<p><strong>Timelines</strong>: It needs to be easy to extract information about complex recipes. If I can only
+start cooking at 4:45 <span class="caps">PM</span>, what time will I be&nbsp;eating?</p>
+</li>
+<li>
+<p><strong>Search:</strong> Both recipes and individual ingredients need to be <strong>searchable</strong>.</p>
+</li>
+</ol>
+<p>Using the following Markdown format for a recipe keeps everything highly readable, with perhaps the
+exception of some website-specific <span class="caps">YAML</span> frontmatter at the&nbsp;top:</p>
+<div class="highlight"><pre><span></span><code>Title: Lime curd
+Date: 2025-12-24
+Category: Sweets
+Slug: lime-curd
+Time: 30 minutes
+Servings: 750ml
+Image: /images/recipes/lime-curd.jpg
+
+<span class="gu">## Ingredients</span>
+
+<span class="k">*</span><span class="w"> </span>115g unsalted butter (cut into 1cm cubes)
+<span class="k">*</span><span class="w"> </span>180ml freshly-squeezed lime juice (about 5-6 limes)
+<span class="k">*</span><span class="w"> </span>140g sugar
+<span class="k">*</span><span class="w"> </span>zest of two limes, unsprayed (see Note)
+<span class="k">*</span><span class="w"> </span>pinch of salt
+<span class="k">*</span><span class="w"> </span>3 large egg yolks
+<span class="k">*</span><span class="w"> </span>3 large eggs
+
+<span class="gu">## Steps</span>
+
+<span class="k">1.</span> In a glass bowl over a saucepan filled with simmering water, warm the butter, lime juice, sugar,
+zest, and salt.
+
+<span class="k">1.</span> In a separate bowl, whisk together the eggs and the yolks.
+
+<span class="k">1.</span> When the butter has melted and the mixture is warm, gradually pour some of the warm lime juice
+mixture into the eggs, whisking constantly. Scrape the warmed eggs back into the double boiler and
+cook the mixture over low heat.
+
+<span class="k">1.</span> Stir the mixture constantly over low heat, using the whisk, until the filling thickens and begins
+to resemble soft jelly. Do not let it boil. When done, strain the curd through a fine-mesh sieve.
+</code></pre></div>
+
+<p>You can see the <a href="https://github.com/josh146/josh146.github.io/blob/source/content/recipes/lime-curd.md">raw Markdown file on GitHub</a>, and the
+<a href="/recipes/lime-curd/">resulting rendered page</a>. This easily hits points (1) and&nbsp;(2).</p>
+<p>To solve point (3), I added the ability to use <code>[[Recipe title]]</code> to insert an automatic
+cross-reference to other recipes. Going one step further, you can use <code>[[Component: recipe title]]</code>
+within an ingredients list or method in order to insert another recipe&#8217;s instructions <em>directly</em>
+into the current&nbsp;one!</p>
+<div class="highlight"><pre><span></span><code>Title: Lime meringue tart
+Date: 2025-12-19
+Category: Pastry
+Slug: lime-meringue-tart
+Time: 1 hour
+Servings: 1 9-inch (22cm) tart
+Image: /images/recipes/lime-meringue-tart.jpg
+Tags: dessert
+
+<span class="gu">## Ingredients</span>
+
+<span class="k">*</span><span class="w"> </span>1 blind-baked [[Pâte Sablée]] tart shell.
+[[Component: lime curd]]
+[[Component: swiss meringue]]
+
+<span class="gu">## Instructions</span>
+
+<span class="k">1.</span> Preheat the oven to 180ºC.
+
+[[Component: lime curd]]
+
+<span class="k">1.</span> Pour the curd into the pre-baked tart shell, and bake for 10 minutes.
+
+[[Component: swiss meringue]]
+</code></pre></div>
+
+<p>What about cooking&nbsp;timelines?</p>
+<p>Simply include the <code>Timeline</code> metadata:</p>
+<div class="highlight"><pre><span></span><code>Timeline: Mix Ingredients | 15m | Active; First proof | 60m | Wait; Second proof | 45m | Wait; Shape | 15m | Active; Proof | 60m | Wait; Bake | 30m | Wait
+</code></pre></div>
+
+<p>and a cooking schedule calculator will magically appear at the top of the <a href="/recipes/challah">rendered recipe page</a>.</p>
+<p><img src="/images/cooking-schedule.png" style="max-width: 600px; width: 100%;" /></p>
+<p>You can even dynamically change the start time as needed, and the schedule will automatically&nbsp;update.</p>
+<p>Finally, <a href="/search">search was enabled</a> through the use of the <a href="https://github.com/ssleptsov/ninja-keys">Ninja Keys</a> package. This enables searching of not just recipe titles, but ingredients as well (including support for more complex Google-style search syntax to find recipes with specific combinations of&nbsp;ingredients).</p>
+<h2>Intuitive&nbsp;cooking</h2>
+<p>A conclusion I have slowly come to over time is that cooking is less of a science, and much more of
+an art. Even in disciplines like baking, where we often hear the refrain &#8220;baking is a science!&#8221;
+(and see a growing number of technically-minded people moving into the space aiming to explore and
+quantify every variable), I remain&nbsp;unconvinced.</p>
+<p>If that were true, we would have all arrived at the singular, perfect choux pastry or wholemeal
+sourdough recipe by now. Instead, we have incredible variation where the ingredient ratios are
+similar, yet can still differ quite&nbsp;significantly.</p>
+<p>Instead, cooking is <strong>intuitive</strong> &#8212; with frameworks such as rough ratios and known flavor
+combinations, it is easy to riff on recipes and ideas to come up with something entirely new
+(and&nbsp;delicious!).</p>
+<p>But how do you account for this with a repository of Markdown files, which are somewhat rigid by&nbsp;definition?</p>
+<p>One final feature I added is the concept of <strong>blueprint recipes</strong>. While a bit messier under the
+hood, this allows you to provide various flavor variations within the Markdown via embedded <span class="caps">YAML</span>:</p>
+<div class="highlight"><pre><span></span><code>&lt;pre id=&quot;variation-yaml&quot; style=&quot;display:none;&quot;&gt;
+Theme: Cardamom and onion
+marinade: olive oil, cardamom, cloves, cinnamon sticks, salt, and pepper
+marinade_list: 30ml olive oil (2 tbsp); 10 cardamom pods; 1/3 tsp whole cloves; 2 long cinnamon sticks, broken in two; 1.5 tsp salt; 1.5 tsp pepper
+aromatics: sliced onions
+aromatic_list: 2 onions (sliced); 30ml olive oil (2 tbsp)
+
+---
+
+Theme: Biriyani
+marinade: mustard oil, minced ginger and garlic, kashmiri chilli powder, salt, and spices,
+marinade_list: 1 tsp mustard oil; 1 inch ginger (grated); 4 garlic cloves (grated); 1 tbsp kashmiri chilli powder; 1 tbsp garam masala; 1 tbsp cumin; 1 tbsp coriander; juice of 1 lemon; 1.5 tsp salt
+aromatic_list: 50g butter or oil; 1 red onion (finely diced); 1 inch ginger (grated); 4 cloves garlic (grated); 1 tomato (finely diced); 1 tsp garam masala; 1 tsp tumeric
+aromatics: onion, ginger and garlic mixture, tomato, and spices
+&lt;/pre&gt;
+</code></pre></div>
+
+<p>Within the standard Markdown recipe, you can then use these defined variables (<code>{{aromatics}}</code>, <code>{{marinade_list}}</code>, etc.). Users can pick their &#8220;vibe&#8221; and watch the recipe update dynamically—all
+driven from a single Markdown&nbsp;file.</p>
+<p>You can check this out on my <a href="/recipes/one-pot-chicken-and-rice/">one-pot chicken rice recipe</a>, and see the <a href="https://github.com/josh146/josh146.github.io/blob/source/content/recipes/one-pot-chicken-rice.md">associated Markdown file</a>.</p>
+<h2>Why did you mention vintage recipe&nbsp;cards?</h2>
+<p>At the very top of this post, I included a picture of a recipe index card from the 1950s for corned
+beef and cabbage. This card belonged to my maternal grandmother. I spent a while attempting to
+decipher her handwriting and reverse-engineer the recipe based on the versions I remember from my
+childhood (<a href="/recipes/corned-beef">which you can find here</a>).</p>
+<p>To me, this bootstrapped Markdown-Python-Jinja-Javascript recipe rolodex is no different from those
+index cards. I wanted my digital collection to hearken back to those days. The modern internet and
+food media landscape is a double-edged sword; we are incredibly lucky to be able to access recipes
+from cuisines all over the world in seconds, yet we are far less likely to write down our own
+recipes and pass them on to our loved ones, the way <a href="https://www.reddit.com/r/oldrecipes/">our grandparents did for us</a> (and <a href="https://www.handwrittenwork.com/handwritten-recipes">their grandparents for them</a>!).</p>
+<p>For me, this sentiment is close to my heart for one very specific reason. Growing up in the very
+small Singaporean-Iraqi Jewish community, the food of my childhood is a highly specific fusion of
+flavors, ingredients, and cultures. It simply does not exist online; it is solely passed down
+through lived experience. Recipes such as <a href="/recipes/bamya-assam">Bamya Assam</a> and <a href="/recipes/beetroot-stew/">Beetroot stew</a> meld Singaporean ingredients with Iraqi Jewish cooking methods, and if we do
+not write them down, they might be lost&nbsp;entirely.</p>
+<p>I hope my little janky, Markdown-backed static recipe website will keep this tradition going just a
+little bit&nbsp;longer.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div><!-- .entry-content -->
+      <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="../../../../tag/python/">python</a>      </div>
+    </div>
+  </div>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    This site uses the <a href="https://github.com/limbenjamin/voce">voce</a> theme by <a href="//limbenjamin.com/">Benjamin Lim</a><br />
+                    &copy; 2025 <a href="../../../..">Josh Izaac</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+      var e = document.querySelectorAll(".email");
+      for (var i = 0; i < e.length; i++) {
+        var email = e[i].getAttribute("data-email")
+        var title = e[i].getAttribute("data-title")
+        if (email){
+          e[i].href = email.split("").reverse().join("");
+          e[i].removeAttribute("data-email");
+          e[i].removeAttribute("data-title");
+          e[i].removeAttribute("class");
+          if (title){
+            e[i].setAttribute("title", title);
+          }
+          else{
+            e[i].removeAttribute("title");
+          }
+        }
+      }
+    })
+  </script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const ninja = document.querySelector('ninja-keys');
+
+    let rawSearchData = [];
+    let searchIngredients = false;
+
+    // Helper to pierce the Shadow DOM (Works on all Ninja Keys versions)
+    const getNinjaInput = () => {
+        if (!ninja || !ninja.shadowRoot) return null;
+        let input = ninja.shadowRoot.querySelector('input');
+        if (!input && ninja.shadowRoot.querySelector('ninja-header')) {
+            input = ninja.shadowRoot.querySelector('ninja-header').shadowRoot.querySelector('input');
+        }
+        return input;
+    };
+
+    // The single, isolated toggle function
+    const toggleIngredientSearch = () => {
+        const inputEl = getNinjaInput();
+        const currentSearch = inputEl ? inputEl.value : "";
+
+        // 1. Flip the state and rebuild data
+        searchIngredients = !searchIngredients;
+        updateNinjaData();
+
+        // 2. Restore text and bust the search cache
+        setTimeout(() => {
+            const newInp = getNinjaInput();
+            if (newInp) {
+                // Trick Ninja Keys into re-filtering by briefly adding a space
+                newInp.value = currentSearch + " ";
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+
+                // Immediately remove it
+                newInp.value = currentSearch;
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+            }
+        }, 10);
+    };
+
+    // --- THE FIX: Handle the Hotkey Globally ---
+    // This guarantees Cmd+I only ever fires EXACTLY once per press.
+    document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'i') {
+            e.preventDefault();
+            toggleIngredientSearch();
+        }
+    });
+
+    function updateNinjaData() {
+        if (!ninja || rawSearchData.length === 0) return;
+
+        const menuItems = rawSearchData.map((item, index) => {
+            if (item.type === 'Physical') {
+                const ingString = item.ingredients && item.ingredients.length > 0
+                                  ? item.ingredients.join(', ')
+                                  : '';
+
+                const params = new URLSearchParams({
+                        recipe: item.title,
+                        book: item.book,
+                        tags: searchIngredients ? 'show' : 'hide'
+                    });
+
+                return {
+                    id: `physical-${index}`,
+                    title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
+                    section: item.wishlist ? `📚 Wishlist: ${item.book}` : `📚 Cookbook: ${item.book}`,
+                    icon: item.wishlist ? `🛒&nbsp;` : `📖&nbsp;`,
+                    // Use the global state variable
+                    keywords: searchIngredients ? ingString : "",
+                    handler: () => { window.location.href = `/cookbooks?${params.toString()}`; }
+                };
+            }
+
+            return {
+                id: item.url,
+                title: item.title,
+                section: item.type,
+                keywords: item.keywords,
+                handler: () => { window.location.href = item.url; }
+            };
+        });
+
+        // The Clickable Command
+        menuItems.push({
+            id: 'toggle-ingredients',
+            title: `Ingredient Search is ${searchIngredients ? 'ON' : 'OFF'} (Cmd+I to Toggle)`,
+            section: '⚙️ Preferences',
+            icon: searchIngredients ? '✅ ' : '❌ ',
+            // CRITICAL: We removed `hotkey: 'cmd+i'` from here so Ninja Keys stops breaking!
+            handler: () => {
+                toggleIngredientSearch();
+                return { keepOpen: true }; // Prevent UI flicker
+            }
+        });
+
+        menuItems.push({
+            id: 'home', title: 'Go to Home', section: 'Navigation',
+            hotkey: 'cmd+h', handler: () => { window.location.href = '/'; }
+        });
+
+        ninja.data = menuItems;
+    }
+
+    if (ninja) {
+        fetch('/search.json')
+            .then(response => response.json())
+            .then(data => {
+                rawSearchData = data;
+                updateNinjaData();
+            })
+            .catch(err => console.error("Failed to load search index:", err));
+    }
+});
+  </script>
+
+
+  <ninja-keys placeholder="Search..." hideBreadcrumbs></ninja-keys>
+
+
+<script>
+    // --- CUSTOM HIGHLIGHTING FIXES FOR CODE BLOCKS ---
+    document.addEventListener("DOMContentLoaded", function() {
+        const codeBlocks = document.querySelectorAll('.highlight pre');
+
+        codeBlocks.forEach(block => {
+            let html = block.innerHTML;
+
+            // 1. Highlight Pelican / YAML Frontmatter (e.g., Title: My Recipe)
+            // This regex looks for the start of a line (^), a word, a colon, and the rest of the line
+            const frontmatterRegex = /^((?:<[^>]+>)*\s*)([A-Za-z0-9_-]+):([ \t]+)(.*)$/gm;
+            html = html.replace(frontmatterRegex,
+                '$1<span class="nt">$2:</span>$3<span class="s">$4</span>'
+            );
+
+            // 2. Highlight [[Components]]
+            const wikiRegex = /\[\[(.*?)\]\]/g;
+            html = html.replace(wikiRegex,
+                '<span class="custom-wikilink"><span class="brackets">[[</span>$1<span class="brackets">]]</span></span>'
+            );
+
+            // Apply the new HTML back to the block
+            block.innerHTML = html;
+        });
+    });
+</script>
+
+</body>
+</html>
