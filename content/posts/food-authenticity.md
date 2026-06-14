@@ -24,8 +24,7 @@ More glaringly, why do we apply these rules so unevenly across the map? Step int
 cuisine, and you often see the exact opposite phenomenon. A content creator will be widely
 celebrated for an authentic [Hainanese chicken rice recipe](/recipes/hainanese-chicken-rice/) that, while undeniably delicious
 looking on camera, fundamentally ignores the key regional flavors that make the Singaporean dish
-what it actually is[ref]As someone born and raised in Singapore, to me Hainanese chicken rice will
-always be a Singaporean dish. Sorry, Malaysians.[/ref]. We demand absolute historical fidelity from
+what it actually is[ref]As someone born and raised in Singapore, I fall on the 'Hainanese chicken rice is a Singaporean dish' side of the chicken rice debate --- sorry, Malaysia. One day I will aim to try various Malaysian variations, such as chicken rice balls![/ref]. We demand absolute historical fidelity from
 a bowl of Italian pasta, yet happily accept an aesthetic homogenization of Asian food.
 
 Why are we shouting about authenticity without pausing to consider a dish's history, its cultural
@@ -194,7 +193,7 @@ There is nothing inherently wrong with serving poached chicken with ginger scall
 delicious condiment. Food is inherently fluid, and culinary drift is the very mechanism that gave us
 these dishes in the first place. Carbonara is an Italian masterpiece (perhaps) born from
 American rations, and Singaporean chicken rice exists because of the cultural melting-pot that
-Singapore *is*[ref]While I focused on Singaporean chicken rice in this blog post, it is worth mentioning that versions of chicken rice exist across South East Asia, from Thailand's Khao Man Gai to Vietnam's Cơm Gà Hải Nam. And all are related but distinct dishes with their own rich histories and culture.[/ref].
+Singapore *is*[ref]While I focused on Singaporean chicken rice in this blog post, it is worth mentioning that versions of chicken rice exist across South East Asia, from Thailand's Khao Man Gai to Vietnam's Cơm Gà Hải Nam. All are related but distinct dishes with their own rich histories and culture.[/ref].
 
 We should stop locking recipes into immutable, imaginary vaults. But abandoning purity doesn't mean
 abandoning context. Presenting a recipe to a global audience as an authentic hawker classic while
