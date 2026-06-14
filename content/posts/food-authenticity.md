@@ -161,12 +161,12 @@ similar poaching methods. And white cut chicken is frequently served with a cond
 geung yung --- consisting of finely minced ginger, finely minced garlic, spring onion, salt and hot
 oil(!!).
 
-In this context, the cross-polination of the dish makes sense. Rather than representing the
-Singaporean dish as it is often served in Singapore, the intense, pure ginger paste of the hawker
-stalls and the sweet kecap manis is usually swapped out for the milder, universally recognized
-green Cantonese sauce. (And typically, we see the pandan leaf often missing and unmentioned).
+In this context, the cross-pollination of the dish makes sense. Rather than representing the
+Singaporean dish as it is often served in Singapore, the intense ginger paste and the sweet kecap manis
+is usually swapped out for the milder, universally recognized
+green Cantonese sauce. (And typically, we see the pandan leaf often missing and unmentioned.)
 
-This distortion somtimes extends to the rice itself. Authentic Singaporean chicken rice gets its
+This distortion sometimes extends to the rice itself. Authentic Singaporean chicken rice gets its
 subtle, pale ivory color strictly from frying the raw grains in rendered chicken fat, garlic, and
 ginger, before simmering them in rich chicken stock and knotted pandan leaves. But in many recipes,
 tumeric is often added, forcing the rice a sunshine yellow (that definitely pops on YouTube).
