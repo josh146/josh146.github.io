@@ -70,7 +70,7 @@ variation was embraced:
 It wasn't until the late 1990s and early 21st century that the recipe crystallized into its current,
 rigid dogma; but even this process was complex. Up until the 2010s, recipes were still appearing in
 Italian cookbooks and newspapers that treated carbonara as a living, breathing dish with natural
-substitutions. Up until 2013, La Cucina Italiana --- the [long-lived monthly Italian food and
+substitutions. In 2013, La Cucina Italiana --- the [long-lived monthly Italian food and
 cooking magazine](https://en.wikipedia.org/wiki/La_Cucina_Italiana) that you might recognize from
 the list above --- was still recommending pancetta as a substitute for guanciale, grana padana in
 addition to pecorino, and a splash of milk (if you are so inclined). It wasn't until 2020 that their recipe 
@@ -155,21 +155,23 @@ Singapore.
 
 So how did this green scallion oil become the default garnish in the digital consciousness? Outside
 of Southeast Asia, and with a large Cantonese diaspora in North America and the UK, Hainanese
-chicken rice frequently gets lumped together with a cousin of Wenchang chicken: classic Cantonese
-[white cut chicken (*Pak Cham Kai*)](https://en.wikipedia.org/wiki/White_cut_chicken), which shares
-similar poaching methods. And white cut chicken is frequently served with a condiment known as
-geung yung --- consisting of finely minced ginger, finely minced garlic, spring onion, salt and hot
-oil(!!).
+chicken rice frequently gets conflated with a culinary cousin of Wenchang chicken: classic Cantonese
+[white cut chicken (*Pak Cham Kai*)](https://en.wikipedia.org/wiki/White_cut_chicken). And white cut chicken is frequently served with a condiment known as
+geung yung --- consisting of mixing finely minced ginger, finely minced garlic, spring onion, salt and sizzling hot
+oil (sound familiar?).
 
-In this context, the cross-pollination of the dish makes sense. Rather than representing the
-Singaporean dish as it is often served in Singapore, the intense ginger paste and the sweet kecap manis
-is usually swapped out for the milder, universally recognized
-green Cantonese sauce. (And typically, we see the pandan leaf often missing and unmentioned.)
+Because the poaching methods are practically identical, the dishes merge. Rather than reproducing
+the intense ginger paste and sweet kecap manis of a Singaporean hawker stall, global recipe
+creators simply swap in geung yung --- the milder, universally recognized Cantonese
+scallion-and-hot-oil sauce that admittedly is very flashy to put together on camera. (The knotted pandan
+leaves, too, often quietly disappear.)
 
-This distortion sometimes extends to the rice itself. Authentic Singaporean chicken rice gets its
-subtle, pale ivory color strictly from frying the raw grains in rendered chicken fat, garlic, and
-ginger, before simmering them in rich chicken stock and knotted pandan leaves. But in many recipes,
-tumeric is often added, forcing the rice a sunshine yellow (that definitely pops on YouTube).
+With so much food media being driven by video these days (e.g., YouTube Shorts, Instagram Reels, and
+TikTok), sometimes these visually-driven modifications extend to the rice itself. Singaporean
+chicken rice gets its subtle, pale ivory color strictly from frying the raw grains in rendered
+chicken fat, garlic, and ginger, before simmering them in the rich chicken-poaching liquid with
+knotted pandan leaves. But in many recipes, tumeric is often added, forcing the rice a sunshine
+yellow that pops brilliantly in thumbnails.
 
 And all of this is perfectly fine!
 
