@@ -42,6 +42,10 @@ The most famous example of this phenomena is certainly the aforementioned carbon
 that it has become a meme *beyond* food media
 (['if my grandmother has wheels she would have been a bike!'](https://www.youtube.com/watch?v=A-RfHC91Ewc)).
 
+
+<img src='/images/carbonara-dinner.jpg' style="max-width: 600px;" />
+<center><em>A weeknight riff on carbonara with beef bacon, onsen egg, and chives.</em></center>
+
 Today, the authorized version of the dish is fiercely guarded: strictly guanciale (not bacon or
 ham!), pecorino romano, eggs, and black pepper. But peel back the historical record, and you find
 that this purity is a relatively modern invention.
@@ -75,10 +79,10 @@ officially morphs into the 'authentic' carbonara we fight about today[ref]For mo
 watch this [wonderful video by W2 Kitchen](https://www.youtube.com/watch?v=jrz0KhclCWM), from which
 the historical carbonara recipes in this blog post are sourced and cooked.[/ref].
 
-The sudden elimination of cream probably coincides with a wave of "gastronationalism" --- an
+The sudden elimination of cream might coincide with a wave of 'gastronationalism' --- an
 effort to construct a specific, unyielding national identity through the sanctity of food ---
-as well as social media and food snobbery. We
-find ourselves in an odd situation where the fierce defense of "authentic" carbonara is simply
+as well as social media and food snobbery. Whatever the cause, we
+find ourselves in an odd situation where the fierce defense of 'authentic' carbonara is simply
 enforcing a standard that we only universally agreed upon perhaps one or two decades ago.
 
 To see how global media, migration, and memory distort our culinary context, we can look at a dish
