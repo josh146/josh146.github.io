@@ -17,7 +17,7 @@ Roman pasta with French ingredients (sparking international incidents such as ['
 [udon carbonara](https://www.marionskitchen.com/udon-carbonara/)?
 
 
-<img src='/images/carbonara-eataly.jpg' style="max-width: 600px;" />
+<img src='/images/carbonara-eataly.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>My local Eataly is down to break the Carbonara rules.</em></center>
 
 More glaringly, why do we apply these rules so unevenly across the map? Step into the realm of Asian
@@ -42,7 +42,7 @@ that it has become a meme *beyond* food media
 (['if my grandmother has wheels she would have been a bike!'](https://www.youtube.com/watch?v=A-RfHC91Ewc)).
 
 
-<img src='/images/carbonara-dinner.jpg' style="max-width: 600px;" />
+<img src='/images/carbonara-dinner.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>A weeknight riff on carbonara with beef bacon, onsen egg, and chives.</em></center>
 
 Today, the authorized version of the dish is fiercely guarded: strictly guanciale (not bacon or
@@ -100,7 +100,7 @@ mourning the loss of Swee Kee). The truth was, the 'best' was a deeply personal,
 truth, debated endlessly and based often on what you remembered from childhood.
 
 
-<img src='/images/chicken-rice-maxwell.jpg' style="max-width: 600px;" />
+<img src='/images/chicken-rice-maxwell.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>Chicken rice from Tian Tian Hainanese Chicken Rice at Maxwell Food Centre, Singapore. Arguably Singapore's most famous chicken rice after being featured Anthony Bourdain's No Reservations.</em></center>
 
 For my family, the best chicken rice was a place I never actually got to experience (well, maybe ---
@@ -120,7 +120,7 @@ Cafe. Strangely, I remember the plating more than the taste of the dish --- the 
 served on a specialized plate with separate sections for the cold poached chicken and hot, fragrant
 rice. Between them, three distinct, molded divots built into the plate itself.
 
-<img src='/images/chicken-rice-condiments.jpg' style="max-width: 600px;" />
+<img src='/images/chicken-rice-condiments.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>Chicken rice in Singapore with the three ubiquitous condiments.</em></center>
 
 That physical architecture dictated the (more-of-less) 'holy trinity' of condiments that must accompany a
@@ -134,7 +134,7 @@ To trace the genealogy of this dish is to chart a map of immigration and diaspor
 of Hainan and tasted the dish's undisputed ancestor: [Wenchang chicken](https://en.wikipedia.org/wiki/Wenchang_chicken).
 
 
-<img src='/images/wenchang-chicken.jpg' style="max-width: 600px;" />
+<img src='/images/wenchang-chicken.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>Wenchang chicken at Dadonghai bay in Sanya, Hainan.</em></center>
 
 It is a fundamentally different experience --- a
@@ -150,7 +150,7 @@ recipes for Hainanese chicken rice feature a vibrant green ginger-scallion oil i
 kecap manis or ginger paste --- a sauce you will never see at a neighborhood hawker center in
 Singapore.
 
-<img src='/images/chicken-rice-toronto.jpg' style="max-width: 600px;" />
+<img src='/images/chicken-rice-toronto.jpg' style="max-width: 600px; width: 100%;" />
 <center><em>Chicken rice in Toronto with green scallion oil on the side.</em></center>
 
 So how did this green scallion oil become the default garnish in the digital consciousness? Outside
