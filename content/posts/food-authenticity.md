@@ -184,7 +184,7 @@ re-interpreted and adapted (with sauces swapped and flavours modified) with litt
 correction from a proud Singaporean buried deep in the comments section?[ref]Something I have not touched on
 in too much detail here, but is still interesting nonetheless, is the difference in how we view European cuisines 
 vs. Asian cuisines. Two observations: Asian cuisines have often been treated in a more monolithic fashion than 
-European cuisines, *and* European countries often have institutional power (such as government organization) 
+European cuisines, *and* European countries often have institutional power (such as government organizations) 
 backing its food and cuisine.[/ref]
 
 ---
