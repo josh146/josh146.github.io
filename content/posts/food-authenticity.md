@@ -199,8 +199,17 @@ Singapore *is*[ref]While I focused on Singaporean chicken rice in this blog post
 
 We should stop locking recipes into immutable, imaginary vaults. But abandoning purity doesn't mean
 abandoning context. Presenting a recipe to a global audience as an authentic hawker classic while
-serving it with a Cantonese condiment and turmeric-stained rice loses the context and history of
+serving it with a Cantonese condiment and turmeric-stained rice loses the culinary context and history of
 the dish.
+
+I like the way Mike Madaio phrases it in [his blog post on the topic](https://lifeattable.substack.com/p/everything-you-know-about-culinary):
+
+>Embracing the idea of authenticity — a deep connection to a certain place, culture or time — can
+ absolutely be rewarding, so by all means do enjoy the foods, drinks, etc. that are authentic to
+ you, your family, culture, etc. Cherish them, learn about them, share them with others (and learn
+ about their own authentic things), and especially pass them along to your next generation. But
+ also accept them with grains of salt and humility; understand that these things have changed, do
+ change, and will continue to change.
 
 When we drop the obsession with purity, we can actually start having interesting conversations about
 how recipes travel, merge, and adapt. We can stop arguing over whether a dish is perfectly
