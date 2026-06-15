@@ -186,12 +186,12 @@ re-interpreted and adapted (with sauces swapped and flavours modified) with litt
 correction from a proud Singaporean buried deep in the comments section?[ref]Something I have not touched on
 in too much detail here, but is still interesting nonetheless, is the difference in how we view European cuisines 
 vs. Asian cuisines. Two observations: Asian cuisines have often been treated in a more monolithic fashion than 
-European cuisines, *and* European countries often have institutional power (such as government organizations) 
+European cuisines, *and* European countries often have institutional power (such as government organizations and protectionist trade policies) 
 backing its food and cuisine.[/ref]
 
 ---
 
-There is nothing inherently wrong with serving poached chicken with ginger scallion oil; it is a
+There is nothing wrong with serving poached chicken with ginger scallion oil; it is a
 delicious condiment. Food is inherently fluid, and culinary drift is the very mechanism that gave us
 these dishes in the first place. Carbonara is an Italian masterpiece (perhaps) born from
 American rations, and Singaporean chicken rice exists because of the cultural melting-pot that
@@ -213,7 +213,7 @@ I like the way Mike Madaio phrases it in [his blog post on the topic](https://li
 
 When we drop the obsession with purity, we can actually start having interesting conversations about
 how recipes travel, merge, and adapt. We can stop arguing over whether a dish is perfectly
-authentic, and start asking the far more interesting question: *who is it authentic to, and how did
+authentic, and start asking far more interesting questions: *who is it authentic to, and how did
 it get to be the way it is?*
 
 ---
