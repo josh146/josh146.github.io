@@ -104,7 +104,7 @@ truth, debated endlessly and based often on what you remembered from childhood.
 <center><em>Chicken rice from Tian Tian Hainanese Chicken Rice at Maxwell Food Centre, Singapore. Arguably Singapore's most famous chicken rice after being featured Anthony Bourdain's No Reservations.</em></center>
 
 For my family, the best chicken rice was a place I never actually got to experience (well, maybe ---
-I likely was just too young and don't remember). [Swee Kee Chicken Rice](https://www.google.com/search?q=https://eresources.nlb.gov.sg/infopedia/articles/SIP_1058_2010-04-19.html),
+I likely was just too young and don't remember). [Swee Kee Chicken Rice](https://ieatishootipost.sg/rui-kee-hainanese-chicken-rice-the-return-of-swee-kee/),
 operating out of a bustling shophouse on Middle Road starting in the 1940s, was widely credited
 with pioneering the modern, hawker-style incarnation of the dish. Long after Swee Kee shuttered its
 doors in 1997, my extended family on Friday nights would speak of it with the kind of passionate,
