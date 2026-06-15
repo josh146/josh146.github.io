@@ -18,7 +18,7 @@ Roman pasta with French ingredients (sparking international incidents such as ['
 
 
 <img src='/images/carbonara-eataly.jpg' style="max-width: 600px; width: 100%;" />
-<center><em>My local Eataly is down to break the Carbonara rules.</em></center>
+<center><em>My local Eataly is down to break the carbonara rules.</em></center>
 
 More glaringly, why do we apply these rules so unevenly across the map? Step into the realm of Asian
 cuisine, and you often see the exact opposite phenomenon. A content creator will be widely
