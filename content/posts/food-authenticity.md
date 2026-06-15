@@ -213,6 +213,7 @@ I like the way Mike Madaio phrases it in [his blog post on the topic](https://li
 
 When we drop the obsession with purity, we can actually start having interesting conversations about
 how recipes travel, merge, and adapt. We can stop arguing over whether a dish is perfectly
-authentic, and start asking the far more interesting question: *how did it get to be the way it is?*
+authentic, and start asking the far more interesting question: *who is it authentic to, and how did
+it get to be the way it is?*
 
 ---
