@@ -4,6 +4,9 @@ Date: 2026-06-22 16:00
 Category: cooking
 Author: Josh Izaac
 
+> **Update**: This blogpost has been getting a (minor) amount of attention over on Hackernews and
+  Metafilter. I took a moment in a [new blogpost](/posts/2026/06/notes-on-intuitive-cooking) to go through some of the comments.
+
 One of my favorite [recipes for challah](https://iza.ac/recipes/challah/) does not tell you how much flour to use.
 
 To a modern amateur baker, this omission borders on heresy. In an era where we measure yeast to the
