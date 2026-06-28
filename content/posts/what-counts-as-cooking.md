@@ -140,7 +140,7 @@ short — they were not the lasagna I craved.
 
 The lasagna I am nostalgic for is the one my mum made. She did not braise short ribs. She did not
 knead pasta dough. Her lasagna was constructed in about an hour on a busy weeknight. She used
-supermarket beef mince, a jar of Dolmio bolognese sauce, a jar of Dolmio béchamel sauce, and
+supermarket beef mince, a jar of Dolmio bolognese sauce, a jar of Dolmio béchamel sauce[ref]Interestingly, this jarred béchamel is gluten free, being made with cornflour.[/ref], and
 handfuls of pre-grated cheddar cheese straight from the bag, simply because that was what she
 always had on hand in the fridge.
 
@@ -155,9 +155,9 @@ always had on hand in the fridge.
 Was it traditional? No. Was it from scratch? Definitely not.
 
 But it was bubbling, golden, and deeply comforting. When I eat lasagna today, that specific mix of
-jarred tomato sauce and melted cheddar is the exact flavour profile my heart is searching for. My
-mum didn't apologize for using Dolmio, or even consider that that wasn't the 'proper' way to make
-lasagna. She put a hot, delicious meal on the table.
+jarred bolognese sauce and melted cheddar is the exact flavour profile my heart is searching for.
+My mum didn't apologize for using Dolmio, or even consider that that wasn't the 'proper' way to
+make lasagna. She put a hot, delicious meal on the table.
 
 She cooked.
 
