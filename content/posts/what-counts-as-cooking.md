@@ -115,11 +115,12 @@ backbone of the modern pantry, the stigma would have eventually worn off. But hu
 efficient at manufacturing new and exciting forms of guilt. I suspect the stigma never really
 vanished; it just evolved.
 
-Perhaps, as food delivery exploded and shortcuts became available to everyone, cooking from scratch
-ceased to be a grim necessity and morphed into something else: a status symbol. It seems to now
-signal that you possess the ultimate modern luxury --- *free time*. The guilt surrounding convenience
-foods simply evolved: what used to be a dereliction of duty (the avoidance of hard labor) has
-morphed into a dereliction of status (the feeling that you aren't really 'cooking' at all).
+Perhaps, as food delivery exploded and shortcuts became available to everyone, and social media and
+reality TV became parts of daily life, cooking from scratch ceased to be a grim necessity and
+morphed into something else: a status symbol. It seems to now signal that you possess the ultimate
+modern luxury --- *free time*. The guilt surrounding convenience foods simply evolved: what used to
+be a dereliction of duty (the avoidance of hard labor) has morphed into a dereliction of status
+(the feeling that you aren't really 'cooking' at all).
 
 It is entirely possible that we never actually stopped viewing the jar of pasta sauce as a culinary
 failure; we just changed our reasoning for *why* it was a failure.
