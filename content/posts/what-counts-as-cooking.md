@@ -91,7 +91,7 @@ and the kitchen is no longer a place of domestic utility, but a stage. A place o
 When you are saturated in this media, you begin to compare your chaotic, weeknight survival tactics
 to someone else's performative hobby. If you aren't making the pasta or tortillas by hand[ref]In
 later MasterChef Australia seasons, it would be treated as a mortal sin to not make pasta
-or tortilla by hand — even if the pasta dish came from a region of Italy where dried semolina pasta was the norm! There was a controversial moment where judges docked a contestant for not making their own tortillas, while viewers were left wondering why they would tempt them with [pre-packaged tortillas provided in the challenge pantry](https://www.reddit.com/r/MasterchefAU/comments/g8bj9m/masterchef_australia_s12e10_episode_discussion/fomopkw/)?
+or tortilla by hand — even if the pasta dish came from a region of Italy where dried semolina pasta was the norm! There was a controversial moment where judges docked a contestant for not making their own tortillas, while viewers were left wondering why then would they tempt contestants with [pre-packaged tortillas available in the MasterChef pantry](https://www.reddit.com/r/MasterchefAU/comments/g8bj9m/masterchef_australia_s12e10_episode_discussion/fomopkw/)?
 [/ref], the inner critic whispers, you aren't *really* cooking.
 
 ---
