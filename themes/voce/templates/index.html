@@ -3,17 +3,19 @@
 {% block title %}Posts. | {{ SITENAME }}{% endblock %}
 
 {% block masthead %}
-    <header class="entry-header page-header newspaper-masthead">
+<!--     <header class="entry-header page-header newspaper-masthead">
       <h1 class="entry-title">Posts.</h1>
-    </header>
+    </header> -->
+    <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/heroes/hero10.jpg');">
+        <h1 class="recipe-title hero-text">Posts.</h1>
+    </div>
 
     {% if articles|count > 0 %}
     <div class="tagline">
-        {% if TAGS_URL %}
-          {% for tag, articles in tags|sort %}
-            <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}>{{ tag }} ({{ articles|count }})</a> &#124;
-          {% endfor %}
-        {% endif %}
+        <a href="/posts">All ({{ articles|count if articles|count > all_articles|count else all_articles|count }})</a> &#124;
+        {% for category, articles in categories|sort %}
+        <a href="{{ SITEURL }}/{{ category.url }}" {{ 'class="active"' if  output_file == category.url }}>{{ category }} ({{ articles|count }})</a> &#124;
+        {% endfor %}
         {% if ARCHIVES_URL %}
             <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" {{ 'class="active"' if  output_file == ARCHIVES_URL }}>{{ 'Archives ('+ articles|count|string + ')' if  articles|count > all_articles|count  else 'Archives (' + all_articles|count|string + ')'}}</a>
         {% endif %}
@@ -27,27 +29,52 @@
 {% endblock %}
 
 {% block content %}
+<div class="blog-container">
 {% for article in articles_page.object_list %}
 {% if loop.first %}
 <article class="post featured-story">
-{% else %}
-<article class="post">
-{% endif %}
     <div class="blog-item-wrap">
         <div class="post-inner-content">
             <header class="entry-header page-header">
                 <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
                 <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-            </header><!-- .entry-header -->
+            </header>
+            {% if article.image %}
+            <div class="featured-grid">
+                <div class="entry-content">
+                    {{ article.summary|striptags }}
+                </div>
+                <div class="thumbnail">
+                    <img src="{{ article.image }}" />
+                </div>
+            </div>
+            {% else %}
             <div class="entry-content">
                 {{ article.summary|striptags }}
-            </div><!-- .entry-content -->
+            </div>
+            {% endif %}
         </div>
     </div>
-</article><!-- #post-## -->
+</article>
+{% else %}
+<article class="post">
+    <div class="blog-item-wrap">
+        <div class="post-inner-content">
+            <header class="entry-header page-header">
+                <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            </header>
+            <div class="entry-content">
+                {{ article.summary|striptags }}
+            </div>
+        </div>
+    </div>
+</article>
+{% endif %}
 {% if not loop.last %}
 {% endif %}
 {% endfor %}
+</div>
 {% endblock %}
 
 {% block footer %}

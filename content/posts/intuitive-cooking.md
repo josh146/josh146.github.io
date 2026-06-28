@@ -3,6 +3,7 @@ Slug: intuitive-cooking
 Date: 2026-06-22 16:00
 Category: cooking
 Author: Josh Izaac
+Summary: One of my favorite recipes for challah does not tell you how much flour to use. To a modern amateur baker, this ommision borders on heresy. But it is an honest reflection of how the bread is personally made --- cooking is a deeply personal experience, and culinary precision is no replacement for intuition.
 
 > **Update**: This blogpost has been getting a (minor) amount of attention over on Hackernews and
   Metafilter. I took a moment in a [new blogpost](/posts/2026/06/notes-on-intuitive-cooking) to go through some of the comments.

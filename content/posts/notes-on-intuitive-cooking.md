@@ -3,6 +3,7 @@ Slug: notes-on-intuitive-cooking
 Date: 2026-06-26 16:00
 Category: cooking
 Author: Josh Izaac
+Image: /images/recipes/challah.jpg
 
 My previous blog post,
 [The anxiety of the perfect loaf: the illusion of culinary precision](/posts/2026/06/intuitive-cooking/), has
