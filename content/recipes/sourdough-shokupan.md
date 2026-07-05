@@ -97,9 +97,6 @@ proofing box, I like to set the bulk fermentation temperature to 27ºC. When ful
 1. If baking without the pullman pan lid, brush the top of the dough with egg wash, and bake for 30-40
 minutes. If baking with the lid on, remove the lid at this point and return the pan to the oven for an additional 5 minutes.
 
-1. After 20 minutes, vent the oven and remove the baking tray with water. Continue to bake for another 30-35 minutes. The internal temperature of the
-loaf should be 96-99ºC.
-
 1. Leave to rest on a wire rack for at least 2 hours before slicing.
 
 
