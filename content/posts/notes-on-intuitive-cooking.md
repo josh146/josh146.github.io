@@ -3,6 +3,7 @@ Slug: notes-on-intuitive-cooking
 Date: 2026-06-26 16:00
 Category: cooking
 Author: Josh Izaac
+Tags: food essay
 Image: /images/recipes/challah.jpg
 
 My previous blog post,

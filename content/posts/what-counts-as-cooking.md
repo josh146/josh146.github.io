@@ -2,6 +2,7 @@ Title: What counts as cooking? In defense of the store-bought sauce
 Slug: what-counts-as-cooking
 Date: 2026-06-28 16:00
 Category: cooking
+Tags: food essay
 Author: Josh Izaac
 
 "I didn't cook dinner last night," my sister mentioned to me the other week.

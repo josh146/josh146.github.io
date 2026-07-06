@@ -24,10 +24,13 @@ PLUGINS = [
     "pelican.plugins.embed_tweet",
     "pelican.plugins.render_math",
     "pelican.plugins.simple_footnotes",
+    "pelican.plugins.related_posts",
     "sitemap",
     "cookbook"
     # "pelican.plugins.seo"
 ]
+
+RELATED_POSTS_MAX = 3
 
 SITEMAP = {
     "format": "xml",

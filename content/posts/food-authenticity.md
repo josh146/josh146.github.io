@@ -2,6 +2,7 @@ Title: What even is food authenticity? Why we guard carbonara --- and flatten ch
 Slug: food-authenticity
 Date: 2026-06-13 16:00
 Category: cooking
+Tags: food essay
 Author: Josh Izaac
 
 There is a peculiar theater to the internet's culinary landscape, and if you spend enough time

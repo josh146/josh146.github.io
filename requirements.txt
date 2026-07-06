@@ -16,6 +16,7 @@ pelican-render-math==1.0.5
 pelican-seo==1.4.0
 pelican-simple-footnotes==1.0.3
 pelican-sitemap==1.2.2
+pelican-related-posts==1.0.0
 pygments==2.18.0
 python-dateutil==2.9.0.post0
 PyYAML==6.0.3
