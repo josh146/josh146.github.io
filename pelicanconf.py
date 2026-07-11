@@ -25,6 +25,7 @@ PLUGINS = [
     "pelican.plugins.render_math",
     "pelican.plugins.simple_footnotes",
     "pelican.plugins.related_posts",
+    "pelican.plugins.social_cards",
     "sitemap",
     "cookbook"
     # "pelican.plugins.seo"
@@ -45,6 +46,16 @@ SITEMAP = {
         "pages": "monthly"
     }
 }
+
+# open graph images
+SOCIAL_CARDS_TEMPLATE = "content/misc/card-template2.png"
+SOCIAL_CARDS_FONT_FILENAME = "content/misc/AmaticSC-Bold.ttf"
+SOCIAL_CARDS_CANVAS_WIDTH = 600
+SOCIAL_CARDS_CANVAS_HEIGHT = 300
+SOCIAL_CARDS_CANVAS_LEFT = 80
+SOCIAL_CARDS_CANVAS_TOP = 190
+SOCIAL_CARDS_HORIZONTAL_ALIGNMENT = "left"
+SOCIAL_CARDS_VERTICAL_ALIGNMENT = "center"
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -117,7 +128,7 @@ SUMMARY_MAX_LENGTH = 50
 # Paths and URLS
 # ~~~~~~~~~~~~~~~~
 
-STATIC_PATHS = ["images", "extras/CNAME", "pdf"]
+STATIC_PATHS = ["images", "extras/CNAME", "pdf", "social-cards"]
 EXTRA_PATH_METADATA = {
     "extras/CNAME": {"path": "CNAME"},
     "extras/htaccess": {"path": ".htaccess"},

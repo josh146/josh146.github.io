@@ -25,7 +25,12 @@
   <meta property="og:title" content="{{ self.title() }}">
   <meta property="og:url" content="{% block og_url %}{{ SITEURL }}{% endblock %}">
   <meta property="og:description" content="{{ self.description() }}">
+
+  {% if article %}
+  <meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}"/>
+  {% else %}
   <meta property="og:image" content="{% block og_image %}{{ LOGO }}{% endblock %}">
+  {% endif %}
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
