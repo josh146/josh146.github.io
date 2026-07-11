@@ -49,6 +49,7 @@ hr::before {
     opacity: 0.7;
     text-shadow: 2px 2px 3px rgba(117, 113, 94, 0.4);
 }
+
 </style>
 
 <article>
@@ -77,23 +78,17 @@ hr::before {
   {% if article.related_posts %}
   <div class="related">
     <h2>Related posts</h2>
-    <div id="recipe-gallery" class="recipe-gallery">
+    <div id="related-gallery" class="related-gallery">
 
     {% for related_post in article.related_posts %}
-    <div class="recipe-card vintage-recipe-card">
-        <a href="{{ SITEURL }}/{{ related_post.url }}">
-          <div class="card-details">
-              <h3>{{ related_post.title }}</h3>
-          </div>
-        </a>
-    {% endfor %}
+    <div class="vintage-related-card">
+      <a href="{{ SITEURL }}/{{ related_post.url }}">
+        <div class="card-details">
+            <h3>{{ related_post.title }}</h3>
+        </div>
+      </a>
     </div>
-
-    <ul>
-    {% for related_post in article.related_posts %}
-        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
     {% endfor %}
-    </ul>
   </div>
   {% endif %}
 
