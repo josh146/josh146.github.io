@@ -48,6 +48,7 @@ SITEMAP = {
 }
 
 # open graph images
+OG_IMAGE = "/images/og-image5.png"
 SOCIAL_CARDS_TEMPLATE = "content/misc/card-template2.png"
 SOCIAL_CARDS_FONT_FILENAME = "content/misc/AmaticSC-Bold.ttf"
 SOCIAL_CARDS_CANVAS_WIDTH = 600
