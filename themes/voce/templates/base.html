@@ -27,7 +27,7 @@
   <meta property="og:description" content="{{ self.description() }}">
 
   {% if article %}
-  <meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}"/>
+  <meta property="og:image" content="/{{ article.og_image }}"/>
   {% else %}
   <meta property="og:image" content="{% block og_image %}{{ LOGO }}{% endblock %}">
   {% endif %}
