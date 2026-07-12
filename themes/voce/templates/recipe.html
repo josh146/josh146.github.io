@@ -505,6 +505,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // create buttons for each theme
     Object.keys(variations).forEach(theme => {
+        if ( theme === 'Blueprint' ) {
+            return;
+        }
         const btn = document.createElement('button');
         btn.innerText = theme;
         btn.className = 'vibe-btn';
