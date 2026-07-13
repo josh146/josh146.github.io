@@ -19,9 +19,12 @@
     <h1 class="recipe-title hero-text">{{ page.title }}</h1>
 </div>
 {% else %}
-<header class="entry-header page-header">
-  <h1 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h1>
-</header><!-- .entry-header -->
+<div class="hero-image">
+    <h1 class="recipe-title hero-text" style="color: black;">
+        {% if page.logo %}<img src="{{ page.logo }}" style="height:220px;" />{% endif %}
+        <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
+    </h1>
+</div>
 {% endif %}
 {% endblock %}
 
