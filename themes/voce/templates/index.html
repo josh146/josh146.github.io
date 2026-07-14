@@ -11,7 +11,7 @@
     </div> -->
     <div class="hero-image" style="border-bottom: 1px solid #ddd;">
         <h1 class="recipe-title hero-text" style="color: black; font-family: 'Playfair Display'; font-style: none;">
-            <img src="/images/posts_masthead.png" width=200 />
+            <img src="/images/posts_masthead.png"/>
             &<span style="font-style: italic;">Posts.</span>
         </h1>
     </div>
@@ -30,6 +30,17 @@
     <style>
     .entry-header {
       margin: 0;
+    }
+    .hero-text img {
+        width: 200px;
+    }
+    @media (max-width: 768px) {
+        .hero-text img {
+            width: 100px;
+        }
+        .hero-text {
+            font-size: 60px;
+        }
     }
     </style>
 {% endblock %}
