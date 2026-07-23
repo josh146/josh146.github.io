@@ -40,7 +40,7 @@
   <meta name="twitter:title" content="{{ self.title() }}">
 
   {% if article %}
-  <meta property="og:image" content="/{{ article.og_image }}"/>
+  <meta property="twitter:image" content="/{{ article.og_image }}"/>
   <meta name="twitter:description" content="{{ article.summary|striptags }}">
   {% else %}
   <meta name="twitter:image" content="{{ OG_IMAGE }}">

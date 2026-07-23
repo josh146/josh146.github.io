@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% if page.image %}
+{% set OG_IMAGE = page.image %}
+{% endif %}
+
 {% block head %}
     {{ super() }}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/recipe.css">
