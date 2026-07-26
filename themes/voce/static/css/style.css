@@ -418,38 +418,55 @@ article.post .post-categories a, .post-inner-content .cat-item a{
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+/* 1. Base Post Styling (Text Only) */
 article.post {
-  width: 100%;
-  margin: 0;
-  /*border-right: 1px solid #dedede;*/
-  padding: 20px;
-  background-color: #fff;
-}
-article.post:nth-child(3n+2) {
-    border-right: none;
-}
-article.post.featured-story {
-    grid-column: span 2;
-    /*border-bottom: 1px solid #dedede;*/
-    padding-bottom: 1.5rem;
+    grid-column: span 1; /* Takes up 1 out of 3 columns */
+    background-color: #fff;
+    padding: 30px;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
 }
 
-article.post.featured-story h2 {
-    font-size: 72px;
-    border-bottom: none;
+.story-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
-article.post .featured-grid {
-  display: grid;
-  grid-template-columns: auto 250px;
-  gap: 20px;
+
+/* 2. Image Post Styling (The "Lead Stories") */
+article.post.has-feature-image {
+    grid-column: span 2; /* Automatically takes up 2 columns! */
+    flex-direction: row; /* Puts image and text side-by-side */
+    gap: 35px;
+    align-items: stretch; /* Forces text and image containers to equal heights */
 }
-article.post .thumbnail {
-  margin: auto;
+
+/* Make the title bigger to emphasize the lead story */
+article.post.has-feature-image .entry-header h2 {
+    font-size: 52px;
 }
-article.post:nth-child(2) {
-    /*border-bottom: 1px solid #dedede;*/
-    padding-bottom: 1.5rem;
+
+article.post.has-feature-image .story-text {
+    flex: 1;
+    justify-content: center; /* Vertically centers the text next to the photo */
 }
+
+article.post.has-feature-image .story-image {
+    flex: 0 0 50%; /* Image strictly takes up exactly 50% of the wide card */
+    order: -1;     /* Places the image on the left side (change to 10 for right side) */
+}
+
+/* 3. Bulletproof Image Formatting */
+.story-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    object-fit: cover; /* Prevents the image from squishing or stretching */
+    border-radius: 2px;
+}
+
 article.grid {
   padding: 0;
   width: 325px;
@@ -1441,10 +1458,14 @@ p img{
 
 .blog-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5px 0.5px;
-    background-color: #dedede;
-    align-items: stretch;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-auto-flow: dense; /* Magically floats text-posts up to fill empty spots */
+
+    /* We use actual borders here instead of grey backgrounds to eliminate the Grey Box bug */
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    background-color: transparent;
+    gap: 0;
 }
 
 .entry-header h2 {
@@ -1462,31 +1483,23 @@ article.post .entry-content {
 }
 
 @media (max-width: 768px) {
-  .blog-container {
-    display: unset;
-  }
-  article.post.featured-story h2 {
-    font-size: 48px;
-  }
-  article.post .featured-grid {
-    display: unset;
-  }
-  article.post .thumbnail {
-    display: none;
-  }
-  .entry-header h2 {
-    font-size: 48px;
-  }
-  article.post {
-    border: none;
-    padding: 20px;
-  }
-  article.post:nth-child(2) {
-    border: none;
-  }
-  article.post.featured-story {
-    border-bottom: none;
-  }
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        border-left: none;
+        border-top: none;
+    }
+    article.post,
+    article.post.has-feature-image {
+        flex-direction: column;
+        padding: 25px 20px;
+        border-right: none;
+    }
+    article.post.has-feature-image .story-image {
+        order: 1; /* Always put images on bottom on mobile */
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* related cards */

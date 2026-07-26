@@ -4,6 +4,7 @@ Date: 2026-07-26 16:00
 Category: cooking
 Tags: food essay
 Author: Josh Izaac
+Image: /images/calamansi-for-sale.jpg
 
 There is a specific, sharp mist that hangs in the air when you slice into a calamansi. The fruit is
 small, usually no larger than a marble, with a thin green skin that yields an abrasive, floral

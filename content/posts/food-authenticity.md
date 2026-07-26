@@ -4,6 +4,7 @@ Date: 2026-06-13 16:00
 Category: cooking
 Tags: food essay
 Author: Josh Izaac
+Image: /images/carbonara-eataly.jpg
 
 There is a peculiar theater to the internet's culinary landscape, and if you spend enough time
 observing it, you will inevitably stumble into a warzone over authenticity. For example, no action

@@ -47,36 +47,12 @@
 
 {% block content %}
 <div class="blog-container">
-{% for article in articles_page.object_list %}
-{% if loop.first %}
-<article class="post featured-story">
-    <div class="blog-item-wrap">
-        <div class="post-inner-content">
-            <header class="entry-header page-header">
-                <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
-                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-            </header>
-            {% if article.image %}
-            <div class="featured-grid">
-                <div class="entry-content">
-                    {{ article.summary|striptags }}
-                </div>
-                <div class="thumbnail">
-                    <img src="{{ article.image }}" />
-                </div>
-            </div>
-            {% else %}
-            <div class="entry-content">
-                {{ article.summary|striptags }}
-            </div>
-            {% endif %}
-        </div>
-    </div>
-</article>
-{% else %}
-<article class="post">
-    <div class="blog-item-wrap">
-        <div class="post-inner-content">
+    {% for article in articles_page.object_list %}
+
+    <!-- Dynamically adds a class if a thumbnail exists! -->
+    <article class="post {% if article.image %}has-feature-image{% endif %}">
+
+        <div class="story-text">
             <header class="entry-header page-header">
                 <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
                 <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
@@ -85,12 +61,17 @@
                 {{ article.summary|striptags }}
             </div>
         </div>
-    </div>
-</article>
-{% endif %}
-{% if not loop.last %}
-{% endif %}
-{% endfor %}
+
+        {% if article.image %}
+        <div class="story-image">
+            <a href="{{ SITEURL }}/{{ article.url }}">
+                <img src="{{ article.image }}" alt="Photo for {{ article.title }}">
+            </a>
+        </div>
+        {% endif %}
+
+    </article>
+    {% endfor %}
 </div>
 {% endblock %}
 
