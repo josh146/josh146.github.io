@@ -49,9 +49,9 @@ hr::before {
     opacity: 0.7;
     text-shadow: 2px 2px 3px rgba(117, 113, 94, 0.4);
 }
-p:first-of-type::first-letter {
+:not(li,blockquote) > p:first-of-type::first-letter {
     float: left;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Amatic SC', serif;
     font-size: 5.5rem;          /* Makes the letter massive */
     line-height: 0.8;           /* Tightens the box so the text wraps neatly around it */
     padding-top: 0.1rem;
