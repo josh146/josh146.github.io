@@ -96,10 +96,10 @@ with date syrup or sugar. The standard chunks of stewed lamb or beef were also o
 minced beef.
 
 When the diaspora reached India, Baghdadi Jewish households frequently employed local Indian cooks.
-According to the Leviathan Jewish Journal, this cross-cultural kitchen dynamic fundamentally
-altered the diaspora's food. The cooks took that foundational sweet-and-sour instinct and matched it
+This cross-cultural kitchen dynamic fundamentally
+altered the diaspora's food; the cooks took that foundational sweet-and-sour instinct and matched it
 with local sugar and spices. The traditional stew underwent its first major metamorphosis, evolving
-into [bamya khattah](https://leviathanjewishjournal.com/2016/12/02/indian-jewish-fusion-bamya-khattah-okra-stew/) --- a sweet-and-sour okra stew that mirrored the Baghdadi palate through an Indian lens (and could be when bone-in chicken pieces became much more common in the dish, as opposed
+into [bamya khattah](https://leviathanjewishjournal.com/2016/12/02/indian-jewish-fusion-bamia-khattah-okra-stew/) --- a sweet-and-sour okra stew that mirrored the Baghdadi palate through an Indian lens (and could be when bone-in chicken pieces became much more common in the dish, as opposed
 to simply kubbeh). This also seems to be the point where fresh mint --- thrown into the stew at
 the last minute --- became a defining flavour profile, as opposed to an optional extra.
 
