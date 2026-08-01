@@ -1,0 +1,1171 @@
+book: 'Pastry School'
+author: Le Cordon Bleu
+cover: https://d1gnhoaeqcuz1t.cloudfront.net/books/pastry-school-100-step-by-188191l3.jpg
+recipes:
+- title: Macaronnade with sugar-frosted rose petals
+  page: 24
+  ingredients:
+  - icing sugar
+  - ground almonds
+  - red food colouring powder
+  - gelatine leaves
+  - milk
+  - eggs
+  - white couverture chocolate
+  - kirsch
+  - rose extract
+  - rose water
+  - butter
+  - cream
+  - mascarpone cheese
+  - red rose petals
+  - lychees
+  - rose petal jelly
+- title: Lemon pound cake
+  page: 30
+  ingredients:
+  - eggs
+  - lemons
+  - sugar
+  - plain flour
+  - butter
+  - apricot glaze
+  - icing sugar
+- title: Fig, mango and spice Dacquoise
+  page: 34
+  ingredients:
+  - gelatine leaves
+  - figs
+  - "quatre-\xE9pices"
+  - raspberries
+  - desiccated coconut
+  - icing sugar
+  - ground almonds
+  - eggs
+  - sugar
+  - egg whites
+  - potato starch
+  - "mango pur\xE9e"
+  - whole star anise
+  - Cointreau
+  - butter
+- title: Tarte Tatin-style apple ring
+  page: 42
+  ingredients:
+  - apples
+  - butter
+  - sugar
+  - ground cinnamon
+  - eggs
+- title: Chocolate-banana Brittany shortbread
+  page: 46
+  ingredients:
+  - butter
+  - ground hazelnuts
+  - unrefined cane sugar
+  - egg yolks
+  - cocoa powder
+  - bananas
+  - Malibu rum
+  - milk chocolate
+  - cream
+  - milk couverture chocolate
+- title: Cheesecake like an entremets
+  page: 50
+  ingredients:
+  - shortbread biscuits
+  - honey
+  - raspberries
+  - peppercorns of your choice
+  - balsamic vinegar
+  - gelatine leaves
+  - egg yolks
+  - cream cheese
+  - cream
+  - ladyfingers
+  - edible gold dust
+  - blueberries
+  - pistachio nut bread
+  - neutral glaze
+- title: "Poire tap\xE9e, cherry and dried apricot loaf cake"
+  page: 56
+  ingredients:
+  - amarena cherries
+  - dried apricots
+  - Grand Marnier
+  - butter
+  - eggs
+  - egg yolks
+  - oranges
+  - "poires tap\xE9es"
+- title: Passion fruit-coconut baba
+  page: 60
+  ingredients:
+  - plain flour
+  - fresh yeast
+  - eggs
+  - Malibu rum
+  - coconut milk
+  - "passion fruit pur\xE9e"
+  - apricot glaze
+  - passion fruit
+  - cream
+  - honey
+- title: St. Tropez "tart"
+  page: 66
+  ingredients:
+  - fresh yeast
+  - plain flour
+  - eggs
+  - nibbed sugar
+  - milk
+  - vanilla pods
+  - egg whites
+  - sugar
+- title: Berry, crispy cereal and white chocolate entremets
+  page: 72
+  ingredients:
+  - eggs
+  - raspberries
+  - blueberries
+  - white chocolate
+  - puffed rice
+  - popping sugar drops
+  - gelatine leaves
+  - "pear pur\xE9e"
+  - honey
+  - cream
+  - raspberry brandy
+  - cereal with red berries
+- title: Pear and tonka bean entremets
+  page: 78
+  ingredients:
+  - pears
+  - neutral glaze
+  - dried pears
+  - tonka beans
+  - eggs
+  - egg yolks
+  - sugar
+  - potato starch
+  - walnuts
+  - jelly
+  - cream
+  - liquid caramel
+  - red food coloring powder
+- title: Black Forest gateau
+  page: 84
+  ingredients:
+  - eggs
+  - egg yolks
+  - potato starch
+  - cocoa powder
+  - sugar
+  - kirsch
+  - milk chocolate
+  - cream
+  - vanilla powder
+  - preserved cherries
+- title: Chocolate marble cakes
+  page: 90
+  ingredients:
+  - butter
+  - icing sugar
+  - eggs
+  - vanilla pods
+  - plain flour
+  - cocoa powder
+- title: Fraisier cake
+  page: 94
+  ingredients:
+  - eggs
+  - sugar
+  - ground almonds
+  - kirsch
+  - milk
+  - egg yolks
+  - butter
+  - strawberries
+  - red currants
+  - raspberries
+- title: Swiss almond-filled cake
+  page: 100
+  ingredients:
+  - apples
+  - ground almonds
+  - eggs
+  - sugar
+  - butter
+  - vanilla powder
+- title: "Chocolate and raspberry \xE9clairs"
+  page: 106
+  ingredients:
+  - eggs
+  - milk chocolate
+  - "raspberry pur\xE9e"
+  - jelly
+  - cream
+  - neutral glaze
+  - red food colouring powder
+  - edible gold dust
+  - raspberries
+  - red fondant
+- title: Choux buns with craquelin and chocolate
+  page: 110
+  ingredients:
+  - unrefined cane sugar
+  - cocoa powder
+  - plain flour
+  - eggs
+  - milk
+  - egg yolks
+  - dark chocolate
+  - cream
+  - glucose
+  - neutral glaze
+- title: Brittany shortbread with meringue and Menton lemon
+  page: 114
+  ingredients:
+  - egg whites
+  - sugar
+  - lemons
+  - pistachio nuts
+  - ground almonds
+  - butter
+  - gelatine leaves
+  - eggs
+- title: Coconut and ginger religieuses
+  page: 120
+  ingredients:
+  - eggs
+  - coconut milk
+  - egg yolks
+  - fresh ginger
+  - cream
+  - neutral glaze
+  - desiccated coconut
+  - milk
+- title: "Violet \xE9clairs"
+  page: 124
+  ingredients:
+  - unrefined cane sugar
+  - plain flour
+  - eggs
+  - butter
+  - milk
+  - egg yolks
+  - violet fondant
+  - raspberry jam
+  - neutral glaze
+  - violet food coloring powder
+  - edible silver glitter
+  - edible silver balls
+- title: Mont Blanc with kumquat
+  page: 128
+  ingredients:
+  - egg whites
+  - milk couverture chocolate
+  - kumquats
+  - sugar
+  - cream
+  - chestnut paste
+  - rum
+  - butter
+  - candied chestnuts
+- title: Yuzu and blond chocolate choux buns
+  page: 134
+  ingredients:
+  - unrefined cane sugar
+  - milk
+  - butter
+  - plain flour
+  - eggs
+  - egg yolks
+  - yuzu
+  - yuzu juice
+  - cream
+  - white chocolate
+  - milk chocolate
+  - liquid caramel
+- title: Vanilla Chantilly and fresh fruit mille-feuilles
+  page: 140
+  ingredients:
+  - cream
+  - vanilla pods
+  - raspberry jam
+  - figs
+  - raspberries
+  - clementines
+  - strawberries
+  - redcurrants
+  - fondant icing
+- title: "Victoria pineapple \xE9clairs"
+  page: 146
+  ingredients:
+  - milk
+  - butter
+  - eggs
+  - unrefined cane sugar
+  - Malibu rum
+  - egg yolks
+  - vanilla pods
+  - cream
+  - fondant
+  - yellow food coloring powder
+  - vanilla powder
+  - glucose
+  - slivered almonds
+  - edible gold dust
+  - Queen Victoria pineapples
+- title: Paris-Brest revisited
+  page: 150
+  ingredients:
+  - butter
+  - unrefined cane sugar
+  - plain flour
+  - eggs
+  - "mango pur\xE9e"
+  - "passion fruit pur\xE9e"
+  - glucose
+  - roasted hazelnuts
+  - milk
+  - egg yolks
+  - praline paste
+  - cream
+  - pectin powder
+- title: Mini blueberry cheesecakes
+  page: 156
+  ingredients:
+  - vanilla pods
+  - cream cheese
+  - eggs
+  - cream
+  - blueberries
+  - ground almonds
+- title: "Hot vanilla souffl\xE9s"
+  page: 162
+  ingredients:
+  - eggs
+  - custard powder
+  - vanilla pods
+  - egg whites
+  - store-cupboard ingredients
+- title: "Crunchy \xE9clairs with salted butter caramel"
+  page: 166
+  ingredients:
+  - eggs
+  - unrefined cane sugar
+  - nibbed sugar
+  - ground hazelnuts
+  - edible gold dust
+  - glucose
+  - fondant
+  - butter
+  - cream
+  - vanilla powder
+  - milk
+  - egg yolks
+  - fleur de sel
+- title: Soft centred chocolate "fondants"
+  page: 172
+  ingredients:
+  - eggs
+  - sugar
+  - dark chocolate
+  - butter
+  - potato starch
+- title: Brittany shortbread-style tart
+  page: 178
+  ingredients:
+  - butter
+  - vanilla powder
+  - eggs
+  - cream
+  - plain flour
+  - egg yolks
+  - unrefined cane sugar
+  - oranges
+  - grapefruits
+  - mangos
+  - strawberries
+  - raspberries
+  - blueberries
+  - redcurrants
+  - neutral glaze
+  - Queen Victoria pineapples
+- title: Passion fruit and caramel tart
+  page: 184
+  ingredients:
+  - eggs
+  - ground almonds
+  - "passion fruit pur\xE9e"
+  - egg whites
+  - sweetened condensed milk
+  - cream
+  - glucose
+  - butter
+  - neutral glaze
+  - slivered almonds
+  - edible gold dust
+  - passion fruit
+- title: Chocolate praline tart
+  page: 188
+  ingredients:
+  - plain flour
+  - butter
+  - eggs
+  - ground almonds
+  - cream
+  - vanilla powder
+  - dark chocolate
+  - praline paste
+  - blanched almonds
+  - blanched hazelnuts
+  - dark couverture chocolate
+  - glucose
+- title: Chocolate-marshmallow tartlets
+  page: 192
+  ingredients:
+  - gelatine leaves
+  - glucose
+  - Trimoline
+  - violet food coloring powder
+  - violet flavouring
+  - potato starch
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - dark chocolate
+  - egg whites
+  - dark couverture chocolate
+  - cream
+- title: Apricot, hazelnut and cinnamon tart
+  page: 198
+  ingredients:
+  - plain flour
+  - butter
+  - eggs
+  - vanilla powder
+  - ground hazelnuts
+  - tinned apricots
+  - ground cinnamon
+- title: Blueberry tart
+  page: 202
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - vanilla pods
+  - apricot glaze
+  - blueberries
+- title: Tropical fruit tart with raspberries
+  page: 206
+  ingredients:
+  - ground almonds
+  - butter
+  - egg yolks
+  - "mango pur\xE9e"
+  - "passion fruit pur\xE9e"
+  - glucose
+  - coconut milk
+  - desiccated coconut
+  - gelatine leaves
+  - cream
+  - neutral glaze
+  - raspberries
+  - pectin powder
+- title: Grapefruit meringue tart
+  page: 212
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - potato starch
+  - grapefruits
+  - sugar
+  - grenadine syrup
+  - neutral glaze
+  - egg whites
+- title: Passion fruit-chocolate tart
+  page: 218
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - milk chocolate
+  - dark chocolate
+  - Malibu rum
+  - gelatine leaves
+  - "passion fruit pur\xE9e"
+  - neutral glaze
+  - passion fruit
+- title: Apple-hazelnut tart with praline cream
+  page: 224
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - hazelnut paste
+  - apples
+  - blanched hazelnuts
+  - cream
+  - mascarpone cheese
+  - neutral glaze
+- title: Lemon-mint tartlets with berries and kumquat
+  page: 228
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - vanilla pods
+  - cream
+  - lemons
+  - mint
+  - strawberries
+  - blackberries
+  - kumquats
+  - raspberries
+  - blueberries
+  - redcurrants
+- title: "Cr\xE8me br\xFBl\xE9e tartlets with fresh fruit"
+  page: 234
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - cream
+  - vanilla pods
+  - egg yolks
+  - mangoes
+  - coconut
+  - cherries
+  - figs
+  - physalis
+- title: Gariguette strawberry and yuzu tart
+  page: 238
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - egg yolks
+  - gariguette strawberries
+  - neutral glaze
+  - yuzu marmalade
+- title: Rhubarb and saffron tart
+  page: 242
+  ingredients:
+  - butter
+  - ground almonds
+  - plain flour
+  - eggs
+  - rhubarb
+  - saffron
+  - cream
+- title: Fig tartlets with sugared almonds
+  page: 246
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - white sugared almonds
+  - ground hazelnuts
+  - figs
+  - fleur de sel
+  - neutral glaze
+- title: Chocolate, tonka bean and berry prestige
+  page: 252
+  ingredients:
+  - ground almonds
+  - cocoa powder
+  - egg whites
+  - potato starch
+  - "blackcurrant pur\xE9e"
+  - "strawberry pur\xE9e"
+  - "raspberry pur\xE9e"
+  - speculoos biscuits
+  - dark chocolate
+  - praline paste
+  - dark couverture chocolate
+  - tonka beans
+  - cream
+  - egg yolks
+  - sugar
+  - gelatine leaves
+  - glucose
+  - red food colouring powder
+  - cocoa butter
+  - milk couverture chocolate
+  - condensed milk
+  - strawberries
+  - raspberries
+  - blackberries
+  - redcurrants
+- title: Sugar cubes with sugar-frosted pansies
+  page: 260
+  ingredients:
+  - pansy flowers
+  - egg whites
+  - eggs
+  - ground almonds
+  - unrefined cane sugar
+  - vanilla pods
+  - gelatine leaves
+  - mascarpone cheese
+  - cream
+  - sugar
+  - violet food colouring
+  - violet extract
+  - white chocolate
+  - glucose
+  - silver food colouring
+  - cocoa butter
+  - condensed milk
+- title: Lemon Yule log
+  page: 268
+  ingredients:
+  - egg whites
+  - lemons
+  - gelatine leaves
+  - egg yolks
+  - eggs
+  - cream
+  - butter
+  - sugar
+  - plain flour
+  - chocolate hazelnut spread
+  - cocoa powder
+- title: Crousti-choc entremets
+  page: 274
+  ingredients:
+  - ground almonds
+  - egg whites
+  - praline paste
+  - white chocolate
+  - Gavotte biscuits
+  - dark chocolate
+  - egg yolks
+  - cream
+  - cocoa powder
+- title: Praline and orange crunch entremets
+  page: 280
+  ingredients:
+  - oranges
+  - icing sugar
+  - ground hazelnuts
+  - ground almonds
+  - egg whites
+  - flaked almonds
+  - milk
+  - eggs
+  - praline paste
+  - butter
+  - candied orange peel
+  - Grand Marnier
+  - milk chocolate
+  - dark chocolate
+  - cream
+  - glucose
+  - dark chocolate cake covering
+  - orange tuiles
+- title: Nougat and mandarin Yule log
+  page: 286
+  ingredients:
+  - mandarins
+  - Grand Marnier
+  - eggs
+  - ground almonds
+  - flaked almonds
+  - gelatine leaves
+  - cream
+  - nougat paste
+  - white couverture chocolate
+  - neutral glaze
+  - cocoa powder
+- title: Coconut and mango domes
+  page: 292
+  ingredients:
+  - egg whites
+  - sugar
+  - desiccated coconut
+  - eggs
+  - ground almonds
+  - vanilla pods
+  - gelatine leaves
+  - coconut cream
+  - egg yolks
+  - unrefined cane sugar
+  - cream
+  - mangoes
+  - white chocolate
+  - glucose
+  - silver food colouring
+  - cocoa butter
+  - condensed milk
+  - edible silver leaf
+- title: Chocolate and blackcurrant domes
+  page: 300
+  ingredients:
+  - eggs
+  - dark chocolate
+  - butter
+  - "cr\xE8me de cassis"
+  - potato starch
+  - ground hazelnuts
+  - cocoa powder
+  - gelatine leaves
+  - "blackcurrant pur\xE9e"
+  - egg yolks
+  - sugar
+  - cream
+  - ground almonds
+  - honey
+  - apple blossoms
+- title: Aloe vera and wild strawberry entremets
+  page: 308
+  ingredients:
+  - egg yolks
+  - potato starch
+  - ground hazelnuts
+  - hazelnuts
+  - cream
+  - gelatine leaves
+  - aloe vera juice
+  - "wild strawberry pur\xE9e"
+  - wild strawberry liqueur
+  - mascarpone cheese
+  - yellow food colouring
+  - fondant
+  - glucose
+  - red food colouring powder
+  - neutral glaze
+  - wild strawberries
+  - eggs
+- title: Chestnut, chocolate and apricot entremets
+  page: 314
+  ingredients:
+  - chestnut paste
+  - egg yolks
+  - ground almonds
+  - potato starch
+  - eggs
+  - chestnuts in syrup
+  - Grand Marnier
+  - sugar
+  - "apricot pur\xE9e"
+  - cream
+  - milk chocolate
+  - gelatine leaves
+  - glucose
+  - condensed milk
+  - pectin powder
+- title: Three kings' cake
+  page: 320
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - rum
+- title: Chocolate and pistachio Opera cake
+  page: 326
+  ingredients:
+  - raw almond paste
+  - pistachio paste
+  - eggs
+  - egg whites
+  - cream
+  - dark couverture chocolate
+  - kirsch
+  - jelly
+  - pistachio nuts
+- title: Chocolate and berry tart
+  page: 332
+  ingredients:
+  - plain flour
+  - ground almonds
+  - butter
+  - eggs
+  - raspberries
+  - "blackcurrant pur\xE9e"
+  - "wild strawberry pur\xE9e"
+  - "raspberry pur\xE9e"
+  - jelly
+  - milk chocolate
+  - cream
+  - gelatine leaves
+  - cocoa powder
+  - glucose
+- title: Chocolate and coffee macaronnade
+  page: 338
+  ingredients:
+  - eggs
+  - coffee extract
+  - dark chocolate
+  - icing sugar
+  - ground almonds
+  - gelatine leaves
+  - cream
+  - white couverture chocolate
+  - condensed milk
+  - cocoa butter
+  - glucose
+  - mascarpone cheese
+  - white chocolate
+- title: Coconut-raspberry financiers
+  page: 346
+  ingredients:
+  - butter
+  - icing sugar
+  - egg whites
+  - ground almonds
+  - desiccated coconut
+  - honey
+- title: Coconut macarons
+  page: 350
+  ingredients:
+  - egg whites
+  - brown food colouring
+  - ground almonds
+  - icing sugar
+  - cream
+  - coconut milk
+  - potato starch
+  - white chocolate
+  - Malibu rum
+  - butter
+- title: Spiced mango macarons
+  page: 354
+  ingredients:
+  - egg whites
+  - yellow food colouring
+  - ground almonds
+  - icing sugar
+  - cream
+  - "mango pur\xE9e"
+  - "quatre \xE9pices"
+  - vanilla powder
+  - limes
+  - potato starch
+  - white chocolate
+  - butter
+- title: Chocolate financiers
+  page: 358
+  ingredients:
+  - icing sugar
+  - ground almonds
+  - cocoa powder
+  - honey
+  - egg whites
+  - dark chocolate
+  - cream
+  - dark chocolate cake covering
+- title: Raspberry macarons
+  page: 362
+  ingredients:
+  - egg whites
+  - red food colouring
+  - ground almonds
+  - icing sugar
+  - glucose
+  - raspberries
+  - pectin powder
+- title: Brownie
+  page: 366
+  ingredients:
+  - butter
+  - dark chocolate
+  - cocoa mass
+  - vanilla pods
+  - eggs
+  - dark chocolate chips
+  - walnuts
+  - cream
+  - glucose
+- title: Mini Sicilian pistachio-cherry financiers
+  page: 370
+  ingredients:
+  - ground almonds
+  - pistachio paste
+  - honey
+  - egg whites
+  - amarena cherries
+- title: Chocolate chip-walnut cookies
+  page: 374
+  ingredients:
+  - raw sugar
+  - eggs
+  - plain flour
+  - walnuts
+  - chocolate chips
+- title: Large madeleines
+  page: 378
+  ingredients:
+  - eggs
+  - honey
+  - vanilla pods
+  - butter
+- title: Mango muffins with chocolate chips
+  page: 382
+  ingredients:
+  - mangos
+  - eggs
+  - "cr\xE8me fra\xEEche"
+  - chocolate chips
+  - store-cupboard ingredients
+- title: Apricot shortbread biscuits
+  page: 386
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - apricot jam
+- title: Sandwich-style chocolate biscuits
+  page: 390
+  ingredients:
+  - plain flour
+  - butter
+  - ground almonds
+  - eggs
+  - chocolate
+  - cream
+  - glucose
+- title: Chocolate-banana two-tone macarons
+  page: 394
+  ingredients:
+  - egg whites
+  - ground almonds
+  - icing sugar
+  - brown food colouring
+  - yellow food colouring
+  - bananas
+  - honey
+  - rum
+  - cream
+  - milk chocolate
+  - dark chocolate
+- title: Chocolate raspberry and lemon lollipops
+  page: 400
+  ingredients:
+  - lemons
+  - ground almonds
+  - cocoa butter
+  - yellow food colouring
+  - dark chocolate
+  - cream
+  - raspberry flavoring
+  - honey
+  - white chocolate cake covering
+  - yellow cocoa butter
+  - red cocoa butter
+  - white cocoa butter
+- title: Chocolate truffles
+  page: 404
+  ingredients:
+  - cream
+  - milk chocolate
+  - dark chocolate
+  - honey
+  - dark couverture chocolate
+  - cocoa powder
+- title: Mango fruit jellies
+  page: 408
+  ingredients:
+  - "mango pur\xE9e"
+  - "apricot pur\xE9e"
+  - yellow pectin
+  - glucose
+  - sugar
+  - liquid tartaric acid
+- title: Mendiant-style caramel-chocolate fingers
+  page: 412
+  ingredients:
+  - vanilla pods
+  - cream
+  - sugar
+  - glucose
+  - milk chocolate
+  - dark chocolate
+  - honey
+  - dark couverture chocolate
+  - blanched almonds
+  - blanched hazelnuts
+  - candied orange peel
+  - pistachio nuts
+- title: Little toffee apples
+  page: 418
+  ingredients:
+  - sugar
+  - glucose
+  - red food colouring
+  - vanilla pods
+  - lemons
+  - apples
+- title: Passion fruit-chocolate bars
+  page: 422
+  ingredients:
+  - "passion fruit pur\xE9e"
+  - cocoa butter
+  - ground almonds
+  - potato starch
+  - glucose
+  - milk chocolate
+  - cream
+  - milk couverture chocolate
+- title: "Chocolate-orange b\xE2tonnets"
+  page: 428
+  ingredients:
+  - slivered almonds
+  - milk chocolate
+  - praline paste
+  - candied orange peel
+  - Gavotte biscuits
+  - cream
+  - honey
+  - Cointreau
+  - milk couverture chocolate
+- title: Chocolate marshmallows
+  page: 434
+  ingredients:
+  - gelatine leaves
+  - glucose
+  - Trimoline
+  - cocoa mass
+  - icing sugar
+  - potato starch
+- title: Nougat
+  page: 438
+  ingredients:
+  - blanched hazelnuts
+  - blanched almonds
+  - blanched pistachio nuts
+  - egg whites
+  - sugar
+  - honey
+  - glucose
+- title: Raspberry-almond fruit jellies
+  page: 442
+  ingredients:
+  - "raspberry pur\xE9e"
+  - yellow pectin
+  - glucose
+  - sugar
+  - almond paste
+  - liquid tartaric acid
+- title: Blackcurrant-praline lollipops
+  page: 446
+  ingredients:
+  - milk chocolate
+  - dark chocolate
+  - "blackcurrant pur\xE9e"
+  - praline paste
+  - dark couverture chocolate
+  - pectin powder
+- title: Raspberry and speculoos caramels
+  page: 450
+  ingredients:
+  - speculoos biscuits
+  - cream
+  - glucose
+  - Trimoline
+  - "raspberry pur\xE9e"
+  - cocoa butter
+  - soy lecithin
+- title: Matcha tea bites
+  page: 454
+  ingredients:
+  - white chocolate
+  - cream
+  - matcha
+  - agar powder
+  - honey
+  - eggs
+  - strawberries
+- title: Lemon tart caramels
+  page: 458
+  ingredients:
+  - Brittany shortbread cookies
+  - cream
+  - lemons
+  - honey
+  - "pear pur\xE9e"
+  - Trimoline
+  - white chocolate
+- title: Pastry cream
+  page: 480
+  ingredients:
+  - milk
+  - egg yolks
+  - store-cupboard ingredients
+- title: "Cr\xE8me Anglaise"
+  page: 481
+  ingredients:
+  - milk
+  - vanilla pods
+  - egg yolks
+- title: Chantilly cream
+  page: 482
+  ingredients:
+  - cream
+  - vanilla pods
+- title: Choux pastry
+  page: 483
+  ingredients:
+  - milk
+  - plain flour
+  - eggs
+- title: "G\xE9noise sponge"
+  page: 484
+  ingredients:
+  - eggs
+  - ground almonds
+  - store-cupboard ingredients
+- title: Joconde biscuit sponge
+  page: 485
+  ingredients:
+  - eggs
+  - ground almonds
+  - egg whites
+  - store-cupboard ingredients
+- title: French meringue
+  page: 486
+  ingredients:
+  - egg whites
+  - sugar
+- title: Italian meringue
+  page: 487
+  ingredients:
+  - egg whites
+  - sugar
+- title: Swiss meringue
+  page: 487
+  ingredients:
+  - ground almonds
+  - eggs
+  - store-cupboard ingredients
+- title: Sweet pastry dough
+  page: 488
+  ingredients:
+  - ground almonds
+  - eggs
+  - store-cupboard ingredients
+- title: Shortbread pastry
+  page: 488
+  ingredients:
+  - eggs
+  - store-cupboard ingredients
+- title: Sweet shortcrust pastry
+  page: 490
+  ingredients:
+  - plain flour
+  - butter
+wishlist: true

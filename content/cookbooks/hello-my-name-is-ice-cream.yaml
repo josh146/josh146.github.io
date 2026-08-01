@@ -1,0 +1,1072 @@
+book: 'Hello, My Name Is Ice Cream'
+author: Dana Cree
+cover: https://d1gnhoaeqcuz1t.cloudfront.net/books/hello-my-name-is-ice-178924l1.jpg
+recipes:
+- title: Blank slate custard ice cream
+  page: 50
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - egg yolks
+  - ice cream stabilizer
+- title: Vanilla ice cream
+  page: 52
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - vanilla beans
+  - egg yolks
+  - ice cream stabilizer
+- title: Bourbon butterscotch ice cream
+  page: 54
+  ingredients:
+  - butter
+  - cream
+  - bourbon
+  - milk
+  - liquid glucose
+  - egg yolks
+  - ice cream stabilizer
+- title: Cold-press coffee ice cream
+  page: 56
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - egg yolks
+  - coffee beans
+  - "cr\xE8me fra\xEEche"
+  - ice cream stabilizer
+- title: "Salted cr\xE8me fra\xEEche caramel ice cream"
+  page: 58
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - egg yolks
+  - "cr\xE8me fra\xEEche"
+  - sea salt
+  - ice cream stabilizer
+- title: Toasted hay ice cream
+  page: 60
+  ingredients:
+  - hay
+  - cream
+  - milk
+  - liquid glucose
+  - egg yolks
+  - ice cream stabilizer
+- title: Burnt honey ice cream
+  page: 62
+  ingredients:
+  - cream
+  - honey
+  - milk
+  - liquid glucose
+  - egg yolks
+  - buttermilk
+  - ice cream stabilizer
+- title: Green cardamom ice cream
+  page: 64
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - honey
+  - green cardamom pods
+  - egg yolks
+  - ice cream stabilizer
+- title: Eggnog ice cream
+  page: 66
+  ingredients:
+  - dark rum
+  - cream
+  - milk
+  - liquid glucose
+  - bay leaves
+  - nutmeg
+  - egg yolks
+  - ice cream stabilizer
+- title: Banana ice cream
+  page: 68
+  ingredients:
+  - bananas
+  - cream
+  - milk
+  - liquid glucose
+  - egg yolks
+  - ice cream stabilizer
+- title: Danish licorice ice cream
+  page: 70
+  ingredients:
+  - licorice extract
+  - cream
+  - milk
+  - liquid glucose
+  - whole star anise
+  - anise seeds
+  - fennel seeds
+  - egg yolks
+  - ice cream stabilizer
+- title: Pumpkin-sage ice cream
+  page: 72
+  ingredients:
+  - pumpkins
+  - cream
+  - milk
+  - liquid glucose
+  - sage
+  - egg yolks
+  - ice cream stabilizer
+- title: Blank slate Philadelphia-style ice cream
+  page: 76
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+- title: Blue ribbon chocolate ice cream
+  page: 78
+  ingredients:
+  - dark chocolate
+  - milk chocolate
+  - cocoa powder
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+- title: Cinnamon basil ice cream
+  page: 80
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - basil
+  - cinnamon sticks
+  - ice cream stabilizer
+- title: Donut ice cream
+  page: 82
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - glazed donuts
+  - ice cream stabilizer
+- title: Goat cheese ice cream
+  page: 83
+  ingredients:
+  - goat cheese
+  - cream
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+- title: Garden mint ice cream
+  page: 84
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - mint
+  - peppermint oil
+  - ice cream stabilizer
+- title: Earl Grey ice cream
+  page: 86
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - Earl Grey tea
+  - dried lavender
+  - lemons
+  - ice cream stabilizer
+- title: Parmesan ice cream
+  page: 87
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - Parmesan cheese
+  - ice cream stabilizer
+- title: "Lemon cr\xE8me fra\xEEche ice cream"
+  page: 88
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - lemons
+  - "cr\xE8me fra\xEEche"
+  - ice cream stabilizer
+- title: Cream cheese ice cream
+  page: 90
+  ingredients:
+  - cream cheese
+  - cream
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+- title: Cheesecake ice cream
+  page: 91
+  ingredients:
+  - milk
+  - liquid glucose
+  - sugar
+  - vanilla beans
+  - "cr\xE8me fra\xEEche"
+  - cream cheese
+  - ice cream stabilizer
+- title: Popcorn ice cream
+  page: 92
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - popcorn kernels
+  - ice cream stabilizer
+- title: Bubblegum ice cream
+  page: 94
+  ingredients:
+  - strawberries
+  - banana extract
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - oranges
+  - lemons
+  - ice cream stabilizer
+- title: Blank slate sherbet
+  page: 98
+  ingredients:
+  - "fruit pur\xE9e"
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Blood orange sherbet
+  page: 100
+  ingredients:
+  - blood oranges
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Black raspberry sherbet
+  page: 101
+  ingredients:
+  - black raspberries
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Peach-sweet tea sherbet
+  page: 102
+  ingredients:
+  - peaches
+  - buttermilk
+  - almond extract
+  - milk
+  - cream
+  - liquid glucose
+  - black tea
+  - ice cream stabilizer
+- title: Pineapple jasmine sherbet
+  page: 104
+  ingredients:
+  - pineapple
+  - buttermilk
+  - powdered milk
+  - milk
+  - cream
+  - liquid glucose
+  - jasmine pearls tea
+  - limes
+  - ice cream stabilizer
+- title: Raspberry-anise sherbet
+  page: 106
+  ingredients:
+  - raspberries
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - anise hyssop
+  - ice cream stabilizer
+- title: Huckleberry lemon sherbet
+  page: 108
+  ingredients:
+  - huckleberries
+  - buttermilk
+  - lemons
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Concord grape and rosemary sherbet
+  page: 110
+  ingredients:
+  - Concord grapes
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - rosemary
+  - ice cream stabilizer
+- title: Avocado-grapefruit sherbet
+  page: 111
+  ingredients:
+  - milk
+  - cream
+  - liquid glucose
+  - grapefruits
+  - avocados
+  - ice cream stabilizer
+- title: Strawberry sherbet
+  page: 112
+  ingredients:
+  - strawberries
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Apricot rooibos sherbet
+  page: 114
+  ingredients:
+  - "apricot pur\xE9e"
+  - buttermilk
+  - almond extract
+  - milk
+  - cream
+  - liquid glucose
+  - rooibos tea
+  - ice cream stabilizer
+- title: Blank slate frozen yogurt
+  page: 118
+  ingredients:
+  - Greek yogurt
+  - cream
+  - sugar
+  - liquid glucose
+  - ice cream stabilizer
+- title: Fresh ginger frozen yogurt
+  page: 120
+  ingredients:
+  - Greek yogurt
+  - cream
+  - honey
+  - fresh ginger
+  - liquid glucose
+  - ice cream stabilizer
+- title: Spiced cane syrup frozen yogurt
+  page: 122
+  ingredients:
+  - Greek yogurt
+  - cane syrup
+  - cream
+  - liquid glucose
+  - cinnamon sticks
+  - ice cream stabilizer
+- title: Meyer lemon frozen yogurt
+  page: 123
+  ingredients:
+  - Greek yogurt
+  - Meyer lemons
+  - cream
+  - sugar
+  - liquid glucose
+  - ice cream stabilizer
+- title: Milk chocolate frozen yogurt
+  page: 124
+  ingredients:
+  - Greek yogurt
+  - milk chocolate
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+- title: Key lime pie frozen yogurt
+  page: 126
+  ingredients:
+  - Greek yogurt
+  - limes
+  - egg yolks
+  - condensed milk
+  - ice cream stabilizer
+- title: Hibiscus frozen yogurt
+  page: 127
+  ingredients:
+  - Greek yogurt
+  - cream
+  - sugar
+  - liquid glucose
+  - dried hibiscus flowers
+  - ice cream stabilizer
+- title: Mango lassi frozen yogurt
+  page: 128
+  ingredients:
+  - Greek yogurt
+  - "mango pur\xE9e"
+  - buttermilk
+  - orange flower water
+  - cream
+  - sugar
+  - liquid glucose
+  - ice cream stabilizer
+- title: Blueberry lavender frozen yogurt
+  page: 130
+  ingredients:
+  - Greek yogurt
+  - blueberries
+  - cream
+  - sugar
+  - liquid glucose
+  - dried lavender buds
+  - ice cream stabilizer
+- title: Orange rhubarb frozen yogurt
+  page: 131
+  ingredients:
+  - Greek yogurt
+  - rhubarb
+  - cream
+  - sugar
+  - liquid glucose
+  - oranges
+  - ice cream stabilizer
+- title: "Peach jalape\xF1o frozen yogurt"
+  page: 132
+  ingredients:
+  - Greek yogurt
+  - peaches
+  - almond extract
+  - cream
+  - sugar
+  - liquid glucose
+  - "jalape\xF1o chiles"
+  - ice cream stabilizer
+- title: Honey chai frozen yogurt
+  page: 134
+  ingredients:
+  - Greek yogurt
+  - honey
+  - cream
+  - liquid glucose
+  - cinnamon sticks
+  - black peppercorns
+  - whole cloves
+  - green cardamom pods
+  - Darjeeling tea
+  - ice cream stabilizer
+- title: Fudge ripple
+  page: 138
+  ingredients:
+  - cocoa powder
+  - liquid glucose
+  - cream
+- title: Creamy caramel ribbon
+  page: 138
+  ingredients:
+  - cream
+  - liquid glucose
+  - sugar
+- title: Peanut butter ribbon
+  page: 139
+  ingredients:
+  - peanut butter
+  - coconut oil
+- title: Pink peppercorn caramel
+  page: 139
+  ingredients:
+  - liquid glucose
+  - pink peppercorns
+  - sugar
+- title: Passion fruit-orange caramel
+  page: 141
+  ingredients:
+  - passion fruit juice
+  - oranges
+  - liquid glucose
+- title: Plum caramel
+  page: 141
+  ingredients:
+  - plums
+  - liquid glucose
+- title: Milk jam
+  page: 142
+  ingredients:
+  - milk
+  - sugar
+  - liquid glucose
+  - vanilla beans
+- title: Butterscotch ripple
+  page: 143
+  ingredients:
+  - cream
+  - dark rum
+  - liquid glucose
+  - dark brown sugar
+  - lemons
+  - butter
+- title: Sorghum ribbon
+  page: 143
+  ingredients:
+  - sorghum syrup
+  - liquid glucose
+- title: Blueberry-basil compote
+  page: 145
+  ingredients:
+  - blueberries
+  - liquid glucose
+  - basil
+- title: Cranberry-vanilla compote
+  page: 145
+  ingredients:
+  - cranberries
+  - sugar
+  - liquid glucose
+  - vanilla beans
+- title: Rhubarb-orange compote
+  page: 145
+  ingredients:
+  - rhubarb
+  - sugar
+  - liquid glucose
+  - oranges
+  - orange liqueur
+- title: Strawberry ripple (uncooked ripple method)
+  page: 146
+  ingredients:
+  - liquid glucose
+  - strawberries
+- title: Black raspberry ripple (cooked ripple method)
+  page: 146
+  ingredients:
+  - black raspberries
+  - sugar
+  - liquid glucose
+- title: Winter strawberry ripple
+  page: 147
+  ingredients:
+  - dried hibiscus flowers
+  - liquid glucose
+  - strawberries
+- title: Lemon curd
+  page: 147
+  ingredients:
+  - sugar
+  - liquid glucose
+  - lemons
+  - butter
+- title: Soft almond meringue
+  page: 149
+  ingredients:
+  - egg whites
+  - almond extract
+  - store-cupboard ingredients
+- title: Roasted-vanilla meringue bits
+  page: 150
+  ingredients:
+  - vanilla beans
+  - egg whites
+  - vanilla extract
+- title: Candied citrus bits
+  page: 151
+  ingredients:
+  - citrus fruits
+  - sugar
+- title: Cookie butter bits
+  page: 154
+  ingredients:
+  - butter cookies
+  - coconut oil
+- title: Buttered pecans
+  page: 154
+  ingredients:
+  - pecans
+  - butter
+- title: Marshmallows
+  page: 155
+  ingredients:
+  - gelatin
+  - sugar
+  - liquid glucose
+  - confectioner's sugar
+- title: Classic chocolate chunks
+  page: 156
+  ingredients:
+  - dark chocolate
+  - coconut oil
+- title: Pretzel toffee chunks
+  page: 157
+  ingredients:
+  - mini pretzel squares
+  - butter
+  - liquid glucose
+  - dark chocolate
+- title: Butterscotch toffee chunks
+  page: 157
+  ingredients:
+  - butter
+  - liquid glucose
+  - dark chocolate
+- title: Nutterbuddy crunch
+  page: 158
+  ingredients:
+  - peanut butter
+  - milk chocolate
+  - coconut oil
+  - cacao nibs
+  - feuilletine
+- title: Cinnamon-brown sugar streusel
+  page: 158
+  ingredients:
+  - butter
+  - all-purpose flour
+  - ground cinnamon
+  - brown sugar
+- title: Almond-browned butter streusel
+  page: 159
+  ingredients:
+  - butter
+  - almond extract
+  - almonds
+  - all-purpose flour
+- title: Caramelized Rice Krispies
+  page: 162
+  ingredients:
+  - Rice Krispies
+  - store-cupboard ingredients
+- title: Caramel popcorn
+  page: 163
+  ingredients:
+  - popcorn
+  - light corn syrup
+  - store-cupboard ingredients
+- title: Chocolate chip cookie dough
+  page: 164
+  ingredients:
+  - butter
+  - all-purpose flour
+  - dark chocolate chips
+- title: Peanut butter cookie dough
+  page: 164
+  ingredients:
+  - peanut butter
+  - peanuts
+  - all-purpose flour
+  - store-cupboard ingredients
+- title: Chocolate wafers
+  page: 165
+  ingredients:
+  - all-purpose flour
+  - cocoa powder
+  - butter
+  - dark brown sugar
+- title: Graham crackers
+  page: 168
+  ingredients:
+  - all-purpose flour
+  - whole wheat flour
+  - ground cinnamon
+  - butter
+  - honey
+- title: Brownies
+  page: 168
+  ingredients:
+  - dark chocolate
+  - butter
+  - cocoa powder
+  - all-purpose flour
+- title: Gooey butter cake
+  page: 169
+  ingredients:
+  - all-purpose flour
+  - sugar
+  - butter
+  - cream cheese
+  - lemons
+  - confectioner's sugar
+  - liquid glucose
+  - almond extract
+- title: Cheesecake
+  page: 170
+  ingredients:
+  - vanilla beans
+  - cream cheese
+  - "cr\xE8me fra\xEEche"
+- title: Marzipan cake
+  page: 141
+  ingredients:
+  - almond paste
+  - honey
+  - butter
+  - Amaretto
+- title: Carnival corn
+  page: 179
+  ingredients:
+  - butter
+  - liquid glucose
+  - dark chocolate
+  - popcorn
+  - light corn syrup
+  - cream
+  - sugar
+  - milk
+- title: Top-notch donut ice cream
+  page: 182
+  ingredients:
+  - sprinkles of your choice
+  - cream
+  - liquid glucose
+  - sugar
+  - milk
+  - glazed donuts
+  - ice cream stabilizer
+- title: Rainbow sherbet
+  page: 185
+  ingredients:
+  - blood oranges
+  - raspberries
+  - pineapple
+  - buttermilk
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+  - sugar
+  - powdered milk
+  - cream
+  - jasmine pearls tea
+  - limes
+  - anise hyssop flowers
+- title: Bourbon butter pecan supreme
+  page: 186
+  ingredients:
+  - cream
+  - dark rum
+  - liquid glucose
+  - dark brown sugar
+  - lemons
+  - butter
+  - pecans
+  - bourbon
+  - milk
+  - egg yolks
+  - ice cream stabilizer
+- title: Elementary school swirl
+  page: 189
+  ingredients:
+  - blood oranges
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+  - sugar
+  - vanilla beans
+  - egg yolks
+- title: Gooey butter cake with candied lemon
+  page: 191
+  ingredients:
+  - lemons
+  - sugar
+  - all-purpose flour
+  - butter
+  - cream cheese
+  - confectioner's sugar
+  - liquid glucose
+  - vanilla extract
+  - almond extract
+  - cream
+  - milk
+  - ice cream stabilizer
+- title: Mint chocolate chip cookie dough
+  page: 191
+  ingredients:
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - mint
+  - peppermint oil
+  - ice cream stabilizer
+  - dark chocolate
+  - coconut oil
+  - butter
+  - sugar
+  - chocolate chips
+  - all-purpose flour
+- title: Cookies, cookies, and cream
+  page: 192
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - sugar
+  - vanilla beans
+  - egg yolks
+  - ice cream stabilizer
+  - all-purpose flour
+  - cocoa powder
+  - butter
+  - dark brown sugar
+- title: "Lemony lemon cr\xE8me fra\xEEche"
+  page: 194
+  ingredients:
+  - lemons
+  - sugar
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - "cr\xE8me fra\xEEche"
+  - ice cream stabilizer
+  - butter
+- title: Portofino cherry chunk
+  page: 196
+  ingredients:
+  - dark chocolate
+  - coconut oil
+  - amarena cherries in syrup
+  - Greek yogurt
+  - cream
+  - sugar
+  - liquid glucose
+  - ice cream stabilizer
+- title: Cheesecake Neapolitan
+  page: 197
+  ingredients:
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+  - sugar
+  - vanilla beans
+  - cream cheese
+  - "cr\xE8me fra\xEEche"
+  - strawberries
+  - buttermilk
+  - cream
+  - dark chocolate
+- title: Kid's play
+  page: 198
+  ingredients:
+  - almonds
+  - raspberries
+  - liquid glucose
+  - goat cheese
+  - cream
+  - milk
+  - sugar
+  - ice cream stabilizer
+  - almond paste
+  - honey
+  - butter
+  - Amaretto
+- title: Cardamom, plum, and marzipan
+  page: 201
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - honey
+  - green cardamom pods
+  - egg yolks
+  - ice cream stabilizer
+  - plums
+  - sugar
+  - almond paste
+  - butter
+  - Amaretto
+- title: Nutterbuddy ice cream
+  page: 202
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - vanilla beans
+  - egg yolks
+  - ice cream stabilizer
+  - peanut butter
+  - milk chocolate
+  - coconut oil
+  - cacao nibs
+  - sugar
+  - feuilletine
+- title: Chocolate peanut butter brownie crunch
+  page: 203
+  ingredients:
+  - dark chocolate
+  - milk chocolate
+  - cocoa powder
+  - powdered milk
+  - sugar
+  - cream
+  - milk
+  - liquid glucose
+  - ice cream stabilizer
+  - peanut butter
+  - coconut oil
+  - Rice Krispies
+  - butter
+  - all-purpose flour
+- title: Strawberry bubblemallow
+  page: 204
+  ingredients:
+  - strawberries
+  - sugar
+  - banana extract
+  - powdered milk
+  - cream
+  - milk
+  - liquid glucose
+  - oranges
+  - lemons
+  - ice cream stabilizer
+  - gelatin
+  - confectioner's sugar
+- title: Blueberry-basil crumble ice cream
+  page: 207
+  ingredients:
+  - powdered milk
+  - sugar
+  - cream
+  - milk
+  - liquid glucose
+  - basil
+  - cinnamon sticks
+  - ice cream stabilizer
+  - blueberries
+  - butter
+  - almond extract
+  - all-purpose flour
+  - almonds
+- title: Tangerine dreams
+  page: 208
+  ingredients:
+  - kumquats
+  - sugar
+  - blood oranges
+  - buttermilk
+  - milk
+  - cream
+  - liquid glucose
+  - ice cream stabilizer
+  - passion fruit
+  - oranges
+  - vanilla beans
+  - egg whites
+- title: That's my jam
+  page: 210
+  ingredients:
+  - cream
+  - milk
+  - liquid glucose
+  - sugar
+  - vanilla beans
+  - egg yolks
+  - ice cream stabilizer
+  - cranberries
+  - butter cookies
+  - coconut oil
+- title: Ricky's coffee pretzel toffee
+  page: 211
+  ingredients:
+  - dark chocolate
+  - coconut oil
+  - cream
+  - milk
+  - liquid glucose
+  - sugar
+  - egg yolks
+  - coffee beans
+  - "cr\xE8me fra\xEEche"
+  - ice cream stabilizer
+  - mini pretzel squares
+  - butter
+- title: Inverted sugar syrup
+  page: 214
+  ingredients:
+  - sugar
+  - powdered citric acid
+- title: Homemade Greek yogurt
+  page: 215
+  ingredients:
+  - yogurt
+- title: "Cr\xE8me fra\xEEche"
+  page: 215
+  ingredients:
+  - heavy cream
+  - buttermilk
+- title: Strawberry puree
+  page: 216
+  ingredients:
+  - strawberries
+- title: Raspberry puree
+  page: 216
+  ingredients:
+  - raspberries
+- title: Blackberry puree
+  page: 216
+  ingredients:
+  - blackberries
+- title: Black raspberry puree
+  page: 216
+  ingredients:
+  - black raspberries
+- title: Blueberry puree
+  page: 216
+  ingredients:
+  - blueberries
+- title: Huckleberry puree
+  page: 216
+  ingredients:
+  - huckleberries
+- title: Concord grape puree
+  page: 217
+  ingredients:
+  - Concord grapes
+- title: Apricot puree
+  page: 217
+  ingredients:
+  - apricots
+- title: Plum puree
+  page: 217
+  ingredients:
+  - plums
+- title: Cherry puree
+  page: 217
+  ingredients:
+  - cherries
+- title: Peach puree
+  page: 217
+  ingredients:
+  - peaches
+- title: Mango puree
+  page: 218
+  ingredients:
+  - mangoes
+- title: Nectarine puree
+  page: 218
+  ingredients:
+  - nectarines
+- title: Roasted pumpkin puree
+  page: 218
+  ingredients:
+  - pumpkins
+- title: Rhubarb puree
+  page: 219
+  ingredients:
+  - rhubarb
+- title: Passion fruit juice
+  page: 219
+  ingredients:
+  - passion fruit
+wishlist: true
