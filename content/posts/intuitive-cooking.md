@@ -38,8 +38,8 @@ phenomenon is the ice cream spreadsheet, which allows you to play with variables
 of eggs (or other stabilizers), and milk and cream volume, to see the resulting parameters like
 total fat and non-fat milk solid percentages.[/ref]. They arrive as dizzying, hyper-optimized grids
 dictating exact inoculation rates, ambient room temperatures, and precise bulk-fermentation windows
-mapped out to the minute. At first glance, they appear bewilderingly rigorous---applying the kind of
-telemetry one might reserve for a low-earth orbit satellite---but under the hood, they are simply
+mapped out to the minute. At first glance, they appear bewilderingly rigorous --- applying the kind of
+telemetry one might reserve for a low-earth orbit satellite --- but under the hood, they are simply
 dressing up centuries of culinary intuition, building on mathematical frameworks like the
 [baker's percentage](https://en.wikipedia.org/wiki/Baker_percentage).
 
@@ -47,7 +47,7 @@ It is easy to see how we arrived at the spreadsheet if you look at the evolution
 itself. For most of history, recipes were incredibly short and concise. Handed down orally, they
 assumed a wealth of existing cookery expertise. They offered lists of ingredients with no exact
 amounts, vague timings and temperatures, and steps so terse you can only assume the intended reader
-was already deep in the cooking trade. We can see great examples of this in historical texts---from
+was already deep in the cooking trade. We can see great examples of this in historical texts --- from
 the ancient Roman [*On the Subject of Cooking*](https://www.gutenberg.org/cache/epub/29728/pg29728-images.html) to the medieval English [*The Forme of Cury*](https://www.gutenberg.org/cache/epub/8102/pg8102-images.html)[ref]Check
 out the recipe
 for "macrows" in *The Forme of Cury*, and read through its scant two sentences a few times. It
