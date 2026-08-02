@@ -94,11 +94,11 @@ Description: Every sourdough I have baked, in mugshot format.
     <div class="sourdough-mugshot-container">
         
         <!-- The Bread -->
-        <img id="loaf-frame" src="/images/sourdough-mugshots/20200608.png" alt="Sourdough Crumb Evolution">
+        <img id="loaf-frame" src="/images/sourdough-mugshots/20251109.png" alt="Sourdough Crumb Evolution">
         
         <!-- The Suspect Placard -->
         <div class="mugshot-placard">
-            <h3 id="loaf-date-display" class="loaf-date">JUNE 8, 2020</h3>
+            <h3 id="loaf-date-display" class="loaf-date">NOVEMBER 11, 2025</h3>
         </div>
 
     </div>
