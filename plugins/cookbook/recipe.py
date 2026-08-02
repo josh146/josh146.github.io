@@ -360,7 +360,7 @@ class RecipePostProcessor:
                 # We need to rebuild the string with replacements
                 # We use a callback function for re.sub to handle the logic
 
-                recipe.components = []
+                recipe.components = set()
 
                 def replace_match(match):
                     # match.group(2) is the title (e.g., 'swiss-meringue')
@@ -375,7 +375,7 @@ class RecipePostProcessor:
                         return ""
 
                     if component_recipe:
-                        recipe.components.append(component_recipe)
+                        recipe.components.add(component_recipe)
                         raw_args = match.group(3) # "section | 0.5" or "0.5" or None
 
                         # parse Arguments
@@ -420,11 +420,11 @@ class RecipePostProcessor:
 
                         if section_target is not None:
                             soup = BeautifulSoup(getattr(component_recipe, section_attr), 'html.parser')
-                            target_clean = section_target.lower().strip()
+                            target_clean = fix_string(section_target.lower().strip())
 
                             # Find headers (h3 or h4)
                             for header in soup.find_all(['h3', 'h4']):
-                                if header.get_text().strip().lower() == target_clean:
+                                if fix_string(header.get_text().strip().lower()) == target_clean:
                                     # Found the header! Now grab the list immediately following it
                                     # We look for the next sibling that is a list
                                     next_list = header.find_next_sibling(['ul', 'ol'])
@@ -464,12 +464,13 @@ class RecipePostProcessor:
 
                     return ""  # If component not found, remove the tag
 
+
                 # Perform the substitution
                 current_html = tag_pattern.sub(replace_match, current_html)
                 setattr(recipe, section_attr, current_html)
 
-                if added_footnotes:
-                    self.rebuild_footnotes(recipe)
+        if added_footnotes:
+            self.rebuild_footnotes(recipe)
 
     @staticmethod
     def rebuild_footnotes(recipe):
