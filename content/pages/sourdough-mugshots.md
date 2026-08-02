@@ -2,7 +2,7 @@ Title: Sourdough mugshots.
 slug: sourdough-mugshots
 save_as: sourdough-mugshots.html
 Description: Every sourdough I have baked, in mugshot format.
-og_card: /images/sourdough-mugshots/20251109.png
+og_card: /images/sourdough-mugshots/mugshot-social.png
 
 <style>
 .sourdough-wrapper {
