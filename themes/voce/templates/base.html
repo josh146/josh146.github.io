@@ -28,6 +28,9 @@
   {% if article %}
   <meta property="og:image" content="/{{ article.og_image }}"/>
   <meta property="og:description" content="{{ article.summary|striptags }}">
+  {% elif page %}
+  <meta property="og:image" content="{{ page.og_card if page.og_card else OG_IMAGE }}">
+  <meta property="og:description" content="{{ self.description() }}">
   {% else %}
   <meta property="og:image" content="{{ OG_IMAGE }}">
   <meta property="og:description" content="{{ self.description() }}">
@@ -42,6 +45,9 @@
   {% if article %}
   <meta property="twitter:image" content="/{{ article.og_image }}"/>
   <meta name="twitter:description" content="{{ article.summary|striptags }}">
+  {% elif page %}
+  <meta property="twitter:image" content="{{ page.og_card if page.og_card else OG_IMAGE }}">
+  <meta property="twitter:image" content="{{ self.description() }}">
   {% else %}
   <meta name="twitter:image" content="{{ OG_IMAGE }}">
   <meta name="twitter:description" content="{{ self.description() }}">
