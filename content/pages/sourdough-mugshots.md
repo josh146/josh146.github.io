@@ -133,7 +133,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "20240428",
         "20250126",
         "20250309",
-        "20251109"
+        "20251109",
+        "20260802",
     ];
 
     const basePath = "/images/sourdough-mugshots/";
