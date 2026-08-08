@@ -33,7 +33,7 @@ This tare is based on one from Sho Spaeth's [Homemade Ramen](http://localhost:80
 
 ## Steps
 
-1. Combine 240ml of soy sauce with the kombu in a small container. Cover and leave to steep
+1. Combine 240ml of soy sauce with the kombu and dried shiitake mushrooms in a small container. Cover and leave to steep
 overnight in the fridge for up to 12 hours (minimum 6 hours).
 
 1. Add the sake to a 2L saucepan, and cook over medium-high heat until the sake has reduced to about
@@ -46,8 +46,9 @@ discard.
 1. Continue to cook until a bare simmer (around 85ºC). Remove from the heat, add the katsuobushi,
 and steep for 5 minutes.
 
-1. Drain through a fine-meshed sieve, and add the remaining 360ml of soy sauce, pressing on the
-solids to remove as much liquid as possible. Store in an air-tight container in the fridge.
+1. Drain through a fine-meshed sieve, pressing on the solids to remove as much liquid as possible.
+Add the remaining 360ml of soy sauce, mirin, and salt, stirring to dissolve. Store in an air-tight
+container in the fridge.
 
 ## Notes
 
