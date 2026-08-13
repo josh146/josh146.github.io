@@ -89,5 +89,5 @@ It is normal for the paitan to separate while freezing. To bring it back togethe
 to a rapid boil. To help bring back the emulsion faster, you can also use an immersion blender.
 
 If you like, you can skip the first stock and go straight to paitan, like I do in my [[duck paitan]]
-recipe.
+recipe. Simply skip the chintan section, and pressure cook the paitan for 1.5 hours.
 
