@@ -5,7 +5,6 @@ Slug: pho-ga
 Time: 3 hours
 Servings: 4 servings
 Image: /images/recipes/pho-ga.jpg
-Sticky: true
 
 Phở, a rice noodle soup dish consisting of a clear, meaty broth (similar to a French consommé),
 alongside fresh herbs and spices, originated in Northern Vietnam around the turn of the 20th
@@ -14,10 +13,12 @@ in neighbouring regions, melding both French and Chinese culinary techniques and
 since become one of the most well known and ubiquitous Vietnamese dishes outside of Vietnam
 (alongside bánh mì).
 
-Here I have a simple, almost one-pot pressure cooker recipe for phở gà (chicken pho), sped up
-considerably by using a pressure cooker. This recipe adapts and blends elements from both the
-[Serious Eats](https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe) and [New York
-Times](https://cooking.nytimes.com/recipes/1024023-ph-ga-chicken-pho) recipes for phở gà.
+Here I have a simple, almost one-pot pressure cooker recipe for phở gà (chicken pho)[ref]For a
+traditional beef pho, you can replace the chicken drumsticks and feet with beef bones plus a whole
+boneless beef cut suitable for braising, such as chuck or brisket. When serving, add slices of the
+braised beef, alongside thin slices of raw steak (such as sirloin) which will cook in the hot
+broth.[/ref], sped up considerably by using a pressure cooker. This recipe adapts and blends
+elements from both the [Serious Eats](https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe) and [New York Times](https://cooking.nytimes.com/recipes/1024023-ph-ga-chicken-pho) recipes for phở gà.
 
 <div class="recipe-image">
 <img src="/images/recipes/pho-ga.jpg">
@@ -50,6 +51,7 @@ Times](https://cooking.nytimes.com/recipes/1024023-ph-ga-chicken-pho) recipes fo
 * Coriander leaves
 * Mint leaves
 * Thai basil leaves
+* Spring onions (thinly sliced)
 * Beansprouts
 * Red chilli (sliced)
 * Lime wedges
@@ -73,7 +75,8 @@ make it easy to remove after cooking without disturbing the broth or losing meat
 1. When done, leave the pressure cooker to release naturally --- this will avoid the broth boiling,
 and preserve its clarity. This should take about 30-45 minutes. Carefully remove the drumsticks,
 and shred the meat with two forks. Strain the broth (removing all solids) and return to the stove
-on low heat to keep warm --- season to taste with more fish sauce as necessary[ref]Err on the saltier/more seasoned side, as the rice noodles will temper the saltiness.[/ref].
+on low heat to keep warm --- season to taste with more fish sauce as necessary[ref]Err on the
+saltier/more seasoned side, as the rice noodles will temper the saltiness.[/ref].
 
 ### To serve
 
