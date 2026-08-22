@@ -12,7 +12,7 @@ Image: /images/recipes/babka.jpg
 Tags: jewish, dessert, cake
 ---
 
-Babka's are a showstopper when bought to a dinner party. A cross between a bread and a cake, you can go pretty crazy on the filling (and even reduce the sugar in the brioche dough to about 10g or less, and skip the sugar syrup step, to make a savoury babka --- with fillings such as pesto; garlic, butter, herbs and cheese, etc.). Adapted from [Ottolenghi's Jerusalem](https://www.amazon.com.au/Jerusalem-Yotam-Ottolenghi/dp/0091943744).
+Babka's are a showstopper when bought to a dinner party. A cross between a bread and a cake, you can go pretty crazy on the filling (and even reduce the sugar in the brioche dough to about 10g or less, and skip the sugar syrup step, to make a [[savoury babka]] --- with fillings such as pesto; garlic, butter, herbs and cheese, etc.). Adapted from [Ottolenghi's Jerusalem](https://www.amazon.com.au/Jerusalem-Yotam-Ottolenghi/dp/0091943744).
 
 <div id="variation-controls"></div>
 
@@ -43,6 +43,7 @@ A paste, butter, or even streusal mixture to fill the babka with.
 Theme: Chocolate
 filling_step: Whisk together powdered sugar, cocoa powder, chocolate, and butter until you have a spreadable paste.
 filling_list: 50g powdered (icing) sugar; 30g unsweetened cocoa powder; 130g dark chocolate (melted); 120g unsalted butter (melted)
+
 ---
 
 Theme: Cinnamon
@@ -50,6 +51,7 @@ filling_step: Whisk together dark brown sugar, flour, cinnamon, salt, and butter
 filling_list: 200g dark brown sugar; 60g unsalted butter (melted); 15g all-purpose flour; 15g ground cinnamon; 1/4 tsp salt
 
 ---
+
 Theme: Lemon and blueberry
 filling_step: Add the blueberries, sugar, lemon juice, salt, and other aromatics to a saucepan. Over medium heat, mash the mixture until the blueberries are mostly integrated, and then leave to boil, stirring occasionally. After 10 minutes, the mixture should have reached 102ºC and reduced to about 320g; remove from the heat, and set aside to cool completely.
 filling_list: 360g fresh blueberries; 150g sugar; 1 tbsp lemon juice; 1/4 tsp salt; 1/2 teaspoon orange blossom water (or other aromatics, optional)
