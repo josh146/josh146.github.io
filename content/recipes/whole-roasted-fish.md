@@ -25,7 +25,8 @@ the amount of butter.
 * 1 whole fish (such as red snapper)
 * 120g unsalted butter
 * 10-20 curry leaves
-* 1 lemon
+* 1/2 lemon juiced
+* 3 lemon slices
 * 3 tbsp sambal or chilli sauce [ref]I like to use [Singlong's Chicken Rice Chilli sauce](https://www.singlong.com/product/chicken-rice-chilli-sauce/)[/ref]
 * 1 tbsp fish sauce
 * 1 tsp salt
@@ -35,9 +36,9 @@ the amount of butter.
 
 1. Preheat oven to 200ºC. 
 
-1. Remove the dorsal and pectoral fin if not removed. Scale the fish, and then cut three diagonal
-slits in the fish on each side. This will allow the sambal butter to penetrate. Salt the fish all
-over, and then leave in the fridge uncovered.
+1. Remove the dorsal and pectoral fin if not removed. Scale the fish, rinse it, and pat it dry. Cut
+three diagonal slits in the fish on each side to allow the sambal butter to penetrate, and place
+the lemon slices in the cavity. Salt the fish all over, and then leave in the fridge uncovered.
 
 1. In a small saucepan over medium high heat, melt the butter. Once it starts to foam, add the curry
 leaves. Continue to cook until browned. Once browned, remove from the heat and stir in the lemon
