@@ -27,7 +27,7 @@ the amount of butter.
 * 10-20 curry leaves
 * 1/2 lemon juiced
 * 3 lemon slices
-* 3 tbsp sambal or chilli sauce [ref]I like to use [Singlong's Chicken Rice Chilli sauce](https://www.singlong.com/product/chicken-rice-chilli-sauce/)[/ref]
+* 3 tbsp sambal or chilli sauce[ref]I like to use [Singlong's Chicken Rice Chilli sauce](https://www.singlong.com/product/chicken-rice-chilli-sauce/)[/ref]
 * 1 tbsp fish sauce
 * 1 tsp salt
 * Chives or spring onions (to serve)
