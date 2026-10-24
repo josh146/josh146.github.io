@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>We accidentally built an LLVM compiler for JAX | josh iza.ac</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Josh Izaac">
+  <meta name="description" content="Sometimes when you build software, you shave a yak so deeply that you end up with a surprisingly nice sweater (while the yak, presumably, wonders why it is suddenly rather drafty). For the past while, my team and I have been building a quantum compiler called Catalyst for the...
+">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="We accidentally built an LLVM compiler for JAX | josh iza.ac">
+  <meta property="og:url" content=" posts/2026/07/accidental-llvm-compiler-for-jax/ ">
+
+  <meta property="og:image" content="/social-cards/posts-2026-07-accidental-llvm-compiler-for-jax.png"/>
+  <meta property="og:description" content="Sometimes when you build software, you shave a yak so deeply that you end up with a surprisingly nice sweater (while the yak, presumably, wonders why it is suddenly rather drafty). For the past while, my team and I have been building a quantum compiler called Catalyst for the quantum …">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="../../../..">
+  <meta property="twitter:url" content=" posts/2026/07/accidental-llvm-compiler-for-jax/ ">
+  <meta name="twitter:title" content="We accidentally built an LLVM compiler for JAX | josh iza.ac">
+
+  <meta property="twitter:image" content="/social-cards/posts-2026-07-accidental-llvm-compiler-for-jax.png"/>
+  <meta name="twitter:description" content="Sometimes when you build software, you shave a yak so deeply that you end up with a surprisingly nice sweater (while the yak, presumably, wonders why it is suddenly rather drafty). For the past while, my team and I have been building a quantum compiler called Catalyst for the quantum …">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../../theme/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../../../../theme/css/pygments.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ninja-keys?module"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../../../../theme/js/functions.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="http://iza.ac/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="josh iza.ac Full Atom Feed" />
+
+<meta name="keywords" content="keywords, quantum, gradients">
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-308113-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-default" role="navigation">
+        <div class="container">
+          <div class="row" style="width: 100%;">
+            <div class="site-navigation-inner col-sm-12">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="social fas fa-ellipsis-v"></i>
+              </button>
+
+              <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbarSupportedContent" style="float: left;">
+                <ul id="menu-all-pages" class="nav navbar-nav mr-auto" style="padding: 20px;">
+                  <li class="menu-item"><a href="/" >Home
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/about" >About
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/cv" >CV
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/recipes" >recipes
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/cookbooks" >cookbooks
+
+<i class=" fa-lg" style=""></i></a></li>
+                  <li class="menu-item"><a href="/posts" >posts
+
+<i class=" fa-lg" style=""></i></a></li>
+                </ul>
+              </div>
+              <div class="social">
+                <a href="https://scholar.google.com/citations?user=pEj09c4AAAAJ" title="Google Scholar" >
+
+<i class="ai ai-google-scholar fa-lg" style="font-size: 1.6rem;"></i></a>
+                <a href="http://github.com/josh146" title="GitHub" >
+
+<i class="fab fa-github fa-lg" style=""></i></a>
+                <a href="https://linkedin.com/pub/josh-izaac/104/9bb/6a2" title="LinkedIn" >
+
+<i class="fab fa-linkedin fa-lg" style=""></i></a>
+                <a data-email="ca.azi@hsoj:otliam" data-title="Email" title="You need javascript enabled to view this email" class="email">
+
+<i class="fas fa-envelope fa-lg" style=""></i></a>
+                <a href="/feeds/rss.xml" title="Feed" >
+
+<i class="fas fa-rss fa-lg" style=""></i></a>
+               <!-- <a href="#" onClick="const ninja=document.querySelector('ninja-keys');ninja.open();"><i class="fas fa-search"></i></a> -->
+               <a href="/search"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+
+<style>
+.page-header {
+  margin: 0!important;
+}
+.entry-title {
+  margin-bottom: 40px;
+}
+hr {
+    border: none;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+hr::before {
+    content: "»—~-~—~✂~—~-~—«";
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.25rem;
+    color: #75715e;
+    opacity: 0.7;
+    text-shadow: 2px 2px 3px rgba(117, 113, 94, 0.4);
+}
+:not(li,blockquote) > p:first-of-type::first-letter {
+    float: left;
+    font-family: 'Amatic SC', serif;
+    font-size: 5.5rem;          /* Makes the letter massive */
+    line-height: 0.8;           /* Tightens the box so the text wraps neatly around it */
+    padding-top: 0.1rem;
+    padding-right: 0.75rem;     /* Space between the letter and the wrapping text */
+    padding-left: 0.2rem;
+    margin-bottom: -0.2rem;
+    color: #111;                /* Dark, bold ink color */
+    text-transform: uppercase;  /* Ensures it always looks like a formal drop cap */
+}
+</style>
+
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item"><time datetime="2026-07-28 16:00:00+08:00">Jul 28, 2026</time></span>
+        <h1 class="entry-title"><a href="../../../../posts/2026/07/accidental-llvm-compiler-for-jax/">We accidentally built an <span class="caps">LLVM</span> compiler for <span class="caps">JAX</span></a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="../../../../posts/2026/07/accidental-llvm-compiler-for-jax/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <p>Sometimes when you build software, you shave a yak so deeply that you end up with a surprisingly
+nice sweater (while the yak, presumably, wonders why it is suddenly rather drafty).</p>
+<center>
+<div style="max-width: 600px; width: 100%;">
+<img src="/images/jax-llvm.png">
+</div>
+</center>
+
+<p>For the past while, my team and I have been building a quantum compiler called
+<a href="https://www.google.com/search?q=https://github.com/pennylaneai/catalyst&amp;authuser=1">Catalyst</a> for the
+quantum software library <a href="https://pennylane.ai/">PennyLane</a>. Our goal was relatively
+straightforward: optimize large, hybrid quantum-classical workflows in a scalable manner using
+<span class="caps">MLIR</span>. To do this, we needed a fast, robust way to capture classical Python processing
+(including NumPy and associated scientific libraries) and represent it in our intermediate representation.</p>
+<p>We chose <span class="caps">JAX</span>, for a couple of reasons: its ability to trace through Python functions and capture the
+computational graph<sup id="sf-accidental-llvm-compiler-for-jax-1-back"><a href="#sf-accidental-llvm-compiler-for-jax-1" class="simple-footnote" title="We thought long and hard over whether we wanted to trace the computation on input dynamic variables, or parse the Python abstract syntax tree. In the end we went for both (best of both worlds!) but primarily rely on tracing, as it allows for arbitrary Python and 3rd party library code to be used as long as it does not act on dynamic variables.">1</a></sup>, its support
+of the NumPy and SciPy APIs with relatively good coverage, and the fact that it already lowers down
+to <span class="caps">MLIR</span>. We also aimed to address a couple of quality of life improvements, such as the ability to
+capture native Python control flow<sup id="sf-accidental-llvm-compiler-for-jax-2-back"><a href="#sf-accidental-llvm-compiler-for-jax-2" class="simple-footnote" title="We ended up forking Autograph from TensorFlow into a new package, Diastatic Malt">2</a></sup>, and support for
+dynamically-shaped arrays<sup id="sf-accidental-llvm-compiler-for-jax-3-back"><a href="#sf-accidental-llvm-compiler-for-jax-3" class="simple-footnote" title="Dynamically-shaped arrays are a huge quality of life improvement, especially in quantum algorithm development where the shape of your arrays might be determined by the output of quantum measurements.">3</a></sup>.</p>
+<p>But in the process of wiring <span class="caps">JAX</span> to feed our quantum pipeline, we realized something silly.</p>
+<p>You don’t actually need to include any quantum instructions in your Catalyst @qjit workflows. You
+can feed it pure, standard <span class="caps">JAX</span> NumPy code alongside native Python control flow. And when you do,
+Catalyst completely bypasses the <span class="caps">XLA</span> compiler backend, lowers the <span class="caps">JAX</span> representations straight
+through to standard <span class="caps">MLIR</span>, and compiles it down to machine code via <span class="caps">LLVM</span> (with backprop support).</p>
+<p>… that is, we built an <span class="caps">MLIR</span> compilation pipeline for <span class="caps">JAX</span> by accident.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">jax.numpy</span> <span class="k">as</span> <span class="nn">jnp</span>
+<span class="kn">from</span> <span class="nn">catalyst</span> <span class="kn">import</span> <span class="n">qjit</span>
+
+<span class="nd">@qjit</span><span class="p">(</span><span class="n">autograph</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">iterative_layer</span><span class="p">(</span><span class="n">weights</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">threshold</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">inputs</span>
+
+    <span class="k">while</span> <span class="n">jnp</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">jnp</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">jnp</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">weights</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">x</span>
+</code></pre></div>
+
+<hr>
+<p>To understand how we ended up here (otherwise known as, the yak we were originally shaving), we have
+to take a slight detour through the world of quantum compilation and quantum gradients. Our goal
+here was three-fold:</p>
+<ul>
+<li>
+<p>We wanted to leverage existing, mature classical compilation tooling (<span class="caps">LLVM</span>) and add quantum
+  support to it, rather than independently building out our own quantum infrastructure and slowly
+  adding functionality from the classical world. We are experts in quantum computing, why should we
+  reinvent the wheel when it comes to classical software and infrastructure?<sup id="sf-accidental-llvm-compiler-for-jax-4-back"><a href="#sf-accidental-llvm-compiler-for-jax-4" class="simple-footnote" title="Something to note   is that quantum algorithms are never purely quantum. There is a tonne of classical processing   needed to get inputs ready, post-process outputs, and even construct and represent the quantum   circuits themselves. And that’s all ignoring classical processing needed for quantum error correction.">4</a></sup></p>
+</li>
+<li>
+<p>We wanted to make sure that we could represent quantum programs <strong>with structure</strong>. That is, the
+  ability to naturally intertwine array manipulation, quantum instructions, loops, and if
+  statements. This helps to both preserve a compact representation of the program (we naturally
+  write quantum algorithms with loops and if statements, we should compile with these structures
+  preserved otherwise compilation will never scale), and support natively dynamic parts of the
+  quantum program (e.g., while loops that represent a quantum-measure-and-repeat-until-success pattern).</p>
+</li>
+<li>
+<p>Finally, we wanted to keep supporting quantum autodifferentiation. We have put in a lot of effort
+  to figure out how to compute gradients of quantum programs on quantum hardware itself, and wanted
+  to make sure this kept working (alongside the necessary classical autodiff).</p>
+</li>
+</ul>
+<p>I could probably summarize the above three points in a simple statement:</p>
+<center><em>Quantum algorithms are never just quantum</em><sup id="sf-accidental-llvm-compiler-for-jax-5-back"><a href="#sf-accidental-llvm-compiler-for-jax-5" class="simple-footnote" title="Perhaps a misconception exists that you need to     know quantum to work in quantum computing. That is incorrect, there is a *tonne* of classical     software infrastructure and development needed to support quantum computing. Check out some of     [Xanadu’s open roles](https://xanadu.ai/careers) if you are interested.">5</a></sup>.</center>
+
+<p>There is a mountain of classical processing to prepare the inputs, process the outputs, and honestly
+to even construct the circuits in the first place. This is before we even get to quantum error
+correction, where the classical control hardware surrounding the <span class="caps">QPU</span> needs to calculate parameters
+and gates at a massive scale, feed them to a <span class="caps">QPU</span>, perform measurements, and react in real-time with
+ultra-low, deterministic latency. The natural conclusion: we can’t just compile the quantum
+instructions; we need to compile the entire hybrid execution graph into a single, standalone
+executable that executes as close to the bare metal as possible.</p>
+<p>We decided to build this compiler infrastructure on <span class="caps">MLIR</span>. <span class="caps">JAX</span> is a natural fit for the Python layer
+(due to its usage for differentiable programming, and the fact that it already captures classical
+code and lowers it to <span class="caps">MLIR</span>), so we extended <span class="caps">JAX</span> to support quantum instruction sets alongside some
+quality of life improvements (Python control flow, dynamically-shaped arrays).</p>
+<p>Then, to handle backprop, we wired up <a href="https://enzyme.mit.edu/">Enzyme</a> to backpropagate directly
+through the classical <span class="caps">LLVM</span> code, while we have custom-written <span class="caps">MLIR</span> passes to generate the quantum
+gradients. Because we compile the classical <span class="caps">JAX</span> code straight down to standard <span class="caps">LLVM</span> <span class="caps">IR</span>, we get to
+use standard <span class="caps">LLVM</span> passes like Enzyme essentially “for free” — something that would be a rather
+painful exercise to try and wire directly into <span class="caps">XLA</span>’s internal pipeline.</p>
+<hr>
+<p><span class="caps">XLA</span> is an solid piece of engineering for optimizing linear algebra and targeting GPUs and Google’s
+own TPUs. Under the hood, it takes JAXpr (a representation of the Python program), converts it to
+the <span class="caps">MLIR</span> StableHLO dialect, runs its own heavy optimizations, and eventually uses <span class="caps">LLVM</span> to compile
+down to machine code for CPUs and GPUs (or targets TPUs directly).</p>
+<p>So if <span class="caps">XLA</span> already uses <span class="caps">LLVM</span>, why is our approach different?</p>
+<p>We still lean on <span class="caps">JAX</span> to do the heavy lifting of lowering linear algebra down to StableHLO. But
+instead of sending that representation down the traditional <span class="caps">XLA</span> path, Catalyst intercepts it and
+lowers it directly into standard, general-purpose <span class="caps">MLIR</span> dialects (like linalg, arith, and scf). From
+there, we feed it straight to <span class="caps">LLVM</span> and Enzyme, completely dropping the <span class="caps">XLA</span> runtime.</p>
+<p><em>(Side note: Someday, we’d love to bypass <span class="caps">HLO</span> entirely and capture NumPy semantics directly. But for now, letting <span class="caps">JAX</span> handle the linear algebra lowering saves us from a lot of unnecessary suffering!)</em></p>
+<p>Because the frontend tracing is completely decoupled from the backend execution, the quantum bits
+are optional. If you hand our <code>@qjit</code> (Quantum Just-In-Time) decorator<sup id="sf-accidental-llvm-compiler-for-jax-6-back"><a href="#sf-accidental-llvm-compiler-for-jax-6" class="simple-footnote" title="Simply do pip install pennylane-catalyst to run the following example.">6</a></sup> a pure classical function with zero quantum
+instructions, <em>it just works</em>:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">jax.numpy</span> <span class="k">as</span> <span class="nn">jnp</span>
+<span class="kn">from</span> <span class="nn">catalyst</span> <span class="kn">import</span> <span class="n">qjit</span>
+<span class="kn">import</span> <span class="nn">catalyst</span>
+
+<span class="c1"># No quantum code here, just pure JAX + native Python control flow!</span>
+<span class="nd">@qjit</span><span class="p">(</span><span class="n">autograph</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">iterative_layer</span><span class="p">(</span><span class="n">weights</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">threshold</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">inputs</span>
+
+    <span class="c1"># Standard Python loops and conditionals work seamlessly</span>
+    <span class="c1"># No need for jax.lax.while_loop or jax.lax.cond!</span>
+    <span class="k">while</span> <span class="n">jnp</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">jnp</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">jnp</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">weights</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
+        <span class="n">catalyst</span><span class="o">.</span><span class="n">debug</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s1">'x=</span><span class="si">{x}</span><span class="s1">'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">)</span> <span class="c1"># runtime printing</span>
+
+    <span class="k">return</span> <span class="n">x</span>
+</code></pre></div>
+
+<h2>So… what is the point?</h2>
+<p>Honestly? We aren’t entirely sure yet.</p>
+<p>Let me be perfectly clear: <strong>this is not going to beat <span class="caps">XLA</span> for standard deep learning workloads.</strong>
+<span class="caps">XLA</span> has years of hyper-specific optimizations for linear algebra on GPUs and TPUs. If you are
+training a massive transformer, stick to standard <span class="caps">JAX</span>.</p>
+<p>But what we <em>do</em> think is cool is what happens when you connect <span class="caps">JAX</span> directly to the broader <span class="caps">LLVM</span>
+ecosystem and <strong>drop the heavy <span class="caps">XLA</span> runtime</strong>. (Plus, no need to build <span class="caps">XLA</span> using Bazel either!
+You’re welcome.)</p>
+<p>This bridge opens up some weird and wonderful hacking opportunities and quality of life improvements:</p>
+<ul>
+<li>
+<p><strong>Standalone <span class="caps">AOT</span> binaries:</strong> <span class="caps">XLA</span> expects a Just-In-Time (<span class="caps">JIT</span>) execution environment managed by a
+    heavy Python/C++ runtime like <span class="caps">PJRT</span>. By bypassing it, you can generate a pure, standalone
+    Ahead-of-Time binary that needs zero external <span class="caps">ML</span> dependencies to run.</p>
+</li>
+<li>
+<p><strong>Dynamically-shaped arrays:</strong> Anyone who uses <span class="caps">JAX</span> knows that <span class="caps">XLA</span> is notoriously rigid when it
+    comes to tensor shapes  —  if your input dimensions change, you usually trigger a frustrating
+    and slow recompilation. Because we map directly to standard <span class="caps">MLIR</span> and <span class="caps">LLVM</span>, we can support
+    dynamic shapes in our compiled binaries out of the box. This is a massive QoL win if you are
+    handling variable-length sequences.</p>
+</li>
+<li>
+<p><strong>Native Python control flow and NumPy indexing</strong>: While, if, for, conditionals, boolean
+    operations, even NumPy array assignments all work out of the box via Autograph/Diastatic Malt
+    (and are differentiable).</p>
+</li>
+<li>
+<p><strong>Bare-Metal and edge deployment:</strong> Want to run a <span class="caps">JAX</span>-trained reinforcement learning policy on a
+    custom edge-device, an <span class="caps">FPGA</span>, or a weird embedded chip? You can’t bring a massive <span class="caps">ML</span> runtime
+    with you. Stripping it down to pure <span class="caps">LLVM</span> <span class="caps">IR</span> makes deploying to the edge (or a toaster???)
+    actually feasible.</p>
+</li>
+<li>
+<p><strong>Custom <span class="caps">MLIR</span> dialects and passes:</strong> Because the <span class="caps">JAX</span> code hits standard <span class="caps">MLIR</span> first, you can easily
+    inject your own custom dialects and compiler passes before it ever hits the hardware.</p>
+</li>
+</ul>
+<h2>Is any of this useful outside of quantum?</h2>
+<p>Because we are a quantum computing team, we are hyper-focused on our specific use case
+(supporting large-scale quantum algorithms). The fact that we built a standalone classical
+<span class="caps">JAX</span>-to-<span class="caps">LLVM</span> pipeline is a fun side-effect for us, but it might actually be a powerful tool for
+someone else.</p>
+<p>If you are someone who works in custom hardware, edge <span class="caps">ML</span>, or compiler infrastructure: does this
+unlock anything interesting for you? Is the ability to drop the <span class="caps">XLA</span> runtime, write native control
+flow, and target <span class="caps">MLIR</span> with <span class="caps">JAX</span> useful or interesting?</p>
+<hr><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script><ol class="simple-footnotes"><li id="sf-accidental-llvm-compiler-for-jax-1">We thought long and hard over whether we wanted to trace the computation on
+input dynamic variables, or parse the Python abstract syntax tree. In the end we went for both
+(best of both worlds!) but primarily rely on tracing, as it allows for arbitrary Python and 3rd
+party library code to be used as long as it does not act on dynamic variables. <a href="#sf-accidental-llvm-compiler-for-jax-1-back" class="simple-footnote-back">↩︎</a></li><li id="sf-accidental-llvm-compiler-for-jax-2">We ended up forking Autograph from TensorFlow into a new
+package, <a href="https://github.com/PennyLaneAI/diastatic-malt">Diastatic Malt</a> <a href="#sf-accidental-llvm-compiler-for-jax-2-back" class="simple-footnote-back">↩︎</a></li><li id="sf-accidental-llvm-compiler-for-jax-3">Dynamically-shaped arrays are a huge quality of life improvement,
+especially in quantum algorithm development where the shape of your arrays might be determined by
+the output of quantum measurements. <a href="#sf-accidental-llvm-compiler-for-jax-3-back" class="simple-footnote-back">↩︎</a></li><li id="sf-accidental-llvm-compiler-for-jax-4">Something to note
+  is that quantum algorithms are <strong>never</strong> purely quantum. There is a tonne of classical processing
+  needed to get inputs ready, post-process outputs, and even construct and represent the quantum
+  circuits themselves. And that’s all ignoring classical processing needed for quantum error correction. <a href="#sf-accidental-llvm-compiler-for-jax-4-back" class="simple-footnote-back">↩︎</a></li><li id="sf-accidental-llvm-compiler-for-jax-5">Perhaps a misconception exists that you need to
+    know quantum to work in quantum computing. That is incorrect, there is a *tonne* of classical
+    software infrastructure and development needed to support quantum computing. Check out some of
+    [Xanadu’s open roles](https://xanadu.ai/careers) if you are interested. <a href="#sf-accidental-llvm-compiler-for-jax-5-back" class="simple-footnote-back">↩︎</a></li><li id="sf-accidental-llvm-compiler-for-jax-6">Simply do <code>pip install
+pennylane-catalyst</code> to run the following example. <a href="#sf-accidental-llvm-compiler-for-jax-6-back" class="simple-footnote-back">↩︎</a></li></ol>
+      </div><!-- .entry-content -->
+      <br /><br />
+      <div class="article_meta">
+        Tags:
+          <a href="../../../../tag/quantum/">quantum</a>,          <a href="../../../../tag/gradients/">gradients</a>      </div>
+    </div>
+  </div>
+
+  <div class="related">
+    <h2>Related posts</h2>
+    <div id="related-gallery" class="related-gallery">
+
+    <div class="vintage-related-card">
+      <a href="../../../../posts/2021/08/what-are-quantum-computers-and-how-can-we-train-them-in-python/">
+        <div class="card-details">
+            <h3>What are quantum computers, and how can we train them in&nbsp;Python?</h3>
+        </div>
+      </a>
+    </div>
+    <div class="vintage-related-card">
+      <a href="../../../../posts/2020/12/recursive-custom-gradients-in-tensorflow/">
+        <div class="card-details">
+            <h3>Recursive custom gradients in&nbsp;TensorFlow</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    This site uses the <a href="https://github.com/limbenjamin/voce">voce</a> theme by <a href="//limbenjamin.com/">Benjamin Lim</a><br />
+                    &copy; 2025 <a href="../../../..">Josh Izaac</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+      var e = document.querySelectorAll(".email");
+      for (var i = 0; i < e.length; i++) {
+        var email = e[i].getAttribute("data-email")
+        var title = e[i].getAttribute("data-title")
+        if (email){
+          e[i].href = email.split("").reverse().join("");
+          e[i].removeAttribute("data-email");
+          e[i].removeAttribute("data-title");
+          e[i].removeAttribute("class");
+          if (title){
+            e[i].setAttribute("title", title);
+          }
+          else{
+            e[i].removeAttribute("title");
+          }
+        }
+      }
+    })
+  </script>
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const ninja = document.querySelector('ninja-keys');
+
+    let rawSearchData = [];
+    let searchIngredients = false;
+
+    // Helper to pierce the Shadow DOM (Works on all Ninja Keys versions)
+    const getNinjaInput = () => {
+        if (!ninja || !ninja.shadowRoot) return null;
+        let input = ninja.shadowRoot.querySelector('input');
+        if (!input && ninja.shadowRoot.querySelector('ninja-header')) {
+            input = ninja.shadowRoot.querySelector('ninja-header').shadowRoot.querySelector('input');
+        }
+        return input;
+    };
+
+    // The single, isolated toggle function
+    const toggleIngredientSearch = () => {
+        const inputEl = getNinjaInput();
+        const currentSearch = inputEl ? inputEl.value : "";
+
+        // 1. Flip the state and rebuild data
+        searchIngredients = !searchIngredients;
+        updateNinjaData();
+
+        // 2. Restore text and bust the search cache
+        setTimeout(() => {
+            const newInp = getNinjaInput();
+            if (newInp) {
+                // Trick Ninja Keys into re-filtering by briefly adding a space
+                newInp.value = currentSearch + " ";
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+
+                // Immediately remove it
+                newInp.value = currentSearch;
+                newInp.dispatchEvent(new Event('input', { bubbles: true, composed: true }));
+            }
+        }, 10);
+    };
+
+    // --- THE FIX: Handle the Hotkey Globally ---
+    // This guarantees Cmd+I only ever fires EXACTLY once per press.
+    document.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'i') {
+            e.preventDefault();
+            toggleIngredientSearch();
+        }
+    });
+
+    function updateNinjaData() {
+        if (!ninja || rawSearchData.length === 0) return;
+
+        const menuItems = rawSearchData.map((item, index) => {
+            if (item.type === 'Physical') {
+                const ingString = item.ingredients && item.ingredients.length > 0
+                                  ? item.ingredients.join(', ')
+                                  : '';
+
+                const params = new URLSearchParams({
+                        recipe: item.title,
+                        book: item.book,
+                        tags: searchIngredients ? 'show' : 'hide'
+                    });
+
+                return {
+                    id: `physical-${index}`,
+                    title: ((item.page === '') ? `${item.title}` : `${item.title} (p${item.page})`),
+                    section: item.wishlist ? `📚 Wishlist: ${item.book}` : `📚 Cookbook: ${item.book}`,
+                    icon: item.wishlist ? `🛒&nbsp;` : `📖&nbsp;`,
+                    // Use the global state variable
+                    keywords: searchIngredients ? ingString : "",
+                    handler: () => { window.location.href = `/cookbooks?${params.toString()}`; }
+                };
+            }
+
+            return {
+                id: item.url,
+                title: item.title,
+                section: item.type,
+                keywords: item.keywords,
+                handler: () => { window.location.href = item.url; }
+            };
+        });
+
+        // The Clickable Command
+        menuItems.push({
+            id: 'toggle-ingredients',
+            title: `Ingredient Search is ${searchIngredients ? 'ON' : 'OFF'} (Cmd+I to Toggle)`,
+            section: '⚙️ Preferences',
+            icon: searchIngredients ? '✅ ' : '❌ ',
+            // CRITICAL: We removed `hotkey: 'cmd+i'` from here so Ninja Keys stops breaking!
+            handler: () => {
+                toggleIngredientSearch();
+                return { keepOpen: true }; // Prevent UI flicker
+            }
+        });
+
+        menuItems.push({
+            id: 'home', title: 'Go to Home', section: 'Navigation',
+            hotkey: 'cmd+h', handler: () => { window.location.href = '/'; }
+        });
+
+        ninja.data = menuItems;
+    }
+
+    if (ninja) {
+        fetch('/search.json')
+            .then(response => response.json())
+            .then(data => {
+                rawSearchData = data;
+                updateNinjaData();
+            })
+            .catch(err => console.error("Failed to load search index:", err));
+    }
+});
+  </script>
+
+
+  <ninja-keys placeholder="Search..." hideBreadcrumbs></ninja-keys>
+
+
+<script>
+    // --- CUSTOM HIGHLIGHTING FIXES FOR CODE BLOCKS ---
+    document.addEventListener("DOMContentLoaded", function() {
+        const codeBlocks = document.querySelectorAll('.highlight pre');
+
+        codeBlocks.forEach(block => {
+            let html = block.innerHTML;
+
+            // 1. Highlight Pelican / YAML Frontmatter (e.g., Title: My Recipe)
+            // This regex looks for the start of a line (^), a word, a colon, and the rest of the line
+            const frontmatterRegex = /^((?:<[^>]+>)*\s*)([A-Za-z0-9_-]+):([ \t]+)(.*)$/gm;
+            html = html.replace(frontmatterRegex,
+                '$1<span class="nt">$2:</span>$3<span class="s">$4</span>'
+            );
+
+            // 2. Highlight [[Components]]
+            const wikiRegex = /\[\[(.*?)\]\]/g;
+            html = html.replace(wikiRegex,
+                '<span class="custom-wikilink"><span class="brackets">[[</span>$1<span class="brackets">]]</span></span>'
+            );
+
+            // Apply the new HTML back to the block
+            block.innerHTML = html;
+        });
+    });
+</script>
+
+</body>
+</html>
