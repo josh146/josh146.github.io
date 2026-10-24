@@ -6,6 +6,7 @@ Time: 30 hours
 Servings: 2 pizzas (12 inch)
 Tags: dough, pizza
 Image: /images/recipes/sourdough-pizza2.jpg
+Sticky: true
 Timeline: Mix | 15m | Active; Bulk fermentation | 2h 30m | Wait; Cold bulk | 23h 15m | Wait; Divide and shape | 15m | Active; Proof | 5h | Wait; Preheat | 1h | Wait; Shape and bake | 30m | Active
 
 Sourdough neapolitan-ish pizza with a home oven is the holy grail. While the dough (and homemade
