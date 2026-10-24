@@ -22,9 +22,9 @@ swelter in the heat cooking the vegetables on the BBQ while the turkey was in th
 
 The recipe below is an amalgamation of a few recipes:
 
-- The turkey and gravy recipe is adapted from [Serious Eats](https://www.seriouseats.com/butterfiled-roast-turkey-with-gravy-recipe).
+- The turkey and [[turkey gravy | gravy]] recipe is adapted from [Serious Eats](https://www.seriouseats.com/butterfiled-roast-turkey-with-gravy-recipe).
 
-- The stuffing is a recipe from my grandmother, with the addition of [[hainanese chicken rice | chicken rice ginger sauce ]] coming from my mum (her favourite umami bomb).
+- The [[stuffing]] is a recipe from my grandmother, with the addition of [[hainanese chicken rice | chicken rice ginger sauce ]] coming from my mum (her favourite umami bomb).
 
 Spatchcocking the turkey lead to a dilemma, where do we put the stuffing? It came out perfectly
 delicious simply placing it underneath the spatchcocked turkey. Serve alongside [[roast potatoes]] and cranberry sauce.
@@ -38,30 +38,9 @@ delicious simply placing it underneath the spatchcocked turkey. Serve alongside 
 * Sage (chopped)
 * Lemon or orange zest
 
-### Stuffing
+[[Component: stuffing]]
 
-* 1 onion (finely diced)
-* 2 sticks celery (finely diced)
-* 2 garlic cloves (minced)
-* 1 tbsp chicken rice ginger
-* 1 lemon
-* Parsley
-* Thyme
-* Rosemary
-* Bread crumbs
-* Olive oil
-
-### Gravy and turkey stock
-
-* 1 carrot (cut into 2 inch pieces)
-* 1 celery (cut into 2 inch pieces)
-* 1 onion (cut into quarters)
-* 2 bay leaves
-* 3-4 thyme sprigs
-* 45g unsalted butter (about 3 tbsp)
-* 30g flour (about 4 tbsp)
-* 1L homemade [[chicken stock]] or store bought low-sodium chicken or turkey stock (optional)
-* Wine (optional)
+[[Component: turkey gravy]]
 
 ## Instructions
 
@@ -77,27 +56,9 @@ including underneath. Leave uncovered in the fridge for 24-48 hours.
 Rub the herb butter all over the turkey and under the skin. At this point, you can continue on and
 roast the turkey that day, or leave it overnight uncovered in the fridge to roast the next morning.
 
-### Turkey stock
+[[Component: turkey gravy | Turkey stock]]
 
-1. Cut the backbone into 2 inch sections. Heat a tablespoon of oil in a roughly 3L saucepan over
-high heat, and add the chopped turkey parts (backbone, wingtips, and other parts you might have),
-stirring occasionally until browned (5 minutes). 
-
-2. Add onions, carrots, and celery, and cook until softened (another 5 minutes).
-
-3. Add chicken or turkey stock, thyme, and bay leaves. Bring to a boil and reduce to a bare simmer.
-Allow to cook 45 minutes, then strain through a fine-mesh strainer into a 2L liquid measuring cup
-and discard solids. Skim off any fat from the surface of the broth and keep in the fridge.
-
-### Prepare the stuffing
-
-1. Use a food processor to coarsely blend the stale bread.
-
-2. Gently fry the onion, celery, garlic cloves, and chicken rice ginger, in olive oil until soft and
-golden brown.
-
-3. Add the fried onion and celery to the breadcrumb mixture, alongside parsley, rosemary, thyme,
-salt, pepper, olive oil, and a squeeze of lemon/lemon zest to taste.
+[[Component: stuffing]]
 
 ### Roasting the turkey
 
@@ -118,19 +79,7 @@ before carving --- do not use foil, this will cause the skin to go soggy!
 
 ![turkey](/images/recipes/turkey2.jpg)
 
-### Gravy
-
-1. While the turkey is resting, make the gravy. Melt butter over medium-high heat in a 2L
-saucepan. Add flour and cook, stirring constantly until flour is golden brown, about 3 minutes.
-
-2. Whisking constantly, add broth in a thin, steady stream until it is all incorporated (you can
-optionally add some wine as well). Bring to a boil, reduce to a simmer, and cook until reduced to
-about 1L, about 20 minutes longer. Season to taste with salt, pepper and MSG, cover, and keep gravy
-warm.
-
-3. Carefully pour any collected juices from out of the roasting pan through a fine-mesh strainer
-into a liquid measuring cup[ref]There might not be much --- the stuffing would have soaked up a
-lot.[/ref]. Skim off excess fat and discard. Whisk juices into gravy. 
+[[Component: turkey gravy | Gravy]]
 
 ## Notes
 
