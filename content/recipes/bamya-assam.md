@@ -60,3 +60,11 @@ flavours I remember from my childhood. This recipe has been adapted from [Rose's
 
 Replace the okra with beetroots, and the dish
 transforms into [[beetroot stew]], a yellow-golden sweet and sour stew.
+
+I've also made a beef bamya with my pressure cooker. Follow the instructions as above, but use the
+saute function of your pressure cooker and a cut of beef (in 2 inch chunks) suitable for slow
+cooking. In addition, I typically reduce the amount of stock/water, and add a can of cherry
+tomatoes --- this results in a thicker, tomato-y base flavour. Pressure cook on high for 40-45
+minutes. Note that the okra will likely disintegrate into the sauce; to avoid this, add the
+okra *after* cooking the stew, and pressure cook for an addition 2-4 minutes.
+
