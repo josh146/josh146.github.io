@@ -2,7 +2,7 @@ Title: Fried okra
 Slug: fried-okra
 Date: 2026-05-01
 Category: Veggies
-Tags: Indian
+Tags: South Indian
 Time: 15 minutes
 Servings: 2 servings
 Image: /images/recipes/fried-okra.jpg

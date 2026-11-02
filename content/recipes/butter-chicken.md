@@ -1,6 +1,6 @@
 Title: Butter chicken
 Date: 2026-04-26
-Category: Indian
+Category: South Asian
 Slug: butter-chicken
 Time: 3 hours
 Servings: 6 servings

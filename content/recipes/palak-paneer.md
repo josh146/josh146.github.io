@@ -1,6 +1,6 @@
 Title: Palak paneer
 Date: 2026-04-26
-Category: Indian
+Category: South Asian
 Slug: palak-paneer
 Time: 3 hours
 Servings: 6 servings
