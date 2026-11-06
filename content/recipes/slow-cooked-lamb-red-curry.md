@@ -3,6 +3,7 @@ Slug: sri-lankan-lamb-curry
 Date: 2026-11-01
 Category: South Asian
 Time: 4 hours
+Image: /images/recipes/lamb-curry.jpg
 Servings: 4 servings
 Tags: lamb, curry
 
