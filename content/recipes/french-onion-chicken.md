@@ -11,7 +11,9 @@ Sticky: true
 All the flavours of French onion soup... with a roast chicken on top. The spatchcocked chicken
 roasts directly on a bed of caramelized onions, white wine, and beef stock, and finished adding gruyere under the grill until bubbling. Serve with buttery mashed potatoes and a green salad.
 
-Adapted from Ed Cudlipp's [French onion chicken](https://www.robertwelch.com/blogs/news/french-onion-chicken) for Robert Welch.
+Adapted from Ed Cudlipp's [French onion chicken](https://www.robertwelch.com/blogs/news/french-onion-chicken) for Robert Welch. The
+spatchcock chicken recipe is similar to the French dijon mustard variation of my
+[[Spatchcocked roast chicken]] recipe --- feel free to use that here.
 
 ## Ingredients
 
@@ -71,7 +73,7 @@ Sprinkle over the flour and stir for another minute to coat the onions.
 reduced by about half.
 
 1. Add the beef stock, Worcestershire sauce, and dijon mustard, and simmer gently for about 5
-minutes, until the sauce has thickened slightly. Season with salt and pepper,
+minutes, until the sauce has thickened slightly. Season to taste with salt,
 and remove from the heat.
 
 ### Roast the chicken

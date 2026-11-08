@@ -5,6 +5,7 @@ Slug: beef-stock
 Time: 3 hours
 Servings: About 2L of stock
 Sticky: true
+Hidden: true
 
 A rich beef stock made in the pressure cooker, adapted from my [[chicken stock]]. Unlike the chicken
 stock, only the bones are roasted --- the vegetables go into the pressure cooker raw. Like the
