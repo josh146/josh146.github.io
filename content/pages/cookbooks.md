@@ -4,7 +4,7 @@ Slug: cookbooks
 Template: cookbook_gallery
 Description: A digital index of my physical collection.
 Masthead: /images/cookbooks-masthead.svg
-
+MastheadStyle: plain
 
 <!-- 
 ^ +\d\n +Recipe Online\n + Report Broken Link
