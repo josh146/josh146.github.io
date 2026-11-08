@@ -563,6 +563,10 @@ article.grid iframe {
     height: 210px;
     width: auto;
 }
+/* MastheadStyle: plain -> the site's Amatic SC headings, no ampersand or italics */
+.hero-text.masthead-title.masthead-plain {
+    font-family: 'Amatic SC', cursive;
+}
 @media (min-width: 769px) and (max-width: 1100px) {
     .hero-text.masthead-title {
         font-size: 72px;

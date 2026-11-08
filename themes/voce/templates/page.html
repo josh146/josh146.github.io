@@ -16,9 +16,13 @@
 {% block masthead %}
 {% if page.masthead %}
 <div class="hero-image masthead-spot">
-    <h1 class="recipe-title hero-text masthead-title">
+    <h1 class="recipe-title hero-text masthead-title{% if page.mastheadstyle == 'plain' %} masthead-plain{% endif %}">
         <img src="{{ page.masthead }}" alt="" />
+        {% if page.mastheadstyle == 'plain' %}
+        <span>{{ page.title }}</span>
+        {% else %}
         <span>&amp;<i>{{ page.title }}</i></span>
+        {% endif %}
     </h1>
 </div>
 {% elif page.hero %}

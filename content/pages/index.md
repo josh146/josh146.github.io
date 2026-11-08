@@ -3,6 +3,7 @@ Slug: hello
 save_as: index.html
 Description: I'm a computational quantum physicist, former software developer, and product developer working to build accessible, open-source quantum software at Xanadu, a Toronto-based quantum photonic hardware company.
 Masthead: /images/home-masthead.svg
+MastheadStyle: plain
 
 
 I'm a [computational quantum physicist](https://scholar.google.com/citations?user=pEj09c4AAAAJ),
